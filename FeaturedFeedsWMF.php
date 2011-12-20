@@ -1,39 +1,51 @@
 <?php
-
 /* 
  * Feed settings for WMF projects
  */
+
+if ( !defined( 'MEDIAWIKI' ) ) {
+	die( 'Not a valid entry point' );
+}
 
 $wgHooks['FeaturedFeeds::getFeeds'][] = 'wfFeaturedFeedsWMF_getFeeds';
 
 function wfFeaturedFeedsWMF_getFeeds( &$feeds ) {
 	global $wgConf, $wgDBname;
 	list( $site, $lang ) = $wgConf->siteFromDB( $wgDBname );
+	$media = array(
+		'potd' => array( // Picture Of The Day
+			'page' => 'ffeed-potd-page',
+			'feedName' => 'ffeed-potd-title',
+			'description' => 'ffeed-potd-desc',
+			'entryName' => 'ffeed-potd-entry',
+		),
+		'motd' => array( // Media Of The Day
+			'page' => 'ffeed-motd-page',
+			'feedName' => 'ffeed-motd-title',
+			'description' => 'ffeed-motd-desc',
+			'entryName' => 'ffeed-motd-entry',
+		),
+	);
 	switch ( $site ) {
 		case 'wikipedia':
 			$feeds += array(
 				'featured' => array(
-					'page' => 'ffeed-wp-featured-page',
-					'feedName' => 'ffeed-wp-featured-title',
-					'description' => 'ffeed-wp-featured-desc',
-					'entryName' => 'ffeed-wp-featured-entry',
+					'page' => 'ffeed-fa-page',
+					'feedName' => 'ffeed-fa-title',
+					'description' => 'ffeed-fa-desc',
+					'entryName' => 'ffeed-fa-entry',
 				),
 				'onthisday' => array(
-					'page' => 'ffeed-wp-onthisday-page',
-					'feedName' => 'ffeed-wp-onthisday-title',
-					'description' => 'ffeed-wp-onthisday-desc',
-					'entryName' => 'ffeed-wp-onthisday-entry',
+					'page' => 'ffeed-onthisday-page',
+					'feedName' => 'ffeed-onthisday-title',
+					'description' => 'ffeed-onthisday-desc',
+					'entryName' => 'ffeed-onthisday-entry',
 				),
 			);
+			$feeds += $media;
 			break;
 		case 'commons':
-			$feeds['featured'] = array(
-				'page' => 'ffeed-com-featured-page',
-				'feedName' => 'ffeed-com-featured-title',
-				'description' => 'ffeed-com-featured-desc',
-				'entryName' => 'ffeed-com-featured-entry',
-				'inUserLanguage' => true,
-			);
+			$feeds += $media;
 			break;
 	}
 	return true;

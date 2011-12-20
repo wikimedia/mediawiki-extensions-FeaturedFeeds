@@ -24,10 +24,35 @@ class FeaturedFeeds {
 		
 		if ( !$feeds ) {
 			$feeds = self::getFeedsInternal( $langCode );
-			$wgMemc->set( $key, $feeds, 3600 ); //FIXME
+			// add 10 seconds to cater for time deviation between servers
+			$expiry = self::todaysStart() + 24 * 3600 - wfTimestamp() + 10;
+			$wgMemc->set( $key, $feeds, min( $expiry, 3600 ) );
 		}
 		$cache[$langCode] = $feeds;
 		return $feeds;
+	}
+
+	/**
+	 * Adds feeds to the page header
+	 * 
+	 * @param OutputPage $out
+	 * @return bool
+	 */
+	public static function beforePageDisplay( OutputPage &$out ) {
+		global $wgAdvertisedFeedTypes;
+		if ( $out->getTitle()->isMainPage() ) {
+			foreach ( self::getFeeds( $out->getLanguage()->getCode() ) as $feed ) {
+				foreach ( $wgAdvertisedFeedTypes as $type ) {
+					$out->addLink( array(
+						'rel' => 'alternate',
+						'type' => "application/$type+xml",
+						'title' => $feed['name'],
+						'href' => self::getFeedURL( $feed, $type ),
+					) );
+				}
+			}
+		}
+		return true;
 	}
 
 	private static function getFeedsInternal( $langCode ) {
@@ -113,6 +138,13 @@ class FeaturedFeeds {
 		return $time;
 	}
 
+	/**
+	 * Returns a URL to the feed
+	 * 
+	 * @param Array $feed: Feed description returned by getFeeds()
+	 * @param type $format: Feed format, 'rss' or 'atom'
+	 * @return String 
+	 */
 	public static function getFeedURL( $feed, $format ) {
 		global $wgContLang;
 
@@ -125,17 +157,5 @@ class FeaturedFeeds {
 			$options['language'] = $feed['language'];
 		}
 		return wfScript( 'api' ) . '?' . wfArrayToCGI( $options );
-	}
-
-	public static function beforePageDisplay( OutputPage &$out ) {
-//		global $wgFeedClasses;
-//		if ( $out->getTitle()->isMainPage() ) {
-//			foreach ( self::getFeeds( $out->getLanguage()->getCode() ) as $name => $feed ) {
-//				foreach ( array_keys( $wgFeedClasses ) as $format ) {
-//					$out->addFeedLink( $format, FeaturedFeeds::getFeedURL( $feed, $format ) );
-//				}
-//			}
-//		}
-		return true;
 	}
 }

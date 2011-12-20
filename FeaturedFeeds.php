@@ -4,6 +4,10 @@
  * License: WTFPL 2.0
  */
 
+if ( !defined( 'MEDIAWIKI' ) ) {
+	die( 'Not a valid entry point' );
+}
+
 
 $wgExtensionCredits['other'][] = array(
 	'path' => __FILE__,
@@ -17,6 +21,8 @@ $dir = dirname( __FILE__ );
 
 $wgAutoloadClasses['FeaturedFeeds'] = "$dir/FeaturedFeeds.body.php";
 $wgAutoloadClasses['ApiFeaturedFeeds'] = "$dir/ApiFeaturedFeeds.php";
+
+$wgExtensionMessagesFiles['FeaturedFeeds'] =  "$dir/FeaturedFeeds.i18n.php";
 
 $wgAPIModules['featuredfeed'] = 'ApiFeaturedFeeds';
 
