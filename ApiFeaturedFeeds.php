@@ -74,6 +74,7 @@ class ApiFeaturedFeeds extends ApiBase {
 	public function getPossibleErrors() {
 		return array_merge( parent::getPossibleErrors(), array(
 			array( 'code' => 'feed-invalid', 'info' => 'Invalid subscription feed type' ),
+			array( 'code' => 'language-invalid', 'info' => 'Invalid language code' ),
 		) );
 	}
 
