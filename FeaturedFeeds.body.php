@@ -133,7 +133,15 @@ class FeaturedFeeds {
 	public static function todaysStart() {
 		static $time = false;
 		if ( !$time ) {
-			$time = wfTimestamp( TS_UNIX, substr( wfTimestamp( TS_MW ), 0, 8 ) . '000000' );
+			global $wgLocaltimezone;
+			if ( isset( $wgLocaltimezone ) ) {
+				$tz = new DateTimeZone( $wgLocaltimezone );
+			} else {
+				$tz = new DateTimeZone( date_default_timezone_get() );
+			}
+			$dt = new DateTime( 'now', $tz );
+			$dt->setTime( 0, 0, 0 );
+			$time = $dt->getTimestamp();
 		}
 		return $time;
 	}
