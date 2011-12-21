@@ -28,10 +28,10 @@ class ApiFeaturedFeeds extends ApiBase {
 			$this->dieUsage( 'Invalid language code', 'language-invalid' );
 		}
 		$feeds = FeaturedFeeds::getFeeds( $language );
-		$ourFeed = $feeds[$params['channel']];
+		$ourFeed = $feeds[$params['feed']];
 
 		$feedClass = new $wgFeedClasses[$params['feedformat']] (
-			$ourFeed['name'],
+			$ourFeed['title'],
 			$ourFeed['description'],
 			FeaturedFeeds::getFeedURL( $ourFeed, $params['feedformat'] )
 		);
@@ -49,7 +49,7 @@ class ApiFeaturedFeeds extends ApiBase {
 				ApiBase::PARAM_DFLT => 'rss',
 				ApiBase::PARAM_TYPE => $feedFormatNames
 			),
-			'channel' => array(
+			'feed' => array(
 				ApiBase::PARAM_TYPE => $availableFeeds,
 				ApiBase::PARAM_REQUIRED => true,
 			),
@@ -62,7 +62,7 @@ class ApiFeaturedFeeds extends ApiBase {
 	public function getParamDescription() {
 		return array(
 			'feedformat' => 'The format of the feed',
-			'channel' => 'Feed channel',
+			'feed' => 'Feed name',
 			'language' => 'Feed language code. Ignored by some feeds.'
 		);
 	}
@@ -80,22 +80,22 @@ class ApiFeaturedFeeds extends ApiBase {
 
 	public function getExamples() {
 		global $wgVersion;
-		// attempt to find a valid channel name
+		// attempt to find a valid feed name
 		// if none available, just use an example value
 		$availableFeeds = array_keys( FeaturedFeeds::getFeeds( false ) );
-		$channel = reset( $availableFeeds );
-		if ( !$channel ) {
-			$channel = 'featured';
+		$feed = reset( $availableFeeds );
+		if ( !$feed ) {
+			$feed = 'featured';
 		}
 
 		if ( version_compare( $wgVersion, '1.19alpha', '>=' ) ) {
 			return array(
-				"api.php?action=featuredfeed&channel=$channel" => "Retrieve feed for channel `$channel'",
+				"api.php?action=featuredfeed&feed=$feed" => "Retrieve feed `$feed'",
 			);
 		} else {
 			return array(
-				"Retrieve feed for channel `$channel'",
-				"    api.php?action=featuredfeed&channel=$channel",
+				"Retrieve feed `$feed'",
+				"    api.php?action=featuredfeed&feed=$feed",
 			);
 		}
 	}

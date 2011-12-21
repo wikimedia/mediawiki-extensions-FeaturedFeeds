@@ -15,13 +15,13 @@ function wfFeaturedFeedsWMF_getFeeds( &$feeds ) {
 	$media = array(
 		'potd' => array( // Picture Of The Day
 			'page' => 'ffeed-potd-page',
-			'feedName' => 'ffeed-potd-title',
+			'title' => 'ffeed-potd-title',
 			'description' => 'ffeed-potd-desc',
 			'entryName' => 'ffeed-potd-entry',
 		),
 		'motd' => array( // Media Of The Day
 			'page' => 'ffeed-motd-page',
-			'feedName' => 'ffeed-motd-title',
+			'title' => 'ffeed-motd-title',
 			'description' => 'ffeed-motd-desc',
 			'entryName' => 'ffeed-motd-entry',
 		),
@@ -31,13 +31,13 @@ function wfFeaturedFeedsWMF_getFeeds( &$feeds ) {
 			$feeds += array(
 				'featured' => array(
 					'page' => 'ffeed-fa-page',
-					'feedName' => 'ffeed-fa-title',
+					'title' => 'ffeed-fa-title',
 					'description' => 'ffeed-fa-desc',
 					'entryName' => 'ffeed-fa-entry',
 				),
 				'onthisday' => array(
 					'page' => 'ffeed-onthisday-page',
-					'feedName' => 'ffeed-onthisday-title',
+					'title' => 'ffeed-onthisday-title',
 					'description' => 'ffeed-onthisday-desc',
 					'entryName' => 'ffeed-onthisday-entry',
 				),

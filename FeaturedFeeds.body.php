@@ -46,7 +46,7 @@ class FeaturedFeeds {
 					$out->addLink( array(
 						'rel' => 'alternate',
 						'type' => "application/$type+xml",
-						'title' => $feed['name'],
+						'title' => $feed['title'],
 						'href' => self::getFeedURL( $feed, $type ),
 					) );
 				}
@@ -76,7 +76,7 @@ class FeaturedFeeds {
 		$requestedLang = Language::factory( $langCode );
 		$parser = new Parser();
 		foreach ( $feedDefs as $name => $opts ) {
-			$feed = array( 'channel' => $name );
+			$feed = array( 'name' => $name );
 
 			$pageMsg = wfMessage( $opts['page'] )->inContentLanguage();
 			if ( $pageMsg->isDisabled() ) {
@@ -87,7 +87,7 @@ class FeaturedFeeds {
 			$feed['inUserLanguage'] = $opts['inUserLanguage'];
 			$lang = $opts['inUserLanguage'] ? $requestedLang : $wgContLang;
 			$feed['language'] = $lang->getCode();
-			$feed['name'] = wfMessage( $opts['feedName'] )->inLanguage( $lang )->text();
+			$feed['title'] = wfMessage( $opts['title'] )->inLanguage( $lang )->text();
 			$feed['description'] = wfMessage( $opts['description'] )->inLanguage( $lang )->text();
 			$entryName = wfMessage( $opts['entryName'] )->inLanguage( $lang )->plain();
 			$feed['entries'] = array();
@@ -158,7 +158,7 @@ class FeaturedFeeds {
 
 		$options = array(
 			'action' => 'featuredfeed',
-			'channel' => $feed['channel'],
+			'feed' => $feed['name'],
 			'feedformat' => $format,
 		);
 		if ( $feed['inUserLanguage'] && $feed['language'] != $wgContLang->getCode() ) {
