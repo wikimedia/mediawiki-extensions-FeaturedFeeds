@@ -12,7 +12,7 @@ $messages = array();
  * @author Max Semenik
  */
 $messages['en'] = array(
-	'ffeed-desc' => 'Adds syndication feeds of wiki\'s featured content.',
+	'ffeed-desc' => "Adds syndication feeds of wiki's featured content.",
 
 	# Featured Article
 	'ffeed-fa-page' => '', # do not localise
@@ -29,20 +29,20 @@ $messages['en'] = array(
 	# Did You Know?
 	'ffeed-dyk-page' => '', # do not localise
 	'ffeed-dyk-title' => '{{SITENAME}} "Did You Know?" feed',
-	'ffeed-dyk-desc' => 'From {{SITENAME}}\'s newest content',
+	'ffeed-dyk-desc' => "From {{SITENAME}}'s newest content",
 	'ffeed-dyk-entry' => 'Did you know?: {{LOCALMONTHNAME}} {{LOCALDAY}}',
 
 	// Media Of The Day
 	'ffeed-motd-page' => '', # do not localise
 	'ffeed-motd-title' => '{{SITENAME}} media of the day feed',
 	'ffeed-motd-desc' => 'Some of the finest media on {{SITENAME}}',
-	'ffeed-motd-entry' => '{{SITENAME}} Media of the day for {{LOCALMONTHNAME}} {{LOCALDAY}}',
+	'ffeed-motd-entry' => '{{SITENAME}} media of the day for {{LOCALMONTHNAME}} {{LOCALDAY}}',
 
 	# Picture Of The Day
 	'ffeed-potd-page' => '', # do not localise
-	'ffeed-potd-title' => '{{SITENAME}} Picture of the day feed',
+	'ffeed-potd-title' => '{{SITENAME}} picture of the day feed',
 	'ffeed-potd-desc' => 'Some of the finest images on {{SITENAME}}',
-	'ffeed-potd-entry' => '{{SITENAME}} Picture of the day for {{LOCALMONTHNAME}} {{LOCALDAY}}',
+	'ffeed-potd-entry' => '{{SITENAME}} picture of the day for {{LOCALMONTHNAME}} {{LOCALDAY}}',
 
 	# Quote of the Day
 	'ffeed-motd-page' => '', # do not localise
@@ -55,7 +55,6 @@ $messages['en'] = array(
  * Message documentation
  * @author Max Semenik
  */
-
 $messages['qqq'] = array(
 	'ffeed-desc' => '{{desc}}',
 
@@ -89,3 +88,4 @@ $messages['qqq'] = array(
 	'ffeed-qotd-desc' => 'Description of the Quote Of The Day [[w:web feed|syndication feed]]',
 	'ffeed-qotd-entry' => 'Title of day\'s entry in the Quote of the Day [[w:web feed|syndication feed]]',	
 );
+
