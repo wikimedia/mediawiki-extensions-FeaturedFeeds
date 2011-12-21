@@ -15,6 +15,8 @@ class ApiFeaturedFeeds extends ApiBase {
 	}
 
 	public function execute() {
+		wfProfileIn( __METHOD__ );
+
 		$params = $this->extractRequestParams();
 
 		global $wgFeedClasses;
@@ -37,6 +39,8 @@ class ApiFeaturedFeeds extends ApiBase {
 		);
 
 		ApiFormatFeedWrapper::setResult( $this->getResult(), $feedClass, $ourFeed['entries'] );
+
+		wfProfileOut( __METHOD__ );
 	}
 
 

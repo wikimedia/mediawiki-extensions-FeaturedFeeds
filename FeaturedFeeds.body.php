@@ -58,6 +58,7 @@ class FeaturedFeeds {
 	private static function getFeedsInternal( $langCode ) {
 		global $wgFeaturedFeeds, $wgFeaturedFeedsDefaults, $wgContLang;
 		
+		wfProfileIn( __METHOD__ );
 		$feedDefs = $wgFeaturedFeeds;
 		wfRunHooks( 'FeaturedFeeds::getFeeds', array( &$feedDefs ) );
 
@@ -121,6 +122,7 @@ class FeaturedFeeds {
 
 			$feeds[$name] = $feed;
 		}
+		wfProfileOut( __METHOD__ );
 
 		return $feeds;
 	}
