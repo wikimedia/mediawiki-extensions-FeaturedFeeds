@@ -41,11 +41,25 @@ function wfFeaturedFeedsWMF_getFeeds( &$feeds ) {
 					'description' => 'ffeed-onthisday-desc',
 					'entryName' => 'ffeed-onthisday-entry',
 				),
+				'dyk' => array( // Did you know?
+					'page' => 'ffeed-dyk-page',
+					'title' => 'ffeed-dyk-title',
+					'description' => 'ffeed-dyk-desc',
+					'entryName' => 'ffeed-dyk-entry',
+				),
 			);
 			$feeds += $media;
 			break;
 		case 'commons':
 			$feeds += $media;
+			break;
+		case 'wikiquote':
+			$feeds['qotd'] = array( // Quote of the Day
+				'page' => 'ffeed-qotd-page',
+				'title' => 'ffeed-qotd-title',
+				'description' => 'ffeed-qotd-desc',
+				'entryName' => 'ffeed-qotd-entry',
+			);
 			break;
 	}
 	return true;
