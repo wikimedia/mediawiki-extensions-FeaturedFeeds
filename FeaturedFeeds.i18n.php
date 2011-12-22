@@ -73,6 +73,28 @@ $messages['qqq'] = array(
 	'ffeed-potd-entry' => "Title of day's entry in the Media of the Day [[w:web feed|syndication feed]]",
 );
 
+/** German (Deutsch)
+ * @author Kghbln
+ */
+$messages['de'] = array(
+	'ffeed-desc' => 'Ermöglicht gesonderte Feeds zu bestimmten Inhalten des Wikis',
+	'ffeed-fa-title' => 'Feeds zu präsentierten Inhalten auf {{SITENAME}}',
+	'ffeed-fa-desc' => 'Die besten Artikel auf {{SITENAME}}',
+	'ffeed-fa-entry' => 'Am {{LOCALDAY}} {{LOCALMONTHNAME}} auf {{SITENAME}} präsentierter Artikel',
+	'ffeed-onthisday-title' => 'Feed zu „An diesem Tag …“ auf {{SITENAME}}',
+	'ffeed-onthisday-desc' => 'Historische Ereignisse dieses Tages',
+	'ffeed-onthisday-entry' => 'An diesem Tag: {{LOCALDAY}} {{LOCALMONTHNAME}}',
+	'ffeed-dyk-title' => 'Feed zu „Schon gewusst?“ auf {{SITENAME}}',
+	'ffeed-dyk-desc' => 'Die neuesten Inhalte auf {{SITENAME}}',
+	'ffeed-dyk-entry' => '„Schon gewusst?“: {{LOCALDAY}} {{LOCALMONTHNAME}}',
+	'ffeed-motd-title' => 'Feed zum Zitat des Tages auf {{SITENAME}}',
+	'ffeed-motd-desc' => 'Einige der besten Zitate auf {{SITENAME}}',
+	'ffeed-motd-entry' => 'Zitat des Tages am {{LOCALDAY}} {{LOCALMONTHNAME}} auf {{SITENAME}}',
+	'ffeed-potd-title' => 'Feed zum Bild des Tages auf {{SITENAME}}',
+	'ffeed-potd-desc' => 'Einige der besten Bilder auf {{SITENAME}}',
+	'ffeed-potd-entry' => 'Bild des Tages am {{LOCALDAY}} {{LOCALMONTHNAME}} auf {{SITENAME}}',
+);
+
 /** Lower Sorbian (Dolnoserbski)
  * @author Michawiki
  */
@@ -89,13 +111,39 @@ $messages['dsb'] = array(
 	'ffeed-dyk-entry' => 'Sćo wěźeli, až...?: {{LOCALDAY}}. {{LOCALMONTHNAMEGEN}}',
 	'ffeed-motd-title' => '{{SITENAME}} - kanal citata dnja',
 	'ffeed-motd-desc' => 'Někotare z nejlěpšych citatow na {{GRAMMAR:lokatiw|{{SITENAME}}}}',
+	'ffeed-motd-entry' => '{{SITENAME}} - citat dnja za {{LOCALDAY}}. {{LOCALMONTHNAMEGEN}}',
+	'ffeed-potd-title' => '{{SITENAME}} - kanal wobraz dnja',
+	'ffeed-potd-desc' => 'Někotare z nejlěpšych wobrazow na {{GRAMMAR:lokatiw|{{SITENAME}}}}',
+	'ffeed-potd-entry' => '{{SITENAME}} - wobraz dnja za {{LOCALDAY}}. {{LOCALMONTHNAMEGEN}}',
+);
+
+/** French (Français)
+ * @author Gomoko
+ */
+$messages['fr'] = array(
+	'ffeed-desc' => 'Ajoute des files de publication du contenu caractéristique du wiki',
+	'ffeed-fa-title' => 'File des articles caractéristiques de {{SITENAME}}',
+	'ffeed-fa-desc' => 'Meilleurs articles que {{SITENAME}} peut offrir',
+	'ffeed-fa-entry' => 'Article vedette de {{SITENAME}} le {{LOCALDAY}} {{LOCALMONTHNAME}}',
+	'ffeed-onthisday-title' => '{{SITENAME}} File «Ce jour-là..."',
+	'ffeed-onthisday-desc' => 'Événements historiques sur cette journée',
+	'ffeed-onthisday-entry' => 'Ce jour-là: {{LOCALDAY}} {{LOCALMONTHNAME}}',
+	'ffeed-dyk-title' => '{{SITENAME}} File "Le savez-vous?"',
+	'ffeed-dyk-desc' => 'Du contenu le plus récent de {{SITENAME}}',
+	'ffeed-dyk-entry' => 'Le saviez-vous?: {{LOCALDAY}} {{LOCALMONTHNAME}}',
+	'ffeed-motd-title' => '{{SITENAME}} File citation du jour',
+	'ffeed-motd-desc' => 'Quelques-unes de meilleurs citations sur {{SITENAME}}',
+	'ffeed-motd-entry' => 'Citation du jour de {{SITENAME}} pour {{LOCALDAY}} {{LOCALMONTHNAME}}',
+	'ffeed-potd-title' => '{{SITENAME}} File image du jour',
+	'ffeed-potd-desc' => 'Quelques-unes des meilleures images de {{SITENAME}}',
+	'ffeed-potd-entry' => 'Image du jour de {{SITENAME}} pour {{LOCALDAY}} {{LOCALMONTHNAME}}',
 );
 
 /** Upper Sorbian (Hornjoserbsce)
  * @author Michawiki
  */
 $messages['hsb'] = array(
-	'ffeed-desc' => 'Přidawa syndikaciske kanale wuběrneho wikijoweho wobsaha.',
+	'ffeed-desc' => 'Přidawa syndikaciske kanale wuběrneho wikiwobsaha.',
 	'ffeed-fa-title' => '{{SITENAME}} - kanal wuběrnych nastawkow',
 	'ffeed-fa-desc' => 'Najlěpše nastawki, kotrež {{SITENAME}} poskića',
 	'ffeed-fa-entry' => '{{LOCALDAY}}. {{LOCALMONTHNAMEGEN}}  {{SITENAME}} wuběrny nastawk',
@@ -111,5 +159,49 @@ $messages['hsb'] = array(
 	'ffeed-potd-title' => '{{SITENAME}} - kanal wobraz dnja',
 	'ffeed-potd-desc' => 'Někotre z najlěpšich wobrazow na {{GRAMMAR:lokatiw|{{SITENAME}}}}',
 	'ffeed-potd-entry' => '{{SITENAME}} - wobraz dnja za {{LOCALDAY}}. {{LOCALMONTHNAMEGEN}}',
+);
+
+/** Macedonian (Македонски)
+ * @author Bjankuloski06
+ */
+$messages['mk'] = array(
+	'ffeed-desc' => 'Додава канали за избрани содржини на викито.',
+	'ffeed-fa-title' => 'Канал на избрани статии на {{SITENAME}}',
+	'ffeed-fa-desc' => 'Најдобрите статии на {{SITENAME}}',
+	'ffeed-fa-entry' => 'Избрана статија на {{SITENAME}} за {{LOCALDAY}} {{LOCALMONTHNAME}}',
+	'ffeed-onthisday-title' => 'Канал „На денешен ден...“ на {{SITENAME}}',
+	'ffeed-onthisday-desc' => 'Историски настани што се случиле на денешен ден',
+	'ffeed-onthisday-entry' => 'На денешен ден: {{LOCALDAY}} {{LOCALMONTHNAME}}',
+	'ffeed-dyk-title' => 'Канал „Дали сте знаеле?“ на {{SITENAME}}',
+	'ffeed-dyk-desc' => 'Од најновите содржини на {{SITENAME}}',
+	'ffeed-dyk-entry' => 'Дали сте знаеле?: {{LOCALDAY}} {{LOCALMONTHNAME}}',
+	'ffeed-motd-title' => 'Канал за мисла на денот на {{SITENAME}}',
+	'ffeed-motd-desc' => 'Наијнтересните мисли на {{SITENAME}}',
+	'ffeed-motd-entry' => 'Мисла на денот за {{LOCALMONTHNAME}} {{LOCALDAY}} на {{SITENAME}}',
+	'ffeed-potd-title' => 'Канал за слика на денот на {{SITENAME}}',
+	'ffeed-potd-desc' => 'Најдобрите слики на {{SITENAME}}',
+	'ffeed-potd-entry' => 'Слика на денот за {{LOCALMONTHNAME}} {{LOCALDAY}} на {{SITENAME}}',
+);
+
+/** Dutch (Nederlands)
+ * @author Siebrand
+ */
+$messages['nl'] = array(
+	'ffeed-desc' => 'Voegt feeds toe voor de uitgelichte inhoud van een wiki',
+	'ffeed-fa-title' => 'Feed voor uitgelichte artikelen van {{SITENAME}}',
+	'ffeed-fa-desc' => 'De beste artikelen van {{SITENAME}}',
+	'ffeed-fa-entry' => 'Uitgelicht artikel van {{SITENAME}} op {{LOCALDAY}} {{LOCALMONTHNAME}}',
+	'ffeed-onthisday-title' => 'Feed voor "Op deze dag..." van {{SITENAME}}',
+	'ffeed-onthisday-desc' => 'Historische gebeurtenissen op deze dag',
+	'ffeed-onthisday-entry' => 'Op deze dag: {{LOCALDAY}} {{LOCALMONTHNAME}}',
+	'ffeed-dyk-title' => 'Feed voor "Wist u dat" van {{SITENAME}}',
+	'ffeed-dyk-desc' => 'De nieuwste inhoud van {{SITENAME}}',
+	'ffeed-dyk-entry' => 'Wist u dat?: {{LOCALDAY}} {{LOCALMONTHNAME}}',
+	'ffeed-motd-title' => 'Feed voor uitspraak van de dag van {{SITENAME}}',
+	'ffeed-motd-desc' => 'De beste uitspraken van {{SITENAME}}',
+	'ffeed-motd-entry' => 'Uitspraak van de dag voor van {{LOCALDAY}} {{LOCALMONTHNAME}} van {{SITENAME}}',
+	'ffeed-potd-title' => 'Feed voor afbeelding van de dag van {{SITENAME}}',
+	'ffeed-potd-desc' => 'De beste afbeeldingen van {{SITENAME}}',
+	'ffeed-potd-entry' => 'Afbeelding van de dag voor van {{LOCALDAY}} {{LOCALMONTHNAME}} van {{SITENAME}}',
 );
 
