@@ -73,6 +73,25 @@ $messages['qqq'] = array(
 	'ffeed-potd-entry' => "Title of day's entry in the Media of the Day [[w:web feed|syndication feed]]",
 );
 
+/** Breton (Brezhoneg)
+ * @author Y-M D
+ */
+$messages['br'] = array(
+	'ffeed-fa-desc' => 'Ar pennadoù wellañ a gaver war {{SITENAME}}',
+	'ffeed-onthisday-title' => '{{SITENAME}} Steudad "An devezh-se..."',
+	'ffeed-onthisday-desc' => 'Darvoudoù istorel evit an devezh-mañ',
+	'ffeed-onthisday-entry' => 'An deiz-se : {{LOCALDAY}} {{LOCALMONTHNAME}}',
+	'ffeed-dyk-title' => '{{SITENAME}} Neudennad "Ha gouzout a rit ?"',
+	'ffeed-dyk-desc' => 'Deus danvez nevesañ {{SITENAME}}',
+	'ffeed-dyk-entry' => 'Ha gouzout a rit ? :  {{LOCALDAY}} {{LOCALMONTHNAME}}',
+	'ffeed-motd-title' => '{{SITENAME}} steudad arroudenn an devezh',
+	'ffeed-motd-desc' => 'Un nebeut deus arroudennoù wellañ {{SITENAME}}',
+	'ffeed-motd-entry' => 'Arroudenn an devezh deus {{SITENAME}} evit {{LOCALDAY}} {{LOCALMONTHNAME}}',
+	'ffeed-potd-title' => '{{SITENAME}} steudad skeudenn an devezh',
+	'ffeed-potd-desc' => 'Un nebeut re deus skeudennoù wellañ {{SITENAME}}',
+	'ffeed-potd-entry' => 'Skeudenn an devezh deus {{SITENAME}} evit {{LOCALDAY}} {{LOCALMONTHNAME}}',
+);
+
 /** German (Deutsch)
  * @author Kghbln
  */
@@ -159,6 +178,18 @@ $messages['hsb'] = array(
 	'ffeed-potd-title' => '{{SITENAME}} - kanal wobraz dnja',
 	'ffeed-potd-desc' => 'Někotre z najlěpšich wobrazow na {{GRAMMAR:lokatiw|{{SITENAME}}}}',
 	'ffeed-potd-entry' => '{{SITENAME}} - wobraz dnja za {{LOCALDAY}}. {{LOCALMONTHNAMEGEN}}',
+);
+
+/** Luxembourgish (Lëtzebuergesch)
+ * @author Robby
+ */
+$messages['lb'] = array(
+	'ffeed-fa-desc' => 'Déi bescht Artikelen déi {{SITENAME}} ze bidden huet',
+	'ffeed-fa-entry' => 'Den  {{LOCALDAY}} {{LOCALMONTHNAME}} op {{SITENAME}} ausgezeechenten Artikel',
+	'ffeed-onthisday-desc' => 'Historesch Evenementer op dësem Dag',
+	'ffeed-onthisday-entry' => 'Op dësem Dag: {{LOCALMONTHNAME}} {{LOCALDAY}}',
+	'ffeed-dyk-title' => '{{SITENAME}} "Vosst Dir schonn" Feed',
+	'ffeed-dyk-entry' => 'Wosst Dir schonn?:  {{LOCALMONTHNAME}} {{LOCALDAY}}',
 );
 
 /** Macedonian (Македонски)
