@@ -12,7 +12,7 @@ $messages = array();
  * @author Max Semenik
  */
 $messages['en'] = array(
-	'ffeed-desc' => "Adds syndication feeds of wiki's featured contents",
+	'ffeed-desc' => "Adds syndication feeds of wiki's featured content",
 
 	# Featured Article
 	'ffeed-fa-page' => '', # do not localise
