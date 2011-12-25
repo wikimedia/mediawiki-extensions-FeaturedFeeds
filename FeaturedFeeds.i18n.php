@@ -158,6 +158,28 @@ $messages['fr'] = array(
 	'ffeed-potd-entry' => 'Image du jour de {{SITENAME}} pour {{LOCALDAY}} {{LOCALMONTHNAME}}',
 );
 
+/** Galician (Galego)
+ * @author Toliño
+ */
+$messages['gl'] = array(
+	'ffeed-desc' => 'Engade fontes de novas dos contidos destacados do wiki',
+	'ffeed-fa-title' => 'Fonte de novas dos artigos destacados de {{SITENAME}}',
+	'ffeed-fa-desc' => 'Os mellores artigos que ofrece {{SITENAME}}',
+	'ffeed-fa-entry' => 'Artigo destacado de {{SITENAME}} o {{LOCALDAY}} de {{LOCALMONTHNAME}}',
+	'ffeed-onthisday-title' => 'Fonte de novas "Tal día como hoxe no ano..." de {{SITENAME}}',
+	'ffeed-onthisday-desc' => 'Acontecementos históricos deste día',
+	'ffeed-onthisday-entry' => 'Tal día como hoxe: {{LOCALDAY}} de {{LOCALMONTHNAME}}',
+	'ffeed-dyk-title' => 'Fonte de novas "Sabía que...?" de {{SITENAME}}',
+	'ffeed-dyk-desc' => 'Dos contidos máis recentes de {{SITENAME}}',
+	'ffeed-dyk-entry' => 'Sabía que...?: {{LOCALDAY}} de {{LOCALMONTHNAME}}',
+	'ffeed-motd-title' => 'Fonte de novas da cita do día de {{SITENAME}}',
+	'ffeed-motd-desc' => 'Unha das mellores citas de {{SITENAME}}',
+	'ffeed-motd-entry' => 'Cita do día de {{SITENAME}} o {{LOCALDAY}} de {{LOCALMONTHNAME}}',
+	'ffeed-potd-title' => 'Fonte de novas da imaxe do día de {{SITENAME}}',
+	'ffeed-potd-desc' => 'Unha das mellores imaxes de {{SITENAME}}',
+	'ffeed-potd-entry' => 'Imaxe do día de {{SITENAME}} o {{LOCALDAY}} de {{LOCALMONTHNAME}}',
+);
+
 /** Upper Sorbian (Hornjoserbsce)
  * @author Michawiki
  */
