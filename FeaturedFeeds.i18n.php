@@ -211,7 +211,9 @@ $messages['lb'] = array(
 	'ffeed-onthisday-desc' => 'Historesch Evenementer op dësem Dag',
 	'ffeed-onthisday-entry' => 'Op dësem Dag: {{LOCALMONTHNAME}} {{LOCALDAY}}',
 	'ffeed-dyk-title' => '{{SITENAME}} "Vosst Dir schonn" Feed',
+	'ffeed-dyk-desc' => 'De rezensten Inhalt op {{SITENAME}}',
 	'ffeed-dyk-entry' => 'Wosst Dir schonn?:  {{LOCALMONTHNAME}} {{LOCALDAY}}',
+	'ffeed-potd-desc' => 'E puer vun de beschte Biller op {{SITENAME}}',
 );
 
 /** Macedonian (Македонски)
