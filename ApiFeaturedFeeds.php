@@ -40,9 +40,12 @@ class ApiFeaturedFeeds extends ApiBase {
 
 		ApiFormatFeedWrapper::setResult( $this->getResult(), $feedClass, $ourFeed['entries'] );
 
+		// Cache stuff in squids
+		$this->getMain()->setCacheMode( 'public' );
+		$this->getMain()->setCacheMaxAge( FeaturedFeeds::getMaxAge() );
+
 		wfProfileOut( __METHOD__ );
 	}
-
 
 	public function getAllowedParams() {
 		global $wgFeedClasses;

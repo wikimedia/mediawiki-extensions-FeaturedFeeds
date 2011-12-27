@@ -24,9 +24,7 @@ class FeaturedFeeds {
 		
 		if ( !$feeds ) {
 			$feeds = self::getFeedsInternal( $langCode );
-			// add 10 seconds to cater for time deviation between servers
-			$expiry = self::todaysStart() + 24 * 3600 - wfTimestamp() + 10;
-			$wgMemc->set( $key, $feeds, min( $expiry, 3600 ) );
+			$wgMemc->set( $key, $feeds, self::getMaxAge() );
 		}
 		$cache[$langCode] = $feeds;
 		return $feeds;
@@ -167,5 +165,16 @@ class FeaturedFeeds {
 			$options['language'] = $feed['language'];
 		}
 		return wfScript( 'api' ) . '?' . wfArrayToCGI( $options );
+	}
+
+	/**
+	 * Returns the number of seconds a feed should stay in cache
+	 * 
+	 * @return int: Time in seconds
+	 */
+	public static function getMaxAge() {
+		// add 10 seconds to cater for time deviation between servers
+		$expiry = self::todaysStart() + 24 * 3600 - wfTimestamp() + 10;
+		return min( $expiry, 3600 );
 	}
 }
