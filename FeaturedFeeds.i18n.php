@@ -213,6 +213,7 @@ $messages['lb'] = array(
 	'ffeed-dyk-title' => '{{SITENAME}} "Vosst Dir schonn" Feed',
 	'ffeed-dyk-desc' => 'De rezensten Inhalt op {{SITENAME}}',
 	'ffeed-dyk-entry' => 'Wosst Dir schonn?:  {{LOCALMONTHNAME}} {{LOCALDAY}}',
+	'ffeed-motd-title' => '{{SITENAME}} Feed: Zitat vum Dag',
 	'ffeed-potd-desc' => 'E puer vun de beschte Biller op {{SITENAME}}',
 );
 
