@@ -52,6 +52,8 @@ function wfFeaturedFeedsWMF_getFeeds( &$feeds ) {
 			break;
 		case 'commons':
 			$feeds += $media;
+			$feeds['potd']['inUserLanguage'] = true;
+			$feeds['motd']['inUserLanguage'] = true;
 			break;
 		case 'wikiquote':
 			$feeds['qotd'] = array( // Quote of the Day
