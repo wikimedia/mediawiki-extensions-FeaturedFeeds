@@ -202,6 +202,15 @@ $messages['hsb'] = array(
 	'ffeed-potd-entry' => '{{SITENAME}} - wobraz dnja za {{LOCALDAY}}. {{LOCALMONTHNAMEGEN}}',
 );
 
+/** Interlingua (Interlingua)
+ * @author McDutchie
+ */
+$messages['ia'] = array(
+	'ffeed-desc' => 'Adde fluxos de syndication del contento eminente de iste wiki',
+	'ffeed-fa-title' => 'Syndication de articulos eminente de {{SITENAME}}',
+	'ffeed-fa-desc' => 'Le melior articulos que {{SITENAME}} pote offerer',
+);
+
 /** Luxembourgish (Lëtzebuergesch)
  * @author Robby
  */
