@@ -209,6 +209,19 @@ $messages['ia'] = array(
 	'ffeed-desc' => 'Adde fluxos de syndication del contento eminente de iste wiki',
 	'ffeed-fa-title' => 'Syndication de articulos eminente de {{SITENAME}}',
 	'ffeed-fa-desc' => 'Le melior articulos que {{SITENAME}} pote offerer',
+	'ffeed-fa-entry' => 'Articulo eminente de {{SITENAME}} le {{LOCALDAY}} de {{LOCALMONTHNAME}}',
+	'ffeed-onthisday-title' => 'Syndication "In iste die..." de {{SITENAME}}',
+	'ffeed-onthisday-desc' => 'Eventos historic in iste die',
+	'ffeed-onthisday-entry' => 'In iste die: le {{LOCALDAY}} de {{LOCALMONTHNAME}}',
+	'ffeed-dyk-title' => 'Syndication "Sapeva tu?" de {{SITENAME}}',
+	'ffeed-dyk-desc' => 'Del contento le plus recente de {{SITENAME}}',
+	'ffeed-dyk-entry' => 'Sapeva tu?: le {{LOCALDAY}} de {{LOCALMONTHNAME}}',
+	'ffeed-motd-title' => 'Syndication "Citation del die" de {{SITENAME}}',
+	'ffeed-motd-desc' => 'Alcunes del melior citationes in {{SITENAME}}',
+	'ffeed-motd-entry' => 'Citation del die de {{SITENAME}} le {{LOCALDAY}} de {{LOCALMONTHNAME}}',
+	'ffeed-potd-title' => 'Syndication "Imagine del die" de {{SITENAME}}',
+	'ffeed-potd-desc' => 'Alcunes del melior imagines in {{SITENAME}}',
+	'ffeed-potd-entry' => 'Imagine del die de {{SITENAME}} le {{LOCALDAY}} de {{LOCALMONTHNAME}}',
 );
 
 /** Luxembourgish (Lëtzebuergesch)
@@ -223,6 +236,7 @@ $messages['lb'] = array(
 	'ffeed-dyk-desc' => 'De rezensten Inhalt op {{SITENAME}}',
 	'ffeed-dyk-entry' => 'Wosst Dir schonn?:  {{LOCALMONTHNAME}} {{LOCALDAY}}',
 	'ffeed-motd-title' => '{{SITENAME}} Feed: Zitat vum Dag',
+	'ffeed-motd-desc' => 'E puer vun de beschte Zitater op {{SITENAME}}',
 	'ffeed-potd-desc' => 'E puer vun de beschte Biller op {{SITENAME}}',
 );
 
