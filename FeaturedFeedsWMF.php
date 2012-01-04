@@ -9,6 +9,10 @@ if ( !defined( 'MEDIAWIKI' ) ) {
 
 $wgHooks['FeaturedFeeds::getFeeds'][] = 'wfFeaturedFeedsWMF_getFeeds';
 
+/**
+ * @param $feeds array
+ * @return bool
+ */
 function wfFeaturedFeedsWMF_getFeeds( &$feeds ) {
 	global $wgConf, $wgDBname;
 	list( $site, $lang ) = $wgConf->siteFromDB( $wgDBname );

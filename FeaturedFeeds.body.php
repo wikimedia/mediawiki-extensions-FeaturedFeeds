@@ -53,6 +53,11 @@ class FeaturedFeeds {
 		return true;
 	}
 
+	/**
+	 * @param $langCode string
+	 * @return array
+	 * @throws MWException
+	 */
 	private static function getFeedsInternal( $langCode ) {
 		global $wgFeaturedFeeds, $wgFeaturedFeedsDefaults, $wgContLang;
 		
@@ -71,7 +76,7 @@ class FeaturedFeeds {
 		
 		$feeds = array();
 		$parserOptions = new ParserOptions();
-		$title = Title::newMainPage();
+
 		$requestedLang = Language::factory( $langCode );
 		$parser = new Parser();
 		foreach ( $feedDefs as $name => $opts ) {

@@ -22,11 +22,13 @@ class ApiFeaturedFeeds extends ApiBase {
 		global $wgFeedClasses;
 
 		if ( !isset( $wgFeedClasses[$params['feedformat']] ) ) {
+			wfProfileOut( __METHOD__ );
 			$this->dieUsage( 'Invalid subscription feed type', 'feed-invalid' );
 		}
 
 		$language = isset( $params['language'] ) ? $params['language'] : false;
 		if ( $language !== false && !Language::isValidCode( $language ) ) {
+			wfProfileOut( __METHOD__ );
 			$this->dieUsage( 'Invalid language code', 'language-invalid' );
 		}
 		$feeds = FeaturedFeeds::getFeeds( $language );
