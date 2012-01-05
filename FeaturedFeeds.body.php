@@ -82,15 +82,14 @@ class FeaturedFeeds {
 		foreach ( $feedDefs as $name => $opts ) {
 			$feed = array( 'name' => $name );
 
-			$pageMsg = wfMessage( $opts['page'] )->inContentLanguage();
+			$feed['inUserLanguage'] = $opts['inUserLanguage'];
+			$lang = $opts['inUserLanguage'] ? $requestedLang : $wgContLang;
+			$feed['language'] = $lang->getCode();
+			$pageMsg = wfMessage( $opts['page'] )->inLanguage( $lang );
 			if ( $pageMsg->isDisabled() ) {
 				continue;
 			}
 			$page = $pageMsg->plain();
-
-			$feed['inUserLanguage'] = $opts['inUserLanguage'];
-			$lang = $opts['inUserLanguage'] ? $requestedLang : $wgContLang;
-			$feed['language'] = $lang->getCode();
 			$feed['title'] = wfMessage( $opts['title'] )->inLanguage( $lang )->text();
 			$feed['description'] = wfMessage( $opts['description'] )->inLanguage( $lang )->text();
 			$entryName = wfMessage( $opts['entryName'] )->inLanguage( $lang )->plain();
