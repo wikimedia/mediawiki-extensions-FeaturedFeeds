@@ -35,12 +35,12 @@ class ApiFeaturedFeeds extends ApiBase {
 		$ourFeed = $feeds[$params['feed']];
 
 		$feedClass = new $wgFeedClasses[$params['feedformat']] (
-			$ourFeed['title'],
-			$ourFeed['description'],
-			FeaturedFeeds::getFeedURL( $ourFeed, $params['feedformat'] )
+			$ourFeed->title,
+			$ourFeed->description,
+			$ourFeed->getURL( $params['feedformat'] )
 		);
 
-		ApiFormatFeedWrapper::setResult( $this->getResult(), $feedClass, $ourFeed['entries'] );
+		ApiFormatFeedWrapper::setResult( $this->getResult(), $feedClass, $ourFeed->getFeedItems() );
 
 		// Cache stuff in squids
 		$this->getMain()->setCacheMode( 'public' );
@@ -99,7 +99,7 @@ class ApiFeaturedFeeds extends ApiBase {
 
 		if ( version_compare( $wgVersion, '1.19alpha', '>=' ) ) {
 			return array(
-				"api.php?action=featuredfeed&feed=$feed" => "Retrieve feed `$feed'",
+				"api.php?action=featuredfeed&feed=$feed" => "Retrieve feed ``$feed'",
 			);
 		} else {
 			return array(

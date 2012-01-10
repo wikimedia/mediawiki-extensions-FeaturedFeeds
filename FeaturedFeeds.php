@@ -19,10 +19,16 @@ $wgExtensionCredits['other'][] = array(
 
 $dir = dirname( __FILE__ );
 
-$wgAutoloadClasses['FeaturedFeeds'] = "$dir/FeaturedFeeds.body.php";
 $wgAutoloadClasses['ApiFeaturedFeeds'] = "$dir/ApiFeaturedFeeds.php";
+$wgAutoloadClasses['FeaturedFeeds'] = "$dir/FeaturedFeeds.body.php";
+$wgAutoloadClasses['FeaturedFeedChannel'] = "$dir/FeaturedFeeds.body.php";
+$wgAutoloadClasses['FeaturedFeedItem'] = "$dir/FeaturedFeeds.body.php";
+$wgAutoloadClasses['SpecialFeedItem'] = "$dir/SpecialFeedItem.php";
 
 $wgExtensionMessagesFiles['FeaturedFeeds'] =  "$dir/FeaturedFeeds.i18n.php";
+$wgExtensionMessagesFiles['FeaturedFeedsAliases'] =  "$dir/FeaturedFeeds.alias.php";
+
+$wgSpecialPages['FeedItem'] = 'SpecialFeedItem';
 
 $wgAPIModules['featuredfeed'] = 'ApiFeaturedFeeds';
 

@@ -1,7 +1,6 @@
 <?php
 
 class FeaturedFeeds {
-
 	/**
 	 * Returns the list of feeds
 	 * 
@@ -44,8 +43,8 @@ class FeaturedFeeds {
 					$out->addLink( array(
 						'rel' => 'alternate',
 						'type' => "application/$type+xml",
-						'title' => $feed['title'],
-						'href' => self::getFeedURL( $feed, $type ),
+						'title' => $feed->title,
+						'href' => $feed->getURL( $type ),
 					) );
 				}
 			}
@@ -75,59 +74,22 @@ class FeaturedFeeds {
 		}
 		
 		$feeds = array();
-		$parserOptions = new ParserOptions();
-
 		$requestedLang = Language::factory( $langCode );
 		$parser = new Parser();
 		foreach ( $feedDefs as $name => $opts ) {
-			$feed = array( 'name' => $name );
-
-			$feed['inUserLanguage'] = $opts['inUserLanguage'];
-			$lang = $opts['inUserLanguage'] ? $requestedLang : $wgContLang;
-			$feed['language'] = $lang->getCode();
-			$pageMsg = wfMessage( $opts['page'] )->inLanguage( $lang );
-			if ( $pageMsg->isDisabled() ) {
+			$feed = new FeaturedFeedChannel( $name, $opts, $requestedLang );
+			if ( !$feed->isOK() ) {
 				continue;
 			}
-			$page = $pageMsg->plain();
-			$feed['title'] = wfMessage( $opts['title'] )->inLanguage( $lang )->text();
-			$feed['description'] = wfMessage( $opts['description'] )->inLanguage( $lang )->text();
-			$entryName = wfMessage( $opts['entryName'] )->inLanguage( $lang )->plain();
-			$feed['entries'] = array();
-
-			$parserOptions->setUserLang( $lang );
-			for ( $i = 1 - $opts['limit']; $i <= 0; $i++ ) {
-				$time = self::todaysStart() + $i * 24 * 3600;
-				$parserOptions->setTimestamp( $time );
-
-				$titleText = $parser->transformMsg( $page, $parserOptions );
-				$title = Title::newFromText( $titleText );
-				if ( !$title ) {
-					throw new MWException( "Invalid page name $titleText" );
-				}
-				$rev = Revision::newFromTitle( $title );
-				if ( !$rev ) {
-					continue; // page does not exist
-				}
-				$text = $rev->getText();
-				if ( !$text ) {
-					continue;
-				}
-				$text = $parser->parse( $text, $title, $parserOptions )->getText();
-				$feed['entries'][] = new FeedItem(
-					$parser->transformMsg( $entryName, $parserOptions ),
-					$text,
-					wfExpandUrl( $title->getFullURL() ),
-					$time
-				);
-			}
-
+			$feed->getFeedItems();
 			$feeds[$name] = $feed;
 		}
 		wfProfileOut( __METHOD__ );
 
 		return $feeds;
 	}
+
+	
 
 	/**
 	 * Returns the Unix timestamp of current day's first second
@@ -137,38 +99,26 @@ class FeaturedFeeds {
 	public static function todaysStart() {
 		static $time = false;
 		if ( !$time ) {
-			global $wgLocaltimezone;
-			if ( isset( $wgLocaltimezone ) ) {
-				$tz = new DateTimeZone( $wgLocaltimezone );
-			} else {
-				$tz = new DateTimeZone( date_default_timezone_get() );
-			}
-			$dt = new DateTime( 'now', $tz );
-			$dt->setTime( 0, 0, 0 );
-			$time = $dt->getTimestamp();
+			$time = self::startOfDay( time() );
 		}
 		return $time;
 	}
 
 	/**
-	 * Returns a URL to the feed
+	 * Returns the Unix timestamp of current day's first second
 	 * 
-	 * @param Array $feed: Feed description returned by getFeeds()
-	 * @param type $format: Feed format, 'rss' or 'atom'
-	 * @return String 
+	 * @return int Timestamp
 	 */
-	public static function getFeedURL( $feed, $format ) {
-		global $wgContLang;
-
-		$options = array(
-			'action' => 'featuredfeed',
-			'feed' => $feed['name'],
-			'feedformat' => $format,
-		);
-		if ( $feed['inUserLanguage'] && $feed['language'] != $wgContLang->getCode() ) {
-			$options['language'] = $feed['language'];
+	public static function startOfDay( $timestamp ) {
+		global $wgLocaltimezone;
+		if ( isset( $wgLocaltimezone ) ) {
+			$tz = new DateTimeZone( $wgLocaltimezone );
+		} else {
+			$tz = new DateTimeZone( date_default_timezone_get() );
 		}
-		return wfScript( 'api' ) . '?' . wfArrayToCGI( $options );
+		$dt = new DateTime( "@$timestamp", $tz );
+		$dt->setTime( 0, 0, 0 );
+		return $dt->getTimestamp();
 	}
 
 	/**
@@ -180,5 +130,170 @@ class FeaturedFeeds {
 		// add 10 seconds to cater for time deviation between servers
 		$expiry = self::todaysStart() + 24 * 3600 - wfTimestamp() + 10;
 		return min( $expiry, 3600 );
+	}
+}
+
+class FeaturedFeedChannel {
+	/**
+	 * @var ParserOptions
+	 */
+	private static $parserOptions = null;
+	/**
+	 * @var Parser
+	 */
+	private static $parser;
+
+	/**
+	 * @var Language
+	 */
+	private $language;
+
+	private $name;
+	private $options;
+	private $items = false;
+	private $page = false;
+	private $entryName;
+
+	public $title = false;
+	public $description;
+
+	public function __construct( $name, $options, $lang ) {
+		global $wgContLang;
+		if ( !self::$parserOptions ) {
+			self::$parserOptions = new ParserOptions();
+			self::$parser = new Parser();
+		}
+		$this->name = $name;
+		$this->options = $options;
+		if ( $options['inUserLanguage'] ) {
+			$this->language = $lang;
+		} else {
+			$this->language = $wgContLang;
+		}
+	}
+
+	private function msg( $key ) {
+		return wfMessage( $key )->inLanguage( $this->language );
+	}
+
+	public function isOK() {
+		$this->init();
+		return $this->page !== false;
+	}
+
+	/**
+	 * Returns language used by the feed
+	 * @return Language
+	 */
+	public function getLanguage() {
+		return $this->language;
+	}
+
+	public function init() {
+		if ( $this->title !== false ) {
+			return;
+		}
+		$this->title = $this->msg( $this->options['title'] )->text();
+		$this->description = $this->msg( $this->options['description'] )->text();
+		$pageMsg = $this->msg( $this->options['page'] );
+		if ( $pageMsg->isDisabled() ) {
+			return;
+		}
+		$this->page = $pageMsg->plain();
+		$this->entryName = $this->msg( $this->options['entryName'] )->plain();
+	}
+
+	public function getFeedItems() {
+		$this->init();
+		if ( $this->items === false ) {
+			$this->items = array();
+			for ( $i = 1 - $this->options['limit']; $i <= 0; $i++ ) {
+				$timestamp = FeaturedFeeds::todaysStart() + $i * 24 * 3600;
+				$item = $this->getFeedItem( $timestamp );
+				if ( $item ) {
+					$this->items[] = $item;
+				}
+			}
+		}
+		return $this->items;
+	}
+
+	/**
+	 *
+	 * @param int $date
+	 * @return FeaturedFeedItem
+	 */
+	public function getFeedItem( $date ) {
+		self::$parserOptions->setTimestamp( $date );
+		self::$parserOptions->setUserLang( $this->language );
+
+		$titleText = self::$parser->transformMsg( $this->page, self::$parserOptions );
+		$title = Title::newFromText( $titleText );
+		if ( !$title ) {
+			return false;
+		}
+		$rev = Revision::newFromTitle( $title );
+		if ( !$rev ) {
+			return false; // page does not exist
+		}
+		$text = $rev->getText();
+		if ( !$text ) {
+			return false;
+		}
+		$text = self::$parser->parse( $text, $title, self::$parserOptions )->getText();
+		$url = SpecialPage::getTitleFor( 'FeedItem' , 
+			$this->name . '/' . wfTimestamp( TS_MW, $date ) . '/' . $this->language->getCode()
+		)->getFullURL();
+
+		return new FeaturedFeedItem(
+			self::$parser->transformMsg( $this->entryName, self::$parserOptions ),
+			wfExpandUrl( $url ),
+			$text,
+			$date
+		);
+	}
+
+	/**
+	 * Returns a URL to the feed
+	 * 
+	 * @param type $format: Feed format, 'rss' or 'atom'
+	 * @return String 
+	 */
+	public function getURL( $format ) {
+		global $wgContLang;
+
+		$options = array(
+			'action' => 'featuredfeed',
+			'feed' => $this->name,
+			'feedformat' => $format,
+		);
+		if ( $this->options['inUserLanguage'] && $this->language->getCode() != $wgContLang->getCode() ) {
+			$options['language'] = $this->language->getCode();
+		}
+		return wfScript( 'api' ) . '?' . wfArrayToCGI( $options );
+	}
+}
+
+class FeaturedFeedItem extends FeedItem {
+	const CACHE_VERSION = 1;
+
+	public function __construct( $title, $url, $text, $date ) {
+		parent::__construct( $title, $text, $url, $date );
+	}
+
+	public function getRawDate() {
+		return $this->date;
+	}
+
+	public function getRawTitle() {
+		return $this->title;
+	}
+
+	public function getRawUrl() {
+		return $this->url;
+	}
+
+	public function getRawText() {
+		return $this->description;
 	}
 }

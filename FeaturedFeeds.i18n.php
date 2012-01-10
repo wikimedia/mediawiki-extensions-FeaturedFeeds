@@ -13,6 +13,9 @@ $messages = array();
  */
 $messages['en'] = array(
 	'ffeed-desc' => "Adds syndication feeds of wiki's featured content",
+	'ffeed-no-feed' => 'Feed not specified',
+	'ffeed-feed-not-found' => 'Feed $1 not found',
+	'ffeed-entry-not-found' => 'Feed entry for $1 not found',
 
 	# Featured Article
 	'ffeed-fa-page' => '', # do not localise
@@ -56,6 +59,8 @@ $messages['en'] = array(
  */
 $messages['qqq'] = array(
 	'ffeed-desc' => '{{desc}}',
+	'ffeed-feed-not-found' => '$1 is feed name',
+	'ffeed-entry-not-found' => '$1 is date',
 	'ffeed-fa-title' => 'Title of the Featured Articles [[w:web feed|syndication feed]]',
 	'ffeed-fa-desc' => 'Description of the Featured Articles [[w:web feed|syndication feed]]',
 	'ffeed-fa-entry' => "Title of day's entry in the Featured Articles [[w:web feed|syndication feed]]",
