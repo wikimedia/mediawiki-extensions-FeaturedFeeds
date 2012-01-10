@@ -102,6 +102,9 @@ $messages['br'] = array(
  */
 $messages['de'] = array(
 	'ffeed-desc' => 'Ermöglicht gesonderte Feeds zu bestimmten Inhalten des Wikis',
+	'ffeed-no-feed' => 'Es wurde kein Feed angegeben.',
+	'ffeed-feed-not-found' => 'Feed $1 wurde nicht gefunden.',
+	'ffeed-entry-not-found' => 'Feedeintrag $1 wurde nicht gefunden.',
 	'ffeed-fa-title' => 'Feeds zu präsentierten Inhalten auf {{SITENAME}}',
 	'ffeed-fa-desc' => 'Die besten Artikel auf {{SITENAME}}',
 	'ffeed-fa-entry' => 'Am {{LOCALDAY}} {{LOCALMONTHNAME}} auf {{SITENAME}} präsentierter Artikel',
@@ -124,6 +127,9 @@ $messages['de'] = array(
  */
 $messages['dsb'] = array(
 	'ffeed-desc' => 'Dodawa syndikaciske kanale wuběrnego wikiwopśimjeśa.',
+	'ffeed-no-feed' => 'Kanal njepódany',
+	'ffeed-feed-not-found' => 'Kanal $1 njenamakany',
+	'ffeed-entry-not-found' => 'Kanalowy zapisk za $1 njenamakany',
 	'ffeed-fa-title' => '{{SITENAME}} - kanal wuběrnych nastawkow',
 	'ffeed-fa-desc' => 'Nejlěpše nastawki, kótarež {{SITENAME}} póbitujo',
 	'ffeed-fa-entry' => '{{LOCALDAY}}. {{LOCALMONTHNAMEGEN}}  {{SITENAME}} - wuběrny nastawk',
@@ -168,6 +174,9 @@ $messages['fr'] = array(
  */
 $messages['gl'] = array(
 	'ffeed-desc' => 'Engade fontes de novas dos contidos destacados do wiki',
+	'ffeed-no-feed' => 'Non se especificou a fonte de novas',
+	'ffeed-feed-not-found' => 'Non se atopou a fonte de novas "$1"',
+	'ffeed-entry-not-found' => 'Non se atopou a entrada da fonte de novas do día $1',
 	'ffeed-fa-title' => 'Fonte de novas dos artigos destacados de {{SITENAME}}',
 	'ffeed-fa-desc' => 'Os mellores artigos que ofrece {{SITENAME}}',
 	'ffeed-fa-entry' => 'Artigo destacado de {{SITENAME}} o {{LOCALDAY}} de {{LOCALMONTHNAME}}',
@@ -190,6 +199,9 @@ $messages['gl'] = array(
  */
 $messages['hsb'] = array(
 	'ffeed-desc' => 'Přidawa syndikaciske kanale wuběrneho wikiwobsaha.',
+	'ffeed-no-feed' => 'Kanal njepodaty',
+	'ffeed-feed-not-found' => 'Kanal $1 njenamakany',
+	'ffeed-entry-not-found' => 'Kanalowy zapisk za $1 njenamakany',
 	'ffeed-fa-title' => '{{SITENAME}} - kanal wuběrnych nastawkow',
 	'ffeed-fa-desc' => 'Najlěpše nastawki, kotrež {{SITENAME}} poskića',
 	'ffeed-fa-entry' => '{{LOCALDAY}}. {{LOCALMONTHNAMEGEN}}  {{SITENAME}} wuběrny nastawk',
