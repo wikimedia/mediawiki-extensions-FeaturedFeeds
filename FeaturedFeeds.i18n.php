@@ -152,6 +152,9 @@ $messages['dsb'] = array(
  */
 $messages['fr'] = array(
 	'ffeed-desc' => 'Ajoute des files de publication du contenu caractéristique du wiki',
+	'ffeed-no-feed' => 'Alimentation non spécifiée',
+	'ffeed-feed-not-found' => 'Alimentation $1 non trouvée',
+	'ffeed-entry-not-found' => "Entrée d'alimentation pour $1 non trouvée",
 	'ffeed-fa-title' => 'File des articles caractéristiques de {{SITENAME}}',
 	'ffeed-fa-desc' => 'Meilleurs articles que {{SITENAME}} peut offrir',
 	'ffeed-fa-entry' => 'Article vedette de {{SITENAME}} le {{LOCALDAY}} {{LOCALMONTHNAME}}',
@@ -224,6 +227,9 @@ $messages['hsb'] = array(
  */
 $messages['ia'] = array(
 	'ffeed-desc' => 'Adde fluxos de syndication del contento eminente de iste wiki',
+	'ffeed-no-feed' => 'Syndication non specificate',
+	'ffeed-feed-not-found' => 'Syndication $1 non trovate',
+	'ffeed-entry-not-found' => 'Entrata de syndication pro $1 non trovate',
 	'ffeed-fa-title' => 'Syndication de articulos eminente de {{SITENAME}}',
 	'ffeed-fa-desc' => 'Le melior articulos que {{SITENAME}} pote offerer',
 	'ffeed-fa-entry' => 'Articulo eminente de {{SITENAME}} le {{LOCALDAY}} de {{LOCALMONTHNAME}}',
@@ -262,6 +268,9 @@ $messages['lb'] = array(
  */
 $messages['mk'] = array(
 	'ffeed-desc' => 'Додава канали за избрани содржини на викито.',
+	'ffeed-no-feed' => 'Каналот не е укажан',
+	'ffeed-feed-not-found' => 'Каналот $1 не е пронајден',
+	'ffeed-entry-not-found' => 'Каналскиот запис за $1 не е пронајден',
 	'ffeed-fa-title' => 'Канал на избрани статии на {{SITENAME}}',
 	'ffeed-fa-desc' => 'Најдобрите статии на {{SITENAME}}',
 	'ffeed-fa-entry' => 'Избрана статија на {{SITENAME}} за {{LOCALDAY}} {{LOCALMONTHNAME}}',
