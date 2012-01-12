@@ -293,6 +293,9 @@ $messages['mk'] = array(
  */
 $messages['nl'] = array(
 	'ffeed-desc' => 'Voegt feeds toe voor de uitgelichte inhoud van een wiki',
+	'ffeed-no-feed' => 'Er is geen feed opgegeven',
+	'ffeed-feed-not-found' => 'De feed $1 bestaat niet',
+	'ffeed-entry-not-found' => 'De feedvermelding $1 is niet gevonden',
 	'ffeed-fa-title' => 'Feed voor uitgelichte artikelen van {{SITENAME}}',
 	'ffeed-fa-desc' => 'De beste artikelen van {{SITENAME}}',
 	'ffeed-fa-entry' => 'Uitgelicht artikel van {{SITENAME}} op {{LOCALDAY}} {{LOCALMONTHNAME}}',
