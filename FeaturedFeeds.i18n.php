@@ -78,6 +78,31 @@ $messages['qqq'] = array(
 	'ffeed-potd-entry' => "Title of day's entry in the Media of the Day [[w:web feed|syndication feed]]",
 );
 
+/** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
+ * @author Wizardist
+ */
+$messages['be-tarask'] = array(
+	'ffeed-desc' => 'Дадае сындыкаваныя стужкі лепшага зьместу вікі',
+	'ffeed-no-feed' => 'Стужка не пазначаная',
+	'ffeed-feed-not-found' => 'Стужка «$1» ня знойдзеная',
+	'ffeed-entry-not-found' => 'Стужка за $1 ня знойдзеная',
+	'ffeed-fa-title' => 'Стужка з абранымі артыкуламі {{GRAMMAR:родны|{{SITENAME}}}}',
+	'ffeed-fa-desc' => 'Найлепшыя артыкулы ў {{GRAMMAR:месны|{{SITENAME}}}}',
+	'ffeed-fa-entry' => 'Абраны артыкул {{GRAMMAR:родны|{{SITENAME}}}} за {{LOCALDAY}} {{LOCALMONTHNAMEGEN}}',
+	'ffeed-onthisday-title' => 'Стужка {{GRAMMAR:родны|{{SITENAME}}}} «Гэты дзень у гісторыі»',
+	'ffeed-onthisday-desc' => 'Гістарычныя падзеі, якія прыпалі на гэты дзень',
+	'ffeed-onthisday-entry' => 'У гэты дзень, {{LOCALDAY}} {{LOCALMONTHNAMEGEN}}',
+	'ffeed-dyk-title' => 'Стужка {{GRAMMAR:родны|{{SITENAME}}}} «Ці ведаеце вы?»',
+	'ffeed-dyk-desc' => 'З новых артыкулаў {{GRAMMAR:родны|{{SITENAME}}}}',
+	'ffeed-dyk-entry' => 'Ці ведаеце вы? ({{LOCALDAY}} {{LOCALMONTHNAMEGEN}})',
+	'ffeed-motd-title' => 'Стужка {{GRAMMAR:родны|{{SITENAME}}}} «Цытата дня»',
+	'ffeed-motd-desc' => 'Адныя з найлепшых цытатаў у {{GRAMMAR:месны|{{SITENAME}}}}',
+	'ffeed-motd-entry' => 'Цытата дня ў {{GRAMMAR:месны|{{SITENAME}}}} за {{LOCALDAY}} {{LOCALMONTHNAMEGEN}}',
+	'ffeed-potd-title' => 'Стужка {{GRAMMAR:родны|{{SITENAME}}}} «Выява дня»',
+	'ffeed-potd-desc' => 'Лепшыя выявы {{GRAMMAR:родны|{{SITENAME}}}}',
+	'ffeed-potd-entry' => 'Выява дня ў {{GRAMMAR:месны|{{SITENAME}}}} за {{LOCALDAY}} {{LOCALMONTHNAMEGEN}}',
+);
+
 /** Breton (Brezhoneg)
  * @author Y-M D
  */
