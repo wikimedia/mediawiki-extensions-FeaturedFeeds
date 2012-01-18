@@ -14,8 +14,8 @@ $wgHooks['FeaturedFeeds::getFeeds'][] = 'wfFeaturedFeedsWMF_getFeeds';
  * @return bool
  */
 function wfFeaturedFeedsWMF_getFeeds( &$feeds ) {
-	global $wgConf, $wgDBname;
-	list( $site, $lang ) = $wgConf->siteFromDB( $wgDBname );
+	global $wgConf;
+	list( $site, $lang ) = $wgConf->siteFromDB( wfGetDB( DB_SLAVE )->getDBname() );
 	$media = array(
 		'potd' => array( // Picture Of The Day
 			'page' => 'ffeed-potd-page',
