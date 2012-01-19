@@ -46,3 +46,7 @@ $wgFeaturedFeedsDefaults = array(
 
 $wgFeaturedFeeds = array();
 
+/**
+ * Whether links to feeds should appear in sidebar
+ */
+$wgDisplayFeedsInSidebar = true;
