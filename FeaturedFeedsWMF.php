@@ -36,11 +36,11 @@ function wfFeaturedFeedsWMF_getFeeds( &$feeds ) {
 		case 'wikipedia':
 			$feeds += array(
 				'featured' => array(
-					'page' => 'ffeed-fa-page',
-					'title' => 'ffeed-fa-title',
-					'short-title' => 'ffeed-fa-short-title',
-					'description' => 'ffeed-fa-desc',
-					'entryName' => 'ffeed-fa-entry',
+					'page' => 'ffeed-featured-page',
+					'title' => 'ffeed-featured-title',
+					'short-title' => 'ffeed-featured-short-title',
+					'description' => 'ffeed-featured-desc',
+					'entryName' => 'ffeed-featured-entry',
 				),
 				'onthisday' => array(
 					'page' => 'ffeed-onthisday-page',
