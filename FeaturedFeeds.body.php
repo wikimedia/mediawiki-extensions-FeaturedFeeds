@@ -53,6 +53,33 @@ class FeaturedFeeds {
 	}
 
 	/**
+	 * SkinTemplateOutputPageBeforeExec hook handler
+	 * @param Skin $sk
+	 * @param QuickTemplate $tpl
+	 * @return Boolean
+	 */
+	public static function skinTemplateOutputPageBeforeExec( &$sk, &$tpl ) {
+		global $wgDisplayFeedsInSidebar, $wgAdvertisedFeedTypes;
+
+		if ( $wgDisplayFeedsInSidebar && $sk->getContext()->getTitle()->isMainPage() ) {
+			$feeds = self::getFeeds( $sk->getContext()->getLanguage()->getCode() );
+			$links = array();
+			$format = $wgAdvertisedFeedTypes[0]; // @fixme:
+			foreach ( $feeds as $feed ) {
+				$links[] = array(
+					'href' => $feed->getURL( $format ),
+					'title' => $feed->title,
+					'text' => $feed->shortTitle,
+				);
+			}
+			if ( count( $links ) ) {
+				$tpl->data['sidebar']['ffeed-sidebar-section'] = $links;
+			}
+		}
+		return true;
+	}
+
+	/**
 	 * @param $langCode string
 	 * @return array
 	 * @throws MWException
@@ -155,6 +182,7 @@ class FeaturedFeedChannel {
 	private $entryName;
 
 	public $title = false;
+	public $shortTitle;
 	public $description;
 
 	public function __construct( $name, $options, $lang ) {
@@ -194,6 +222,7 @@ class FeaturedFeedChannel {
 			return;
 		}
 		$this->title = $this->msg( $this->options['title'] )->text();
+		$this->shortTitle = $this->msg( $this->options['short-title'] );
 		$this->description = $this->msg( $this->options['description'] )->text();
 		$pageMsg = $this->msg( $this->options['page'] );
 		if ( $pageMsg->isDisabled() ) {

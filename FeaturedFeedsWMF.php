@@ -20,12 +20,14 @@ function wfFeaturedFeedsWMF_getFeeds( &$feeds ) {
 		'potd' => array( // Picture Of The Day
 			'page' => 'ffeed-potd-page',
 			'title' => 'ffeed-potd-title',
+			'short-title' => 'ffeed-potd-short-title',
 			'description' => 'ffeed-potd-desc',
 			'entryName' => 'ffeed-potd-entry',
 		),
 		'motd' => array( // Media Of The Day
 			'page' => 'ffeed-motd-page',
 			'title' => 'ffeed-motd-title',
+			'short-title' => 'ffeed-motd-short-title',
 			'description' => 'ffeed-motd-desc',
 			'entryName' => 'ffeed-motd-entry',
 		),
@@ -36,18 +38,21 @@ function wfFeaturedFeedsWMF_getFeeds( &$feeds ) {
 				'featured' => array(
 					'page' => 'ffeed-fa-page',
 					'title' => 'ffeed-fa-title',
+					'short-title' => 'ffeed-fa-short-title',
 					'description' => 'ffeed-fa-desc',
 					'entryName' => 'ffeed-fa-entry',
 				),
 				'onthisday' => array(
 					'page' => 'ffeed-onthisday-page',
 					'title' => 'ffeed-onthisday-title',
+					'short-title' => 'ffeed-onthisday-short-title',
 					'description' => 'ffeed-onthisday-desc',
 					'entryName' => 'ffeed-onthisday-entry',
 				),
 				'dyk' => array( // Did you know?
 					'page' => 'ffeed-dyk-page',
 					'title' => 'ffeed-dyk-title',
+					'short-title' => 'ffeed-dyk-short-title',
 					'description' => 'ffeed-dyk-desc',
 					'entryName' => 'ffeed-dyk-entry',
 				),
@@ -63,6 +68,7 @@ function wfFeaturedFeedsWMF_getFeeds( &$feeds ) {
 			$feeds['qotd'] = array( // Quote of the Day
 				'page' => 'ffeed-qotd-page',
 				'title' => 'ffeed-qotd-title',
+				'short-title' => 'ffeed-qotd-short-title',
 				'description' => 'ffeed-qotd-desc',
 				'entryName' => 'ffeed-qotd-entry',
 			);
