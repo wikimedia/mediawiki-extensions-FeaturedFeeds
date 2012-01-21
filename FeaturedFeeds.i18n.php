@@ -152,7 +152,7 @@ $messages['de'] = array(
 	'ffeed-dyk-short-title' => 'Schon gewusst?',
 	'ffeed-dyk-desc' => 'Die neuesten Inhalte auf {{SITENAME}}',
 	'ffeed-dyk-entry' => '„Schon gewusst?“: {{LOCALDAY}} {{LOCALMONTHNAME}}',
-	'ffeed-motd-title' => 'Feed zum Zitat des Tages auf {{SITENAME}}',
+	'ffeed-motd-title' => 'Feed zur Mediendatei Zitat des Tages auf {{SITENAME}}',
 	'ffeed-motd-short-title' => 'Mediendatei des Tages',
 	'ffeed-motd-desc' => 'Einige der besten Mediendateien auf {{SITENAME}}',
 	'ffeed-motd-entry' => 'Mediendatei des Tages am {{LOCALDAY}} {{LOCALMONTHNAME}} auf {{SITENAME}}',
@@ -257,7 +257,7 @@ $messages['gl'] = array(
 	'ffeed-dyk-short-title' => 'Sabía que...?',
 	'ffeed-dyk-desc' => 'Dos contidos máis recentes de {{SITENAME}}',
 	'ffeed-dyk-entry' => 'Sabía que...?: {{LOCALDAY}} de {{LOCALMONTHNAME}}',
-	'ffeed-motd-title' => 'Fonte de novas da cita do día de {{SITENAME}}',
+	'ffeed-motd-title' => 'Fonte de novas do ficheiro multimedia do día de {{SITENAME}}',
 	'ffeed-motd-short-title' => 'Ficheiro multimedia do día',
 	'ffeed-motd-desc' => 'Un dos mellores ficheiros multimedia de {{SITENAME}}',
 	'ffeed-motd-entry' => 'Ficheiro multimedia do día de {{SITENAME}} o {{LOCALDAY}} de {{LOCALMONTHNAME}}',
@@ -266,6 +266,9 @@ $messages['gl'] = array(
 	'ffeed-potd-desc' => 'Unha das mellores imaxes de {{SITENAME}}',
 	'ffeed-potd-entry' => 'Imaxe do día de {{SITENAME}} o {{LOCALDAY}} de {{LOCALMONTHNAME}}',
 	'ffeed-qotd-title' => 'Fonte de novas da cita do día de {{SITENAME}}',
+	'ffeed-qotd-short-title' => 'Cita do día',
+	'ffeed-qotd-desc' => 'Unha das mellores citas de {{SITENAME}}',
+	'ffeed-qotd-entry' => 'Cita do día de {{SITENAME}} o {{LOCALDAY}} de {{LOCALMONTHNAME}}',
 );
 
 /** Upper Sorbian (Hornjoserbsce)
@@ -289,7 +292,7 @@ $messages['hsb'] = array(
 	'ffeed-dyk-short-title' => 'Sy hižo wědźał?',
 	'ffeed-dyk-desc' => 'Najnowši wobsah z {{GRAMMAR:genitiw|{{SITENAME}}}}',
 	'ffeed-dyk-entry' => 'Wěš ty, zo...?: {{LOCALDAY}}. {{LOCALMONTHNAMEGEN}}',
-	'ffeed-motd-title' => '{{SITENAME}} - kanal citata dnja',
+	'ffeed-motd-title' => 'Kanal medija dnja na {{GRAMMAR:lokatiw|{{SITENAME}}}}',
 	'ffeed-motd-short-title' => 'Medij dnja',
 	'ffeed-motd-desc' => 'Někotre z najlěpšich medijow na {{GRAMMAR:lokatiw|{{SITENAME}}}}',
 	'ffeed-motd-entry' => '{{SITENAME}} - medij dnja za {{LOCALDAY}}. {{LOCALMONTHNAMEGEN}}',
@@ -324,7 +327,7 @@ $messages['ia'] = array(
 	'ffeed-dyk-short-title' => 'Sapeva tu?',
 	'ffeed-dyk-desc' => 'Del contento le plus recente de {{SITENAME}}',
 	'ffeed-dyk-entry' => 'Sapeva tu?: le {{LOCALDAY}} de {{LOCALMONTHNAME}}',
-	'ffeed-motd-title' => 'Syndication "Citation del die" de {{SITENAME}}',
+	'ffeed-motd-title' => 'Syndication "Multimedia del die" de {{SITENAME}}',
 	'ffeed-motd-short-title' => 'Multimedia del die',
 	'ffeed-motd-desc' => 'Alcunes del melior materiales in {{SITENAME}}',
 	'ffeed-motd-entry' => 'Material del die de {{SITENAME}} le {{LOCALDAY}} de {{LOCALMONTHNAME}}',
@@ -342,16 +345,21 @@ $messages['ia'] = array(
  * @author Robby
  */
 $messages['lb'] = array(
+	'ffeed-featured-short-title' => 'Recommandéiert Artikelen',
 	'ffeed-featured-desc' => 'Déi bescht Artikelen déi {{SITENAME}} ze bidden huet',
 	'ffeed-featured-entry' => 'Den  {{LOCALDAY}} {{LOCALMONTHNAME}} op {{SITENAME}} ausgezeechenten Artikel',
+	'ffeed-onthisday-short-title' => 'Um Dag vun haut...',
 	'ffeed-onthisday-desc' => 'Historesch Evenementer op dësem Dag',
 	'ffeed-onthisday-entry' => 'Op dësem Dag: {{LOCALMONTHNAME}} {{LOCALDAY}}',
 	'ffeed-dyk-title' => '{{SITENAME}} "Vosst Dir schonn" Feed',
+	'ffeed-dyk-short-title' => 'Wosst Dir?',
 	'ffeed-dyk-desc' => 'De rezensten Inhalt op {{SITENAME}}',
 	'ffeed-dyk-entry' => 'Wosst Dir schonn?:  {{LOCALMONTHNAME}} {{LOCALDAY}}',
-	'ffeed-motd-title' => '{{SITENAME}} Feed: Zitat vum Dag',
-	'ffeed-motd-desc' => 'E puer vun de beschte Zitater op {{SITENAME}}',
+	'ffeed-motd-title' => '{{SITENAME}} Feed mam Medie-Fichier vum Dag',
+	'ffeed-motd-desc' => 'E puer vun de beschte Medie-Fichieren op {{SITENAME}}',
+	'ffeed-potd-short-title' => 'Bild vum Dag',
 	'ffeed-potd-desc' => 'E puer vun de beschte Biller op {{SITENAME}}',
+	'ffeed-qotd-short-title' => 'Zitat vum Dag',
 );
 
 /** Macedonian (Македонски)
@@ -390,6 +398,7 @@ $messages['mk'] = array(
 );
 
 /** Dutch (Nederlands)
+ * @author SPQRobin
  * @author Siebrand
  */
 $messages['nl'] = array(
@@ -398,19 +407,28 @@ $messages['nl'] = array(
 	'ffeed-feed-not-found' => 'De feed $1 bestaat niet',
 	'ffeed-entry-not-found' => 'De feedvermelding $1 is niet gevonden',
 	'ffeed-featured-title' => 'Feed voor uitgelichte artikelen van {{SITENAME}}',
+	'ffeed-featured-short-title' => 'Uitgelichte artikelen',
 	'ffeed-featured-desc' => 'De beste artikelen van {{SITENAME}}',
 	'ffeed-featured-entry' => 'Uitgelicht artikel van {{SITENAME}} op {{LOCALDAY}} {{LOCALMONTHNAME}}',
 	'ffeed-onthisday-title' => 'Feed voor "Op deze dag..." van {{SITENAME}}',
+	'ffeed-onthisday-short-title' => 'Op deze dag...',
 	'ffeed-onthisday-desc' => 'Historische gebeurtenissen op deze dag',
 	'ffeed-onthisday-entry' => 'Op deze dag: {{LOCALDAY}} {{LOCALMONTHNAME}}',
 	'ffeed-dyk-title' => 'Feed voor "Wist u dat" van {{SITENAME}}',
+	'ffeed-dyk-short-title' => 'Wist u dat?',
 	'ffeed-dyk-desc' => 'De nieuwste inhoud van {{SITENAME}}',
 	'ffeed-dyk-entry' => 'Wist u dat?: {{LOCALDAY}} {{LOCALMONTHNAME}}',
-	'ffeed-motd-title' => 'Feed voor uitspraak van de dag van {{SITENAME}}',
-	'ffeed-motd-desc' => 'De beste uitspraken van {{SITENAME}}',
-	'ffeed-motd-entry' => 'Uitspraak van de dag voor van {{LOCALDAY}} {{LOCALMONTHNAME}} van {{SITENAME}}',
+	'ffeed-motd-title' => 'Feed voor media van de dag van {{SITENAME}}',
+	'ffeed-motd-short-title' => 'Media van de dag',
+	'ffeed-motd-desc' => 'De beste media van {{SITENAME}}',
+	'ffeed-motd-entry' => 'Media van de dag voor van {{LOCALDAY}} {{LOCALMONTHNAME}} van {{SITENAME}}',
 	'ffeed-potd-title' => 'Feed voor afbeelding van de dag van {{SITENAME}}',
+	'ffeed-potd-short-title' => 'Foto van de dag',
 	'ffeed-potd-desc' => 'De beste afbeeldingen van {{SITENAME}}',
 	'ffeed-potd-entry' => 'Afbeelding van de dag voor van {{LOCALDAY}} {{LOCALMONTHNAME}} van {{SITENAME}}',
+	'ffeed-qotd-title' => 'Feed voor uitspraak van de dag van {{SITENAME}}',
+	'ffeed-qotd-short-title' => 'Citaat van de dag',
+	'ffeed-qotd-desc' => 'De beste uitspraken van {{SITENAME}}',
+	'ffeed-qotd-entry' => 'Uitspraak van de dag voor van {{LOCALDAY}} {{LOCALMONTHNAME}} van {{SITENAME}}',
 );
 
