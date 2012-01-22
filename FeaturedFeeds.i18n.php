@@ -203,6 +203,7 @@ $messages['dsb'] = array(
 
 /** French (Français)
  * @author Gomoko
+ * @author Jean-Frédéric
  */
 $messages['fr'] = array(
 	'ffeed-desc' => 'Ajoute des files de publication du contenu caractéristique du wiki',
@@ -222,7 +223,7 @@ $messages['fr'] = array(
 	'ffeed-dyk-short-title' => 'Le saviez-vous?',
 	'ffeed-dyk-desc' => 'Du contenu le plus récent de {{SITENAME}}',
 	'ffeed-dyk-entry' => 'Le saviez-vous?: {{LOCALDAY}} {{LOCALMONTHNAME}}',
-	'ffeed-motd-title' => '{{SITENAME}} File citation du jour',
+	'ffeed-motd-title' => 'Flux du média du jour de {{SITENAME}}',
 	'ffeed-motd-short-title' => 'Les médias de la journée.',
 	'ffeed-motd-desc' => 'Quelques-uns des meilleurs médias sur {{SITENAME}}',
 	'ffeed-motd-entry' => 'Média du jour de {{SITENAME}} pour {{LOCALDAY}} {{LOCALMONTHNAME}}',
