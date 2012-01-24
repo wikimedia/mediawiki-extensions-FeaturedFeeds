@@ -37,7 +37,7 @@ class ApiFeaturedFeeds extends ApiBase {
 		$feedClass = new $wgFeedClasses[$params['feedformat']] (
 			$ourFeed->title,
 			$ourFeed->description,
-			$ourFeed->getURL( $params['feedformat'] )
+			wfExpandUrl( Title::newMainPage()->getFullURL() )
 		);
 
 		ApiFormatFeedWrapper::setResult( $this->getResult(), $feedClass, $ourFeed->getFeedItems() );
