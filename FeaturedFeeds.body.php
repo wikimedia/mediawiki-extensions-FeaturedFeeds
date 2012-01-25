@@ -224,7 +224,7 @@ class FeaturedFeedChannel {
 		$this->title = $this->msg( $this->options['title'] )->text();
 		$this->shortTitle = $this->msg( $this->options['short-title'] );
 		$this->description = $this->msg( $this->options['description'] )->text();
-		$pageMsg = $this->msg( $this->options['page'] );
+		$pageMsg = $this->msg( $this->options['page'] )->params( $this->language->getCode() );
 		if ( $pageMsg->isDisabled() ) {
 			return;
 		}
