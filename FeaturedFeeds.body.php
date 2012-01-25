@@ -189,6 +189,7 @@ class FeaturedFeedChannel {
 		global $wgContLang;
 		if ( !self::$parserOptions ) {
 			self::$parserOptions = new ParserOptions();
+			self::$parserOptions->setEditSection( false );
 			self::$parser = new Parser();
 		}
 		$this->name = $name;
