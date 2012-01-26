@@ -21,7 +21,12 @@ class SpecialFeedItem extends UnlistedSpecialPage {
 			return;
 		}
 		$feed = $feeds[$feedName];
-		$date = FeaturedFeeds::startOfDay( wfTimestamp( TS_UNIX, $date ) );
+		$timestamp = wfTimestamp( TS_UNIX, $date );
+		if ( !$timestamp ) {
+			$out->showErrorPage( 'error', 'ffeed-invalid-timestamp' );
+			return;
+		}
+		$date = FeaturedFeeds::startOfDay( $timestamp );
 		// First, search in the general cache
 		foreach ( $feed->getFeedItems() as $item ) {
 			if ( $item->getRawDate() == $date ) {

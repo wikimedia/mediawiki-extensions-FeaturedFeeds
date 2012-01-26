@@ -17,6 +17,7 @@ $messages['en'] = array(
 	'ffeed-feed-not-found' => 'Feed $1 not found',
 	'ffeed-entry-not-found' => 'Feed entry for $1 not found',
 	'ffeed-sidebar-section' => 'Featured content feeds',
+	'ffeed-invalid-timestamp' => 'Invalid feed timestamp',
 
 	# Featured Article
 	'ffeed-featured-page' => '', # do not localise
