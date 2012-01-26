@@ -9,7 +9,7 @@ class FeaturedFeeds {
 	 */
 	public static function getFeeds( $langCode ) {
 		global $wgMemc, $wgContLang;
-		
+
 		if ( !$langCode ) {
 			$langCode = $wgContLang->getCode();
 		}
