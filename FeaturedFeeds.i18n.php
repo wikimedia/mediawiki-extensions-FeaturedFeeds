@@ -63,6 +63,7 @@ $messages['en'] = array(
 
 /** Message documentation (Message documentation)
  * @author Max Semenik
+ * @author Mormegil
  */
 $messages['qqq'] = array(
 	'ffeed-desc' => '{{desc}}',
@@ -73,10 +74,10 @@ $messages['qqq'] = array(
 	'ffeed-featured-entry' => "Title of day's entry in the Featured Articles [[w:web feed|syndication feed]]",
 	'ffeed-onthisday-title' => 'Title of the "On this day..." [[w:web feed|syndication feed]]',
 	'ffeed-onthisday-desc' => 'Description of the "On this day..." [[w:web feed|syndication feed]]',
-	'ffeed-onthisday-entry' => 'Title of day\'s entry in the "On this day..." [[w:web feed|syndication feeds]',
+	'ffeed-onthisday-entry' => 'Title of day\'s entry in the "On this day..." [[w:Web feed|syndication feeds]]',
 	'ffeed-dyk-title' => 'Title of the "Did you know?" [[w:web feed|syndication feed]]',
 	'ffeed-dyk-desc' => 'Description of the "Did you know?" [[w:web feed|syndication feed]]',
-	'ffeed-dyk-entry' => 'Title of day\'s entry in the "Did you know?" [[w:web feed|syndication feeds]',
+	'ffeed-dyk-entry' => 'Title of day\'s entry in the "Did you know?" [[w:Web feed|syndication feeds]]',
 	'ffeed-motd-title' => 'Title of the Media of the Day [[w:web feed|syndication feed]]',
 	'ffeed-motd-desc' => 'Description of the Media of the Day [[w:web feed|syndication feed]]',
 	'ffeed-motd-entry' => "Title of day's entry in the Media of the Day [[w:web feed|syndication feed]]",
@@ -131,6 +132,41 @@ $messages['br'] = array(
 	'ffeed-potd-entry' => 'Skeudenn an devezh deus {{SITENAME}} evit {{LOCALDAY}} {{LOCALMONTHNAME}}',
 );
 
+/** Czech (Česky)
+ * @author Mormegil
+ */
+$messages['cs'] = array(
+	'ffeed-desc' => 'Přidává syndikační kanály pro výběr z obsahu wiki',
+	'ffeed-no-feed' => 'Nebyl uveden kanál',
+	'ffeed-feed-not-found' => 'Kanál $1 nenalezen',
+	'ffeed-entry-not-found' => 'Záznam kanálu pro $1 nenalezen',
+	'ffeed-sidebar-section' => 'Kanály s vybraným obsahem',
+	'ffeed-featured-title' => 'Kanál nejlepších článků {{grammar:2sg|{{SITENAME}}}}',
+	'ffeed-featured-short-title' => 'Nejlepší články',
+	'ffeed-featured-desc' => 'Nejlepší články, které může {{SITENAME}} nabídnout',
+	'ffeed-featured-entry' => 'Článek dne {{LOCALDAY}}. {{LOCALMONTHNAMEGEN}} na {{grammar:6sg|{{SITENAME}}}}',
+	'ffeed-onthisday-title' => 'Kanál „Dnešek v minulosti“ na {{grammar:6sg|{{SITENAME}}}}',
+	'ffeed-onthisday-short-title' => 'Dnešek v minulosti',
+	'ffeed-onthisday-desc' => 'Historické události tento den',
+	'ffeed-onthisday-entry' => '{{LOCALDAY}}. {{LOCALMONTHNAME}} v minulosti',
+	'ffeed-dyk-title' => 'Kanál „Víte, že…?“ {{grammar:2sg|{{SITENAME}}}}',
+	'ffeed-dyk-short-title' => 'Víte, že…?',
+	'ffeed-dyk-desc' => 'Ze zajímavého obsahu {{grammar:2sg|{{SITENAME}}}}',
+	'ffeed-dyk-entry' => '„Víte, že…?“ {{LOCALDAY}}. {{LOCALMONTHNAMEGEN}}',
+	'ffeed-motd-title' => 'Kanál souborů dne {{grammar:2sg|{{SITENAME}}}}',
+	'ffeed-motd-short-title' => 'Soubor dne',
+	'ffeed-motd-desc' => 'Nejlepší multimédia na {{grammar:6sg|{{SITENAME}}}}',
+	'ffeed-motd-entry' => 'Soubor dne {{LOCALDAY}}. {{LOCALMONTHNAMEGEN}} na {{grammar:6sg|{{SITENAME}}}}',
+	'ffeed-potd-title' => 'Kanál obrázků dne {{grammar:2sg|{{SITENAME}}}}',
+	'ffeed-potd-short-title' => 'Obrázek dne',
+	'ffeed-potd-desc' => 'Nejlepší obrázky na {{grammar:6sg|{{SITENAME}}}}',
+	'ffeed-potd-entry' => 'Obrázek dne {{LOCALDAY}}. {{LOCALMONTHNAMEGEN}} na {{grammar:6sg|{{SITENAME}}}}',
+	'ffeed-qotd-title' => 'Kanál citátů dne {{grammar:2sg|{{SITENAME}}}}',
+	'ffeed-qotd-short-title' => 'Citát dne',
+	'ffeed-qotd-desc' => 'Nejlepší citáty na {{grammar:6sg|{{SITENAME}}}}',
+	'ffeed-qotd-entry' => 'Citát dne {{LOCALDAY}}. {{LOCALMONTHNAMEGEN}} na {{grammar:6sg|{{SITENAME}}}}',
+);
+
 /** German (Deutsch)
  * @author Kghbln
  */
@@ -143,7 +179,7 @@ $messages['de'] = array(
 	'ffeed-featured-title' => 'Feeds zu empfohlenen Inhalten auf {{SITENAME}}',
 	'ffeed-featured-short-title' => 'Empfohlene Artikel',
 	'ffeed-featured-desc' => 'Die besten Artikel auf {{SITENAME}}',
-	'ffeed-featured-entry' => 'Am {{LOCALDAY}} {{LOCALMONTHNAME}} auf {{SITENAME}} empfohlener Artikel',
+	'ffeed-featured-entry' => 'Am {{LOCALDAY}}. {{LOCALMONTHNAME}} auf {{SITENAME}} empfohlener Artikel',
 	'ffeed-onthisday-title' => 'Feed zu „An diesem Tag …“ auf {{SITENAME}}',
 	'ffeed-onthisday-short-title' => 'An diesem Tag …',
 	'ffeed-onthisday-desc' => 'Historische Ereignisse dieses Tages',
@@ -204,37 +240,38 @@ $messages['dsb'] = array(
 /** French (Français)
  * @author Gomoko
  * @author Jean-Frédéric
+ * @author Tpt
  */
 $messages['fr'] = array(
-	'ffeed-desc' => 'Ajoute des files de publication du contenu caractéristique du wiki',
-	'ffeed-no-feed' => 'Alimentation non spécifiée',
-	'ffeed-feed-not-found' => 'Alimentation $1 non trouvée',
-	'ffeed-entry-not-found' => "Entrée d'alimentation pour $1 non trouvée",
+	'ffeed-desc' => 'Ajoute des flux de publication du contenu du wiki',
+	'ffeed-no-feed' => 'Source non spécifiée',
+	'ffeed-feed-not-found' => 'Source $1 non trouvée',
+	'ffeed-entry-not-found' => 'Entrée du flux pour $1 non trouvée',
 	'ffeed-sidebar-section' => 'Alimentations de contenu caractéristique',
-	'ffeed-featured-title' => 'File des articles caractéristiques de {{SITENAME}}',
+	'ffeed-featured-title' => "Liste d'articles labellisés de {{SITENAME}}",
 	'ffeed-featured-short-title' => 'Articles en vedette',
 	'ffeed-featured-desc' => 'Meilleurs articles que {{SITENAME}} peut offrir',
 	'ffeed-featured-entry' => 'Article vedette de {{SITENAME}} le {{LOCALDAY}} {{LOCALMONTHNAME}}',
-	'ffeed-onthisday-title' => '{{SITENAME}} File «Ce jour-là..."',
+	'ffeed-onthisday-title' => 'Flux "Ce jour-là..." de {{SITENAME}}',
 	'ffeed-onthisday-short-title' => 'Ce jour-là...',
 	'ffeed-onthisday-desc' => 'Événements historiques sur cette journée',
 	'ffeed-onthisday-entry' => 'Ce jour-là: {{LOCALDAY}} {{LOCALMONTHNAME}}',
-	'ffeed-dyk-title' => '{{SITENAME}} File "Le savez-vous?"',
+	'ffeed-dyk-title' => 'Le savez-vous ? de {{SITENAME}}',
 	'ffeed-dyk-short-title' => 'Le saviez-vous?',
 	'ffeed-dyk-desc' => 'Du contenu le plus récent de {{SITENAME}}',
-	'ffeed-dyk-entry' => 'Le saviez-vous?: {{LOCALDAY}} {{LOCALMONTHNAME}}',
-	'ffeed-motd-title' => 'Flux du média du jour de {{SITENAME}}',
-	'ffeed-motd-short-title' => 'Les médias de la journée.',
+	'ffeed-dyk-entry' => 'Le saviez-vous ? {{LOCALDAY}} {{LOCALMONTHNAME}}',
+	'ffeed-motd-title' => 'Médias du jour de {{SITENAME}}',
+	'ffeed-motd-short-title' => 'Les médias du jour.',
 	'ffeed-motd-desc' => 'Quelques-uns des meilleurs médias sur {{SITENAME}}',
-	'ffeed-motd-entry' => 'Média du jour de {{SITENAME}} pour {{LOCALDAY}} {{LOCALMONTHNAME}}',
-	'ffeed-potd-title' => '{{SITENAME}} File image du jour',
+	'ffeed-motd-entry' => 'Média du jour de {{SITENAME}} pour le {{LOCALDAY}} {{LOCALMONTHNAME}}',
+	'ffeed-potd-title' => 'Images du jour de {{SITENAME}}',
 	'ffeed-potd-short-title' => 'Image du jour',
 	'ffeed-potd-desc' => 'Quelques-unes des meilleures images de {{SITENAME}}',
-	'ffeed-potd-entry' => 'Image du jour de {{SITENAME}} pour {{LOCALDAY}} {{LOCALMONTHNAME}}',
+	'ffeed-potd-entry' => 'Image du jour de {{SITENAME}} pour le {{LOCALDAY}} {{LOCALMONTHNAME}}',
 	'ffeed-qotd-title' => 'Alimentation de la citation de {{SITENAME}} du jour',
 	'ffeed-qotd-short-title' => 'Citation du jour',
 	'ffeed-qotd-desc' => 'Quelques-unes de meilleurs citations sur {{SITENAME}}',
-	'ffeed-qotd-entry' => 'Citation du jour de {{SITENAME}} pour {{LOCALDAY}} {{LOCALMONTHNAME}}',
+	'ffeed-qotd-entry' => 'Citation du jour de {{SITENAME}} pour le {{LOCALDAY}} {{LOCALMONTHNAME}}',
 );
 
 /** Galician (Galego)
@@ -270,6 +307,42 @@ $messages['gl'] = array(
 	'ffeed-qotd-short-title' => 'Cita do día',
 	'ffeed-qotd-desc' => 'Unha das mellores citas de {{SITENAME}}',
 	'ffeed-qotd-entry' => 'Cita do día de {{SITENAME}} o {{LOCALDAY}} de {{LOCALMONTHNAME}}',
+);
+
+/** Hebrew (עברית)
+ * @author Amire80
+ * @author Nirofir
+ */
+$messages['he'] = array(
+	'ffeed-desc' => 'הוספת הזנה לתוכן מומלץ בוויקי',
+	'ffeed-no-feed' => 'לא צוינה הזנה',
+	'ffeed-feed-not-found' => 'ההזנה $1 לא נמצאה',
+	'ffeed-entry-not-found' => 'לא נמצאה הזנה עבור $1',
+	'ffeed-sidebar-section' => 'הזנות תוכן מומלץ',
+	'ffeed-featured-title' => 'הזנת ערכים מומלצים ב{{GRAMMAR:תחילית|{{SITENAME}}}}',
+	'ffeed-featured-short-title' => 'ערכים מומלצים',
+	'ffeed-featured-desc' => 'הערכים הטובים ביותר שיש ל{{GRAMMAR:תחילית|{{SITENAME}}}} להציע',
+	'ffeed-featured-entry' => 'ערך מומלץ ב{{GRAMMAR:תחילית|{{SITENAME}}}} ב־{{LOCALDAY}} ב{{LOCALMONTHNAME}}',
+	'ffeed-onthisday-title' => 'הזנת "היום בהיסטוריה" ב{{GRAMMAR:תחילית|{{SITENAME}}}}',
+	'ffeed-onthisday-short-title' => 'היום בהיסטוריה',
+	'ffeed-onthisday-desc' => 'אירועים היסטוריים ביום הזה',
+	'ffeed-onthisday-entry' => 'היום בהיסטוריה: {{LOCALDAY}} ב־{{LOCALMONTHNAME}}',
+	'ffeed-dyk-title' => 'הזנת "הידעת?" של {{SITENAME}}',
+	'ffeed-dyk-short-title' => 'הידעת?',
+	'ffeed-dyk-desc' => 'מבחר מהתוכן החדש ביותר באתר {{SITENAME}}',
+	'ffeed-dyk-entry' => 'הידעת? – {{LOCALDAY}} ב{{LOCALMONTHNAME}}',
+	'ffeed-motd-title' => 'הזנת קובץ המדיה של היום ב{{GRAMMAR:תחילית|{{SITENAME}}}}',
+	'ffeed-motd-short-title' => 'קובץ המדיה הטוב של היום',
+	'ffeed-motd-desc' => 'קובצי המדיה הטובים ביותר ב{{GRAMMAR:תחילית|{{SITENAME}}}}',
+	'ffeed-motd-entry' => 'הזנת קובץ היום ב{{GRAMMAR:תחילית|{{SITENAME}}}} ב־{{LOCALDAY}} ב{{LOCALMONTHNAME}}',
+	'ffeed-potd-title' => 'הזנת תמונת היום ב{{GRAMMAR:תחילית|{{SITENAME}}}}',
+	'ffeed-potd-short-title' => 'תמונת היום',
+	'ffeed-potd-desc' => 'מבחר מהתמונות הטובות ביותר ב{{GRAMMAR:תחילית|{{SITENAME}}}}',
+	'ffeed-potd-entry' => 'תמונת היום ב{{GRAMMAR:תחילית|{{SITENAME}}}} עבור {{LOCALDAY}} ב{{LOCALMONTHNAME}}',
+	'ffeed-qotd-title' => 'ציטוט היום ב{{GRAMMAR:תחילית|{{SITENAME}}}}',
+	'ffeed-qotd-short-title' => 'ציטוט היום',
+	'ffeed-qotd-desc' => 'הציטוטים הטובים ביותר ב{{GRAMMAR:תחילית|{{SITENAME}}}}',
+	'ffeed-qotd-entry' => 'ציטוט היום ב{{GRAMMAR:תחילית|{{SITENAME}}}} ב־{{LOCALDAY}} ב{{LOCALMONTHNAME}}',
 );
 
 /** Upper Sorbian (Hornjoserbsce)
@@ -340,6 +413,41 @@ $messages['ia'] = array(
 	'ffeed-qotd-short-title' => 'Citation del die',
 	'ffeed-qotd-desc' => 'Alcunes del melior citationes in {{SITENAME}}',
 	'ffeed-qotd-entry' => 'Citation del die de {{SITENAME}} le {{LOCALDAY}} de {{LOCALMONTHNAME}}',
+);
+
+/** Korean (한국어)
+ * @author Kwj2772
+ */
+$messages['ko'] = array(
+	'ffeed-desc' => '위키의 알찬 컨텐츠에 대한 피드를 제공',
+	'ffeed-no-feed' => '피드가 제시되지 않았습니다.',
+	'ffeed-feed-not-found' => '$1 피드가 없습니다',
+	'ffeed-entry-not-found' => '$1 피드 항목이 없습니다.',
+	'ffeed-sidebar-section' => '알찬 컨텐츠 피드',
+	'ffeed-featured-title' => '{{SITENAME}} 알찬 글 피드',
+	'ffeed-featured-short-title' => '알찬 글',
+	'ffeed-featured-desc' => '{{SITENAME}}이(가) 제공하는 최고의 문서',
+	'ffeed-featured-entry' => '{{LOCALMONTHNAME}} {{LOCALDAY}}일 {{SITENAME}} 알찬 글',
+	'ffeed-onthisday-title' => '{{SITENAME}} "오늘의 역사..." 피드',
+	'ffeed-onthisday-short-title' => '오늘의 역사...',
+	'ffeed-onthisday-desc' => '이 날에 있었던 역사적 사건',
+	'ffeed-onthisday-entry' => '오늘의 역사: {{LOCALMONTHNAME}} {{LOCALDAY}}일',
+	'ffeed-dyk-title' => '{{SITENAME}} "알고 계십니까?" 피드',
+	'ffeed-dyk-short-title' => '알고 계십니까?',
+	'ffeed-dyk-desc' => '{{SITENAME}}의 최신 정보에서 가져온 것입니다.',
+	'ffeed-dyk-entry' => '알고 계십니까?: {{LOCALMONTHNAME}} {{LOCALDAY}}일',
+	'ffeed-motd-title' => '{{SITENAME}} 오늘의 미디어 피드',
+	'ffeed-motd-short-title' => '오늘의 미디어',
+	'ffeed-motd-desc' => '{{SITENAME}}의 가장 좋은 미디어 자료',
+	'ffeed-motd-entry' => '{{LOCALMONTHNAME}} {{LOCALDAY}}일 {{SITENAME}} 오늘의 미디어',
+	'ffeed-potd-title' => '{{SITENAME}} 오늘의 그림 피드',
+	'ffeed-potd-short-title' => '오늘의 그림',
+	'ffeed-potd-desc' => '{{SITENAME}}의 가장 좋은 그림',
+	'ffeed-potd-entry' => '{{LOCALMONTHNAME}} {{LOCALDAY}}일 {{SITENAME}} 오늘의 그림',
+	'ffeed-qotd-title' => '{{SITENAME}} 오늘의 명언 피드',
+	'ffeed-qotd-short-title' => '오늘의 명언',
+	'ffeed-qotd-desc' => '{{SITENAME}}에서 가장 좋은 명언 인용',
+	'ffeed-qotd-entry' => '{{LOCALMONTHNAME}} {{LOCALDAY}}일 {{SITENAME}} 오늘의 명언',
 );
 
 /** Luxembourgish (Lëtzebuergesch)
@@ -431,5 +539,16 @@ $messages['nl'] = array(
 	'ffeed-qotd-short-title' => 'Citaat van de dag',
 	'ffeed-qotd-desc' => 'De beste uitspraken van {{SITENAME}}',
 	'ffeed-qotd-entry' => 'Uitspraak van de dag voor van {{LOCALDAY}} {{LOCALMONTHNAME}} van {{SITENAME}}',
+);
+
+/** Telugu (తెలుగు)
+ * @author Veeven
+ */
+$messages['te'] = array(
+	'ffeed-featured-short-title' => 'విశేష వ్యాసాలు',
+	'ffeed-onthisday-short-title' => 'ఈ రోజున&hellip;',
+	'ffeed-onthisday-desc' => 'ఈ రోజు జరిగిన చారిత్రక ఘటనలు',
+	'ffeed-dyk-short-title' => 'మీకు తెలుసా?',
+	'ffeed-potd-short-title' => 'నేటి చిత్రం',
 );
 
