@@ -4,7 +4,7 @@ class FeaturedFeeds {
 	/**
 	 * Returns the list of feeds
 	 * 
-	 * @param $langCode string||bool Code of language to use or false if default
+	 * @param $langCode string|bool Code of language to use or false if default
 	 * @return array Feeds in format of 'name' => array of FeedItem
 	 */
 	public static function getFeeds( $langCode ) {
@@ -270,6 +270,7 @@ class FeaturedFeedChannel {
 	}
 
 	public function init() {
+		global $wgLanguageCode;
 		if ( $this->title !== false ) {
 			return;
 		}
@@ -277,6 +278,14 @@ class FeaturedFeedChannel {
 		$this->shortTitle = $this->msg( $this->options['short-title'] );
 		$this->description = $this->msg( $this->options['description'] )->text();
 		$pageMsg = $this->msg( $this->options['page'] )->params( $this->language->getCode() );
+		if ( $pageMsg->isDisabled() ) {
+			// fall back manually, messages can be existent but empty
+			if ( $this->language->getCode() != $wgLanguageCode ) {
+				$pageMsg = wfMessage( $this->options['page'] )
+					->params( $this->language->getCode() )
+					->inContentLanguage();
+			}
+		}
 		if ( $pageMsg->isDisabled() ) {
 			return;
 		}
