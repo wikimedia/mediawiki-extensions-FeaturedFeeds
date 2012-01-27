@@ -1,6 +1,8 @@
 <?php
 
 class FeaturedFeeds {
+	private static $allInContLang = null;
+
 	/**
 	 * Returns the list of feeds
 	 * 
@@ -8,10 +10,10 @@ class FeaturedFeeds {
 	 * @return array Feeds in format of 'name' => array of FeedItem
 	 */
 	public static function getFeeds( $langCode ) {
-		global $wgMemc, $wgContLang;
+		global $wgMemc, $wgLangCode;
 
-		if ( !$langCode ) {
-			$langCode = $wgContLang->getCode();
+		if ( !$langCode || self::allInContentLanguage() ) {
+			$langCode = $wgLangCode;
 		}
 		static $cache = array();
 		if ( isset( $cache[$langCode] ) ) {
@@ -44,18 +46,34 @@ class FeaturedFeeds {
 	 */
 	private static function getFeedDefinitions() {
 		global $wgFeaturedFeeds, $wgFeaturedFeedsDefaults;
-		$feedDefs = $wgFeaturedFeeds;
-		wfRunHooks( 'FeaturedFeeds::getFeeds', array( &$feedDefs ) );
+		static $feedDefs = false;
+		if ( !$feedDefs ) {
+			$feedDefs = $wgFeaturedFeeds;
+			wfRunHooks( 'FeaturedFeeds::getFeeds', array( &$feedDefs ) );
 
-		// fill defaults
-		foreach ( $feedDefs as $name => $opts ) {
-			foreach ( $wgFeaturedFeedsDefaults as $setting => $value ) {
-				if ( !isset( $opts[$setting] ) ) {
-					$feedDefs[$name][$setting] = $value;
+			// fill defaults
+			self::$allInContLang = true;
+			foreach ( $feedDefs as $name => $opts ) {
+				foreach ( $wgFeaturedFeedsDefaults as $setting => $value ) {
+					if ( !isset( $opts[$setting] ) ) {
+						$feedDefs[$name][$setting] = $value;
+					}
 				}
+				self::$allInContLang = self::$allInContLang && !$feedDefs[$name]['inUserLanguage'];
 			}
 		}
 		return $feedDefs;
+	}
+
+	/**
+	 * Returns whether all feeds are in content language
+	 * @return Boolean
+	 */
+	public static function allInContentLanguage() {
+		if ( is_null( self::$allInContLang ) ) {
+			self::getFeedDefinitions();
+		}
+		return self::$allInContLang;
 	}
 
 	/**
@@ -146,8 +164,6 @@ class FeaturedFeeds {
 	 * @throws MWException
 	 */
 	private static function getFeedsInternal( $langCode ) {
-		global $wgContLang;
-		
 		wfProfileIn( __METHOD__ );
 		$feedDefs = self::getFeedDefinitions();
 		
