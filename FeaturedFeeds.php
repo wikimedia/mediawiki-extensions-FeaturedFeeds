@@ -32,6 +32,7 @@ $wgSpecialPages['FeedItem'] = 'SpecialFeedItem';
 
 $wgAPIModules['featuredfeed'] = 'ApiFeaturedFeeds';
 
+$wgHooks['ArticleSaveComplete'][] = 'FeaturedFeeds::articleSaveComplete';
 $wgHooks['BeforePageDisplay'][] = 'FeaturedFeeds::beforePageDisplay';
 $wgHooks['SkinTemplateOutputPageBeforeExec'][] = 'FeaturedFeeds::skinTemplateOutputPageBeforeExec';
 

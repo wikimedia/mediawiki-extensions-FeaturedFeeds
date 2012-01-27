@@ -18,7 +18,7 @@ class FeaturedFeeds {
 			return $cache[$langCode];
 		}
 
-		$key = wfMemcKey( 'featured-feeds', $langCode );
+		$key = self::getCacheKey( $langCode );
 		$feeds = $wgMemc->get( $key );
 		
 		if ( !$feeds ) {
@@ -27,6 +27,35 @@ class FeaturedFeeds {
 		}
 		$cache[$langCode] = $feeds;
 		return $feeds;
+	}
+
+	/**
+	 * Returns cache key for a given language
+	 * @param String $langCode: Feed language code
+	 * @return String
+	 */
+	private static function getCacheKey( $langCode ) {
+		return wfMemcKey( 'featured-feeds', $langCode );
+	}
+
+	/**
+	 * Returns fully prepared feed definitions
+	 * @return Array
+	 */
+	private static function getFeedDefinitions() {
+		global $wgFeaturedFeeds, $wgFeaturedFeedsDefaults;
+		$feedDefs = $wgFeaturedFeeds;
+		wfRunHooks( 'FeaturedFeeds::getFeeds', array( &$feedDefs ) );
+
+		// fill defaults
+		foreach ( $feedDefs as $name => $opts ) {
+			foreach ( $wgFeaturedFeedsDefaults as $setting => $value ) {
+				if ( !isset( $opts[$setting] ) ) {
+					$feedDefs[$name][$setting] = $value;
+				}
+			}
+		}
+		return $feedDefs;
 	}
 
 	/**
@@ -80,25 +109,47 @@ class FeaturedFeeds {
 	}
 
 	/**
+	 * Purges cache on message edit
+	 *
+	 * @param Article $article
+	 */
+	public static function articleSaveComplete( $article ) {
+		global $wgFeaturedFeeds, $wgMemc, $wgLanguageCode;
+		$title = $article->getTitle();
+		// Although message names are configurable and can be set not to start with 'Ffeed', we
+		// make a shortcut here to avoid running these checks on every NS_MEDIAWIKI edit
+		if ( $title->getNamespace() == NS_MEDIAWIKI && strpos( $title->getText(), 'Ffeed-' ) === 0 ) {
+			$baseTitle = Title::makeTitle( NS_MEDIAWIKI, $title->getBaseText() );
+			$messages  = array( 'page', 'title', 'short-title', 'description', 'entryName' );
+			foreach ( self::getFeedDefinitions() as $feed ) {
+				foreach ( $messages as $msgType ) {
+					$nt = Title::makeTitleSafe( NS_MEDIAWIKI, $feed[$msgType] );
+					if ( $nt->equals( $baseTitle ) ) {
+						wfDebug( "FeaturedFeeds-related page {$title->getFullText()} edited, purging cache\n" );
+						$wgMemc->delete( self::getCacheKey( $wgLanguageCode ) );
+						$lang = $title->getSubpageText();
+						// Sorry, users of multilingual feeds, we can't purge cache for every possible language
+						if ( $lang != $baseTitle->getText() ) {
+							$wgMemc->delete( $lang );
+						}
+						return true;
+					}
+				}
+			}
+		}
+		return true;
+	}
+
+	/**
 	 * @param $langCode string
 	 * @return array
 	 * @throws MWException
 	 */
 	private static function getFeedsInternal( $langCode ) {
-		global $wgFeaturedFeeds, $wgFeaturedFeedsDefaults, $wgContLang;
+		global $wgContLang;
 		
 		wfProfileIn( __METHOD__ );
-		$feedDefs = $wgFeaturedFeeds;
-		wfRunHooks( 'FeaturedFeeds::getFeeds', array( &$feedDefs ) );
-
-		// fill defaults
-		foreach ( $feedDefs as $name => $opts ) {
-			foreach ( $wgFeaturedFeedsDefaults as $setting => $value ) {
-				if ( !isset( $opts[$setting] ) ) {
-					$feedDefs[$name][$setting] = $value;
-				}
-			}
-		}
+		$feedDefs = self::getFeedDefinitions();
 		
 		$feeds = array();
 		$requestedLang = Language::factory( $langCode );
