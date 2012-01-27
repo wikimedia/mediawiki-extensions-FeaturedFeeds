@@ -34,35 +34,34 @@ function wfFeaturedFeedsWMF_getFeeds( &$feeds ) {
 	);
 	switch ( $site ) {
 		case 'wikipedia':
-			$feeds += array(
-				'featured' => array(
-					'page' => 'ffeed-featured-page',
-					'title' => 'ffeed-featured-title',
-					'short-title' => 'ffeed-featured-short-title',
-					'description' => 'ffeed-featured-desc',
-					'entryName' => 'ffeed-featured-entry',
-				),
-				'onthisday' => array(
-					'page' => 'ffeed-onthisday-page',
-					'title' => 'ffeed-onthisday-title',
-					'short-title' => 'ffeed-onthisday-short-title',
-					'description' => 'ffeed-onthisday-desc',
-					'entryName' => 'ffeed-onthisday-entry',
-				),
-				'dyk' => array( // Did you know?
-					'page' => 'ffeed-dyk-page',
-					'title' => 'ffeed-dyk-title',
-					'short-title' => 'ffeed-dyk-short-title',
-					'description' => 'ffeed-dyk-desc',
-					'entryName' => 'ffeed-dyk-entry',
-				),
-			);
 			$feeds += $media;
-			break;
-		case 'commons':
-			$feeds += $media;
-			$feeds['potd']['inUserLanguage'] = true;
-			$feeds['motd']['inUserLanguage'] = true;
+			if ( $lang == 'commons' ) {
+				$feeds['potd']['inUserLanguage'] = $feeds['motd']['inUserLanguage'] = true;
+			} else {
+				$feeds += array(
+					'featured' => array(
+						'page' => 'ffeed-featured-page',
+						'title' => 'ffeed-featured-title',
+						'short-title' => 'ffeed-featured-short-title',
+						'description' => 'ffeed-featured-desc',
+						'entryName' => 'ffeed-featured-entry',
+					),
+					'onthisday' => array(
+						'page' => 'ffeed-onthisday-page',
+						'title' => 'ffeed-onthisday-title',
+						'short-title' => 'ffeed-onthisday-short-title',
+						'description' => 'ffeed-onthisday-desc',
+						'entryName' => 'ffeed-onthisday-entry',
+					),
+					'dyk' => array( // Did you know?
+						'page' => 'ffeed-dyk-page',
+						'title' => 'ffeed-dyk-title',
+						'short-title' => 'ffeed-dyk-short-title',
+						'description' => 'ffeed-dyk-desc',
+						'entryName' => 'ffeed-dyk-entry',
+					),
+				);
+			}
 			break;
 		case 'wikiquote':
 			$feeds['qotd'] = array( // Quote of the Day
