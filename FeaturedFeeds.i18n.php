@@ -142,6 +142,7 @@ $messages['cs'] = array(
 	'ffeed-feed-not-found' => 'Kanál $1 nenalezen',
 	'ffeed-entry-not-found' => 'Záznam kanálu pro $1 nenalezen',
 	'ffeed-sidebar-section' => 'Kanály s vybraným obsahem',
+	'ffeed-invalid-timestamp' => 'Neplatná časová značka kanálu',
 	'ffeed-featured-title' => 'Kanál nejlepších článků {{grammar:2sg|{{SITENAME}}}}',
 	'ffeed-featured-short-title' => 'Nejlepší články',
 	'ffeed-featured-desc' => 'Nejlepší články, které může {{SITENAME}} nabídnout',
@@ -170,6 +171,7 @@ $messages['cs'] = array(
 
 /** German (Deutsch)
  * @author Kghbln
+ * @author Metalhead64
  */
 $messages['de'] = array(
 	'ffeed-desc' => 'Ermöglicht gesonderte Feeds zu bestimmten Inhalten des Wikis',
@@ -177,6 +179,7 @@ $messages['de'] = array(
 	'ffeed-feed-not-found' => 'Feed $1 wurde nicht gefunden.',
 	'ffeed-entry-not-found' => 'Feedeintrag $1 wurde nicht gefunden.',
 	'ffeed-sidebar-section' => 'Feeds zu empfohlenen Inhalten',
+	'ffeed-invalid-timestamp' => 'Ungültiger Feed-Zeitstempel',
 	'ffeed-featured-title' => 'Feeds zu empfohlenen Inhalten auf {{SITENAME}}',
 	'ffeed-featured-short-title' => 'Empfohlene Artikel',
 	'ffeed-featured-desc' => 'Die besten Artikel auf {{SITENAME}}',
@@ -249,6 +252,7 @@ $messages['fr'] = array(
 	'ffeed-feed-not-found' => 'Source $1 non trouvée',
 	'ffeed-entry-not-found' => 'Entrée du flux pour $1 non trouvée',
 	'ffeed-sidebar-section' => 'Alimentations de contenu caractéristique',
+	'ffeed-invalid-timestamp' => "Horodatage d'alimentation invalide",
 	'ffeed-featured-title' => "Liste d'articles labellisés de {{SITENAME}}",
 	'ffeed-featured-short-title' => 'Articles en vedette',
 	'ffeed-featured-desc' => 'Meilleurs articles que {{SITENAME}} peut offrir',
@@ -284,6 +288,7 @@ $messages['gl'] = array(
 	'ffeed-feed-not-found' => 'Non se atopou a fonte de novas "$1"',
 	'ffeed-entry-not-found' => 'Non se atopou a entrada da fonte de novas do día $1',
 	'ffeed-sidebar-section' => 'Fontes de novas dos contidos destacados',
+	'ffeed-invalid-timestamp' => 'A data e a hora da fonte de novas son incorrectas',
 	'ffeed-featured-title' => 'Fonte de novas dos artigos destacados de {{SITENAME}}',
 	'ffeed-featured-short-title' => 'Artigos destacados',
 	'ffeed-featured-desc' => 'Os mellores artigos que ofrece {{SITENAME}}',
@@ -320,6 +325,7 @@ $messages['he'] = array(
 	'ffeed-feed-not-found' => 'ההזנה $1 לא נמצאה',
 	'ffeed-entry-not-found' => 'לא נמצאה הזנה עבור $1',
 	'ffeed-sidebar-section' => 'הזנות תוכן מומלץ',
+	'ffeed-invalid-timestamp' => 'חותם זמן לא תקין להזנה',
 	'ffeed-featured-title' => 'הזנת ערכים מומלצים ב{{GRAMMAR:תחילית|{{SITENAME}}}}',
 	'ffeed-featured-short-title' => 'ערכים מומלצים',
 	'ffeed-featured-desc' => 'הערכים הטובים ביותר שיש ל{{GRAMMAR:תחילית|{{SITENAME}}}} להציע',
@@ -355,6 +361,7 @@ $messages['hsb'] = array(
 	'ffeed-feed-not-found' => 'Kanal $1 njenamakany',
 	'ffeed-entry-not-found' => 'Kanalowy zapisk za $1 njenamakany',
 	'ffeed-sidebar-section' => 'Kanale doporučenych wobsahow',
+	'ffeed-invalid-timestamp' => 'Njepłaćiwy kanalowy časowy kołk',
 	'ffeed-featured-title' => '{{SITENAME}} - kanal wuběrnych nastawkow',
 	'ffeed-featured-short-title' => 'Doporučene nastawki',
 	'ffeed-featured-desc' => 'Najlěpše nastawki, kotrež {{SITENAME}} poskića',
@@ -481,6 +488,7 @@ $messages['mk'] = array(
 	'ffeed-feed-not-found' => 'Каналот $1 не е пронајден',
 	'ffeed-entry-not-found' => 'Каналскиот запис за $1 не е пронајден',
 	'ffeed-sidebar-section' => 'Канали за избрани содржини',
+	'ffeed-invalid-timestamp' => 'Неважечки датум и време за емитувањето',
 	'ffeed-featured-title' => 'Канал на избрани статии на {{SITENAME}}',
 	'ffeed-featured-short-title' => 'Избрани статии',
 	'ffeed-featured-desc' => 'Најдобрите статии на {{SITENAME}}',
@@ -551,5 +559,41 @@ $messages['te'] = array(
 	'ffeed-onthisday-desc' => 'ఈ రోజు జరిగిన చారిత్రక ఘటనలు',
 	'ffeed-dyk-short-title' => 'మీకు తెలుసా?',
 	'ffeed-potd-short-title' => 'నేటి చిత్రం',
+);
+
+/** Simplified Chinese (‪中文(简体)‬)
+ * @author Liangent
+ */
+$messages['zh-hans'] = array(
+	'ffeed-desc' => '为wiki的特色内容提供联合供稿',
+	'ffeed-no-feed' => '没有指定供稿',
+	'ffeed-feed-not-found' => '没有找到供稿$1',
+	'ffeed-entry-not-found' => '找不到$1的供稿项目',
+	'ffeed-sidebar-section' => '特色内容供稿',
+	'ffeed-invalid-timestamp' => '无效时间戳',
+	'ffeed-featured-title' => '{{SITENAME}}特色条目供稿',
+	'ffeed-featured-short-title' => '特色条目',
+	'ffeed-featured-desc' => '{{SITENAME}}上的最佳条目',
+	'ffeed-featured-entry' => '维基百科{{LOCALMONTHNAME}}{{LOCALDAY}}日特色条目',
+	'ffeed-onthisday-title' => '{{SITENAME}}“历史上的今天”供稿',
+	'ffeed-onthisday-short-title' => '历史上的今天',
+	'ffeed-onthisday-desc' => '这一天的历史事件',
+	'ffeed-onthisday-entry' => '历史上的今日：{{LOCALMONTHNAME}}{{LOCALDAY}}日',
+	'ffeed-dyk-title' => '{{SITENAME}}“你知道吗？”供稿',
+	'ffeed-dyk-short-title' => '你知道吗？',
+	'ffeed-dyk-desc' => '来自{{SITENAME}}的最新内容',
+	'ffeed-dyk-entry' => '你知道吗？：{{LOCALMONTHNAME}}{{LOCALDAY}}日',
+	'ffeed-motd-title' => '{{SITENAME}}每日媒体供稿',
+	'ffeed-motd-short-title' => '每日媒体',
+	'ffeed-motd-desc' => '{{SITENAME}}上最佳的一些媒体',
+	'ffeed-motd-entry' => '{{SITENAME}}{{LOCALMONTHNAME}}{{LOCALDAY}}日的每日媒体',
+	'ffeed-potd-title' => '{{SITENAME}}每日图片供稿',
+	'ffeed-potd-short-title' => '每日图片',
+	'ffeed-potd-desc' => '{{SITENAME}}上最佳的一些图片',
+	'ffeed-potd-entry' => '{{SITENAME}}{{LOCALMONTHNAME}}{{LOCALDAY}}日的每日图片',
+	'ffeed-qotd-title' => '{{SITENAME}}每日名言供稿',
+	'ffeed-qotd-short-title' => '每日名言',
+	'ffeed-qotd-desc' => '{{SITENAME}}上最佳的一些名言',
+	'ffeed-qotd-entry' => '{{SITENAME}}{{LOCALMONTHNAME}}{{LOCALDAY}}日的每日名言',
 );
 
