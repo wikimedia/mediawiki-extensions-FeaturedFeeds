@@ -15,6 +15,7 @@ class ApiFeaturedFeeds extends ApiBase {
 	}
 
 	public function execute() {
+		global $wgContLang;
 		wfProfileIn( __METHOD__ );
 
 		$params = $this->extractRequestParams();
@@ -31,7 +32,12 @@ class ApiFeaturedFeeds extends ApiBase {
 			wfProfileOut( __METHOD__ );
 			$this->dieUsage( 'Invalid language code', 'language-invalid' );
 		}
-		$feeds = FeaturedFeeds::getFeeds( $language );
+		$variant = isset( $params['variant'] ) ? $params['variant'] : false;
+		if ( $variant !== false && !in_array( $variant, $wgContLang->getVariants() ) ) {
+			wfProfileOut( __METHOD__ );
+			$this->dieUsage( 'Invalid variant code', 'variant-invalid' );
+		}
+		$feeds = FeaturedFeeds::getFeeds( $language, $variant );
 		$ourFeed = $feeds[$params['feed']];
 
 		$feedClass = new $wgFeedClasses[$params['feedformat']] (
@@ -52,7 +58,7 @@ class ApiFeaturedFeeds extends ApiBase {
 	public function getAllowedParams() {
 		global $wgFeedClasses;
 		$feedFormatNames = array_keys( $wgFeedClasses );
-		$availableFeeds = array_keys( FeaturedFeeds::getFeeds( false ) );
+		$availableFeeds = array_keys( FeaturedFeeds::getFeeds( false, false ) );
 		return array (
 			'feedformat' => array(
 				ApiBase::PARAM_DFLT => 'rss',
@@ -64,7 +70,10 @@ class ApiFeaturedFeeds extends ApiBase {
 			),
 			'language' => array(
 				ApiBase::PARAM_TYPE => 'string',
-			)
+			),
+			'variant' => array(
+				ApiBase::PARAM_TYPE => 'string',
+			),
 		);
 	}
 
@@ -72,7 +81,8 @@ class ApiFeaturedFeeds extends ApiBase {
 		return array(
 			'feedformat' => 'The format of the feed',
 			'feed' => 'Feed name',
-			'language' => 'Feed language code. Ignored by some feeds.'
+			'language' => 'Feed language code. Ignored by some feeds.',
+			'variant' => 'Feed variant code.',
 		);
 	}
 
@@ -84,6 +94,7 @@ class ApiFeaturedFeeds extends ApiBase {
 		return array_merge( parent::getPossibleErrors(), array(
 			array( 'code' => 'feed-invalid', 'info' => 'Invalid subscription feed type' ),
 			array( 'code' => 'language-invalid', 'info' => 'Invalid language code' ),
+			array( 'code' => 'variant-invalid', 'info' => 'Invalid variant code' ),
 		) );
 	}
 
@@ -91,7 +102,7 @@ class ApiFeaturedFeeds extends ApiBase {
 		global $wgVersion;
 		// attempt to find a valid feed name
 		// if none available, just use an example value
-		$availableFeeds = array_keys( FeaturedFeeds::getFeeds( false ) );
+		$availableFeeds = array_keys( FeaturedFeeds::getFeeds( false, false ) );
 		$feed = reset( $availableFeeds );
 		if ( !$feed ) {
 			$feed = 'featured';

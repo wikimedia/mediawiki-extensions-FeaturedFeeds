@@ -7,27 +7,31 @@ class FeaturedFeeds {
 	 * Returns the list of feeds
 	 * 
 	 * @param $langCode string|bool Code of language to use or false if default
+	 * @param $variantCode string|bool Code of variant to use or false if default or empty string if don't convert
 	 * @return array Feeds in format of 'name' => array of FeedItem
 	 */
-	public static function getFeeds( $langCode ) {
-		global $wgMemc, $wgLangCode;
+	public static function getFeeds( $langCode, $variantCode ) {
+		global $wgMemc, $wgLangCode, $wgContLang;
 
 		if ( !$langCode || self::allInContentLanguage() ) {
 			$langCode = $wgLangCode;
 		}
+		if ( $variantCode === false ) {
+			$variantCode = $wgContLang->getPreferredVariant();
+		}
 		static $cache = array();
-		if ( isset( $cache[$langCode] ) ) {
-			return $cache[$langCode];
+		if ( isset( $cache[$langCode][$variantCode] ) ) {
+			return $cache[$langCode][$variantCode];
 		}
 
-		$key = self::getCacheKey( $langCode );
+		$key = self::getCacheKey( $langCode, $variantCode );
 		$feeds = $wgMemc->get( $key );
 		
 		if ( !$feeds ) {
-			$feeds = self::getFeedsInternal( $langCode );
+			$feeds = self::getFeedsInternal( $langCode, $variantCode );
 			$wgMemc->set( $key, $feeds, self::getMaxAge() );
 		}
-		$cache[$langCode] = $feeds;
+		$cache[$langCode][$variantCode] = $feeds;
 		return $feeds;
 	}
 
@@ -36,8 +40,8 @@ class FeaturedFeeds {
 	 * @param String $langCode: Feed language code
 	 * @return String
 	 */
-	private static function getCacheKey( $langCode ) {
-		return wfMemcKey( 'featured-feeds', $langCode );
+	private static function getCacheKey( $langCode, $variantCode ) {
+		return wfMemcKey( 'featured-feeds', $langCode, $variantCode );
 	}
 
 	/**
@@ -83,9 +87,13 @@ class FeaturedFeeds {
 	 * @return bool
 	 */
 	public static function beforePageDisplay( OutputPage &$out ) {
-		global $wgAdvertisedFeedTypes;
+		global $wgAdvertisedFeedTypes, $wgContLang;
 		if ( $out->getTitle()->isMainPage() ) {
-			foreach ( self::getFeeds( $out->getLanguage()->getCode() ) as $feed ) {
+			$feeds = self::getFeeds(
+				$out->getLanguage()->getCode(),
+				$wgContLang->getPreferredVariant()
+			);
+			foreach ( $feeds as $feed ) {
 				foreach ( $wgAdvertisedFeedTypes as $type ) {
 					$out->addLink( array(
 						'rel' => 'alternate',
@@ -106,10 +114,13 @@ class FeaturedFeeds {
 	 * @return Boolean
 	 */
 	public static function skinTemplateOutputPageBeforeExec( &$sk, &$tpl ) {
-		global $wgDisplayFeedsInSidebar, $wgAdvertisedFeedTypes;
+		global $wgDisplayFeedsInSidebar, $wgAdvertisedFeedTypes, $wgContLang;
 
 		if ( $wgDisplayFeedsInSidebar && $sk->getContext()->getTitle()->isMainPage() ) {
-			$feeds = self::getFeeds( $sk->getContext()->getLanguage()->getCode() );
+			$feeds = self::getFeeds(
+				$sk->getContext()->getLanguage()->getCode(),
+				$wgContLang->getPreferredVariant()
+			);
 			$links = array();
 			$format = $wgAdvertisedFeedTypes[0]; // @fixme:
 			foreach ( $feeds as $feed ) {
@@ -163,7 +174,7 @@ class FeaturedFeeds {
 	 * @return array
 	 * @throws MWException
 	 */
-	private static function getFeedsInternal( $langCode ) {
+	private static function getFeedsInternal( $langCode, $variantCode ) {
 		wfProfileIn( __METHOD__ );
 		$feedDefs = self::getFeedDefinitions();
 		
@@ -171,7 +182,7 @@ class FeaturedFeeds {
 		$requestedLang = Language::factory( $langCode );
 		$parser = new Parser();
 		foreach ( $feedDefs as $name => $opts ) {
-			$feed = new FeaturedFeedChannel( $name, $opts, $requestedLang );
+			$feed = new FeaturedFeedChannel( $name, $opts, $requestedLang, $variantCode );
 			if ( !$feed->isOK() ) {
 				continue;
 			}
@@ -252,7 +263,7 @@ class FeaturedFeedChannel {
 	public $shortTitle;
 	public $description;
 
-	public function __construct( $name, $options, $lang ) {
+	public function __construct( $name, $options, $lang, $variant ) {
 		global $wgContLang;
 		if ( !self::$parserOptions ) {
 			self::$parserOptions = new ParserOptions();
@@ -266,6 +277,7 @@ class FeaturedFeedChannel {
 		} else {
 			$this->language = $wgContLang;
 		}
+		$this->variant = $variant;
 	}
 
 	private function msg( $key ) {
@@ -286,13 +298,19 @@ class FeaturedFeedChannel {
 	}
 
 	public function init() {
-		global $wgLanguageCode;
+		global $wgLanguageCode, $wgContLang;
 		if ( $this->title !== false ) {
 			return;
 		}
 		$this->title = $this->msg( $this->options['title'] )->text();
 		$this->shortTitle = $this->msg( $this->options['short-title'] );
 		$this->description = $this->msg( $this->options['description'] )->text();
+		// Convert the messages if the content language has variants.
+		if ( $wgContLang->hasVariants() && $this->variant ) {
+			$this->title = $wgContLang->mConverter->convertTo( $this->title, $this->variant );
+			$this->shortTitle = $wgContLang->mConverter->convertTo( $this->shortTitle, $this->variant );
+			$this->description = $wgContLang->mConverter->convertTo( $this->description, $this->variant );
+		}
 		$pageMsg = $this->msg( $this->options['page'] )->params( $this->language->getCode() );
 		if ( $pageMsg->isDisabled() ) {
 			// fall back manually, messages can be existent but empty
@@ -330,6 +348,7 @@ class FeaturedFeedChannel {
 	 * @return FeaturedFeedItem
 	 */
 	public function getFeedItem( $date ) {
+		global $wgContLang;
 		self::$parserOptions->setTimestamp( $date );
 		self::$parserOptions->setUserLang( $this->language );
 
@@ -347,16 +366,20 @@ class FeaturedFeedChannel {
 			return false;
 		}
 		$text = self::$parser->parse( $text, $title, self::$parserOptions )->getText();
-		$url = SpecialPage::getTitleFor( 'FeedItem' , 
+		$special = SpecialPage::getTitleFor( 'FeedItem' , 
 			$this->name . '/' . wfTimestamp( TS_MW, $date ) . '/' . $this->language->getCode()
-		)->getFullURL();
-
-		return new FeaturedFeedItem(
-			self::$parser->transformMsg( $this->entryName, self::$parserOptions ),
-			wfExpandUrl( $url ),
-			$text,
-			$date
 		);
+		$entry = self::$parser->transformMsg( $this->entryName, self::$parserOptions );
+		if ( $wgContLang->hasVariants() && $this->variant ) {
+			$text = $wgContLang->mConverter->convertTo( $text, $this->variant );
+			$entry = $wgContLang->mConverter->convertTo( $entry, $this->variant );
+			// bug 34010. otherwise variant specified in the second argument can be ignored.
+			$url = $special->getFullURL( array( 'variant' => $this->variant ) );
+		} else {
+			$url = $special->getFullURL();
+		}
+
+		return new FeaturedFeedItem( $entry, wfExpandUrl( $url ), $text, $date );
 	}
 
 	/**
@@ -375,6 +398,9 @@ class FeaturedFeedChannel {
 		);
 		if ( $this->options['inUserLanguage'] && $this->language->getCode() != $wgContLang->getCode() ) {
 			$options['language'] = $this->language->getCode();
+		}
+		if ( $wgContLang->hasVariants() && $this->variant ) {
+			$options['variant'] = $this->variant;
 		}
 		return wfScript( 'api' ) . '?' . wfArrayToCGI( $options );
 	}

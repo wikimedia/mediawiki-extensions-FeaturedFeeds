@@ -15,7 +15,7 @@ class SpecialFeedItem extends UnlistedSpecialPage {
 			return;
 		}
 		list( $feedName, $date, $langCode ) = $parts;
-		$feeds = FeaturedFeeds::getFeeds( $langCode );
+		$feeds = FeaturedFeeds::getFeeds( $langCode, '' );
 		if ( !isset( $feeds[$feedName] ) ) {
 			$out->showErrorPage( 'error', 'ffeed-feed-not-found', array( $feedName ) );
 			return;
@@ -54,8 +54,10 @@ class SpecialFeedItem extends UnlistedSpecialPage {
 	}
 
 	private function displayItem( FeaturedFeedItem $item ) {
+		global $wgContLang;
 		$out = $this->getOutput();
-		$out->setPageTitle( $item->getRawTitle() );
+		// The language converter converts page content automatically but not page title.
+		$out->setPageTitle( $wgContLang->convert( $item->getRawTitle() ) );
 		$out->addHTML( $item->getRawText() );
 	}
 }
