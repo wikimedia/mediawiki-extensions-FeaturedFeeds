@@ -87,6 +87,42 @@ $messages['qqq'] = array(
 	'ffeed-potd-entry' => "Title of day's entry in the Media of the Day [[w:web feed|syndication feed]]",
 );
 
+/** Asturian (Asturianu)
+ * @author Xuacu
+ */
+$messages['ast'] = array(
+	'ffeed-desc' => "Amiesta canales d'agregación del conteníu destacáu de la wiki",
+	'ffeed-no-feed' => 'Nun se conseñó la canal',
+	'ffeed-feed-not-found' => "Nun s'alcontró la canal $1",
+	'ffeed-entry-not-found' => "Nun s'alcontró la entrada de la canal del $1",
+	'ffeed-sidebar-section' => 'Canales de conteníu destacáu',
+	'ffeed-invalid-timestamp' => "Marca d'hora de la canal inválida",
+	'ffeed-featured-title' => 'Canal de los artículos destacaos de {{SITENAME}}',
+	'ffeed-featured-short-title' => 'Artículos destacaos',
+	'ffeed-featured-desc' => "Los meyores artículos qu'ufre {{SITENAME}}",
+	'ffeed-featured-entry' => 'Artículu destacáu de {{SITENAME}} del {{LOCALDAY}} de {{LOCALMONTHNAME}}',
+	'ffeed-onthisday-title' => 'Canal «Tal día como güei...» de {{SITENAME}}',
+	'ffeed-onthisday-short-title' => 'Tal día como güei...',
+	'ffeed-onthisday-desc' => "Socesos históricos d'esti día",
+	'ffeed-onthisday-entry' => 'Tal día como güei: {{LOCALDAY}} de {{LOCALMONTHNAME}}',
+	'ffeed-dyk-title' => 'Canal "Sabíes que...?" de {{SITENAME}}',
+	'ffeed-dyk-short-title' => '¿Sabíes que...?',
+	'ffeed-dyk-desc' => 'Del conteníu más nuevu de {{SITENAME}}',
+	'ffeed-dyk-entry' => '¿Sabíes que...?: {{LOCALDAY}} de {{LOCALMONTHNAME}}',
+	'ffeed-motd-title' => 'Canal multimedia del día de {{SITENAME}}',
+	'ffeed-motd-short-title' => 'Multimedia del día',
+	'ffeed-motd-desc' => 'Esbilla de la meyor multimedia de {{SITENAME}}',
+	'ffeed-motd-entry' => 'Multimedia del día de {{SITENAME}} del {{LOCALDAY}} de {{LOCALMONTHNAME}}',
+	'ffeed-potd-title' => 'Canal imaxe del día de {{SITENAME}}',
+	'ffeed-potd-short-title' => 'Imaxe del día',
+	'ffeed-potd-desc' => 'Esbilla de les meyores imaxes de {{SITENAME}}',
+	'ffeed-potd-entry' => 'Imaxe del día de {{SITENAME}} del {{LOCALDAY}} de {{LOCALMONTHNAME}}',
+	'ffeed-qotd-title' => 'Canal cita del día de {{SITENAME}}',
+	'ffeed-qotd-short-title' => 'Cita del día',
+	'ffeed-qotd-desc' => 'Esbilla de les meyores cites de {{SITENAME}}',
+	'ffeed-qotd-entry' => 'Cita del día de {{SITENAME}} del {{LOCALDAY}} de {{LOCALMONTHNAME}}',
+);
+
 /** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
  * @author EugeneZelenko
  * @author Jim-by
@@ -215,6 +251,7 @@ $messages['dsb'] = array(
 	'ffeed-feed-not-found' => 'Kanal $1 njenamakany',
 	'ffeed-entry-not-found' => 'Kanalowy zapisk za $1 njenamakany',
 	'ffeed-sidebar-section' => 'Kanale dopóruconych wopśimjeśow',
+	'ffeed-invalid-timestamp' => 'Njepłaśiwy kanalowy casowy kołk',
 	'ffeed-featured-title' => '{{SITENAME}} - kanal wuběrnych nastawkow',
 	'ffeed-featured-short-title' => 'Dopórucone nastawki',
 	'ffeed-featured-desc' => 'Nejlěpše nastawki, kótarež {{SITENAME}} póbitujo',
@@ -227,7 +264,7 @@ $messages['dsb'] = array(
 	'ffeed-dyk-short-title' => 'Sy južo wěźeł?',
 	'ffeed-dyk-desc' => 'Nejnowše wopśimjeśe z {{GRAMMAR:genitiw|{{SITENAME}}}}',
 	'ffeed-dyk-entry' => 'Sćo wěźeli, až...?: {{LOCALDAY}}. {{LOCALMONTHNAMEGEN}}',
-	'ffeed-motd-title' => '{{SITENAME}} - kanal citata dnja',
+	'ffeed-motd-title' => 'Kanal mediuma dnja na {{GRAMMAR:lokatiw|{{SITENAME}}}}',
 	'ffeed-motd-short-title' => 'Medium dnja',
 	'ffeed-motd-desc' => 'Někotare z nejlěpšych mediumow na {{GRAMMAR:lokatiw|{{SITENAME}}}}',
 	'ffeed-motd-entry' => '{{SITENAME}} - medium dnja za {{LOCALDAY}}. {{LOCALMONTHNAMEGEN}}',
@@ -397,6 +434,7 @@ $messages['ia'] = array(
 	'ffeed-feed-not-found' => 'Syndication $1 non trovate',
 	'ffeed-entry-not-found' => 'Entrata de syndication pro $1 non trovate',
 	'ffeed-sidebar-section' => 'Syndicationes de contento eminente',
+	'ffeed-invalid-timestamp' => 'Data e hora de syndication invalide',
 	'ffeed-featured-title' => 'Syndication de articulos eminente de {{SITENAME}}',
 	'ffeed-featured-short-title' => 'Articulos eminente',
 	'ffeed-featured-desc' => 'Le melior articulos que {{SITENAME}} pote offerer',
@@ -462,6 +500,8 @@ $messages['ko'] = array(
  * @author Robby
  */
 $messages['lb'] = array(
+	'ffeed-no-feed' => 'Feed net spezifizéiert',
+	'ffeed-feed-not-found' => 'De Feed $1 gouf net fonnt',
 	'ffeed-featured-short-title' => 'Recommandéiert Artikelen',
 	'ffeed-featured-desc' => 'Déi bescht Artikelen déi {{SITENAME}} ze bidden huet',
 	'ffeed-featured-entry' => 'Den  {{LOCALDAY}} {{LOCALMONTHNAME}} op {{SITENAME}} ausgezeechenten Artikel',
@@ -473,6 +513,7 @@ $messages['lb'] = array(
 	'ffeed-dyk-desc' => 'De rezensten Inhalt op {{SITENAME}}',
 	'ffeed-dyk-entry' => 'Wosst Dir schonn?:  {{LOCALMONTHNAME}} {{LOCALDAY}}',
 	'ffeed-motd-title' => '{{SITENAME}} Feed mam Medie-Fichier vum Dag',
+	'ffeed-motd-short-title' => 'Medie-Fichier vum Dag',
 	'ffeed-motd-desc' => 'E puer vun de beschte Medie-Fichieren op {{SITENAME}}',
 	'ffeed-potd-short-title' => 'Bild vum Dag',
 	'ffeed-potd-desc' => 'E puer vun de beschte Biller op {{SITENAME}}',
