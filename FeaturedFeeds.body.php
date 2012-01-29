@@ -298,7 +298,7 @@ class FeaturedFeedChannel {
 	}
 
 	public function init() {
-		global $wgLanguageCode, $wgContLang;
+		global $wgContLang;
 		if ( $this->title !== false ) {
 			return;
 		}
@@ -312,14 +312,6 @@ class FeaturedFeedChannel {
 			$this->description = $wgContLang->mConverter->convertTo( $this->description, $this->variant );
 		}
 		$pageMsg = $this->msg( $this->options['page'] )->params( $this->language->getCode() );
-		if ( $pageMsg->isDisabled() ) {
-			// fall back manually, messages can be existent but empty
-			if ( $this->language->getCode() != $wgLanguageCode ) {
-				$pageMsg = wfMessage( $this->options['page'] )
-					->params( $this->language->getCode() )
-					->inContentLanguage();
-			}
-		}
 		if ( $pageMsg->isDisabled() ) {
 			return;
 		}
