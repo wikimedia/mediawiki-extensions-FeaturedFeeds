@@ -365,7 +365,6 @@ class FeaturedFeedChannel {
 		if ( $wgContLang->hasVariants() && $this->variant ) {
 			$text = $wgContLang->mConverter->convertTo( $text, $this->variant );
 			$entry = $wgContLang->mConverter->convertTo( $entry, $this->variant );
-			// bug 34010. otherwise variant specified in the second argument can be ignored.
 			$url = $special->getFullURL( array( 'variant' => $this->variant ) );
 		} else {
 			$url = $special->getFullURL();
