@@ -46,6 +46,13 @@ function wfFeaturedFeedsWMF_getFeeds( &$feeds ) {
 						'description' => 'ffeed-featured-desc',
 						'entryName' => 'ffeed-featured-entry',
 					),
+					'good' => array(
+						'page' => 'ffeed-good-page',
+						'title' => 'ffeed-good-title',
+						'short-title' => 'ffeed-good-short-title',
+						'description' => 'ffeed-good-desc',
+						'entryName' => 'ffeed-good-entry',
+					),
 					'onthisday' => array(
 						'page' => 'ffeed-onthisday-page',
 						'title' => 'ffeed-onthisday-title',

@@ -25,6 +25,12 @@ $messages['en'] = array(
 	'ffeed-featured-desc' => 'Best articles {{SITENAME}} has to offer',
 	'ffeed-featured-entry' => '{{LOCALMONTHNAME}} {{LOCALDAY}} {{SITENAME}} featured article',
 
+	# Good Article
+	'ffeed-good-title' => '{{SITENAME}} good articles feed',
+	'ffeed-good-short-title' => 'Good articles',
+	'ffeed-good-desc' => 'Good articles {{SITENAME}} has to offer',
+	'ffeed-good-entry' => '{{LOCALMONTHNAME}} {{LOCALDAY}} {{SITENAME}} good article',
+
 	# On this day...
 	'ffeed-onthisday-title' => '{{SITENAME}} "On this day..." feed',
 	'ffeed-onthisday-short-title' => 'On this day...',
