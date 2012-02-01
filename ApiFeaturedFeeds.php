@@ -28,8 +28,7 @@ class ApiFeaturedFeeds extends ApiBase {
 
 		$language = isset( $params['language'] ) ? $params['language'] : false;
 		if ( $language !== false && !Language::isValidCode( $language ) ) {
-			wfProfileOut( __METHOD__ );
-			$this->dieUsage( 'Invalid language code', 'language-invalid' );
+			$language = false;
 		}
 		$feeds = FeaturedFeeds::getFeeds( $language );
 		$ourFeed = $feeds[$params['feed']];
@@ -72,7 +71,6 @@ class ApiFeaturedFeeds extends ApiBase {
 		return array(
 			'feedformat' => 'The format of the feed',
 			'feed' => 'Feed name',
-			'language' => 'Feed language code. Ignored by some feeds.'
 		);
 	}
 
