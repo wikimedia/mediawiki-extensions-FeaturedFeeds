@@ -118,6 +118,10 @@ $messages['ast'] = array(
 	'ffeed-featured-short-title' => 'Artículos destacaos',
 	'ffeed-featured-desc' => "Los meyores artículos qu'ufre {{SITENAME}}",
 	'ffeed-featured-entry' => 'Artículu destacáu de {{SITENAME}} del {{LOCALDAY}} de {{LOCALMONTHNAME}}',
+	'ffeed-good-title' => 'Canal de los artículos bonos de {{SITENAME}}',
+	'ffeed-good-short-title' => 'Artículos bonos',
+	'ffeed-good-desc' => "Los artículos bonos qu'ufre {{SITENAME}}",
+	'ffeed-good-entry' => 'Artículu bono de {{SITENAME}} del {{LOCALDAY}} de {{LOCALMONTHNAME}}',
 	'ffeed-onthisday-title' => 'Canal «Tal día como güei...» de {{SITENAME}}',
 	'ffeed-onthisday-short-title' => 'Tal día como güei...',
 	'ffeed-onthisday-desc' => "Socesos históricos d'esti día",
@@ -150,9 +154,14 @@ $messages['be-tarask'] = array(
 	'ffeed-no-feed' => 'Стужка не пазначаная',
 	'ffeed-feed-not-found' => 'Стужка $1 ня знойдзеная',
 	'ffeed-entry-not-found' => 'Запіс ў стужцы за $1 ня знойдзены',
+	'ffeed-sidebar-section' => 'Стужкі абранага зьместу',
+	'ffeed-invalid-timestamp' => 'Няслушны(ая) дата/час стужкі',
 	'ffeed-featured-title' => 'Стужка з абранымі артыкуламі {{GRAMMAR:родны|{{SITENAME}}}}',
+	'ffeed-featured-short-title' => 'Абраныя артыкулы',
 	'ffeed-featured-desc' => 'Найлепшыя артыкулы ў {{GRAMMAR:месны|{{SITENAME}}}}',
 	'ffeed-featured-entry' => 'Абраны артыкул {{GRAMMAR:родны|{{SITENAME}}}} за {{LOCALDAY}} {{LOCALMONTHNAMEGEN}}',
+	'ffeed-good-title' => 'Стужка з добрымі артыкуламі {{GRAMMAR:родны|{{SITENAME}}}}',
+	'ffeed-good-short-title' => 'Добрыя артыкулы',
 	'ffeed-onthisday-title' => 'Стужка {{GRAMMAR:родны|{{SITENAME}}}} «Гэты дзень у гісторыі»',
 	'ffeed-onthisday-desc' => 'Гістарычныя падзеі, якія адбыліся ў гэты дзень',
 	'ffeed-onthisday-entry' => 'У гэты дзень, {{LOCALDAY}} {{LOCALMONTHNAMEGEN}}',
@@ -233,7 +242,7 @@ $messages['de'] = array(
 	'ffeed-entry-not-found' => 'Feedeintrag $1 wurde nicht gefunden.',
 	'ffeed-sidebar-section' => 'Feeds zu empfohlenen Inhalten',
 	'ffeed-invalid-timestamp' => 'Ungültiger Feed-Zeitstempel',
-	'ffeed-featured-title' => 'Feeds zu exzellenten Artikeln auf {{SITENAME}}',
+	'ffeed-featured-title' => 'Feed zu exzellenten Artikeln auf {{SITENAME}}',
 	'ffeed-featured-short-title' => 'Exzellente Artikel',
 	'ffeed-featured-desc' => 'Die exzellenten Artikel auf {{SITENAME}}',
 	'ffeed-featured-entry' => 'Am {{LOCALDAY}}. {{LOCALMONTHNAME}} auf {{SITENAME}} exzellenter Artikel',
@@ -261,6 +270,10 @@ $messages['de'] = array(
 	'ffeed-qotd-short-title' => 'Zitat des Tages',
 	'ffeed-qotd-desc' => 'Einige der besten Zitate auf {{SITENAME}}',
 	'ffeed-qotd-entry' => 'Zitat des Tages am {{LOCALDAY}} {{LOCALMONTHNAME}} auf {{SITENAME}}',
+	'ffeed-featuredtexts-title' => 'Feed zu exzellenten Texten auf {{SITENAME}}',
+	'ffeed-featuredtexts-short-title' => 'Exzellente Texte',
+	'ffeed-featuredtexts-desc' => 'Die besten Texte auf {{SITENAME}}',
+	'ffeed-featuredtexts-entry' => 'Am {{LOCALDAY}}. {{LOCALMONTHNAME}} auf {{SITENAME}} exzellenter Text',
 );
 
 /** Lower Sorbian (Dolnoserbski)
@@ -297,6 +310,57 @@ $messages['dsb'] = array(
 	'ffeed-qotd-short-title' => 'Citat dnja',
 	'ffeed-qotd-desc' => 'Někotare z nejlěpšych citatow na {{GRAMMAR:lokatiw|{{SITENAME}}}}',
 	'ffeed-qotd-entry' => '{{SITENAME}} - citat dnja za {{LOCALDAY}}. {{LOCALMONTHNAMEGEN}}',
+);
+
+/** Spanish (Español)
+ * @author Armando-Martin
+ */
+$messages['es'] = array(
+	'ffeed-desc' => 'Agrega fuentes web (feeds) de sindicación de contenido destacado del wiki',
+	'ffeed-no-feed' => 'Fuente web (feed) no especificada',
+	'ffeed-feed-not-found' => 'Fuente web (feed) $1 no encontrada',
+	'ffeed-entry-not-found' => 'Entrada de fuente web (feed) para $1 no encontrada',
+	'ffeed-sidebar-section' => 'Fuentes web (feed) de contenido destacado',
+	'ffeed-invalid-timestamp' => 'Fecha y hora de la fuente web (feed) inválida',
+	'ffeed-featured-title' => 'Fuente web (feed) de artículos destacados de {{SITENAME}}',
+	'ffeed-featured-short-title' => 'Artículos destacados',
+	'ffeed-featured-desc' => 'Mejores artículos que {{SITENAME}} puede ofrecer',
+	'ffeed-featured-entry' => 'Artículo destacado de {{SITENAME}} el {{LOCALDAY}} {{LOCALMONTHNAME}}',
+	'ffeed-good-title' => 'Fuente web (feed) de artículos buenos de {{SITENAME}}',
+	'ffeed-good-short-title' => 'Artículos buenos',
+	'ffeed-good-desc' => 'Artículos buenos que {{SITENAME}} puede ofrecer',
+	'ffeed-good-entry' => 'Artículo bueno de {{SITENAME}} el {{LOCALDAY}} {{LOCALMONTHNAME}}',
+	'ffeed-onthisday-title' => 'Fuente web (feed) "De este día..." en {{SITENAME}}',
+	'ffeed-onthisday-short-title' => 'En este día...',
+	'ffeed-onthisday-desc' => 'Acontecimientos históricos en este día',
+	'ffeed-onthisday-entry' => 'En este día: {{LOCALDAY}} {{LOCALMONTHNAME}}',
+	'ffeed-dyk-title' => 'Fuente web (feed) "¿Sabía Vd. que..." en {{SITENAME}}',
+	'ffeed-dyk-short-title' => '¿Sabía usted?',
+	'ffeed-dyk-desc' => 'Del contenido más reciente de {{SITENAME}}',
+	'ffeed-dyk-entry' => '¿Sabía usted?: {{LOCALDAY}} {{LOCALMONTHNAME}}',
+	'ffeed-motd-title' => 'Fuente web (feed) de Medios de comunicación del día en {{SITENAME}}',
+	'ffeed-motd-short-title' => 'Medios de comunicación del día',
+	'ffeed-motd-desc' => 'Algunos de los mejores medios de comunicación en {{SITENAME}}',
+	'ffeed-motd-entry' => 'Medios de comunicación del día {{LOCALDAY}} {{LOCALMONTHNAME}} en {{SITENAME}}',
+	'ffeed-potd-title' => 'Fuente web (feed) de Imagen del día en {{SITENAME}}',
+	'ffeed-potd-short-title' => 'Imagen del día',
+	'ffeed-potd-desc' => 'Algunas de las mejores imágenes en {{SITENAME}}',
+	'ffeed-potd-entry' => 'Imagen del día {{LOCALDAY}} {{LOCALMONTHNAME}} en {{SITENAME}}',
+	'ffeed-qotd-title' => 'Fuente web (feed) de Cita del día en {{SITENAME}}',
+	'ffeed-qotd-short-title' => 'Cita del día',
+	'ffeed-qotd-desc' => 'Algunas de las mejores citas en {{SITENAME}}',
+	'ffeed-qotd-entry' => 'Cita del día {{LOCALDAY}} {{LOCALMONTHNAME}} en {{SITENAME}}',
+	'ffeed-featuredtexts-title' => 'Fuente web (feed) de textos destacados de {{SITENAME}}',
+	'ffeed-featuredtexts-short-title' => 'Textos destacados',
+	'ffeed-featuredtexts-desc' => 'Mejores textos {{SITENAME}} puede ofrecer',
+	'ffeed-featuredtexts-entry' => 'Texto destacado de {{SITENAME}} el {{LOCALDAY}} {{LOCALMONTHNAME}}',
+);
+
+/** Finnish (Suomi)
+ * @author Crt
+ */
+$messages['fi'] = array(
+	'ffeed-potd-short-title' => 'Päivän kuva',
 );
 
 /** French (Français)
@@ -379,6 +443,10 @@ $messages['gl'] = array(
 	'ffeed-qotd-short-title' => 'Cita do día',
 	'ffeed-qotd-desc' => 'Unha das mellores citas de {{SITENAME}}',
 	'ffeed-qotd-entry' => 'Cita do día de {{SITENAME}} o {{LOCALDAY}} de {{LOCALMONTHNAME}}',
+	'ffeed-featuredtexts-title' => 'Fonte de novas dos textos destacados de {{SITENAME}}',
+	'ffeed-featuredtexts-short-title' => 'Textos destacados',
+	'ffeed-featuredtexts-desc' => 'Os mellores textos que ofrece {{SITENAME}}',
+	'ffeed-featuredtexts-entry' => 'Texto destacado de {{SITENAME}} o {{LOCALDAY}} de {{LOCALMONTHNAME}}',
 );
 
 /** Hebrew (עברית)
@@ -456,6 +524,10 @@ $messages['hsb'] = array(
 	'ffeed-qotd-short-title' => 'Citat dnja',
 	'ffeed-qotd-desc' => 'Někotre z najlěpšich citatow na {{GRAMMAR:lokatiw|{{SITENAME}}}}',
 	'ffeed-qotd-entry' => '{{SITENAME}} - medij dnja za {{LOCALDAY}}. {{LOCALMONTHNAMEGEN}}',
+	'ffeed-featuredtexts-title' => '{{SITENAME}} - kanal wuběrnych nastawkow',
+	'ffeed-featuredtexts-short-title' => 'Wuběrne teksty',
+	'ffeed-featuredtexts-desc' => 'Najlěpše teksty, kotrež {{SITENAME}} poskića',
+	'ffeed-featuredtexts-entry' => 'Wuběrny tekst na {{GRAMMAR:lokatiw|{{SITENAME}}}} {{LOCALDAY}}. {{LOCALMONTHNAMEGEN}}',
 );
 
 /** Interlingua (Interlingua)
@@ -496,6 +568,10 @@ $messages['ia'] = array(
 	'ffeed-qotd-short-title' => 'Citation del die',
 	'ffeed-qotd-desc' => 'Alcunes del melior citationes in {{SITENAME}}',
 	'ffeed-qotd-entry' => 'Citation del die de {{SITENAME}} le {{LOCALDAY}} de {{LOCALMONTHNAME}}',
+	'ffeed-featuredtexts-title' => 'Syndication de textos eminente de {{SITENAME}}',
+	'ffeed-featuredtexts-short-title' => 'Textos eminente',
+	'ffeed-featuredtexts-desc' => 'Le melior textos que {{SITENAME}} pote offerer',
+	'ffeed-featuredtexts-entry' => 'Texto eminente de {{SITENAME}} le {{LOCALDAY}} de {{LOCALMONTHNAME}}',
 );
 
 /** Korean (한국어)
@@ -604,6 +680,23 @@ $messages['mk'] = array(
 	'ffeed-qotd-short-title' => 'Мисла на денот',
 	'ffeed-qotd-desc' => 'Наијнтересните мисли на {{SITENAME}}',
 	'ffeed-qotd-entry' => 'Мисла на денот за {{LOCALDAY}} {{LOCALMONTHNAME}} на {{SITENAME}}',
+);
+
+/** Marathi (मराठी)
+ * @author Rahuldeshmukh101
+ */
+$messages['mr'] = array(
+	'ffeed-good-short-title' => 'उत्तम  लेख',
+	'ffeed-onthisday-short-title' => 'ह्या  दिवशी ...',
+	'ffeed-onthisday-desc' => 'ह्या दिवशीच्या ऐतिहासिक घटना',
+	'ffeed-onthisday-entry' => 'ह्या दिवशी : {{LOCALMONTHNAME}} {{LOCALDAY}}',
+	'ffeed-dyk-short-title' => 'आपणास माहित आहे का ?',
+	'ffeed-dyk-entry' => 'आपणास माहित आहे का ?: {{LOCALMONTHNAME}} {{LOCALDAY}}',
+	'ffeed-motd-short-title' => 'आजचे    चलचित्र',
+	'ffeed-potd-short-title' => 'आजचे चित्र',
+	'ffeed-potd-desc' => 'काही  उत्तम चित्रे  {{SITENAME}} येथे आहेत',
+	'ffeed-qotd-short-title' => 'आजचा सुविचार',
+	'ffeed-qotd-desc' => 'काही  उत्तम विचार सुमने {{SITENAME}} येथे आहेत',
 );
 
 /** Malay (Bahasa Melayu)
