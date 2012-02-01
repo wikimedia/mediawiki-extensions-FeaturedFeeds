@@ -79,6 +79,16 @@ function wfFeaturedFeedsWMF_getFeeds( &$feeds ) {
 				'entryName' => 'ffeed-qotd-entry',
 			);
 			break;
+		case 'wikisource':
+			$feeds['featuredtexts'] = array( // Featured Text
+				'page' => 'ffeed-featuredtexts-page',
+				'title' => 'ffeed-featuredtexts-title',
+				'short-title' => 'ffeed-featuredtexts-short-title',
+				'description' => 'ffeed-featuredtexts-desc',
+				'entryName' => 'ffeed-featuredtexts-entry',
+			);
+			break;
+
 	}
 	return true;
 }

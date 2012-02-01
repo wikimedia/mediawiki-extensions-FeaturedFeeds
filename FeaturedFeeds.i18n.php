@@ -67,6 +67,13 @@ $messages['en'] = array(
 	'ffeed-qotd-short-title' => 'Quote of the day',
 	'ffeed-qotd-desc' => 'Some of the finest quotes on {{SITENAME}}',
 	'ffeed-qotd-entry' => '{{SITENAME}} quote of the day for {{LOCALMONTHNAME}} {{LOCALDAY}}',
+
+	# Featured Text
+	'ffeed-featuredtexts-page' => '', # do not localise
+	'ffeed-featuredtexts-title' => '{{SITENAME}} featured texts feed',
+	'ffeed-featuredtexts-short-title' => 'Featured texts',
+	'ffeed-featuredtexts-desc' => 'Best texts {{SITENAME}} has to offer',
+	'ffeed-featuredtexts-entry' => '{{LOCALMONTHNAME}} {{LOCALDAY}} {{SITENAME}} featured text',
 );
 
 /** Message documentation (Message documentation)
@@ -92,6 +99,9 @@ $messages['qqq'] = array(
 	'ffeed-potd-title' => 'Title of the Picture Of The Day [[w:web feed|syndication feed]]',
 	'ffeed-potd-desc' => 'Description of the Picture Of The Day [[w:web feed|syndication feed]]',
 	'ffeed-potd-entry' => "Title of day's entry in the Media of the Day [[w:web feed|syndication feed]]",
+	'ffeed-featuredtexts-title' => 'Title of the Featured Texts [[w:web feed|syndication feed]]',
+	'ffeed-featuredtexts-desc' => 'Description of the Featured Texts [[w:web feed|syndication feed]]',
+	'ffeed-featuredtexts-entry' => "Title of day's entry in the Featured Texts [[w:web feed|syndication feed]]",
 );
 
 /** Asturian (Asturianu)
