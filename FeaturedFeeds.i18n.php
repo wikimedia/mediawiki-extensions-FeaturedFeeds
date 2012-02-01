@@ -47,7 +47,7 @@ $messages['en'] = array(
 	'ffeed-dyk-desc' => "From {{SITENAME}}'s newest content",
 	'ffeed-dyk-entry' => 'Did you know?: {{LOCALMONTHNAME}} {{LOCALDAY}}',
 
-	// Media Of The Day
+	# Media Of The Day
 	'ffeed-motd-page' => '', # do not localise
 	'ffeed-motd-title' => '{{SITENAME}} media of the day feed',
 	'ffeed-motd-short-title' => 'Media of the day',
