@@ -295,6 +295,14 @@ class FeaturedFeedChannel {
 		$this->description = $this->msg( $this->options['description'] )->text();
 		$pageMsg = $this->msg( $this->options['page'] )->params( $this->language->getCode() );
 		if ( $pageMsg->isDisabled() ) {
+			// fall back manually, messages can be existent but empty
+			if ( $this->language->getCode() != $wgLanguageCode ) {
+				$pageMsg = wfMessage( $this->options['page'] )
+					->params( $this->language->getCode() )
+					->inContentLanguage();
+			}
+		}
+		if ( $pageMsg->isDisabled() ) {
 			return;
 		}
 		$this->page = $pageMsg->plain();

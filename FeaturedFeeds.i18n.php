@@ -20,42 +20,49 @@ $messages['en'] = array(
 	'ffeed-invalid-timestamp' => 'Invalid feed timestamp',
 
 	# Featured Article
+	'ffeed-featured-page' => '', # do not localise
 	'ffeed-featured-title' => '{{SITENAME}} featured articles feed',
 	'ffeed-featured-short-title' => 'Featured articles',
 	'ffeed-featured-desc' => 'Best articles {{SITENAME}} has to offer',
 	'ffeed-featured-entry' => '{{LOCALMONTHNAME}} {{LOCALDAY}} {{SITENAME}} featured article',
 
 	# Good Article
+	'ffeed-good-page' => '', # do not localise
 	'ffeed-good-title' => '{{SITENAME}} good articles feed',
 	'ffeed-good-short-title' => 'Good articles',
 	'ffeed-good-desc' => 'Good articles {{SITENAME}} has to offer',
 	'ffeed-good-entry' => '{{LOCALMONTHNAME}} {{LOCALDAY}} {{SITENAME}} good article',
 
 	# On this day...
+	'ffeed-onthisday-page' => '', # do not localise
 	'ffeed-onthisday-title' => '{{SITENAME}} "On this day..." feed',
 	'ffeed-onthisday-short-title' => 'On this day...',
 	'ffeed-onthisday-desc' => 'Historical events on this day',
 	'ffeed-onthisday-entry' => 'On this day: {{LOCALMONTHNAME}} {{LOCALDAY}}',
 
 	# Did You Know?
+	'ffeed-dyk-page' => '', # do not localise
 	'ffeed-dyk-title' => '{{SITENAME}} "Did You Know?" feed',
 	'ffeed-dyk-short-title' => 'Did you know?',
 	'ffeed-dyk-desc' => "From {{SITENAME}}'s newest content",
 	'ffeed-dyk-entry' => 'Did you know?: {{LOCALMONTHNAME}} {{LOCALDAY}}',
 
 	// Media Of The Day
+	'ffeed-motd-page' => '', # do not localise
 	'ffeed-motd-title' => '{{SITENAME}} media of the day feed',
 	'ffeed-motd-short-title' => 'Media of the day',
 	'ffeed-motd-desc' => 'Some of the finest media on {{SITENAME}}',
 	'ffeed-motd-entry' => '{{SITENAME}} media of the day for {{LOCALMONTHNAME}} {{LOCALDAY}}',
 
 	# Picture Of The Day
+	'ffeed-potd-page' => '', # do not localise
 	'ffeed-potd-title' => '{{SITENAME}} picture of the day feed',
 	'ffeed-potd-short-title' => 'Picture of the day',
 	'ffeed-potd-desc' => 'Some of the finest images on {{SITENAME}}',
 	'ffeed-potd-entry' => '{{SITENAME}} picture of the day for {{LOCALMONTHNAME}} {{LOCALDAY}}',
 
 	# Quote of the Day
+	'ffeed-qotd-page' => '', # do not localise
 	'ffeed-qotd-title' => '{{SITENAME}} quote of the day feed',
 	'ffeed-qotd-short-title' => 'Quote of the day',
 	'ffeed-qotd-desc' => 'Some of the finest quotes on {{SITENAME}}',
