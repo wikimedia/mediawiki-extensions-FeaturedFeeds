@@ -47,7 +47,7 @@ class FeaturedFeeds {
 	private static function getFeedDefinitions() {
 		global $wgFeaturedFeeds, $wgFeaturedFeedsDefaults;
 		static $feedDefs = false;
-		if ( !$feedDefs ) {
+		if ( $feedDefs === false ) {
 			$feedDefs = $wgFeaturedFeeds;
 			wfRunHooks( 'FeaturedFeeds::getFeeds', array( &$feedDefs ) );
 
