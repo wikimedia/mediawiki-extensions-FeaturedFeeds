@@ -71,6 +71,7 @@ class ApiFeaturedFeeds extends ApiBase {
 		return array(
 			'feedformat' => 'The format of the feed',
 			'feed' => 'Feed name',
+			'language' => 'Feed language code. Ignored by some feeds.',
 		);
 	}
 
@@ -81,7 +82,6 @@ class ApiFeaturedFeeds extends ApiBase {
 	public function getPossibleErrors() {
 		return array_merge( parent::getPossibleErrors(), array(
 			array( 'code' => 'feed-invalid', 'info' => 'Invalid subscription feed type' ),
-			array( 'code' => 'language-invalid', 'info' => 'Invalid language code' ),
 		) );
 	}
 
