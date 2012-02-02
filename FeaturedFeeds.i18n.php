@@ -166,13 +166,17 @@ $messages['be-tarask'] = array(
 	'ffeed-featured-entry' => 'Абраны артыкул {{GRAMMAR:родны|{{SITENAME}}}} за {{LOCALDAY}} {{LOCALMONTHNAMEGEN}}',
 	'ffeed-good-title' => 'Стужка з добрымі артыкуламі {{GRAMMAR:родны|{{SITENAME}}}}',
 	'ffeed-good-short-title' => 'Добрыя артыкулы',
+	'ffeed-good-desc' => 'Добрыя артыкулы ў {{GRAMMAR:месны|{{SITENAME}}}}',
+	'ffeed-good-entry' => 'Добры артыкул {{GRAMMAR:родны|{{SITENAME}}}} за {{LOCALDAY}} {{LOCALMONTHNAMEGEN}}',
 	'ffeed-onthisday-title' => 'Стужка {{GRAMMAR:родны|{{SITENAME}}}} «Гэты дзень у гісторыі»',
+	'ffeed-onthisday-short-title' => 'У гэты дзень…',
 	'ffeed-onthisday-desc' => 'Гістарычныя падзеі, якія адбыліся ў гэты дзень',
 	'ffeed-onthisday-entry' => 'У гэты дзень, {{LOCALDAY}} {{LOCALMONTHNAMEGEN}}',
 	'ffeed-dyk-title' => 'Стужка {{GRAMMAR:родны|{{SITENAME}}}} «Ці ведаеце Вы?»',
+	'ffeed-dyk-short-title' => 'Ці ведаеце Вы?',
 	'ffeed-dyk-desc' => 'З новых артыкулаў {{GRAMMAR:родны|{{SITENAME}}}}',
 	'ffeed-dyk-entry' => 'Ці ведаеце Вы? ({{LOCALDAY}} {{LOCALMONTHNAMEGEN}})',
-	'ffeed-motd-title' => 'Стужка {{GRAMMAR:родны|{{SITENAME}}}} «Цытата дня»',
+	'ffeed-motd-title' => 'Стужка {{GRAMMAR:родны|{{SITENAME}}}} «Мэдыя дня»',
 	'ffeed-motd-desc' => 'Некаторыя з найлепшых цытатаў у {{GRAMMAR:месны|{{SITENAME}}}}',
 	'ffeed-motd-entry' => 'Цытата дня ў {{GRAMMAR:месны|{{SITENAME}}}} за {{LOCALDAY}} {{LOCALMONTHNAMEGEN}}',
 	'ffeed-potd-title' => 'Стужка {{GRAMMAR:родны|{{SITENAME}}}} «Выява дня»',
@@ -241,9 +245,9 @@ $messages['cs'] = array(
  */
 $messages['de'] = array(
 	'ffeed-desc' => 'Ermöglicht gesonderte Feeds zu bestimmten Inhalten des Wikis',
-	'ffeed-no-feed' => 'Es wurde kein Feed angegeben.',
-	'ffeed-feed-not-found' => 'Feed $1 wurde nicht gefunden.',
-	'ffeed-entry-not-found' => 'Feedeintrag $1 wurde nicht gefunden.',
+	'ffeed-no-feed' => 'Es wurde kein Feed angegeben',
+	'ffeed-feed-not-found' => 'Feed $1 wurde nicht gefunden',
+	'ffeed-entry-not-found' => 'Feedeintrag $1 wurde nicht gefunden',
 	'ffeed-sidebar-section' => 'Feeds zu empfohlenen Inhalten',
 	'ffeed-invalid-timestamp' => 'Ungültiger Feed-Zeitstempel',
 	'ffeed-featured-title' => 'Feed zu exzellenten Artikeln auf {{SITENAME}}',
@@ -257,23 +261,23 @@ $messages['de'] = array(
 	'ffeed-onthisday-title' => 'Feed zu „An diesem Tag …“ auf {{SITENAME}}',
 	'ffeed-onthisday-short-title' => 'An diesem Tag …',
 	'ffeed-onthisday-desc' => 'Historische Ereignisse dieses Tages',
-	'ffeed-onthisday-entry' => 'An diesem Tag: {{LOCALDAY}} {{LOCALMONTHNAME}}',
+	'ffeed-onthisday-entry' => 'An diesem Tag: {{LOCALDAY}}. {{LOCALMONTHNAME}}',
 	'ffeed-dyk-title' => 'Feed zu „Schon gewusst?“ auf {{SITENAME}}',
 	'ffeed-dyk-short-title' => 'Schon gewusst?',
 	'ffeed-dyk-desc' => 'Die neuesten Inhalte auf {{SITENAME}}',
-	'ffeed-dyk-entry' => '„Schon gewusst?“: {{LOCALDAY}} {{LOCALMONTHNAME}}',
-	'ffeed-motd-title' => 'Feed zur Mediendatei Zitat des Tages auf {{SITENAME}}',
+	'ffeed-dyk-entry' => '„Schon gewusst?“: {{LOCALDAY}}. {{LOCALMONTHNAME}}',
+	'ffeed-motd-title' => 'Feed zur Mediendatei des Tages auf {{SITENAME}}',
 	'ffeed-motd-short-title' => 'Mediendatei des Tages',
 	'ffeed-motd-desc' => 'Einige der besten Mediendateien auf {{SITENAME}}',
-	'ffeed-motd-entry' => 'Mediendatei des Tages am {{LOCALDAY}} {{LOCALMONTHNAME}} auf {{SITENAME}}',
+	'ffeed-motd-entry' => 'Mediendatei des Tages am {{LOCALDAY}}. {{LOCALMONTHNAME}} auf {{SITENAME}}',
 	'ffeed-potd-title' => 'Feed zum Bild des Tages auf {{SITENAME}}',
 	'ffeed-potd-short-title' => 'Bild des Tages',
 	'ffeed-potd-desc' => 'Einige der besten Bilder auf {{SITENAME}}',
-	'ffeed-potd-entry' => 'Bild des Tages am {{LOCALDAY}} {{LOCALMONTHNAME}} auf {{SITENAME}}',
+	'ffeed-potd-entry' => 'Bild des Tages am {{LOCALDAY}}. {{LOCALMONTHNAME}} auf {{SITENAME}}',
 	'ffeed-qotd-title' => 'Feed zum Zitat des Tages auf {{SITENAME}}',
 	'ffeed-qotd-short-title' => 'Zitat des Tages',
 	'ffeed-qotd-desc' => 'Einige der besten Zitate auf {{SITENAME}}',
-	'ffeed-qotd-entry' => 'Zitat des Tages am {{LOCALDAY}} {{LOCALMONTHNAME}} auf {{SITENAME}}',
+	'ffeed-qotd-entry' => 'Zitat des Tages am {{LOCALDAY}}. {{LOCALMONTHNAME}} auf {{SITENAME}}',
 	'ffeed-featuredtexts-title' => 'Feed zu exzellenten Texten auf {{SITENAME}}',
 	'ffeed-featuredtexts-short-title' => 'Exzellente Texte',
 	'ffeed-featuredtexts-desc' => 'Die besten Texte auf {{SITENAME}}',
@@ -407,6 +411,10 @@ $messages['fr'] = array(
 	'ffeed-qotd-short-title' => 'Citation du jour',
 	'ffeed-qotd-desc' => 'Quelques-unes de meilleurs citations sur {{SITENAME}}',
 	'ffeed-qotd-entry' => 'Citation du jour de {{SITENAME}} pour le {{LOCALDAY}} {{LOCALMONTHNAME}}',
+	'ffeed-featuredtexts-title' => 'File des textes en vedette de {{SITENAME}}',
+	'ffeed-featuredtexts-short-title' => 'Textes en vedette',
+	'ffeed-featuredtexts-desc' => 'Meilleurs textes que {{SITENAME}} peut offrir',
+	'ffeed-featuredtexts-entry' => 'Texte vedette de {{SITENAME}} le {{LOCALDAY}} {{LOCALMONTHNAME}}',
 );
 
 /** Galician (Galego)
@@ -468,6 +476,10 @@ $messages['he'] = array(
 	'ffeed-featured-short-title' => 'ערכים מומלצים',
 	'ffeed-featured-desc' => 'הערכים הטובים ביותר שיש ל{{GRAMMAR:תחילית|{{SITENAME}}}} להציע',
 	'ffeed-featured-entry' => 'ערך מומלץ ב{{GRAMMAR:תחילית|{{SITENAME}}}} ב־{{LOCALDAY}} ב{{LOCALMONTHNAME}}',
+	'ffeed-good-title' => 'הזנת ערכים טובים ב{{GRAMMAR:תחילית|{{SITENAME}}}}',
+	'ffeed-good-short-title' => 'ערכים טובים',
+	'ffeed-good-desc' => 'ערכים טובים שיש ב{{GRAMMAR:תחילית|{{SITENAME}}}}',
+	'ffeed-good-entry' => 'ערך טוב ב{{GRAMMAR:תחילית|{{SITENAME}}}} ב־{{LOCALDAY}} ב{{LOCALMONTHNAME}}',
 	'ffeed-onthisday-title' => 'הזנת "היום בהיסטוריה" ב{{GRAMMAR:תחילית|{{SITENAME}}}}',
 	'ffeed-onthisday-short-title' => 'היום בהיסטוריה',
 	'ffeed-onthisday-desc' => 'אירועים היסטוריים ביום הזה',
@@ -488,6 +500,10 @@ $messages['he'] = array(
 	'ffeed-qotd-short-title' => 'ציטוט היום',
 	'ffeed-qotd-desc' => 'הציטוטים הטובים ביותר ב{{GRAMMAR:תחילית|{{SITENAME}}}}',
 	'ffeed-qotd-entry' => 'ציטוט היום ב{{GRAMMAR:תחילית|{{SITENAME}}}} ב־{{LOCALDAY}} ב{{LOCALMONTHNAME}}',
+	'ffeed-featuredtexts-title' => 'טקסטים מומלצים ב{{GRAMMAR:תחילית|{{SITENAME}}}}',
+	'ffeed-featuredtexts-short-title' => 'טקסטים מומלצים',
+	'ffeed-featuredtexts-desc' => 'הטקסטים הטובים ביותר ב{{GRAMMAR:תחילית|{{SITENAME}}}}',
+	'ffeed-featuredtexts-entry' => 'טקסט מומלץ ב{{GRAMMAR:תחילית|{{SITENAME}}}} ב־{{LOCALDAY}} ב{{LOCALMONTHNAME}}',
 );
 
 /** Upper Sorbian (Hornjoserbsce)
@@ -684,6 +700,25 @@ $messages['mk'] = array(
 	'ffeed-qotd-short-title' => 'Мисла на денот',
 	'ffeed-qotd-desc' => 'Наијнтересните мисли на {{SITENAME}}',
 	'ffeed-qotd-entry' => 'Мисла на денот за {{LOCALDAY}} {{LOCALMONTHNAME}} на {{SITENAME}}',
+	'ffeed-featuredtexts-title' => 'Канал на избрани текстови на {{SITENAME}}',
+	'ffeed-featuredtexts-short-title' => 'Избрани текстови',
+	'ffeed-featuredtexts-desc' => 'Најдобрите текстови на {{SITENAME}}',
+	'ffeed-featuredtexts-entry' => 'Избран текст на {{SITENAME}} за {{LOCALDAY}} {{LOCALMONTHNAME}}',
+);
+
+/** Malayalam (മലയാളം)
+ * @author Praveenp
+ */
+$messages['ml'] = array(
+	'ffeed-no-feed' => 'ഫീഡ് വ്യക്തമാക്കിയിട്ടില്ല',
+	'ffeed-feed-not-found' => '$1 എന്ന ഫീഡ് കണ്ടെത്താനായില്ല',
+	'ffeed-onthisday-short-title' => 'ഇന്നേ ദിവസം...',
+	'ffeed-onthisday-desc' => 'ഈ ദിവസത്തിലുണ്ടായിട്ടുള്ള ചരിത്ര സംഭവങ്ങൾ',
+	'ffeed-onthisday-entry' => 'ഇന്നേ ദിവസം: {{LOCALMONTHNAME}} {{LOCALDAY}}',
+	'ffeed-dyk-title' => '{{SITENAME}} "താങ്കൾക്കറിയാമോ?" ഫീഡ്',
+	'ffeed-dyk-short-title' => 'താങ്കൾക്കറിയാമോ?',
+	'ffeed-motd-short-title' => 'ഇന്നത്തെ മീഡിയ',
+	'ffeed-potd-short-title' => 'ഇന്നത്തെ ചിത്രം',
 );
 
 /** Marathi (मराठी)
@@ -741,6 +776,10 @@ $messages['ms'] = array(
 	'ffeed-qotd-short-title' => 'Petikan pilihan',
 	'ffeed-qotd-desc' => 'Petikan-petikan yang paling menarik di {{SITENAME}}',
 	'ffeed-qotd-entry' => 'Petikan pilihan {{SITENAME}} pada {{LOCALDAY}} {{LOCALMONTHNAME}}',
+	'ffeed-featuredtexts-title' => 'suapan teks pilihan {{SITENAME}}',
+	'ffeed-featuredtexts-short-title' => 'Teks pilihan',
+	'ffeed-featuredtexts-desc' => 'Teks-teks terbaik yang ditawarkan oleh {{SITENAME}}',
+	'ffeed-featuredtexts-entry' => 'Teks pilihan {{SITENAME}} {{LOCALDAY}} {{LOCALMONTHNAME}}',
 );
 
 /** Dutch (Nederlands)
