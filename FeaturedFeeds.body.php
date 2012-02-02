@@ -108,7 +108,10 @@ class FeaturedFeeds {
 	public static function skinTemplateOutputPageBeforeExec( &$sk, &$tpl ) {
 		global $wgDisplayFeedsInSidebar, $wgAdvertisedFeedTypes;
 
-		if ( $wgDisplayFeedsInSidebar && $sk->getContext()->getTitle()->isMainPage() ) {
+		if ( ( $wgDisplayFeedsInSidebar 
+			|| !wfMessage( 'ffeed-enable-sidebar-links' )->inContentLanguage()->isDisabled() )
+				&& $sk->getContext()->getTitle()->isMainPage() )
+		{
 			$feeds = self::getFeeds( $sk->getContext()->getLanguage()->getCode() );
 			$links = array();
 			$format = $wgAdvertisedFeedTypes[0]; // @fixme:
