@@ -133,6 +133,7 @@ class FeaturedFeeds {
 	 * Purges cache on message edit
 	 *
 	 * @param Article $article
+	 * @return bool
 	 */
 	public static function articleSaveComplete( $article ) {
 		global $wgFeaturedFeeds, $wgMemc, $wgLanguageCode;
@@ -172,7 +173,6 @@ class FeaturedFeeds {
 		
 		$feeds = array();
 		$requestedLang = Language::factory( $langCode );
-		$parser = new Parser();
 		foreach ( $feedDefs as $name => $opts ) {
 			$feed = new FeaturedFeedChannel( $name, $opts, $requestedLang );
 			if ( !$feed->isOK() ) {
@@ -271,10 +271,17 @@ class FeaturedFeedChannel {
 		}
 	}
 
+	/**
+	 * @param $key string
+	 * @return Message
+	 */
 	private function msg( $key ) {
 		return wfMessage( $key )->inLanguage( $this->language );
 	}
 
+	/**
+	 * @return bool
+	 */
 	public function isOK() {
 		$this->init();
 		return $this->page !== false;
@@ -312,6 +319,9 @@ class FeaturedFeedChannel {
 		$this->entryName = $this->msg( $this->options['entryName'] )->plain();
 	}
 
+	/**
+	 * @return array
+	 */
 	public function getFeedItems() {
 		$this->init();
 		if ( $this->items === false ) {
@@ -365,7 +375,7 @@ class FeaturedFeedChannel {
 	/**
 	 * Returns a URL to the feed
 	 * 
-	 * @param type $format: Feed format, 'rss' or 'atom'
+	 * @param $format string Feed format, 'rss' or 'atom'
 	 * @return String 
 	 */
 	public function getURL( $format ) {
