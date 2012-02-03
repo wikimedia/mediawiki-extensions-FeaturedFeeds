@@ -177,11 +177,19 @@ $messages['be-tarask'] = array(
 	'ffeed-dyk-desc' => 'З новых артыкулаў {{GRAMMAR:родны|{{SITENAME}}}}',
 	'ffeed-dyk-entry' => 'Ці ведаеце Вы? ({{LOCALDAY}} {{LOCALMONTHNAMEGEN}})',
 	'ffeed-motd-title' => 'Стужка {{GRAMMAR:родны|{{SITENAME}}}} «Мэдыя дня»',
-	'ffeed-motd-desc' => 'Некаторыя з найлепшых цытатаў у {{GRAMMAR:месны|{{SITENAME}}}}',
-	'ffeed-motd-entry' => 'Цытата дня ў {{GRAMMAR:месны|{{SITENAME}}}} за {{LOCALDAY}} {{LOCALMONTHNAMEGEN}}',
+	'ffeed-motd-short-title' => 'Мэдыя дня',
+	'ffeed-motd-desc' => 'Некаторыя найлепшыя мэдыя ў {{GRAMMAR:родны|{{SITENAME}}}}',
+	'ffeed-motd-entry' => 'Мэдыя дня ў {{GRAMMAR:месны|{{SITENAME}}}} за {{LOCALDAY}} {{LOCALMONTHNAMEGEN}}',
 	'ffeed-potd-title' => 'Стужка {{GRAMMAR:родны|{{SITENAME}}}} «Выява дня»',
+	'ffeed-potd-short-title' => 'Выява дня',
 	'ffeed-potd-desc' => 'Некаторыя найлепшыя выявы ў {{GRAMMAR:родны|{{SITENAME}}}}',
 	'ffeed-potd-entry' => 'Выява дня ў {{GRAMMAR:месны|{{SITENAME}}}} за {{LOCALDAY}} {{LOCALMONTHNAMEGEN}}',
+	'ffeed-qotd-title' => 'Стужка {{GRAMMAR:родны|{{SITENAME}}}} «Цытата дня»',
+	'ffeed-qotd-short-title' => 'Цытата дня',
+	'ffeed-qotd-desc' => 'Некаторыя з найлепшых цытатаў у {{GRAMMAR:месны|{{SITENAME}}}}',
+	'ffeed-qotd-entry' => 'Цытата дня ў {{GRAMMAR:месны|{{SITENAME}}}} за {{LOCALDAY}} {{LOCALMONTHNAMEGEN}}',
+	'ffeed-featuredtexts-title' => 'Стужка з абранымі тэкстамі {{GRAMMAR:родны|{{SITENAME}}}}',
+	'ffeed-featuredtexts-short-title' => 'Абраныя тэксты',
 );
 
 /** Breton (Brezhoneg)
@@ -217,6 +225,10 @@ $messages['cs'] = array(
 	'ffeed-featured-short-title' => 'Nejlepší články',
 	'ffeed-featured-desc' => 'Nejlepší články, které může {{SITENAME}} nabídnout',
 	'ffeed-featured-entry' => 'Článek dne {{LOCALDAY}}. {{LOCALMONTHNAMEGEN}} na {{grammar:6sg|{{SITENAME}}}}',
+	'ffeed-good-title' => 'Kanál dobrých článků {{grammar:2sg|{{SITENAME}}}}',
+	'ffeed-good-short-title' => 'Dobré články',
+	'ffeed-good-desc' => 'Dobré články, které může {{SITENAME}} nabídnout',
+	'ffeed-good-entry' => 'Dobrý článek na den {{LOCALDAY}}. {{LOCALMONTHNAMEGEN}} na {{grammar:6sg|{{SITENAME}}}}',
 	'ffeed-onthisday-title' => 'Kanál „Dnešek v minulosti“ na {{grammar:6sg|{{SITENAME}}}}',
 	'ffeed-onthisday-short-title' => 'Dnešek v minulosti',
 	'ffeed-onthisday-desc' => 'Historické události tento den',
@@ -459,6 +471,17 @@ $messages['gl'] = array(
 	'ffeed-featuredtexts-short-title' => 'Textos destacados',
 	'ffeed-featuredtexts-desc' => 'Os mellores textos que ofrece {{SITENAME}}',
 	'ffeed-featuredtexts-entry' => 'Texto destacado de {{SITENAME}} o {{LOCALDAY}} de {{LOCALMONTHNAME}}',
+);
+
+/** Gujarati (ગુજરાતી)
+ * @author KartikMistry
+ */
+$messages['gu'] = array(
+	'ffeed-onthisday-short-title' => 'આ દિવસે...',
+	'ffeed-dyk-short-title' => 'શું તમે જાણો છો?',
+	'ffeed-motd-short-title' => 'આજનું માધ્યમ',
+	'ffeed-potd-short-title' => 'આજનું ચિત્ર',
+	'ffeed-qotd-short-title' => 'આજનું અવતરણ',
 );
 
 /** Hebrew (עברית)
@@ -821,6 +844,7 @@ $messages['nl'] = array(
 	'ffeed-qotd-short-title' => 'Citaat van de dag',
 	'ffeed-qotd-desc' => 'De beste uitspraken van {{SITENAME}}',
 	'ffeed-qotd-entry' => 'Uitspraak van de dag voor van {{LOCALDAY}} {{LOCALMONTHNAME}} van {{SITENAME}}',
+	'ffeed-featuredtexts-desc' => 'De beste teksten die {{SITENAME}} te bieden heeft',
 );
 
 /** Telugu (తెలుగు)
@@ -832,6 +856,50 @@ $messages['te'] = array(
 	'ffeed-onthisday-desc' => 'ఈ రోజు జరిగిన చారిత్రక ఘటనలు',
 	'ffeed-dyk-short-title' => 'మీకు తెలుసా?',
 	'ffeed-potd-short-title' => 'నేటి చిత్రం',
+);
+
+/** Vietnamese (Tiếng Việt)
+ * @author Minh Nguyen
+ */
+$messages['vi'] = array(
+	'ffeed-desc' => 'Thêm các nguồn tin có nội dung chọn lọc của wiki',
+	'ffeed-no-feed' => 'Không định rõ nguồn tin',
+	'ffeed-feed-not-found' => 'Không tìm thấy nguồn tin $1',
+	'ffeed-entry-not-found' => 'Không tìm thấy mục $1 trong nguồn tin',
+	'ffeed-sidebar-section' => 'Nguồn tin có nội dung chọn lọc',
+	'ffeed-invalid-timestamp' => 'Dấu thời gian nguồn tin không hợp lệ',
+	'ffeed-featured-title' => 'Nguồn tin bài viết chọn lọc {{SITENAME}}',
+	'ffeed-featured-short-title' => 'Bài viết chọn lọc',
+	'ffeed-featured-desc' => 'Các bài viết nổi bật nhất của {{SITENAME}}',
+	'ffeed-featured-entry' => 'Bài viết chọn lọc tại {{SITENAME}} ngày {{LOCALDAY}} {{LOCALMONTHNAME}}',
+	'ffeed-good-title' => 'Nguồn tin bài chất lượng tốt {{SITENAME}}',
+	'ffeed-good-short-title' => 'Bài chất lượng tốt',
+	'ffeed-good-desc' => 'Các bài có chất lượng tốt tại {{SITENAME}}',
+	'ffeed-good-entry' => 'Bài chất lượng tốt tại {{SITENAME}} ngày {{LOCALDAY}} {{LOCALMONTHNAME}}',
+	'ffeed-onthisday-title' => 'Nguồn tin “Ngày này năm xưa” tại {{SITENAME}}',
+	'ffeed-onthisday-short-title' => 'Ngày này năm xưa',
+	'ffeed-onthisday-desc' => 'Các sự kiện xảy ra ngày này năm xưa',
+	'ffeed-onthisday-entry' => 'Vào ngày {{LOCALDAY}} {{LOCALMONTHNAME}}',
+	'ffeed-dyk-title' => 'Nguồn tin “Bạn có biết” tại {{SITENAME}}',
+	'ffeed-dyk-short-title' => 'Bạn có biết',
+	'ffeed-dyk-desc' => 'Được lấy từ những nội dung mới của {{SITENAME}}',
+	'ffeed-dyk-entry' => 'Bạn có biết: {{LOCALDAY}} {{LOCALMONTHNAME}}',
+	'ffeed-motd-title' => 'Nguồn tin tư liệu trong ngày tại {{SITENAME}}',
+	'ffeed-motd-short-title' => 'Tư liệu trong ngày',
+	'ffeed-motd-desc' => 'Những tư liệu xuất sắc nhất tại {{SITENAME}}',
+	'ffeed-motd-entry' => 'Tư liệu trong ngày tại {{SITENAME}} ngày {{LOCALDAY}} {{LOCALMONTHNAME}}',
+	'ffeed-potd-title' => 'Nguồn tin hình ảnh trong ngày tại {{SITENAME}}',
+	'ffeed-potd-short-title' => 'Hình ảnh trong ngày',
+	'ffeed-potd-desc' => 'Những hình ảnh xuất sắc nhất tại {{SITENAME}}',
+	'ffeed-potd-entry' => 'Hình ảnh trong ngày tại {{SITENAME}} ngày {{LOCALDAY}} {{LOCALMONTHNAME}}',
+	'ffeed-qotd-title' => 'Nguồn tin danh ngôn trong ngày tại {{SITENAME}}',
+	'ffeed-qotd-short-title' => 'Danh ngôn trong ngày',
+	'ffeed-qotd-desc' => 'Những danh ngôn hay nhất tại {{SITENAME}}',
+	'ffeed-qotd-entry' => 'Danh ngôn trong ngày tại {{SITENAME}} ngày {{LOCALDAY}} {{LOCALMONTHNAME}}',
+	'ffeed-featuredtexts-title' => 'Nguồn tin văn kiện chọn lọc {{SITENAME}}',
+	'ffeed-featuredtexts-short-title' => 'Văn kiện chọn lọc',
+	'ffeed-featuredtexts-desc' => 'Các văn kiện nổi bật nhất củA {{SITENAME}}',
+	'ffeed-featuredtexts-entry' => 'Văn kiện chọn lọc tại {{SITENAME}} ngày {{LOCALDAY}} {{LOCALMONTHNAME}}',
 );
 
 /** Simplified Chinese (‪中文(简体)‬)
