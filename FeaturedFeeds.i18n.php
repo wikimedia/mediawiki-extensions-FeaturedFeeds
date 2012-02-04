@@ -475,13 +475,25 @@ $messages['gl'] = array(
 
 /** Gujarati (ગુજરાતી)
  * @author KartikMistry
+ * @author Sushant savla
  */
 $messages['gu'] = array(
+	'ffeed-no-feed' => 'ફીડ સ્પષ્ટ કરેલ નથી',
+	'ffeed-feed-not-found' => 'ફીડ $1 મળી નહી',
+	'ffeed-invalid-timestamp' => 'અયોગ્ય ફીડ સમયછાપ',
+	'ffeed-good-title' => '{{SITENAME}} ઉમદા લેખોની ફીડ',
+	'ffeed-good-short-title' => 'ઉમદા લેખો',
+	'ffeed-good-entry' => '{{LOCALMONTHNAME}} {{LOCALDAY}} {{SITENAME}} ઉમદા લેખ',
+	'ffeed-onthisday-title' => '{{SITENAME}} "આ દિવસે..." ફીડ',
 	'ffeed-onthisday-short-title' => 'આ દિવસે...',
+	'ffeed-onthisday-desc' => 'આ દિવસની ઐતહાસિક ઘટનાઓ',
+	'ffeed-onthisday-entry' => 'આ દિવસે: {{LOCALMONTHNAME}} {{LOCALDAY}}',
+	'ffeed-dyk-title' => '{{SITENAME}} "શું તમે જાણો છો?" ફીડ',
 	'ffeed-dyk-short-title' => 'શું તમે જાણો છો?',
 	'ffeed-motd-short-title' => 'આજનું માધ્યમ',
 	'ffeed-potd-short-title' => 'આજનું ચિત્ર',
 	'ffeed-qotd-short-title' => 'આજનું અવતરણ',
+	'ffeed-featuredtexts-short-title' => 'વિશિષ્ટ લેખ',
 );
 
 /** Hebrew (עברית)
@@ -571,6 +583,17 @@ $messages['hsb'] = array(
 	'ffeed-featuredtexts-short-title' => 'Wuběrne teksty',
 	'ffeed-featuredtexts-desc' => 'Najlěpše teksty, kotrež {{SITENAME}} poskića',
 	'ffeed-featuredtexts-entry' => 'Wuběrny tekst na {{GRAMMAR:lokatiw|{{SITENAME}}}} {{LOCALDAY}}. {{LOCALMONTHNAMEGEN}}',
+);
+
+/** Hungarian (Magyar)
+ * @author Bdamokos
+ */
+$messages['hu'] = array(
+	'ffeed-featured-short-title' => 'Kiemelt szócikkek',
+	'ffeed-featured-desc' => 'A {{SITENAME}} legjobb szócikkei',
+	'ffeed-featured-entry' => '{{LOCALMONTHNAME}} {{LOCALDAY}} {{SITENAME}}-kiemelt szócikk',
+	'ffeed-potd-short-title' => 'A nap képe',
+	'ffeed-qotd-short-title' => 'A nap idézete',
 );
 
 /** Interlingua (Interlingua)
@@ -735,6 +758,15 @@ $messages['mk'] = array(
 $messages['ml'] = array(
 	'ffeed-no-feed' => 'ഫീഡ് വ്യക്തമാക്കിയിട്ടില്ല',
 	'ffeed-feed-not-found' => '$1 എന്ന ഫീഡ് കണ്ടെത്താനായില്ല',
+	'ffeed-entry-not-found' => '$1-നുള്ള ഫീഡ് ഇനം കണ്ടെത്താനായില്ല',
+	'ffeed-sidebar-section' => 'തിരഞ്ഞെടുക്കപ്പെട്ട ഉള്ളടക്കങ്ങളുടെ ഫീഡ്',
+	'ffeed-invalid-timestamp' => 'അസാധുവായ ഫീഡ് സമയമുദ്ര',
+	'ffeed-featured-title' => '{{SITENAME}} സംരംഭത്തിലെ തിരഞ്ഞെടുക്കപ്പെട്ട ലേഖനങ്ങളുടെ ഫീഡ്',
+	'ffeed-featured-short-title' => 'തിരഞ്ഞെടുക്കപ്പെട്ട ലേഖനങ്ങൾ',
+	'ffeed-featured-desc' => '{{SITENAME}} നൽകുന്ന മികച്ച ലേഖനങ്ങൾ',
+	'ffeed-featured-entry' => '{{SITENAME}} സംരംഭത്തിൽ {{LOCALMONTHNAME}} {{LOCALDAY}} -ലെ തിരഞ്ഞെടുക്കപ്പെട്ട ലേഖനം',
+	'ffeed-good-title' => '{{SITENAME}} സംരംഭത്തിലെ നല്ല ലേഖനങ്ങളുടെ ഫീഡ്',
+	'ffeed-good-short-title' => 'നല്ല ലേഖനങ്ങൾ',
 	'ffeed-onthisday-short-title' => 'ഇന്നേ ദിവസം...',
 	'ffeed-onthisday-desc' => 'ഈ ദിവസത്തിലുണ്ടായിട്ടുള്ള ചരിത്ര സംഭവങ്ങൾ',
 	'ffeed-onthisday-entry' => 'ഇന്നേ ദിവസം: {{LOCALMONTHNAME}} {{LOCALDAY}}',
