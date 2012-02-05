@@ -193,22 +193,38 @@ $messages['be-tarask'] = array(
 );
 
 /** Breton (Brezhoneg)
+ * @author Fulup
  * @author Y-M D
  */
 $messages['br'] = array(
+	'ffeed-desc' => 'Ouzhpennañ a ra gwazhioù embann danvez o tont eus ar wiki',
+	'ffeed-no-feed' => "N'eo ket bet resisaet ar vammenn",
+	'ffeed-feed-not-found' => "N'eo ket bet kavet ar vammenn $1",
+	'ffeed-entry-not-found' => "N'eo ket bet kavet enmont ar wazh evit $1",
+	'ffeed-sidebar-section' => 'Gwazhioù web evit danvez a-feson',
+	'ffeed-invalid-timestamp' => 'Direizh eo ar vammenn web evit an eur hag an deiz',
+	'ffeed-featured-title' => 'Gwazh web evit ar pennadoù a-feson eus {{SITENAME}}',
 	'ffeed-featured-desc' => 'Ar pennadoù wellañ a gaver war {{SITENAME}}',
+	'ffeed-good-short-title' => 'Pennadoù mat',
+	'ffeed-good-desc' => "Pennadoù mat a c'hall {{SITENAME}} kinnig deoc'h",
+	'ffeed-good-entry' => 'Pennad mat e {{LOCALMONTHNAME}} {{LOCALDAY}} {{SITENAME}}',
 	'ffeed-onthisday-title' => '{{SITENAME}} Steudad "An devezh-se..."',
+	'ffeed-onthisday-short-title' => "D'an deiz-se...",
 	'ffeed-onthisday-desc' => 'Darvoudoù istorel evit an devezh-mañ',
 	'ffeed-onthisday-entry' => 'An deiz-se : {{LOCALDAY}} {{LOCALMONTHNAME}}',
 	'ffeed-dyk-title' => '{{SITENAME}} Neudennad "Ha gouzout a rit ?"',
+	'ffeed-dyk-short-title' => "Ha gouzout a raec'h ?",
 	'ffeed-dyk-desc' => 'Deus danvez nevesañ {{SITENAME}}',
 	'ffeed-dyk-entry' => 'Ha gouzout a rit ? :  {{LOCALDAY}} {{LOCALMONTHNAME}}',
-	'ffeed-motd-title' => '{{SITENAME}} steudad arroudenn an devezh',
-	'ffeed-motd-desc' => 'Un nebeut deus arroudennoù wellañ {{SITENAME}}',
-	'ffeed-motd-entry' => 'Arroudenn an devezh deus {{SITENAME}} evit {{LOCALDAY}} {{LOCALMONTHNAME}}',
+	'ffeed-motd-title' => 'Mediaoù an deiz {{SITENAME}}',
+	'ffeed-motd-short-title' => 'Mediaoù an deiz',
+	'ffeed-motd-desc' => 'Un dibab eus gwellañ mediaoù {{SITENAME}}',
+	'ffeed-motd-entry' => 'Media an deiz eus {{SITENAME}} evit {{LOCALDAY}} {{LOCALMONTHNAME}}',
 	'ffeed-potd-title' => '{{SITENAME}} steudad skeudenn an devezh',
+	'ffeed-potd-short-title' => 'Skeudenn an deiz',
 	'ffeed-potd-desc' => 'Un nebeut re deus skeudennoù wellañ {{SITENAME}}',
-	'ffeed-potd-entry' => 'Skeudenn an devezh deus {{SITENAME}} evit {{LOCALDAY}} {{LOCALMONTHNAME}}',
+	'ffeed-potd-entry' => 'Skeudenn an deiz eus {{SITENAME}} evit {{LOCALDAY}} {{LOCALMONTHNAME}}',
+	'ffeed-qotd-title' => 'Mammenn web arroudenn an deiz e {{SITENAME}}',
 );
 
 /** Czech (Česky)
@@ -481,8 +497,11 @@ $messages['gu'] = array(
 	'ffeed-no-feed' => 'ફીડ સ્પષ્ટ કરેલ નથી',
 	'ffeed-feed-not-found' => 'ફીડ $1 મળી નહી',
 	'ffeed-invalid-timestamp' => 'અયોગ્ય ફીડ સમયછાપ',
+	'ffeed-featured-short-title' => 'નિર્વાચીત લેખ',
+	'ffeed-featured-desc' => '{{SITENAME}} ના આદર્શ લેખ',
 	'ffeed-good-title' => '{{SITENAME}} ઉમદા લેખોની ફીડ',
 	'ffeed-good-short-title' => 'ઉમદા લેખો',
+	'ffeed-good-desc' => '{{SITENAME}} ના આદર્શ લેખ',
 	'ffeed-good-entry' => '{{LOCALMONTHNAME}} {{LOCALDAY}} {{SITENAME}} ઉમદા લેખ',
 	'ffeed-onthisday-title' => '{{SITENAME}} "આ દિવસે..." ફીડ',
 	'ffeed-onthisday-short-title' => 'આ દિવસે...',
@@ -490,9 +509,15 @@ $messages['gu'] = array(
 	'ffeed-onthisday-entry' => 'આ દિવસે: {{LOCALMONTHNAME}} {{LOCALDAY}}',
 	'ffeed-dyk-title' => '{{SITENAME}} "શું તમે જાણો છો?" ફીડ',
 	'ffeed-dyk-short-title' => 'શું તમે જાણો છો?',
+	'ffeed-dyk-desc' => '{{SITENAME}} ની નવીનત્તમ ઉમેરો',
 	'ffeed-motd-short-title' => 'આજનું માધ્યમ',
+	'ffeed-motd-desc' => '{{SITENAME}} પરની શ્રેષ્ઠ મીડિયા',
+	'ffeed-motd-entry' => '{{SITENAME}} નું આજનું મિડિયા  {{LOCALMONTHNAME}} {{LOCALDAY}}',
+	'ffeed-potd-title' => 'આજ નું ચિત્ર નો સ્ત્રોત {{SITENAME}} પરથી',
 	'ffeed-potd-short-title' => 'આજનું ચિત્ર',
+	'ffeed-qotd-title' => '{{SITENAME}} નું આજનું મુક્તક',
 	'ffeed-qotd-short-title' => 'આજનું અવતરણ',
+	'ffeed-featuredtexts-title' => '{{SITENAME}} નો નિર્વાચિત લેખ',
 	'ffeed-featuredtexts-short-title' => 'વિશિષ્ટ લેખ',
 );
 
@@ -706,6 +731,7 @@ $messages['lb'] = array(
 	'ffeed-potd-desc' => 'E puer vun de beschte Biller op {{SITENAME}}',
 	'ffeed-qotd-title' => 'Feed vum Zitat vum Dag op {{SITENAME}}',
 	'ffeed-qotd-short-title' => 'Zitat vum Dag',
+	'ffeed-featuredtexts-entry' => 'Den  {{LOCALDAY}} {{LOCALMONTHNAME}} op {{SITENAME}} ausgezeechenten Text',
 );
 
 /** Macedonian (Македонски)
@@ -777,20 +803,48 @@ $messages['ml'] = array(
 );
 
 /** Marathi (मराठी)
+ * @author Mahitgar
  * @author Rahuldeshmukh101
  */
 $messages['mr'] = array(
+	'ffeed-desc' => 'विकिच्या विशेष मजकुरांची सिंडीकेशन रसद जोडते (सिंडिकेशन शब्द कुठे दिसतो ते अभ्यासून ट्रांसलेटविकिवर जाऊन शब्दाचा सुयोग्य अनुवाद करण्यात सहाय्य करा)',
+	'ffeed-no-feed' => 'विशीष्ट रसद नमुद नाही केली',
+	'ffeed-feed-not-found' => ' $1 रसद मिळाली नाही',
+	'ffeed-entry-not-found' => '$1 करिता रसद नोंद आढळली नाही',
+	'ffeed-sidebar-section' => 'विशेष मजकुरांची रसद',
+	'ffeed-invalid-timestamp' => 'अग्राह्य रसद नोंदणीची वेळ:',
+	'ffeed-featured-title' => '{{SITENAME}}  विशेष लेखांची रसद',
+	'ffeed-featured-short-title' => 'विशेष लेख',
+	'ffeed-featured-desc' => '{{SITENAME}} वर उपलब्ध असलेले सर्वोत्कृउष्ट लेख',
+	'ffeed-featured-entry' => '{{LOCALMONTHNAME}} {{LOCALDAY}} {{SITENAME}} विशेष लेख',
+	'ffeed-good-title' => '{{SITENAME}} चांगल्या लेखांची रसद',
 	'ffeed-good-short-title' => 'उत्तम  लेख',
+	'ffeed-good-desc' => '{{SITENAME}}  वर उपलब्ध चांगले लेख',
+	'ffeed-good-entry' => '{{LOCALMONTHNAME}} {{LOCALDAY}} {{SITENAME}} चांगले लेख',
+	'ffeed-onthisday-title' => '{{SITENAME}} "दिनविशेष..." रसद',
 	'ffeed-onthisday-short-title' => 'ह्या  दिवशी ...',
 	'ffeed-onthisday-desc' => 'ह्या दिवशीच्या ऐतिहासिक घटना',
 	'ffeed-onthisday-entry' => 'ह्या दिवशी : {{LOCALMONTHNAME}} {{LOCALDAY}}',
+	'ffeed-dyk-title' => '{{SITENAME}} "आणि हे आपणास माहीत आहे का?" रसद',
 	'ffeed-dyk-short-title' => 'आपणास माहित आहे का ?',
+	'ffeed-dyk-desc' => " {{SITENAME}}'च्या अतीअलिकडील मजकुरातून",
 	'ffeed-dyk-entry' => 'आपणास माहित आहे का ?: {{LOCALMONTHNAME}} {{LOCALDAY}}',
+	'ffeed-motd-title' => '{{SITENAME}} आजची बहुमाध्यमी क्लिपची रसद',
 	'ffeed-motd-short-title' => 'आजचे    चलचित्र',
+	'ffeed-motd-desc' => '{{SITENAME}}वरील काही  अत्युत्त्म  बहुमाध्यमी क्लिप',
+	'ffeed-motd-entry' => '{{SITENAME}} आजची बहुमाध्यमी क्लिप  {{LOCALMONTHNAME}} {{LOCALDAY}} करिता',
+	'ffeed-potd-title' => '{{SITENAME}} आजचे छायाचित्र रसद',
 	'ffeed-potd-short-title' => 'आजचे चित्र',
 	'ffeed-potd-desc' => 'काही  उत्तम चित्रे  {{SITENAME}} येथे आहेत',
+	'ffeed-potd-entry' => '{{SITENAME}} आजचे छायाचित्र  {{LOCALMONTHNAME}} {{LOCALDAY}} करिता',
+	'ffeed-qotd-title' => '{{SITENAME}} आजचे अवतरणची रसद',
 	'ffeed-qotd-short-title' => 'आजचा सुविचार',
 	'ffeed-qotd-desc' => 'काही  उत्तम विचार सुमने {{SITENAME}} येथे आहेत',
+	'ffeed-qotd-entry' => '{{SITENAME}} आजचे अवतरण  {{LOCALMONTHNAME}} {{LOCALDAY}} करिता',
+	'ffeed-featuredtexts-title' => '{{SITENAME}} विशेष मजकुराची रसद',
+	'ffeed-featuredtexts-short-title' => 'विशेष मजकुर',
+	'ffeed-featuredtexts-desc' => '{{SITENAME}}कडे असलेला सर्वोत्कृष्ट मजकुर',
+	'ffeed-featuredtexts-entry' => '{{LOCALMONTHNAME}} {{LOCALDAY}} {{SITENAME}} विशेष  मजकुर',
 );
 
 /** Malay (Bahasa Melayu)
