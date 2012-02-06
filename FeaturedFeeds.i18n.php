@@ -190,6 +190,8 @@ $messages['be-tarask'] = array(
 	'ffeed-qotd-entry' => 'Цытата дня ў {{GRAMMAR:месны|{{SITENAME}}}} за {{LOCALDAY}} {{LOCALMONTHNAMEGEN}}',
 	'ffeed-featuredtexts-title' => 'Стужка з абранымі тэкстамі {{GRAMMAR:родны|{{SITENAME}}}}',
 	'ffeed-featuredtexts-short-title' => 'Абраныя тэксты',
+	'ffeed-featuredtexts-desc' => 'Найлепшыя тэксты ў {{GRAMMAR:месны|{{SITENAME}}}}',
+	'ffeed-featuredtexts-entry' => 'Найлепшы тэкст {{GRAMMAR:родны|{{SITENAME}}}} за {{LOCALDAY}} {{LOCALMONTHNAMEGEN}}',
 );
 
 /** Breton (Brezhoneg)
@@ -265,6 +267,10 @@ $messages['cs'] = array(
 	'ffeed-qotd-short-title' => 'Citát dne',
 	'ffeed-qotd-desc' => 'Nejlepší citáty na {{grammar:6sg|{{SITENAME}}}}',
 	'ffeed-qotd-entry' => 'Citát dne {{LOCALDAY}}. {{LOCALMONTHNAMEGEN}} na {{grammar:6sg|{{SITENAME}}}}',
+	'ffeed-featuredtexts-title' => 'Kanál vybraných textů {{grammar:2sg|{{SITENAME}}}}',
+	'ffeed-featuredtexts-short-title' => 'Vybrané texty',
+	'ffeed-featuredtexts-desc' => 'Nejlepší texty, které může {{SITENAME}} nabídnout',
+	'ffeed-featuredtexts-entry' => 'Vybraný text na {{LOCALDAY}}. {{LOCALMONTHNAMEGEN}} na {{grammar:6sg|{{SITENAME}}}}',
 );
 
 /** German (Deutsch)
@@ -439,10 +445,10 @@ $messages['fr'] = array(
 	'ffeed-qotd-short-title' => 'Citation du jour',
 	'ffeed-qotd-desc' => 'Quelques-unes de meilleurs citations sur {{SITENAME}}',
 	'ffeed-qotd-entry' => 'Citation du jour de {{SITENAME}} pour le {{LOCALDAY}} {{LOCALMONTHNAME}}',
-	'ffeed-featuredtexts-title' => 'File des textes en vedette de {{SITENAME}}',
-	'ffeed-featuredtexts-short-title' => 'Textes en vedette',
+	'ffeed-featuredtexts-title' => 'Liste de textes mis en valeur de {{SITENAME}}',
+	'ffeed-featuredtexts-short-title' => 'Textes mis en valeur',
 	'ffeed-featuredtexts-desc' => 'Meilleurs textes que {{SITENAME}} peut offrir',
-	'ffeed-featuredtexts-entry' => 'Texte vedette de {{SITENAME}} le {{LOCALDAY}} {{LOCALMONTHNAME}}',
+	'ffeed-featuredtexts-entry' => 'Texte de {{SITENAME}} mis en valeur le {{LOCALDAY}} {{LOCALMONTHNAME}}',
 );
 
 /** Galician (Galego)
@@ -497,8 +503,10 @@ $messages['gu'] = array(
 	'ffeed-no-feed' => 'ફીડ સ્પષ્ટ કરેલ નથી',
 	'ffeed-feed-not-found' => 'ફીડ $1 મળી નહી',
 	'ffeed-invalid-timestamp' => 'અયોગ્ય ફીડ સમયછાપ',
+	'ffeed-featured-title' => '{{SITENAME}} ઉમદા લેખોની ફીડ',
 	'ffeed-featured-short-title' => 'નિર્વાચીત લેખ',
 	'ffeed-featured-desc' => '{{SITENAME}} ના આદર્શ લેખ',
+	'ffeed-featured-entry' => '{{LOCALMONTHNAME}} {{LOCALDAY}} {{SITENAME}} ઉમદા લેખ',
 	'ffeed-good-title' => '{{SITENAME}} ઉમદા લેખોની ફીડ',
 	'ffeed-good-short-title' => 'ઉમદા લેખો',
 	'ffeed-good-desc' => '{{SITENAME}} ના આદર્શ લેખ',
@@ -510,15 +518,23 @@ $messages['gu'] = array(
 	'ffeed-dyk-title' => '{{SITENAME}} "શું તમે જાણો છો?" ફીડ',
 	'ffeed-dyk-short-title' => 'શું તમે જાણો છો?',
 	'ffeed-dyk-desc' => '{{SITENAME}} ની નવીનત્તમ ઉમેરો',
+	'ffeed-dyk-entry' => 'શું તમે જાણો છો?: {{LOCALMONTHNAME}} {{LOCALDAY}}',
+	'ffeed-motd-title' => '{{SITENAME}} નું આજની મીડિયા',
 	'ffeed-motd-short-title' => 'આજનું માધ્યમ',
 	'ffeed-motd-desc' => '{{SITENAME}} પરની શ્રેષ્ઠ મીડિયા',
-	'ffeed-motd-entry' => '{{SITENAME}} નું આજનું મિડિયા  {{LOCALMONTHNAME}} {{LOCALDAY}}',
+	'ffeed-motd-entry' => '{{SITENAME}} નું {{LOCALMONTHNAME}} {{LOCALDAY}} માટેનું આજનું મિડિયા',
 	'ffeed-potd-title' => 'આજ નું ચિત્ર નો સ્ત્રોત {{SITENAME}} પરથી',
 	'ffeed-potd-short-title' => 'આજનું ચિત્ર',
+	'ffeed-potd-desc' => '{{SITENAME}} પરની શ્રેષ્ઠ ચિત્રો',
+	'ffeed-potd-entry' => '{{SITENAME}} નું {{LOCALMONTHNAME}} {{LOCALDAY}} માટે આજનું ચિત્ર',
 	'ffeed-qotd-title' => '{{SITENAME}} નું આજનું મુક્તક',
 	'ffeed-qotd-short-title' => 'આજનું અવતરણ',
+	'ffeed-qotd-desc' => '{{SITENAME}} પરનાં કેટલાંક શ્રેષ્ઠ અવતરણો',
+	'ffeed-qotd-entry' => '{{SITENAME}} નું {{LOCALMONTHNAME}} {{LOCALDAY}} માટે આજનું અવતરણ',
 	'ffeed-featuredtexts-title' => '{{SITENAME}} નો નિર્વાચિત લેખ',
 	'ffeed-featuredtexts-short-title' => 'વિશિષ્ટ લેખ',
+	'ffeed-featuredtexts-desc' => '{{SITENAME}} ના આદર્શ લેખ',
+	'ffeed-featuredtexts-entry' => '{{LOCALMONTHNAME}} {{LOCALDAY}} {{SITENAME}} ઉમદા લેખ',
 );
 
 /** Hebrew (עברית)
