@@ -502,6 +502,8 @@ $messages['gl'] = array(
 $messages['gu'] = array(
 	'ffeed-no-feed' => 'ફીડ સ્પષ્ટ કરેલ નથી',
 	'ffeed-feed-not-found' => 'ફીડ $1 મળી નહી',
+	'ffeed-entry-not-found' => '$1 માટે ફીડ દાખલો મળ્યો નહી',
+	'ffeed-sidebar-section' => 'ઉમદા માહિતીની ફીડ',
 	'ffeed-invalid-timestamp' => 'અયોગ્ય ફીડ સમયછાપ',
 	'ffeed-featured-title' => '{{SITENAME}} ઉમદા લેખોની ફીડ',
 	'ffeed-featured-short-title' => 'નિર્વાચીત લેખ',
@@ -747,6 +749,7 @@ $messages['lb'] = array(
 	'ffeed-potd-desc' => 'E puer vun de beschte Biller op {{SITENAME}}',
 	'ffeed-qotd-title' => 'Feed vum Zitat vum Dag op {{SITENAME}}',
 	'ffeed-qotd-short-title' => 'Zitat vum Dag',
+	'ffeed-featuredtexts-desc' => 'Déi bescht Texter déi {{SITENAME}} ze bidden huet',
 	'ffeed-featuredtexts-entry' => 'Den  {{LOCALDAY}} {{LOCALMONTHNAME}} op {{SITENAME}} ausgezeechenten Text',
 );
 
@@ -947,6 +950,18 @@ $messages['nl'] = array(
 	'ffeed-qotd-desc' => 'De beste uitspraken van {{SITENAME}}',
 	'ffeed-qotd-entry' => 'Uitspraak van de dag voor van {{LOCALDAY}} {{LOCALMONTHNAME}} van {{SITENAME}}',
 	'ffeed-featuredtexts-desc' => 'De beste teksten die {{SITENAME}} te bieden heeft',
+);
+
+/** Western Punjabi (پنجابی)
+ * @author Khalid Mahmood
+ */
+$messages['pnb'] = array(
+	'ffeed-no-feed' => 'فیڈ نئیں دسی گئی۔',
+	'ffeed-feed-not-found' => 'فید 1$ نئیں لبی',
+	'ffeed-entry-not-found' => 'فیڈ لکھت 1$ لئی نئیں لبی۔',
+	'ffeed-sidebar-section' => 'فیچرڈ کونٹنٹ فیڈز',
+	'ffeed-featured-title' => '{{SITENAME}} فیچرڈ آرٹیکل فیڈ',
+	'ffeed-featured-short-title' => 'ودیا آرٹیکل',
 );
 
 /** Telugu (తెలుగు)
