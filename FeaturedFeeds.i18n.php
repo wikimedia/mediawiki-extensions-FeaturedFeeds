@@ -332,6 +332,10 @@ $messages['dsb'] = array(
 	'ffeed-featured-short-title' => 'Dopórucone nastawki',
 	'ffeed-featured-desc' => 'Nejlěpše nastawki, kótarež {{SITENAME}} póbitujo',
 	'ffeed-featured-entry' => '{{LOCALDAY}}. {{LOCALMONTHNAMEGEN}}  {{SITENAME}} - wuběrny nastawk',
+	'ffeed-good-title' => '{{SITENAME}} - kanal dobrych nastawkow',
+	'ffeed-good-short-title' => 'Dobre nastawki',
+	'ffeed-good-desc' => 'Dobre nastawki, kótarež {{SITENAME}} póbitujo',
+	'ffeed-good-entry' => '{{LOCALDAY}}. {{LOCALMONTHNAMEGEN}}  {{SITENAME}} - dobry nastawk',
 	'ffeed-onthisday-title' => '{{SITENAME}} - kanal "Toś ten źeń..."',
 	'ffeed-onthisday-short-title' => 'Toś ten źeń...',
 	'ffeed-onthisday-desc' => 'Historiske tšojenja na toś ten źeń',
@@ -352,6 +356,10 @@ $messages['dsb'] = array(
 	'ffeed-qotd-short-title' => 'Citat dnja',
 	'ffeed-qotd-desc' => 'Někotare z nejlěpšych citatow na {{GRAMMAR:lokatiw|{{SITENAME}}}}',
 	'ffeed-qotd-entry' => '{{SITENAME}} - citat dnja za {{LOCALDAY}}. {{LOCALMONTHNAMEGEN}}',
+	'ffeed-featuredtexts-title' => '{{SITENAME}} - kanal wuběrnych tekstow',
+	'ffeed-featuredtexts-short-title' => 'Wuběrne teksty',
+	'ffeed-featuredtexts-desc' => 'Nejlěpše teksty, kótarež {{SITENAME}} póbitujo',
+	'ffeed-featuredtexts-entry' => '{{LOCALDAY}}. {{LOCALMONTHNAMEGEN}}  {{SITENAME}} - wuběrny tekst',
 );
 
 /** Spanish (Español)
@@ -496,13 +504,14 @@ $messages['gl'] = array(
 );
 
 /** Gujarati (ગુજરાતી)
+ * @author Dsvyas
  * @author KartikMistry
  * @author Sushant savla
  */
 $messages['gu'] = array(
 	'ffeed-no-feed' => 'ફીડ સ્પષ્ટ કરેલ નથી',
 	'ffeed-feed-not-found' => 'ફીડ $1 મળી નહી',
-	'ffeed-entry-not-found' => '$1 માટે ફીડ દાખલો મળ્યો નહી',
+	'ffeed-entry-not-found' => '$1 માટે ફીડ દાખલો મળ્યો નથી',
 	'ffeed-sidebar-section' => 'ઉમદા માહિતીની ફીડ',
 	'ffeed-invalid-timestamp' => 'અયોગ્ય ફીડ સમયછાપ',
 	'ffeed-featured-title' => '{{SITENAME}} ઉમદા લેખોની ફીડ',
@@ -599,8 +608,8 @@ $messages['hsb'] = array(
 	'ffeed-featured-desc' => 'Najlěpše nastawki, kotrež {{SITENAME}} poskića',
 	'ffeed-featured-entry' => '{{LOCALDAY}}. {{LOCALMONTHNAMEGEN}}  {{SITENAME}} wuběrny nastawk',
 	'ffeed-good-title' => '{{SITENAME}} - kanal dobrych nastawkow',
-	'ffeed-good-short-title' => 'Dobre nstawki',
-	'ffeed-good-desc' => 'Dobre nastawki, kotrež {{SITENAME}} dyrbi poskićić',
+	'ffeed-good-short-title' => 'Dobre nastawki',
+	'ffeed-good-desc' => 'Dobre nastawki, kotrež {{SITENAME}} poskića',
 	'ffeed-good-entry' => '{{LOCALDAY}}. {{LOCALMONTHNAMEGEN}}  {{SITENAME}} dobry nastawk',
 	'ffeed-onthisday-title' => '{{SITENAME}} - kanal "Tutón dźeń..."',
 	'ffeed-onthisday-short-title' => 'Tutón dźeń...',
@@ -956,12 +965,43 @@ $messages['nl'] = array(
  * @author Khalid Mahmood
  */
 $messages['pnb'] = array(
+	'ffeed-desc' => 'وکی دے فیچرڈ لکھتاں چ سنڈیکیشن رلاؤ',
 	'ffeed-no-feed' => 'فیڈ نئیں دسی گئی۔',
-	'ffeed-feed-not-found' => 'فید 1$ نئیں لبی',
-	'ffeed-entry-not-found' => 'فیڈ لکھت 1$ لئی نئیں لبی۔',
+	'ffeed-feed-not-found' => 'فیڈ 1$ نئیں لبی',
+	'ffeed-entry-not-found' => 'تریخ 1$ لئی نئیں لبی۔',
 	'ffeed-sidebar-section' => 'فیچرڈ کونٹنٹ فیڈز',
+	'ffeed-invalid-timestamp' => 'ناں منی جان والی فیڈ ٹائیمسٹیمپ',
 	'ffeed-featured-title' => '{{SITENAME}} فیچرڈ آرٹیکل فیڈ',
 	'ffeed-featured-short-title' => 'ودیا آرٹیکل',
+	'ffeed-featured-desc' => 'ودیا آرٹیکل {{SITENAME}} دین پین کے۔',
+	'ffeed-featured-entry' => '{{معینہناں}} {{دن}} {{SITENAME}} فیچرڈ آرٹیکل',
+	'ffeed-good-title' => '{{SITENAME}} چنگے ارٹیکل بارے',
+	'ffeed-good-short-title' => 'چنکے ارٹیکل',
+	'ffeed-good-desc' => 'چنکے ارٹیکل {{SITENAME}} دسنے پیسن۔',
+	'ffeed-good-entry' => '{{معینہناں}} {{دن}} {{SITENAME}} چنکے آرٹیکل',
+	'ffeed-onthisday-title' => '{{SITENAME}} "اس دن نوں..." فیڈ',
+	'ffeed-onthisday-short-title' => 'اس دن نوں۔۔۔۔۔',
+	'ffeed-onthisday-desc' => 'ایس دن دیاں تریخی گلاں',
+	'ffeed-onthisday-entry' => 'اس دن نوں: {{معینہ}} {{دن}}',
+	'ffeed-dyk-title' => '{{SITENAME}} "کیا تسین جاندے سی?" دسو',
+	'ffeed-dyk-short-title' => 'کیاتسی جاندے سی ؟',
+);
+
+/** Tamil (தமிழ்)
+ * @author Shanmugamp7
+ */
+$messages['ta'] = array(
+	'ffeed-good-short-title' => 'நல்ல கட்டுரைகள்',
+	'ffeed-good-entry' => '{{LOCALMONTHNAME}} {{LOCALDAY}} {{SITENAME}} நல்ல கட்டுரை',
+	'ffeed-onthisday-short-title' => 'இந்த நாளில்...',
+	'ffeed-onthisday-desc' => 'இந்த நாளில் வரலாற்று நிகழ்வுகள்',
+	'ffeed-onthisday-entry' => 'இந்த நாளில்: {{LOCALMONTHNAME}} {{LOCALDAY}}',
+	'ffeed-dyk-short-title' => 'உங்களுக்கு தெரியுமா?',
+	'ffeed-dyk-desc' => '{{SITENAME}} லிருந்து புதிய உள்ளடக்கம்',
+	'ffeed-dyk-entry' => 'உங்களுக்கு தெரியுமா?: {{LOCALMONTHNAME}} {{LOCALDAY}}',
+	'ffeed-potd-short-title' => 'இன்றைய சிறப்புப்படம்',
+	'ffeed-potd-desc' => 'சில சிறந்த படங்கள்  {{SITENAME}}ல்',
+	'ffeed-potd-entry' => '{{SITENAME}}இன்றைய சிறப்புப்படம்  {{LOCALMONTHNAME}} {{LOCALDAY}}க்கு',
 );
 
 /** Telugu (తెలుగు)
