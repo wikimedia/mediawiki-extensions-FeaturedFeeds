@@ -196,6 +196,7 @@ $messages['be-tarask'] = array(
 
 /** Breton (Brezhoneg)
  * @author Fulup
+ * @author Gwendal
  * @author Y-M D
  */
 $messages['br'] = array(
@@ -206,6 +207,7 @@ $messages['br'] = array(
 	'ffeed-sidebar-section' => 'Gwazhioù web evit danvez a-feson',
 	'ffeed-invalid-timestamp' => 'Direizh eo ar vammenn web evit an eur hag an deiz',
 	'ffeed-featured-title' => 'Gwazh web evit ar pennadoù a-feson eus {{SITENAME}}',
+	'ffeed-featured-short-title' => 'Pennadoù a-zoare',
 	'ffeed-featured-desc' => 'Ar pennadoù wellañ a gaver war {{SITENAME}}',
 	'ffeed-good-short-title' => 'Pennadoù mat',
 	'ffeed-good-desc' => "Pennadoù mat a c'hall {{SITENAME}} kinnig deoc'h",
@@ -756,8 +758,11 @@ $messages['lb'] = array(
 	'ffeed-motd-desc' => 'E puer vun de beschte Medie-Fichieren op {{SITENAME}}',
 	'ffeed-potd-short-title' => 'Bild vum Dag',
 	'ffeed-potd-desc' => 'E puer vun de beschte Biller op {{SITENAME}}',
+	'ffeed-potd-entry' => 'Bild vum Dag  vum {{LOCALDAY}} {{LOCALMONTHNAME}} op {{SITENAME}}',
 	'ffeed-qotd-title' => 'Feed vum Zitat vum Dag op {{SITENAME}}',
 	'ffeed-qotd-short-title' => 'Zitat vum Dag',
+	'ffeed-qotd-desc' => 'E puer vun de beschte Zitater op {{SITENAME}}',
+	'ffeed-featuredtexts-short-title' => 'Exzellent Texter',
 	'ffeed-featuredtexts-desc' => 'Déi bescht Texter déi {{SITENAME}} ze bidden huet',
 	'ffeed-featuredtexts-entry' => 'Den  {{LOCALDAY}} {{LOCALMONTHNAME}} op {{SITENAME}} ausgezeechenten Text',
 );
@@ -959,6 +964,22 @@ $messages['nl'] = array(
 	'ffeed-qotd-desc' => 'De beste uitspraken van {{SITENAME}}',
 	'ffeed-qotd-entry' => 'Uitspraak van de dag voor van {{LOCALDAY}} {{LOCALMONTHNAME}} van {{SITENAME}}',
 	'ffeed-featuredtexts-desc' => 'De beste teksten die {{SITENAME}} te bieden heeft',
+);
+
+/** Polish (Polski)
+ * @author BeginaFelicysym
+ */
+$messages['pl'] = array(
+	'ffeed-no-feed' => 'Nie określono kanału',
+	'ffeed-feed-not-found' => 'Nie odnaleziono kanału $1',
+	'ffeed-entry-not-found' => 'Nie odnaleziono wejść kanału z dnia $1',
+	'ffeed-sidebar-section' => 'Kanały z polecaną zawartością',
+	'ffeed-featured-short-title' => 'Polecane artykuły',
+	'ffeed-good-short-title' => 'Dobre artykuły',
+	'ffeed-onthisday-title' => 'Kanał "W tym dniu" na {{SITENAME}}',
+	'ffeed-onthisday-short-title' => 'W tym dniu...',
+	'ffeed-onthisday-desc' => 'Wydarzenia historyczne w tym dniu',
+	'ffeed-onthisday-entry' => 'W tym dniu: {{LOCALMONTHNAME}} {{LOCALDAY}}',
 );
 
 /** Western Punjabi (پنجابی)
