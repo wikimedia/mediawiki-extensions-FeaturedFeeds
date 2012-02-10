@@ -408,6 +408,36 @@ $messages['es'] = array(
 	'ffeed-featuredtexts-entry' => 'Texto destacado de {{SITENAME}} el {{LOCALDAY}} {{LOCALMONTHNAME}}',
 );
 
+/** Persian (فارسی)
+ * @author Leyth
+ */
+$messages['fa'] = array(
+	'ffeed-feed-not-found' => 'خوراک $1 یافت نشد',
+	'ffeed-entry-not-found' => 'خوراک ورودی برای  $1 یافت نشد',
+	'ffeed-sidebar-section' => 'خوردهای محتوای برگزیده',
+	'ffeed-featured-title' => 'خوراک مقالات برجستهٔ {{SITENAME}}',
+	'ffeed-featured-short-title' => 'مقالات برگزیده',
+	'ffeed-good-title' => 'خوراک مقالات خوب {{SITENAME}}',
+	'ffeed-good-short-title' => 'مقاله‌های خوب',
+	'ffeed-good-entry' => 'مقالهٔ خوب {{SITENAME}} در {{LOCALDAY}}ام {{LOCALMONTHNAME}}',
+	'ffeed-onthisday-desc' => 'وقایع تاریخی امروز',
+	'ffeed-dyk-short-title' => 'آیا می‌دانید؟',
+	'ffeed-dyk-desc' => 'از جدیدترین محتوای {{SITENAME}}',
+	'ffeed-dyk-entry' => 'آیا می دانید؟: {{LOCALMONTHNAME}} {{LOCALDAY}}',
+	'ffeed-motd-entry' => 'رسانهٔ برگزیدهٔ {{SITENAME}} در {{LOCALDAY}}ام {{LOCALMONTHNAME}}',
+	'ffeed-potd-title' => 'خوراک تصویر برگزیدهٔ روز {{SITENAME}}',
+	'ffeed-potd-short-title' => 'تصویر برگزیدهٔ روز',
+	'ffeed-potd-desc' => 'برخی از بهترین نگاره‌ها در {{SITENAME}}',
+	'ffeed-potd-entry' => 'نگارهٔ برگزیدهٔ {{SITENAME}} در {{LOCALDAY}}ام {{LOCALMONTHNAME}}',
+	'ffeed-qotd-title' => 'خوراک گفتاورد برگزیدهٔ روز {{SITENAME}}',
+	'ffeed-qotd-short-title' => 'گفتاورد برگزیدهٔ روز',
+	'ffeed-qotd-desc' => 'برخی از بهترین گفتاوردها در {{SITENAME}}',
+	'ffeed-qotd-entry' => 'گفتاورد برگزیدهٔ {{SITENAME}} در {{LOCALDAY}}ام {{LOCALMONTHNAME}}',
+	'ffeed-featuredtexts-title' => 'خوراک متون برگزیدهٔ {{SITENAME}}',
+	'ffeed-featuredtexts-short-title' => 'متون برگزیده',
+	'ffeed-featuredtexts-entry' => 'متن برگزیدهٔ {{SITENAME}} در {{LOCALDAY}}ام {{LOCALMONTHNAME}}',
+);
+
 /** Finnish (Suomi)
  * @author Crt
  */
@@ -511,6 +541,7 @@ $messages['gl'] = array(
  * @author Sushant savla
  */
 $messages['gu'] = array(
+	'ffeed-desc' => 'વિકિના ઉમદા લેખની સિંડિકેશન ફીડ અહીં ઉમેરાય છે.',
 	'ffeed-no-feed' => 'ફીડ સ્પષ્ટ કરેલ નથી',
 	'ffeed-feed-not-found' => 'ફીડ $1 મળી નહી',
 	'ffeed-entry-not-found' => '$1 માટે ફીડ દાખલો મળ્યો નથી',
