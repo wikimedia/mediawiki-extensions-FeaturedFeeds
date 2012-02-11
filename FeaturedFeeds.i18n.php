@@ -108,6 +108,50 @@ $messages['qqq'] = array(
 	'ffeed-featuredtexts-entry' => "Title of day's entry in the Featured Texts [[w:web feed|syndication feed]]",
 );
 
+/** Aragonese (Aragonés)
+ * @author Juanpabl
+ */
+$messages['an'] = array(
+	'ffeed-desc' => "Adhibe fuents de publicación (feeds) d'os contenius destacaus d'o wiki",
+	'ffeed-no-feed' => 'A fuent (feed) no ye especificada',
+	'ffeed-feed-not-found' => "No s'ha trobau a fuent $1",
+	'ffeed-entry-not-found' => "No s'ha trobau una dentrada de fuent ta $1",
+	'ffeed-sidebar-section' => 'Fuents de contenius destacaus',
+	'ffeed-invalid-timestamp' => "A calendata u a hora d'a fuent son incorrectas",
+	'ffeed-featured-title' => "Fuent (feed) d'articlos destacaus de {{SITENAME}}",
+	'ffeed-featured-short-title' => 'Articlos destacaus',
+	'ffeed-featured-desc' => 'Millors articlos que ofreix {{SITENAME}}',
+	'ffeed-featured-entry' => 'Articlo destacau de {{SITENAME}} o {{LOCALDAY}} de {{LOCALMONTHNAME}}',
+	'ffeed-good-title' => "Fuent (feed) d'articlos buenos de {{SITENAME}}",
+	'ffeed-good-short-title' => 'Articlos buenos',
+	'ffeed-good-desc' => 'Articlos buenos que ofreix {{SITENAME}}',
+	'ffeed-good-entry' => 'Artículo bueno de {{SITENAME}} o {{LOCALDAY}} de {{LOCALMONTHNAME}}',
+	'ffeed-onthisday-title' => 'Canal "Tal día como hue..." en {{SITENAME}}',
+	'ffeed-onthisday-short-title' => 'Tal día como hue...',
+	'ffeed-onthisday-desc' => "Escayecimientos historicos d'iste día",
+	'ffeed-onthisday-entry' => 'Tal día como hue: {{LOCALDAY}} de {{LOCALMONTHNAME}}',
+	'ffeed-dyk-title' => 'Canal "Ya sabebas que...?" en {{SITENAME}}',
+	'ffeed-dyk-short-title' => 'Ya sabebas que...?',
+	'ffeed-dyk-desc' => "D'os contenius mas recients de {{SITENAME}}",
+	'ffeed-dyk-entry' => 'Ya sabebas que...?: {{LOCALMONTHNAME}} {{LOCALDAY}}',
+	'ffeed-motd-title' => "Canal fichero multimedia d'o día en {{SITENAME}}",
+	'ffeed-motd-short-title' => "Fichero multimedia d'o día",
+	'ffeed-motd-desc' => "Beluns d'os millors fichers multimedia de {{SITENAME}}",
+	'ffeed-motd-entry' => "Fichero multimedia d'o día {{LOCALDAY}} {{LOCALMONTHNAME}} en {{SITENAME}}",
+	'ffeed-potd-title' => "Canal de Imachen d'o día en {{SITENAME}}",
+	'ffeed-potd-short-title' => "A imachen d'o día",
+	'ffeed-potd-desc' => "Belunas d'as millors imachens de {{SITENAME}}",
+	'ffeed-potd-entry' => "A imachen d'o día de {{SITENAME}} d'o {{LOCALDAY}} de {{LOCALMONTHNAME}}",
+	'ffeed-qotd-title' => "Canal de Cita d'o día en {{SITENAME}}",
+	'ffeed-qotd-short-title' => "A cita d'o día",
+	'ffeed-qotd-desc' => "Belunas d'as millors citas de {{SITENAME}}",
+	'ffeed-qotd-entry' => "Cita d'o día de {{SITENAME}} o {{LOCALDAY}} de {{LOCALMONTHNAME}}",
+	'ffeed-featuredtexts-title' => 'Canal de textos destacaus de {{SITENAME}}',
+	'ffeed-featuredtexts-short-title' => 'Textos destacaus',
+	'ffeed-featuredtexts-desc' => 'Os millors textos que ofreix {{SITENAME}}',
+	'ffeed-featuredtexts-entry' => 'Texto destacau de {{SITENAME}} o {{LOCALDAY}} de {{LOCALMONTHNAME}}',
+);
+
 /** Asturian (Asturianu)
  * @author Xuacu
  */
@@ -775,6 +819,7 @@ $messages['lb'] = array(
 	'ffeed-featured-short-title' => 'Recommandéiert Artikelen',
 	'ffeed-featured-desc' => 'Déi bescht Artikelen déi {{SITENAME}} ze bidden huet',
 	'ffeed-featured-entry' => 'Den  {{LOCALDAY}} {{LOCALMONTHNAME}} op {{SITENAME}} ausgezeechenten Artikel',
+	'ffeed-good-title' => 'Feed vun de gudden Artikelen op {{SITENAME}}',
 	'ffeed-good-short-title' => 'Gutt Artikelen',
 	'ffeed-good-desc' => 'Gutt Artikelen déi {{SITENAME}} ze bidden huet',
 	'ffeed-onthisday-short-title' => 'Um Dag vun haut...',
@@ -787,12 +832,14 @@ $messages['lb'] = array(
 	'ffeed-motd-title' => '{{SITENAME}} Feed mam Medie-Fichier vum Dag',
 	'ffeed-motd-short-title' => 'Medie-Fichier vum Dag',
 	'ffeed-motd-desc' => 'E puer vun de beschte Medie-Fichieren op {{SITENAME}}',
+	'ffeed-potd-title' => '{{SITENAME}} Feed: Bild vum Dag',
 	'ffeed-potd-short-title' => 'Bild vum Dag',
 	'ffeed-potd-desc' => 'E puer vun de beschte Biller op {{SITENAME}}',
 	'ffeed-potd-entry' => 'Bild vum Dag  vum {{LOCALDAY}} {{LOCALMONTHNAME}} op {{SITENAME}}',
 	'ffeed-qotd-title' => 'Feed vum Zitat vum Dag op {{SITENAME}}',
 	'ffeed-qotd-short-title' => 'Zitat vum Dag',
 	'ffeed-qotd-desc' => 'E puer vun de beschte Zitater op {{SITENAME}}',
+	'ffeed-featuredtexts-title' => '{{SITENAME}} Feed: Exzellent Texter',
 	'ffeed-featuredtexts-short-title' => 'Exzellent Texter',
 	'ffeed-featuredtexts-desc' => 'Déi bescht Texter déi {{SITENAME}} ze bidden huet',
 	'ffeed-featuredtexts-entry' => 'Den  {{LOCALDAY}} {{LOCALMONTHNAME}} op {{SITENAME}} ausgezeechenten Text',
@@ -864,6 +911,7 @@ $messages['ml'] = array(
 	'ffeed-dyk-short-title' => 'താങ്കൾക്കറിയാമോ?',
 	'ffeed-motd-short-title' => 'ഇന്നത്തെ മീഡിയ',
 	'ffeed-potd-short-title' => 'ഇന്നത്തെ ചിത്രം',
+	'ffeed-qotd-short-title' => 'ഇന്നത്തെ ഉദ്ധരണി',
 );
 
 /** Marathi (मराठी)
@@ -1037,6 +1085,8 @@ $messages['pnb'] = array(
 	'ffeed-onthisday-entry' => 'اس دن نوں: {{معینہ}} {{دن}}',
 	'ffeed-dyk-title' => '{{SITENAME}} "کیا تسین جاندے سی?" دسو',
 	'ffeed-dyk-short-title' => 'کیاتسی جاندے سی ؟',
+	'ffeed-dyk-desc' => '{{SITENAME}} دیآں سب توں نویاں تبدیلیاں توں',
+	'ffeed-dyk-entry' => 'کیا تسی جاندے او ?: {{LOCALMONTHNAME}} {{LOCALDAY}}',
 );
 
 /** Tamil (தமிழ்)
@@ -1149,5 +1199,16 @@ $messages['zh-hans'] = array(
 	'ffeed-qotd-short-title' => '每日名言',
 	'ffeed-qotd-desc' => '{{SITENAME}}上最佳的一些名言',
 	'ffeed-qotd-entry' => '{{SITENAME}}{{LOCALMONTHNAME}}{{LOCALDAY}}日的每日名言',
+);
+
+/** Traditional Chinese (‪中文(繁體)‬)
+ * @author Oapbtommy
+ */
+$messages['zh-hant'] = array(
+	'ffeed-onthisday-short-title' => '在這一天 … …',
+	'ffeed-onthisday-entry' => '在這一天： {{LOCALMONTHNAME}} {{LOCALDAY}}',
+	'ffeed-dyk-short-title' => '你知道嗎？',
+	'ffeed-motd-short-title' => '每日媒體',
+	'ffeed-potd-short-title' => '每日圖片',
 );
 
