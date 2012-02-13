@@ -253,6 +253,8 @@ $messages['br'] = array(
 	'ffeed-featured-title' => 'Gwazh web evit ar pennadoù a-feson eus {{SITENAME}}',
 	'ffeed-featured-short-title' => 'Pennadoù a-zoare',
 	'ffeed-featured-desc' => 'Ar pennadoù wellañ a gaver war {{SITENAME}}',
+	'ffeed-featured-entry' => 'Pennad a-feson {{LOCALMONTHNAME}} {{LOCALDAY}} {{SITENAME}}',
+	'ffeed-good-title' => 'Gwazh web evit ar pennadoù mat eus {{SITENAME}}',
 	'ffeed-good-short-title' => 'Pennadoù mat',
 	'ffeed-good-desc' => "Pennadoù mat a c'hall {{SITENAME}} kinnig deoc'h",
 	'ffeed-good-entry' => 'Pennad mat e {{LOCALMONTHNAME}} {{LOCALDAY}} {{SITENAME}}',
@@ -270,9 +272,16 @@ $messages['br'] = array(
 	'ffeed-motd-entry' => 'Media an deiz eus {{SITENAME}} evit {{LOCALDAY}} {{LOCALMONTHNAME}}',
 	'ffeed-potd-title' => '{{SITENAME}} steudad skeudenn an devezh',
 	'ffeed-potd-short-title' => 'Skeudenn an deiz',
-	'ffeed-potd-desc' => 'Un nebeut re deus skeudennoù wellañ {{SITENAME}}',
+	'ffeed-potd-desc' => 'Un dibab eus skeudennoù gwellañ {{SITENAME}}',
 	'ffeed-potd-entry' => 'Skeudenn an deiz eus {{SITENAME}} evit {{LOCALDAY}} {{LOCALMONTHNAME}}',
 	'ffeed-qotd-title' => 'Mammenn web arroudenn an deiz e {{SITENAME}}',
+	'ffeed-qotd-short-title' => 'Arroud an deiz',
+	'ffeed-qotd-desc' => 'Un dibab eus arroudennoù gwellañ {{SITENAME}}',
+	'ffeed-qotd-entry' => 'Arroudenn an deiz eus {{SITENAME}} evit ar {{LOCALDAY}} {{LOCALMONTHNAME}}',
+	'ffeed-featuredtexts-title' => 'Gwazh web evit ar testennoù a-feson eus {{SITENAME}}',
+	'ffeed-featuredtexts-short-title' => 'Testennoù a-feson',
+	'ffeed-featuredtexts-desc' => 'Ar pennadoù gwellañ a gaver war {{SITENAME}}',
+	'ffeed-featuredtexts-entry' => "Testenn a-feson eus {{SITENAME}} d'ar {{LOCALDAY}} {{LOCALMONTHNAME}}",
 );
 
 /** Czech (Česky)
@@ -1053,12 +1062,22 @@ $messages['pl'] = array(
 	'ffeed-feed-not-found' => 'Nie odnaleziono kanału $1',
 	'ffeed-entry-not-found' => 'Nie odnaleziono wejść kanału z dnia $1',
 	'ffeed-sidebar-section' => 'Kanały z polecaną zawartością',
+	'ffeed-invalid-timestamp' => 'Nieprawidłowa sygnatura czasowa kanału',
+	'ffeed-featured-title' => 'Kanał wyróżnionych artykułów witryny {{SITENAME}}',
 	'ffeed-featured-short-title' => 'Polecane artykuły',
+	'ffeed-featured-desc' => 'Najlepsze artykuły, jakie oferuje {{SITENAME}}',
+	'ffeed-featured-entry' => 'Artykuł promowany  {{NAZWA_WITRYNY}} z {{LOCALDAY}} {{LOCALMONTHNAME}}',
+	'ffeed-good-title' => 'Kanał dobrych artykułów witryny {{SITENAME}}',
 	'ffeed-good-short-title' => 'Dobre artykuły',
+	'ffeed-good-desc' => 'Dobre artykuły, jakie oferuje {{SITENAME}}',
+	'ffeed-good-entry' => 'Dobry artykuł {{NAZWA_WITRYNY}} z {{LOCALDAY}} {{LOCALMONTHNAME}}',
 	'ffeed-onthisday-title' => 'Kanał "W tym dniu" na {{SITENAME}}',
 	'ffeed-onthisday-short-title' => 'W tym dniu...',
 	'ffeed-onthisday-desc' => 'Wydarzenia historyczne w tym dniu',
 	'ffeed-onthisday-entry' => 'W tym dniu: {{LOCALMONTHNAME}} {{LOCALDAY}}',
+	'ffeed-dyk-title' => 'Kanał "Czy wiesz, że?" witryny {{SITENAME}}',
+	'ffeed-dyk-short-title' => 'Czy wiesz, że?',
+	'ffeed-dyk-entry' => 'Czy wiesz, że?: {{LOCALDAY}} {{LOCALMONTHNAME}}',
 );
 
 /** Western Punjabi (پنجابی)
@@ -1104,6 +1123,7 @@ $messages['ta'] = array(
 	'ffeed-potd-short-title' => 'இன்றைய சிறப்புப்படம்',
 	'ffeed-potd-desc' => 'சில சிறந்த படங்கள்  {{SITENAME}}ல்',
 	'ffeed-potd-entry' => '{{SITENAME}}இன்றைய சிறப்புப்படம்  {{LOCALMONTHNAME}} {{LOCALDAY}}க்கு',
+	'ffeed-qotd-short-title' => 'இன்றைய தின மேற்கோள்',
 );
 
 /** Telugu (తెలుగు)
