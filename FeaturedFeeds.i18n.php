@@ -328,6 +328,33 @@ $messages['cs'] = array(
 	'ffeed-featuredtexts-entry' => 'Vybraný text na {{LOCALDAY}}. {{LOCALMONTHNAMEGEN}} na {{grammar:6sg|{{SITENAME}}}}',
 );
 
+/** Welsh (Cymraeg)
+ * @author Pwyll
+ */
+$messages['cy'] = array(
+	'ffeed-featured-short-title' => 'Erthyglau dethol',
+	'ffeed-featured-desc' => 'Erthyglau gorau {{SITENAME}}',
+	'ffeed-good-title' => 'Ffrwd erthyglau gorau {{SITENAME}}',
+	'ffeed-good-short-title' => 'Erthyglau da',
+	'ffeed-good-desc' => "Yr erthyglau gorau sydd gan {{SITENAME}} i'w gynnig",
+	'ffeed-onthisday-title' => 'Ffrwd "Ar y dydd hwn..." {{SITENAME}}',
+	'ffeed-onthisday-short-title' => 'Ar y dydd hwn...',
+	'ffeed-onthisday-desc' => "Digwyddiadau hanesyddol o'r diwrnod hwn",
+	'ffeed-onthisday-entry' => 'Ar y dydd hwn: {{LOCALSITENAME}} {{LOCALDAY}}',
+	'ffeed-dyk-title' => 'Ffrwd "Wyddoch chi?" {{SITENAME}}',
+	'ffeed-dyk-short-title' => 'Wyddoch chi?',
+	'ffeed-dyk-desc' => 'O gynnwys diweddaraf {{SITENAME}}',
+	'ffeed-dyk-entry' => 'Wyddoch chi?: {{LOCALMONTHNAME}} {{LOCALDAY}}',
+	'ffeed-motd-title' => 'Ffrwd cyfrwng y dydd {{SITENAME}}',
+	'ffeed-motd-short-title' => 'Ffeil gyfrwng y dydd',
+	'ffeed-potd-title' => 'Ffrwd llun y dydd {{SITENAME}}',
+	'ffeed-potd-short-title' => 'Delwedd y dydd',
+	'ffeed-potd-desc' => 'Rhai o ddelweddau gorau {{SITENAME}}',
+	'ffeed-qotd-title' => 'Ffrwd dyfyniad y dydd {{SITENAME}}',
+	'ffeed-qotd-short-title' => 'Dyfyniad y dydd',
+	'ffeed-qotd-desc' => 'Rhai o ddyfyniadau gorau {{SITENAME}}',
+);
+
 /** German (Deutsch)
  * @author Kghbln
  * @author Metalhead64
