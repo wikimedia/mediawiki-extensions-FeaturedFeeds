@@ -1105,6 +1105,8 @@ $messages['pl'] = array(
 	'ffeed-dyk-title' => 'Kanał "Czy wiesz, że?" witryny {{SITENAME}}',
 	'ffeed-dyk-short-title' => 'Czy wiesz, że?',
 	'ffeed-dyk-entry' => 'Czy wiesz, że?: {{LOCALDAY}} {{LOCALMONTHNAME}}',
+	'ffeed-potd-short-title' => 'Grafika dnia',
+	'ffeed-qotd-short-title' => 'Cytat dnia',
 );
 
 /** Western Punjabi (پنجابی)
