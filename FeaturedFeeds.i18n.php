@@ -1137,6 +1137,50 @@ $messages['pnb'] = array(
 	'ffeed-dyk-entry' => 'کیا تسی جاندے او ?: {{LOCALMONTHNAME}} {{LOCALDAY}}',
 );
 
+/** Russian (Русский)
+ * @author Александр Сигачёв
+ */
+$messages['ru'] = array(
+	'ffeed-desc' => 'Добавляет канал избранных материалов вики',
+	'ffeed-no-feed' => 'Не указан канал',
+	'ffeed-feed-not-found' => 'Канал $1 не найден',
+	'ffeed-entry-not-found' => 'Не найден элемент канала $1',
+	'ffeed-sidebar-section' => 'Каналы избранных материалов',
+	'ffeed-invalid-timestamp' => 'Ошибочная отметка времени канала',
+	'ffeed-featured-title' => 'Канал избранных статей {{GRAMMAR:genitive|{{SITENAME}}}}',
+	'ffeed-featured-short-title' => 'Избранные статьи',
+	'ffeed-featured-desc' => 'Лучшие статьи {{GRAMMAR:genitive|{{SITENAME}}}}',
+	'ffeed-featured-entry' => 'Избранная статья {{GRAMMAR:genitive|{{SITENAME}}}} за {{LOCALDAY}} {{LOCALMONTHNAMEGEN}}',
+	'ffeed-good-title' => 'Канал хороших статей {{GRAMMAR:genitive|{{SITENAME}}}}',
+	'ffeed-good-short-title' => 'Хорошие статьи',
+	'ffeed-good-desc' => 'Хорошие статьи {{GRAMMAR:genitive|{{SITENAME}}}}',
+	'ffeed-good-entry' => 'Хорошая статья {{GRAMMAR:genitive|{{SITENAME}}}} за {{LOCALDAY}} {{LOCALMONTHNAMEGEN}}',
+	'ffeed-onthisday-title' => 'Канал {{GRAMMAR:genitive|{{SITENAME}}}} «В этот день»',
+	'ffeed-onthisday-short-title' => 'В этот день...',
+	'ffeed-onthisday-desc' => 'Исторические события, случившиеся в этот день',
+	'ffeed-onthisday-entry' => 'В этот день: {{LOCALDAY}} {{LOCALMONTHNAMEGEN}}',
+	'ffeed-dyk-title' => 'Канал {{GRAMMAR:genitive|{{SITENAME}}}} «Знаете ли вы?»',
+	'ffeed-dyk-short-title' => 'Знаете ли вы?',
+	'ffeed-dyk-desc' => 'Из новых материалов {{GRAMMAR:genitive|{{SITENAME}}}}',
+	'ffeed-dyk-entry' => 'Знаете ли вы? {{LOCALDAY}} {{LOCALMONTHNAMEGEN}}',
+	'ffeed-motd-title' => 'Канал {{GRAMMAR:genitive|{{SITENAME}}}} «Медиа дня»',
+	'ffeed-motd-short-title' => 'Медиа дня',
+	'ffeed-motd-desc' => 'Фото, видео и аудио из {{GRAMMAR:genitive|{{SITENAME}}}}',
+	'ffeed-motd-entry' => 'Медиа дня из {{GRAMMAR:genitive|{{SITENAME}}}} за {{LOCALDAY}} {{LOCALMONTHNAMEGEN}}',
+	'ffeed-potd-title' => 'Канал {{GRAMMAR:genitive|{{SITENAME}}}} «Изображение дня»',
+	'ffeed-potd-short-title' => 'Изображение дня',
+	'ffeed-potd-desc' => 'Одни из лучших изображений  {{GRAMMAR:genitive|{{SITENAME}}}}',
+	'ffeed-potd-entry' => 'Изображение дня из {{GRAMMAR:genitive|{{SITENAME}}}} за {{LOCALDAY}} {{LOCALMONTHNAMEGEN}}',
+	'ffeed-qotd-title' => 'Канал {{GRAMMAR:genitive|{{SITENAME}}}} «Цитата дня»',
+	'ffeed-qotd-short-title' => 'Цитата дня',
+	'ffeed-qotd-desc' => 'Одни из лучших цитат {{GRAMMAR:genitive|{{SITENAME}}}}',
+	'ffeed-qotd-entry' => 'Цитата дня из {{GRAMMAR:genitive|{{SITENAME}}}} за {{LOCALDAY}} {{LOCALMONTHNAMEGEN}}',
+	'ffeed-featuredtexts-title' => 'Канал избранных текстов {{GRAMMAR:genitive|{{SITENAME}}}}',
+	'ffeed-featuredtexts-short-title' => 'Избранные тексты',
+	'ffeed-featuredtexts-desc' => 'Лучшие тексты {{GRAMMAR:genitive|{{SITENAME}}}}',
+	'ffeed-featuredtexts-entry' => 'Избранный текст {{GRAMMAR:genitive|{{SITENAME}}}} за {{LOCALDAY}} {{LOCALMONTHNAMEGEN}}',
+);
+
 /** Tamil (தமிழ்)
  * @author Shanmugamp7
  */
