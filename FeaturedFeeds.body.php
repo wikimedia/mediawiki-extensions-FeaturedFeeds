@@ -250,6 +250,7 @@ class FeaturedFeedChannel {
 	private $items = false;
 	private $page = false;
 	private $entryName;
+	private $titleForParse;
 
 	public $title = false;
 	public $shortTitle;
@@ -373,8 +374,13 @@ class FeaturedFeedChannel {
 			$this->name . '/' . wfTimestamp( TS_MW, $date ) . '/' . $this->language->getCode()
 		)->getFullURL();
 
+		if ( !isset( $this->titleForParse ) ) {
+			// parsing with such title makes stuff like {{CURRENTMONTH}} localised
+			$this->titleForParse = Title::newFromText( 'MediaWiki:Dummy/' . $this->language->getCode() );
+		}
+
 		return new FeaturedFeedItem(
-			self::$parser->transformMsg( $this->entryName, self::$parserOptions ),
+			self::$parser->transformMsg( $this->entryName, self::$parserOptions, $this->titleForParse ),
 			wfExpandUrl( $url ),
 			$text,
 			$date
