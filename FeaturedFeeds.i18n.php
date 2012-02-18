@@ -489,21 +489,35 @@ $messages['es'] = array(
 );
 
 /** Persian (فارسی)
+ * @author Huji
  * @author Leyth
  */
 $messages['fa'] = array(
+	'ffeed-desc' => 'خوراکی از محتوای برگزیده ویکی می‌افزاید',
+	'ffeed-no-feed' => 'خوراک مشخص نشده',
 	'ffeed-feed-not-found' => 'خوراک $1 یافت نشد',
 	'ffeed-entry-not-found' => 'خوراک ورودی برای  $1 یافت نشد',
 	'ffeed-sidebar-section' => 'خوردهای محتوای برگزیده',
+	'ffeed-invalid-timestamp' => 'برچسب زمان خوراک معتبر نیست',
 	'ffeed-featured-title' => 'خوراک مقالات برجستهٔ {{SITENAME}}',
 	'ffeed-featured-short-title' => 'مقالات برگزیده',
+	'ffeed-featured-desc' => 'بهترین مقاله‌هایی که {{SITENAME}} می‌تواند ارائه کند',
+	'ffeed-featured-entry' => 'مقالهٔ برگزیدهٔ {{SITENAME}} در  {{LOCALDAY}} {{LOCALMONTHNAME}}',
 	'ffeed-good-title' => 'خوراک مقالات خوب {{SITENAME}}',
 	'ffeed-good-short-title' => 'مقاله‌های خوب',
+	'ffeed-good-desc' => 'مقاله‌های خوبی که {{SITENAME}} می‌تواند ارائه کند',
 	'ffeed-good-entry' => 'مقالهٔ خوب {{SITENAME}} در {{LOCALDAY}}ام {{LOCALMONTHNAME}}',
+	'ffeed-onthisday-title' => 'خوراک «در این روز ...» {{SITENAME}}',
+	'ffeed-onthisday-short-title' => 'در این روز ...',
 	'ffeed-onthisday-desc' => 'وقایع تاریخی امروز',
+	'ffeed-onthisday-entry' => 'در این روز: {{LOCALMONTHNAME}} {{LOCALDAY}}',
+	'ffeed-dyk-title' => 'خوراک «آیا می‌دانستید؟» {{SITENAME}}',
 	'ffeed-dyk-short-title' => 'آیا می‌دانید؟',
 	'ffeed-dyk-desc' => 'از جدیدترین محتوای {{SITENAME}}',
 	'ffeed-dyk-entry' => 'آیا می دانید؟: {{LOCALMONTHNAME}} {{LOCALDAY}}',
+	'ffeed-motd-title' => 'خوراک رسانهٔ روز {{SITENAME}}',
+	'ffeed-motd-short-title' => 'رسانهٔ روز',
+	'ffeed-motd-desc' => 'برخی از بهترین رسانه‌ها در {{SITENAME}}',
 	'ffeed-motd-entry' => 'رسانهٔ برگزیدهٔ {{SITENAME}} در {{LOCALDAY}}ام {{LOCALMONTHNAME}}',
 	'ffeed-potd-title' => 'خوراک تصویر برگزیدهٔ روز {{SITENAME}}',
 	'ffeed-potd-short-title' => 'تصویر برگزیدهٔ روز',
@@ -515,6 +529,7 @@ $messages['fa'] = array(
 	'ffeed-qotd-entry' => 'گفتاورد برگزیدهٔ {{SITENAME}} در {{LOCALDAY}}ام {{LOCALMONTHNAME}}',
 	'ffeed-featuredtexts-title' => 'خوراک متون برگزیدهٔ {{SITENAME}}',
 	'ffeed-featuredtexts-short-title' => 'متون برگزیده',
+	'ffeed-featuredtexts-desc' => 'بهترین نوشته‌هایی که {{SITENAME}} می‌تواند ارائه کند',
 	'ffeed-featuredtexts-entry' => 'متن برگزیدهٔ {{SITENAME}} در {{LOCALDAY}}ام {{LOCALMONTHNAME}}',
 );
 
@@ -851,6 +866,7 @@ $messages['ko'] = array(
 $messages['lb'] = array(
 	'ffeed-no-feed' => 'Feed net spezifizéiert',
 	'ffeed-feed-not-found' => 'De Feed $1 gouf net fonnt',
+	'ffeed-sidebar-section' => 'Feeds vu recommandéiertem Inhalt',
 	'ffeed-featured-title' => 'Feed vun de recommandéierten Artikelen op {{SITENAME}}',
 	'ffeed-featured-short-title' => 'Recommandéiert Artikelen',
 	'ffeed-featured-desc' => 'Déi bescht Artikelen déi {{SITENAME}} ze bidden huet',
@@ -858,6 +874,8 @@ $messages['lb'] = array(
 	'ffeed-good-title' => 'Feed vun de gudden Artikelen op {{SITENAME}}',
 	'ffeed-good-short-title' => 'Gutt Artikelen',
 	'ffeed-good-desc' => 'Gutt Artikelen déi {{SITENAME}} ze bidden huet',
+	'ffeed-good-entry' => 'De gudden Artikel vum {{LOCALDAY}} {{LOCALMONTHNAME}} op {{SITENAME}}',
+	'ffeed-onthisday-title' => 'Feed "Op dësem Dag.." op {{SITENAME}}',
 	'ffeed-onthisday-short-title' => 'Um Dag vun haut...',
 	'ffeed-onthisday-desc' => 'Historesch Evenementer op dësem Dag',
 	'ffeed-onthisday-entry' => 'Op dësem Dag: {{LOCALMONTHNAME}} {{LOCALDAY}}',
