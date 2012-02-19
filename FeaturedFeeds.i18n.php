@@ -190,6 +190,10 @@ $messages['ast'] = array(
 	'ffeed-qotd-short-title' => 'Cita del día',
 	'ffeed-qotd-desc' => 'Esbilla de les meyores cites de {{SITENAME}}',
 	'ffeed-qotd-entry' => 'Cita del día de {{SITENAME}} del {{LOCALDAY}} de {{LOCALMONTHNAME}}',
+	'ffeed-featuredtexts-title' => 'Canal de los testos destacaos de {{SITENAME}}',
+	'ffeed-featuredtexts-short-title' => 'Testos destacaos',
+	'ffeed-featuredtexts-desc' => "Los meyores testos qu'ufre {{SITENAME}}",
+	'ffeed-featuredtexts-entry' => 'Testu destacáu de {{SITENAME}} del {{LOCALDAY}} de {{LOCALMONTHNAME}}',
 );
 
 /** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
@@ -1096,7 +1100,10 @@ $messages['nl'] = array(
 	'ffeed-qotd-short-title' => 'Citaat van de dag',
 	'ffeed-qotd-desc' => 'De beste uitspraken van {{SITENAME}}',
 	'ffeed-qotd-entry' => 'Uitspraak van de dag voor van {{LOCALDAY}} {{LOCALMONTHNAME}} van {{SITENAME}}',
+	'ffeed-featuredtexts-title' => 'Feed van {{SITENAME}} met aanbevolen teksten',
+	'ffeed-featuredtexts-short-title' => 'Aanbevolen teksten',
 	'ffeed-featuredtexts-desc' => 'De beste teksten die {{SITENAME}} te bieden heeft',
+	'ffeed-featuredtexts-entry' => 'Aanbevolgen teksten van {{SITENNAME}} van {{LOCALDAY}} {{LOCALMONTHNAME}}',
 );
 
 /** Polish (Polski)
@@ -1122,7 +1129,11 @@ $messages['pl'] = array(
 	'ffeed-onthisday-entry' => 'W tym dniu: {{LOCALMONTHNAME}} {{LOCALDAY}}',
 	'ffeed-dyk-title' => 'Kanał "Czy wiesz, że?" witryny {{SITENAME}}',
 	'ffeed-dyk-short-title' => 'Czy wiesz, że?',
+	'ffeed-dyk-desc' => 'Z najnowszej zawartości {{GRAMMAR:D.lp|{{SITENAME}}}}',
 	'ffeed-dyk-entry' => 'Czy wiesz, że?: {{LOCALDAY}} {{LOCALMONTHNAME}}',
+	'ffeed-motd-title' => 'Kanał multimediów {{GRAMMAR:D.lp|{{SITENAME}}}}',
+	'ffeed-motd-short-title' => 'Media dnia',
+	'ffeed-motd-desc' => 'Niektóre z najlepszych mediów na {{GRAMMAR:D.lp|{{SITENAME}}}}',
 	'ffeed-potd-short-title' => 'Grafika dnia',
 	'ffeed-qotd-short-title' => 'Cytat dnia',
 );
