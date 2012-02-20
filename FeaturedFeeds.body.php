@@ -10,10 +10,10 @@ class FeaturedFeeds {
 	 * @return array Feeds in format of 'name' => array of FeedItem
 	 */
 	public static function getFeeds( $langCode ) {
-		global $wgMemc, $wgLangCode;
+		global $wgMemc, $wgLanguageCode;
 
 		if ( !$langCode || self::allInContentLanguage() ) {
-			$langCode = $wgLangCode;
+			$langCode = $wgLanguageCode;
 		}
 		static $cache = array();
 		if ( isset( $cache[$langCode] ) ) {
@@ -37,7 +37,7 @@ class FeaturedFeeds {
 	 * @return String
 	 */
 	private static function getCacheKey( $langCode ) {
-		return wfMemcKey( 'featured-feeds', $langCode );
+		return wfMemcKey( 'featured-feeds', FeaturedFeedChannel::VERSION, $langCode );
 	}
 
 	/**
@@ -170,7 +170,7 @@ class FeaturedFeeds {
 	private static function getFeedsInternal( $langCode ) {
 		wfProfileIn( __METHOD__ );
 		$feedDefs = self::getFeedDefinitions();
-		
+
 		$feeds = array();
 		$requestedLang = Language::factory( $langCode );
 		foreach ( $feedDefs as $name => $opts ) {
@@ -232,6 +232,11 @@ class FeaturedFeeds {
 
 class FeaturedFeedChannel {
 	/**
+	 * Class version, incerement it when changing class internals.
+	 */
+	const VERSION = 1;
+
+	/**
 	 * @var ParserOptions
 	 */
 	private static $parserOptions = null;
@@ -239,11 +244,7 @@ class FeaturedFeedChannel {
 	 * @var Parser
 	 */
 	private static $parser;
-
-	/**
-	 * @var Language
-	 */
-	private $language;
+	private $languageCode;
 
 	private $name;
 	private $options;
@@ -263,9 +264,9 @@ class FeaturedFeedChannel {
 		$this->name = $name;
 		$this->options = $options;
 		if ( $options['inUserLanguage'] ) {
-			$this->language = $lang;
+			$this->languageCode = $lang->getCode();
 		} else {
-			$this->language = $wgContLang;
+			$this->languageCode = $wgContLang->getCode();
 		}
 	}
 
@@ -286,7 +287,7 @@ class FeaturedFeedChannel {
 	 * @return Message
 	 */
 	private function msg( $key ) {
-		return wfMessage( $key )->inLanguage( $this->language );
+		return wfMessage( $key )->inLanguage( $this->languageCode );
 	}
 
 	/**
@@ -302,7 +303,8 @@ class FeaturedFeedChannel {
 	 * @return Language
 	 */
 	public function getLanguage() {
-		return $this->language;
+		// factory() is cached
+		return Language::factory( $this->languageCode );
 	}
 
 	public function init() {
@@ -311,14 +313,14 @@ class FeaturedFeedChannel {
 			return;
 		}
 		$this->title = $this->msg( $this->options['title'] )->text();
-		$this->shortTitle = $this->msg( $this->options['short-title'] );
+		$this->shortTitle = $this->msg( $this->options['short-title'] )->text();
 		$this->description = $this->msg( $this->options['description'] )->text();
-		$pageMsg = $this->msg( $this->options['page'] )->params( $this->language->getCode() );
+		$pageMsg = $this->msg( $this->options['page'] )->params( $this->languageCode );
 		if ( $pageMsg->isDisabled() ) {
 			// fall back manually, messages can be existent but empty
-			if ( $this->language->getCode() != $wgLanguageCode ) {
+			if ( $this->languageCode != $wgLanguageCode ) {
 				$pageMsg = wfMessage( $this->options['page'] )
-					->params( $this->language->getCode() )
+					->params( $this->languageCode )
 					->inContentLanguage();
 			}
 		}
@@ -354,7 +356,7 @@ class FeaturedFeedChannel {
 	 */
 	public function getFeedItem( $date ) {
 		self::$parserOptions->setTimestamp( $date );
-		self::$parserOptions->setUserLang( $this->language );
+		self::$parserOptions->setUserLang( $this->getLanguage() );
 
 		$titleText = self::$parser->transformMsg( $this->page, self::$parserOptions );
 		$title = Title::newFromText( $titleText );
@@ -371,12 +373,12 @@ class FeaturedFeedChannel {
 		}
 		$text = self::$parser->parse( $text, $title, self::$parserOptions )->getText();
 		$url = SpecialPage::getTitleFor( 'FeedItem' , 
-			$this->name . '/' . wfTimestamp( TS_MW, $date ) . '/' . $this->language->getCode()
+			$this->name . '/' . wfTimestamp( TS_MW, $date ) . '/' . $this->languageCode
 		)->getFullURL();
 
 		if ( !isset( $this->titleForParse ) ) {
 			// parsing with such title makes stuff like {{CURRENTMONTH}} localised
-			$this->titleForParse = Title::newFromText( 'MediaWiki:Dummy/' . $this->language->getCode() );
+			$this->titleForParse = Title::newFromText( 'MediaWiki:Dummy/' . $this->languageCode );
 		}
 
 		return new FeaturedFeedItem(
@@ -401,16 +403,14 @@ class FeaturedFeedChannel {
 			'feed' => $this->name,
 			'feedformat' => $format,
 		);
-		if ( $this->options['inUserLanguage'] && $this->language->getCode() != $wgContLang->getCode() ) {
-			$options['language'] = $this->language->getCode();
+		if ( $this->options['inUserLanguage'] && $this->languageCode != $wgContLang->getCode() ) {
+			$options['language'] = $this->languageCode;
 		}
 		return wfScript( 'api' ) . '?' . wfArrayToCGI( $options );
 	}
 }
 
 class FeaturedFeedItem extends FeedItem {
-	const CACHE_VERSION = 1;
-
 	public function __construct( $title, $url, $text, $date ) {
 		parent::__construct( $title, $text, $url, $date );
 	}
