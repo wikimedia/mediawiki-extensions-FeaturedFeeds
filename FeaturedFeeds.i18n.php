@@ -333,14 +333,15 @@ $messages['cs'] = array(
 );
 
 /** Welsh (Cymraeg)
+ * @author Lloffiwr
  * @author Pwyll
  */
 $messages['cy'] = array(
 	'ffeed-featured-short-title' => 'Erthyglau dethol',
-	'ffeed-featured-desc' => 'Erthyglau gorau {{SITENAME}}',
+	'ffeed-featured-desc' => "Yr erthyglau gorau sydd gan {{SITENAME}} i'w cynnig",
 	'ffeed-good-title' => 'Ffrwd erthyglau gorau {{SITENAME}}',
 	'ffeed-good-short-title' => 'Erthyglau da',
-	'ffeed-good-desc' => "Yr erthyglau gorau sydd gan {{SITENAME}} i'w gynnig",
+	'ffeed-good-desc' => "Yr erthyglau da sydd gan {{SITENAME}} i'w cynnig",
 	'ffeed-onthisday-title' => 'Ffrwd "Ar y dydd hwn..." {{SITENAME}}',
 	'ffeed-onthisday-short-title' => 'Ar y dydd hwn...',
 	'ffeed-onthisday-desc' => "Digwyddiadau hanesyddol o'r diwrnod hwn",
@@ -1164,6 +1165,21 @@ $messages['pnb'] = array(
 	'ffeed-dyk-short-title' => 'کیاتسی جاندے سی ؟',
 	'ffeed-dyk-desc' => '{{SITENAME}} دیآں سب توں نویاں تبدیلیاں توں',
 	'ffeed-dyk-entry' => 'کیا تسی جاندے او ?: {{LOCALMONTHNAME}} {{LOCALDAY}}',
+);
+
+/** Portuguese (Português)
+ * @author Giro720
+ */
+$messages['pt'] = array(
+	'ffeed-featured-short-title' => 'Artigos destacados',
+	'ffeed-featured-desc' => 'Melhores artigos que {{SITENAME}} tem para oferecer',
+	'ffeed-featured-entry' => 'Artigo destacado de {{SITENAME}} em {{LOCALDAY}} de {{LOCALMONTHNAME}}',
+	'ffeed-good-title' => "''Feed'' dos artigos bons da {{SITENAME}}",
+	'ffeed-good-short-title' => 'Artigos bons',
+	'ffeed-good-desc' => 'Artigos bons que {{SITENAME}} tem para oferecer',
+	'ffeed-good-entry' => 'Artigo bom da {{SITENAME}} em {{LOCALDAY}} de {{LOCALMONTHNAME}}',
+	'ffeed-onthisday-short-title' => 'Neste dia...',
+	'ffeed-onthisday-desc' => 'Eventos históricos neste dia',
 );
 
 /** Russian (Русский)
