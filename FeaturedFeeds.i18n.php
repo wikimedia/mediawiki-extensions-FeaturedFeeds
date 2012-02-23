@@ -826,6 +826,7 @@ $messages['ia'] = array(
 );
 
 /** Korean (한국어)
+ * @author Freebiekr
  * @author Kwj2772
  */
 $messages['ko'] = array(
@@ -863,6 +864,10 @@ $messages['ko'] = array(
 	'ffeed-qotd-short-title' => '오늘의 명언',
 	'ffeed-qotd-desc' => '{{SITENAME}}에서 가장 좋은 명언 인용',
 	'ffeed-qotd-entry' => '{{LOCALMONTHNAME}} {{LOCALDAY}}일 {{SITENAME}} 오늘의 명언',
+	'ffeed-featuredtexts-title' => '{{SITENAME}} 알찬 글 피드',
+	'ffeed-featuredtexts-short-title' => '알찬 글',
+	'ffeed-featuredtexts-desc' => '{{SITENAME}}에서 제공하는 최고의 글',
+	'ffeed-featuredtexts-entry' => '{{LOCALMONTHNAME}} {{LOCALDAY}} {{SITENAME}} 알찬 글',
 );
 
 /** Luxembourgish (Lëtzebuergesch)
@@ -902,6 +907,50 @@ $messages['lb'] = array(
 	'ffeed-featuredtexts-short-title' => 'Exzellent Texter',
 	'ffeed-featuredtexts-desc' => 'Déi bescht Texter déi {{SITENAME}} ze bidden huet',
 	'ffeed-featuredtexts-entry' => 'Den  {{LOCALDAY}} {{LOCALMONTHNAME}} op {{SITENAME}} ausgezeechenten Text',
+);
+
+/** Limburgish (Limburgs)
+ * @author Ooswesthoesbes
+ */
+$messages['li'] = array(
+	'ffeed-desc' => "Veug feeds tou veur de oetgeleechte inhawd van 'ne wiki",
+	'ffeed-no-feed' => 'Geine feed ópgegaeve',
+	'ffeed-feed-not-found' => 'De feed $1 besteit neet',
+	'ffeed-entry-not-found' => 'De feedvermeljing $1 is neet gevónje',
+	'ffeed-sidebar-section' => 'Feeds mit oetgeleechte inhawd',
+	'ffeed-invalid-timestamp' => 'Óngeljige tiedstempel veure feed',
+	'ffeed-featured-title' => 'Feed veur oetgeleechte artikelen op {{SITENAME}}',
+	'ffeed-featured-short-title' => 'Oetgeleechte artikele',
+	'ffeed-featured-desc' => 'De bèste artikele van {{SITENAME}}',
+	'ffeed-featured-entry' => 'Oetgeleech artikel van {{SITENAME}} op {{LOCALDAY}} {{LOCALMONTHNAME}}',
+	'ffeed-good-title' => "Feed mit gooj pagina's veur {{SITENAME}}",
+	'ffeed-good-short-title' => "Gooj pagina's",
+	'ffeed-good-desc' => "Gooj pagina's op {{SITENAME}}",
+	'ffeed-good-entry' => 'Gooj pagina van {{LOCALDAY}} {{LOCALMONTHNAME}} van {{SITENAME}}',
+	'ffeed-onthisday-title' => 'Feed veur "Op dezen daag..." van {{SITENAME}}',
+	'ffeed-onthisday-short-title' => 'Op dezen daag...',
+	'ffeed-onthisday-desc' => 'Historische gebäörtenisse op dezen daag',
+	'ffeed-onthisday-entry' => 'Op dezen daag: {{LOCALDAY}} {{LOCALMONTHNAME}}',
+	'ffeed-dyk-title' => 'Feed veur "Wöste se det" van {{SITENAME}}',
+	'ffeed-dyk-short-title' => 'Wöste se det?',
+	'ffeed-dyk-desc' => 'De nuudste inhawd van {{SITENAME}}',
+	'ffeed-dyk-entry' => 'Wöste se det?: {{LOCALDAY}} {{LOCALMONTHNAME}}',
+	'ffeed-motd-title' => 'Feed veur media vannen daag van {{SITENAME}}',
+	'ffeed-motd-short-title' => 'Media vannen daag',
+	'ffeed-motd-desc' => 'De bèste media van {{SITENAME}}',
+	'ffeed-motd-entry' => 'Media vannen daag veur {{LOCALDAY}} {{LOCALMONTHNAME}} van {{SITENAME}}',
+	'ffeed-potd-title' => 'Feed veur aafbeildjing vannen daag van {{SITENAME}}',
+	'ffeed-potd-short-title' => 'Foto vannen daag',
+	'ffeed-potd-desc' => 'De bèste aafbeildjinge van {{SITENAME}}',
+	'ffeed-potd-entry' => 'Aafbeildjing vannen daag veur {{LOCALDAY}} {{LOCALMONTHNAME}} van {{SITENAME}}',
+	'ffeed-qotd-title' => 'Feed veur oetspraok vannen daag van {{SITENAME}}',
+	'ffeed-qotd-short-title' => 'Citaat vannen daag',
+	'ffeed-qotd-desc' => 'De bèste oetspraoke van {{SITENAME}}',
+	'ffeed-qotd-entry' => 'Oetspraoke vannen daag veur {{LOCALDAY}} {{LOCALMONTHNAME}} van {{SITENAME}}',
+	'ffeed-featuredtexts-title' => 'Feed van {{SITENAME}} mit aanbevaole tèkste',
+	'ffeed-featuredtexts-short-title' => 'Aanbevaole tèkste',
+	'ffeed-featuredtexts-desc' => 'De bèste tèkste van {{SITENAME}}',
+	'ffeed-featuredtexts-entry' => 'Aanbevaole tèkste van {{SITENNAME}} van {{LOCALDAY}} {{LOCALMONTHNAME}}',
 );
 
 /** Macedonian (Македонски)
@@ -1253,6 +1302,19 @@ $messages['te'] = array(
 	'ffeed-onthisday-desc' => 'ఈ రోజు జరిగిన చారిత్రక ఘటనలు',
 	'ffeed-dyk-short-title' => 'మీకు తెలుసా?',
 	'ffeed-potd-short-title' => 'నేటి చిత్రం',
+);
+
+/** Veps (Vepsän kel')
+ * @author Игорь Бродский
+ */
+$messages['vep'] = array(
+	'ffeed-good-short-title' => 'Hüväd kirjutused',
+	'ffeed-onthisday-short-title' => 'Täl päiväl...',
+	'ffeed-dyk-short-title' => 'Tedat-ik?',
+	'ffeed-motd-short-title' => 'Necen päivän medii',
+	'ffeed-potd-short-title' => 'Necen päivän kuva',
+	'ffeed-qotd-short-title' => 'Necen päivän citat',
+	'ffeed-featuredtexts-short-title' => 'Valitud tekstad',
 );
 
 /** Vietnamese (Tiếng Việt)
