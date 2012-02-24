@@ -196,6 +196,13 @@ $messages['ast'] = array(
 	'ffeed-featuredtexts-entry' => 'Testu destacáu de {{SITENAME}} del {{LOCALDAY}} de {{LOCALMONTHNAME}}',
 );
 
+/** Bashkir (Башҡортса)
+ * @author Roustammr
+ */
+$messages['ba'] = array(
+	'ffeed-onthisday-short-title' => 'Был көндә...',
+);
+
 /** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
  * @author EugeneZelenko
  * @author Jim-by
