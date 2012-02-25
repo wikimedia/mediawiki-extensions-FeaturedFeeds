@@ -500,6 +500,30 @@ $messages['es'] = array(
 	'ffeed-featuredtexts-entry' => 'Texto destacado de {{SITENAME}} el {{LOCALDAY}} {{LOCALMONTHNAME}}',
 );
 
+/** Estonian (Eesti)
+ * @author Pikne
+ */
+$messages['et'] = array(
+	'ffeed-desc' => 'Lisab vikis esile tõstetud sisu jaoks sündikeerimisvoo.',
+	'ffeed-no-feed' => 'Uudisvoog määramata',
+	'ffeed-feed-not-found' => 'Uudisvoogu $1 ei leitud',
+	'ffeed-entry-not-found' => 'Uudisvoo sissekannet $1 ei leitud',
+	'ffeed-sidebar-section' => 'Esiletõstetud sisu uudisvood',
+	'ffeed-invalid-timestamp' => 'Vigane uudisvoo ajatempel',
+	'ffeed-featured-title' => '{{GRAMMAR:genitive|{{SITENAME}}}} eeskujulike artiklite uudisvoog',
+	'ffeed-featured-short-title' => 'Eeskujulikud artiklid',
+	'ffeed-featured-desc' => 'Parimad {{GRAMMAR:inessive|{{SITENAME}}}} leiduvad artiklid',
+	'ffeed-featured-entry' => '{{GRAMMAR:genitive|{{SITENAME}}}} {{LOCALDAY}}. {{CURRENTMONTHNAMEGEN}} eeskujulik artikkel',
+	'ffeed-good-title' => '{{GRAMMAR:genitive|{{SITENAME}}}} heade artiklite uudisvoog',
+	'ffeed-good-short-title' => 'Head artiklid',
+	'ffeed-good-desc' => '{{GRAMMAR:inessive|{{SITENAME}}}} leiduvad head artiklid',
+	'ffeed-good-entry' => '{{GRAMMAR:genitive|{{SITENAME}}}} {{LOCALDAY}}. {{CURRENTMONTHNAMEGEN}} hea artikkel',
+	'ffeed-onthisday-title' => '{{GRAMMAR:genitive|{{SITENAME}}}} uudistevoog "Tänasel päeval..."',
+	'ffeed-onthisday-short-title' => 'Tänasel päeval...',
+	'ffeed-onthisday-desc' => 'Täna ajaloos',
+	'ffeed-onthisday-entry' => 'Tänasel päeval: {{LOCALDAY}}. {{LOCALMONTHNAMEGEN}}l',
+);
+
 /** Persian (فارسی)
  * @author Huji
  * @author Leyth
