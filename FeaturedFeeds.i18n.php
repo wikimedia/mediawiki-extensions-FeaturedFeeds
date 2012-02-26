@@ -513,15 +513,35 @@ $messages['et'] = array(
 	'ffeed-featured-title' => '{{GRAMMAR:genitive|{{SITENAME}}}} eeskujulike artiklite uudisvoog',
 	'ffeed-featured-short-title' => 'Eeskujulikud artiklid',
 	'ffeed-featured-desc' => 'Parimad {{GRAMMAR:inessive|{{SITENAME}}}} leiduvad artiklid',
-	'ffeed-featured-entry' => '{{GRAMMAR:genitive|{{SITENAME}}}} {{LOCALDAY}}. {{CURRENTMONTHNAMEGEN}} eeskujulik artikkel',
+	'ffeed-featured-entry' => '{{GRAMMAR:genitive|{{SITENAME}}}} {{LOCALDAY}}. {{LOCALMONTHNAMEGEN}} eeskujulik artikkel',
 	'ffeed-good-title' => '{{GRAMMAR:genitive|{{SITENAME}}}} heade artiklite uudisvoog',
 	'ffeed-good-short-title' => 'Head artiklid',
 	'ffeed-good-desc' => '{{GRAMMAR:inessive|{{SITENAME}}}} leiduvad head artiklid',
-	'ffeed-good-entry' => '{{GRAMMAR:genitive|{{SITENAME}}}} {{LOCALDAY}}. {{CURRENTMONTHNAMEGEN}} hea artikkel',
-	'ffeed-onthisday-title' => '{{GRAMMAR:genitive|{{SITENAME}}}} uudistevoog "Tänasel päeval..."',
+	'ffeed-good-entry' => '{{GRAMMAR:genitive|{{SITENAME}}}} {{LOCALDAY}}. {{LOCALMONTHNAMEGEN}} hea artikkel',
+	'ffeed-onthisday-title' => '{{GRAMMAR:genitive|{{SITENAME}}}} uudisvoog "Tänasel päeval..."',
 	'ffeed-onthisday-short-title' => 'Tänasel päeval...',
 	'ffeed-onthisday-desc' => 'Täna ajaloos',
 	'ffeed-onthisday-entry' => 'Tänasel päeval: {{LOCALDAY}}. {{LOCALMONTHNAMEGEN}}l',
+	'ffeed-dyk-title' => '{{GRAMMAR:genitive|{{SITENAME}}}} uudisvoog "Kas teadsid?"',
+	'ffeed-dyk-short-title' => 'Kas teadsid?',
+	'ffeed-dyk-desc' => '{{GRAMMAR:genitive|{{SITENAME}}}} uusima sisu kohta',
+	'ffeed-dyk-entry' => '{{LOCALDAY}}. {{LOCALMONTHNAMEGEN}} "Kas teadsid?"',
+	'ffeed-motd-title' => '{{GRAMMAR:genitive|{{SITENAME}}}} päeva meediafaili uudisvoog',
+	'ffeed-motd-short-title' => 'Päeva meediafail',
+	'ffeed-motd-desc' => 'Osa {{GRAMMAR:genitive|{{SITENAME}}}} parimatest meediafailidest',
+	'ffeed-motd-entry' => '{{GRAMMAR:genitive|{{SITENAME}}}} {{LOCALDAY}}. {{LOCALMONTHNAMEGEN}} päeva meediafail',
+	'ffeed-potd-title' => '{{GRAMMAR:genitive|{{SITENAME}}}} päevapildi uudisvoog',
+	'ffeed-potd-short-title' => 'Päevapilt',
+	'ffeed-potd-desc' => 'Osa {{GRAMMAR:genitive|{{SITENAME}}}} parimatest piltidest',
+	'ffeed-potd-entry' => '{{GRAMMAR:genitive|{{SITENAME}}}} {{LOCALDAY}}. {{LOCALMONTHNAMEGEN}} päevapilt',
+	'ffeed-qotd-title' => '{{GRAMMAR:genitive|{{SITENAME}}}} päevatsitaat',
+	'ffeed-qotd-short-title' => 'Päevatsitaat',
+	'ffeed-qotd-desc' => 'Osa {{GRAMMAR:genitive|{{SITENAME}}}} parimatest tsitaatidest',
+	'ffeed-qotd-entry' => '{{GRAMMAR:genitive|{{SITENAME}}}} {{LOCALDAY}}. {{LOCALMONTHNAMEGEN}} päevatsitaat',
+	'ffeed-featuredtexts-title' => '{{GRAMMAR:genitive|{{SITENAME}}}} esiletõstetud tekstide uudisvoog',
+	'ffeed-featuredtexts-short-title' => 'Esiletõstetud tekstid',
+	'ffeed-featuredtexts-desc' => 'Parimad {{GRAMMAR:inessive|{{SITENAME}}}} leiduvad tekstid',
+	'ffeed-featuredtexts-entry' => '{{GRAMMAR:genitive|{{SITENAME}}}} {{LOCALDAY}}. {{LOCALMONTHNAMEGEN}} esiletõstetud tekst',
 );
 
 /** Persian (فارسی)
@@ -1245,6 +1265,20 @@ $messages['pnb'] = array(
 	'ffeed-dyk-short-title' => 'کیاتسی جاندے سی ؟',
 	'ffeed-dyk-desc' => '{{SITENAME}} دیآں سب توں نویاں تبدیلیاں توں',
 	'ffeed-dyk-entry' => 'کیا تسی جاندے او ?: {{LOCALMONTHNAME}} {{LOCALDAY}}',
+);
+
+/** Pashto (پښتو)
+ * @author Ahmed-Najib-Biabani-Ibrahimkhel
+ */
+$messages['ps'] = array(
+	'ffeed-good-short-title' => 'ښې ليکنې',
+	'ffeed-onthisday-short-title' => 'په دې ورځ...',
+	'ffeed-onthisday-desc' => 'په دې ورځ پېښه شوې تاريخي پېښې',
+	'ffeed-onthisday-entry' => 'په دې ورځ: {{LOCALMONTHNAME}} {{LOCALDAY}}',
+	'ffeed-dyk-short-title' => 'آيا ته پوهېدې؟',
+	'ffeed-dyk-entry' => 'آيا ته پوهېدې؟: {{LOCALMONTHNAME}} {{LOCALDAY}}',
+	'ffeed-motd-short-title' => 'د نن ورځې رسنۍ',
+	'ffeed-potd-short-title' => 'د نن ورځې انځور',
 );
 
 /** Portuguese (Português)
