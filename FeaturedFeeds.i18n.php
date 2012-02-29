@@ -1211,6 +1211,7 @@ $messages['nl'] = array(
  * @author BeginaFelicysym
  */
 $messages['pl'] = array(
+	'ffeed-desc' => 'Dodaje kanały RSS publikujące zawartości promowane wiki.',
 	'ffeed-no-feed' => 'Nie określono kanału',
 	'ffeed-feed-not-found' => 'Nie odnaleziono kanału $1',
 	'ffeed-entry-not-found' => 'Nie odnaleziono wejść kanału z dnia $1',
@@ -1219,11 +1220,11 @@ $messages['pl'] = array(
 	'ffeed-featured-title' => 'Kanał wyróżnionych artykułów witryny {{SITENAME}}',
 	'ffeed-featured-short-title' => 'Polecane artykuły',
 	'ffeed-featured-desc' => 'Najlepsze artykuły, jakie oferuje {{SITENAME}}',
-	'ffeed-featured-entry' => 'Artykuł promowany  {{NAZWA_WITRYNY}} z {{LOCALDAY}} {{LOCALMONTHNAME}}',
+	'ffeed-featured-entry' => 'Artykuł promowany {{GRAMMAR:D.lp|{{SITENAME}}}} z {{LOCALDAY}} {{GRAMMAR:D.lp|{{LOCALMONTHNAME}}}}',
 	'ffeed-good-title' => 'Kanał dobrych artykułów witryny {{SITENAME}}',
 	'ffeed-good-short-title' => 'Dobre artykuły',
 	'ffeed-good-desc' => 'Dobre artykuły, jakie oferuje {{SITENAME}}',
-	'ffeed-good-entry' => 'Dobry artykuł {{NAZWA_WITRYNY}} z {{LOCALDAY}} {{LOCALMONTHNAME}}',
+	'ffeed-good-entry' => 'Dobry artykuł {{GRAMMAR:D.lp|{{SITENAME}}}} z {{LOCALDAY}} {{GRAMMAR:D.lp|{{LOCALMONTHNAME}}}}',
 	'ffeed-onthisday-title' => 'Kanał "W tym dniu" na {{SITENAME}}',
 	'ffeed-onthisday-short-title' => 'W tym dniu...',
 	'ffeed-onthisday-desc' => 'Wydarzenia historyczne w tym dniu',
@@ -1235,8 +1236,19 @@ $messages['pl'] = array(
 	'ffeed-motd-title' => 'Kanał multimediów {{GRAMMAR:D.lp|{{SITENAME}}}}',
 	'ffeed-motd-short-title' => 'Media dnia',
 	'ffeed-motd-desc' => 'Niektóre z najlepszych mediów na {{GRAMMAR:D.lp|{{SITENAME}}}}',
+	'ffeed-motd-entry' => '{{SITENAME}} multimedia dnia na {{LOCALDAY}} {{GRAMMAR:D.lp|{{LOCALMONTHNAME}}}}',
+	'ffeed-potd-title' => 'Kanał zdjęcie dnia {{GRAMMAR:D.lp|{{SITENAME}}}}',
 	'ffeed-potd-short-title' => 'Grafika dnia',
+	'ffeed-potd-desc' => 'Niektóre z najlepszych zdjęć na {{GRAMMAR:D.lp|{{SITENAME}}}}',
+	'ffeed-potd-entry' => '{{SITENAME}} zdjęcie dnia na {{LOCALDAY}} {{GRAMMAR:D.lp|{{LOCALMONTHNAME}}}}',
+	'ffeed-qotd-title' => 'Kanał cytatów dnia {{GRAMMAR:D.lp|{{SITENAME}}}}',
 	'ffeed-qotd-short-title' => 'Cytat dnia',
+	'ffeed-qotd-desc' => 'Niektóre z najlepszych cytatów na {{GRAMMAR:D.lp|{{SITENAME}}}}',
+	'ffeed-qotd-entry' => '{{SITENAME}} cytat dnia na {{LOCALDAY}} {{GRAMMAR:D.lp|{{LOCALMONTHNAME}}}}',
+	'ffeed-featuredtexts-title' => 'Kanał promowanych treści witryny {{SITENAME}}',
+	'ffeed-featuredtexts-short-title' => 'Promowane treści',
+	'ffeed-featuredtexts-desc' => 'Najlepsze treści, jakie oferuje {{SITENAME}}',
+	'ffeed-featuredtexts-entry' => 'Treść promowana {{GRAMMAR:D.lp|{{SITENAME}}}} z {{LOCALDAY}} {{GRAMMAR:D.lp|{{LOCALMONTHNAME}}}}',
 );
 
 /** Western Punjabi (پنجابی)
