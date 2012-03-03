@@ -196,6 +196,21 @@ $messages['ast'] = array(
 	'ffeed-featuredtexts-entry' => 'Testu destacáu de {{SITENAME}} del {{LOCALDAY}} de {{LOCALMONTHNAME}}',
 );
 
+/** Azerbaijani (Azərbaycanca)
+ * @author Cekli829
+ * @author Vugar 1981
+ */
+$messages['az'] = array(
+	'ffeed-good-short-title' => 'Yaxşı məqalə',
+	'ffeed-onthisday-short-title' => 'Bu gün...',
+	'ffeed-dyk-short-title' => 'Bilirdinizmi?',
+	'ffeed-dyk-entry' => 'Bilirdinizmi?: {{LOCALMONTHNAME}} {{LOCALDAY}}',
+	'ffeed-motd-short-title' => 'Günün media faylı',
+	'ffeed-potd-short-title' => 'Günün şəkli',
+	'ffeed-qotd-short-title' => 'Günün sitatı',
+	'ffeed-featuredtexts-short-title' => 'Seçilmiş mətnlər',
+);
+
 /** Bashkir (Башҡортса)
  * @author Roustammr
  */
@@ -293,6 +308,14 @@ $messages['br'] = array(
 	'ffeed-featuredtexts-short-title' => 'Testennoù a-feson',
 	'ffeed-featuredtexts-desc' => 'Ar pennadoù gwellañ a gaver war {{SITENAME}}',
 	'ffeed-featuredtexts-entry' => "Testenn a-feson eus {{SITENAME}} d'ar {{LOCALDAY}} {{LOCALMONTHNAME}}",
+);
+
+/** Bosnian (Bosanski)
+ * @author DzWiki
+ */
+$messages['bs'] = array(
+	'ffeed-onthisday-short-title' => 'Na današnji dan...',
+	'ffeed-dyk-short-title' => 'Da li ste znali?',
 );
 
 /** Czech (Česky)
@@ -874,6 +897,15 @@ $messages['ia'] = array(
 	'ffeed-featuredtexts-short-title' => 'Textos eminente',
 	'ffeed-featuredtexts-desc' => 'Le melior textos que {{SITENAME}} pote offerer',
 	'ffeed-featuredtexts-entry' => 'Texto eminente de {{SITENAME}} le {{LOCALDAY}} de {{LOCALMONTHNAME}}',
+);
+
+/** Georgian (ქართული)
+ * @author David1010
+ */
+$messages['ka'] = array(
+	'ffeed-dyk-entry' => 'იცით რომ?: {{LOCALMONTHNAME}} {{LOCALDAY}}',
+	'ffeed-potd-short-title' => 'დღის სურათი',
+	'ffeed-featuredtexts-short-title' => 'რჩეული ტექსტები',
 );
 
 /** Korean (한국어)
