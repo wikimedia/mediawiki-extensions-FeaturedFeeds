@@ -986,6 +986,7 @@ $messages['lb'] = array(
 	'ffeed-qotd-title' => 'Feed vum Zitat vum Dag op {{SITENAME}}',
 	'ffeed-qotd-short-title' => 'Zitat vum Dag',
 	'ffeed-qotd-desc' => 'E puer vun de beschte Zitater op {{SITENAME}}',
+	'ffeed-qotd-entry' => 'Zitat vum Dag  vum {{LOCALDAY}} {{LOCALMONTHNAME}} op {{SITENAME}}',
 	'ffeed-featuredtexts-title' => '{{SITENAME}} Feed: Exzellent Texter',
 	'ffeed-featuredtexts-short-title' => 'Exzellent Texter',
 	'ffeed-featuredtexts-desc' => 'Déi bescht Texter déi {{SITENAME}} ze bidden huet',
