@@ -76,7 +76,7 @@ class ApiFeaturedFeeds extends ApiBase {
 	}
 
 	public function getDescription() {
-		return 'Returns a user contributions feed';
+		return 'Returns a featured content feed';
 	}
 
 	public function getPossibleErrors() {
