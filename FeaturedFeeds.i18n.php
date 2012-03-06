@@ -903,8 +903,18 @@ $messages['ia'] = array(
  * @author David1010
  */
 $messages['ka'] = array(
+	'ffeed-no-feed' => 'არხი არ არის მითითებული',
+	'ffeed-feed-not-found' => 'არხი $1 არ მოიძებნა',
+	'ffeed-featured-short-title' => 'რჩეული სტატიები',
+	'ffeed-good-short-title' => 'კარგი სტატიები',
+	'ffeed-onthisday-short-title' => 'ამ დღეს...',
+	'ffeed-onthisday-desc' => 'ამ დღეს მომხდარი ისტორიული მოვლენები',
+	'ffeed-onthisday-entry' => 'ამ დღეს: {{LOCALMONTHNAME}} {{LOCALDAY}}',
+	'ffeed-dyk-short-title' => 'იცით თუ არა?',
 	'ffeed-dyk-entry' => 'იცით რომ?: {{LOCALMONTHNAME}} {{LOCALDAY}}',
+	'ffeed-motd-short-title' => 'დღის მედია',
 	'ffeed-potd-short-title' => 'დღის სურათი',
+	'ffeed-qotd-short-title' => 'დღის ციტატა',
 	'ffeed-featuredtexts-short-title' => 'რჩეული ტექსტები',
 );
 
@@ -979,6 +989,7 @@ $messages['lb'] = array(
 	'ffeed-motd-title' => '{{SITENAME}} Feed mam Medie-Fichier vum Dag',
 	'ffeed-motd-short-title' => 'Medie-Fichier vum Dag',
 	'ffeed-motd-desc' => 'E puer vun de beschte Medie-Fichieren op {{SITENAME}}',
+	'ffeed-motd-entry' => 'Mediefichier vum Dag  vum {{LOCALDAY}} {{LOCALMONTHNAME}} op {{SITENAME}}',
 	'ffeed-potd-title' => '{{SITENAME}} Feed: Bild vum Dag',
 	'ffeed-potd-short-title' => 'Bild vum Dag',
 	'ffeed-potd-desc' => 'E puer vun de beschte Biller op {{SITENAME}}',
