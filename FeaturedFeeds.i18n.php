@@ -1484,6 +1484,7 @@ $messages['vi'] = array(
 
 /** Simplified Chinese (‪中文(简体)‬)
  * @author Liangent
+ * @author Linforest
  */
 $messages['zh-hans'] = array(
 	'ffeed-desc' => '为wiki的特色内容提供联合供稿',
@@ -1520,6 +1521,10 @@ $messages['zh-hans'] = array(
 	'ffeed-qotd-short-title' => '每日名言',
 	'ffeed-qotd-desc' => '{{SITENAME}}上最佳的一些名言',
 	'ffeed-qotd-entry' => '{{SITENAME}}{{LOCALMONTHNAME}}{{LOCALDAY}}日的每日名言',
+	'ffeed-featuredtexts-title' => '{{SITENAME}}特色文本供稿',
+	'ffeed-featuredtexts-short-title' => '特色文本',
+	'ffeed-featuredtexts-desc' => '{{SITENAME}}所必须提供的最佳文本',
+	'ffeed-featuredtexts-entry' => '{{LOCALMONTHNAME}} {{LOCALDAY}} {{SITENAME}}特色文本',
 );
 
 /** Traditional Chinese (‪中文(繁體)‬)
