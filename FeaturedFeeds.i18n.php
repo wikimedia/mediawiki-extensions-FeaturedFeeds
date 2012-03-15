@@ -899,6 +899,13 @@ $messages['ia'] = array(
 	'ffeed-featuredtexts-entry' => 'Texto eminente de {{SITENAME}} le {{LOCALDAY}} de {{LOCALMONTHNAME}}',
 );
 
+/** Italian (Italiano)
+ * @author Beta16
+ */
+$messages['it'] = array(
+	'ffeed-onthisday-short-title' => 'In questo giorno...',
+);
+
 /** Georgian (ქართული)
  * @author David1010
  */
@@ -1417,6 +1424,37 @@ $messages['ru'] = array(
 	'ffeed-featuredtexts-short-title' => 'Избранные тексты',
 	'ffeed-featuredtexts-desc' => 'Лучшие тексты {{GRAMMAR:genitive|{{SITENAME}}}}',
 	'ffeed-featuredtexts-entry' => 'Избранный текст {{GRAMMAR:genitive|{{SITENAME}}}} за {{LOCALDAY}} {{LOCALMONTHNAMEGEN}}',
+);
+
+/** Slovenian (Slovenščina)
+ * @author Dbc334
+ * @author Irena Plahuta
+ * @author Yerpo
+ */
+$messages['sl'] = array(
+	'ffeed-featured-short-title' => 'Izbrani članki',
+	'ffeed-good-short-title' => 'Dobri članki',
+	'ffeed-good-desc' => 'Dobri članki {{SITENAME}} morajo nuditi',
+	'ffeed-onthisday-title' => 'Vir {{SITENAME}} »Na današnji dan ...«',
+	'ffeed-onthisday-short-title' => 'Na današnji dan ...',
+	'ffeed-onthisday-desc' => 'Zgodovinski dogodki na današnji dan',
+	'ffeed-onthisday-entry' => 'Na današnji dan: {{LOCALDAY}}. {{LOCALMONTHNAME}}',
+	'ffeed-dyk-title' => 'Vir {{SITENAME}} »Ali ste vedeli?«',
+	'ffeed-dyk-short-title' => 'Ali ste vedeli?',
+	'ffeed-dyk-desc' => 'Najnovejša vsebina iz članka {{SITENAME}}',
+	'ffeed-dyk-entry' => 'Ali ste vedeli?: {{LOCALDAY}}. {{LOCALMONTHNAME}}',
+	'ffeed-motd-title' => '{{SITENAME}} večpredstavnostna vsebina dne',
+	'ffeed-motd-short-title' => 'Večpredstavnostna vsebina dneva',
+	'ffeed-motd-desc' => 'Nekaj najboljših večpredstavnostnih vsebin na strani {{SITENAME}}',
+	'ffeed-motd-entry' => '{{SITENAME}} večpredstavnostna vsebina dneva {{LOCALDAY}}. {{LOCALMONTHNAME}}',
+	'ffeed-potd-title' => '{{SITENAME}} slika dneva',
+	'ffeed-potd-short-title' => 'Slika dneva',
+	'ffeed-potd-desc' => 'Nekaj najlepših slik na strani {{SITENAME}}',
+	'ffeed-potd-entry' => '{{SITENAME}} slika dneva za {{LOCALDAY}}. {{LOCALMONTHNAME}}',
+	'ffeed-qotd-title' => 'Navedek dneva s strani {{SITENAME}}',
+	'ffeed-qotd-short-title' => 'Navedek dneva',
+	'ffeed-qotd-desc' => 'Nekaj najboljših navedkov na strani {{SITENAME}}',
+	'ffeed-featuredtexts-short-title' => 'Izbrana besedila',
 );
 
 /** Tamil (தமிழ்)
