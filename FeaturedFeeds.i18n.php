@@ -435,6 +435,43 @@ $messages['de'] = array(
 	'ffeed-featuredtexts-entry' => 'Am {{LOCALDAY}}. {{LOCALMONTHNAME}} auf {{SITENAME}} exzellenter Text',
 );
 
+/** Zazaki (Zazaki)
+ * @author Erdemaslancan
+ */
+$messages['diq'] = array(
+	'ffeed-featured-title' => '{{SITENAME}} ra wesiqeyê weşi yenê',
+	'ffeed-featured-desc' => '{{SITENAME}} ra wesiqeyê weşi ratneyayê',
+	'ffeed-featured-entry' => '{{LOCALDAY}} {{LOCALMONTHNAME}}dı {{SITENAME}}dı wesiqeyo weşo',
+	'ffeed-good-title' => '{{SITENAME}} ra wesiqeyê weşi yenê',
+	'ffeed-good-short-title' => 'Wesiqeyê weşi',
+	'ffeed-good-desc' => '{{SITENAME}} ra wesiqeyê weşi ratneyayê',
+	'ffeed-good-entry' => '{{LOCALDAY}} {{LOCALMONTHNAME}}dı {{SITENAME}}dı wesiqeyo weşo',
+	'ffeed-onthisday-title' => '{{SITENAME}} "Ewro..." çırê',
+	'ffeed-onthisday-short-title' => 'Ewro...',
+	'ffeed-onthisday-desc' => 'Tarix dı ewro',
+	'ffeed-onthisday-entry' => 'Ewro: {{LOCALDAY}} {{LOCALMONTHNAME}}',
+	'ffeed-dyk-title' => '{{SITENAME}} dı "To va eno?"',
+	'ffeed-dyk-short-title' => 'To va eno?',
+	'ffeed-dyk-desc' => '{{SITENAME}}ra nuşteyê newey',
+	'ffeed-dyk-entry' => "{{LOCALDAY}} {{LOCALMONTHNAME}}'dı tı zanê sebyo?",
+	'ffeed-motd-title' => '{{SITENAME}} dı medyay ewroyo',
+	'ffeed-motd-short-title' => 'Medyay ewroy',
+	'ffeed-motd-desc' => '{{SITENAME}} ra tay medyay',
+	'ffeed-motd-entry' => '{{SITENAME}} dı medyaya roc da {{LOCALDAY}} {{LOCALMONTHNAME}}',
+	'ffeed-potd-title' => '{{SITENAME}} dı fotrafê ewroy',
+	'ffeed-potd-short-title' => 'Fotrafê ewroy',
+	'ffeed-potd-desc' => '{{SITENAME}} ra tay resımi',
+	'ffeed-potd-entry' => '{{SITENAME}} dı fotrafê roc da {{LOCALDAY}} {{LOCALMONTHNAME}}',
+	'ffeed-qotd-title' => '{{SITENAME}} dı qıseyê ewroyo',
+	'ffeed-qotd-short-title' => 'Qıseyê ewroy',
+	'ffeed-qotd-desc' => '{{SITENAME}} ra tay qısey',
+	'ffeed-qotd-entry' => '{{SITENAME}} dı qıseyê roc da {{LOCALDAY}} {{LOCALMONTHNAME}}',
+	'ffeed-featuredtexts-title' => '{{SITENAME}} ra wesiqeyê weşi yenê',
+	'ffeed-featuredtexts-short-title' => 'Wesiqeyo weş',
+	'ffeed-featuredtexts-desc' => '{{SITENAME}} ra wesiqeyê tewr weş',
+	'ffeed-featuredtexts-entry' => '{{LOCALDAY}} {{LOCALMONTHNAME}} dı {{SITENAME}} dı nuşteyo weşo',
+);
+
 /** Lower Sorbian (Dolnoserbski)
  * @author Michawiki
  */
@@ -614,9 +651,13 @@ $messages['fa'] = array(
 
 /** Finnish (Suomi)
  * @author Crt
+ * @author Kulmalukko
  */
 $messages['fi'] = array(
+	'ffeed-good-short-title' => 'Hyvät artikkelit',
+	'ffeed-dyk-short-title' => 'Tiesitkö?',
 	'ffeed-potd-short-title' => 'Päivän kuva',
+	'ffeed-qotd-short-title' => 'Päivän sitaatti',
 );
 
 /** French (Français)
@@ -903,7 +944,14 @@ $messages['ia'] = array(
  * @author Beta16
  */
 $messages['it'] = array(
+	'ffeed-featured-short-title' => 'Voci in vetrina',
+	'ffeed-good-short-title' => 'Voci di qualità',
 	'ffeed-onthisday-short-title' => 'In questo giorno...',
+	'ffeed-onthisday-desc' => 'Eventi storici in questo giorno',
+	'ffeed-onthisday-entry' => 'In questo giorno: {{LOCALMONTHNAME}} {{LOCALDAY}}',
+	'ffeed-dyk-short-title' => 'Lo sapevate?',
+	'ffeed-potd-short-title' => 'Foto del giorno',
+	'ffeed-qotd-short-title' => 'Citazione del giorno',
 );
 
 /** Georgian (ქართული)
@@ -1500,6 +1548,17 @@ $messages['te'] = array(
 	'ffeed-onthisday-desc' => 'ఈ రోజు జరిగిన చారిత్రక ఘటనలు',
 	'ffeed-dyk-short-title' => 'మీకు తెలుసా?',
 	'ffeed-potd-short-title' => 'నేటి చిత్రం',
+);
+
+/** Turkish (Türkçe)
+ * @author Bilalokms
+ * @author Suelnur
+ */
+$messages['tr'] = array(
+	'ffeed-featured-short-title' => 'Seçkin maddeler',
+	'ffeed-good-short-title' => 'Kaliteli maddeler',
+	'ffeed-dyk-short-title' => 'Bunları biliyor muydunuz?',
+	'ffeed-potd-short-title' => 'Günün resmi',
 );
 
 /** Veps (Vepsän kel')
