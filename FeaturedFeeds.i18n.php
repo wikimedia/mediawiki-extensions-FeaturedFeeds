@@ -954,6 +954,15 @@ $messages['it'] = array(
 	'ffeed-qotd-short-title' => 'Citazione del giorno',
 );
 
+/** Japanese (日本語)
+ * @author Shirayuki
+ */
+$messages['ja'] = array(
+	'ffeed-no-feed' => 'フィードが未指定です',
+	'ffeed-feed-not-found' => 'フィード $1 が見つかりません',
+	'ffeed-dyk-short-title' => 'ご存じでしたか?',
+);
+
 /** Georgian (ქართული)
  * @author David1010
  */
