@@ -960,7 +960,9 @@ $messages['it'] = array(
 $messages['ja'] = array(
 	'ffeed-no-feed' => 'フィードが未指定です',
 	'ffeed-feed-not-found' => 'フィード $1 が見つかりません',
+	'ffeed-invalid-timestamp' => 'フィードのタイムスタンプが正しくありません',
 	'ffeed-dyk-short-title' => 'ご存じでしたか?',
+	'ffeed-dyk-entry' => 'ご存じでしたか? {{LOCALMONTHNAME}} {{LOCALDAY}}',
 );
 
 /** Georgian (ქართული)
