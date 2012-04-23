@@ -750,6 +750,33 @@ $messages['gl'] = array(
 	'ffeed-featuredtexts-entry' => 'Texto destacado de {{SITENAME}} o {{LOCALDAY}} de {{LOCALMONTHNAME}}',
 );
 
+/** Swiss German (Alemannisch)
+ * @author Als-Holder
+ */
+$messages['gsw'] = array(
+	'ffeed-desc' => 'Macht bsundri Feed megli zue bstimmte Inhalt vum Wiki',
+	'ffeed-no-feed' => 'S isch kei Feed aagee wore',
+	'ffeed-feed-not-found' => 'Feed $1 nit gfunde',
+	'ffeed-entry-not-found' => 'Feedyytrag $1 isch nit gfunde wore',
+	'ffeed-sidebar-section' => 'Feed zue empfohlene Inhalt',
+	'ffeed-invalid-timestamp' => 'Nit giltige Feed-Zytstämpfel',
+	'ffeed-featured-title' => 'Feed zue bsundersch glungene Artikel uf {{SITENAME}}',
+	'ffeed-featured-short-title' => 'Bsundersch glungeni Artikel',
+	'ffeed-featured-desc' => 'Di bsundersch glungene Artikel uf {{SITENAME}}',
+	'ffeed-featured-entry' => 'Bsundersch glungene Artikel uf {{SITENAME}} am {{LOCALDAY}}. {{LOCALMONTHNAME}}',
+	'ffeed-good-title' => 'Feed zue läsige Artikel uf {{SITENAME}}',
+	'ffeed-good-short-title' => 'Läsigi Artikel',
+	'ffeed-good-desc' => 'Di läsige Artikel uf {{SITENAME}}',
+	'ffeed-good-entry' => 'Läsige Artikel uf {{SITENAME}} am {{LOCALDAY}}. {{LOCALMONTHNAME}}',
+	'ffeed-onthisday-title' => 'Feed zue „An däm Tag …“ uf {{SITENAME}}',
+	'ffeed-onthisday-short-title' => 'An däm Tag …',
+	'ffeed-onthisday-desc' => 'Historischi Ereignis an däm Tag',
+	'ffeed-onthisday-entry' => 'An däm Tag: {{LOCALDAY}}. {{LOCALMONTHNAME}}',
+	'ffeed-dyk-title' => 'Feed zue „Scho gwisst?“ uf {{SITENAME}}',
+	'ffeed-dyk-short-title' => 'Scho gwisst?',
+	'ffeed-dyk-desc' => 'Di neischte Inhalt uf {{SITENAME}}',
+);
+
 /** Gujarati (ગુજરાતી)
  * @author Dsvyas
  * @author KartikMistry
