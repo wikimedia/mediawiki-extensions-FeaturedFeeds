@@ -775,6 +775,23 @@ $messages['gsw'] = array(
 	'ffeed-dyk-title' => 'Feed zue „Scho gwisst?“ uf {{SITENAME}}',
 	'ffeed-dyk-short-title' => 'Scho gwisst?',
 	'ffeed-dyk-desc' => 'Di neischte Inhalt uf {{SITENAME}}',
+	'ffeed-dyk-entry' => '„Scho gwisst?“: {{LOCALDAY}}. {{LOCALMONTHNAME}}',
+	'ffeed-motd-title' => 'Feed zue dr Mediedatei vum Tag uf {{SITENAME}}',
+	'ffeed-motd-short-title' => 'Mediedatei vum Tag',
+	'ffeed-motd-desc' => 'E paar vu dr beschte Mediedateie uf {{SITENAME}}',
+	'ffeed-motd-entry' => 'Mediedatei vum Tag am {{LOCALDAY}}. {{LOCALMONTHNAME}} uf {{SITENAME}}',
+	'ffeed-potd-title' => 'Feed zum Bild vum Tag uf {{SITENAME}}',
+	'ffeed-potd-short-title' => 'Bild vum Tag',
+	'ffeed-potd-desc' => 'E paar vu dr beschte Bilder uf {{SITENAME}}',
+	'ffeed-potd-entry' => 'Bild vum Tag am {{LOCALDAY}}. {{LOCALMONTHNAME}} uf {{SITENAME}}',
+	'ffeed-qotd-title' => 'Feed zum Zitat vum Tag uf {{SITENAME}}',
+	'ffeed-qotd-short-title' => 'Zitat vum Tag',
+	'ffeed-qotd-desc' => 'E paar vu dr beschte Zitat uf {{SITENAME}}',
+	'ffeed-qotd-entry' => 'Zitat vum Tag am {{LOCALDAY}}. {{LOCALMONTHNAME}} uf {{SITENAME}}',
+	'ffeed-featuredtexts-title' => 'Feed zue bsundersch glungene Text uf {{SITENAME}}',
+	'ffeed-featuredtexts-short-title' => 'Bsundersch glungeni Text',
+	'ffeed-featuredtexts-desc' => 'Di beschte Text uf {{SITENAME}}',
+	'ffeed-featuredtexts-entry' => 'Am {{LOCALDAY}}. {{LOCALMONTHNAME}} uf {{SITENAME}} bsundersch glungene Text',
 );
 
 /** Gujarati (ગુજરાતી)
