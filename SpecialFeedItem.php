@@ -35,7 +35,7 @@ class SpecialFeedItem extends UnlistedSpecialPage {
 			}
 		}
 		$key = wfMemcKey( 'featured', $feedName, $date, $feed->getLanguage()->getCode(),
-			FeaturedFeedItem::CACHE_VERSION
+			FeaturedFeedChannel::VERSION
 		);
 		$item = $wgMemc->get( $key );
 		if ( !$item ) {
