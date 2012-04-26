@@ -1720,11 +1720,15 @@ $messages['zh-hans'] = array(
 
 /** Traditional Chinese (‪中文(繁體)‬)
  * @author Oapbtommy
+ * @author Simon Shek
  */
 $messages['zh-hant'] = array(
+	'ffeed-featured-short-title' => '特色條目',
+	'ffeed-good-short-title' => '優良條目',
 	'ffeed-onthisday-short-title' => '在這一天 … …',
 	'ffeed-onthisday-entry' => '在這一天： {{LOCALMONTHNAME}} {{LOCALDAY}}',
 	'ffeed-dyk-short-title' => '你知道嗎？',
+	'ffeed-dyk-entry' => '你知道嗎？： {{LOCALMONTHNAME}}{{LOCALDAY}}日',
 	'ffeed-motd-short-title' => '每日媒體',
 	'ffeed-potd-short-title' => '每日圖片',
 );
