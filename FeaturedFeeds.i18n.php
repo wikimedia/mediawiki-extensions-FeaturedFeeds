@@ -795,6 +795,7 @@ $messages['gsw'] = array(
 );
 
 /** Gujarati (ગુજરાતી)
+ * @author Ashok modhvadia
  * @author Dsvyas
  * @author KartikMistry
  * @author Sushant savla
@@ -826,7 +827,7 @@ $messages['gu'] = array(
 	'ffeed-motd-short-title' => 'આજનું માધ્યમ',
 	'ffeed-motd-desc' => '{{SITENAME}} પરની શ્રેષ્ઠ મીડિયા',
 	'ffeed-motd-entry' => '{{SITENAME}} નું {{LOCALMONTHNAME}} {{LOCALDAY}} માટેનું આજનું મિડિયા',
-	'ffeed-potd-title' => 'આજ નું ચિત્ર નો સ્ત્રોત {{SITENAME}} પરથી',
+	'ffeed-potd-title' => 'આજનું ચિત્ર નો સ્રોત {{SITENAME}} પરથી',
 	'ffeed-potd-short-title' => 'આજનું ચિત્ર',
 	'ffeed-potd-desc' => '{{SITENAME}} પરની શ્રેષ્ઠ ચિત્રો',
 	'ffeed-potd-entry' => '{{SITENAME}} નું {{LOCALMONTHNAME}} {{LOCALDAY}} માટે આજનું ચિત્ર',
