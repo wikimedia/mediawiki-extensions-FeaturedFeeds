@@ -152,6 +152,16 @@ $messages['an'] = array(
 	'ffeed-featuredtexts-entry' => 'Texto destacau de {{SITENAME}} o {{LOCALDAY}} de {{LOCALMONTHNAME}}',
 );
 
+/** Assamese (অসমীয়া)
+ * @author Bishnu Saikia
+ */
+$messages['as'] = array(
+	'ffeed-featured-short-title' => 'মনোনীত প্ৰবন্ধসমূহ',
+	'ffeed-onthisday-short-title' => 'এই দিনটোত...',
+	'ffeed-dyk-short-title' => 'আপুনি জানেনে?',
+	'ffeed-potd-short-title' => 'অজিৰ নিৰ্বাচিত ছবি',
+);
+
 /** Asturian (Asturianu)
  * @author Xuacu
  */
@@ -205,7 +215,7 @@ $messages['az'] = array(
 	'ffeed-onthisday-short-title' => 'Bu gün...',
 	'ffeed-dyk-short-title' => 'Bilirdinizmi?',
 	'ffeed-dyk-entry' => 'Bilirdinizmi?: {{LOCALMONTHNAME}} {{LOCALDAY}}',
-	'ffeed-motd-short-title' => 'Günün media faylı',
+	'ffeed-motd-short-title' => 'Günün şəkli',
 	'ffeed-potd-short-title' => 'Günün şəkli',
 	'ffeed-qotd-short-title' => 'Günün sitatı',
 	'ffeed-featuredtexts-short-title' => 'Seçilmiş mətnlər',
@@ -985,6 +995,50 @@ $messages['ia'] = array(
 	'ffeed-featuredtexts-entry' => 'Texto eminente de {{SITENAME}} le {{LOCALDAY}} de {{LOCALMONTHNAME}}',
 );
 
+/** Iloko (Ilokano)
+ * @author Lam-ang
+ */
+$messages['ilo'] = array(
+	'ffeed-desc' => 'Aginayon kadagiti sindikasion a pakan iti nailasin a linaon ti wiki',
+	'ffeed-no-feed' => 'Ti pakan ket saan a nainaganan',
+	'ffeed-feed-not-found' => 'Ti pakan $1 ket saan a nabirukan',
+	'ffeed-entry-not-found' => 'Ti pakan para iti $1 ket saan a nabirukan',
+	'ffeed-sidebar-section' => 'Dagiti pakan ti nailasin a linaon',
+	'ffeed-invalid-timestamp' => 'Imbalido a petsa ti pakan',
+	'ffeed-featured-title' => 'Dagiti nailasin a pakan ti artikulo ti {{SITENAME}}',
+	'ffeed-featured-short-title' => 'Dagiti nailasin nga artikulo',
+	'ffeed-featured-desc' => 'Dagiti kasayaatan nga artikulo a magun-od manipud ti {{SITENAME}}',
+	'ffeed-featured-entry' => '{{LOCALMONTHNAME}} {{LOCALDAY}} {{SITENAME}} nailasin nga artikulo',
+	'ffeed-good-title' => 'Dagiti nasayaat a pakan ti artikulo ti {{SITENAME}}',
+	'ffeed-good-short-title' => 'Dagiti nasayaat nga artikulo',
+	'ffeed-good-desc' => 'Dagiti nasayaat a artikulo a magun-od manipud ti {{SITENAME}}',
+	'ffeed-good-entry' => '{{LOCALMONTHNAME}} {{LOCALDAY}} {{SITENAME}} nasayaat nga artikulo',
+	'ffeed-onthisday-title' => '{{SITENAME}} "Iti daytoy nga aldaw..." pakan',
+	'ffeed-onthisday-short-title' => 'Iti daytoy nga aldaw...',
+	'ffeed-onthisday-desc' => 'Dagiti pakasaritaan a paspasamak iti daytoy nga aldaw',
+	'ffeed-onthisday-entry' => 'Iti daytoy nga aldaw: {{LOCALMONTHNAME}} {{LOCALDAY}}',
+	'ffeed-dyk-title' => '{{SITENAME}} "Ammom Kadi?" pakan',
+	'ffeed-dyk-short-title' => 'Ammom Kadi?',
+	'ffeed-dyk-desc' => "Dagiti kabaroan a linaon manipud idiay  {{SITENAME}}'",
+	'ffeed-dyk-entry' => 'Ammom Kadi?: {{LOCALMONTHNAME}} {{LOCALDAY}}',
+	'ffeed-motd-title' => '{{SITENAME}} pakan a midia iti daytoy nga aldaw',
+	'ffeed-motd-short-title' => 'Midia iti daytoy nga aldaw',
+	'ffeed-motd-desc' => 'Dagiti kasayaatan a midia idiay {{SITENAME}}',
+	'ffeed-motd-entry' => '{{SITENAME}} midi aiti daytoy nga aldaw manipud idiay {{LOCALMONTHNAME}} {{LOCALDAY}}',
+	'ffeed-potd-title' => '{{SITENAME}} pakan ti ladawan iti daytoy nga aldaw',
+	'ffeed-potd-short-title' => 'Ladawan iti daytoy nga aldaw',
+	'ffeed-potd-desc' => 'Adda kadagiti kasayaatan a ladawan idiay  {{SITENAME}}',
+	'ffeed-potd-entry' => '{{SITENAME}} ladawan iti daytoy nga aldaw para iti {{LOCALMONTHNAME}} {{LOCALDAY}}',
+	'ffeed-qotd-title' => '{{SITENAME}} pakan ti inadaw a sasao iti daytoy nga aldaw',
+	'ffeed-qotd-short-title' => 'Inadaw a sasao iti daytoy nga aldaw',
+	'ffeed-qotd-desc' => 'Adda dagiti kasayaatan nga inadaw a sasao idiay {{SITENAME}}',
+	'ffeed-qotd-entry' => '{{SITENAME}} inadaw a sasao iti daytoy nga aldaw para iti {{LOCALMONTHNAME}} {{LOCALDAY}}',
+	'ffeed-featuredtexts-title' => '{{SITENAME}} pakan ti nailasin a testo',
+	'ffeed-featuredtexts-short-title' => 'Dagiti nailasin a testo',
+	'ffeed-featuredtexts-desc' => 'Dagiti kasayaatan a testo a magun-od ti {{SITENAME}}',
+	'ffeed-featuredtexts-entry' => '{{LOCALMONTHNAME}} {{LOCALDAY}} {{SITENAME}} nailasin a testo',
+);
+
 /** Italian (Italiano)
  * @author Beta16
  */
@@ -1014,19 +1068,44 @@ $messages['ja'] = array(
  * @author David1010
  */
 $messages['ka'] = array(
+	'ffeed-desc' => 'ამატებს ვიკის რჩეული მასალების არხს',
 	'ffeed-no-feed' => 'არხი არ არის მითითებული',
 	'ffeed-feed-not-found' => 'არხი $1 არ მოიძებნა',
+	'ffeed-entry-not-found' => 'არხი $1 ელემენტი ვერ მოიძებნა',
+	'ffeed-sidebar-section' => 'რჩეული მასალების არხები',
+	'ffeed-invalid-timestamp' => 'არხის დროის არასწორი აღნიშვნა',
+	'ffeed-featured-title' => '{{SITENAME}} რჩეული სტატიების არხი',
 	'ffeed-featured-short-title' => 'რჩეული სტატიები',
+	'ffeed-featured-desc' => 'რჩეული სტატიები {{SITENAME}}-ზე',
+	'ffeed-featured-entry' => '{{LOCALMONTHNAME}} {{LOCALDAY}} {{SITENAME}} რჩეული სტატია',
+	'ffeed-good-title' => '{{SITENAME}} კარგი სტატიების არხი',
 	'ffeed-good-short-title' => 'კარგი სტატიები',
+	'ffeed-good-desc' => 'კარგი სტატიები {{SITENAME}}-ზე',
+	'ffeed-good-entry' => '{{LOCALMONTHNAME}} {{LOCALDAY}} {{SITENAME}} კარგი სტატია',
+	'ffeed-onthisday-title' => '{{SITENAME}} "ამ დღეს..." არხი',
 	'ffeed-onthisday-short-title' => 'ამ დღეს...',
 	'ffeed-onthisday-desc' => 'ამ დღეს მომხდარი ისტორიული მოვლენები',
 	'ffeed-onthisday-entry' => 'ამ დღეს: {{LOCALMONTHNAME}} {{LOCALDAY}}',
+	'ffeed-dyk-title' => '{{SITENAME}} "იცით თუ არა, რომ?" არხი',
 	'ffeed-dyk-short-title' => 'იცით თუ არა?',
+	'ffeed-dyk-desc' => '{{SITENAME}} ახალი მასალებიდან',
 	'ffeed-dyk-entry' => 'იცით რომ?: {{LOCALMONTHNAME}} {{LOCALDAY}}',
+	'ffeed-motd-title' => '{{SITENAME}} დღის მედიის არხი',
 	'ffeed-motd-short-title' => 'დღის მედია',
+	'ffeed-motd-desc' => 'ფოტო, ვიდეო და აუდიო {{SITENAME}}-ზე',
+	'ffeed-motd-entry' => '{{SITENAME}} დღის მედია {{LOCALMONTHNAME}} {{LOCALDAY}}-თვის',
+	'ffeed-potd-title' => '{{SITENAME}} დღის სურათის არხი',
 	'ffeed-potd-short-title' => 'დღის სურათი',
+	'ffeed-potd-desc' => 'ერთ-ერთი საუკეთესო სურათები {{SITENAME}}-ზე',
+	'ffeed-potd-entry' => '{{SITENAME}} დღის სურათი {{LOCALMONTHNAME}} {{LOCALDAY}}-თვის',
+	'ffeed-qotd-title' => '{{SITENAME}} დღის ციტატის არხი',
 	'ffeed-qotd-short-title' => 'დღის ციტატა',
+	'ffeed-qotd-desc' => 'ერთ-ერთი საუკეთესო ციტატები {{SITENAME}}-ზე',
+	'ffeed-qotd-entry' => '{{SITENAME}} დღის ციტატა {{LOCALMONTHNAME}} {{LOCALDAY}}-თვის',
+	'ffeed-featuredtexts-title' => '{{SITENAME}} რჩეული ტექსტების არხი',
 	'ffeed-featuredtexts-short-title' => 'რჩეული ტექსტები',
+	'ffeed-featuredtexts-desc' => 'რჩეული ტექსტები {{SITENAME}}-ზე',
+	'ffeed-featuredtexts-entry' => '{{LOCALMONTHNAME}} {{LOCALDAY}} {{SITENAME}} რჩეული ტექსტი',
 );
 
 /** Korean (한국어)
@@ -1486,6 +1565,13 @@ $messages['pt'] = array(
 	'ffeed-onthisday-desc' => 'Eventos históricos neste dia',
 );
 
+/** Tarandíne (Tarandíne)
+ * @author Joetaras
+ */
+$messages['roa-tara'] = array(
+	'ffeed-dyk-short-title' => "'U canusce?",
+);
+
 /** Russian (Русский)
  * @author Александр Сигачёв
  */
@@ -1577,6 +1663,22 @@ $messages['sl'] = array(
 	'ffeed-featuredtexts-entry' => 'Izbrano besedilo {{SITENAME}} za {{LOCALDAY}}. {{LOCALMONTHNAME}}',
 );
 
+/** Swedish (Svenska)
+ * @author WikiPhoenix
+ */
+$messages['sv'] = array(
+	'ffeed-good-short-title' => 'Bra artiklar',
+	'ffeed-onthisday-short-title' => 'På denna dag...',
+	'ffeed-onthisday-desc' => 'Historiska händelser på denna dag',
+	'ffeed-onthisday-entry' => 'På denna dag: {{LOCALMONTHNAME}} {{LOCALDAY}}',
+	'ffeed-dyk-title' => '{{SITENAME}} "Visste du att...?"-flöde',
+	'ffeed-dyk-short-title' => 'Visste du att...?',
+	'ffeed-dyk-entry' => 'Visste du att...?: {{LOCALMONTHNAME}} {{LOCALDAY}}',
+	'ffeed-motd-short-title' => 'Dagens mediafil',
+	'ffeed-potd-short-title' => 'Dagens bild',
+	'ffeed-qotd-short-title' => 'Dagens citat',
+);
+
 /** Tamil (தமிழ்)
  * @author Shanmugamp7
  */
@@ -1600,6 +1702,7 @@ $messages['ta'] = array(
  */
 $messages['te'] = array(
 	'ffeed-featured-short-title' => 'విశేష వ్యాసాలు',
+	'ffeed-good-short-title' => 'మంచి వ్యాసాలు',
 	'ffeed-onthisday-short-title' => 'ఈ రోజున&hellip;',
 	'ffeed-onthisday-desc' => 'ఈ రోజు జరిగిన చారిత్రక ఘటనలు',
 	'ffeed-dyk-short-title' => 'మీకు తెలుసా?',
@@ -1617,7 +1720,7 @@ $messages['tr'] = array(
 	'ffeed-potd-short-title' => 'Günün resmi',
 );
 
-/** Veps (Vepsän kel')
+/** Veps (Vepsän kel’)
  * @author Игорь Бродский
  */
 $messages['vep'] = array(
