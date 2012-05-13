@@ -1041,6 +1041,7 @@ $messages['ilo'] = array(
 
 /** Italian (Italiano)
  * @author Beta16
+ * @author Ximo17
  */
 $messages['it'] = array(
 	'ffeed-featured-short-title' => 'Voci in vetrina',
@@ -1050,7 +1051,14 @@ $messages['it'] = array(
 	'ffeed-onthisday-entry' => 'In questo giorno: {{LOCALMONTHNAME}} {{LOCALDAY}}',
 	'ffeed-dyk-short-title' => 'Lo sapevate?',
 	'ffeed-potd-short-title' => 'Foto del giorno',
+	'ffeed-potd-desc' => 'Alcune delle migliori immagini su {{SITENAME}}',
+	'ffeed-potd-entry' => '{{SITENAME}} Immagine del giorno di {{LOCALMONTHNAME}} {{LOCALDAY}}',
 	'ffeed-qotd-short-title' => 'Citazione del giorno',
+	'ffeed-qotd-desc' => 'Alcune delle migliori citazioni su {{SITENAME}}',
+	'ffeed-qotd-entry' => '{{SITENAME}} citazione del giorno di {{LOCALMONTHNAME}} {{LOCALDAY}}',
+	'ffeed-featuredtexts-short-title' => 'Testi consigliati',
+	'ffeed-featuredtexts-desc' => 'I migliori testi offerti da {{SITENAME}}',
+	'ffeed-featuredtexts-entry' => '{{LOCALMONTHNAME}} {{LOCALDAY}} {{SITENAME}} testo consigliato',
 );
 
 /** Japanese (日本語)
