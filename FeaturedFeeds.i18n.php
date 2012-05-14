@@ -1048,17 +1048,18 @@ $messages['it'] = array(
 	'ffeed-good-short-title' => 'Voci di qualità',
 	'ffeed-onthisday-short-title' => 'In questo giorno...',
 	'ffeed-onthisday-desc' => 'Eventi storici in questo giorno',
-	'ffeed-onthisday-entry' => 'In questo giorno: {{LOCALMONTHNAME}} {{LOCALDAY}}',
+	'ffeed-onthisday-entry' => 'In questo giorno: {{LOCALDAY}} {{LOCALMONTHNAME}}',
 	'ffeed-dyk-short-title' => 'Lo sapevate?',
+	'ffeed-dyk-entry' => 'Lo sapevate?: {{LOCALDAY}} {{LOCALMONTHNAME}}',
 	'ffeed-potd-short-title' => 'Foto del giorno',
 	'ffeed-potd-desc' => 'Alcune delle migliori immagini su {{SITENAME}}',
-	'ffeed-potd-entry' => '{{SITENAME}} Immagine del giorno di {{LOCALMONTHNAME}} {{LOCALDAY}}',
+	'ffeed-potd-entry' => 'Immagine del giorno {{SITENAME}} del {{LOCALDAY}} {{LOCALMONTHNAME}}',
 	'ffeed-qotd-short-title' => 'Citazione del giorno',
 	'ffeed-qotd-desc' => 'Alcune delle migliori citazioni su {{SITENAME}}',
-	'ffeed-qotd-entry' => '{{SITENAME}} citazione del giorno di {{LOCALMONTHNAME}} {{LOCALDAY}}',
+	'ffeed-qotd-entry' => 'Citazione del giorno {{SITENAME}} del {{LOCALDAY}} {{LOCALMONTHNAME}}',
 	'ffeed-featuredtexts-short-title' => 'Testi consigliati',
 	'ffeed-featuredtexts-desc' => 'I migliori testi offerti da {{SITENAME}}',
-	'ffeed-featuredtexts-entry' => '{{LOCALMONTHNAME}} {{LOCALDAY}} {{SITENAME}} testo consigliato',
+	'ffeed-featuredtexts-entry' => 'Testo consigliato {{SITENAME}} del {{LOCALDAY}} {{LOCALMONTHNAME}}',
 );
 
 /** Japanese (日本語)
