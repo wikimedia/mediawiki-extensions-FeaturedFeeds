@@ -1044,19 +1044,41 @@ $messages['ilo'] = array(
  * @author Ximo17
  */
 $messages['it'] = array(
+	'ffeed-desc' => 'Aggiunge i feed di syndication per i contenuti consigliati dal wiki',
+	'ffeed-no-feed' => 'Feed non specificato',
+	'ffeed-feed-not-found' => 'Feed $1 non trovato',
+	'ffeed-entry-not-found' => 'Elemento feed per $1 non trovato',
+	'ffeed-sidebar-section' => 'Feed per i contenuti consigliati',
+	'ffeed-invalid-timestamp' => 'Feed con timestamp non valido',
+	'ffeed-featured-title' => 'Feed {{SITENAME}}: voci in vetrina',
 	'ffeed-featured-short-title' => 'Voci in vetrina',
+	'ffeed-featured-desc' => 'Le migliori voci offerte da {{SITENAME}}',
+	'ffeed-featured-entry' => 'Voce in vetrina {{SITENAME}} del {{LOCALDAY}} {{LOCALMONTHNAME}}',
+	'ffeed-good-title' => 'Feed {{SITENAME}}: voci di qualità',
 	'ffeed-good-short-title' => 'Voci di qualità',
+	'ffeed-good-desc' => 'Le voci di qualità offerte da {{SITENAME}}',
+	'ffeed-good-entry' => 'Voce di qualità {{SITENAME}} del {{LOCALDAY}} {{LOCALMONTHNAME}}',
+	'ffeed-onthisday-title' => 'Feed {{SITENAME}}: In questo giorno...',
 	'ffeed-onthisday-short-title' => 'In questo giorno...',
 	'ffeed-onthisday-desc' => 'Eventi storici in questo giorno',
 	'ffeed-onthisday-entry' => 'In questo giorno: {{LOCALDAY}} {{LOCALMONTHNAME}}',
+	'ffeed-dyk-title' => 'Feed {{SITENAME}}: Lo sapevate?',
 	'ffeed-dyk-short-title' => 'Lo sapevate?',
+	'ffeed-dyk-desc' => 'Dal contenuto più recente di {{SITENAME}}',
 	'ffeed-dyk-entry' => 'Lo sapevate?: {{LOCALDAY}} {{LOCALMONTHNAME}}',
-	'ffeed-potd-short-title' => 'Foto del giorno',
+	'ffeed-motd-title' => 'Feed {{SITENAME}}: file multimediale del giorno',
+	'ffeed-motd-short-title' => 'File multimediale del giorno',
+	'ffeed-motd-desc' => 'Alcuni dei migliori file multimediali su {{SITENAME}}',
+	'ffeed-motd-entry' => 'File multimediale del giorno {{SITENAME}} del {{LOCALDAY}} {{LOCALMONTHNAME}}',
+	'ffeed-potd-title' => 'Feed {{SITENAME}}: foto del giorno',
+	'ffeed-potd-short-title' => 'Immagine del giorno',
 	'ffeed-potd-desc' => 'Alcune delle migliori immagini su {{SITENAME}}',
 	'ffeed-potd-entry' => 'Immagine del giorno {{SITENAME}} del {{LOCALDAY}} {{LOCALMONTHNAME}}',
+	'ffeed-qotd-title' => 'Feed {{SITENAME}}: citazione del giorno',
 	'ffeed-qotd-short-title' => 'Citazione del giorno',
 	'ffeed-qotd-desc' => 'Alcune delle migliori citazioni su {{SITENAME}}',
 	'ffeed-qotd-entry' => 'Citazione del giorno {{SITENAME}} del {{LOCALDAY}} {{LOCALMONTHNAME}}',
+	'ffeed-featuredtexts-title' => 'Feed {{SITENAME}}: testi consigliati',
 	'ffeed-featuredtexts-short-title' => 'Testi consigliati',
 	'ffeed-featuredtexts-desc' => 'I migliori testi offerti da {{SITENAME}}',
 	'ffeed-featuredtexts-entry' => 'Testo consigliato {{SITENAME}} del {{LOCALDAY}} {{LOCALMONTHNAME}}',
@@ -1578,7 +1600,12 @@ $messages['pt'] = array(
  * @author Joetaras
  */
 $messages['roa-tara'] = array(
+	'ffeed-featured-short-title' => 'Vôsce dettagliate',
+	'ffeed-onthisday-short-title' => "Jndr'à sta sciurnate...",
 	'ffeed-dyk-short-title' => "'U canusce?",
+	'ffeed-motd-short-title' => "Media d'a sciurnate",
+	'ffeed-potd-short-title' => "Fote d'a sciurnate",
+	'ffeed-qotd-short-title' => "Citazione d'a sciurnate",
 );
 
 /** Russian (Русский)
@@ -1834,15 +1861,46 @@ $messages['zh-hans'] = array(
 /** Traditional Chinese (‪中文(繁體)‬)
  * @author Oapbtommy
  * @author Simon Shek
+ * @author Waihorace
  */
 $messages['zh-hant'] = array(
+	'ffeed-desc' => '為維基的特色內容提供聯合供稿',
+	'ffeed-no-feed' => '沒有指定Feed',
+	'ffeed-feed-not-found' => '找不到Feed $1',
+	'ffeed-entry-not-found' => 'Feed 項目 $1 找不到',
+	'ffeed-sidebar-section' => '特色內容供稿',
+	'ffeed-invalid-timestamp' => '時間戳無效',
+	'ffeed-featured-title' => '{{SITENAME}}特色條目供稿',
 	'ffeed-featured-short-title' => '特色條目',
+	'ffeed-featured-desc' => '{{SITENAME}} 上最佳的條目',
+	'ffeed-featured-entry' => '{{SITENAME}}{{LOCALMONTHNAME}}{{LOCALDAY}}日特色條目',
+	'ffeed-good-title' => '{{SITENAME}}優良條目供稿',
 	'ffeed-good-short-title' => '優良條目',
+	'ffeed-good-desc' => '{{SITENAME}}上較好的條目',
+	'ffeed-good-entry' => '{{SITENAME}}{{LOCALMONTHNAME}}{{LOCALDAY}}日優良條目',
+	'ffeed-onthisday-title' => '{{SITENAME}}“歷史上的今天”供稿',
 	'ffeed-onthisday-short-title' => '在這一天 … …',
+	'ffeed-onthisday-desc' => '這一天的歷史事件',
 	'ffeed-onthisday-entry' => '在這一天： {{LOCALMONTHNAME}} {{LOCALDAY}}',
+	'ffeed-dyk-title' => '{{SITENAME}}“你知道嗎？”供稿',
 	'ffeed-dyk-short-title' => '你知道嗎？',
+	'ffeed-dyk-desc' => '來自{{SITENAME}}的最新內容',
 	'ffeed-dyk-entry' => '你知道嗎？： {{LOCALMONTHNAME}}{{LOCALDAY}}日',
+	'ffeed-motd-title' => '{{SITENAME}}每日媒體供稿',
 	'ffeed-motd-short-title' => '每日媒體',
+	'ffeed-motd-desc' => '{{SITENAME}}上最佳的一些媒體',
+	'ffeed-motd-entry' => '{{SITENAME}}{{LOCALMONTHNAME}}{{LOCALDAY}}日的每日媒體',
+	'ffeed-potd-title' => '{{SITENAME}}每日圖片供稿',
 	'ffeed-potd-short-title' => '每日圖片',
+	'ffeed-potd-desc' => '{{SITENAME}}上最佳的一些圖片',
+	'ffeed-potd-entry' => '{{SITENAME}}{{LOCALMONTHNAME}}{{LOCALDAY}}日的每日圖片',
+	'ffeed-qotd-title' => '{{SITENAME}}每日名言供稿',
+	'ffeed-qotd-short-title' => '每日名言',
+	'ffeed-qotd-desc' => '{{SITENAME}}上最佳的一些名言',
+	'ffeed-qotd-entry' => '{{SITENAME}}{{LOCALMONTHNAME}}{{LOCALDAY}}日的每日名言',
+	'ffeed-featuredtexts-title' => '{{SITENAME}}特色文本供稿',
+	'ffeed-featuredtexts-short-title' => '特色文本',
+	'ffeed-featuredtexts-desc' => '{{SITENAME}}所提供的最佳文本',
+	'ffeed-featuredtexts-entry' => '{{LOCALMONTHNAME}} {{LOCALDAY}} {{SITENAME}}特色文本',
 );
 
