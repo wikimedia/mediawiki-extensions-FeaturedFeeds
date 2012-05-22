@@ -223,9 +223,11 @@ $messages['az'] = array(
 
 /** Bashkir (Башҡортса)
  * @author Roustammr
+ * @author ҒатаУлла
  */
 $messages['ba'] = array(
 	'ffeed-onthisday-short-title' => 'Был көндә...',
+	'ffeed-potd-short-title' => 'Көн рәсеме',
 );
 
 /** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
@@ -1743,6 +1745,7 @@ $messages['te'] = array(
 	'ffeed-onthisday-desc' => 'ఈ రోజు జరిగిన చారిత్రక ఘటనలు',
 	'ffeed-dyk-short-title' => 'మీకు తెలుసా?',
 	'ffeed-potd-short-title' => 'నేటి చిత్రం',
+	'ffeed-qotd-short-title' => 'నేటి వ్యాఖ్య',
 );
 
 /** Turkish (Türkçe)
