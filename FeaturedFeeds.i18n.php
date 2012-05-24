@@ -664,12 +664,21 @@ $messages['fa'] = array(
 /** Finnish (Suomi)
  * @author Crt
  * @author Kulmalukko
+ * @author Linnea
  */
 $messages['fi'] = array(
+	'ffeed-feed-not-found' => 'Syötettä $1 ei löytynyt',
+	'ffeed-featured-title' => '{{SIVUSTON_NIMI}}:n suositellut artikkelit -syöte',
+	'ffeed-featured-short-title' => 'Suositellut artikkelit',
 	'ffeed-good-short-title' => 'Hyvät artikkelit',
+	'ffeed-onthisday-short-title' => 'Tänään...',
 	'ffeed-dyk-short-title' => 'Tiesitkö?',
+	'ffeed-dyk-entry' => 'Tiesitkö?: {{LOCALDAY}}. {{LOCALMONTHNAME}}',
+	'ffeed-motd-short-title' => 'Päivän media',
 	'ffeed-potd-short-title' => 'Päivän kuva',
 	'ffeed-qotd-short-title' => 'Päivän sitaatti',
+	'ffeed-featuredtexts-title' => '{{SIVUSTON_NIMI}}:n suositellut tekstit -syöte',
+	'ffeed-featuredtexts-short-title' => 'Suositellut tekstit',
 );
 
 /** French (Français)
@@ -944,11 +953,13 @@ $messages['hsb'] = array(
 
 /** Hungarian (Magyar)
  * @author Bdamokos
+ * @author Dj
  */
 $messages['hu'] = array(
 	'ffeed-featured-short-title' => 'Kiemelt szócikkek',
 	'ffeed-featured-desc' => 'A {{SITENAME}} legjobb szócikkei',
 	'ffeed-featured-entry' => '{{LOCALMONTHNAME}} {{LOCALDAY}} {{SITENAME}}-kiemelt szócikk',
+	'ffeed-dyk-short-title' => 'Tudtad?',
 	'ffeed-potd-short-title' => 'A nap képe',
 	'ffeed-qotd-short-title' => 'A nap idézete',
 );
@@ -1093,6 +1104,7 @@ $messages['ja'] = array(
 	'ffeed-no-feed' => 'フィードが未指定です',
 	'ffeed-feed-not-found' => 'フィード $1 が見つかりません',
 	'ffeed-invalid-timestamp' => 'フィードのタイムスタンプが正しくありません',
+	'ffeed-dyk-title' => '{{SITENAME}} "ご存じでしたか?" フィード',
 	'ffeed-dyk-short-title' => 'ご存じでしたか?',
 	'ffeed-dyk-entry' => 'ご存じでしたか? {{LOCALMONTHNAME}} {{LOCALDAY}}',
 );
