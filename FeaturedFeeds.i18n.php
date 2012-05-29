@@ -402,6 +402,20 @@ $messages['cy'] = array(
 	'ffeed-qotd-desc' => 'Rhai o ddyfyniadau gorau {{SITENAME}}',
 );
 
+/** Danish (Dansk)
+ * @author Tjernobyl
+ */
+$messages['da'] = array(
+	'ffeed-featured-short-title' => 'Fremhævede artikler',
+	'ffeed-featured-desc' => 'Bedste artikler på {{SITENAME}}',
+	'ffeed-good-short-title' => 'Gode artikler',
+	'ffeed-good-desc' => 'Gode artikler på {{SITENAME}}',
+	'ffeed-potd-short-title' => 'Dagens billede',
+	'ffeed-qotd-short-title' => 'Dagens citat',
+	'ffeed-featuredtexts-short-title' => 'Fremhævede tekster',
+	'ffeed-featuredtexts-desc' => 'Bedste tekster på {{SITENAME}}',
+);
+
 /** German (Deutsch)
  * @author Kghbln
  * @author Metalhead64
