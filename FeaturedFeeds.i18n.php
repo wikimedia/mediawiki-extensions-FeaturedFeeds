@@ -154,12 +154,46 @@ $messages['an'] = array(
 
 /** Assamese (অসমীয়া)
  * @author Bishnu Saikia
+ * @author Gitartha.bordoloi
  */
 $messages['as'] = array(
+	'ffeed-no-feed' => 'ফীড নিৰ্দিষ্ট কৰা নাই',
+	'ffeed-feed-not-found' => "$1 ফীড পোৱা নগ'ল",
+	'ffeed-entry-not-found' => "$1ৰ বাবে ফীড প্ৰৱেশ পোৱা নগ'ল",
+	'ffeed-sidebar-section' => 'নিৰ্বাচিত সমল ফীড',
+	'ffeed-invalid-timestamp' => 'অবৈধ ফীড সময়ষ্টাম্প',
+	'ffeed-featured-title' => '{{SITENAME}} নিৰ্বাচিত প্ৰবন্ধ ফীড',
 	'ffeed-featured-short-title' => 'মনোনীত প্ৰবন্ধসমূহ',
+	'ffeed-featured-desc' => '{{SITENAME}}ত থকা শ্ৰেষ্ঠ প্ৰবন্ধসমূহ',
+	'ffeed-featured-entry' => '{{LOCALMONTHNAME}} {{LOCALDAY}} {{SITENAME}} নিৰ্বাচিত প্ৰবন্ধ',
+	'ffeed-good-title' => '{{SITENAME}} ভাল প্ৰবন্ধ ফীড',
+	'ffeed-good-short-title' => 'ভাল প্ৰবন্ধ',
+	'ffeed-good-desc' => '{{SITENAME}}ত থকা ভাল প্ৰবন্ধসমূহ',
+	'ffeed-good-entry' => '{{LOCALMONTHNAME}} {{LOCALDAY}} {{SITENAME}} ভাল প্ৰবন্ধ',
+	'ffeed-onthisday-title' => '{{SITENAME}} "আজিৰ দিনটোত..." ফীড',
 	'ffeed-onthisday-short-title' => 'এই দিনটোত...',
+	'ffeed-onthisday-desc' => 'দিনটোত ঘটা বুৰঞ্জীমূলক ঘটনাৱলী',
+	'ffeed-onthisday-entry' => 'আজিৰ দিনটোত: {{LOCALMONTHNAME}} {{LOCALDAY}}',
+	'ffeed-dyk-title' => '{{SITENAME}} "আপুনি জানেনে?" ফীড',
 	'ffeed-dyk-short-title' => 'আপুনি জানেনে?',
+	'ffeed-dyk-desc' => '{{SITENAME}}ৰ নতুন সমলসমূহৰ পৰা',
+	'ffeed-dyk-entry' => 'আপুনি জানেনে?: {{LOCALMONTHNAME}} {{LOCALDAY}}',
+	'ffeed-motd-title' => '{{SITENAME}} দিনটোৰ মিডিয়া ফীড',
+	'ffeed-motd-short-title' => 'দিনটোৰ মিডিয়া',
+	'ffeed-motd-desc' => '{{SITENAME}}ত থকা কিছুমান সৰ্বশ্ৰেষ্ঠ মিডিয়া',
+	'ffeed-motd-entry' => '{{SITENAME}} {{LOCALMONTHNAME}} {{LOCALDAY}}ৰ বাবে দিনটোৰ মিডিয়া',
+	'ffeed-potd-title' => '{{SITENAME}} দিনটোৰ চিত্ৰ ফীড',
 	'ffeed-potd-short-title' => 'অজিৰ নিৰ্বাচিত ছবি',
+	'ffeed-potd-desc' => '{{SITENAME}}ত থকা কিছুমান সৰ্বশ্ৰেষ্ঠ ছবি',
+	'ffeed-potd-entry' => '{{SITENAME}} {{LOCALMONTHNAME}} {{LOCALDAY}}ৰ বাবে দিনটোৰ ছবি',
+	'ffeed-qotd-title' => '{{SITENAME}} দিনটোৰ উক্তি ফীড',
+	'ffeed-qotd-short-title' => 'দিনটোৰ উক্তি',
+	'ffeed-qotd-desc' => '{{SITENAME}}ত থকা কিছুমান সৰ্বশ্ৰেষ্ঠ উক্তি',
+	'ffeed-qotd-entry' => '{{SITENAME}} {{LOCALMONTHNAME}} {{LOCALDAY}}ৰ বাবে দিনটোৰ উক্তি',
+	'ffeed-featuredtexts-title' => '{{SITENAME}} নিৰ্বাচিত পাঠ্য ফীড',
+	'ffeed-featuredtexts-short-title' => 'মনোনীত পাঠ্য',
+	'ffeed-featuredtexts-desc' => '{{SITENAME}}ত থকা শ্ৰেষ্ঠ পাঠ্যসমূহ',
+	'ffeed-featuredtexts-entry' => '{{LOCALMONTHNAME}} {{LOCALDAY}} {{SITENAME}} নিৰ্বাচিত পাঠ্য',
 );
 
 /** Asturian (Asturianu)
