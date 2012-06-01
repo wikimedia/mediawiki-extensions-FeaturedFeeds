@@ -152,11 +152,23 @@ $messages['an'] = array(
 	'ffeed-featuredtexts-entry' => 'Texto destacau de {{SITENAME}} o {{LOCALDAY}} de {{LOCALMONTHNAME}}',
 );
 
+/** Arabic (العربية)
+ * @author Bassem JARKAS
+ */
+$messages['ar'] = array(
+	'ffeed-featured-short-title' => 'مقالات مختارة',
+	'ffeed-good-short-title' => 'مقالات جيدة',
+	'ffeed-onthisday-short-title' => 'في مثل هذا اليوم...',
+	'ffeed-dyk-short-title' => 'هل تعلم؟',
+	'ffeed-potd-short-title' => 'صورة اليوم',
+);
+
 /** Assamese (অসমীয়া)
  * @author Bishnu Saikia
  * @author Gitartha.bordoloi
  */
 $messages['as'] = array(
+	'ffeed-desc' => 'ৱিকিৰ নিৰ্বাচিত সমলৰ ছিণ্ডিকেছন ফীড যোগ কৰে',
 	'ffeed-no-feed' => 'ফীড নিৰ্দিষ্ট কৰা নাই',
 	'ffeed-feed-not-found' => "$1 ফীড পোৱা নগ'ল",
 	'ffeed-entry-not-found' => "$1ৰ বাবে ফীড প্ৰৱেশ পোৱা নগ'ল",
@@ -260,7 +272,13 @@ $messages['az'] = array(
  * @author ҒатаУлла
  */
 $messages['ba'] = array(
+	'ffeed-featured-short-title' => 'Һайланған мәҡәләләр',
+	'ffeed-good-short-title' => 'Яҡшы мәҡәләләр',
 	'ffeed-onthisday-short-title' => 'Был көндә...',
+	'ffeed-onthisday-desc' => 'Был көндә булған тарихи ваҡиғалар',
+	'ffeed-onthisday-entry' => 'Был көндө: {{LOCALDAY}} {{LOCALMONTHNAMEGEN}}',
+	'ffeed-dyk-short-title' => 'Һеҙ белеһегеҙме?',
+	'ffeed-dyk-entry' => 'Һеҙ белеһегеҙме? {{LOCALDAY}} {{LOCALMONTHNAMEGEN}}',
 	'ffeed-potd-short-title' => 'Көн рәсеме',
 );
 
