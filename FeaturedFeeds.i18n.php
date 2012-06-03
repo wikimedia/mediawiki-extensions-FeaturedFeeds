@@ -472,7 +472,7 @@ $messages['cy'] = array(
 	'ffeed-qotd-desc' => 'Rhai o ddyfyniadau gorau {{SITENAME}}',
 );
 
-/** Danish (Dansk)
+/** Danish (dansk)
  * @author Tjernobyl
  */
 $messages['da'] = array(
