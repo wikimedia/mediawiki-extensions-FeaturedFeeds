@@ -328,6 +328,24 @@ $messages['be-tarask'] = array(
 	'ffeed-featuredtexts-entry' => 'Найлепшы тэкст {{GRAMMAR:родны|{{SITENAME}}}} за {{LOCALDAY}} {{LOCALMONTHNAMEGEN}}',
 );
 
+/** Bengali (বাংলা)
+ * @author Bellayet
+ */
+$messages['bn'] = array(
+	'ffeed-featured-title' => '{{SITENAME}} নির্বাচিত নিবন্ধ ফিড',
+	'ffeed-featured-short-title' => 'নির্বাচিত নিবন্ধ',
+	'ffeed-featured-entry' => '{{LOCALMONTHNAME}} {{LOCALDAY}} {{SITENAME}} নির্বাচিত নিবন্ধ',
+	'ffeed-good-title' => '{{SITENAME}} ভাল নিবন্ধ ফিড',
+	'ffeed-good-short-title' => 'ভাল নিবন্ধ',
+	'ffeed-good-entry' => '{{LOCALMONTHNAME}} {{LOCALDAY}} {{SITENAME}} ভাল নিবন্ধ',
+	'ffeed-onthisday-title' => '{{SITENAME}} "আজকের এই দিনে..." ফিড',
+	'ffeed-onthisday-short-title' => 'আজকের এই দিনে...',
+	'ffeed-onthisday-entry' => 'আজকের এই দিনে: {{LOCALMONTHNAME}} {{LOCALDAY}}',
+	'ffeed-dyk-title' => '{{SITENAME}} "আপনি জানেন কি?" ফিড',
+	'ffeed-dyk-short-title' => 'আপনি জানেন কি?',
+	'ffeed-dyk-entry' => 'আপনি জানেন কি?: {{LOCALMONTHNAME}} {{LOCALDAY}}',
+);
+
 /** Breton (Brezhoneg)
  * @author Fulup
  * @author Gwendal
