@@ -1282,6 +1282,14 @@ $messages['ko'] = array(
 	'ffeed-featuredtexts-entry' => '{{LOCALMONTHNAME}} {{LOCALDAY}} {{SITENAME}} 알찬 글',
 );
 
+/** Colognian (Ripoarisch)
+ * @author Purodha
+ */
+$messages['ksh'] = array(
+	'ffeed-feed-not-found' => 'Mer han dä Kanaal $1 nit jefonge
+',
+);
+
 /** Luxembourgish (Lëtzebuergesch)
  * @author Robby
  */
