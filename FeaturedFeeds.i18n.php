@@ -1852,6 +1852,13 @@ $messages['te'] = array(
 	'ffeed-qotd-short-title' => 'నేటి వ్యాఖ్య',
 );
 
+/** Tagalog (Tagalog)
+ * @author AnakngAraw
+ */
+$messages['tl'] = array(
+	'ffeed-no-feed' => 'Hindi tinukoy ang pakain',
+);
+
 /** Turkish (Türkçe)
  * @author Bilalokms
  * @author Suelnur
@@ -1861,6 +1868,35 @@ $messages['tr'] = array(
 	'ffeed-good-short-title' => 'Kaliteli maddeler',
 	'ffeed-dyk-short-title' => 'Bunları biliyor muydunuz?',
 	'ffeed-potd-short-title' => 'Günün resmi',
+);
+
+/** Ukrainian (українська)
+ * @author A1
+ */
+$messages['uk'] = array(
+	'ffeed-featured-short-title' => 'Вибрані статті',
+	'ffeed-good-short-title' => 'Добрі статті',
+	'ffeed-good-desc' => 'Добрі статті {{SITENAME}} може запропонувати',
+	'ffeed-onthisday-title' => 'Канал {{GRAMMAR:genitive|{{SITENAME}}}} «Цього дня»',
+	'ffeed-onthisday-short-title' => 'Цього дня...',
+	'ffeed-onthisday-desc' => 'Історичні події цього дня',
+	'ffeed-onthisday-entry' => 'Цього дня: : {{LOCALMONTHNAME}} {{LOCALDAY}}',
+	'ffeed-dyk-title' => 'Канал {{GRAMMAR:genitive|{{SITENAME}}}} «Чи знаєте Ви що?»',
+	'ffeed-dyk-short-title' => 'Чи знаєте ви, що...?',
+	'ffeed-dyk-desc' => 'З нових матеріалів {{GRAMMAR:genitive|{{SITENAME}}}}',
+	'ffeed-dyk-entry' => 'Чи Ви знаєте?: {{LOCALMONTHNAME}} {{LOCALDAY}}',
+	'ffeed-motd-title' => 'Канал {{GRAMMAR:genitive|{{SITENAME}}}} «Медіа дня»',
+	'ffeed-motd-short-title' => 'Медіа дня',
+	'ffeed-motd-desc' => 'Кращі фото, відео і аудіо на {{SITENAME}}',
+	'ffeed-motd-entry' => 'Медіа дня із {{GRAMMAR:genitive|{{SITENAME}}}} за {{LOCALDAY}} {{LOCALMONTHNAMEGEN}}',
+	'ffeed-potd-title' => 'Канал {{GRAMMAR:genitive|{{SITENAME}}}} «Зображення дня»',
+	'ffeed-potd-short-title' => 'Зображення дня',
+	'ffeed-potd-desc' => 'Кращі зображення на {{SITENAME}}',
+	'ffeed-potd-entry' => 'Зображення дня із {{GRAMMAR:genitive|{{SITENAME}}}} за {{LOCALDAY}} {{LOCALMONTHNAMEGEN}}',
+	'ffeed-qotd-title' => 'Канал {{GRAMMAR:genitive|{{SITENAME}}}} «Цитата дня»',
+	'ffeed-qotd-short-title' => 'Цитата дня',
+	'ffeed-qotd-desc' => 'Кращі цитати на {{SITENAME}}',
+	'ffeed-qotd-entry' => 'Цитата дня з {{GRAMMAR:genitive|{{SITENAME}}}} за {{LOCALDAY}} {{LOCALMONTHNAMEGEN}}',
 );
 
 /** Veps (Vepsän kel’)
