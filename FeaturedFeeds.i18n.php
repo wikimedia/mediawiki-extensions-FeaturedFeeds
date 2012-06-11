@@ -536,6 +536,7 @@ $messages['de'] = array(
  */
 $messages['diq'] = array(
 	'ffeed-featured-title' => '{{SITENAME}} ra wesiqeyê weşi yenê',
+	'ffeed-featured-short-title' => 'Wesiqeyo Zafın',
 	'ffeed-featured-desc' => '{{SITENAME}} ra wesiqeyê weşi ratneyayê',
 	'ffeed-featured-entry' => '{{LOCALDAY}} {{LOCALMONTHNAME}}dı {{SITENAME}}dı wesiqeyo weşo',
 	'ffeed-good-title' => '{{SITENAME}} ra wesiqeyê weşi yenê',
@@ -1288,6 +1289,7 @@ $messages['ko'] = array(
 $messages['ksh'] = array(
 	'ffeed-feed-not-found' => 'Mer han dä Kanaal $1 nit jefonge
 ',
+	'ffeed-dyk-short-title' => 'Häß De ald jewoß?',
 );
 
 /** Luxembourgish (Lëtzebuergesch)
