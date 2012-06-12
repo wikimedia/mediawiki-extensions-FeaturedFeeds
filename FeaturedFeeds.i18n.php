@@ -1760,6 +1760,14 @@ $messages['ru'] = array(
 	'ffeed-featuredtexts-entry' => 'Избранный текст {{GRAMMAR:genitive|{{SITENAME}}}} за {{LOCALDAY}} {{LOCALMONTHNAMEGEN}}',
 );
 
+/** Rusyn (Русиньскый)
+ * @author Gazeb
+ */
+$messages['rue'] = array(
+	'ffeed-good-title' => 'Канал добрых статей {{grammar:2sg|{{SITENAME}}}}',
+	'ffeed-good-short-title' => 'Добры статї',
+);
+
 /** Slovenian (Slovenščina)
  * @author Dbc334
  * @author Eleassar
