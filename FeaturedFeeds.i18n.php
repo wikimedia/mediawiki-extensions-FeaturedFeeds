@@ -273,13 +273,22 @@ $messages['az'] = array(
  */
 $messages['ba'] = array(
 	'ffeed-featured-short-title' => 'Һайланған мәҡәләләр',
+	'ffeed-featured-desc' => '{{GRAMMAR:genitive|{{SITENAME}}}}-тың иң яҡшы мәҡәләләре',
+	'ffeed-featured-entry' => '{{GRAMMAR:genitive|{{SITENAME}}}}-тың {{LOCALDAY}} {{LOCALMONTHNAMEGEN}} көнөндә һайланған мәҡәлә',
 	'ffeed-good-short-title' => 'Яҡшы мәҡәләләр',
+	'ffeed-good-desc' => '{{GRAMMAR:genitive|{{SITENAME}}}}-тың яҡшы мәҡәләләре',
+	'ffeed-good-entry' => '{{GRAMMAR:genitive|{{SITENAME}}}}-тың  {{LOCALDAY}} {{LOCALMONTHNAMEGEN}} көнөндәге яҡшы мәҡәлә',
 	'ffeed-onthisday-short-title' => 'Был көндә...',
 	'ffeed-onthisday-desc' => 'Был көндә булған тарихи ваҡиғалар',
 	'ffeed-onthisday-entry' => 'Был көндө: {{LOCALDAY}} {{LOCALMONTHNAMEGEN}}',
 	'ffeed-dyk-short-title' => 'Һеҙ белеһегеҙме?',
 	'ffeed-dyk-entry' => 'Һеҙ белеһегеҙме? {{LOCALDAY}} {{LOCALMONTHNAMEGEN}}',
+	'ffeed-motd-desc' => '{{GRAMMAR:genitive|{{SITENAME}}}}-тан фото, видео и аудио',
 	'ffeed-potd-short-title' => 'Көн рәсеме',
+	'ffeed-potd-desc' => '{{GRAMMAR:genitive|{{SITENAME}}}}-тың иң яҡшы рәсемдәре',
+	'ffeed-qotd-desc' => '{{GRAMMAR:genitive|{{SITENAME}}}}тың ин яҡшы әйтемдәре',
+	'ffeed-featuredtexts-short-title' => 'Һайланған яҙмалар',
+	'ffeed-featuredtexts-desc' => '{{GRAMMAR:genitive|{{SITENAME}}}}-тың иң яҡшы яҙмалары',
 );
 
 /** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
@@ -1597,6 +1606,22 @@ $messages['nl'] = array(
 	'ffeed-featuredtexts-short-title' => 'Aanbevolen teksten',
 	'ffeed-featuredtexts-desc' => 'De beste teksten die {{SITENAME}} te bieden heeft',
 	'ffeed-featuredtexts-entry' => 'Aanbevolgen teksten van {{SITENNAME}} van {{LOCALDAY}} {{LOCALMONTHNAME}}',
+);
+
+/** Oriya (ଓଡ଼ିଆ)
+ * @author Jnanaranjan Sahu
+ */
+$messages['or'] = array(
+	'ffeed-dyk-short-title' => 'ଆପଣ ଜାଣନ୍ତି କି ?',
+	'ffeed-dyk-desc' => '{{SITENAME}}ରୁ ନୂତନତମ ଜିନିଷ',
+	'ffeed-dyk-entry' => 'ଆପଣ ଜାଣନ୍ତି କି ? : {{LOCALMONTHNAME}} {{LOCALDAY}}',
+	'ffeed-motd-short-title' => 'ଆଜି ଦିନର ବଛା ଛବି',
+	'ffeed-motd-desc' => '{{SITENAME}}ରେ ଥିବା କେତେକ ଉନ୍ନତମାନର ଛବିମାନଙ୍କ ମଧ୍ୟରୁ',
+	'ffeed-potd-title' => '{{SITENAME}} ଦିନର ବଛା ଛବି ପାଇଁ ମନ୍ତବ୍ୟ',
+	'ffeed-potd-short-title' => 'ଆଜି ଦିନର ବଛା ଛବି',
+	'ffeed-potd-desc' => '{{SITENAME}}ରେ ଥିବା କେତେକ ଉନ୍ନତମାନର ଛବିମାନଙ୍କ ମଧ୍ୟରୁ',
+	'ffeed-qotd-short-title' => 'ଆଜି ଦିନର ବଛା ଢଗ',
+	'ffeed-qotd-desc' => '{{SITENAME}}ରେ ଥିବା କେତେକ ଉନ୍ନତମାନର ଢଗଗୁଡିକ ମଧ୍ୟରୁ',
 );
 
 /** Polish (Polski)
