@@ -208,7 +208,7 @@ $messages['as'] = array(
 	'ffeed-featuredtexts-entry' => '{{LOCALMONTHNAME}} {{LOCALDAY}} {{SITENAME}} নিৰ্বাচিত পাঠ্য',
 );
 
-/** Asturian (Asturianu)
+/** Asturian (asturianu)
  * @author Xuacu
  */
 $messages['ast'] = array(
@@ -252,7 +252,7 @@ $messages['ast'] = array(
 	'ffeed-featuredtexts-entry' => 'Testu destacáu de {{SITENAME}} del {{LOCALDAY}} de {{LOCALMONTHNAME}}',
 );
 
-/** Azerbaijani (Azərbaycanca)
+/** Azerbaijani (azərbaycanca)
  * @author Cekli829
  * @author Vugar 1981
  */
@@ -355,7 +355,7 @@ $messages['bn'] = array(
 	'ffeed-dyk-entry' => 'আপনি জানেন কি?: {{LOCALMONTHNAME}} {{LOCALDAY}}',
 );
 
-/** Breton (Brezhoneg)
+/** Breton (brezhoneg)
  * @author Fulup
  * @author Gwendal
  * @author Y-M D
@@ -401,7 +401,7 @@ $messages['br'] = array(
 	'ffeed-featuredtexts-entry' => "Testenn a-feson eus {{SITENAME}} d'ar {{LOCALDAY}} {{LOCALMONTHNAME}}",
 );
 
-/** Bosnian (Bosanski)
+/** Bosnian (bosanski)
  * @author DzWiki
  */
 $messages['bs'] = array(
@@ -409,7 +409,7 @@ $messages['bs'] = array(
 	'ffeed-dyk-short-title' => 'Da li ste znali?',
 );
 
-/** Czech (Česky)
+/** Czech (česky)
  * @author Mormegil
  */
 $messages['cs'] = array(
@@ -622,7 +622,7 @@ $messages['dsb'] = array(
 	'ffeed-featuredtexts-entry' => '{{LOCALDAY}}. {{LOCALMONTHNAMEGEN}}  {{SITENAME}} - wuběrny tekst',
 );
 
-/** Spanish (Español)
+/** Spanish (español)
  * @author Armando-Martin
  */
 $messages['es'] = array(
@@ -666,7 +666,7 @@ $messages['es'] = array(
 	'ffeed-featuredtexts-entry' => 'Texto destacado de {{SITENAME}} el {{LOCALDAY}} {{LOCALMONTHNAME}}',
 );
 
-/** Estonian (Eesti)
+/** Estonian (eesti)
  * @author Pikne
  */
 $messages['et'] = array(
@@ -755,7 +755,7 @@ $messages['fa'] = array(
 	'ffeed-featuredtexts-entry' => 'متن برگزیدهٔ {{SITENAME}} در {{LOCALDAY}}ام {{LOCALMONTHNAME}}',
 );
 
-/** Finnish (Suomi)
+/** Finnish (suomi)
  * @author Crt
  * @author Kulmalukko
  * @author Linnea
@@ -775,7 +775,7 @@ $messages['fi'] = array(
 	'ffeed-featuredtexts-short-title' => 'Suositellut tekstit',
 );
 
-/** French (Français)
+/** French (français)
  * @author Gomoko
  * @author Jean-Frédéric
  * @author Tpt
@@ -1045,7 +1045,7 @@ $messages['hsb'] = array(
 	'ffeed-featuredtexts-entry' => 'Wuběrny tekst na {{GRAMMAR:lokatiw|{{SITENAME}}}} {{LOCALDAY}}. {{LOCALMONTHNAMEGEN}}',
 );
 
-/** Hungarian (Magyar)
+/** Hungarian (magyar)
  * @author Bdamokos
  * @author Dj
  */
@@ -1058,7 +1058,7 @@ $messages['hu'] = array(
 	'ffeed-qotd-short-title' => 'A nap idézete',
 );
 
-/** Interlingua (Interlingua)
+/** Interlingua (interlingua)
  * @author McDutchie
  */
 $messages['ia'] = array(
@@ -1146,7 +1146,7 @@ $messages['ilo'] = array(
 	'ffeed-featuredtexts-entry' => '{{LOCALMONTHNAME}} {{LOCALDAY}} {{SITENAME}} nailasin a testo',
 );
 
-/** Italian (Italiano)
+/** Italian (italiano)
  * @author Beta16
  * @author Ximo17
  */
@@ -1386,7 +1386,7 @@ $messages['li'] = array(
 	'ffeed-featuredtexts-entry' => 'Aanbevaole tèkste van {{SITENNAME}} van {{LOCALDAY}} {{LOCALMONTHNAME}}',
 );
 
-/** Macedonian (Македонски)
+/** Macedonian (македонски)
  * @author Bjankuloski06
  */
 $messages['mk'] = array(
@@ -1624,7 +1624,7 @@ $messages['or'] = array(
 	'ffeed-qotd-desc' => '{{SITENAME}}ରେ ଥିବା କେତେକ ଉନ୍ନତମାନର ଢଗଗୁଡିକ ମଧ୍ୟରୁ',
 );
 
-/** Polish (Polski)
+/** Polish (polski)
  * @author BeginaFelicysym
  */
 $messages['pl'] = array(
@@ -1714,7 +1714,7 @@ $messages['ps'] = array(
 	'ffeed-qotd-short-title' => 'د نن ورځې وراشه',
 );
 
-/** Portuguese (Português)
+/** Portuguese (português)
  * @author Giro720
  */
 $messages['pt'] = array(
@@ -1729,7 +1729,7 @@ $messages['pt'] = array(
 	'ffeed-onthisday-desc' => 'Eventos históricos neste dia',
 );
 
-/** Tarandíne (Tarandíne)
+/** tarandíne (tarandíne)
  * @author Joetaras
  */
 $messages['roa-tara'] = array(
@@ -1741,7 +1741,7 @@ $messages['roa-tara'] = array(
 	'ffeed-qotd-short-title' => "Citazione d'a sciurnate",
 );
 
-/** Russian (Русский)
+/** Russian (русский)
  * @author Александр Сигачёв
  */
 $messages['ru'] = array(
@@ -1793,7 +1793,7 @@ $messages['rue'] = array(
 	'ffeed-good-short-title' => 'Добры статї',
 );
 
-/** Slovenian (Slovenščina)
+/** Slovenian (slovenščina)
  * @author Dbc334
  * @author Eleassar
  * @author Irena Plahuta
@@ -1840,7 +1840,7 @@ $messages['sl'] = array(
 	'ffeed-featuredtexts-entry' => 'Izbrano besedilo {{SITENAME}} za {{LOCALDAY}}. {{LOCALMONTHNAME}}',
 );
 
-/** Swedish (Svenska)
+/** Swedish (svenska)
  * @author WikiPhoenix
  */
 $messages['sv'] = array(
@@ -1991,7 +1991,7 @@ $messages['vi'] = array(
 	'ffeed-featuredtexts-entry' => 'Văn kiện chọn lọc tại {{SITENAME}} ngày {{LOCALDAY}} {{LOCALMONTHNAME}}',
 );
 
-/** Simplified Chinese (‪中文(简体)‬)
+/** Simplified Chinese (‪中文（简体）‬)
  * @author Liangent
  * @author Linforest
  */
@@ -2036,7 +2036,7 @@ $messages['zh-hans'] = array(
 	'ffeed-featuredtexts-entry' => '{{LOCALMONTHNAME}} {{LOCALDAY}} {{SITENAME}}特色文本',
 );
 
-/** Traditional Chinese (‪中文(繁體)‬)
+/** Traditional Chinese (‪中文（繁體）‬)
  * @author Oapbtommy
  * @author Simon Shek
  * @author Waihorace
