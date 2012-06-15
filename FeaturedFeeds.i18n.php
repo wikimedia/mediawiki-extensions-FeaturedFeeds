@@ -1250,13 +1250,14 @@ $messages['ka'] = array(
 /** Korean (한국어)
  * @author Freebiekr
  * @author Kwj2772
+ * @author 아라
  */
 $messages['ko'] = array(
 	'ffeed-desc' => '위키의 알찬 컨텐츠에 대한 피드를 제공',
 	'ffeed-no-feed' => '피드가 제시되지 않았습니다.',
 	'ffeed-feed-not-found' => '$1 피드가 없습니다',
 	'ffeed-entry-not-found' => '$1 피드 항목이 없습니다.',
-	'ffeed-sidebar-section' => '알찬 컨텐츠 피드',
+	'ffeed-sidebar-section' => '알찬 콘텐츠 피드',
 	'ffeed-invalid-timestamp' => '피드 타임스탬프가 잘못되었습니다.',
 	'ffeed-featured-title' => '{{SITENAME}} 알찬 글 피드',
 	'ffeed-featured-short-title' => '알찬 글',
