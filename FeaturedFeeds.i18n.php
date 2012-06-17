@@ -269,6 +269,7 @@ $messages['az'] = array(
 
 /** Bashkir (Башҡортса)
  * @author Roustammr
+ * @author Гүзәл Ситдиҡова
  * @author ҒатаУлла
  */
 $messages['ba'] = array(
@@ -289,6 +290,7 @@ $messages['ba'] = array(
 	'ffeed-qotd-desc' => '{{GRAMMAR:genitive|{{SITENAME}}}}тың ин яҡшы әйтемдәре',
 	'ffeed-featuredtexts-short-title' => 'Һайланған яҙмалар',
 	'ffeed-featuredtexts-desc' => '{{GRAMMAR:genitive|{{SITENAME}}}}-тың иң яҡшы яҙмалары',
+	'ffeed-featuredtexts-entry' => '{{GRAMMAR:genitive|{{SITENAME}}}}-тың {{LOCALDAY}} {{LOCALMONTHNAMEGEN}} көнөндә һайланған яҙма',
 );
 
 /** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
@@ -544,6 +546,12 @@ $messages['de'] = array(
  * @author Erdemaslancan
  */
 $messages['diq'] = array(
+	'ffeed-desc' => 'Wiki zerre do weşra xeberanê sendikasyona dekeno de',
+	'ffeed-no-feed' => 'Xeberi nêvacıyayê',
+	'ffeed-feed-not-found' => '$1 ra xeberi çınyê',
+	'ffeed-entry-not-found' => 'Dekewtış dê $1 ra xeberi teba çınyo',
+	'ffeed-sidebar-section' => 'Zerre dê weşi ra xeberi',
+	'ffeed-invalid-timestamp' => 'Mora demi ravêrdi niya',
 	'ffeed-featured-title' => '{{SITENAME}} ra wesiqeyê weşi yenê',
 	'ffeed-featured-short-title' => 'Wesiqeyo Zafın',
 	'ffeed-featured-desc' => '{{SITENAME}} ra wesiqeyê weşi ratneyayê',
@@ -620,6 +628,13 @@ $messages['dsb'] = array(
 	'ffeed-featuredtexts-short-title' => 'Wuběrne teksty',
 	'ffeed-featuredtexts-desc' => 'Nejlěpše teksty, kótarež {{SITENAME}} póbitujo',
 	'ffeed-featuredtexts-entry' => '{{LOCALDAY}}. {{LOCALMONTHNAMEGEN}}  {{SITENAME}} - wuběrny tekst',
+);
+
+/** Esperanto (Esperanto)
+ * @author Karika
+ */
+$messages['eo'] = array(
+	'ffeed-dyk-short-title' => 'Faris vio konas?',
 );
 
 /** Spanish (español)
