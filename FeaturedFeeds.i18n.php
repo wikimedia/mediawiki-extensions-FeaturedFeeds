@@ -1213,6 +1213,7 @@ $messages['ja'] = array(
 	'ffeed-no-feed' => 'フィードが未指定です',
 	'ffeed-feed-not-found' => 'フィード $1 が見つかりません',
 	'ffeed-invalid-timestamp' => 'フィードのタイムスタンプが正しくありません',
+	'ffeed-featured-short-title' => '秀逸な記事',
 	'ffeed-dyk-title' => '{{SITENAME}} "ご存じでしたか?" フィード',
 	'ffeed-dyk-short-title' => 'ご存じでしたか?',
 	'ffeed-dyk-entry' => 'ご存じでしたか? {{LOCALMONTHNAME}} {{LOCALDAY}}',
