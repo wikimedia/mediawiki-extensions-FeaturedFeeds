@@ -1908,7 +1908,20 @@ $messages['te'] = array(
  * @author AnakngAraw
  */
 $messages['tl'] = array(
+	'ffeed-desc' => 'Nagdaragdag ng mga pakain ng sindikason ng tampok na nilalaman ng wiki',
 	'ffeed-no-feed' => 'Hindi tinukoy ang pakain',
+	'ffeed-feed-not-found' => 'Hindi natagpuan ang pakain na $1',
+	'ffeed-entry-not-found' => 'Hindi natagpuan ang lahok na pakain para sa noong $1',
+	'ffeed-sidebar-section' => 'Mga pagpapakain ng tampok na nilalaman',
+	'ffeed-invalid-timestamp' => 'Hindi katanggap-tanggap ng tatak ng oras ng pagpapakain',
+	'ffeed-featured-short-title' => 'Tampok na mga artikulo',
+	'ffeed-good-short-title' => 'Mabubuting mga artikulo',
+	'ffeed-onthisday-short-title' => 'Sa araw na ito...',
+	'ffeed-dyk-short-title' => 'Alam ba ninyo?',
+	'ffeed-motd-short-title' => 'Midya sa araw na ito',
+	'ffeed-potd-short-title' => 'Larawan sa araw na ito',
+	'ffeed-qotd-short-title' => 'Siping pananalita sa araw na ito',
+	'ffeed-featuredtexts-short-title' => 'Tampok na mga teksto',
 );
 
 /** Turkish (Türkçe)
