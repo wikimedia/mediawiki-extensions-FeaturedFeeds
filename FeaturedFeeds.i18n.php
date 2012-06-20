@@ -1937,6 +1937,7 @@ $messages['tr'] = array(
 
 /** Ukrainian (українська)
  * @author A1
+ * @author Olvin
  */
 $messages['uk'] = array(
 	'ffeed-featured-short-title' => 'Вибрані статті',
@@ -1949,7 +1950,7 @@ $messages['uk'] = array(
 	'ffeed-dyk-title' => 'Канал {{GRAMMAR:genitive|{{SITENAME}}}} «Чи знаєте Ви що?»',
 	'ffeed-dyk-short-title' => 'Чи знаєте ви, що...?',
 	'ffeed-dyk-desc' => 'З нових матеріалів {{GRAMMAR:genitive|{{SITENAME}}}}',
-	'ffeed-dyk-entry' => 'Чи Ви знаєте?: {{LOCALMONTHNAME}} {{LOCALDAY}}',
+	'ffeed-dyk-entry' => 'Чи знаєте Ви, що...: {{LOCALMONTHNAME}} {{LOCALDAY}}',
 	'ffeed-motd-title' => 'Канал {{GRAMMAR:genitive|{{SITENAME}}}} «Медіа дня»',
 	'ffeed-motd-short-title' => 'Медіа дня',
 	'ffeed-motd-desc' => 'Кращі фото, відео і аудіо на {{SITENAME}}',
