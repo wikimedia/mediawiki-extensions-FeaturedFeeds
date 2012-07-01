@@ -108,7 +108,7 @@ $messages['qqq'] = array(
 	'ffeed-featuredtexts-entry' => "Title of day's entry in the Featured Texts [[w:web feed|syndication feed]]",
 );
 
-/** Aragonese (Aragonés)
+/** Aragonese (aragonés)
  * @author Juanpabl
  */
 $messages['an'] = array(
@@ -293,7 +293,7 @@ $messages['ba'] = array(
 	'ffeed-featuredtexts-entry' => '{{GRAMMAR:genitive|{{SITENAME}}}}-тың {{LOCALDAY}} {{LOCALMONTHNAMEGEN}} көнөндә һайланған яҙма',
 );
 
-/** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
  * @author EugeneZelenko
  * @author Jim-by
  * @author Wizardist
@@ -586,7 +586,7 @@ $messages['diq'] = array(
 	'ffeed-featuredtexts-entry' => '{{LOCALDAY}} {{LOCALMONTHNAME}} dı {{SITENAME}} dı nuşteyo weşo',
 );
 
-/** Lower Sorbian (Dolnoserbski)
+/** Lower Sorbian (dolnoserbski)
  * @author Michawiki
  */
 $messages['dsb'] = array(
@@ -836,7 +836,7 @@ $messages['fr'] = array(
 	'ffeed-featuredtexts-entry' => 'Texte de {{SITENAME}} mis en valeur le {{LOCALDAY}} {{LOCALMONTHNAME}}',
 );
 
-/** Galician (Galego)
+/** Galician (galego)
  * @author Toliño
  */
 $messages['gl'] = array(
@@ -1016,7 +1016,7 @@ $messages['he'] = array(
 	'ffeed-featuredtexts-entry' => 'טקסט מומלץ ב{{GRAMMAR:תחילית|{{SITENAME}}}} ב־{{LOCALDAY}} ב{{LOCALMONTHNAME}}',
 );
 
-/** Upper Sorbian (Hornjoserbsce)
+/** Upper Sorbian (hornjoserbsce)
  * @author Michawiki
  */
 $messages['hsb'] = array(
@@ -1802,7 +1802,7 @@ $messages['ru'] = array(
 	'ffeed-featuredtexts-entry' => 'Избранный текст {{GRAMMAR:genitive|{{SITENAME}}}} за {{LOCALDAY}} {{LOCALMONTHNAMEGEN}}',
 );
 
-/** Rusyn (Русиньскый)
+/** Rusyn (русиньскый)
  * @author Gazeb
  */
 $messages['rue'] = array(
