@@ -1810,6 +1810,50 @@ $messages['rue'] = array(
 	'ffeed-good-short-title' => 'Добры статї',
 );
 
+/** Slovak (slovenčina)
+ * @author Helix84
+ */
+$messages['sk'] = array(
+	'ffeed-desc' => 'Pridá na odporúčaný obsah wiki kanály noviniek',
+	'ffeed-no-feed' => 'Kanál nebol určený',
+	'ffeed-feed-not-found' => 'Kanál $1 nebol nájdený',
+	'ffeed-entry-not-found' => 'Záznam kanála pre $1 nebol nájdený',
+	'ffeed-sidebar-section' => 'Kanály odporúčaného obsahu',
+	'ffeed-invalid-timestamp' => 'Neplatná časová známka kanála',
+	'ffeed-featured-title' => 'Kanál odporúčaných článkov {{GRAMMAR:genitív|{{SITENAME}}}}',
+	'ffeed-featured-short-title' => 'Odporúčané články',
+	'ffeed-featured-desc' => 'Najlepšie články, ktoré {{SITENAME}} môže ponúknuť',
+	'ffeed-featured-entry' => 'Odporúčaný článok dňa {{LOCALMONTHNAME}} {{LOCALDAY}} {{SITENAME}}',
+	'ffeed-good-title' => 'Kanál dobrých článkov {{GRAMMAR:genitív|{{SITENAME}}}}',
+	'ffeed-good-short-title' => 'Dobré články',
+	'ffeed-good-desc' => 'Dobré články, ktoré môže {{SITENAME}} ponúknuť',
+	'ffeed-good-entry' => 'Dobrý článok dňa {{LOCALMONTHNAME}} {{LOCALDAY}} {{SITENAME}}',
+	'ffeed-onthisday-title' => 'Kanál {{GRAMMAR:genitív|{{SITENAME}}}} „Tohto dňa...“',
+	'ffeed-onthisday-short-title' => 'Tohto dňa...',
+	'ffeed-onthisday-desc' => 'Historické udalosti tohto dňa',
+	'ffeed-onthisday-entry' => 'Tohto dňa: {{LOCALMONTHNAME}} {{LOCALDAY}}',
+	'ffeed-dyk-title' => 'Kanál {{GRAMMAR:genitív|{{SITENAME}}}} „Vedeli ste, že...“',
+	'ffeed-dyk-short-title' => 'Vedeli ste, že...',
+	'ffeed-dyk-desc' => 'Z najnovšieho obsahu {{GRAMMAR:genitív|{{SITENAME}}}}',
+	'ffeed-dyk-entry' => 'Vedeli ste, že... {{LOCALMONTHNAME}} {{LOCALDAY}}',
+	'ffeed-motd-title' => 'Multimédiá dňa {{GRAMMAR:genitív|{{SITENAME}}}}',
+	'ffeed-motd-short-title' => 'Multimédiá dňa',
+	'ffeed-motd-desc' => 'To najlepšie z multimediálneho obsahu {{GRAMMAR:genitív|{{SITENAME}}}}',
+	'ffeed-motd-entry' => 'Multimédiá {{GRAMMAR:genitív|{{SITENAME}}}} dňa {{LOCALMONTHNAME}} {{LOCALDAY}}',
+	'ffeed-potd-title' => 'Kanál obrázok dňa {{GRAMMAR:genitív|{{SITENAME}}}}',
+	'ffeed-potd-short-title' => 'Kanál obrázok dňa',
+	'ffeed-potd-desc' => 'To najlepšie z obrázkov {{GRAMMAR:genitív|{{SITENAME}}}}',
+	'ffeed-potd-entry' => 'Obrázok {{GRAMMAR:genitív|{{SITENAME}}}} dňa  {{LOCALMONTHNAME}} {{LOCALDAY}}',
+	'ffeed-qotd-title' => 'Kanál „Citát dňa“ {{GRAMMAR:genitív|{{SITENAME}}}}',
+	'ffeed-qotd-short-title' => 'Citát dňa',
+	'ffeed-qotd-desc' => 'Najlepšie z citátov {{GRAMMAR:genitív|{{SITENAME}}}}',
+	'ffeed-qotd-entry' => 'Citát {{GRAMMAR:genitív|{{SITENAME}}}} dňa {{LOCALMONTHNAME}} {{LOCALDAY}}',
+	'ffeed-featuredtexts-title' => 'Odporúčané texty {{GRAMMAR:genitív|{{SITENAME}}}}',
+	'ffeed-featuredtexts-short-title' => 'Odporúčané texty',
+	'ffeed-featuredtexts-desc' => 'Najlepšie texty, ktoré môže {{GRAMMAR:genitív|{{SITENAME}}}} ponúknuť',
+	'ffeed-featuredtexts-entry' => 'Odporúčaný text {{GRAMMAR:genitív|{{SITENAME}}}} dňa {{LOCALMONTHNAME}} {{LOCALDAY}}',
+);
+
 /** Slovenian (slovenščina)
  * @author Dbc334
  * @author Eleassar
