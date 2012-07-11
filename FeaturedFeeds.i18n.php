@@ -267,7 +267,7 @@ $messages['az'] = array(
 	'ffeed-featuredtexts-short-title' => 'Seçilmiş mətnlər',
 );
 
-/** Bashkir (Башҡортса)
+/** Bashkir (башҡортса)
  * @author Roustammr
  * @author Гүзәл Ситдиҡова
  * @author ҒатаУлла
@@ -1580,6 +1580,18 @@ $messages['ms'] = array(
 	'ffeed-featuredtexts-entry' => 'Teks pilihan {{SITENAME}} {{LOCALDAY}} {{LOCALMONTHNAME}}',
 );
 
+/** Norwegian Bokmål (‪norsk (bokmål)‬)
+ * @author Event
+ */
+$messages['nb'] = array(
+	'ffeed-desc' => 'Oppretter syndikeringsmating av wikiens viktigste innhold',
+	'ffeed-no-feed' => 'Mating er ikke angitt',
+	'ffeed-feed-not-found' => 'Mating $1 ble ikke funnet',
+	'ffeed-entry-not-found' => 'Matingselement for $1 ble ikke funnet',
+	'ffeed-sidebar-section' => 'Mating av viktig innhold',
+	'ffeed-invalid-timestamp' => 'Ugyldig matingstidsstempel',
+);
+
 /** Dutch (Nederlands)
  * @author SPQRobin
  * @author Siebrand
@@ -2011,7 +2023,7 @@ $messages['uk'] = array(
 	'ffeed-qotd-entry' => 'Цитата дня з {{GRAMMAR:genitive|{{SITENAME}}}} за {{LOCALDAY}} {{LOCALMONTHNAMEGEN}}',
 );
 
-/** Veps (Vepsän kel’)
+/** Veps (vepsän kel’)
  * @author Игорь Бродский
  */
 $messages['vep'] = array(
