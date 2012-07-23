@@ -80,11 +80,12 @@ $messages['en'] = array(
 /** Message documentation (Message documentation)
  * @author Max Semenik
  * @author Mormegil
+ * @author Purodha
  */
 $messages['qqq'] = array(
 	'ffeed-desc' => '{{desc}}',
-	'ffeed-feed-not-found' => '$1 is feed name',
-	'ffeed-entry-not-found' => '$1 is date',
+	'ffeed-feed-not-found' => '$1 is a feed name',
+	'ffeed-entry-not-found' => '$1 is a date',
 	'ffeed-featured-title' => 'Title of the Featured Articles [[w:web feed|syndication feed]]',
 	'ffeed-featured-desc' => 'Description of the Featured Articles [[w:web feed|syndication feed]]',
 	'ffeed-featured-entry' => "Title of day's entry in the Featured Articles [[w:web feed|syndication feed]]",
@@ -186,7 +187,7 @@ $messages['as'] = array(
 	'ffeed-onthisday-short-title' => 'এই দিনটোত...',
 	'ffeed-onthisday-desc' => 'দিনটোত ঘটা বুৰঞ্জীমূলক ঘটনাৱলী',
 	'ffeed-onthisday-entry' => 'আজিৰ দিনটোত: {{LOCALMONTHNAME}} {{LOCALDAY}}',
-	'ffeed-dyk-title' => '{{SITENAME}} "আপুনি জানেনে?" ফীড',
+	'ffeed-dyk-title' => '{{SITENAME}} "আপুনি জানেনে?" ভূক্তি',
 	'ffeed-dyk-short-title' => 'আপুনি জানেনে?',
 	'ffeed-dyk-desc' => '{{SITENAME}}ৰ নতুন সমলসমূহৰ পৰা',
 	'ffeed-dyk-entry' => 'আপুনি জানেনে?: {{LOCALMONTHNAME}} {{LOCALDAY}}',
@@ -194,7 +195,7 @@ $messages['as'] = array(
 	'ffeed-motd-short-title' => 'দিনটোৰ মিডিয়া',
 	'ffeed-motd-desc' => '{{SITENAME}}ত থকা কিছুমান সৰ্বশ্ৰেষ্ঠ মিডিয়া',
 	'ffeed-motd-entry' => '{{SITENAME}} {{LOCALMONTHNAME}} {{LOCALDAY}}ৰ বাবে দিনটোৰ মিডিয়া',
-	'ffeed-potd-title' => '{{SITENAME}} দিনটোৰ চিত্ৰ ফীড',
+	'ffeed-potd-title' => '{{SITENAME}} দিনটোৰ চিত্ৰ ভূক্তি',
 	'ffeed-potd-short-title' => 'অজিৰ নিৰ্বাচিত ছবি',
 	'ffeed-potd-desc' => '{{SITENAME}}ত থকা কিছুমান সৰ্বশ্ৰেষ্ঠ ছবি',
 	'ffeed-potd-entry' => '{{SITENAME}} {{LOCALMONTHNAME}} {{LOCALDAY}}ৰ বাবে দিনটোৰ ছবি',
@@ -202,7 +203,7 @@ $messages['as'] = array(
 	'ffeed-qotd-short-title' => 'দিনটোৰ উক্তি',
 	'ffeed-qotd-desc' => '{{SITENAME}}ত থকা কিছুমান সৰ্বশ্ৰেষ্ঠ উক্তি',
 	'ffeed-qotd-entry' => '{{SITENAME}} {{LOCALMONTHNAME}} {{LOCALDAY}}ৰ বাবে দিনটোৰ উক্তি',
-	'ffeed-featuredtexts-title' => '{{SITENAME}} নিৰ্বাচিত পাঠ্য ফীড',
+	'ffeed-featuredtexts-title' => '{{SITENAME}} নিৰ্বাচিত পাঠ্য ভূক্তি',
 	'ffeed-featuredtexts-short-title' => 'মনোনীত পাঠ্য',
 	'ffeed-featuredtexts-desc' => '{{SITENAME}}ত থকা শ্ৰেষ্ঠ পাঠ্যসমূহ',
 	'ffeed-featuredtexts-entry' => '{{LOCALMONTHNAME}} {{LOCALDAY}} {{SITENAME}} নিৰ্বাচিত পাঠ্য',
@@ -776,11 +777,18 @@ $messages['fa'] = array(
  * @author Linnea
  */
 $messages['fi'] = array(
+	'ffeed-no-feed' => 'Syötettä ei ole määritetty',
 	'ffeed-feed-not-found' => 'Syötettä $1 ei löytynyt',
+	'ffeed-sidebar-section' => 'Suositellut sisällöt -syötteet',
+	'ffeed-invalid-timestamp' => 'Virheellinen syötteen aikaleima',
 	'ffeed-featured-title' => '{{SIVUSTON_NIMI}}:n suositellut artikkelit -syöte',
 	'ffeed-featured-short-title' => 'Suositellut artikkelit',
+	'ffeed-featured-entry' => '{{GRAMMAR:genitive|{{SITENAME}}}} {{LOCALDAY}}. {{LOCALMONTHNAMEGEN}} suositeltu artikkeli',
+	'ffeed-good-title' => '{{GRAMMAR:genitive|{{SITENAME}}}} hyvät artikkelit -syöte',
 	'ffeed-good-short-title' => 'Hyvät artikkelit',
 	'ffeed-onthisday-short-title' => 'Tänään...',
+	'ffeed-onthisday-desc' => 'Historialliset tapahtumat tänä päivämääränä',
+	'ffeed-dyk-title' => '{{GRAMMAR:genitive|{{SITENAME}}}} "Tiesitkö, että?" -syöte',
 	'ffeed-dyk-short-title' => 'Tiesitkö?',
 	'ffeed-dyk-entry' => 'Tiesitkö?: {{LOCALDAY}}. {{LOCALMONTHNAME}}',
 	'ffeed-motd-short-title' => 'Päivän media',
@@ -1063,12 +1071,34 @@ $messages['hsb'] = array(
 /** Hungarian (magyar)
  * @author Bdamokos
  * @author Dj
+ * @author TK-999
  */
 $messages['hu'] = array(
+	'ffeed-desc' => 'Hírcsatornákat hoz létre a wiki kiemelt tartalmából.',
+	'ffeed-no-feed' => 'A hírcsatornát nem határoztad meg.',
+	'ffeed-feed-not-found' => 'A(z) $1 hírcsatorna nem található.',
+	'ffeed-entry-not-found' => 'A(z) $1 hírcsatorna-bejegyzése nem található.',
+	'ffeed-sidebar-section' => 'Kiemelt tartalom hírcsatornái',
+	'ffeed-invalid-timestamp' => 'Érvénytelen hírcsatorna-időbélyeg',
+	'ffeed-featured-title' => 'A(z) {{SITENAME}} kiemelt szócikkeinek hírcsatornája',
 	'ffeed-featured-short-title' => 'Kiemelt szócikkek',
 	'ffeed-featured-desc' => 'A {{SITENAME}} legjobb szócikkei',
 	'ffeed-featured-entry' => '{{LOCALMONTHNAME}} {{LOCALDAY}} {{SITENAME}}-kiemelt szócikk',
+	'ffeed-good-title' => 'A(z) {{SITENAME}} jó cikkeinek hírcsatornája',
+	'ffeed-good-short-title' => 'Jó cikkek',
+	'ffeed-good-desc' => 'A {{SITENAME}} jó szócikkei',
+	'ffeed-good-entry' => '{{SITENAME}} {{LOCALMONTHNAME}} {{LOCALDAY}}-i jó cikke',
+	'ffeed-onthisday-title' => '{{SITENAME}} "Ezen a napon..." hírcsatorna',
+	'ffeed-onthisday-short-title' => 'Ezen a napon...',
+	'ffeed-onthisday-desc' => 'Történelmi események ezen a napon',
+	'ffeed-onthisday-entry' => 'Ezen a napon: {{LOCALMONTHNAME}} {{LOCALDAY}}',
+	'ffeed-dyk-title' => '{{SITENAME}} "Tudtad-e, hogy...?" hírcsatorna',
 	'ffeed-dyk-short-title' => 'Tudtad?',
+	'ffeed-dyk-desc' => 'A {{SITENAME}} legújabb tartalmából',
+	'ffeed-dyk-entry' => 'Tudtad-e, hogy...? {{LOCALMONTHNAME}} {{LOCALDAY}}',
+	'ffeed-motd-title' => '{{SITENAME}} "a nap médiafájlja" hírcsatorna',
+	'ffeed-motd-short-title' => 'A nap médiafájlja',
+	'ffeed-motd-desc' => 'Néhány a {{SITENAME}} legjobb médiafájljai közül',
 	'ffeed-potd-short-title' => 'A nap képe',
 	'ffeed-qotd-short-title' => 'A nap idézete',
 );
@@ -1313,9 +1343,44 @@ $messages['ko'] = array(
  * @author Purodha
  */
 $messages['ksh'] = array(
-	'ffeed-feed-not-found' => 'Mer han dä Kanaal $1 nit jefonge
-',
+	'ffeed-desc' => 'Deiht Kanääl en et Wiki för besöndrs joode Saache uss_em Wiki wiggerzejävve.',
+	'ffeed-no-feed' => 'Keine Kanaal aanjejovve',
+	'ffeed-feed-not-found' => 'Mer han dä Kanaal $1 nit jefonge',
+	'ffeed-entry-not-found' => 'Mer han keine Endraach för der $1 jefonge',
+	'ffeed-sidebar-section' => 'Kanääl för besönders joode Saache',
+	'ffeed-invalid-timestamp' => 'En önjöltijje Zick för dä Kanaal',
+	'ffeed-featured-title' => 'Kanaal för de beste Atikelle {{GRAMMAR:vun+Dativ|{{ucfirst:{{SITENAME}}}}}}',
+	'ffeed-featured-short-title' => 'De beste Atikelle',
+	'ffeed-featured-desc' => 'De beste Atikelle {{GRAMMAR:vun+Dative|{{ucfirst:{{SITENAME}}}}}}',
+	'ffeed-featured-entry' => '{{LOCALDAY}}. {{LOCALMONTHNAME}}: {{ucfirst:{{GRAMMAR:ier|{{ucfirst:{{SITENAME}}}}}}}} beste Atikelle',
+	'ffeed-good-title' => 'Kanaal för joode Atikelle {{GRAMMAR:vun+Dativ|{{ucfirst:{{SITENAME}}}}}}',
+	'ffeed-good-short-title' => 'Joode Atikelle',
+	'ffeed-good-desc' => 'Joode Atikelle {{GRAMMAR:vun+Dativ|{{ucfirst:{{SITENAME}}}}}}',
+	'ffeed-good-entry' => '{{LOCALDAY}}. {{LOCALMONTHNAME}}: {{ucfirst:{{GRAMMAR:ier|{{ucfirst:{{SITENAME}}}}}}}} joode Atikelle',
+	'ffeed-onthisday-title' => 'Kanaal för joode Atikelle {{GRAMMAR:vun+Dativ|{{ucfirst:{{SITENAME}}}}}}',
+	'ffeed-onthisday-short-title' => 'Op dämm Daach{{int:ellipsis}}',
+	'ffeed-onthisday-desc' => 'Wat aan dämm Daach passeert es{{int:ellipsis}}',
+	'ffeed-onthisday-entry' => '{{LOCALDAY}}. {{LOCALMONTHNAME}}: {{ucfirst:{{GRAMMAR:vum|{{ucfirst:{{SITENAME}}}}}}}}',
+	'ffeed-dyk-title' => 'Kanaal för „Häß De ald jewoß?“ {{GRAMMAR:vun+Dativ|{{ucfirst:{{SITENAME}}}}}}',
 	'ffeed-dyk-short-title' => 'Häß De ald jewoß?',
+	'ffeed-dyk-desc' => '{{ucfirst:{{GRAMMAR:ier|{{ucfirst:{{SITENAME}}}}}}}} „Häß De ald jewoß?“',
+	'ffeed-dyk-entry' => '{{LOCALDAY}}. {{LOCALMONTHNAME}}: {{ucfirst:{{GRAMMAR:ier|{{ucfirst:{{SITENAME}}}}}}}} „Häß De ald jewoß?“',
+	'ffeed-motd-title' => 'Kanaal för de Meedije-Dattei vum Daach {{GRAMMAR:vun+Dativ|{{ucfirst:{{SITENAME}}}}}}',
+	'ffeed-motd-short-title' => 'Meedije-Dattei fum Daach',
+	'ffeed-motd-desc' => 'Ußwahl us de beste Meedije-Datteije {{GRAMMAR:vun+Dative|{{ucfirst:{{SITENAME}}}}}}',
+	'ffeed-motd-entry' => '{{LOCALDAY}}. {{LOCALMONTHNAME}}: {{ucfirst:{{GRAMMAR:ier|{{ucfirst:{{SITENAME}}}}}}}} beste Meedije-Datteije',
+	'ffeed-potd-title' => 'Kanaal för et Beld vum Daach {{GRAMMAR:vun+Dativ|{{ucfirst:{{SITENAME}}}}}}',
+	'ffeed-potd-short-title' => 'Et Beld vum Daach',
+	'ffeed-potd-desc' => 'Ußwahl us de beste Belder {{GRAMMAR:vun+Dative|{{ucfirst:{{SITENAME}}}}}}',
+	'ffeed-potd-entry' => '{{LOCALDAY}}. {{LOCALMONTHNAME}}: {{ucfirst:{{GRAMMAR:ier|{{ucfirst:{{SITENAME}}}}}}}} Belder vum Daach',
+	'ffeed-qotd-title' => 'Kanaal för et Zėtaat vum Daach {{GRAMMAR:vun+Dativ|{{ucfirst:{{SITENAME}}}}}}',
+	'ffeed-qotd-short-title' => 'Zėtaat vum Daach',
+	'ffeed-qotd-desc' => 'Ußwahl vun de beste Zėtaate {{GRAMMAR:vun+Dative|{{ucfirst:{{SITENAME}}}}}}',
+	'ffeed-qotd-entry' => '{{LOCALDAY}}. {{LOCALMONTHNAME}}: {{ucfirst:{{GRAMMAR:ier|{{ucfirst:{{SITENAME}}}}}}}} Zėtaate vum Daach',
+	'ffeed-featuredtexts-title' => 'Kanaal för de beste Täxte {{GRAMMAR:vun+Dativ|{{ucfirst:{{SITENAME}}}}}}',
+	'ffeed-featuredtexts-short-title' => 'Bäste Täxte',
+	'ffeed-featuredtexts-desc' => 'De beste Täxte {{GRAMMAR:vun+Dative|{{ucfirst:{{SITENAME}}}}}}',
+	'ffeed-featuredtexts-entry' => '{{LOCALDAY}}. {{LOCALMONTHNAME}}: {{ucfirst:{{GRAMMAR:ier|{{ucfirst:{{SITENAME}}}}}}}} beste Täxte',
 );
 
 /** Luxembourgish (Lëtzebuergesch)
@@ -1975,6 +2040,8 @@ $messages['tl'] = array(
 	'ffeed-featured-desc' => 'Pinaka mahuhusay na mga artikulong maiaalok ng {{SITENAME}}',
 	'ffeed-good-short-title' => 'Mabubuting mga artikulo',
 	'ffeed-onthisday-short-title' => 'Sa araw na ito...',
+	'ffeed-onthisday-desc' => 'Makasaysayang mga kaganapan sa araw na ito',
+	'ffeed-onthisday-entry' => 'Sa araw na ito: {{LOCALMONTHNAME}} {{LOCALDAY}}',
 	'ffeed-dyk-short-title' => 'Alam ba ninyo?',
 	'ffeed-motd-short-title' => 'Midya sa araw na ito',
 	'ffeed-potd-short-title' => 'Larawan sa araw na ito',
