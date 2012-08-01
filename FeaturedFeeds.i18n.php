@@ -1887,6 +1887,38 @@ $messages['rue'] = array(
 	'ffeed-good-short-title' => 'Добры статї',
 );
 
+/** Sanskrit (संस्कृतम्)
+ * @author Shubha
+ */
+$messages['sa'] = array(
+	'ffeed-good-short-title' => 'उत्तमाः लेखाः',
+	'ffeed-good-desc' => '{{SITENAME}} उत्कृष्टाः लेखाः योजनीयाः',
+	'ffeed-good-entry' => '{{LOCALMONTHNAME}} {{LOCALDAY}} {{SITENAME}} उत्कृष्टाः लेखाः',
+	'ffeed-onthisday-short-title' => 'अस्मिन् दिने.....',
+	'ffeed-onthisday-desc' => 'ऐतिहासिकघटनाः अस्मिन् दिने',
+	'ffeed-onthisday-entry' => 'अस्मिन् दिने: {{LOCALMONTHNAME}} {{LOCALDAY}}',
+	'ffeed-dyk-title' => '{{SITENAME}} "ज्ञायते किं भवता?" अनुबन्धः',
+	'ffeed-dyk-short-title' => 'ज्ञायते किं भवता ?',
+	'ffeed-dyk-desc' => '{{SITENAME}}इत्यस्य नूतनतमात् विषयसङ्ग्रहात्',
+	'ffeed-dyk-entry' => 'ज्ञायते किं भवता ?: {{LOCALMONTHNAME}} {{LOCALDAY}}',
+	'ffeed-motd-title' => '{{SITENAME}} दिनस्य माध्यमम् अनुबन्धः',
+	'ffeed-motd-short-title' => 'दिनस्य माध्यमम्',
+	'ffeed-motd-desc' => '{{SITENAME}} इत्यत्र विद्यमानानि कानिचन अत्युत्कृष्टानि माध्यमानि',
+	'ffeed-motd-entry' => '{{SITENAME}} दिनस्य माध्यमम् {{LOCALMONTHNAME}} {{LOCALDAY}} निमित्तम्',
+	'ffeed-potd-title' => '{{SITENAME}} प्रमुखं चित्रम् अनुबन्धः',
+	'ffeed-potd-short-title' => 'प्रमुखं चित्रम्',
+	'ffeed-potd-desc' => '{{SITENAME}} इत्यत्र विद्यमानानि कानिचन अत्युत्कृष्टानि माध्यमानि',
+	'ffeed-potd-entry' => '{{SITENAME}} प्रमुखं चित्रम् {{LOCALMONTHNAME}} {{LOCALDAY}} निमित्तम्',
+	'ffeed-qotd-title' => '{{SITENAME}} सुभाषितम् अनुबन्धः',
+	'ffeed-qotd-short-title' => 'सुभाषितम्',
+	'ffeed-qotd-desc' => '{{SITENAME}} इत्यत्र विद्यमानानि कानिचन अत्युत्कृष्टानि सुभाषितानि',
+	'ffeed-qotd-entry' => '{{SITENAME}} सुभाषितम् {{LOCALMONTHNAME}} {{LOCALDAY}} निमित्तम्',
+	'ffeed-featuredtexts-title' => '{{SITENAME}} विशिष्टपाठ्यांशः अनुबन्धः',
+	'ffeed-featuredtexts-short-title' => 'विशिष्टाः पाठ्यांशाः',
+	'ffeed-featuredtexts-desc' => '{{SITENAME}} उत्कृष्टाः पाठ्यांशाः योजनीयाः',
+	'ffeed-featuredtexts-entry' => '{{LOCALMONTHNAME}} {{LOCALDAY}} {{SITENAME}} विशिष्टपाठ्यांशः',
+);
+
 /** Slovak (slovenčina)
  * @author Helix84
  */
