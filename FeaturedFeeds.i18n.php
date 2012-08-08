@@ -1891,9 +1891,21 @@ $messages['rue'] = array(
  * @author Shubha
  */
 $messages['sa'] = array(
+	'ffeed-desc' => 'वीक्याः प्रमुखविषयाय समवायनवीकारिकां योजयति',
+	'ffeed-no-feed' => 'नवीकारिका न निर्दिष्टा',
+	'ffeed-feed-not-found' => 'नवीकारिका $1 न दृश्यते',
+	'ffeed-entry-not-found' => '$1 कृते नवीकारिकायोजनं न दृश्यते',
+	'ffeed-sidebar-section' => 'प्रमुखविषयस्य नवीकारिका',
+	'ffeed-invalid-timestamp' => 'अमान्य नवीकारिका-समयाङ्कनम्',
+	'ffeed-featured-title' => '{{SITENAME}} प्रमुखलेखस्य नवीकारिका',
+	'ffeed-featured-short-title' => 'प्रमुखलेखाः',
+	'ffeed-featured-desc' => '{{SITENAME}} उत्कृष्टाः लेखाः योजनीयाः',
+	'ffeed-featured-entry' => '{{LOCALMONTHNAME}} {{LOCALDAY}} {{SITENAME}} उत्कृष्टाः लेखाः',
+	'ffeed-good-title' => '{{SITENAME}} प्रमुखलेखस्य नवीकारिका',
 	'ffeed-good-short-title' => 'उत्तमाः लेखाः',
 	'ffeed-good-desc' => '{{SITENAME}} उत्कृष्टाः लेखाः योजनीयाः',
 	'ffeed-good-entry' => '{{LOCALMONTHNAME}} {{LOCALDAY}} {{SITENAME}} उत्कृष्टाः लेखाः',
+	'ffeed-onthisday-title' => '{{SITENAME}} "अद्यतनम्..." नवीकारिका',
 	'ffeed-onthisday-short-title' => 'अस्मिन् दिने.....',
 	'ffeed-onthisday-desc' => 'ऐतिहासिकघटनाः अस्मिन् दिने',
 	'ffeed-onthisday-entry' => 'अस्मिन् दिने: {{LOCALMONTHNAME}} {{LOCALDAY}}',
