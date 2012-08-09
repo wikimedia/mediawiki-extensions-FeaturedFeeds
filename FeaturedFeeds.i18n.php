@@ -485,13 +485,23 @@ $messages['cy'] = array(
 );
 
 /** Danish (dansk)
+ * @author Hylle
  * @author Tjernobyl
  */
 $messages['da'] = array(
+	'ffeed-no-feed' => 'Feed ikke angivet',
+	'ffeed-feed-not-found' => 'Feedet $1 blev ikke fundet',
 	'ffeed-featured-short-title' => 'Fremhævede artikler',
 	'ffeed-featured-desc' => 'Bedste artikler på {{SITENAME}}',
 	'ffeed-good-short-title' => 'Gode artikler',
 	'ffeed-good-desc' => 'Gode artikler på {{SITENAME}}',
+	'ffeed-onthisday-short-title' => 'På denne dag...',
+	'ffeed-onthisday-desc' => 'Historiske begivenheder på denne dag',
+	'ffeed-onthisday-entry' => 'På denne dag: {{LOCALMONTHNAME}} {{LOCALDAY}}',
+	'ffeed-dyk-title' => '{{SITENAME}} "Vidste du?" feed',
+	'ffeed-dyk-short-title' => 'Vidste du?',
+	'ffeed-motd-short-title' => 'Dagens medie',
+	'ffeed-motd-desc' => 'Nogle af de bedste medier på {{SITENAME}}',
 	'ffeed-potd-short-title' => 'Dagens billede',
 	'ffeed-qotd-short-title' => 'Dagens citat',
 	'ffeed-featuredtexts-short-title' => 'Fremhævede tekster',
@@ -631,11 +641,36 @@ $messages['dsb'] = array(
 	'ffeed-featuredtexts-entry' => '{{LOCALDAY}}. {{LOCALMONTHNAMEGEN}}  {{SITENAME}} - wuběrny tekst',
 );
 
+/** Greek (Ελληνικά)
+ * @author Glavkos
+ */
+$messages['el'] = array(
+	'ffeed-feed-not-found' => 'Η ροή $1 δεν βρέθηκε',
+	'ffeed-entry-not-found' => 'Η είσοδος ροής για το $1 δε βέθηκε',
+	'ffeed-featured-short-title' => 'Αξιόλογα λήμματα',
+	'ffeed-featured-entry' => '{{LOCALMONTHNAME}} {{LOCALDAY}} {{SITENAME}} αξιόλογο λήμμα',
+	'ffeed-good-title' => '{{SITENAME}} ροή καλών λημμάτων',
+	'ffeed-good-short-title' => 'Καλά λήμματα',
+	'ffeed-onthisday-short-title' => 'Αυτή τη μέρα ...',
+	'ffeed-onthisday-desc' => 'Ιστορικά γεγονότα αυτής της μέρας',
+	'ffeed-onthisday-entry' => 'Αυτή τη μέρα: {{LOCALMONTHNAME}} {{LOCALDAY}}',
+	'ffeed-dyk-short-title' => 'Γνωρίζατε ότι...;',
+	'ffeed-motd-short-title' => 'Πολυμέσα της ημέρας',
+	'ffeed-qotd-short-title' => 'Απόφθεγμα της ημέρας',
+	'ffeed-featuredtexts-short-title' => 'Αξιόλογα κείμενα',
+	'ffeed-featuredtexts-entry' => '{{LOCALMONTHNAME}} {{LOCALDAY}} {{SITENAME}} αξιόλογο κείμενο',
+);
+
 /** Esperanto (Esperanto)
  * @author Karika
+ * @author Yekrats
  */
 $messages['eo'] = array(
+	'ffeed-good-short-title' => 'Bonaj artikoloj',
 	'ffeed-dyk-short-title' => 'Faris vio konas?',
+	'ffeed-motd-short-title' => 'Dosiero de la tago.',
+	'ffeed-potd-short-title' => 'Bildo de la tago',
+	'ffeed-qotd-short-title' => 'Citaĵo de la tago',
 );
 
 /** Spanish (español)
@@ -775,27 +810,64 @@ $messages['fa'] = array(
  * @author Crt
  * @author Kulmalukko
  * @author Linnea
+ * @author Olli
  */
 $messages['fi'] = array(
+	'ffeed-desc' => 'Lisää syötteet wikin suositellusta sisällöstä',
 	'ffeed-no-feed' => 'Syötettä ei ole määritetty',
 	'ffeed-feed-not-found' => 'Syötettä $1 ei löytynyt',
+	'ffeed-entry-not-found' => 'Syötemerkintää päiväykselle $1 ei löytynyt',
 	'ffeed-sidebar-section' => 'Suositellut sisällöt -syötteet',
 	'ffeed-invalid-timestamp' => 'Virheellinen syötteen aikaleima',
 	'ffeed-featured-title' => '{{SIVUSTON_NIMI}}:n suositellut artikkelit -syöte',
 	'ffeed-featured-short-title' => 'Suositellut artikkelit',
+	'ffeed-featured-desc' => 'Sivuston {{SITENAME}} parhaat artikkelit',
 	'ffeed-featured-entry' => '{{GRAMMAR:genitive|{{SITENAME}}}} {{LOCALDAY}}. {{LOCALMONTHNAMEGEN}} suositeltu artikkeli',
 	'ffeed-good-title' => '{{GRAMMAR:genitive|{{SITENAME}}}} hyvät artikkelit -syöte',
 	'ffeed-good-short-title' => 'Hyvät artikkelit',
+	'ffeed-good-desc' => 'Hyvät artikkelit sivustolla {{SITENAME}}',
+	'ffeed-good-entry' => 'Hyvä artikkeli {{LOCALDAY}}. {{LOCALMONTHNAME}}ta sivustolla {{SITENAME}}',
+	'ffeed-onthisday-title' => 'Sivuston {{SITENAME}} syöte "Tänään..."',
 	'ffeed-onthisday-short-title' => 'Tänään...',
 	'ffeed-onthisday-desc' => 'Historialliset tapahtumat tänä päivämääränä',
+	'ffeed-onthisday-entry' => 'Tänään: {{LOCALDAY}}. {{LOCALMONTHNAME}}ta',
 	'ffeed-dyk-title' => '{{GRAMMAR:genitive|{{SITENAME}}}} "Tiesitkö, että?" -syöte',
 	'ffeed-dyk-short-title' => 'Tiesitkö?',
+	'ffeed-dyk-desc' => 'Sivuston {{SITENAME}} uusimmasta sisällöstä',
 	'ffeed-dyk-entry' => 'Tiesitkö?: {{LOCALDAY}}. {{LOCALMONTHNAME}}',
+	'ffeed-motd-title' => 'Sivuston {{SITENAME}} päivän tiedosto -syöte',
 	'ffeed-motd-short-title' => 'Päivän media',
+	'ffeed-motd-desc' => 'Parhaat tiedostot sivustolla {{SITENAME}}',
+	'ffeed-motd-entry' => 'Sivuston {{SITENAME}} päivän tiedosto {{LOCALDAY}}. {{LOCALMONTHNAME}}ta',
+	'ffeed-potd-title' => 'Päivän kuva sivustolla {{SITENAME}} -syöte',
 	'ffeed-potd-short-title' => 'Päivän kuva',
+	'ffeed-potd-desc' => 'Sivuston {{SITENAME}} parhaat kuvat',
+	'ffeed-potd-entry' => 'Sivuston {{SITENAME}} päivän kuva  {{LOCALDAY}}. {{LOCALMONTHNAME}}ta',
+	'ffeed-qotd-title' => 'Päivän lainaus sivustolla {{SITENAME}}',
 	'ffeed-qotd-short-title' => 'Päivän sitaatti',
+	'ffeed-qotd-desc' => 'Parhaimpia lainauksia sivustolla {{SITENAME}}',
+	'ffeed-qotd-entry' => 'Sivuston {{SITENAME}} päivän lainaus {{LOCALDAY}}. {{LOCALMONTHNAME}}ta',
 	'ffeed-featuredtexts-title' => '{{SIVUSTON_NIMI}}:n suositellut tekstit -syöte',
 	'ffeed-featuredtexts-short-title' => 'Suositellut tekstit',
+	'ffeed-featuredtexts-desc' => 'Sivuston {{SITENAME}} parhaimpia tekstejä',
+	'ffeed-featuredtexts-entry' => 'Suositeltu teksti {{LOCALDAY}}. {{LOCALMONTHNAME}}ta sivustolla {{SITENAME}}',
+);
+
+/** Faroese (føroyskt)
+ * @author EileenSanda
+ */
+$messages['fo'] = array(
+	'ffeed-featured-short-title' => 'Útvaldar greinar',
+	'ffeed-featured-desc' => 'Bestu greinar ið {{SITENAME}} hevur at bjóða',
+	'ffeed-featured-entry' => '{{LOCALMONTHNAME}} {{LOCALDAY}} {{SITENAME}} útvaldar greinar',
+	'ffeed-onthisday-short-title' => 'Henda dagin ...',
+	'ffeed-onthisday-desc' => 'Søguligar hendingar henda dagin',
+	'ffeed-onthisday-entry' => 'Henda dagin: {{LOCALMONTHNAME}} {{LOCALDAY}}',
+	'ffeed-dyk-title' => '{{SITENAME}} "Visti tú?" feed',
+	'ffeed-dyk-short-title' => 'Visti tú?',
+	'ffeed-dyk-desc' => 'Frá nýggjasta innihaldi í {{SITENAME}}',
+	'ffeed-potd-short-title' => 'Dagsins mynd',
+	'ffeed-potd-desc' => 'Nakrar av teimum bestu myndunum á {{SITENAME}}',
 );
 
 /** French (français)
@@ -1147,6 +1219,21 @@ $messages['ia'] = array(
 	'ffeed-featuredtexts-entry' => 'Texto eminente de {{SITENAME}} le {{LOCALDAY}} de {{LOCALMONTHNAME}}',
 );
 
+/** Indonesian (Bahasa Indonesia)
+ * @author Farras
+ */
+$messages['id'] = array(
+	'ffeed-featured-short-title' => 'Artikel pilihan',
+	'ffeed-good-short-title' => 'Artikel bagus',
+	'ffeed-onthisday-short-title' => 'Hari ini dalam sejarah',
+	'ffeed-onthisday-desc' => 'Peristiwa bersejarah pada tanggal ini',
+	'ffeed-dyk-short-title' => 'Tahukah Anda?',
+	'ffeed-dyk-entry' => 'Tahukah Anda?: {{LOCALMONTHNAME}} {{LOCALDAY}}',
+	'ffeed-potd-short-title' => 'Gambar pilihan',
+	'ffeed-qotd-short-title' => 'Kutipan hari ini',
+	'ffeed-featuredtexts-short-title' => 'Teks pilihan',
+);
+
 /** Iloko (Ilokano)
  * @author Lam-ang
  */
@@ -1466,6 +1553,13 @@ $messages['li'] = array(
 	'ffeed-featuredtexts-short-title' => 'Aanbevaole tèkste',
 	'ffeed-featuredtexts-desc' => 'De bèste tèkste van {{SITENAME}}',
 	'ffeed-featuredtexts-entry' => 'Aanbevaole tèkste van {{SITENNAME}} van {{LOCALDAY}} {{LOCALMONTHNAME}}',
+);
+
+/** Lithuanian (lietuvių)
+ * @author Vogone
+ */
+$messages['lt'] = array(
+	'ffeed-good-short-title' => 'Gerų straipsnių',
 );
 
 /** Macedonian (македонски)
@@ -1823,6 +1917,41 @@ $messages['pt'] = array(
 	'ffeed-onthisday-desc' => 'Eventos históricos neste dia',
 );
 
+/** Romanian (română)
+ * @author Firilacroco
+ * @author Stelistcristi
+ */
+$messages['ro'] = array(
+	'ffeed-featured-title' => 'Lista articolelor de calitate ale {{SITENAME}}',
+	'ffeed-featured-short-title' => 'Articole de calitate',
+	'ffeed-featured-desc' => 'Cele mai bune articole pe care {{SITENAME}} le poate oferi',
+	'ffeed-featured-entry' => 'Articolele recomandate de {{SITENAME}} pe {{LOCALDAY}} {{LOCALMONTHNAME}}',
+	'ffeed-good-title' => 'Lista articolelor bune ale {{SITENAME}}',
+	'ffeed-good-short-title' => 'Articole bune',
+	'ffeed-good-desc' => 'Articole bune pe care {{SITENAME}} le poate oferi',
+	'ffeed-good-entry' => 'Articolul bun recomandat de {{SITENAME}} pe {{LOCALDAY}} {{LOCALMONTHNAME}}',
+	'ffeed-onthisday-title' => 'Fluxul „Astăzi în istorie...” al {{SITENAME}}',
+	'ffeed-onthisday-short-title' => 'Astăzi în istorie...',
+	'ffeed-onthisday-desc' => 'Evenimente istorice în această zi',
+	'ffeed-onthisday-entry' => 'În această zi: {{LOCALDAY}} {{LOCALMONTHNAME}}',
+	'ffeed-dyk-title' => 'Fluxul „Știați că? al {{SITENAME}}',
+	'ffeed-dyk-short-title' => 'Știați că?',
+	'ffeed-dyk-desc' => 'Din cel mai recent conținut al {{SITENAME}}',
+	'ffeed-dyk-entry' => 'Știați că?: {{LOCALDAY}} {{LOCALMONTHNAME}}',
+	'ffeed-motd-title' => 'Fluxul fișierul media al zilei al {{SITENAME}}',
+	'ffeed-motd-short-title' => 'Fișierul media al zilei',
+	'ffeed-motd-desc' => 'Unele dintre cele mai bune fișiere media de pe {{SITENAME}}',
+	'ffeed-motd-entry' => 'Fișierul media al zilei de pe {{SITENAME}} pentru {{LOCALDAY}} {{LOCALMONTHNAME}}',
+	'ffeed-potd-title' => 'Fluxul imaginea zilei de pe {{SITENAME}}',
+	'ffeed-potd-short-title' => 'Pictura zilei',
+	'ffeed-potd-desc' => 'Unele dintre cele mai bune imagini de pe {{SITENAME}}',
+	'ffeed-potd-entry' => 'Imaginea zilei de pe {{SITENAME}} pentru {{LOCALDAY}} {{LOCALMONTHNAME}}',
+	'ffeed-qotd-title' => 'Fluxul citatul zilei al {{SITENAME}}',
+	'ffeed-qotd-short-title' => 'Citatul zilei',
+	'ffeed-qotd-desc' => 'Unele dintre cele mai bune citate de pe {{SITENAME}}',
+	'ffeed-qotd-entry' => 'Citatul zilei de pe {{SITENAME}} pentru {{LOCALDAY}} {{LOCALMONTHNAME}}',
+);
+
 /** tarandíne (tarandíne)
  * @author Joetaras
  */
@@ -1883,8 +2012,44 @@ $messages['ru'] = array(
  * @author Gazeb
  */
 $messages['rue'] = array(
+	'ffeed-desc' => 'Придасть сіндікачны каналы про выбер з обсягу вікі',
+	'ffeed-no-feed' => 'Не быв зазначеный канал',
+	'ffeed-feed-not-found' => 'Канал $1 ся не нашов',
+	'ffeed-entry-not-found' => 'Запис каналу про $1 ся не нашов',
+	'ffeed-sidebar-section' => 'Каналы із зволеным обсягом',
+	'ffeed-invalid-timestamp' => 'Неправилна часова значка каналу',
+	'ffeed-featured-title' => 'Канал найлїпшых статей {{grammar:2sg|{{SITENAME}}}}',
+	'ffeed-featured-short-title' => 'Найлїпшы статї',
+	'ffeed-featured-desc' => 'Найлїпшы статї, котры офірує {{SITENAME}}',
+	'ffeed-featured-entry' => 'Статя дня {{LOCALDAY}}. {{LOCALMONTHNAMEGEN}} на {{grammar:6sg|{{SITENAME}}}}',
 	'ffeed-good-title' => 'Канал добрых статей {{grammar:2sg|{{SITENAME}}}}',
 	'ffeed-good-short-title' => 'Добры статї',
+	'ffeed-good-desc' => 'Добры статї, котры офірує {{SITENAME}}',
+	'ffeed-good-entry' => 'Добра статя {{LOCALDAY}}. {{LOCALMONTHNAMEGEN}} на {{grammar:6sg|{{SITENAME}}}}',
+	'ffeed-onthisday-title' => 'Канал „Того дня“ на {{grammar:6sg|{{SITENAME}}}}',
+	'ffeed-onthisday-short-title' => 'Того дня...',
+	'ffeed-onthisday-desc' => 'Історічны подїї того дня',
+	'ffeed-onthisday-entry' => 'Того дня: : {{LOCALMONTHNAME}} {{LOCALDAY}}',
+	'ffeed-dyk-title' => 'Канал {{GRAMMAR:genitive|{{SITENAME}}}} «А ці вы знали, же?»',
+	'ffeed-dyk-short-title' => 'А ці вы знали, же...?',
+	'ffeed-dyk-desc' => 'З новых матеріалів {{GRAMMAR:genitive|{{SITENAME}}}}',
+	'ffeed-dyk-entry' => 'А ці вы знали, же...: {{LOCALMONTHNAME}} {{LOCALDAY}}',
+	'ffeed-motd-title' => 'Канал {{GRAMMAR:genitive|{{SITENAME}}}} «Медія дня»',
+	'ffeed-motd-short-title' => 'Медія дня',
+	'ffeed-motd-desc' => 'Найлїпшы мултімедія на {{grammar:6sg|{{SITENAME}}}}',
+	'ffeed-motd-entry' => 'Медія дня із {{GRAMMAR:genitive|{{SITENAME}}}} за {{LOCALDAY}} {{LOCALMONTHNAMEGEN}}',
+	'ffeed-potd-title' => 'Канал {{GRAMMAR:genitive|{{SITENAME}}}} «Образчікы дня»',
+	'ffeed-potd-short-title' => 'Образчік дня',
+	'ffeed-potd-desc' => 'Найлїпшы образчікы на {{grammar:6sg|{{SITENAME}}}}',
+	'ffeed-potd-entry' => 'Образчік дня із {{GRAMMAR:genitive|{{SITENAME}}}} за {{LOCALDAY}} {{LOCALMONTHNAMEGEN}}',
+	'ffeed-qotd-title' => 'Канал {{GRAMMAR:genitive|{{SITENAME}}}} «Цітаты дня»',
+	'ffeed-qotd-short-title' => 'Цітат дня',
+	'ffeed-qotd-desc' => 'Найлїпшы цітаты на {{grammar:6sg|{{SITENAME}}}}',
+	'ffeed-qotd-entry' => 'Цітат дня із {{GRAMMAR:genitive|{{SITENAME}}}} за {{LOCALDAY}} {{LOCALMONTHNAMEGEN}}',
+	'ffeed-featuredtexts-title' => 'Канал выбраных текстів {{grammar:2sg|{{SITENAME}}}}',
+	'ffeed-featuredtexts-short-title' => 'Выбраны тексты',
+	'ffeed-featuredtexts-desc' => 'Найлїпшы тексты, котры офірує {{SITENAME}}',
+	'ffeed-featuredtexts-entry' => 'Выбраный текст дня {{LOCALDAY}}. {{LOCALMONTHNAMEGEN}} на {{grammar:6sg|{{SITENAME}}}}',
 );
 
 /** Sanskrit (संस्कृतम्)
@@ -1929,6 +2094,16 @@ $messages['sa'] = array(
 	'ffeed-featuredtexts-short-title' => 'विशिष्टाः पाठ्यांशाः',
 	'ffeed-featuredtexts-desc' => '{{SITENAME}} उत्कृष्टाः पाठ्यांशाः योजनीयाः',
 	'ffeed-featuredtexts-entry' => '{{LOCALMONTHNAME}} {{LOCALDAY}} {{SITENAME}} विशिष्टपाठ्यांशः',
+);
+
+/** Sinhala (සිංහල)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['si'] = array(
+	'ffeed-good-short-title' => 'හොද ලිපි',
+	'ffeed-onthisday-short-title' => 'අද දවසේදී...',
+	'ffeed-dyk-short-title' => 'ඔබ දන්නවාද?',
+	'ffeed-motd-short-title' => 'දවසේ මාධ්‍ය',
 );
 
 /** Slovak (slovenčina)
@@ -2039,9 +2214,11 @@ $messages['sv'] = array(
 );
 
 /** Tamil (தமிழ்)
+ * @author Balajijagadesh
  * @author Shanmugamp7
  */
 $messages['ta'] = array(
+	'ffeed-featured-short-title' => 'சிறப்பு கட்டுரைகள்',
 	'ffeed-good-short-title' => 'நல்ல கட்டுரைகள்',
 	'ffeed-good-entry' => '{{LOCALMONTHNAME}} {{LOCALDAY}} {{SITENAME}} நல்ல கட்டுரை',
 	'ffeed-onthisday-short-title' => 'இந்த நாளில்...',
@@ -2050,10 +2227,12 @@ $messages['ta'] = array(
 	'ffeed-dyk-short-title' => 'உங்களுக்கு தெரியுமா?',
 	'ffeed-dyk-desc' => '{{SITENAME}} லிருந்து புதிய உள்ளடக்கம்',
 	'ffeed-dyk-entry' => 'உங்களுக்கு தெரியுமா?: {{LOCALMONTHNAME}} {{LOCALDAY}}',
+	'ffeed-motd-short-title' => 'இன்றைய ஊடகம்',
 	'ffeed-potd-short-title' => 'இன்றைய சிறப்புப்படம்',
 	'ffeed-potd-desc' => 'சில சிறந்த படங்கள்  {{SITENAME}}ல்',
 	'ffeed-potd-entry' => '{{SITENAME}}இன்றைய சிறப்புப்படம்  {{LOCALMONTHNAME}} {{LOCALDAY}}க்கு',
 	'ffeed-qotd-short-title' => 'இன்றைய தின மேற்கோள்',
+	'ffeed-featuredtexts-short-title' => 'சிறப்பு உரைகள்',
 );
 
 /** Telugu (తెలుగు)
