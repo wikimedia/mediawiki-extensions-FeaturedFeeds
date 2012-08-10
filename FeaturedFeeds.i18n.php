@@ -109,6 +109,17 @@ $messages['qqq'] = array(
 	'ffeed-featuredtexts-entry' => "Title of day's entry in the Featured Texts [[w:web feed|syndication feed]]",
 );
 
+/** Afrikaans (Afrikaans)
+ * @author Naudefj
+ */
+$messages['af'] = array(
+	'ffeed-featured-short-title' => 'Uitgeligte artikels',
+	'ffeed-onthisday-short-title' => 'Op hierdie dag...',
+	'ffeed-dyk-short-title' => 'Het u geweet?',
+	'ffeed-potd-short-title' => 'Foto van die dag',
+	'ffeed-qotd-short-title' => 'Aanhaling van die dag',
+);
+
 /** Aragonese (aragonés)
  * @author Juanpabl
  */
@@ -656,7 +667,11 @@ $messages['el'] = array(
 	'ffeed-onthisday-entry' => 'Αυτή τη μέρα: {{LOCALMONTHNAME}} {{LOCALDAY}}',
 	'ffeed-dyk-short-title' => 'Γνωρίζατε ότι...;',
 	'ffeed-motd-short-title' => 'Πολυμέσα της ημέρας',
+	'ffeed-potd-short-title' => 'Η εικόνα της ημέρας',
+	'ffeed-potd-desc' => 'Μερικές από τις καλύτερες εικόνες στο {{SITENAME}}',
+	'ffeed-qotd-title' => '{{SITENAME}} ροή για το απόφθεγμα της ημέρας',
 	'ffeed-qotd-short-title' => 'Απόφθεγμα της ημέρας',
+	'ffeed-qotd-desc' => 'Μερικές από τα καλύτερα αποφθέγματα στο {{SITENAME}}',
 	'ffeed-featuredtexts-short-title' => 'Αξιόλογα κείμενα',
 	'ffeed-featuredtexts-entry' => '{{LOCALMONTHNAME}} {{LOCALDAY}} {{SITENAME}} αξιόλογο κείμενο',
 );
@@ -1223,15 +1238,42 @@ $messages['ia'] = array(
  * @author Farras
  */
 $messages['id'] = array(
+	'ffeed-no-feed' => 'Umpan tidak disebutkan',
+	'ffeed-feed-not-found' => 'Umpan $1 tidak ditemukan',
+	'ffeed-entry-not-found' => 'Entri umpan untuk $1 tidak ditemukan',
+	'ffeed-sidebar-section' => 'Umpan artikel pilihan',
+	'ffeed-featured-title' => 'Umpan artikel pilihan {{SITENAME}}',
 	'ffeed-featured-short-title' => 'Artikel pilihan',
+	'ffeed-featured-desc' => 'Artikel terbaik yang dimiliki {{SITENAME}}',
+	'ffeed-featured-entry' => 'Artikel pilihan {{SITENAME}} {{LOCALDAY}} {{LOCALMONTHNAME}}',
+	'ffeed-good-title' => 'Umpan artikel bagus {{SITENAME}}',
 	'ffeed-good-short-title' => 'Artikel bagus',
+	'ffeed-good-desc' => 'Artikel bagus yang dimiliki {{SITENAME}}',
+	'ffeed-good-entry' => 'Artikel bagus {{SITENAME}} {{LOCALDAY}} {{LOCALMONTHNAME}}',
+	'ffeed-onthisday-title' => 'Umpan "Hari ini dalam sejarah" {{SITENAME}}',
 	'ffeed-onthisday-short-title' => 'Hari ini dalam sejarah',
 	'ffeed-onthisday-desc' => 'Peristiwa bersejarah pada tanggal ini',
+	'ffeed-onthisday-entry' => 'Hari ini dalam sejarah: {{LOCALDAY}} {{LOCALMONTHNAME}}',
+	'ffeed-dyk-title' => 'Umpan "Tahukah Anda?" {{SITENAME}}',
 	'ffeed-dyk-short-title' => 'Tahukah Anda?',
+	'ffeed-dyk-desc' => 'Dari artikel terbaru {{SITENAME}}',
 	'ffeed-dyk-entry' => 'Tahukah Anda?: {{LOCALMONTHNAME}} {{LOCALDAY}}',
+	'ffeed-motd-title' => 'Umpan peristiwa terkini {{SITENAME}}',
+	'ffeed-motd-short-title' => 'Peristiwa terkini',
+	'ffeed-motd-desc' => 'Sejumlah berita terbaik di {{SITENAME}}',
+	'ffeed-motd-entry' => 'Peristiwa terkini {{SITENAME}} tanggal {{LOCALDAY}} {{LOCALMONTHNAME}}',
+	'ffeed-potd-title' => 'Umpan gambar pilihan {{SITENAME}}',
 	'ffeed-potd-short-title' => 'Gambar pilihan',
+	'ffeed-potd-desc' => 'Sejumlah gambar terbaik di {{SITENAME}}',
+	'ffeed-potd-entry' => 'Gambar pilihan {{SITENAME}} tanggal {{LOCALDAY}} {{LOCALMONTHNAME}}',
+	'ffeed-qotd-title' => 'Umpan kutipan pilihan {{SITENAME}}',
 	'ffeed-qotd-short-title' => 'Kutipan hari ini',
+	'ffeed-qotd-desc' => 'Sejumlah kutipan terbaik di {{SITENAME}}',
+	'ffeed-qotd-entry' => 'Kutipan pilihan {{SITENAME}} tanggal {{LOCALDAY}} {{LOCALMONTHNAME}}',
+	'ffeed-featuredtexts-title' => 'Umpan teks pilihan {{SITENAME}}',
 	'ffeed-featuredtexts-short-title' => 'Teks pilihan',
+	'ffeed-featuredtexts-desc' => 'Teks terbaik yang dimiliki {{SITENAME}}',
+	'ffeed-featuredtexts-entry' => 'Teks pilihan {{SITENAME}} {{LOCALDAY}} {{LOCALMONTHNAME}}',
 );
 
 /** Iloko (Ilokano)
@@ -1856,6 +1898,50 @@ $messages['pl'] = array(
 	'ffeed-featuredtexts-entry' => 'Treść promowana {{GRAMMAR:D.lp|{{SITENAME}}}} z {{LOCALDAY}} {{GRAMMAR:D.lp|{{LOCALMONTHNAME}}}}',
 );
 
+/** Piedmontese (Piemontèis)
+ * @author Dragonòt
+ */
+$messages['pms'] = array(
+	'ffeed-desc' => 'A gionta ij feed ëd syndication pëi ij contnù consejà da la wiki',
+	'ffeed-no-feed' => 'Feed pa specificà',
+	'ffeed-feed-not-found' => 'Feed $1 pa trovà',
+	'ffeed-entry-not-found' => 'Element feed për $1 pa trovà',
+	'ffeed-sidebar-section' => 'Feed për ij contnù arcomandà',
+	'ffeed-invalid-timestamp' => 'Timestamp dël feed pa bon',
+	'ffeed-featured-title' => 'Feed {{SITENAME}} ëd le vos arcomandà',
+	'ffeed-featured-short-title' => 'Vos arcomandà',
+	'ffeed-featured-desc' => "Le mej vos che {{SITENAME}} a l'ha da eufre",
+	'ffeed-featured-entry' => '{{LOCALMONTHNAME}} {{LOCALDAY}} {{SITENAME}} vos arcomandà',
+	'ffeed-good-title' => 'Feed ëd le bon-e vos ëd {{SITENAME}}',
+	'ffeed-good-short-title' => 'Bon-e vos',
+	'ffeed-good-desc' => "Bn-e vos che {{SITENAME}} a l'ha da eufre",
+	'ffeed-good-entry' => '{{LOCALMONTHNAME}} {{LOCALDAY}} {{SITENAME}} vos bon-e',
+	'ffeed-onthisday-title' => 'Feed "Ancheuj ..." ëd {{SITENAME}}',
+	'ffeed-onthisday-short-title' => 'Ancheuj...',
+	'ffeed-onthisday-desc' => "Event stòrich d'ancheuj",
+	'ffeed-onthisday-entry' => 'Ancheuj: {{LOCALMONTHNAME}} {{LOCALDAY}}',
+	'ffeed-dyk-title' => 'Feed "Lo sas-to?" ëd {{SITENAME}}',
+	'ffeed-dyk-short-title' => 'Lo sas-to?',
+	'ffeed-dyk-desc' => 'Dai pi neuv contnù ëd {{SITENAME}}',
+	'ffeed-dyk-entry' => 'Lo sas-to?: {{LOCALMONTHNAME}} {{LOCALDAY}}',
+	'ffeed-motd-title' => 'Feed dël mojen dël di ëd {{SITENAME}}',
+	'ffeed-motd-short-title' => 'Mojen dël di',
+	'ffeed-motd-desc' => 'Cheicun dij mej mojen dzora a {{SITENAME}}',
+	'ffeed-motd-entry' => 'Mojen dël di ëd {{SITENAME}} për {{LOCALMONTHNAME}} {{LOCALDAY}}',
+	'ffeed-potd-title' => 'Feed ëd la fòto dël di ëd {{SITENAME}}',
+	'ffeed-potd-short-title' => 'Foto dël di',
+	'ffeed-potd-desc' => 'Cheicun ëd le mej fòto dzora a {{SITENAME}}',
+	'ffeed-potd-entry' => 'Fòto dël di ëd {{SITENAME}} për {{LOCALMONTHNAME}} {{LOCALDAY}}',
+	'ffeed-qotd-title' => 'Feed ëd la sitassion dël di ëd {{SITENAME}}',
+	'ffeed-qotd-short-title' => 'Sitassion dël di',
+	'ffeed-qotd-desc' => 'Cheicun-e dle mej sitassion dzora a {{SITENAME}}',
+	'ffeed-qotd-entry' => 'Sitassion dël di ëd {{SITENAME}} për {{LOCALMONTHNAME}} {{LOCALDAY}}',
+	'ffeed-featuredtexts-title' => 'Feed {{SITENAME}} dij test arcomandà',
+	'ffeed-featuredtexts-short-title' => 'Test arcomandà',
+	'ffeed-featuredtexts-desc' => "Ij mej test che {{SITENAME}} a l'ha da eufre",
+	'ffeed-featuredtexts-entry' => '{{LOCALMONTHNAME}} {{LOCALDAY}} {{SITENAME}} test arcomandà',
+);
+
 /** Western Punjabi (پنجابی)
  * @author Khalid Mahmood
  */
@@ -1904,6 +1990,7 @@ $messages['ps'] = array(
 
 /** Portuguese (português)
  * @author Giro720
+ * @author SandroHc
  */
 $messages['pt'] = array(
 	'ffeed-featured-short-title' => 'Artigos destacados',
@@ -1915,6 +2002,9 @@ $messages['pt'] = array(
 	'ffeed-good-entry' => 'Artigo bom da {{SITENAME}} em {{LOCALDAY}} de {{LOCALMONTHNAME}}',
 	'ffeed-onthisday-short-title' => 'Neste dia...',
 	'ffeed-onthisday-desc' => 'Eventos históricos neste dia',
+	'ffeed-dyk-short-title' => 'Sabias que?',
+	'ffeed-potd-short-title' => 'Imagem do dia',
+	'ffeed-qotd-short-title' => 'Citação do dia',
 );
 
 /** Romanian (română)
@@ -1957,6 +2047,8 @@ $messages['ro'] = array(
  */
 $messages['roa-tara'] = array(
 	'ffeed-featured-short-title' => 'Vôsce dettagliate',
+	'ffeed-good-short-title' => 'Vôsce bbuène',
+	'ffeed-good-desc' => 'Vôsce bbuène de {{SITENAME}} da offrì',
 	'ffeed-onthisday-short-title' => "Jndr'à sta sciurnate...",
 	'ffeed-dyk-short-title' => "'U canusce?",
 	'ffeed-motd-short-title' => "Media d'a sciurnate",
@@ -2100,10 +2192,24 @@ $messages['sa'] = array(
  * @author පසිඳු කාවින්ද
  */
 $messages['si'] = array(
+	'ffeed-no-feed' => 'පෝෂකය විශේෂණය කර නොමැත',
+	'ffeed-feed-not-found' => '$1 පෝෂකය හමු නොවුණි',
+	'ffeed-sidebar-section' => 'විශේෂාංග අන්තර්ගත පෝෂකය',
+	'ffeed-invalid-timestamp' => 'වලංගු නොවන පෝෂක කාලමුද්‍රාව',
+	'ffeed-featured-title' => '{{SITENAME}} විශේෂාංග ලිපි පෝෂකය',
+	'ffeed-featured-short-title' => 'විශේෂාංග ලිපි',
+	'ffeed-good-title' => '{{SITENAME}} හොද ලිපි පෝෂකය',
 	'ffeed-good-short-title' => 'හොද ලිපි',
+	'ffeed-onthisday-title' => '{{SITENAME}} "අද දවසේදී..." පෝෂකය',
 	'ffeed-onthisday-short-title' => 'අද දවසේදී...',
+	'ffeed-onthisday-desc' => 'අද දවසේදී සිදුවූ ඓතිහාසික සිදුවීම්',
+	'ffeed-onthisday-entry' => 'අද දවසේදී: {{LOCALMONTHNAME}} {{LOCALDAY}}',
 	'ffeed-dyk-short-title' => 'ඔබ දන්නවාද?',
+	'ffeed-dyk-entry' => 'ඔබ දන්නවාද?: {{LOCALMONTHNAME}} {{LOCALDAY}}',
 	'ffeed-motd-short-title' => 'දවසේ මාධ්‍ය',
+	'ffeed-potd-short-title' => 'දවසේ පින්තූරය',
+	'ffeed-qotd-short-title' => 'දවසේ උද්ධරණය',
+	'ffeed-featuredtexts-short-title' => 'විශේෂාංග පාඨ',
 );
 
 /** Slovak (slovenčina)
