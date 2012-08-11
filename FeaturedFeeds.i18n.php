@@ -1695,9 +1695,10 @@ $messages['ml'] = array(
 /** Marathi (मराठी)
  * @author Mahitgar
  * @author Rahuldeshmukh101
+ * @author Shantanoo
  */
 $messages['mr'] = array(
-	'ffeed-desc' => 'विकिच्या विशेष मजकुरांची सिंडीकेशन रसद जोडते (सिंडिकेशन शब्द कुठे दिसतो ते अभ्यासून ट्रांसलेटविकिवर जाऊन शब्दाचा सुयोग्य अनुवाद करण्यात सहाय्य करा)',
+	'ffeed-desc' => 'विकिच्या विशेष मजकुरांची सिंडीकेशन रसद जोडते (सिंडिकेशन शब्द कुठे दिसतो ते अभ्यासून ट्रांसलेट विकिवर जाऊन शब्दाचा सुयोग्य अनुवाद करण्यात साहाय्य करा)',
 	'ffeed-no-feed' => 'विशीष्ट रसद नमुद नाही केली',
 	'ffeed-feed-not-found' => ' $1 रसद मिळाली नाही',
 	'ffeed-entry-not-found' => '$1 करिता रसद नोंद आढळली नाही',
@@ -1791,6 +1792,8 @@ $messages['nb'] = array(
 	'ffeed-entry-not-found' => 'Matingselement for $1 ble ikke funnet',
 	'ffeed-sidebar-section' => 'Mating av viktig innhold',
 	'ffeed-invalid-timestamp' => 'Ugyldig matingstidsstempel',
+	'ffeed-featured-short-title' => 'Utvalgte artikler',
+	'ffeed-featured-desc' => 'De beste artiklene {{SITENAME}} har å tilby',
 );
 
 /** Dutch (Nederlands)
@@ -2364,18 +2367,38 @@ $messages['tl'] = array(
 	'ffeed-entry-not-found' => 'Hindi natagpuan ang lahok na pakain para sa noong $1',
 	'ffeed-sidebar-section' => 'Mga pagpapakain ng tampok na nilalaman',
 	'ffeed-invalid-timestamp' => 'Hindi katanggap-tanggap ng tatak ng oras ng pagpapakain',
-	'ffeed-featured-title' => 'pakain ng mga tampok na artikulo ng {{SITENAME}}',
+	'ffeed-featured-title' => 'Pakain na mga tampok na artikulo ng {{SITENAME}}',
 	'ffeed-featured-short-title' => 'Tampok na mga artikulo',
 	'ffeed-featured-desc' => 'Pinaka mahuhusay na mga artikulong maiaalok ng {{SITENAME}}',
+	'ffeed-featured-entry' => '{{LOCALMONTHNAME}} {{LOCALDAY}} tampok na artikulo ng {{SITENAME}}',
+	'ffeed-good-title' => 'Pakain na mabubuting mga artikulo ng {{SITENAME}}',
 	'ffeed-good-short-title' => 'Mabubuting mga artikulo',
+	'ffeed-good-desc' => 'Mabubuting mga artikulo na maiaalok ng {{SITENAME}}',
+	'ffeed-good-entry' => '{{LOCALMONTHNAME}} {{LOCALDAY}} mabuting artikulo ng {{SITENAME}}',
+	'ffeed-onthisday-title' => 'Pakain na "Sa araw na ito..." ng {{SITENAME}}',
 	'ffeed-onthisday-short-title' => 'Sa araw na ito...',
 	'ffeed-onthisday-desc' => 'Makasaysayang mga kaganapan sa araw na ito',
 	'ffeed-onthisday-entry' => 'Sa araw na ito: {{LOCALMONTHNAME}} {{LOCALDAY}}',
+	'ffeed-dyk-title' => 'Pakain na "Alam Ba Ninyo?" ng {{SITENAME}}',
 	'ffeed-dyk-short-title' => 'Alam ba ninyo?',
+	'ffeed-dyk-desc' => 'Mula sa pinaka bagong nilalaman ng {{SITENAME}}',
+	'ffeed-dyk-entry' => 'Alam ba ninyo?: {{LOCALMONTHNAME}} {{LOCALDAY}}',
+	'ffeed-motd-title' => 'Pakain na midya sa araw na ito ng {{SITENAME}}',
 	'ffeed-motd-short-title' => 'Midya sa araw na ito',
+	'ffeed-motd-desc' => 'Ilan sa pinaka maiiging midya na nasa {{SITENAME}}',
+	'ffeed-motd-entry' => 'Midya sa araw na ito ng {{SITENAME}} para sa {{LOCALMONTHNAME}} {{LOCALDAY}}',
+	'ffeed-potd-title' => 'Pakain na larawan sa araw na ito ng {{SITENAME}}',
 	'ffeed-potd-short-title' => 'Larawan sa araw na ito',
+	'ffeed-potd-desc' => 'Ilan sa pinaka maiiging mga imahe na nasa {{SITENAME}}',
+	'ffeed-potd-entry' => 'Larawan sa araw na ito ng {{SITENAME}} para sa {{LOCALMONTHNAME}} {{LOCALDAY}}',
+	'ffeed-qotd-title' => 'Pakain na sipi sa araw na ito ng {{SITENAME}}',
 	'ffeed-qotd-short-title' => 'Siping pananalita sa araw na ito',
+	'ffeed-qotd-desc' => 'Ilan sa pinaka maiiging mga sipi na nasa {{SITENAME}}',
+	'ffeed-qotd-entry' => 'Sipi sa araw na ito ng {{SITENAME}} para sa {{LOCALMONTHNAME}} {{LOCALDAY}}',
+	'ffeed-featuredtexts-title' => 'Pakain na mga tampok na teksto ng {{SITENAME}}',
 	'ffeed-featuredtexts-short-title' => 'Tampok na mga teksto',
+	'ffeed-featuredtexts-desc' => 'Pinaka mahuhusay na mga tekstong maiaalok ng {{SITENAME}}',
+	'ffeed-featuredtexts-entry' => '{{LOCALMONTHNAME}} {{LOCALDAY}} tampok na teksto ng {{SITENAME}}',
 );
 
 /** Turkish (Türkçe)
