@@ -113,7 +113,17 @@ $messages['qqq'] = array(
  * @author Naudefj
  */
 $messages['af'] = array(
+	'ffeed-no-feed' => 'Voer is nie gespesifiseer nie',
+	'ffeed-feed-not-found' => 'Die voer $1 bestaan nie',
+	'ffeed-entry-not-found' => 'Voervermelding $1 is nie gevind nie',
+	'ffeed-sidebar-section' => 'Voere met uitgeligte inhoud',
+	'ffeed-invalid-timestamp' => 'Ongeldige tydstempel vir voer',
+	'ffeed-featured-title' => 'Voer van uitgeligte artikels op {{SITENAME}}',
 	'ffeed-featured-short-title' => 'Uitgeligte artikels',
+	'ffeed-featured-desc' => 'Die beste artikels op {{SITENAME}}',
+	'ffeed-featured-entry' => 'Uitgeligte artikel van {{SITENAME}} op {{LOCALDAY}} {{LOCALMONTHNAME}}',
+	'ffeed-good-title' => 'Voer van goeie bladsye op {{SITENAME}}',
+	'ffeed-good-short-title' => 'Goeie bladsye',
 	'ffeed-onthisday-short-title' => 'Op hierdie dag...',
 	'ffeed-dyk-short-title' => 'Het u geweet?',
 	'ffeed-potd-short-title' => 'Foto van die dag',
@@ -728,14 +738,44 @@ $messages['el'] = array(
  * @author Yekrats
  */
 $messages['eo'] = array(
+	'ffeed-desc' => 'Aldonas abonfluojn de la elstara enhavo de la vikio',
+	'ffeed-no-feed' => 'Neniu abonfluo estis deklarita',
+	'ffeed-feed-not-found' => 'Abonfluo $1 ne troviĝis',
+	'ffeed-entry-not-found' => 'Abonfluero por $1 ne troviĝis',
+	'ffeed-sidebar-section' => 'Abonfluoj por elstara enhavo',
+	'ffeed-invalid-timestamp' => 'Malvalida tempindiko por abonfluo',
+	'ffeed-featured-title' => '{{SITENAME}} abonfluo de elstaraj artikoloj',
 	'ffeed-featured-short-title' => 'Elstaraj artikoloj',
 	'ffeed-featured-desc' => 'Plej bonaj artikoloj el {{SITENAME}}',
+	'ffeed-featured-entry' => '{{LOCALDAY}}-a de {{LOCALMONTHNAME}} {{SITENAME}} elstara artikolo',
+	'ffeed-good-title' => '{{SITENAME}} abonfluo de legindaj artikoloj',
 	'ffeed-good-short-title' => 'Bonaj artikoloj',
+	'ffeed-good-desc' => 'Bonaj artikoloj el {{SITENAME}}',
+	'ffeed-good-entry' => '{{LOCALDAY}}-a de {{LOCALMONTHNAME}} {{SITENAME}} bona artikolo',
+	'ffeed-onthisday-title' => '{{SITENAME}} Abonfluo por "Je ĉi tiu dato..."',
 	'ffeed-onthisday-short-title' => 'Okazis ĉi tiu dato...',
+	'ffeed-onthisday-desc' => 'Historiaj eventoj je ĉi tiu dato',
+	'ffeed-onthisday-entry' => 'Je ĉi tiu dato: {{LOCALDAY}}-a de {{LOCALMONTHNAME}}',
+	'ffeed-dyk-title' => 'Abonfluo de {{SITENAME}} pri "Ĉu vi scias, ke..."',
 	'ffeed-dyk-short-title' => 'Faris vio konas?',
+	'ffeed-dyk-desc' => 'Pri la plej nova enhavo de {{SITENAME}}',
+	'ffeed-dyk-entry' => 'Ĉu vi scias: {{LOCALDAY}}-a de {{LOCALMONTHNAME}}',
+	'ffeed-motd-title' => 'Abonfluo por la dosiero de la tago el {{SITENAME}}',
 	'ffeed-motd-short-title' => 'Dosiero de la tago.',
+	'ffeed-motd-desc' => 'Iom de la plej bonaj dosieroj el {{SITENAME}}',
+	'ffeed-motd-entry' => 'La dosiero de la tago por {{LOCALDAY}}-a de {{LOCALMONTHNAME}} ĉe {{SITENAME}}',
+	'ffeed-potd-title' => 'Abonfluo por la bildo de la tago el {{SITENAME}}',
 	'ffeed-potd-short-title' => 'Bildo de la tago',
+	'ffeed-potd-desc' => 'Iom de la plej bonaj bildoj el {{SITENAME}}',
+	'ffeed-potd-entry' => 'La bildo de la tago por {{LOCALDAY}}-a de {{LOCALMONTHNAME}} ĉe {{SITENAME}}',
+	'ffeed-qotd-title' => 'Abonfluo por la citaĵo de la tago el {{SITENAME}}',
 	'ffeed-qotd-short-title' => 'Citaĵo de la tago',
+	'ffeed-qotd-desc' => 'Iom de la plej bonaj citaĵoj el {{SITENAME}}',
+	'ffeed-qotd-entry' => 'La citaĵo de la tago por {{LOCALDAY}}-a de {{LOCALMONTHNAME}} ĉe {{SITENAME}}',
+	'ffeed-featuredtexts-title' => '{{SITENAME}} abonfluo de elstaraj tekstoj',
+	'ffeed-featuredtexts-short-title' => 'Elstaraj tekstoj',
+	'ffeed-featuredtexts-desc' => 'Plej bonaj tekstoj el {{SITENAME}}',
+	'ffeed-featuredtexts-entry' => '{{LOCALDAY}}-a de {{LOCALMONTHNAME}} {{SITENAME}} elstara teksto',
 );
 
 /** Spanish (español)
@@ -1161,6 +1201,17 @@ $messages['he'] = array(
 	'ffeed-featuredtexts-entry' => 'טקסט מומלץ ב{{GRAMMAR:תחילית|{{SITENAME}}}} ב־{{LOCALDAY}} ב{{LOCALMONTHNAME}}',
 );
 
+/** Hindi (हिन्दी)
+ * @author Karthi.dr
+ */
+$messages['hi'] = array(
+	'ffeed-featured-short-title' => 'निर्वाचित लेख',
+	'ffeed-good-short-title' => 'अच्छा लेख',
+	'ffeed-onthisday-short-title' => 'आज के दिन...',
+	'ffeed-dyk-short-title' => 'आप जानते थे?',
+	'ffeed-dyk-entry' => 'क्या आप जानते हैं?: {{LOCALMONTHNAME}} {{LOCALDAY}}',
+);
+
 /** Upper Sorbian (hornjoserbsce)
  * @author Michawiki
  */
@@ -1426,6 +1477,22 @@ $messages['ja'] = array(
 	'ffeed-dyk-title' => '{{SITENAME}} "ご存じでしたか?" フィード',
 	'ffeed-dyk-short-title' => 'ご存じでしたか?',
 	'ffeed-dyk-entry' => 'ご存じでしたか? {{LOCALMONTHNAME}} {{LOCALDAY}}',
+);
+
+/** Javanese (Basa Jawa)
+ * @author NoiX180
+ */
+$messages['jv'] = array(
+	'ffeed-no-feed' => 'Lebon ora disebutaké',
+	'ffeed-feed-not-found' => 'Lebon $1 ora ditemokaké',
+	'ffeed-entry-not-found' => 'Isi lebon kanggo $1 ora ditemokaké',
+	'ffeed-sidebar-section' => 'Lebon mawa isi pinilih',
+	'ffeed-invalid-timestamp' => 'Cap wektu lebon ora sah',
+	'ffeed-featured-title' => '{{SITENAME}} Lebon kanggo artikel pinilih',
+	'ffeed-featured-short-title' => 'Artikel pinilih',
+	'ffeed-featured-desc' => 'Artikel paling apik sing ditawakaké {{SITENAME}}',
+	'ffeed-good-short-title' => 'Artikel apik',
+	'ffeed-onthisday-short-title' => 'Nèng dina iki...',
 );
 
 /** Georgian (ქართული)
@@ -1832,6 +1899,22 @@ $messages['ms'] = array(
 	'ffeed-featuredtexts-entry' => 'Teks pilihan {{SITENAME}} {{LOCALDAY}} {{LOCALMONTHNAME}}',
 );
 
+/** Maltese (Malti)
+ * @author Chrisportelli
+ */
+$messages['mt'] = array(
+	'ffeed-featured-short-title' => 'Artikli fil-vetrina',
+	'ffeed-featured-desc' => 'L-aqwa artikli li {{SITENAME}} tipprovdi',
+	'ffeed-featured-entry' => "Artiklu fil-vetrina ta' {{SITENAME}} ta' {{LOCALDAY}} ta' {{LOCALMONTHNAME}}",
+	'ffeed-good-short-title' => "Artikli ta' kwalità",
+	'ffeed-onthisday-short-title' => 'Bħal-lum...',
+	'ffeed-onthisday-desc' => "Avvenimenti storiċi f'dan il-jum",
+	'ffeed-dyk-short-title' => 'Kont taf?',
+	'ffeed-dyk-desc' => "Mill-kontenut l-iktar riċenti ta' {{SITENAME}}",
+	'ffeed-dyk-entry' => "Kont taf?: {{LOCALDAY}} ta' {{LOCALMONTHNAME}}",
+	'ffeed-potd-short-title' => 'Stampa tal-ġurnata',
+);
+
 /** Norwegian Bokmål (‪norsk (bokmål)‬)
  * @author Event
  */
@@ -2065,6 +2148,8 @@ $messages['pt'] = array(
  * @author Stelistcristi
  */
 $messages['ro'] = array(
+	'ffeed-no-feed' => 'Fluxul nu a fost specificat',
+	'ffeed-feed-not-found' => 'Fluxul $1 nu a fost găsit',
 	'ffeed-featured-title' => 'Lista articolelor de calitate ale {{SITENAME}}',
 	'ffeed-featured-short-title' => 'Articole de calitate',
 	'ffeed-featured-desc' => 'Cele mai bune articole pe care {{SITENAME}} le poate oferi',
@@ -2262,6 +2347,7 @@ $messages['si'] = array(
 	'ffeed-motd-short-title' => 'දවසේ මාධ්‍ය',
 	'ffeed-potd-short-title' => 'දවසේ පින්තූරය',
 	'ffeed-qotd-short-title' => 'දවසේ උද්ධරණය',
+	'ffeed-featuredtexts-title' => '{{SITENAME}} විශේෂාංග ලිපි පෝෂකය',
 	'ffeed-featuredtexts-short-title' => 'විශේෂාංග පාඨ',
 );
 
@@ -2365,8 +2451,12 @@ $messages['sq'] = array(
 	'ffeed-feed-not-found' => 'Furnizuesi $1 nuk u gjet',
 	'ffeed-entry-not-found' => 'Shënimi i furnizuesit për $1 nuk u gjet',
 	'ffeed-sidebar-section' => 'Furnizuesit e përmbajtjes së veçuar',
+	'ffeed-featured-short-title' => 'Artikujt e veçuar',
+	'ffeed-featured-desc' => 'Artikujt më të mirë {{SITENAME}} duhet të ofrojë',
+	'ffeed-good-title' => '{{SITENAME}} furnizuesi me artikuj të mirë',
 	'ffeed-good-short-title' => 'Artikujt e mirë',
 	'ffeed-good-desc' => 'Artikujt e mirë {{SITENAME}} duhet të ofrojnë',
+	'ffeed-good-entry' => '{{LOCALMONTHNAME}} {{LOCALDAY}} {{SITENAME}} artikuj të mirë',
 	'ffeed-onthisday-title' => '{{SITENAME}} Furnizuesi "Në këtë ditë..."',
 	'ffeed-onthisday-short-title' => 'Në këtë ditë...',
 	'ffeed-onthisday-desc' => 'Ngjarjet historike në këtë ditë',
@@ -2393,20 +2483,88 @@ $messages['sq'] = array(
 	'ffeed-featuredtexts-entry' => '{{LOCALMONTHNAME}} {{LOCALDAY}} {{SITENAME}} teksti i veçuar',
 );
 
+/** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
+ * @author Rancher
+ */
+$messages['sr-ec'] = array(
+	'ffeed-desc' => 'Додаје доводе за изабрани садржај на вики',
+	'ffeed-no-feed' => 'Довод није изабран',
+	'ffeed-feed-not-found' => 'Довод $1 није пронађен',
+	'ffeed-entry-not-found' => 'Унос у доводу за $1 није пронађен',
+	'ffeed-sidebar-section' => 'Доводи за изабрани садржај',
+	'ffeed-invalid-timestamp' => 'Неисправан датум и време довода',
+	'ffeed-featured-title' => '{{SITENAME}} – довод изабраних чланака',
+	'ffeed-featured-short-title' => 'Изабрани чланци',
+	'ffeed-featured-desc' => 'Најбољи чланци на {{SITENAME}}',
+	'ffeed-featured-entry' => 'Изабрани чланак на {{SITENAME}} за {{LOCALDAY}} {{LOCALMONTHNAME}}',
+	'ffeed-good-title' => 'Довод добрих чланака на {{SITENAME}}',
+	'ffeed-good-short-title' => 'Добри чланци',
+	'ffeed-good-desc' => 'Добри чланци на {{SITENAME}}',
+	'ffeed-good-entry' => 'Добар чланак на {{SITENAME}} за {{LOCALDAY}} {{LOCALMONTHNAME}}',
+	'ffeed-onthisday-title' => 'Довод „На данашњи дан…“ на {{SITENAME}}',
+	'ffeed-onthisday-short-title' => 'На данашњи дан…',
+	'ffeed-onthisday-desc' => 'Историјски догађаји који су се десили на данашњи дан',
+	'ffeed-onthisday-entry' => 'На данашњи дан: {{LOCALDAY}} {{LOCALMONTHNAME}}',
+	'ffeed-dyk-title' => 'Довод „Да ли сте знали?“ на {{SITENAME}}',
+	'ffeed-dyk-short-title' => 'Да ли сте знали?',
+	'ffeed-dyk-desc' => 'Из најновијег садржаја на {{SITENAME}}',
+	'ffeed-dyk-entry' => 'Да ли сте знали: {{LOCALDAY}} {{LOCALMONTHNAME}}',
+	'ffeed-motd-title' => 'Довод за снимке дана на {{SITENAME}}',
+	'ffeed-motd-short-title' => 'Снимци дана',
+	'ffeed-motd-desc' => 'Најбољи снимци на {{SITENAME}}',
+	'ffeed-motd-entry' => 'Снимци дана за {{LOCALDAY}} {{LOCALMONTHNAME}} на {{SITENAME}}',
+	'ffeed-potd-title' => 'Довод за слику дана на {{SITENAME}}',
+	'ffeed-potd-short-title' => 'Слика дана',
+	'ffeed-potd-desc' => 'Најбоље слике на {{SITENAME}}',
+	'ffeed-potd-entry' => 'Слика дана за {{LOCALDAY}} {{LOCALMONTHNAME}} на {{SITENAME}}',
+	'ffeed-qotd-title' => 'Довод за цитат дана на {{SITENAME}}',
+	'ffeed-qotd-short-title' => 'Цитат дана',
+	'ffeed-qotd-desc' => 'Најбољи цитати на {{SITENAME}}',
+	'ffeed-qotd-entry' => 'Цитат дана за {{LOCALDAY}} {{LOCALMONTHNAME}} на {{SITENAME}}',
+	'ffeed-featuredtexts-title' => 'Довод изабраних текстова на {{SITENAME}}',
+	'ffeed-featuredtexts-short-title' => 'Изабрани текстови',
+	'ffeed-featuredtexts-desc' => 'Најбољи текстови на {{SITENAME}}',
+	'ffeed-featuredtexts-entry' => 'Изабрани текст на {{SITENAME}} за {{LOCALDAY}} {{LOCALMONTHNAME}}',
+);
+
 /** Swedish (svenska)
  * @author WikiPhoenix
  */
 $messages['sv'] = array(
+	'ffeed-desc' => 'Lägger till sammanslagningsflöden av wikins viktigaste innehåll',
+	'ffeed-no-feed' => 'Flöde är inte angivet',
+	'ffeed-feed-not-found' => 'Flöde $1 hittades inte',
+	'ffeed-entry-not-found' => 'Flödesinmatning för $1 hittades inte',
+	'ffeed-invalid-timestamp' => 'Ogiltig flödestidstämpel',
+	'ffeed-featured-short-title' => 'Utmärkta artiklar',
+	'ffeed-featured-desc' => 'Bästa artiklarna {{SITENAME}} har att erbjuda',
+	'ffeed-featured-entry' => '{{LOCALMONTHNAME}} {{LOCALDAY}} {{SITENAME}} utmärkt artikel',
+	'ffeed-good-title' => '{{SITENAME}} flöde för bra artiklar',
 	'ffeed-good-short-title' => 'Bra artiklar',
+	'ffeed-good-desc' => 'Bra artiklar {{SITENAME}} har att erbjuda',
+	'ffeed-good-entry' => '{{LOCALMONTHNAME}} {{LOCALDAY}} {{SITENAME}} bra artikel',
+	'ffeed-onthisday-title' => '{{SITENAME}} flöde för "Dagens datum..."',
 	'ffeed-onthisday-short-title' => 'På denna dag...',
 	'ffeed-onthisday-desc' => 'Historiska händelser på denna dag',
 	'ffeed-onthisday-entry' => 'På denna dag: {{LOCALMONTHNAME}} {{LOCALDAY}}',
 	'ffeed-dyk-title' => '{{SITENAME}} "Visste du att...?"-flöde',
 	'ffeed-dyk-short-title' => 'Visste du att...?',
+	'ffeed-dyk-desc' => 'Från {{SITENAME}}s senaste innehåll',
 	'ffeed-dyk-entry' => 'Visste du att...?: {{LOCALMONTHNAME}} {{LOCALDAY}}',
+	'ffeed-motd-title' => '{{SITENAME}} flöde för dagens media',
 	'ffeed-motd-short-title' => 'Dagens mediafil',
+	'ffeed-motd-desc' => 'Några av de finaste mediafilena på {{SITENAME}}',
+	'ffeed-motd-entry' => '{{SITENAME}} dagens media för {{LOCALMONTHNAME}} {{LOCALDAY}}',
+	'ffeed-potd-title' => '{{SITENAME}} flöde för dagens bild',
 	'ffeed-potd-short-title' => 'Dagens bild',
+	'ffeed-potd-desc' => 'Några av de finaste bilderna på {{SITENAME}}',
+	'ffeed-potd-entry' => '{{SITENAME}} dagens bild för {{LOCALMONTHNAME}} {{LOCALDAY}}',
+	'ffeed-qotd-title' => '{{SITENAME}} flöde för dagens citat',
 	'ffeed-qotd-short-title' => 'Dagens citat',
+	'ffeed-qotd-desc' => 'Några av de finaste citaten på {{SITENAME}}',
+	'ffeed-qotd-entry' => '{{SITENAME}} dagens citat för {{LOCALMONTHNAME}} {{LOCALDAY}}',
+	'ffeed-featuredtexts-title' => '{{SITENAME}} flöde för utmärkta texter',
+	'ffeed-featuredtexts-short-title' => 'Utmärkta texter',
 );
 
 /** Swahili (Kiswahili)
@@ -2422,19 +2580,26 @@ $messages['sw'] = array(
 
 /** Tamil (தமிழ்)
  * @author Balajijagadesh
+ * @author Karthi.dr
  * @author Shanmugamp7
+ * @author மதனாஹரன்
  */
 $messages['ta'] = array(
+	'ffeed-no-feed' => 'ஊட்டம் குறிப்பிடப்படவில்லை',
+	'ffeed-feed-not-found' => '$1 ஓடை காணப்படவில்லை',
 	'ffeed-featured-short-title' => 'சிறப்பு கட்டுரைகள்',
 	'ffeed-good-short-title' => 'நல்ல கட்டுரைகள்',
 	'ffeed-good-entry' => '{{LOCALMONTHNAME}} {{LOCALDAY}} {{SITENAME}} நல்ல கட்டுரை',
+	'ffeed-onthisday-title' => '{{SITENAME}} "இன்றைய நாளில்..."  ஓடை',
 	'ffeed-onthisday-short-title' => 'இந்த நாளில்...',
 	'ffeed-onthisday-desc' => 'இந்த நாளில் வரலாற்று நிகழ்வுகள்',
 	'ffeed-onthisday-entry' => 'இந்த நாளில்: {{LOCALMONTHNAME}} {{LOCALDAY}}',
+	'ffeed-dyk-title' => '{{SITENAME}} "உங்களுக்குத் தெரியுமா?" ஓடை',
 	'ffeed-dyk-short-title' => 'உங்களுக்கு தெரியுமா?',
 	'ffeed-dyk-desc' => '{{SITENAME}} லிருந்து புதிய உள்ளடக்கம்',
 	'ffeed-dyk-entry' => 'உங்களுக்கு தெரியுமா?: {{LOCALMONTHNAME}} {{LOCALDAY}}',
 	'ffeed-motd-short-title' => 'இன்றைய ஊடகம்',
+	'ffeed-potd-title' => '{SITENAME}} இன்றைய சிறப்புப் படம் ஓடை',
 	'ffeed-potd-short-title' => 'இன்றைய சிறப்புப்படம்',
 	'ffeed-potd-desc' => 'சில சிறந்த படங்கள்  {{SITENAME}}ல்',
 	'ffeed-potd-entry' => '{{SITENAME}}இன்றைய சிறப்புப்படம்  {{LOCALMONTHNAME}} {{LOCALDAY}}க்கு',
