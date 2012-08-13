@@ -1021,6 +1021,17 @@ $messages['fr'] = array(
 	'ffeed-featuredtexts-entry' => 'Texte de {{SITENAME}} mis en valeur le {{LOCALDAY}} {{LOCALMONTHNAME}}',
 );
 
+/** Franco-Provençal (arpetan)
+ * @author ChrisPtDe
+ */
+$messages['frp'] = array(
+	'ffeed-desc' => 'Apond des flux de sindicacion du contegnu remarcâblo du vouiqui',
+	'ffeed-no-feed' => 'Flux pas spècifiâ',
+	'ffeed-feed-not-found' => 'Flux $1 pas trovâ',
+	'ffeed-entry-not-found' => 'Entrâ du flux por $1 pas trovâ',
+	'ffeed-sidebar-section' => 'Flux du contegnu remarcâblo',
+);
+
 /** Galician (galego)
  * @author Toliño
  */
@@ -1472,11 +1483,20 @@ $messages['it'] = array(
 $messages['ja'] = array(
 	'ffeed-no-feed' => 'フィードが未指定です',
 	'ffeed-feed-not-found' => 'フィード $1 が見つかりません',
+	'ffeed-entry-not-found' => '$1 のフィードエントリーが見つかりません',
 	'ffeed-invalid-timestamp' => 'フィードのタイムスタンプが正しくありません',
+	'ffeed-featured-title' => '{{SITENAME}} 秀逸な記事フィード',
 	'ffeed-featured-short-title' => '秀逸な記事',
+	'ffeed-featured-entry' => '{{SITENAME}} {{LOCALMONTHNAME}}{{LOCALDAY}}日の秀逸な記事',
+	'ffeed-good-title' => '{{SITENAME}} 良質な記事フィード',
+	'ffeed-good-short-title' => '良質な記事',
+	'ffeed-good-entry' => '{{SITENAME}} {{LOCALMONTHNAME}}{{LOCALDAY}}日の良質な記事',
+	'ffeed-onthisday-title' => '{{SITENAME}} "今日は何の日" フィード',
+	'ffeed-onthisday-short-title' => '今日は何の日...',
+	'ffeed-onthisday-entry' => '今日は何の日: {{LOCALMONTHNAME}}{{LOCALDAY}}日',
 	'ffeed-dyk-title' => '{{SITENAME}} "ご存じでしたか?" フィード',
 	'ffeed-dyk-short-title' => 'ご存じでしたか?',
-	'ffeed-dyk-entry' => 'ご存じでしたか? {{LOCALMONTHNAME}} {{LOCALDAY}}',
+	'ffeed-dyk-entry' => 'ご存じでしたか?: {{LOCALMONTHNAME}}{{LOCALDAY}}日',
 );
 
 /** Javanese (Basa Jawa)
@@ -1493,6 +1513,22 @@ $messages['jv'] = array(
 	'ffeed-featured-desc' => 'Artikel paling apik sing ditawakaké {{SITENAME}}',
 	'ffeed-good-short-title' => 'Artikel apik',
 	'ffeed-onthisday-short-title' => 'Nèng dina iki...',
+	'ffeed-onthisday-desc' => 'Kadadéan sajarah nèng dina iki',
+	'ffeed-dyk-title' => 'Lebon "Sampéyan Ngerti?" {{SITENAME}}',
+	'ffeed-dyk-short-title' => 'Sampéyan ngerti?',
+	'ffeed-motd-short-title' => 'Media dina iki',
+	'ffeed-potd-title' => 'Lebon gambar dina iki {{SITENAME}}',
+	'ffeed-potd-short-title' => 'Gambar dina iki',
+	'ffeed-potd-desc' => 'Sapèrangan gambar paling apik nèng {{SITENAME}}',
+	'ffeed-potd-entry' => 'Gambar dina iki {{SITENAME}} kanggo {{LOCALDAY}} {{LOCALMONTHNAME}}',
+	'ffeed-qotd-title' => 'Lebon kutipan dina iki {{SITENAME}}',
+	'ffeed-qotd-short-title' => 'Kutipan dina iki',
+	'ffeed-qotd-desc' => 'Sapèrangan kutipan paling apik nèng {{SITENAME}}',
+	'ffeed-qotd-entry' => 'Kutipan dina iki {{SITENAME}} kanggo {{LOCALDAY}} {{LOCALMONTHNAME}}',
+	'ffeed-featuredtexts-title' => 'Lebon kanggo tèks pinilih {{SITENAME}}',
+	'ffeed-featuredtexts-short-title' => 'Tèks pinilih',
+	'ffeed-featuredtexts-desc' => 'Tèks paling apik sing ditawakaké {{SITENAME}}',
+	'ffeed-featuredtexts-entry' => 'Tèks pinilih {{SITENAME}} {{LOCALDAY}} {{LOCALMONTHNAME}}',
 );
 
 /** Georgian (ქართული)
@@ -1715,10 +1751,15 @@ $messages['li'] = array(
 );
 
 /** Lithuanian (lietuvių)
+ * @author Eitvys200
  * @author Vogone
  */
 $messages['lt'] = array(
 	'ffeed-good-short-title' => 'Gerų straipsnių',
+	'ffeed-onthisday-short-title' => 'Šią dieną...',
+	'ffeed-dyk-short-title' => 'Ar jūs žinote?',
+	'ffeed-potd-short-title' => 'Dienos nuotrauka',
+	'ffeed-qotd-short-title' => 'Dienos citata',
 );
 
 /** Macedonian (македонски)
@@ -1904,7 +1945,7 @@ $messages['ms'] = array(
  */
 $messages['mt'] = array(
 	'ffeed-featured-short-title' => 'Artikli fil-vetrina',
-	'ffeed-featured-desc' => 'L-aqwa artikli li {{SITENAME}} tipprovdi',
+	'ffeed-featured-desc' => 'L-aqwa artikli offruti minn {{SITENAME}}',
 	'ffeed-featured-entry' => "Artiklu fil-vetrina ta' {{SITENAME}} ta' {{LOCALDAY}} ta' {{LOCALMONTHNAME}}",
 	'ffeed-good-short-title' => "Artikli ta' kwalità",
 	'ffeed-onthisday-short-title' => 'Bħal-lum...',
@@ -1912,7 +1953,18 @@ $messages['mt'] = array(
 	'ffeed-dyk-short-title' => 'Kont taf?',
 	'ffeed-dyk-desc' => "Mill-kontenut l-iktar riċenti ta' {{SITENAME}}",
 	'ffeed-dyk-entry' => "Kont taf?: {{LOCALDAY}} ta' {{LOCALMONTHNAME}}",
+	'ffeed-motd-short-title' => 'Fajl multimedjali tal-ġurnata',
+	'ffeed-motd-desc' => 'Uħud mill-aqwa fajls multimedjali fuq {{SITENAME}}',
+	'ffeed-motd-entry' => "Fajl multimedjali tal-ġurnata ta' {{SITENAME}} ta' {{LOCALDAY}} ta' {{LOCALMONTHNAME}}",
+	'ffeed-potd-title' => "''Feed'' tal-istampa tal-ġurnata ta' {{SITENAME}}",
 	'ffeed-potd-short-title' => 'Stampa tal-ġurnata',
+	'ffeed-potd-desc' => 'Uħud mill-aqwa stampi fuq {{SITENAME}}',
+	'ffeed-potd-entry' => "Stampa tal-ġurnata ta' {{SITENAME}} ta' {{LOCALDAY}} ta' {{LOCALMONTHNAME}}",
+	'ffeed-qotd-title' => "''Feed'' tal-kwotazzjoni tal-ġurnata ta' {{SITENAME}}",
+	'ffeed-qotd-short-title' => 'Kwotazzjoni tal-ġurnata',
+	'ffeed-qotd-desc' => 'Uħud mill-aqwa kwotazzjonijiet fuq {{SITENAME}}',
+	'ffeed-featuredtexts-short-title' => 'Testi fil-vetrina',
+	'ffeed-featuredtexts-desc' => 'L-aqwa testi offruti minn {{SITENAME}}',
 );
 
 /** Norwegian Bokmål (‪norsk (bokmål)‬)
@@ -2336,19 +2388,30 @@ $messages['si'] = array(
 	'ffeed-invalid-timestamp' => 'වලංගු නොවන පෝෂක කාලමුද්‍රාව',
 	'ffeed-featured-title' => '{{SITENAME}} විශේෂාංග ලිපි පෝෂකය',
 	'ffeed-featured-short-title' => 'විශේෂාංග ලිපි',
+	'ffeed-featured-desc' => 'පිරිනැමීමට {{SITENAME}} හොද ලිපි',
+	'ffeed-featured-entry' => '{{LOCALMONTHNAME}} {{LOCALDAY}} {{SITENAME}} විශේෂාංග ලිපිය',
 	'ffeed-good-title' => '{{SITENAME}} හොද ලිපි පෝෂකය',
 	'ffeed-good-short-title' => 'හොද ලිපි',
+	'ffeed-good-desc' => 'පිරිනැමීමට {{SITENAME}} හොද ලිපි',
+	'ffeed-good-entry' => '{{LOCALMONTHNAME}} {{LOCALDAY}} {{SITENAME}} හොද ලිපිය',
 	'ffeed-onthisday-title' => '{{SITENAME}} "අද දවසේදී..." පෝෂකය',
 	'ffeed-onthisday-short-title' => 'අද දවසේදී...',
 	'ffeed-onthisday-desc' => 'අද දවසේදී සිදුවූ ඓතිහාසික සිදුවීම්',
 	'ffeed-onthisday-entry' => 'අද දවසේදී: {{LOCALMONTHNAME}} {{LOCALDAY}}',
+	'ffeed-dyk-title' => '{{SITENAME}} "ඔබ දන්නවාද?" පෝෂකය',
 	'ffeed-dyk-short-title' => 'ඔබ දන්නවාද?',
+	'ffeed-dyk-desc' => '{{SITENAME}} නවතම අන්තර්ගතයෙන්',
 	'ffeed-dyk-entry' => 'ඔබ දන්නවාද?: {{LOCALMONTHNAME}} {{LOCALDAY}}',
+	'ffeed-motd-title' => '{{SITENAME}} දවසේ මාධ්‍ය පෝෂකය',
 	'ffeed-motd-short-title' => 'දවසේ මාධ්‍ය',
+	'ffeed-potd-title' => '{{SITENAME}} දවසේ පින්තූරය පෝෂකය',
 	'ffeed-potd-short-title' => 'දවසේ පින්තූරය',
+	'ffeed-qotd-title' => '{{SITENAME}} දවසේ උද්ධරණය පෝෂකය',
 	'ffeed-qotd-short-title' => 'දවසේ උද්ධරණය',
 	'ffeed-featuredtexts-title' => '{{SITENAME}} විශේෂාංග ලිපි පෝෂකය',
 	'ffeed-featuredtexts-short-title' => 'විශේෂාංග පාඨ',
+	'ffeed-featuredtexts-desc' => 'පිරිනැමීමට {{SITENAME}} හොදම පාඨ',
+	'ffeed-featuredtexts-entry' => '{{LOCALMONTHNAME}} {{LOCALDAY}} {{SITENAME}} විශේෂාංග පාඨ',
 );
 
 /** Slovak (slovenčina)
@@ -2587,7 +2650,12 @@ $messages['sw'] = array(
 $messages['ta'] = array(
 	'ffeed-no-feed' => 'ஊட்டம் குறிப்பிடப்படவில்லை',
 	'ffeed-feed-not-found' => '$1 ஓடை காணப்படவில்லை',
+	'ffeed-entry-not-found' => '$1 எனும் திகதிக்கான ஊட்டப் பதிவு காணப்படவில்லை',
+	'ffeed-sidebar-section' => 'சிறப்பு உள்ளடக்க ஊட்டங்கள்',
+	'ffeed-featured-title' => '{{SITENAME}} சிறப்புக் கட்டுரைகள் ஊட்டம்',
 	'ffeed-featured-short-title' => 'சிறப்பு கட்டுரைகள்',
+	'ffeed-featured-entry' => '{{LOCALMONTHNAME}} {{LOCALDAY}} {{SITENAME}} சிறப்புக் கட்டுரை',
+	'ffeed-good-title' => '{{SITENAME}} நற்கட்டுரைகள் ஊட்டம்',
 	'ffeed-good-short-title' => 'நல்ல கட்டுரைகள்',
 	'ffeed-good-entry' => '{{LOCALMONTHNAME}} {{LOCALDAY}} {{SITENAME}} நல்ல கட்டுரை',
 	'ffeed-onthisday-title' => '{{SITENAME}} "இன்றைய நாளில்..."  ஓடை',
@@ -2605,6 +2673,7 @@ $messages['ta'] = array(
 	'ffeed-potd-entry' => '{{SITENAME}}இன்றைய சிறப்புப்படம்  {{LOCALMONTHNAME}} {{LOCALDAY}}க்கு',
 	'ffeed-qotd-short-title' => 'இன்றைய தின மேற்கோள்',
 	'ffeed-featuredtexts-short-title' => 'சிறப்பு உரைகள்',
+	'ffeed-featuredtexts-entry' => '{{LOCALMONTHNAME}} {{LOCALDAY}} {{SITENAME}} சிறப்புரை',
 );
 
 /** Telugu (తెలుగు)
