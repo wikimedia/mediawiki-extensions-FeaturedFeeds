@@ -367,8 +367,14 @@ $messages['be-tarask'] = array(
 
 /** Bengali (বাংলা)
  * @author Bellayet
+ * @author Nasir8891
  */
 $messages['bn'] = array(
+	'ffeed-no-feed' => 'ফিড নির্ধারন করা হয়নি',
+	'ffeed-feed-not-found' => '$1 ফিড পাওয়া যায়নি',
+	'ffeed-entry-not-found' => '$1 এর ফিড পাওয়া যায়নি',
+	'ffeed-sidebar-section' => 'নির্বাচিত নিবন্ধের ফিড',
+	'ffeed-invalid-timestamp' => 'ফিডের ভুল সময় নির্ধারণ',
 	'ffeed-featured-title' => '{{SITENAME}} নির্বাচিত নিবন্ধ ফিড',
 	'ffeed-featured-short-title' => 'নির্বাচিত নিবন্ধ',
 	'ffeed-featured-entry' => '{{LOCALMONTHNAME}} {{LOCALDAY}} {{SITENAME}} নির্বাচিত নিবন্ধ',
@@ -377,10 +383,27 @@ $messages['bn'] = array(
 	'ffeed-good-entry' => '{{LOCALMONTHNAME}} {{LOCALDAY}} {{SITENAME}} ভাল নিবন্ধ',
 	'ffeed-onthisday-title' => '{{SITENAME}} "আজকের এই দিনে..." ফিড',
 	'ffeed-onthisday-short-title' => 'আজকের এই দিনে...',
+	'ffeed-onthisday-desc' => 'এই দিনের ঐতিহাসিক ঘটনা',
 	'ffeed-onthisday-entry' => 'আজকের এই দিনে: {{LOCALMONTHNAME}} {{LOCALDAY}}',
 	'ffeed-dyk-title' => '{{SITENAME}} "আপনি জানেন কি?" ফিড',
 	'ffeed-dyk-short-title' => 'আপনি জানেন কি?',
+	'ffeed-dyk-desc' => '{{SITENAME}} এর নতুন নিবন্ধ',
 	'ffeed-dyk-entry' => 'আপনি জানেন কি?: {{LOCALMONTHNAME}} {{LOCALDAY}}',
+	'ffeed-motd-title' => '{{SITENAME}} এর নির্বাচিত মিডিয়া ফিড',
+	'ffeed-motd-short-title' => 'নির্বাচিত মিডিয়া',
+	'ffeed-motd-desc' => '{{SITENAME}} এর কিছু বিশেষ মিডিয়া',
+	'ffeed-motd-entry' => '{{LOCALMONTHNAME}} {{LOCALDAY}} এর জন্য {{SITENAME}} এর কিছু নির্বাচিত মিডিয়া',
+	'ffeed-potd-title' => '{{SITENAME}} এর নির্বাচিত ছবি ফিড',
+	'ffeed-potd-short-title' => 'নির্বাচিত ছবি',
+	'ffeed-potd-desc' => '{{SITENAME}} এর কিছু বিশেষ ছবি',
+	'ffeed-potd-entry' => '{{LOCALMONTHNAME}} {{LOCALDAY}} এর জন্য {{SITENAME}} এর কিছু নির্বাচিত ছবি',
+	'ffeed-qotd-title' => '{{SITENAME}} এর নির্বাচিত উক্তি ফিড',
+	'ffeed-qotd-short-title' => 'নির্বাচিত উক্তি',
+	'ffeed-qotd-desc' => '{{SITENAME}} এর কিছু বিশেষ উক্তি',
+	'ffeed-qotd-entry' => '{{LOCALMONTHNAME}} {{LOCALDAY}} এর জন্য {{SITENAME}} এর কিছু নির্বাচিত উক্তি',
+	'ffeed-featuredtexts-title' => '{{SITENAME}} নির্বাচিত নিবন্ধ লেখা',
+	'ffeed-featuredtexts-short-title' => 'নির্বাচিত লেখা',
+	'ffeed-featuredtexts-entry' => '{{LOCALMONTHNAME}} {{LOCALDAY}} {{SITENAME}} নির্বাচিত লেখা',
 );
 
 /** Breton (brezhoneg)
@@ -1503,6 +1526,7 @@ $messages['ja'] = array(
  * @author NoiX180
  */
 $messages['jv'] = array(
+	'ffeed-desc' => 'Tambah lebon saran sindikasi saka kontèn pinilih wiki',
 	'ffeed-no-feed' => 'Lebon ora disebutaké',
 	'ffeed-feed-not-found' => 'Lebon $1 ora ditemokaké',
 	'ffeed-entry-not-found' => 'Isi lebon kanggo $1 ora ditemokaké',
@@ -1511,12 +1535,22 @@ $messages['jv'] = array(
 	'ffeed-featured-title' => '{{SITENAME}} Lebon kanggo artikel pinilih',
 	'ffeed-featured-short-title' => 'Artikel pinilih',
 	'ffeed-featured-desc' => 'Artikel paling apik sing ditawakaké {{SITENAME}}',
+	'ffeed-featured-entry' => 'Artikel pinilih {{SITENAME}} {{LOCALDAY}} {{LOCALMONTHNAME}}',
+	'ffeed-good-title' => 'Lebon saran artikel apik {{SITENAME}}',
 	'ffeed-good-short-title' => 'Artikel apik',
+	'ffeed-good-desc' => 'Artikel apik sing ditawakaké {{SITENAME}}',
+	'ffeed-good-entry' => 'Artikel apik {{SITENAME}} {{LOCALDAY}} {{LOCALMONTHNAME}}',
+	'ffeed-onthisday-title' => 'Lebon saran "Ana ing dina iki..." {{SITENAME}}',
 	'ffeed-onthisday-short-title' => 'Nèng dina iki...',
 	'ffeed-onthisday-desc' => 'Kadadéan sajarah nèng dina iki',
+	'ffeed-onthisday-entry' => 'Nèng dina iki: {{LOCALDAY}} {{LOCALMONTHNAME}}',
 	'ffeed-dyk-title' => 'Lebon "Sampéyan Ngerti?" {{SITENAME}}',
 	'ffeed-dyk-short-title' => 'Sampéyan ngerti?',
+	'ffeed-dyk-desc' => 'Saka kontèn paling anyar {{SITENAME}}',
+	'ffeed-dyk-entry' => 'Sampéyan ngerti?: {{LOCALDAY}} {{LOCALMONTHNAME}}',
+	'ffeed-motd-title' => 'Lebon saran media dina iki {{SITENAME}}',
 	'ffeed-motd-short-title' => 'Media dina iki',
+	'ffeed-motd-desc' => 'Sebagéyan media paling apik nèng {{SITENAME}}',
 	'ffeed-potd-title' => 'Lebon gambar dina iki {{SITENAME}}',
 	'ffeed-potd-short-title' => 'Gambar dina iki',
 	'ffeed-potd-desc' => 'Sapèrangan gambar paling apik nèng {{SITENAME}}',
@@ -1948,8 +1982,11 @@ $messages['mt'] = array(
 	'ffeed-featured-desc' => 'L-aqwa artikli offruti minn {{SITENAME}}',
 	'ffeed-featured-entry' => "Artiklu fil-vetrina ta' {{SITENAME}} ta' {{LOCALDAY}} ta' {{LOCALMONTHNAME}}",
 	'ffeed-good-short-title' => "Artikli ta' kwalità",
+	'ffeed-good-desc' => "L-artikli ta' kwalità offruti minn {{SITENAME}}",
+	'ffeed-good-entry' => "Artiklu ta' kwalità ta' {{SITENAME}} ta' {{LOCALDAY}} ta' {{LOCALMONTHNAME}}",
 	'ffeed-onthisday-short-title' => 'Bħal-lum...',
 	'ffeed-onthisday-desc' => "Avvenimenti storiċi f'dan il-jum",
+	'ffeed-onthisday-entry' => "Bħal-lum: {{LOCALDAY}} ta' {{LOCALMONTHNAME}}",
 	'ffeed-dyk-short-title' => 'Kont taf?',
 	'ffeed-dyk-desc' => "Mill-kontenut l-iktar riċenti ta' {{SITENAME}}",
 	'ffeed-dyk-entry' => "Kont taf?: {{LOCALDAY}} ta' {{LOCALMONTHNAME}}",
@@ -2087,12 +2124,13 @@ $messages['pl'] = array(
 );
 
 /** Piedmontese (Piemontèis)
+ * @author Borichèt
  * @author Dragonòt
  */
 $messages['pms'] = array(
-	'ffeed-desc' => 'A gionta ij feed ëd syndication pëi ij contnù consejà da la wiki',
-	'ffeed-no-feed' => 'Feed pa specificà',
-	'ffeed-feed-not-found' => 'Feed $1 pa trovà',
+	'ffeed-desc' => 'A gionta ij fluss ëd publicassion për ij contnù consejà da la wiki',
+	'ffeed-no-feed' => 'Sorgiss nen specificà',
+	'ffeed-feed-not-found' => 'Sorgiss $1 pa trovà',
 	'ffeed-entry-not-found' => 'Element feed për $1 pa trovà',
 	'ffeed-sidebar-section' => 'Feed për ij contnù arcomandà',
 	'ffeed-invalid-timestamp' => 'Timestamp dël feed pa bon',
@@ -2240,6 +2278,7 @@ $messages['roa-tara'] = array(
 	'ffeed-good-short-title' => 'Vôsce bbuène',
 	'ffeed-good-desc' => 'Vôsce bbuène de {{SITENAME}} da offrì',
 	'ffeed-onthisday-short-title' => "Jndr'à sta sciurnate...",
+	'ffeed-onthisday-desc' => 'Avveneminde storece de sta sciurnate',
 	'ffeed-dyk-short-title' => "'U canusce?",
 	'ffeed-motd-short-title' => "Media d'a sciurnate",
 	'ffeed-potd-short-title' => "Fote d'a sciurnate",
@@ -2631,6 +2670,7 @@ $messages['sv'] = array(
 );
 
 /** Swahili (Kiswahili)
+ * @author Kwisha
  * @author Stephenwanjau
  */
 $messages['sw'] = array(
@@ -2639,6 +2679,7 @@ $messages['sw'] = array(
 	'ffeed-onthisday-entry' => 'Katika siku hii: {{LOCALMONTHNAME}} {{LOCALDAY}}',
 	'ffeed-dyk-short-title' => 'Je ilikuwa unajua?',
 	'ffeed-potd-short-title' => 'Picha ya siku',
+	'ffeed-qotd-short-title' => 'Nukuu ya siku',
 );
 
 /** Tamil (தமிழ்)
@@ -2672,6 +2713,7 @@ $messages['ta'] = array(
 	'ffeed-potd-desc' => 'சில சிறந்த படங்கள்  {{SITENAME}}ல்',
 	'ffeed-potd-entry' => '{{SITENAME}}இன்றைய சிறப்புப்படம்  {{LOCALMONTHNAME}} {{LOCALDAY}}க்கு',
 	'ffeed-qotd-short-title' => 'இன்றைய தின மேற்கோள்',
+	'ffeed-featuredtexts-title' => '{{SITENAME}} சிறப்புரைகள் ஊட்டம்',
 	'ffeed-featuredtexts-short-title' => 'சிறப்பு உரைகள்',
 	'ffeed-featuredtexts-entry' => '{{LOCALMONTHNAME}} {{LOCALDAY}} {{SITENAME}} சிறப்புரை',
 );
