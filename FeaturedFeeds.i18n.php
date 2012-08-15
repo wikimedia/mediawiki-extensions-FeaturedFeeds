@@ -179,11 +179,16 @@ $messages['an'] = array(
  * @author Meno25
  */
 $messages['ar'] = array(
+	'ffeed-no-feed' => 'التلقيم لم يتم تحديده',
 	'ffeed-feed-not-found' => 'التلقيم $1 لم يتم العثور عليه',
+	'ffeed-entry-not-found' => 'مدخلة التلقيم ل$1 لم يتم العثور عليها',
+	'ffeed-sidebar-section' => 'تلقيات المحتوى المختار',
+	'ffeed-invalid-timestamp' => 'وقت تلقيم غير صحيح',
 	'ffeed-featured-short-title' => 'مقالات مختارة',
 	'ffeed-good-short-title' => 'مقالات جيدة',
 	'ffeed-onthisday-short-title' => 'في مثل هذا اليوم...',
 	'ffeed-dyk-short-title' => 'هل تعلم؟',
+	'ffeed-motd-short-title' => 'ميديا اليوم',
 	'ffeed-potd-short-title' => 'صورة اليوم',
 	'ffeed-qotd-short-title' => 'اقتباس اليوم',
 	'ffeed-featuredtexts-short-title' => 'نصوص مختارة',
@@ -1053,6 +1058,39 @@ $messages['frp'] = array(
 	'ffeed-feed-not-found' => 'Flux $1 pas trovâ',
 	'ffeed-entry-not-found' => 'Entrâ du flux por $1 pas trovâ',
 	'ffeed-sidebar-section' => 'Flux du contegnu remarcâblo',
+	'ffeed-invalid-timestamp' => 'Dâta et hora de flux envalida',
+	'ffeed-featured-title' => 'Flux des articllos remarcâblos de {{SITENAME}}',
+	'ffeed-featured-short-title' => 'Articllos remarcâblos',
+	'ffeed-featured-desc' => 'Mèlyors articllos que {{SITENAME}} pôt semondre',
+	'ffeed-featured-entry' => 'Articllo remarcâblo de {{SITENAME}} lo {{LOCALDAY}} {{LOCALMONTHNAME}}',
+	'ffeed-good-title' => 'Flux des bons articllos de {{SITENAME}}',
+	'ffeed-good-short-title' => 'Bons articllos',
+	'ffeed-good-desc' => 'Bons articllos que {{SITENAME}} pôt semondre',
+	'ffeed-good-entry' => 'Bon articllo de {{SITENAME}} lo {{LOCALDAY}} {{LOCALMONTHNAME}}',
+	'ffeed-onthisday-title' => 'Flux « Cél jorn-que... » de {{SITENAME}}',
+	'ffeed-onthisday-short-title' => 'Cél jorn-que...',
+	'ffeed-onthisday-desc' => 'Èvènements historicos sur cela jornâ',
+	'ffeed-onthisday-entry' => 'Cél jorn-que : {{LOCALDAY}} {{LOCALMONTHNAME}}',
+	'ffeed-dyk-title' => 'Flux « Lo savévâd-vos ? » de {{SITENAME}}',
+	'ffeed-dyk-short-title' => 'Lo savévâd-vos ?',
+	'ffeed-dyk-desc' => 'Du contegnu lo ples novél de {{SITENAME}}',
+	'ffeed-dyk-entry' => 'Lo savévâd-vos ? : {{LOCALDAY}} {{LOCALMONTHNAME}}',
+	'ffeed-motd-title' => 'Flux du fichiér mèdia du jorn de {{SITENAME}}',
+	'ffeed-motd-short-title' => 'Fichiér mèdia du jorn',
+	'ffeed-motd-desc' => 'Quârques-uns des mèlyors fichiérs mèdia dessus {{SITENAME}}',
+	'ffeed-motd-entry' => 'Fichiér mèdia du jorn de {{SITENAME}} por lo {{LOCALDAY}} {{LOCALMONTHNAME}}',
+	'ffeed-potd-title' => 'Flux de l’émâge du jorn de {{SITENAME}}',
+	'ffeed-potd-short-title' => 'Émâge du jorn',
+	'ffeed-potd-desc' => 'Quârques-unes de les mèlyores émâges dessus {{SITENAME}}',
+	'ffeed-potd-entry' => 'Émâge du jorn de {{SITENAME}} por lo {{LOCALDAY}} {{LOCALMONTHNAME}}',
+	'ffeed-qotd-title' => 'Flux de la citacion du jorn de {{SITENAME}}',
+	'ffeed-qotd-short-title' => 'Citacion du jorn',
+	'ffeed-qotd-desc' => 'Quârques-unes de les mèlyores citacions dessus {{SITENAME}}',
+	'ffeed-qotd-entry' => 'Citacion du jorn de {{SITENAME}} por lo {{LOCALDAY}} {{LOCALMONTHNAME}}',
+	'ffeed-featuredtexts-title' => 'Flux des tèxtos remarcâblos de {{SITENAME}}',
+	'ffeed-featuredtexts-short-title' => 'Tèxtos remarcâblos',
+	'ffeed-featuredtexts-desc' => 'Mèlyors tèxtos que {{SITENAME}} pôt semondre',
+	'ffeed-featuredtexts-entry' => 'Tèxto remarcâblo de {{SITENAME}} lo {{LOCALDAY}} {{LOCALMONTHNAME}}',
 );
 
 /** Galician (galego)
@@ -2061,6 +2099,15 @@ $messages['nl'] = array(
 	'ffeed-featuredtexts-short-title' => 'Aanbevolen teksten',
 	'ffeed-featuredtexts-desc' => 'De beste teksten die {{SITENAME}} te bieden heeft',
 	'ffeed-featuredtexts-entry' => 'Aanbevolgen teksten van {{SITENNAME}} van {{LOCALDAY}} {{LOCALMONTHNAME}}',
+);
+
+/** ‪Nederlands (informeel)‬ (‪Nederlands (informeel)‬)
+ * @author Siebrand
+ */
+$messages['nl-informal'] = array(
+	'ffeed-dyk-title' => 'Feed voor "Wist je dat" van {{SITENAME}}',
+	'ffeed-dyk-short-title' => 'Wist je dat?',
+	'ffeed-dyk-entry' => 'Wist je dat?: {{LOCALDAY}} {{LOCALMONTHNAME}}',
 );
 
 /** Oriya (ଓଡ଼ିଆ)
