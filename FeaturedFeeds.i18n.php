@@ -1589,6 +1589,7 @@ $messages['jv'] = array(
 	'ffeed-motd-title' => 'Lebon saran media dina iki {{SITENAME}}',
 	'ffeed-motd-short-title' => 'Media dina iki',
 	'ffeed-motd-desc' => 'Sebagéyan media paling apik nèng {{SITENAME}}',
+	'ffeed-motd-entry' => 'Mèdia dina iki {{SITENAME}} kanggo {{LOCALMONTHNAME}} {{LOCALDAY}}',
 	'ffeed-potd-title' => 'Lebon gambar dina iki {{SITENAME}}',
 	'ffeed-potd-short-title' => 'Gambar dina iki',
 	'ffeed-potd-desc' => 'Sapèrangan gambar paling apik nèng {{SITENAME}}',
@@ -2112,8 +2113,18 @@ $messages['nl-informal'] = array(
 
 /** Oriya (ଓଡ଼ିଆ)
  * @author Jnanaranjan Sahu
+ * @author Shisir 1945
  */
 $messages['or'] = array(
+	'ffeed-no-feed' => 'ଫିଡ୍‌ ଦିଆଯାଇନାହିଁ',
+	'ffeed-feed-not-found' => '$1 ଫିଡ୍‌ ମିଳିଲା ନାହିଁ',
+	'ffeed-entry-not-found' => '$1 ରେ ଫିଡ୍‌ ପ୍ରବେଶ ନାହିଁ',
+	'ffeed-sidebar-section' => 'ବିଶେଷ ବସ୍ତୁ ଫିଡ୍‌',
+	'ffeed-invalid-timestamp' => 'ଅବୈଧ ଫିଡ୍‌ ସମୟ',
+	'ffeed-featured-title' => '{{SITENAME}} ବିଶେଷ ଲେଖା ଫିଡ୍‌',
+	'ffeed-featured-short-title' => 'ବିଶେଷ ଲେଖା',
+	'ffeed-featured-desc' => '{{SITENAME}} ପ୍ରସ୍ତାବିତ ଶ୍ରେଷ୍ଠ ଲେଖା',
+	'ffeed-featured-entry' => '{{LOCALMONTHNAME}} {{LOCALDAY}} {{SITENAME}} ବିଶେଷ ଲେଖା',
 	'ffeed-dyk-short-title' => 'ଆପଣ ଜାଣନ୍ତି କି ?',
 	'ffeed-dyk-desc' => '{{SITENAME}}ରୁ ନୂତନତମ ଜିନିଷ',
 	'ffeed-dyk-entry' => 'ଆପଣ ଜାଣନ୍ତି କି ? : {{LOCALMONTHNAME}} {{LOCALDAY}}',
@@ -2600,6 +2611,7 @@ $messages['sq'] = array(
 	'ffeed-feed-not-found' => 'Furnizuesi $1 nuk u gjet',
 	'ffeed-entry-not-found' => 'Shënimi i furnizuesit për $1 nuk u gjet',
 	'ffeed-sidebar-section' => 'Furnizuesit e përmbajtjes së veçuar',
+	'ffeed-featured-title' => '{{SITENAME}} furnizuesi me artikuj të veçuar',
 	'ffeed-featured-short-title' => 'Artikujt e veçuar',
 	'ffeed-featured-desc' => 'Artikujt më të mirë {{SITENAME}} duhet të ofrojë',
 	'ffeed-good-title' => '{{SITENAME}} furnizuesi me artikuj të mirë',
@@ -2867,6 +2879,19 @@ $messages['uk'] = array(
 	'ffeed-qotd-short-title' => 'Цитата дня',
 	'ffeed-qotd-desc' => 'Кращі цитати на {{SITENAME}}',
 	'ffeed-qotd-entry' => 'Цитата дня з {{GRAMMAR:genitive|{{SITENAME}}}} за {{LOCALDAY}} {{LOCALMONTHNAMEGEN}}',
+);
+
+/** Urdu (اردو)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['ur'] = array(
+	'ffeed-sidebar-section' => 'نمایاں مواد فیڈ',
+	'ffeed-featured-short-title' => 'فيچرڈ مضامین',
+	'ffeed-good-short-title' => 'اچھے مضامین',
+	'ffeed-onthisday-short-title' => 'اس دن پر...',
+	'ffeed-onthisday-desc' => 'اس دن پر تاریخی واقعات',
+	'ffeed-dyk-short-title' => 'کیا آپ جانتے ہیں ؟',
+	'ffeed-qotd-short-title' => 'از: دن کے',
 );
 
 /** Veps (vepsän kel’)
