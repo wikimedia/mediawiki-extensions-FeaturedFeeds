@@ -1558,6 +1558,8 @@ $messages['ja'] = array(
 	'ffeed-dyk-title' => '{{SITENAME}} "ご存じでしたか?" フィード',
 	'ffeed-dyk-short-title' => 'ご存じでしたか?',
 	'ffeed-dyk-entry' => 'ご存じでしたか?: {{LOCALMONTHNAME}}{{LOCALDAY}}日',
+	'ffeed-featuredtexts-title' => '{{SITENAME}} 秀逸な文章フィード',
+	'ffeed-featuredtexts-entry' => '{{SITENAME}} {{LOCALMONTHNAME}}{{LOCALDAY}}日の秀逸な文章',
 );
 
 /** Javanese (Basa Jawa)
@@ -1833,6 +1835,14 @@ $messages['lt'] = array(
 	'ffeed-dyk-short-title' => 'Ar jūs žinote?',
 	'ffeed-potd-short-title' => 'Dienos nuotrauka',
 	'ffeed-qotd-short-title' => 'Dienos citata',
+);
+
+/** Latvian (latviešu)
+ * @author Papuass
+ */
+$messages['lv'] = array(
+	'ffeed-onthisday-short-title' => 'Šajā dienā...',
+	'ffeed-dyk-short-title' => 'Vai tu zināji?',
 );
 
 /** Macedonian (македонски)
@@ -2189,41 +2199,41 @@ $messages['pms'] = array(
 	'ffeed-desc' => 'A gionta ij fluss ëd publicassion për ij contnù consejà da la wiki',
 	'ffeed-no-feed' => 'Sorgiss nen specificà',
 	'ffeed-feed-not-found' => 'Sorgiss $1 pa trovà',
-	'ffeed-entry-not-found' => 'Element feed për $1 pa trovà',
-	'ffeed-sidebar-section' => 'Feed për ij contnù arcomandà',
-	'ffeed-invalid-timestamp' => 'Timestamp dël feed pa bon',
-	'ffeed-featured-title' => 'Feed {{SITENAME}} ëd le vos arcomandà',
+	'ffeed-entry-not-found' => 'Element dël fluss për $1 pa trovà',
+	'ffeed-sidebar-section' => 'Fluss ëd contnù caraterìstich',
+	'ffeed-invalid-timestamp' => "Stampin d'orari dël fluss pa bon",
+	'ffeed-featured-title' => 'Fluss ëd le vos arcomandà ëd {{SITENAME}}',
 	'ffeed-featured-short-title' => 'Vos arcomandà',
 	'ffeed-featured-desc' => "Le mej vos che {{SITENAME}} a l'ha da eufre",
-	'ffeed-featured-entry' => '{{LOCALMONTHNAME}} {{LOCALDAY}} {{SITENAME}} vos arcomandà',
-	'ffeed-good-title' => 'Feed ëd le bon-e vos ëd {{SITENAME}}',
-	'ffeed-good-short-title' => 'Bon-e vos',
-	'ffeed-good-desc' => "Bn-e vos che {{SITENAME}} a l'ha da eufre",
-	'ffeed-good-entry' => '{{LOCALMONTHNAME}} {{LOCALDAY}} {{SITENAME}} vos bon-e',
-	'ffeed-onthisday-title' => 'Feed "Ancheuj ..." ëd {{SITENAME}}',
-	'ffeed-onthisday-short-title' => 'Ancheuj...',
-	'ffeed-onthisday-desc' => "Event stòrich d'ancheuj",
+	'ffeed-featured-entry' => 'Vos arcomandà ëd {{SITENAME}} ai {{LOCALDAY}} {{LOCALMONTHNAME}}',
+	'ffeed-good-title' => 'Fluss ëd le vos bele ëd {{SITENAME}}',
+	'ffeed-good-short-title' => 'Artìcoj bej',
+	'ffeed-good-desc' => "Artìcoj bej che {{SITENAME}} a l'ha da eufre",
+	'ffeed-good-entry' => 'Artìcoj bej ëd {{SITENAME}} dij {{LOCALDAY}} {{LOCALMONTHNAME}}',
+	'ffeed-onthisday-title' => 'Fluss «Col di-là ...» ëd {{SITENAME}}',
+	'ffeed-onthisday-short-title' => 'Col di-là...',
+	'ffeed-onthisday-desc' => 'Event ëstòrich an col di-là',
 	'ffeed-onthisday-entry' => 'Ancheuj: {{LOCALMONTHNAME}} {{LOCALDAY}}',
-	'ffeed-dyk-title' => 'Feed "Lo sas-to?" ëd {{SITENAME}}',
+	'ffeed-dyk-title' => 'Fluss «Lo sa-lo?» ëd {{SITENAME}}',
 	'ffeed-dyk-short-title' => 'Lo sas-to?',
-	'ffeed-dyk-desc' => 'Dai pi neuv contnù ëd {{SITENAME}}',
+	'ffeed-dyk-desc' => 'Dai contnù pì recent ëd {{SITENAME}}',
 	'ffeed-dyk-entry' => 'Lo sas-to?: {{LOCALMONTHNAME}} {{LOCALDAY}}',
-	'ffeed-motd-title' => 'Feed dël mojen dël di ëd {{SITENAME}}',
+	'ffeed-motd-title' => 'Fluss dël mojen dël di ëd {{SITENAME}}',
 	'ffeed-motd-short-title' => 'Mojen dël di',
-	'ffeed-motd-desc' => 'Cheicun dij mej mojen dzora a {{SITENAME}}',
-	'ffeed-motd-entry' => 'Mojen dël di ëd {{SITENAME}} për {{LOCALMONTHNAME}} {{LOCALDAY}}',
-	'ffeed-potd-title' => 'Feed ëd la fòto dël di ëd {{SITENAME}}',
-	'ffeed-potd-short-title' => 'Foto dël di',
-	'ffeed-potd-desc' => 'Cheicun ëd le mej fòto dzora a {{SITENAME}}',
-	'ffeed-potd-entry' => 'Fòto dël di ëd {{SITENAME}} për {{LOCALMONTHNAME}} {{LOCALDAY}}',
-	'ffeed-qotd-title' => 'Feed ëd la sitassion dël di ëd {{SITENAME}}',
+	'ffeed-motd-desc' => 'Cheidun dij mej mojen dzora a {{SITENAME}}',
+	'ffeed-motd-entry' => 'Mojen dël di ëd {{SITENAME}} për ij {{LOCALDAY}} {{LOCALMONTHNAME}}',
+	'ffeed-potd-title' => 'Fluss ëd la fòto dël di ëd {{SITENAME}}',
+	'ffeed-potd-short-title' => 'Fòto dël di',
+	'ffeed-potd-desc' => 'Cheidun-e ëd le mej fòto dzora a {{SITENAME}}',
+	'ffeed-potd-entry' => 'Fòto dël di ëd {{SITENAME}} për ij {{LOCALDAY}} {{LOCALMONTHNAME}}',
+	'ffeed-qotd-title' => 'Fluss ëd la sitassion dël di ëd {{SITENAME}}',
 	'ffeed-qotd-short-title' => 'Sitassion dël di',
-	'ffeed-qotd-desc' => 'Cheicun-e dle mej sitassion dzora a {{SITENAME}}',
-	'ffeed-qotd-entry' => 'Sitassion dël di ëd {{SITENAME}} për {{LOCALMONTHNAME}} {{LOCALDAY}}',
-	'ffeed-featuredtexts-title' => 'Feed {{SITENAME}} dij test arcomandà',
+	'ffeed-qotd-desc' => 'Cheidun-e dle mej sitassion dzora a {{SITENAME}}',
+	'ffeed-qotd-entry' => 'Sitassion dël di ëd {{SITENAME}} për ij {{LOCALDAY}} {{LOCALMONTHNAME}}',
+	'ffeed-featuredtexts-title' => 'Fluss dij test arcomandà ëd {{SITENAME}}',
 	'ffeed-featuredtexts-short-title' => 'Test arcomandà',
 	'ffeed-featuredtexts-desc' => "Ij mej test che {{SITENAME}} a l'ha da eufre",
-	'ffeed-featuredtexts-entry' => '{{LOCALMONTHNAME}} {{LOCALDAY}} {{SITENAME}} test arcomandà',
+	'ffeed-featuredtexts-entry' => 'Test ëd {{SITENAME}} arcomandà ai {{LOCALDAY}} {{LOCALMONTHNAME}}',
 );
 
 /** Western Punjabi (پنجابی)
