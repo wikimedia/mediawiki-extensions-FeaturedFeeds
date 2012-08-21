@@ -2061,6 +2061,7 @@ $messages['mt'] = array(
 );
 
 /** Norwegian Bokmål (‪norsk (bokmål)‬)
+ * @author Danmichaelo
  * @author Event
  */
 $messages['nb'] = array(
@@ -2072,6 +2073,13 @@ $messages['nb'] = array(
 	'ffeed-invalid-timestamp' => 'Ugyldig matingstidsstempel',
 	'ffeed-featured-short-title' => 'Utvalgte artikler',
 	'ffeed-featured-desc' => 'De beste artiklene {{SITENAME}} har å tilby',
+	'ffeed-onthisday-short-title' => 'På denne dag…',
+	'ffeed-onthisday-desc' => 'Historiske hendelser på denne dag',
+	'ffeed-onthisday-entry' => 'På denne dag: {{LOCALMONTHNAME}} {{LOCALDAY}}',
+	'ffeed-dyk-short-title' => 'Visste du at?',
+	'ffeed-dyk-desc' => 'Fra {{SITENAME}}s nyeste innhold',
+	'ffeed-dyk-entry' => 'Visste du at?: {{LOCALMONTHNAME}} {{LOCALDAY}}',
+	'ffeed-qotd-short-title' => 'Dagens sitat',
 );
 
 /** Dutch (Nederlands)
