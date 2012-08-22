@@ -2318,6 +2318,7 @@ $messages['pt'] = array(
 
 /** Romanian (română)
  * @author Firilacroco
+ * @author Minisarm
  * @author Stelistcristi
  */
 $messages['ro'] = array(
@@ -2344,7 +2345,7 @@ $messages['ro'] = array(
 	'ffeed-motd-desc' => 'Unele dintre cele mai bune fișiere media de pe {{SITENAME}}',
 	'ffeed-motd-entry' => 'Fișierul media al zilei de pe {{SITENAME}} pentru {{LOCALDAY}} {{LOCALMONTHNAME}}',
 	'ffeed-potd-title' => 'Fluxul imaginea zilei de pe {{SITENAME}}',
-	'ffeed-potd-short-title' => 'Pictura zilei',
+	'ffeed-potd-short-title' => 'Imaginea zilei',
 	'ffeed-potd-desc' => 'Unele dintre cele mai bune imagini de pe {{SITENAME}}',
 	'ffeed-potd-entry' => 'Imaginea zilei de pe {{SITENAME}} pentru {{LOCALDAY}} {{LOCALMONTHNAME}}',
 	'ffeed-qotd-title' => 'Fluxul citatul zilei al {{SITENAME}}',
