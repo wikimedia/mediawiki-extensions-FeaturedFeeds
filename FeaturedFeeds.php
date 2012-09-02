@@ -8,16 +8,15 @@ if ( !defined( 'MEDIAWIKI' ) ) {
 	die( 'Not a valid entry point' );
 }
 
-
 $wgExtensionCredits['other'][] = array(
 	'path' => __FILE__,
 	'name' => 'FeaturedFeeds',
 	'author' => array( 'Max Semenik' ),
-	'url' => '//mediawiki.org/wiki/Extension:FeaturedFeeds',
+	'url' => 'https://mediawiki.org/wiki/Extension:FeaturedFeeds',
 	'descriptionmsg' => 'ffeed-desc',
 );
 
-$dir = dirname( __FILE__ );
+$dir = __DIR__;
 
 $wgAutoloadClasses['ApiFeaturedFeeds'] = "$dir/ApiFeaturedFeeds.php";
 $wgAutoloadClasses['FeaturedFeeds'] = "$dir/FeaturedFeeds.body.php";

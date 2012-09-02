@@ -21,7 +21,8 @@ class SpecialFeedItem extends UnlistedSpecialPage {
 			return;
 		}
 		$feed = $feeds[$feedName];
-		$timestamp = wfTimestamp( TS_UNIX, $date );
+		$ts = new MWTimestamp( $date );
+		$timestamp = $ts->getTimestamp();
 		if ( !$timestamp ) {
 			$out->showErrorPage( 'error', 'ffeed-invalid-timestamp' );
 			return;

@@ -136,7 +136,7 @@ class FeaturedFeeds {
 	 * @return bool
 	 */
 	public static function articleSaveComplete( $article ) {
-		global $wgFeaturedFeeds, $wgMemc, $wgLanguageCode;
+		global $wgMemc, $wgLanguageCode;
 		$title = $article->getTitle();
 		// Although message names are configurable and can be set not to start with 'Ffeed', we
 		// make a shortcut here to avoid running these checks on every NS_MEDIAWIKI edit
@@ -186,8 +186,6 @@ class FeaturedFeeds {
 		return $feeds;
 	}
 
-	
-
 	/**
 	 * Returns the Unix timestamp of current day's first second
 	 * 
@@ -203,7 +201,8 @@ class FeaturedFeeds {
 
 	/**
 	 * Returns the Unix timestamp of current day's first second
-	 * 
+	 *
+	 * @param $timestamp
 	 * @return int Timestamp
 	 */
 	public static function startOfDay( $timestamp ) {
@@ -224,8 +223,9 @@ class FeaturedFeeds {
 	 * @return int: Time in seconds
 	 */
 	public static function getMaxAge() {
+		$ts = new MWTimestamp();
 		// add 10 seconds to cater for time deviation between servers
-		$expiry = self::todaysStart() + 24 * 3600 - wfTimestamp() + 10;
+		$expiry = self::todaysStart() + 24 * 3600 - $ts->getTimestamp() + 10;
 		return min( $expiry, 3600 );
 	}
 }
@@ -257,6 +257,11 @@ class FeaturedFeedChannel {
 	public $shortTitle;
 	public $description;
 
+	/**
+	 * @param $name string
+	 * @param $options array
+	 * @param $lang Language
+	 */
 	public function __construct( $name, $options, $lang ) {
 		global $wgContLang;
 
@@ -372,8 +377,9 @@ class FeaturedFeedChannel {
 			return false;
 		}
 		$text = self::$parser->parse( $text, $title, self::$parserOptions )->getText();
+		$ts = new MWTimestamp( $date );
 		$url = SpecialPage::getTitleFor( 'FeedItem' , 
-			$this->name . '/' . wfTimestamp( TS_MW, $date ) . '/' . $this->languageCode
+			$this->name . '/' . $ts->getTimestamp( TS_MW ) . '/' . $this->languageCode
 		)->getFullURL();
 
 		if ( !isset( $this->titleForParse ) ) {
