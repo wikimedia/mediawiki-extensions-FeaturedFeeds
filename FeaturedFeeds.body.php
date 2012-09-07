@@ -85,6 +85,7 @@ class FeaturedFeeds {
 	public static function beforePageDisplay( OutputPage &$out ) {
 		global $wgAdvertisedFeedTypes;
 		if ( $out->getTitle()->isMainPage() ) {
+			/** @var FeaturedFeedChannel $feed */
 			foreach ( self::getFeeds( $out->getLanguage()->getCode() ) as $feed ) {
 				foreach ( $wgAdvertisedFeedTypes as $type ) {
 					$out->addLink( array(
@@ -115,6 +116,7 @@ class FeaturedFeeds {
 			$feeds = self::getFeeds( $sk->getContext()->getLanguage()->getCode() );
 			$links = array();
 			$format = $wgAdvertisedFeedTypes[0]; // @fixme:
+			/** @var FeaturedFeedChannel $feed */
 			foreach ( $feeds as $feed ) {
 				$links[] = array(
 					'href' => $feed->getURL( $format ),
@@ -200,21 +202,50 @@ class FeaturedFeeds {
 	}
 
 	/**
+	 * Returns the Unix timestamp of current week's first second
+	 *
+	 * @return int Timestamp
+	 */
+	public static function startOfThisWeek() {
+		static $time = false;
+		if ( !$time ) {
+			$dt = new DateTime( 'this week', self::getTimezone() );
+			$dt->setTime( 0, 0, 0 );
+			$time = $dt->getTimestamp();
+		}
+		return $time;
+	}
+
+	/**
 	 * Returns the Unix timestamp of current day's first second
 	 *
 	 * @param $timestamp
 	 * @return int Timestamp
 	 */
 	public static function startOfDay( $timestamp ) {
-		global $wgLocaltimezone;
-		if ( isset( $wgLocaltimezone ) ) {
-			$tz = new DateTimeZone( $wgLocaltimezone );
-		} else {
-			$tz = new DateTimeZone( date_default_timezone_get() );
-		}
-		$dt = new DateTime( "@$timestamp", $tz );
+		$dt = new DateTime( "@$timestamp", self::getTimezone() );
 		$dt->setTime( 0, 0, 0 );
 		return $dt->getTimestamp();
+	}
+
+	/**
+	 * @return DateTimeZone
+	 */
+	private static function getTimezone() {
+		global $wgLocaltimezone;
+		static $timeZone;
+
+		if ( $timeZone === null ) {
+			if ( isset( $wgLocaltimezone ) ) {
+				$tz = $wgLocaltimezone;
+			} else {
+				wfSuppressWarnings();
+				$tz = date_default_timezone_get();
+				wfRestoreWarnings();
+			}
+			$timeZone = new DateTimeZone( $tz );
+		}
+		return $timeZone;
 	}
 
 	/**
@@ -343,8 +374,20 @@ class FeaturedFeedChannel {
 		$this->init();
 		if ( $this->items === false ) {
 			$this->items = array();
+			switch ( $this->options['frequency'] ) {
+				case 'daily':
+					$ratio = 1;
+					$baseTime = FeaturedFeeds::todaysStart();
+					break;
+				case 'weekly':
+					$ratio = 7;
+					$baseTime = FeaturedFeeds::startOfThisWeek();
+					break;
+				default:
+					throw new MWException( "'{$this->options['frequency']}' is not a valid frequency" );
+			}
 			for ( $i = 1 - $this->options['limit']; $i <= 0; $i++ ) {
-				$timestamp = FeaturedFeeds::todaysStart() + $i * 24 * 3600;
+				$timestamp = $baseTime + $i * $ratio * 24 * 3600;
 				$item = $this->getFeedItem( $timestamp );
 				if ( $item ) {
 					$this->items[] = $item;
