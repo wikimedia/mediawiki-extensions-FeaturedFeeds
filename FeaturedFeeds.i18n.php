@@ -1663,7 +1663,7 @@ $messages['ka'] = array(
  * @author 아라
  */
 $messages['ko'] = array(
-	'ffeed-desc' => '위키의 알찬 컨텐츠에 대한 피드를 제공',
+	'ffeed-desc' => '위키의 알찬 콘텐츠의 배급 피드 제공',
 	'ffeed-no-feed' => '피드가 제시되지 않았습니다.',
 	'ffeed-feed-not-found' => '$1 피드가 없습니다',
 	'ffeed-entry-not-found' => '$1 피드 항목이 없습니다.',
