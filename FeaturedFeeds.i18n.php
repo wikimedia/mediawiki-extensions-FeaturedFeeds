@@ -2715,6 +2715,7 @@ $messages['sr-ec'] = array(
 );
 
 /** Swedish (svenska)
+ * @author Ainali
  * @author WikiPhoenix
  */
 $messages['sv'] = array(
@@ -2722,7 +2723,9 @@ $messages['sv'] = array(
 	'ffeed-no-feed' => 'Flöde är inte angivet',
 	'ffeed-feed-not-found' => 'Flöde $1 hittades inte',
 	'ffeed-entry-not-found' => 'Flödesinmatning för $1 hittades inte',
+	'ffeed-sidebar-section' => 'Flöden med utmärkt innehåll',
 	'ffeed-invalid-timestamp' => 'Ogiltig flödestidstämpel',
+	'ffeed-featured-title' => '{{SITENAME}} flöde för utmärkta artiklar',
 	'ffeed-featured-short-title' => 'Utmärkta artiklar',
 	'ffeed-featured-desc' => 'Bästa artiklarna {{SITENAME}} har att erbjuda',
 	'ffeed-featured-entry' => '{{LOCALMONTHNAME}} {{LOCALDAY}} {{SITENAME}} utmärkt artikel',
@@ -2752,6 +2755,8 @@ $messages['sv'] = array(
 	'ffeed-qotd-entry' => '{{SITENAME}} dagens citat för {{LOCALMONTHNAME}} {{LOCALDAY}}',
 	'ffeed-featuredtexts-title' => '{{SITENAME}} flöde för utmärkta texter',
 	'ffeed-featuredtexts-short-title' => 'Utmärkta texter',
+	'ffeed-featuredtexts-desc' => 'Bästa artiklarna {{SITENAME}} har att erbjuda',
+	'ffeed-featuredtexts-entry' => '{{LOCALMONTHNAME}} {{LOCALDAY}} {{SITENAME}} utmärkt artikel',
 );
 
 /** Swahili (Kiswahili)
