@@ -43,7 +43,7 @@ $specialPageAliases['tr'] = array(
 	'FeedItem' => array( 'ÜrünBesleme' ),
 );
 
-/** Simplified Chinese (‪中文（简体）‬) */
+/** Simplified Chinese (中文（简体）‎) */
 $specialPageAliases['zh-hans'] = array(
 	'FeedItem' => array( '供稿项目' ),
 );
