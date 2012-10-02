@@ -324,7 +324,7 @@ $messages['ba'] = array(
 	'ffeed-featuredtexts-entry' => '{{GRAMMAR:genitive|{{SITENAME}}}}-тың {{LOCALDAY}} {{LOCALMONTHNAMEGEN}} көнөндә һайланған яҙма',
 );
 
-/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (беларуская (тарашкевіца)‎)
  * @author EugeneZelenko
  * @author Jim-by
  * @author Wizardist
@@ -2060,7 +2060,7 @@ $messages['mt'] = array(
 	'ffeed-featuredtexts-desc' => 'L-aqwa testi offruti minn {{SITENAME}}',
 );
 
-/** Norwegian Bokmål (‪norsk (bokmål)‬)
+/** Norwegian Bokmål (norsk (bokmål)‎)
  * @author Danmichaelo
  * @author Event
  */
@@ -2127,7 +2127,7 @@ $messages['nl'] = array(
 	'ffeed-featuredtexts-entry' => 'Aanbevolgen teksten van {{SITENNAME}} van {{LOCALDAY}} {{LOCALMONTHNAME}}',
 );
 
-/** ‪Nederlands (informeel)‬ (‪Nederlands (informeel)‬)
+/** Nederlands (informeel)‎ (Nederlands (informeel)‎)
  * @author Siebrand
  */
 $messages['nl-informal'] = array(
@@ -2670,7 +2670,7 @@ $messages['sq'] = array(
 	'ffeed-featuredtexts-entry' => '{{LOCALMONTHNAME}} {{LOCALDAY}} {{SITENAME}} teksti i veçuar',
 );
 
-/** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (српски (ћирилица)‎)
  * @author Rancher
  */
 $messages['sr-ec'] = array(
@@ -3024,7 +3024,7 @@ $messages['vi'] = array(
 	'ffeed-featuredtexts-entry' => 'Văn kiện chọn lọc tại {{SITENAME}} ngày {{LOCALDAY}} {{LOCALMONTHNAME}}',
 );
 
-/** Simplified Chinese (‪中文（简体）‬)
+/** Simplified Chinese (中文（简体）‎)
  * @author Liangent
  * @author Linforest
  * @author Xiaomingyan
@@ -3070,7 +3070,7 @@ $messages['zh-hans'] = array(
 	'ffeed-featuredtexts-entry' => '{{SITENAME}}{{LOCALMONTHNAME}}{{LOCALDAY}}日的特色文字',
 );
 
-/** Traditional Chinese (‪中文（繁體）‬)
+/** Traditional Chinese (中文（繁體）‎)
  * @author Oapbtommy
  * @author Simon Shek
  * @author Waihorace
