@@ -28,6 +28,11 @@ $specialPageAliases['diq'] = array(
 	'FeedItem' => array( 'LeteWeynayış' ),
 );
 
+/** Japanese (日本語) */
+$specialPageAliases['ja'] = array(
+	'FeedItem' => array( 'フィード項目' ),
+);
+
 /** Korean (한국어) */
 $specialPageAliases['ko'] = array(
 	'FeedItem' => array( '피드목록' ),
