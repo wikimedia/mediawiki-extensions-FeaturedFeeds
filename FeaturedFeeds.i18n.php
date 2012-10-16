@@ -2138,6 +2138,7 @@ $messages['nl-informal'] = array(
 
 /** Oriya (ଓଡ଼ିଆ)
  * @author Jnanaranjan Sahu
+ * @author Odisha1
  * @author Shisir 1945
  */
 $messages['or'] = array(
@@ -2150,6 +2151,7 @@ $messages['or'] = array(
 	'ffeed-featured-short-title' => 'ବିଶେଷ ଲେଖା',
 	'ffeed-featured-desc' => '{{SITENAME}} ପ୍ରସ୍ତାବିତ ଶ୍ରେଷ୍ଠ ଲେଖା',
 	'ffeed-featured-entry' => '{{LOCALMONTHNAME}} {{LOCALDAY}} {{SITENAME}} ବିଶେଷ ଲେଖା',
+	'ffeed-onthisday-short-title' => 'ଏହି ଦିନରେ...',
 	'ffeed-dyk-short-title' => 'ଆପଣ ଜାଣନ୍ତି କି ?',
 	'ffeed-dyk-desc' => '{{SITENAME}}ରୁ ନୂତନତମ ଜିନିଷ',
 	'ffeed-dyk-entry' => 'ଆପଣ ଜାଣନ୍ତି କି ? : {{LOCALMONTHNAME}} {{LOCALDAY}}',
