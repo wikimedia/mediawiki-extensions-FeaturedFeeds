@@ -81,29 +81,39 @@ $messages['en'] = array(
  * @author Max Semenik
  * @author Mormegil
  * @author Purodha
+ * @author Umherirrender
  */
 $messages['qqq'] = array(
 	'ffeed-desc' => '{{desc}}',
 	'ffeed-feed-not-found' => '$1 is a feed name',
 	'ffeed-entry-not-found' => '$1 is a date',
+	'ffeed-enable-sidebar-links' => '{{notranslate}}',
+	'ffeed-featured-page' => '{{notranslate}}',
 	'ffeed-featured-title' => 'Title of the Featured Articles [[w:web feed|syndication feed]]',
 	'ffeed-featured-desc' => 'Description of the Featured Articles [[w:web feed|syndication feed]]',
 	'ffeed-featured-entry' => "Title of day's entry in the Featured Articles [[w:web feed|syndication feed]]",
+	'ffeed-good-page' => '{{notranslate}}',
 	'ffeed-good-title' => 'Title of the Good Articles [[w:web feed|syndication feed]]',
 	'ffeed-good-desc' => 'Description of the Good Articles [[w:web feed|syndication feed]]',
 	'ffeed-good-entry' => "Title of day's entry in the Good Articles [[w:web feed|syndication feed]]",
+	'ffeed-onthisday-page' => '{{notranslate}}',
 	'ffeed-onthisday-title' => 'Title of the "On this day..." [[w:web feed|syndication feed]]',
 	'ffeed-onthisday-desc' => 'Description of the "On this day..." [[w:web feed|syndication feed]]',
 	'ffeed-onthisday-entry' => 'Title of day\'s entry in the "On this day..." [[w:Web feed|syndication feeds]]',
+	'ffeed-dyk-page' => '{{notranslate}}',
 	'ffeed-dyk-title' => 'Title of the "Did you know?" [[w:web feed|syndication feed]]',
 	'ffeed-dyk-desc' => 'Description of the "Did you know?" [[w:web feed|syndication feed]]',
 	'ffeed-dyk-entry' => 'Title of day\'s entry in the "Did you know?" [[w:Web feed|syndication feeds]]',
+	'ffeed-motd-page' => '{{notranslate}}',
 	'ffeed-motd-title' => 'Title of the Media of the Day [[w:web feed|syndication feed]]',
 	'ffeed-motd-desc' => 'Description of the Media of the Day [[w:web feed|syndication feed]]',
 	'ffeed-motd-entry' => "Title of day's entry in the Media of the Day [[w:web feed|syndication feed]]",
+	'ffeed-potd-page' => '{{notranslate}}',
 	'ffeed-potd-title' => 'Title of the Picture Of The Day [[w:web feed|syndication feed]]',
 	'ffeed-potd-desc' => 'Description of the Picture Of The Day [[w:web feed|syndication feed]]',
 	'ffeed-potd-entry' => "Title of day's entry in the Media of the Day [[w:web feed|syndication feed]]",
+	'ffeed-qotd-page' => '{{notranslate}}',
+	'ffeed-featuredtexts-page' => '{{notranslate}}',
 	'ffeed-featuredtexts-title' => 'Title of the Featured Texts [[w:web feed|syndication feed]]',
 	'ffeed-featuredtexts-desc' => 'Description of the Featured Texts [[w:web feed|syndication feed]]',
 	'ffeed-featuredtexts-entry' => "Title of day's entry in the Featured Texts [[w:web feed|syndication feed]]",
@@ -2259,8 +2269,8 @@ $messages['pms'] = array(
 $messages['pnb'] = array(
 	'ffeed-desc' => 'وکی دے فیچرڈ لکھتاں چ سنڈیکیشن رلاؤ',
 	'ffeed-no-feed' => 'فیڈ نئیں دسی گئی۔',
-	'ffeed-feed-not-found' => 'فیڈ 1$ نئیں لبی',
-	'ffeed-entry-not-found' => 'تریخ 1$ لئی نئیں لبی۔',
+	'ffeed-feed-not-found' => 'فیڈ 1$ نئیں لبی', # Fuzzy
+	'ffeed-entry-not-found' => 'تریخ 1$ لئی نئیں لبی۔', # Fuzzy
 	'ffeed-sidebar-section' => 'فیچرڈ کونٹنٹ فیڈز',
 	'ffeed-invalid-timestamp' => 'ناں منی جان والی فیڈ ٹائیمسٹیمپ',
 	'ffeed-featured-title' => '{{SITENAME}} فیچرڈ آرٹیکل فیڈ',
@@ -2381,6 +2391,7 @@ $messages['ru'] = array(
 	'ffeed-entry-not-found' => 'Не найден элемент канала $1',
 	'ffeed-sidebar-section' => 'Каналы избранных материалов',
 	'ffeed-invalid-timestamp' => 'Ошибочная отметка времени канала',
+	'ffeed-enable-sidebar-links' => '-',
 	'ffeed-featured-title' => 'Канал избранных статей {{GRAMMAR:genitive|{{SITENAME}}}}',
 	'ffeed-featured-short-title' => 'Избранные статьи',
 	'ffeed-featured-desc' => 'Лучшие статьи {{GRAMMAR:genitive|{{SITENAME}}}}',
@@ -2662,9 +2673,9 @@ $messages['sq'] = array(
 	'ffeed-potd-short-title' => 'Fotografia e ditës',
 	'ffeed-potd-desc' => 'Disa nga fotografitë më të mira në {{SITENAME}}',
 	'ffeed-potd-entry' => '{{SITENAME}} fotografia e ditës për {{LOCALMONTHNAME}} {{LOCALDAY}}',
-	'ffeed-qotd-title' => '{{SITENAME} furnizuesi me thënien e ditës',
+	'ffeed-qotd-title' => '{{SITENAME} furnizuesi me thënien e ditës', # Fuzzy
 	'ffeed-qotd-short-title' => 'Thënia e ditës',
-	'ffeed-qotd-desc' => 'Disa nga thëniet më të mira në {{SITENAME}',
+	'ffeed-qotd-desc' => 'Disa nga thëniet më të mira në {{SITENAME}', # Fuzzy
 	'ffeed-qotd-entry' => 'Thënia e ditës {{SITENAME}} për {{LOCALMONTHNAME}} {{LOCALDAY}}',
 	'ffeed-featuredtexts-title' => 'Furnizuesi me tekste të veçuara {{SITENAME}}',
 	'ffeed-featuredtexts-short-title' => 'Tekstet e veçuara',
@@ -2716,7 +2727,8 @@ $messages['sr-ec'] = array(
 	'ffeed-featuredtexts-entry' => 'Изабрани текст на {{SITENAME}} за {{LOCALDAY}} {{LOCALMONTHNAME}}',
 );
 
-/** Serbian (Latin script) (srpski (latinica)‎) */
+/** Serbian (Latin script) (srpski (latinica)‎)
+ */
 $messages['sr-el'] = array(
 	'ffeed-desc' => 'Dodaje dovode za izabrani sadržaj na viki',
 	'ffeed-no-feed' => 'Dovod nije izabran',
@@ -2842,7 +2854,7 @@ $messages['ta'] = array(
 	'ffeed-dyk-desc' => '{{SITENAME}} லிருந்து புதிய உள்ளடக்கம்',
 	'ffeed-dyk-entry' => 'உங்களுக்கு தெரியுமா?: {{LOCALMONTHNAME}} {{LOCALDAY}}',
 	'ffeed-motd-short-title' => 'இன்றைய ஊடகம்',
-	'ffeed-potd-title' => '{SITENAME}} இன்றைய சிறப்புப் படம் ஓடை',
+	'ffeed-potd-title' => '{SITENAME}} இன்றைய சிறப்புப் படம் ஓடை', # Fuzzy
 	'ffeed-potd-short-title' => 'இன்றைய சிறப்புப்படம்',
 	'ffeed-potd-desc' => 'சில சிறந்த படங்கள்  {{SITENAME}}ல்',
 	'ffeed-potd-entry' => '{{SITENAME}}இன்றைய சிறப்புப்படம்  {{LOCALMONTHNAME}} {{LOCALDAY}}க்கு',
@@ -3117,4 +3129,3 @@ $messages['zh-hant'] = array(
 	'ffeed-featuredtexts-desc' => '{{SITENAME}}所提供的最佳文本',
 	'ffeed-featuredtexts-entry' => '{{LOCALMONTHNAME}} {{LOCALDAY}} {{SITENAME}}特色文本',
 );
-
