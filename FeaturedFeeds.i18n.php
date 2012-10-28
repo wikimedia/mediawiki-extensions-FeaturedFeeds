@@ -2391,7 +2391,6 @@ $messages['ru'] = array(
 	'ffeed-entry-not-found' => 'Не найден элемент канала $1',
 	'ffeed-sidebar-section' => 'Каналы избранных материалов',
 	'ffeed-invalid-timestamp' => 'Ошибочная отметка времени канала',
-	'ffeed-enable-sidebar-links' => '-',
 	'ffeed-featured-title' => 'Канал избранных статей {{GRAMMAR:genitive|{{SITENAME}}}}',
 	'ffeed-featured-short-title' => 'Избранные статьи',
 	'ffeed-featured-desc' => 'Лучшие статьи {{GRAMMAR:genitive|{{SITENAME}}}}',
