@@ -48,6 +48,11 @@ $specialPageAliases['mk'] = array(
 	'FeedItem' => array( 'СтавкаОдКанал' ),
 );
 
+/** Sicilian (sicilianu) */
+$specialPageAliases['scn'] = array(
+	'FeedItem' => array( 'FeedElemento' ),
+);
+
 /** Turkish (Türkçe) */
 $specialPageAliases['tr'] = array(
 	'FeedItem' => array( 'ÜrünBesleme' ),
