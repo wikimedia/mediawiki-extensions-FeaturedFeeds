@@ -380,6 +380,19 @@ $messages['be-tarask'] = array(
 	'ffeed-featuredtexts-entry' => 'Найлепшы тэкст {{GRAMMAR:родны|{{SITENAME}}}} за {{LOCALDAY}} {{LOCALMONTHNAMEGEN}}',
 );
 
+/** Bulgarian (български)
+ * @author Stanqo
+ */
+$messages['bg'] = array(
+	'ffeed-onthisday-short-title' => 'На този ден...',
+	'ffeed-onthisday-desc' => 'Исторически събития на този ден',
+	'ffeed-onthisday-entry' => 'На този ден: {{LOCALMONTHNAME}} {{LOCALDAY}}',
+	'ffeed-potd-desc' => 'Някои от най-добрите снимки на {{SITENAME}}',
+	'ffeed-qotd-short-title' => 'Цитат на деня',
+	'ffeed-qotd-desc' => 'Някои от най-добрите снимки на {{SITENAME}}',
+	'ffeed-qotd-entry' => '{{SITENAME}} цитат на деня за {{LOCALMONTHNAME}} {{LOCALDAY}}',
+);
+
 /** Bengali (বাংলা)
  * @author Bellayet
  * @author Nasir8891
