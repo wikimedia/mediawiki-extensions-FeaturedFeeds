@@ -381,16 +381,17 @@ $messages['be-tarask'] = array(
 );
 
 /** Bulgarian (български)
+ * @author DCLXVI
  * @author Stanqo
  */
 $messages['bg'] = array(
 	'ffeed-onthisday-short-title' => 'На този ден...',
 	'ffeed-onthisday-desc' => 'Исторически събития на този ден',
-	'ffeed-onthisday-entry' => 'На този ден: {{LOCALMONTHNAME}} {{LOCALDAY}}',
+	'ffeed-onthisday-entry' => 'На този ден: {{LOCALDAY}} {{LOCALMONTHNAME}}',
 	'ffeed-potd-desc' => 'Някои от най-добрите снимки на {{SITENAME}}',
 	'ffeed-qotd-short-title' => 'Цитат на деня',
 	'ffeed-qotd-desc' => 'Някои от най-добрите снимки на {{SITENAME}}',
-	'ffeed-qotd-entry' => '{{SITENAME}} цитат на деня за {{LOCALMONTHNAME}} {{LOCALDAY}}',
+	'ffeed-qotd-entry' => 'Цитат на деня в {{SITENAME}} за {{LOCALDAY}} {{LOCALMONTHNAME}}',
 );
 
 /** Bengali (বাংলা)
