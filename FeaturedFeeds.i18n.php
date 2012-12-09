@@ -308,6 +308,20 @@ $messages['az'] = array(
 	'ffeed-featuredtexts-short-title' => 'Seçilmiş mətnlər',
 );
 
+/** South Azerbaijani (تورکجه)
+ * @author Amir a57
+ */
+$messages['azb'] = array(
+	'ffeed-good-short-title' => 'یاخشی مقاله',
+	'ffeed-onthisday-short-title' => 'بو گون...',
+	'ffeed-dyk-short-title' => 'بیلیرسینیزمی؟',
+	'ffeed-dyk-entry' => 'بیلیرسینیزمی؟: {{LOCALMONTHNAME}} {{LOCALDAY}}',
+	'ffeed-motd-short-title' => 'گونون شکیلی',
+	'ffeed-potd-short-title' => 'گونون شکیلی',
+	'ffeed-qotd-short-title' => 'گونون سیتاتی',
+	'ffeed-featuredtexts-short-title' => 'سئچیلمیش متن‌لر',
+);
+
 /** Bashkir (башҡортса)
  * @author Roustammr
  * @author Гүзәл Ситдиҡова
