@@ -312,6 +312,7 @@ $messages['az'] = array(
  * @author Amir a57
  */
 $messages['azb'] = array(
+	'ffeed-featured-short-title' => 'سئچیلمیش یازی',
 	'ffeed-good-short-title' => 'یاخشی مقاله',
 	'ffeed-onthisday-short-title' => 'بو گون...',
 	'ffeed-dyk-short-title' => 'بیلیرسینیزمی؟',
