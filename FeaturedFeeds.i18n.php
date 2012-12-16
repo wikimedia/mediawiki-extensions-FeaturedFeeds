@@ -81,10 +81,11 @@ $messages['en'] = array(
  * @author Max Semenik
  * @author Mormegil
  * @author Purodha
+ * @author Shirayuki
  * @author Umherirrender
  */
 $messages['qqq'] = array(
-	'ffeed-desc' => '{{desc}}',
+	'ffeed-desc' => '{{desc|name=Featured Feeds|url=http://www.mediawiki.org/wiki/Extension:FeaturedFeeds}}',
 	'ffeed-feed-not-found' => '$1 is a feed name',
 	'ffeed-entry-not-found' => '$1 is a date',
 	'ffeed-enable-sidebar-links' => '{{notranslate}}',
