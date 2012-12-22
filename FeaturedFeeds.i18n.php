@@ -2394,6 +2394,7 @@ $messages['ro'] = array(
 	'ffeed-qotd-short-title' => 'Citatul zilei',
 	'ffeed-qotd-desc' => 'Unele dintre cele mai bune citate de pe {{SITENAME}}',
 	'ffeed-qotd-entry' => 'Citatul zilei de pe {{SITENAME}} pentru {{LOCALDAY}} {{LOCALMONTHNAME}}',
+	'ffeed-featuredtexts-short-title' => 'Texte recomandate',
 );
 
 /** tarandíne (tarandíne)
