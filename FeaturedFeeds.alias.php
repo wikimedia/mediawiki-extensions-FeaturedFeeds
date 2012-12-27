@@ -62,3 +62,8 @@ $specialPageAliases['tr'] = array(
 $specialPageAliases['zh-hans'] = array(
 	'FeedItem' => array( '供稿项目' ),
 );
+
+/** Traditional Chinese (中文（繁體）‎) */
+$specialPageAliases['zh-hant'] = array(
+	'FeedItem' => array( '供稿項目' ),
+);

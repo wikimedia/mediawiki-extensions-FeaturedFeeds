@@ -1404,8 +1404,14 @@ $messages['hu'] = array(
 	'ffeed-motd-title' => '{{SITENAME}} "a nap médiafájlja" hírcsatorna',
 	'ffeed-motd-short-title' => 'A nap médiafájlja',
 	'ffeed-motd-desc' => 'Néhány a {{SITENAME}} legjobb médiafájljai közül',
+	'ffeed-potd-title' => '{{SITENAME}} a nap képe hírcsatorna',
 	'ffeed-potd-short-title' => 'A nap képe',
+	'ffeed-potd-desc' => '{{SITENAME}} néhány legjobb képe',
+	'ffeed-qotd-title' => '{{SITENAME}} a nap idézete hírcsatorna',
 	'ffeed-qotd-short-title' => 'A nap idézete',
+	'ffeed-qotd-desc' => 'Néhány a {{SITENAME}} legjobb idézetei közül',
+	'ffeed-featuredtexts-title' => 'A(z) {{SITENAME}} kiemelt szövegeti hírcsatornája',
+	'ffeed-featuredtexts-short-title' => 'Kiemelt szövegek',
 );
 
 /** Interlingua (interlingua)
