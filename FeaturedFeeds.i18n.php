@@ -1896,6 +1896,7 @@ $messages['lt'] = array(
 $messages['lv'] = array(
 	'ffeed-onthisday-short-title' => 'Šajā dienā...',
 	'ffeed-dyk-short-title' => 'Vai tu zināji?',
+	'ffeed-potd-short-title' => 'Dienas attēls',
 );
 
 /** Macedonian (македонски)
