@@ -621,12 +621,16 @@ $messages['cy'] = array(
 );
 
 /** Danish (dansk)
+ * @author Christian List
  * @author Hylle
  * @author Tjernobyl
  */
 $messages['da'] = array(
+	'ffeed-desc' => "Tilføjer syndikerede feeds af wiki's fremhævede indhold",
 	'ffeed-no-feed' => 'Feed ikke angivet',
 	'ffeed-feed-not-found' => 'Feedet $1 blev ikke fundet',
+	'ffeed-entry-not-found' => 'Feed-indlæg for $1 blev ikke fundet',
+	'ffeed-sidebar-section' => 'Fremhævet indhold feeds',
 	'ffeed-featured-short-title' => 'Fremhævede artikler',
 	'ffeed-featured-desc' => 'Bedste artikler på {{SITENAME}}',
 	'ffeed-good-short-title' => 'Gode artikler',
