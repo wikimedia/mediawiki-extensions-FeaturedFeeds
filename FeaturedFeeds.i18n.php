@@ -2193,6 +2193,7 @@ $messages['nl-informal'] = array(
  * @author Shisir 1945
  */
 $messages['or'] = array(
+	'ffeed-desc' => 'ଉଇକିର ବିଶେଷ ଲେଖାର ସିଣ୍ଡିକେଶନ ଫିଡକୁ ଯୋଡନ୍ତୁ',
 	'ffeed-no-feed' => 'ଫିଡ୍‌ ଦିଆଯାଇନାହିଁ',
 	'ffeed-feed-not-found' => '$1 ଫିଡ୍‌ ମିଳିଲା ନାହିଁ',
 	'ffeed-entry-not-found' => '$1 ରେ ଫିଡ୍‌ ପ୍ରବେଶ ନାହିଁ',
@@ -2202,17 +2203,34 @@ $messages['or'] = array(
 	'ffeed-featured-short-title' => 'ବିଶେଷ ଲେଖା',
 	'ffeed-featured-desc' => '{{SITENAME}} ପ୍ରସ୍ତାବିତ ଶ୍ରେଷ୍ଠ ଲେଖା',
 	'ffeed-featured-entry' => '{{LOCALMONTHNAME}} {{LOCALDAY}} {{SITENAME}} ବିଶେଷ ଲେଖା',
+	'ffeed-good-title' => '{{SITENAME}} ଭଲ ଲେଖାଗୁଡିକର ମନ୍ତବ୍ୟ',
+	'ffeed-good-short-title' => 'ଭଲ ଲେଖାଗୁଡିକ',
+	'ffeed-good-desc' => 'ଭଲ ଲେଖାଗୁଡିକର {{SITENAME}} କୁ ଦିଆଯିବ',
+	'ffeed-good-entry' => '{{LOCALMONTHNAME}} {{LOCALDAY}} {{SITENAME}} ଭଲ ଲେଖା',
+	'ffeed-onthisday-title' => '{{SITENAME}} "ଏହିଦିନର..." ମନ୍ତବ୍ୟ',
 	'ffeed-onthisday-short-title' => 'ଏହି ଦିନରେ...',
+	'ffeed-onthisday-desc' => 'ଏହି ଦିନରେ ଐତିହାସିକ ଘଟଣାବଳୀ',
+	'ffeed-onthisday-entry' => 'ଏହିଦିନରେ: {{LOCALMONTHNAME}} {{LOCALDAY}}',
+	'ffeed-dyk-title' => '{{SITENAME}} "ଆପଣ ଜାଣନ୍ତି କି ?" ମନ୍ତବ୍ୟ',
 	'ffeed-dyk-short-title' => 'ଆପଣ ଜାଣନ୍ତି କି ?',
 	'ffeed-dyk-desc' => '{{SITENAME}}ରୁ ନୂତନତମ ଜିନିଷ',
 	'ffeed-dyk-entry' => 'ଆପଣ ଜାଣନ୍ତି କି ? : {{LOCALMONTHNAME}} {{LOCALDAY}}',
+	'ffeed-motd-title' => '{{SITENAME}} ଦିନର ବଛା ମେଡିଆ ପାଇଁ ମନ୍ତବ୍ୟ',
 	'ffeed-motd-short-title' => 'ଆଜି ଦିନର ବଛା ଛବି',
 	'ffeed-motd-desc' => '{{SITENAME}}ରେ ଥିବା କେତେକ ଉନ୍ନତମାନର ଛବିମାନଙ୍କ ମଧ୍ୟରୁ',
+	'ffeed-motd-entry' => '{{LOCALMONTHNAME}} {{LOCALDAY}}ପାଇଁ {{SITENAME}} ଦିନର ବଛା ମେଡିଆ',
 	'ffeed-potd-title' => '{{SITENAME}} ଦିନର ବଛା ଛବି ପାଇଁ ମନ୍ତବ୍ୟ',
 	'ffeed-potd-short-title' => 'ଆଜି ଦିନର ବଛା ଛବି',
 	'ffeed-potd-desc' => '{{SITENAME}}ରେ ଥିବା କେତେକ ଉନ୍ନତମାନର ଛବିମାନଙ୍କ ମଧ୍ୟରୁ',
+	'ffeed-potd-entry' => '{{LOCALMONTHNAME}} {{LOCALDAY}}ପାଇଁ {{SITENAME}} ଦିନର ବଛା ଛବି',
+	'ffeed-qotd-title' => '{{SITENAME}} ଦିନର ବଛା ବାଣୀ ପାଇଁ ମନ୍ତବ୍ୟ',
 	'ffeed-qotd-short-title' => 'ଆଜି ଦିନର ବଛା ଢଗ',
 	'ffeed-qotd-desc' => '{{SITENAME}}ରେ ଥିବା କେତେକ ଉନ୍ନତମାନର ଢଗଗୁଡିକ ମଧ୍ୟରୁ',
+	'ffeed-qotd-entry' => '{{LOCALMONTHNAME}} {{LOCALDAY}}ପାଇଁ {{SITENAME}} ଦିନର ବଛା ବାଣୀ',
+	'ffeed-featuredtexts-title' => '{{SITENAME}} ବିଶେଷ ଲେଖା ପାଇଁ ମତ',
+	'ffeed-featuredtexts-short-title' => 'ବିଶେଷ ଲେଖାଗୁଡିକ',
+	'ffeed-featuredtexts-desc' => 'ଭଲ ଲେଖାଗୁଡିକର {{SITENAME}}ରୁ ଆସିବା କଥା',
+	'ffeed-featuredtexts-entry' => '{{LOCALMONTHNAME}} {{LOCALDAY}} {{SITENAME}} ବିଶେଷ ଲେଖା',
 );
 
 /** Polish (polski)
