@@ -3082,6 +3082,36 @@ $messages['ur'] = array(
 	'ffeed-qotd-short-title' => 'از: دن کے',
 );
 
+/** vèneto (vèneto)
+ * @author GatoSelvadego
+ */
+$messages['vec'] = array(
+	'ffeed-no-feed' => 'Feed nó spesifegà',
+	'ffeed-feed-not-found' => 'Feed $1 nó trovà',
+	'ffeed-entry-not-found' => 'Elemento feed par $1 nó trovà',
+	'ffeed-sidebar-section' => "Feed pa' i contegnui consejai",
+	'ffeed-invalid-timestamp' => 'Feed có timespamp nó vałido',
+	'ffeed-featured-title' => 'Feed {{SITENAME}}: voxe in vetrina',
+	'ffeed-featured-short-title' => 'Voxe in vetrina',
+	'ffeed-featured-desc' => 'Łe mejo voxe oferte da {{SITENAME}}',
+	'ffeed-featured-entry' => 'Voxe in vetrina {{SITENAME}} del {{LOCALDAY}} {{LOCALMONTHNAME}}',
+	'ffeed-good-title' => 'Feed {{SITENAME}}: voxe de cuałità',
+	'ffeed-good-short-title' => 'Voxe de cuałità',
+	'ffeed-good-desc' => 'Łe voxe de cuałità oferte da {{SITENAME}}',
+	'ffeed-good-entry' => 'Voxe de cuałità {{SITENAME}} del {{LOCALDAY}} {{LOCALMONTHNAME}}',
+	'ffeed-onthisday-title' => 'Feed {{SITENAME}}: "In sta xornada..."',
+	'ffeed-onthisday-short-title' => 'In sta xornada...',
+	'ffeed-onthisday-desc' => 'Eventi storisi in sta xornada',
+	'ffeed-onthisday-entry' => 'In sta xornada: {{LOCALDAY}} {{LOCALMONTHNAME}}',
+	'ffeed-dyk-title' => 'Feed {{SITENAME}}: "Ło savevi?"',
+	'ffeed-dyk-short-title' => 'Ło savevi?',
+	'ffeed-dyk-desc' => 'Dal contegnùo pì resente de {{SITENAME}}',
+	'ffeed-dyk-entry' => 'Ło savevi?: {{LOCALDAY}} {{LOCALMONTHNAME}}',
+	'ffeed-motd-title' => 'Feed {{SITENAME}}: file multimediałe del xorno',
+	'ffeed-motd-short-title' => 'File multimediałe del xorno',
+	'ffeed-potd-short-title' => 'Someja del xorno',
+);
+
 /** Veps (vepsän kel’)
  * @author Игорь Бродский
  */
