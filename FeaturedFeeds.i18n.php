@@ -3086,6 +3086,7 @@ $messages['ur'] = array(
  * @author GatoSelvadego
  */
 $messages['vec'] = array(
+	'ffeed-desc' => "Xonta i feed de syndication pa' i contegnui consejai dal wiki",
 	'ffeed-no-feed' => 'Feed nó spesifegà',
 	'ffeed-feed-not-found' => 'Feed $1 nó trovà',
 	'ffeed-entry-not-found' => 'Elemento feed par $1 nó trovà',
@@ -3109,7 +3110,20 @@ $messages['vec'] = array(
 	'ffeed-dyk-entry' => 'Ło savevi?: {{LOCALDAY}} {{LOCALMONTHNAME}}',
 	'ffeed-motd-title' => 'Feed {{SITENAME}}: file multimediałe del xorno',
 	'ffeed-motd-short-title' => 'File multimediałe del xorno',
+	'ffeed-motd-desc' => 'Calchedun de i mejo file multimediałi so {{SITENAME}}',
+	'ffeed-motd-entry' => 'File multimediałe del xorno {{SITENAME}} del {{LOCALDAY}} {{LOCALMONTHNAME}}',
+	'ffeed-potd-title' => 'Feed {{SITENAME}}: imaxene del xorno',
 	'ffeed-potd-short-title' => 'Someja del xorno',
+	'ffeed-potd-desc' => 'Calcheduna de łe mejo imaxene so {{SITENAME}}',
+	'ffeed-potd-entry' => 'Imaxene del xorno {{SITENAME}} del {{LOCALDAY}} {{LOCALMONTHNAME}}',
+	'ffeed-qotd-title' => 'Feed {{SITENAME}}: citasion del xorno',
+	'ffeed-qotd-short-title' => 'Citasion del xorno',
+	'ffeed-qotd-desc' => 'Calcheduna de łe mejo citasion so {{SITENAME}}',
+	'ffeed-qotd-entry' => 'Citasion del xorno {{SITENAME}} del {{LOCALDAY}} {{LOCALMONTHNAME}}',
+	'ffeed-featuredtexts-title' => 'Feed {{SITENAME}}: testi consejai',
+	'ffeed-featuredtexts-short-title' => 'Testi consejai',
+	'ffeed-featuredtexts-desc' => 'I mejo testi oferti da {{SITENAME}}',
+	'ffeed-featuredtexts-entry' => 'Testo consejà {{SITENAME}} del {{LOCALDAY}} {{LOCALMONTHNAME}}',
 );
 
 /** Veps (vepsän kel’)
