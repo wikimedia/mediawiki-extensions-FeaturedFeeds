@@ -2465,6 +2465,7 @@ $messages['roa-tara'] = array(
 	'ffeed-motd-short-title' => "Media d'a sciurnate",
 	'ffeed-potd-short-title' => "Fote d'a sciurnate",
 	'ffeed-qotd-short-title' => "Citazione d'a sciurnate",
+	'ffeed-featuredtexts-short-title' => 'Teste dettagliate',
 );
 
 /** Russian (русский)
