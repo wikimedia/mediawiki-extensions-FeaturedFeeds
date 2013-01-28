@@ -412,7 +412,7 @@ class FeaturedFeedChannel {
 		if ( $this->options['inUserLanguage'] && $this->languageCode != $wgContLang->getCode() ) {
 			$options['language'] = $this->languageCode;
 		}
-		return wfScript( 'api' ) . '?' . wfArrayToCGI( $options );
+		return wfScript( 'api' ) . '?' . wfArrayToCgi( $options );
 	}
 }
 
