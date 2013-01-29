@@ -969,6 +969,13 @@ $messages['et'] = array(
 	'ffeed-featuredtexts-entry' => '{{GRAMMAR:genitive|{{SITENAME}}}} {{LOCALDAY}}. {{LOCALMONTHNAMEGEN}} esiletõstetud tekst',
 );
 
+/** Basque (euskara)
+ * @author Joxemai
+ */
+$messages['eu'] = array(
+	'ffeed-potd-short-title' => 'Eguneko irudia',
+);
+
 /** Persian (فارسی)
  * @author Huji
  * @author Leyth
