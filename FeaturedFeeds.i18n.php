@@ -649,6 +649,7 @@ $messages['cy'] = array(
 /** Danish (dansk)
  * @author Christian List
  * @author Hylle
+ * @author Jan Friberg
  * @author Tjernobyl
  */
 $messages['da'] = array(
@@ -657,6 +658,8 @@ $messages['da'] = array(
 	'ffeed-feed-not-found' => 'Feedet $1 blev ikke fundet',
 	'ffeed-entry-not-found' => 'Feed-indlæg for $1 blev ikke fundet',
 	'ffeed-sidebar-section' => 'Fremhævet indhold feeds',
+	'ffeed-invalid-timestamp' => 'Ugyldig strømtidsstempel',
+	'ffeed-featured-title' => "{{SITENAME}}'s fremhævede artiklers strøm",
 	'ffeed-featured-short-title' => 'Fremhævede artikler',
 	'ffeed-featured-desc' => 'Bedste artikler på {{SITENAME}}',
 	'ffeed-good-short-title' => 'Gode artikler',
