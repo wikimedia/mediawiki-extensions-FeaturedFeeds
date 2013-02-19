@@ -41,6 +41,7 @@ $wgHooks['SkinTemplateOutputPageBeforeExec'][] = 'FeaturedFeeds::skinTemplateOut
 
 $wgFeaturedFeedsDefaults = array(
 	'limit' => 10,
+	'frequency' => 'daily',
 	'inUserLanguage' => false,
 );
 
