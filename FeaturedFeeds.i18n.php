@@ -102,9 +102,12 @@ $messages['qqq'] = array(
 	'ffeed-onthisday-desc' => 'Description of the "On this day..." [[w:web feed|syndication feed]]',
 	'ffeed-onthisday-entry' => 'Title of day\'s entry in the "On this day..." [[w:Web feed|syndication feeds]]',
 	'ffeed-dyk-page' => '{{notranslate}}',
-	'ffeed-dyk-title' => 'Title of the "Did you know?" [[w:web feed|syndication feed]]',
+	'ffeed-dyk-title' => 'Title of the "Did you know?" [[w:web feed|syndication feed]].
+{{Identical|Did you know}}',
+	'ffeed-dyk-short-title' => '{{Identical|Did you know}}',
 	'ffeed-dyk-desc' => 'Description of the "Did you know?" [[w:web feed|syndication feed]]',
-	'ffeed-dyk-entry' => 'Title of day\'s entry in the "Did you know?" [[w:Web feed|syndication feeds]]',
+	'ffeed-dyk-entry' => 'Title of day\'s entry in the "Did you know?" [[w:Web feed|syndication feeds]].
+{{Identical|Did you know}}',
 	'ffeed-motd-page' => '{{notranslate}}',
 	'ffeed-motd-title' => 'Title of the Media of the Day [[w:web feed|syndication feed]]',
 	'ffeed-motd-desc' => 'Description of the Media of the Day [[w:web feed|syndication feed]]',
