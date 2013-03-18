@@ -651,6 +651,7 @@ $messages['cy'] = array(
 
 /** Danish (dansk)
  * @author Christian List
+ * @author HenrikKbh
  * @author Hylle
  * @author Jan Friberg
  * @author Tjernobyl
@@ -665,19 +666,35 @@ $messages['da'] = array(
 	'ffeed-featured-title' => "{{SITENAME}}'s fremhævede artiklers strøm",
 	'ffeed-featured-short-title' => 'Fremhævede artikler',
 	'ffeed-featured-desc' => 'Bedste artikler på {{SITENAME}}',
+	'ffeed-featured-entry' => '{{LOCALMONTHNAME}} {{LOCALDAY}} {{SITENAME}} fremhævet artikel',
+	'ffeed-good-title' => '{{SITENAME}} feed for gode artikler',
 	'ffeed-good-short-title' => 'Gode artikler',
 	'ffeed-good-desc' => 'Gode artikler på {{SITENAME}}',
+	'ffeed-good-entry' => '{{LOCALMONTHNAME}} {{LOCALDAY}} {{SITENAME}} god artikel',
+	'ffeed-onthisday-title' => '{{SITENAME}} feed for "På denne dag..."',
 	'ffeed-onthisday-short-title' => 'På denne dag...',
 	'ffeed-onthisday-desc' => 'Historiske begivenheder på denne dag',
 	'ffeed-onthisday-entry' => 'På denne dag: {{LOCALMONTHNAME}} {{LOCALDAY}}',
 	'ffeed-dyk-title' => '{{SITENAME}} "Vidste du?" feed',
 	'ffeed-dyk-short-title' => 'Vidste du?',
+	'ffeed-dyk-desc' => "Fra {{SITENAME}}'s nyeste indhold",
+	'ffeed-dyk-entry' => 'Vidste du at?: {{LOCALMONTHNAME}} {{LOCALDAY}}',
+	'ffeed-motd-title' => '{{SITENAME}} dagens medie',
 	'ffeed-motd-short-title' => 'Dagens medie',
 	'ffeed-motd-desc' => 'Nogle af de bedste medier på {{SITENAME}}',
+	'ffeed-motd-entry' => '{{SITENAME}} dagens medie for {{LOCALMONTHNAME}} {{LOCALDAY}}',
+	'ffeed-potd-title' => '{{SITENAME}} dagens billede',
 	'ffeed-potd-short-title' => 'Dagens billede',
+	'ffeed-potd-desc' => 'Nogle af de bedste billeder på {{SITENAME}}',
+	'ffeed-potd-entry' => '{{SITENAME}} dagens billede for {{LOCALMONTHNAME}} {{LOCALDAY}}',
+	'ffeed-qotd-title' => '{{SITENAME}} dagens citat',
 	'ffeed-qotd-short-title' => 'Dagens citat',
+	'ffeed-qotd-desc' => 'Nogle af de bedste citaer på {{SITENAME}}',
+	'ffeed-qotd-entry' => '{{SITENAME}} dagens citat {{LOCALMONTHNAME}} {{LOCALDAY}}',
+	'ffeed-featuredtexts-title' => "{{SITENAME}}'s fremhævet artikelstrøm",
 	'ffeed-featuredtexts-short-title' => 'Fremhævede tekster',
 	'ffeed-featuredtexts-desc' => 'Bedste tekster på {{SITENAME}}',
+	'ffeed-featuredtexts-entry' => '{{LOCALMONTHNAME}} {{LOCALDAY}} {{SITENAME}} fremhævet tekst',
 );
 
 /** German (Deutsch)
