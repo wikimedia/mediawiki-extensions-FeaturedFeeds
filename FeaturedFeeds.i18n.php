@@ -1112,6 +1112,7 @@ $messages['fo'] = array(
  * @author Gomoko
  * @author Jean-Frédéric
  * @author Tpt
+ * @author Urhixidur
  */
 $messages['fr'] = array(
 	'ffeed-desc' => 'Ajoute des flux de publication du contenu du wiki',
@@ -1131,7 +1132,7 @@ $messages['fr'] = array(
 	'ffeed-onthisday-title' => 'Flux "Ce jour-là..." de {{SITENAME}}',
 	'ffeed-onthisday-short-title' => 'Ce jour-là...',
 	'ffeed-onthisday-desc' => 'Événements historiques sur cette journée',
-	'ffeed-onthisday-entry' => 'Ce jour-là: {{LOCALDAY}} {{LOCALMONTHNAME}}',
+	'ffeed-onthisday-entry' => 'Ce jour-là : {{LOCALDAY}} {{LOCALMONTHNAME}}',
 	'ffeed-dyk-title' => 'Le savez-vous ? de {{SITENAME}}',
 	'ffeed-dyk-short-title' => 'Le saviez-vous?',
 	'ffeed-dyk-desc' => 'Du contenu le plus récent de {{SITENAME}}',
