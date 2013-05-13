@@ -43,6 +43,11 @@ $specialPageAliases['ko'] = array(
 	'FeedItem' => array( '피드항목', '피드목록' ),
 );
 
+/** Luxembourgish (Lëtzebuergesch) */
+$specialPageAliases['lb'] = array(
+	'FeedItem' => array( 'Element_vun_enger_Rubrik' ),
+);
+
 /** Macedonian (македонски) */
 $specialPageAliases['mk'] = array(
 	'FeedItem' => array( 'СтавкаОдКанал' ),
