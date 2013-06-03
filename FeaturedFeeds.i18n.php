@@ -234,7 +234,7 @@ $messages['ar'] = array(
 	'ffeed-featuredtexts-entry' => 'النص المختار على {{SITENAME}} ليوم {{LOCALDAY}} {{LOCALMONTHNAME}}',
 );
 
-/** Assamese (অসমীয়া)
+/** Assamese (অসমীয়া)
  * @author Bishnu Saikia
  * @author Gitartha.bordoloi
  */
@@ -2168,7 +2168,7 @@ $messages['mt'] = array(
 	'ffeed-featuredtexts-desc' => 'L-aqwa testi offruti minn {{SITENAME}}',
 );
 
-/** Norwegian Bokmål (norsk (bokmål)‎)
+/** Norwegian Bokmål (norsk bokmål)
  * @author Danmichaelo
  * @author Event
  */
@@ -2244,7 +2244,7 @@ $messages['nl-informal'] = array(
 	'ffeed-dyk-entry' => 'Wist je dat?: {{LOCALDAY}} {{LOCALMONTHNAME}}',
 );
 
-/** Oriya (ଓଡ଼ିଆ)
+/** Oriya (ଓଡ଼ିଆ)
  * @author Jnanaranjan Sahu
  * @author Odisha1
  * @author Shisir 1945
