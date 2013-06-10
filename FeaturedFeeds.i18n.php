@@ -1651,28 +1651,43 @@ $messages['it'] = array(
 );
 
 /** Japanese (日本語)
+ * @author Fryed-peach
  * @author Shirayuki
  */
 $messages['ja'] = array(
+	'ffeed-desc' => 'ウィキの選り抜きコンテンツの配信フィードを追加します',
 	'ffeed-no-feed' => 'フィードが未指定です',
 	'ffeed-feed-not-found' => 'フィード $1 が見つかりません',
 	'ffeed-entry-not-found' => '$1 のフィードエントリーが見つかりません',
-	'ffeed-sidebar-section' => '秀逸なコンテンツのフィード',
+	'ffeed-sidebar-section' => '選り抜きコンテンツのフィード',
 	'ffeed-invalid-timestamp' => 'フィードのタイムスタンプが正しくありません',
 	'ffeed-featured-title' => '{{SITENAME}} 秀逸な記事フィード',
 	'ffeed-featured-short-title' => '秀逸な記事',
+	'ffeed-featured-desc' => '{{SITENAME}} の最高の記事を提供しています。',
 	'ffeed-featured-entry' => '{{SITENAME}} {{LOCALMONTHNAME}}{{LOCALDAY}}日の秀逸な記事',
 	'ffeed-good-title' => '{{SITENAME}} 良質な記事フィード',
 	'ffeed-good-short-title' => '良質な記事',
+	'ffeed-good-desc' => '{{SITENAME}} の良質な記事を提供しています。',
 	'ffeed-good-entry' => '{{SITENAME}} {{LOCALMONTHNAME}}{{LOCALDAY}}日の良質な記事',
 	'ffeed-onthisday-title' => '{{SITENAME}}「今日は何の日」フィード',
-	'ffeed-onthisday-short-title' => '今日は何の日...',
+	'ffeed-onthisday-short-title' => '今日は何の日',
+	'ffeed-onthisday-desc' => '本日の歴史的な出来事',
 	'ffeed-onthisday-entry' => '今日は何の日: {{LOCALMONTHNAME}}{{LOCALDAY}}日',
-	'ffeed-dyk-title' => '{{SITENAME}}「ご存じでしたか?」フィード',
-	'ffeed-dyk-short-title' => 'ご存じでしたか?',
-	'ffeed-dyk-entry' => 'ご存じでしたか?: {{LOCALMONTHNAME}}{{LOCALDAY}}日',
+	'ffeed-dyk-title' => '{{SITENAME}} 新着記事フィード',
+	'ffeed-dyk-short-title' => '新着記事',
+	'ffeed-dyk-desc' => '{{SITENAME}} の最新の記事から',
+	'ffeed-dyk-entry' => '{{LOCALMONTHNAME}}{{LOCALDAY}}日の新着記事',
+	'ffeed-motd-title' => '{{SITENAME}} 今日のメディア', # Fuzzy
+	'ffeed-motd-short-title' => '今日のメディア', # Fuzzy
+	'ffeed-motd-desc' => '{{SITENAME}} の最高のメディアの一部', # Fuzzy
+	'ffeed-motd-entry' => '{{SITENAME}} {{LOCALMONTHNAME}}{{LOCALDAY}}日の今日のメディア', # Fuzzy
+	'ffeed-potd-title' => '{{SITENAME}} 今日の一枚フィード',
+	'ffeed-potd-short-title' => '今日の一枚',
+	'ffeed-potd-desc' => '{{SITENAME}} の最高の画像の一部',
+	'ffeed-potd-entry' => '{{SITENAME}} {{LOCALMONTHNAME}}{{LOCALDAY}}日の今日の一枚',
 	'ffeed-featuredtexts-title' => '{{SITENAME}} 秀逸な文章フィード',
 	'ffeed-featuredtexts-short-title' => '秀逸な文章',
+	'ffeed-featuredtexts-desc' => '{{SITENAME}} の最高の文章を提供しています。',
 	'ffeed-featuredtexts-entry' => '{{SITENAME}} {{LOCALMONTHNAME}}{{LOCALDAY}}日の秀逸な文章',
 );
 
