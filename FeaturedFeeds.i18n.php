@@ -1000,6 +1000,7 @@ $messages['eu'] = array(
 );
 
 /** Persian (فارسی)
+ * @author Ebraminio
  * @author Huji
  * @author Leyth
  */
@@ -1025,7 +1026,7 @@ $messages['fa'] = array(
 	'ffeed-dyk-title' => 'خوراک «آیا می‌دانستید؟» {{SITENAME}}',
 	'ffeed-dyk-short-title' => 'آیا می‌دانید؟',
 	'ffeed-dyk-desc' => 'از جدیدترین محتوای {{SITENAME}}',
-	'ffeed-dyk-entry' => 'آیا می دانید؟: {{LOCALMONTHNAME}} {{LOCALDAY}}',
+	'ffeed-dyk-entry' => 'آیا می‌دانید؟: {{LOCALMONTHNAME}} {{LOCALDAY}}',
 	'ffeed-motd-title' => 'خوراک رسانهٔ روز {{SITENAME}}',
 	'ffeed-motd-short-title' => 'رسانهٔ روز',
 	'ffeed-motd-desc' => 'برخی از بهترین رسانه‌ها در {{SITENAME}}',
