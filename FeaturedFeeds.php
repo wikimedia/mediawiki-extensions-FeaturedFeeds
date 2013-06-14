@@ -12,7 +12,7 @@ $wgExtensionCredits['other'][] = array(
 	'path' => __FILE__,
 	'name' => 'FeaturedFeeds',
 	'author' => array( 'Max Semenik' ),
-	'url' => 'https://mediawiki.org/wiki/Extension:FeaturedFeeds',
+	'url' => 'https://www.mediawiki.org/wiki/Extension:FeaturedFeeds',
 	'descriptionmsg' => 'ffeed-desc',
 );
 
