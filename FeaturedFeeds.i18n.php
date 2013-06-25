@@ -2503,17 +2503,30 @@ $messages['ro'] = array(
  * @author Joetaras
  */
 $messages['roa-tara'] = array(
+	'ffeed-no-feed' => 'Feed non specificate',
+	'ffeed-feed-not-found' => 'Feed $1 non acchiate',
+	'ffeed-entry-not-found' => "'A vôsce d'u feed pe $1 non ge se iacchie",
 	'ffeed-featured-short-title' => 'Vôsce dettagliate',
 	'ffeed-good-short-title' => 'Vôsce bbuène',
 	'ffeed-good-desc' => 'Vôsce bbuène de {{SITENAME}} da offrì',
 	'ffeed-onthisday-short-title' => "Jndr'à sta sciurnate...",
 	'ffeed-onthisday-desc' => 'Avveneminde storece de sta sciurnate',
+	'ffeed-dyk-title' => '{{SITENAME}} feed "\'U sapive?"',
 	'ffeed-dyk-short-title' => "'U canusce?",
 	'ffeed-dyk-desc' => 'Da le condenute cchiù nuève de {{SITENAME}}',
 	'ffeed-dyk-entry' => "'U sapive?: {{LOCALMONTHNAME}} {{LOCALDAY}}",
+	'ffeed-motd-title' => "{{SITENAME}} feed media d'u sciurne",
 	'ffeed-motd-short-title' => "Media d'a sciurnate",
+	'ffeed-motd-desc' => 'Quaccune de le cchiù belle media sus a {{SITENAME}}',
+	'ffeed-motd-entry' => "{{SITENAME}} media d'u sciurne pe {{LOCALMONTHNAME}} {{LOCALDAY}}",
+	'ffeed-potd-title' => "{{SITENAME}} feed fote d'u sciurne",
 	'ffeed-potd-short-title' => "Fote d'a sciurnate",
+	'ffeed-potd-desc' => 'Quaccune de le cchiù belle immaggine sus a {{SITENAME}}',
+	'ffeed-potd-entry' => "{{SITENAME}} fote d'u sciurne pe {{LOCALMONTHNAME}} {{LOCALDAY}}",
+	'ffeed-qotd-title' => "{{SITENAME}} feed d'a massime d'u sciurne",
 	'ffeed-qotd-short-title' => "Citazione d'a sciurnate",
+	'ffeed-qotd-desc' => 'Quaccune de le cchiù belle massime sus a {{SITENAME}}',
+	'ffeed-qotd-entry' => "{{SITENAME}} massime d'u sciurne pe {{LOCALMONTHNAME}} {{LOCALDAY}}",
 	'ffeed-featuredtexts-short-title' => 'Teste dettagliate',
 );
 
