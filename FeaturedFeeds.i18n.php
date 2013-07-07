@@ -670,11 +670,20 @@ $messages['cs'] = array(
  * @author Pwyll
  */
 $messages['cy'] = array(
+	'ffeed-desc' => 'Yn ychwanegu ffrydiau cynghrair o gynnwys dethol y wici',
+	'ffeed-no-feed' => 'Ni nodwyd y ffrwd',
+	'ffeed-feed-not-found' => "Ni chafwyd hyd i'r ffrwd $1",
+	'ffeed-entry-not-found' => 'Ni chafwyd hyd i gofnod ar y ffrwd ar $1',
+	'ffeed-sidebar-section' => 'Ffrydiau cynnwys dethol',
+	'ffeed-invalid-timestamp' => "Stamp amser annilys i'r ffrwd",
+	'ffeed-featured-title' => 'Ffrwd erthyglau dethol {{SITENAME}}',
 	'ffeed-featured-short-title' => 'Erthyglau dethol',
-	'ffeed-featured-desc' => "Yr erthyglau gorau sydd gan {{SITENAME}} i'w cynnig",
-	'ffeed-good-title' => 'Ffrwd erthyglau gorau {{SITENAME}}',
+	'ffeed-featured-desc' => "Yr erthyglau gorau sydd gan {{SITENAME}} i'w gynnig",
+	'ffeed-featured-entry' => '{{LOCALDAY}} {{LOCALMONTHNAME}} erthygl ddethol {{SITENAME}}',
+	'ffeed-good-title' => 'Ffrwd erthyglau da {{SITENAME}}',
 	'ffeed-good-short-title' => 'Erthyglau da',
 	'ffeed-good-desc' => "Yr erthyglau da sydd gan {{SITENAME}} i'w cynnig",
+	'ffeed-good-entry' => '{{LOCALDAY}} {{LOCALMONTHNAME}} erthygl dda {{SITENAME}}',
 	'ffeed-onthisday-title' => 'Ffrwd "Ar y dydd hwn..." {{SITENAME}}',
 	'ffeed-onthisday-short-title' => 'Ar y dydd hwn...',
 	'ffeed-onthisday-desc' => "Digwyddiadau hanesyddol o'r diwrnod hwn",
@@ -682,15 +691,17 @@ $messages['cy'] = array(
 	'ffeed-dyk-title' => 'Ffrwd "Wyddoch chi?" {{SITENAME}}',
 	'ffeed-dyk-short-title' => 'Wyddoch chi?',
 	'ffeed-dyk-desc' => 'O gynnwys diweddaraf {{SITENAME}}',
-	'ffeed-dyk-entry' => 'Wyddoch chi?: {{LOCALMONTHNAME}} {{LOCALDAY}}',
+	'ffeed-dyk-entry' => 'Wyddoch chi?: {{LOCALDAY}} {{LOCALMONTHNAME}}',
 	'ffeed-motd-title' => 'Ffrwd cyfrwng y dydd {{SITENAME}}',
 	'ffeed-motd-short-title' => 'Ffeil gyfrwng y dydd',
-	'ffeed-potd-title' => 'Ffrwd llun y dydd {{SITENAME}}',
+	'ffeed-potd-title' => 'Ffrwd delwedd y dydd {{SITENAME}}',
 	'ffeed-potd-short-title' => 'Delwedd y dydd',
 	'ffeed-potd-desc' => 'Rhai o ddelweddau gorau {{SITENAME}}',
+	'ffeed-potd-entry' => 'Delwedd y dydd {{SITENAME}} ar {{LOCALDAY}} {{LOCALMONTHNAME}}',
 	'ffeed-qotd-title' => 'Ffrwd dyfyniad y dydd {{SITENAME}}',
 	'ffeed-qotd-short-title' => 'Dyfyniad y dydd',
 	'ffeed-qotd-desc' => 'Rhai o ddyfyniadau gorau {{SITENAME}}',
+	'ffeed-qotd-entry' => 'Dyfyniad y dydd {{SITENAME}} ar {{LOCALDAY}} {{LOCALMONTHNAME}}',
 );
 
 /** Danish (dansk)
