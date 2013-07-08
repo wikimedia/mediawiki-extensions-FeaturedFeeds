@@ -2558,14 +2558,24 @@ $messages['ro'] = array(
  * @author Joetaras
  */
 $messages['roa-tara'] = array(
+	'ffeed-desc' => 'Aggiunge le feed syndication de le condenute dettagliate de uicchi',
 	'ffeed-no-feed' => 'Feed non specificate',
 	'ffeed-feed-not-found' => 'Feed $1 non acchiate',
 	'ffeed-entry-not-found' => "'A vôsce d'u feed pe $1 non ge se iacchie",
+	'ffeed-sidebar-section' => 'Feed cu condenute dettagliate',
+	'ffeed-invalid-timestamp' => "Orarie d'u feed invalide",
+	'ffeed-featured-title' => 'feed de le vôsce dettagliate de {{SITENAME}}',
 	'ffeed-featured-short-title' => 'Vôsce dettagliate',
+	'ffeed-featured-desc' => 'Le megghie vôsce ca {{SITENAME}} offre',
+	'ffeed-featured-entry' => 'vôsce dettagliate de {{LOCALMONTHNAME}} {{LOCALDAY}} {{SITENAME}}',
+	'ffeed-good-title' => 'feed de le vôsce bbuène de {{SITENAME}}',
 	'ffeed-good-short-title' => 'Vôsce bbuène',
 	'ffeed-good-desc' => 'Vôsce bbuène de {{SITENAME}} da offrì',
+	'ffeed-good-entry' => 'vôsce bbone de {{LOCALMONTHNAME}} {{LOCALDAY}} {{SITENAME}}',
+	'ffeed-onthisday-title' => 'feed "De sta sciurnate..." de {{SITENAME}}',
 	'ffeed-onthisday-short-title' => "Jndr'à sta sciurnate...",
 	'ffeed-onthisday-desc' => 'Avveneminde storece de sta sciurnate',
+	'ffeed-onthisday-entry' => 'Sta sciurnate: {{LOCALMONTHNAME}} {{LOCALDAY}}',
 	'ffeed-dyk-title' => '{{SITENAME}} feed "\'U sapive?"',
 	'ffeed-dyk-short-title' => "'U canusce?",
 	'ffeed-dyk-desc' => 'Da le condenute cchiù nuève de {{SITENAME}}',
@@ -2582,7 +2592,10 @@ $messages['roa-tara'] = array(
 	'ffeed-qotd-short-title' => "Citazione d'a sciurnate",
 	'ffeed-qotd-desc' => 'Quaccune de le cchiù belle massime sus a {{SITENAME}}',
 	'ffeed-qotd-entry' => "{{SITENAME}} massime d'u sciurne pe {{LOCALMONTHNAME}} {{LOCALDAY}}",
+	'ffeed-featuredtexts-title' => 'feed de teste dettagliate de {{SITENAME}}',
 	'ffeed-featuredtexts-short-title' => 'Teste dettagliate',
+	'ffeed-featuredtexts-desc' => 'Le megghie teste ca {{SITENAME}} offre',
+	'ffeed-featuredtexts-entry' => 'teste dettagliate {{LOCALMONTHNAME}} {{LOCALDAY}} {{SITENAME}}',
 );
 
 /** Russian (русский)
