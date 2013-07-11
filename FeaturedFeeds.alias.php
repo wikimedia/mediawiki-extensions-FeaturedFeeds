@@ -28,6 +28,11 @@ $specialPageAliases['diq'] = array(
 	'FeedItem' => array( 'LeteWeynayış' ),
 );
 
+/** Persian (فارسی) */
+$specialPageAliases['fa'] = array(
+	'FeedItem' => array( 'خوراک_آیتم' ),
+);
+
 /** Italian (italiano) */
 $specialPageAliases['it'] = array(
 	'FeedItem' => array( 'FeedElemento' ),
