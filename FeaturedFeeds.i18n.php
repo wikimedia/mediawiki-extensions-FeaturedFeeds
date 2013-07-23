@@ -114,6 +114,7 @@ $messages['qqq'] = array(
 	'ffeed-motd-entry' => "Title of day's entry in the Media of the Day [[w:web feed|syndication feed]]",
 	'ffeed-potd-page' => '{{notranslate}}',
 	'ffeed-potd-title' => 'Title of the Picture Of The Day [[w:web feed|syndication feed]]',
+	'ffeed-potd-short-title' => '{{Identical|Picture of the day}}',
 	'ffeed-potd-desc' => 'Description of the Picture Of The Day [[w:web feed|syndication feed]]',
 	'ffeed-potd-entry' => "Title of day's entry in the Media of the Day [[w:web feed|syndication feed]]",
 	'ffeed-qotd-page' => '{{notranslate}}',
