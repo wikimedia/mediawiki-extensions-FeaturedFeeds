@@ -1842,12 +1842,12 @@ $messages['ka'] = array(
  * @author 아라
  */
 $messages['ko'] = array(
-	'ffeed-desc' => '위키의 알찬 콘텐츠의 배급 피드 제공',
-	'ffeed-no-feed' => '피드가 제시되지 않았습니다.',
+	'ffeed-desc' => '위키의 알찬 콘텐츠의 배급 피드를 추가합니다',
+	'ffeed-no-feed' => '피드가 지정되지 않았습니다',
 	'ffeed-feed-not-found' => '$1 피드를 찾을 수 없습니다',
-	'ffeed-entry-not-found' => '$1 피드 항목이 없습니다.',
+	'ffeed-entry-not-found' => '$1의 피드 항목을 찾을 수 없습니다',
 	'ffeed-sidebar-section' => '알찬 콘텐츠 피드',
-	'ffeed-invalid-timestamp' => '피드 타임스탬프가 잘못되었습니다.',
+	'ffeed-invalid-timestamp' => '피드 타임스탬프가 잘못되었습니다',
 	'ffeed-featured-title' => '{{SITENAME}} 알찬 글 피드',
 	'ffeed-featured-short-title' => '알찬 글',
 	'ffeed-featured-desc' => '{{SITENAME}}에서 제공하는 최고의 글',
