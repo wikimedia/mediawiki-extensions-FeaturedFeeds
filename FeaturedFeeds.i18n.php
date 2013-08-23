@@ -962,6 +962,7 @@ $messages['eo'] = array(
 
 /** Spanish (español)
  * @author Armando-Martin
+ * @author Vivaelcelta
  */
 $messages['es'] = array(
 	'ffeed-desc' => 'Agrega fuentes web (feeds) de sindicación de contenido destacado del wiki',
@@ -979,7 +980,7 @@ $messages['es'] = array(
 	'ffeed-good-desc' => 'Artículos buenos que {{SITENAME}} puede ofrecer',
 	'ffeed-good-entry' => 'Artículo bueno de {{SITENAME}} el {{LOCALDAY}} {{LOCALMONTHNAME}}',
 	'ffeed-onthisday-title' => 'Fuente web (feed) "De este día..." en {{SITENAME}}',
-	'ffeed-onthisday-short-title' => 'En este día...',
+	'ffeed-onthisday-short-title' => 'Tal día como hoy...',
 	'ffeed-onthisday-desc' => 'Acontecimientos históricos en este día',
 	'ffeed-onthisday-entry' => 'En este día: {{LOCALDAY}} {{LOCALMONTHNAME}}',
 	'ffeed-dyk-title' => 'Fuente web (feed) "¿Sabía Vd. que..." en {{SITENAME}}',
