@@ -68,6 +68,11 @@ $specialPageAliases['tr'] = array(
 	'FeedItem' => array( 'ÜrünBesleme' ),
 );
 
+/** Vietnamese (Tiếng Việt) */
+$specialPageAliases['vi'] = array(
+	'FeedItem' => array( 'Khoản_mục_nguồn_tin' ),
+);
+
 /** Simplified Chinese (中文（简体）‎) */
 $specialPageAliases['zh-hans'] = array(
 	'FeedItem' => array( '供稿项目' ),
