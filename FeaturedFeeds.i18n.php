@@ -703,6 +703,8 @@ $messages['cy'] = array(
 	'ffeed-qotd-short-title' => 'Dyfyniad y dydd',
 	'ffeed-qotd-desc' => 'Rhai o ddyfyniadau gorau {{SITENAME}}',
 	'ffeed-qotd-entry' => 'Dyfyniad y dydd {{SITENAME}} ar {{LOCALDAY}} {{LOCALMONTHNAME}}',
+	'ffeed-featuredtexts-short-title' => 'Testynnau dethol',
+	'ffeed-featuredtexts-entry' => '{{LOCALMONTHNAME}} {{LOCALDAY}} Testun dethol {{SITENAME}}',
 );
 
 /** Danish (dansk)
