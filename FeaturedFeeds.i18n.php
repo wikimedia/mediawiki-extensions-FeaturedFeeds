@@ -695,6 +695,8 @@ $messages['cy'] = array(
 	'ffeed-dyk-entry' => 'Wyddoch chi?: {{LOCALDAY}} {{LOCALMONTHNAME}}',
 	'ffeed-motd-title' => 'Ffrwd cyfrwng y dydd {{SITENAME}}',
 	'ffeed-motd-short-title' => 'Ffeil gyfrwng y dydd',
+	'ffeed-motd-desc' => 'Rhai o ffeiliau cyfrwng gorau {{SITENAME}}',
+	'ffeed-motd-entry' => 'Ffeil gyfrwng y dydd ar {{SITENAME}} ar {{LOCALDAY}} {{LOCALMONTHNAME}}',
 	'ffeed-potd-title' => 'Ffrwd delwedd y dydd {{SITENAME}}',
 	'ffeed-potd-short-title' => 'Delwedd y dydd',
 	'ffeed-potd-desc' => 'Rhai o ddelweddau gorau {{SITENAME}}',
@@ -703,7 +705,9 @@ $messages['cy'] = array(
 	'ffeed-qotd-short-title' => 'Dyfyniad y dydd',
 	'ffeed-qotd-desc' => 'Rhai o ddyfyniadau gorau {{SITENAME}}',
 	'ffeed-qotd-entry' => 'Dyfyniad y dydd {{SITENAME}} ar {{LOCALDAY}} {{LOCALMONTHNAME}}',
+	'ffeed-featuredtexts-title' => 'Ffrwd testynau dethol {{SITENAME}}',
 	'ffeed-featuredtexts-short-title' => 'Testynnau dethol',
+	'ffeed-featuredtexts-desc' => "Y testynau gorau sydd gan {{SITENAME}} i'w gynnig",
 	'ffeed-featuredtexts-entry' => '{{LOCALMONTHNAME}} {{LOCALDAY}} Testun dethol {{SITENAME}}',
 );
 
