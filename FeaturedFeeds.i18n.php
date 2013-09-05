@@ -13,11 +13,11 @@ $messages = array();
  */
 $messages['en'] = array(
 	'ffeed-desc' => "Adds syndication feeds of wiki's featured content",
-	'ffeed-no-feed' => 'Feed not specified',
-	'ffeed-feed-not-found' => 'Feed $1 not found',
-	'ffeed-entry-not-found' => 'Feed entry for $1 not found',
+	'ffeed-no-feed' => 'Feed not specified.',
+	'ffeed-feed-not-found' => 'Feed $1 not found.',
+	'ffeed-entry-not-found' => 'Feed entry for $1 not found.',
 	'ffeed-sidebar-section' => 'Featured content feeds',
-	'ffeed-invalid-timestamp' => 'Invalid feed timestamp',
+	'ffeed-invalid-timestamp' => 'Invalid feed timestamp.',
 	'ffeed-enable-sidebar-links' => '-', # do not localise
 
 	# Featured Article
