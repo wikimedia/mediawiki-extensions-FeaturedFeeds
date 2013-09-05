@@ -86,8 +86,10 @@ $messages['en'] = array(
  */
 $messages['qqq'] = array(
 	'ffeed-desc' => '{{desc|name=Featured Feeds|url=http://www.mediawiki.org/wiki/Extension:FeaturedFeeds}}',
-	'ffeed-feed-not-found' => '$1 is a feed name',
-	'ffeed-entry-not-found' => '$1 is a date',
+	'ffeed-feed-not-found' => 'Used as error message. Parameters:
+* $1 - a feed name',
+	'ffeed-entry-not-found' => 'Used as error message. Parameters:
+* $1 is a date (localized, without time)',
 	'ffeed-enable-sidebar-links' => '{{notranslate}}',
 	'ffeed-featured-page' => '{{notranslate}}',
 	'ffeed-featured-title' => 'Title of the Featured Articles [[w:web feed|syndication feed]]',
