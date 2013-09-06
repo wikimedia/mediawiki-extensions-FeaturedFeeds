@@ -1722,11 +1722,11 @@ $messages['it'] = array(
  */
 $messages['ja'] = array(
 	'ffeed-desc' => 'ウィキの選り抜きコンテンツの配信フィードを追加します',
-	'ffeed-no-feed' => 'フィードが未指定です',
-	'ffeed-feed-not-found' => 'フィード $1 が見つかりません',
-	'ffeed-entry-not-found' => '$1 のフィードエントリーが見つかりません',
+	'ffeed-no-feed' => 'フィードを指定していません。',
+	'ffeed-feed-not-found' => 'フィード $1 が見つかりません。',
+	'ffeed-entry-not-found' => '$1 のフィードエントリが見つかりません。',
 	'ffeed-sidebar-section' => '選り抜きコンテンツのフィード',
-	'ffeed-invalid-timestamp' => 'フィードのタイムスタンプが正しくありません',
+	'ffeed-invalid-timestamp' => 'フィードのタイムスタンプが無効です。',
 	'ffeed-featured-title' => '{{SITENAME}} 秀逸な記事フィード',
 	'ffeed-featured-short-title' => '秀逸な記事',
 	'ffeed-featured-desc' => '{{SITENAME}} の最高の記事を提供しています。',
