@@ -1942,6 +1942,7 @@ $messages['lb'] = array(
 	'ffeed-no-feed' => 'Feed net spezifizéiert',
 	'ffeed-feed-not-found' => 'De Feed $1 gouf net fonnt',
 	'ffeed-sidebar-section' => 'Feeds vu recommandéiertem Inhalt',
+	'ffeed-invalid-timestamp' => 'Net valabele Feed-Zäitstempel',
 	'ffeed-featured-title' => 'Feed vun de recommandéierten Artikelen op {{SITENAME}}',
 	'ffeed-featured-short-title' => 'Recommandéiert Artikelen',
 	'ffeed-featured-desc' => 'Déi bescht Artikelen déi {{SITENAME}} ze bidden huet',
