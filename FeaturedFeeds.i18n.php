@@ -3325,6 +3325,13 @@ $messages['vi'] = array(
 	'ffeed-featuredtexts-entry' => 'Văn kiện chọn lọc tại {{SITENAME}} ngày {{LOCALDAY}} {{LOCALMONTHNAME}}',
 );
 
+/** Wu (吴语)
+ * @author 十弌
+ */
+$messages['wuu'] = array(
+	'ffeed-feed-not-found' => '源$1朆尋著。',
+);
+
 /** Simplified Chinese (中文（简体）‎)
  * @author Liangent
  * @author Linforest
