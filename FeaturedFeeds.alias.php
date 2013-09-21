@@ -58,6 +58,11 @@ $specialPageAliases['mk'] = array(
 	'FeedItem' => array( 'СтавкаОдКанал' ),
 );
 
+/** Malayalam (മലയാളം) */
+$specialPageAliases['ml'] = array(
+	'FeedItem' => array( 'ഫീഡ്‌ഇനം' ),
+);
+
 /** Sicilian (sicilianu) */
 $specialPageAliases['scn'] = array(
 	'FeedItem' => array( 'FeedElemento' ),
