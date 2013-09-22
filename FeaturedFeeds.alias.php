@@ -45,7 +45,7 @@ $specialPageAliases['ja'] = array(
 
 /** Korean (한국어) */
 $specialPageAliases['ko'] = array(
-	'FeedItem' => array( '피드항목', '피드목록' ),
+	'FeedItem' => array( '피드항목' ),
 );
 
 /** Luxembourgish (Lëtzebuergesch) */
