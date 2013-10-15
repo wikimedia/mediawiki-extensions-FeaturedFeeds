@@ -1076,11 +1076,11 @@ $messages['fa'] = array(
 	'ffeed-entry-not-found' => 'خوراک ورودی برای  $1 یافت نشد',
 	'ffeed-sidebar-section' => 'خوردهای محتوای برگزیده',
 	'ffeed-invalid-timestamp' => 'برچسب زمان خوراک معتبر نیست',
-	'ffeed-featured-title' => 'خوراک مقالات برجستهٔ {{SITENAME}}',
-	'ffeed-featured-short-title' => 'مقالات برگزیده',
+	'ffeed-featured-title' => 'خوراک مقاله‌های برگزیدهٔ {{SITENAME}}',
+	'ffeed-featured-short-title' => 'مقاله‌های برگزیده',
 	'ffeed-featured-desc' => 'بهترین مقاله‌هایی که {{SITENAME}} می‌تواند ارائه کند',
 	'ffeed-featured-entry' => 'مقالهٔ برگزیدهٔ {{SITENAME}} در  {{LOCALDAY}} {{LOCALMONTHNAME}}',
-	'ffeed-good-title' => 'خوراک مقالات خوب {{SITENAME}}',
+	'ffeed-good-title' => 'خوراک مقاله‌های خوب {{SITENAME}}',
 	'ffeed-good-short-title' => 'مقاله‌های خوب',
 	'ffeed-good-desc' => 'مقاله‌های خوبی که {{SITENAME}} می‌تواند ارائه کند',
 	'ffeed-good-entry' => 'مقالهٔ خوب {{SITENAME}} در {{LOCALDAY}}ام {{LOCALMONTHNAME}}',
@@ -1089,16 +1089,16 @@ $messages['fa'] = array(
 	'ffeed-onthisday-desc' => 'وقایع تاریخی امروز',
 	'ffeed-onthisday-entry' => 'در این روز: {{LOCALMONTHNAME}} {{LOCALDAY}}',
 	'ffeed-dyk-title' => 'خوراک «آیا می‌دانستید؟» {{SITENAME}}',
-	'ffeed-dyk-short-title' => 'آیا می‌دانید؟',
+	'ffeed-dyk-short-title' => 'آیا می‌دانستید که؟',
 	'ffeed-dyk-desc' => 'از جدیدترین محتوای {{SITENAME}}',
-	'ffeed-dyk-entry' => 'آیا می‌دانید؟: {{LOCALMONTHNAME}} {{LOCALDAY}}',
+	'ffeed-dyk-entry' => 'آیا می‌دانستید که؟: {{LOCALMONTHNAME}} {{LOCALDAY}}',
 	'ffeed-motd-title' => 'خوراک رسانهٔ روز {{SITENAME}}',
 	'ffeed-motd-short-title' => 'رسانهٔ روز',
 	'ffeed-motd-desc' => 'برخی از بهترین رسانه‌ها در {{SITENAME}}',
 	'ffeed-motd-entry' => 'رسانهٔ برگزیدهٔ {{SITENAME}} در {{LOCALDAY}}ام {{LOCALMONTHNAME}}',
-	'ffeed-potd-title' => 'خوراک تصویر برگزیدهٔ روز {{SITENAME}}',
-	'ffeed-potd-short-title' => 'تصویر برگزیدهٔ روز',
-	'ffeed-potd-desc' => 'برخی از بهترین نگاره‌ها در {{SITENAME}}',
+	'ffeed-potd-title' => 'خوراک نگارهٔ برگزیدهٔ روز {{SITENAME}}',
+	'ffeed-potd-short-title' => 'نگارهٔ برگزیدهٔ روز',
+	'ffeed-potd-desc' => 'برخی از بهترین نگاره‌های {{SITENAME}}',
 	'ffeed-potd-entry' => 'نگارهٔ برگزیدهٔ {{SITENAME}} در {{LOCALDAY}}ام {{LOCALMONTHNAME}}',
 	'ffeed-qotd-title' => 'خوراک گفتاورد برگزیدهٔ روز {{SITENAME}}',
 	'ffeed-qotd-short-title' => 'گفتاورد برگزیدهٔ روز',
@@ -2019,6 +2019,15 @@ $messages['li'] = array(
 	'ffeed-featuredtexts-short-title' => 'Aanbevaole tèkste',
 	'ffeed-featuredtexts-desc' => 'De bèste tèkste van {{SITENAME}}',
 	'ffeed-featuredtexts-entry' => 'Aanbevaole tèkste van {{SITENNAME}} van {{LOCALDAY}} {{LOCALMONTHNAME}}',
+);
+
+/** لوری (لوری)
+ * @author Mogoeilor
+ */
+$messages['lrc'] = array(
+	'ffeed-motd-short-title' => 'رسانه روز',
+	'ffeed-potd-short-title' => 'عسك روز',
+	'ffeed-qotd-short-title' => 'پورس روز',
 );
 
 /** Lithuanian (lietuvių)
