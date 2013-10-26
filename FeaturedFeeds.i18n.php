@@ -2143,6 +2143,7 @@ $messages['ml'] = array(
  * @author Mahitgar
  * @author Rahuldeshmukh101
  * @author Shantanoo
+ * @author V.narsikar
  */
 $messages['mr'] = array(
 	'ffeed-desc' => 'विकिच्या विशेष मजकुरांची सिंडीकेशन रसद जोडते (सिंडिकेशन शब्द कुठे दिसतो ते अभ्यासून ट्रांसलेट विकिवर जाऊन शब्दाचा सुयोग्य अनुवाद करण्यात साहाय्य करा)',
@@ -2153,7 +2154,7 @@ $messages['mr'] = array(
 	'ffeed-invalid-timestamp' => 'अग्राह्य रसद नोंदणीची वेळ:',
 	'ffeed-featured-title' => '{{SITENAME}}  विशेष लेखांची रसद',
 	'ffeed-featured-short-title' => 'विशेष लेख',
-	'ffeed-featured-desc' => '{{SITENAME}} वर उपलब्ध असलेले सर्वोत्कृउष्ट लेख',
+	'ffeed-featured-desc' => '{{SITENAME}} वर उपलब्ध असलेले सर्वोत्कृष्ट लेख',
 	'ffeed-featured-entry' => '{{LOCALMONTHNAME}} {{LOCALDAY}} {{SITENAME}} विशेष लेख',
 	'ffeed-good-title' => '{{SITENAME}} चांगल्या लेखांची रसद',
 	'ffeed-good-short-title' => 'उत्तम  लेख',
@@ -2169,7 +2170,7 @@ $messages['mr'] = array(
 	'ffeed-dyk-entry' => 'आपणास माहित आहे का ?: {{LOCALMONTHNAME}} {{LOCALDAY}}',
 	'ffeed-motd-title' => '{{SITENAME}} आजची बहुमाध्यमी क्लिपची रसद',
 	'ffeed-motd-short-title' => 'आजचे    चलचित्र',
-	'ffeed-motd-desc' => '{{SITENAME}}वरील काही  अत्युत्त्म  बहुमाध्यमी क्लिप',
+	'ffeed-motd-desc' => '{{SITENAME}}वरील काही  अत्युत्तम  बहुमाध्यमी क्लिप',
 	'ffeed-motd-entry' => '{{SITENAME}} आजची बहुमाध्यमी क्लिप  {{LOCALMONTHNAME}} {{LOCALDAY}} करिता',
 	'ffeed-potd-title' => '{{SITENAME}} आजचे छायाचित्र रसद',
 	'ffeed-potd-short-title' => 'आजचे चित्र',
