@@ -2025,6 +2025,8 @@ $messages['li'] = array(
  * @author Mogoeilor
  */
 $messages['lrc'] = array(
+	'ffeed-onthisday-short-title' => 'د امرو',
+	'ffeed-dyk-short-title' => 'شما می دونسین؟',
 	'ffeed-motd-short-title' => 'رسانه روز',
 	'ffeed-potd-short-title' => 'عسك روز',
 	'ffeed-qotd-short-title' => 'پورس روز',
