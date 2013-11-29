@@ -1851,11 +1851,11 @@ $messages['ka'] = array(
  * @author 아라
  */
 $messages['ko'] = array(
-	'ffeed-desc' => '위키의 알찬 콘텐츠의 배급 피드를 추가합니다',
+	'ffeed-desc' => '위키의 알찬 내용의 배급 피드를 추가합니다',
 	'ffeed-no-feed' => '피드가 지정되지 않았습니다',
 	'ffeed-feed-not-found' => '$1 피드를 찾을 수 없습니다',
 	'ffeed-entry-not-found' => '$1의 피드 항목을 찾을 수 없습니다',
-	'ffeed-sidebar-section' => '알찬 콘텐츠 피드',
+	'ffeed-sidebar-section' => '알찬 내용 피드',
 	'ffeed-invalid-timestamp' => '피드 타임스탬프가 잘못되었습니다',
 	'ffeed-featured-title' => '{{SITENAME}} 알찬 글 피드',
 	'ffeed-featured-short-title' => '알찬 글',
@@ -2025,6 +2025,7 @@ $messages['li'] = array(
  * @author Mogoeilor
  */
 $messages['lrc'] = array(
+	'ffeed-good-short-title' => 'گوتاریا خو',
 	'ffeed-onthisday-short-title' => 'د امرو',
 	'ffeed-dyk-short-title' => 'شما می دونسین؟',
 	'ffeed-motd-short-title' => 'رسانه روز',
