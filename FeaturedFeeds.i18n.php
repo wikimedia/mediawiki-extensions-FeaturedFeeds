@@ -624,7 +624,7 @@ $messages['ca'] = array(
 	'ffeed-featuredtexts-entry' => 'Text destacat de {{SITENAME}} el {{LOCALDAY}} {{LOCALMONTHNAME}}',
 );
 
-/** Czech (česky)
+/** Czech (čeština)
  * @author Mormegil
  */
 $messages['cs'] = array(
