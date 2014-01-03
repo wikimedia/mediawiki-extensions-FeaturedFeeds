@@ -406,7 +406,12 @@ class FeaturedFeedChannel {
 		self::$parserOptions->setTimestamp( $date );
 		self::$parserOptions->setUserLang( $this->getLanguage() );
 
-		$titleText = self::$parser->transformMsg( $this->page, self::$parserOptions );
+		if ( !isset( $this->titleForParse ) ) {
+			// parsing with such title makes stuff like {{CURRENTMONTH}} localised
+			$this->titleForParse = Title::newFromText( 'MediaWiki:Dummy/' . $this->languageCode );
+		}
+
+		$titleText = self::$parser->transformMsg( $this->page, self::$parserOptions, $this->titleForParse );
 		$title = Title::newFromText( $titleText );
 		if ( !$title ) {
 			return false;
@@ -424,11 +429,6 @@ class FeaturedFeedChannel {
 		$url = SpecialPage::getTitleFor( 'FeedItem' , 
 			$this->name . '/' . $ts->getTimestamp( TS_MW ) . '/' . $this->languageCode
 		)->getFullURL();
-
-		if ( !isset( $this->titleForParse ) ) {
-			// parsing with such title makes stuff like {{CURRENTMONTH}} localised
-			$this->titleForParse = Title::newFromText( 'MediaWiki:Dummy/' . $this->languageCode );
-		}
 
 		return new FeaturedFeedItem(
 			self::$parser->transformMsg( $this->entryName, self::$parserOptions, $this->titleForParse ),
