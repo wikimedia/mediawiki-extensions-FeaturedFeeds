@@ -1935,6 +1935,13 @@ $messages['ksh'] = array(
 	'ffeed-featuredtexts-entry' => '{{LOCALDAY}}. {{LOCALMONTHNAME}}: {{ucfirst:{{GRAMMAR:ier|{{ucfirst:{{SITENAME}}}}}}}} beste Täxte',
 );
 
+/** Ladino (Ladino)
+ * @author Menachem.Moreira
+ */
+$messages['lad'] = array(
+	'ffeed-featuredtexts-short-title' => 'Tekstos destakados',
+);
+
 /** Luxembourgish (Lëtzebuergesch)
  * @author Robby
  */
