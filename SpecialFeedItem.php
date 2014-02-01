@@ -23,7 +23,10 @@ class SpecialFeedItem extends UnlistedSpecialPage {
 		$feed = $feeds[$feedName];
 		$ts = new MWTimestamp( $date );
 		$timestamp = $ts->getTimestamp();
-		if ( !$timestamp ) {
+		if ( !$timestamp
+			|| strlen( $timestamp ) !== 14 ) // @fixme: hack until Language::sprintfDate() learns to handle
+		                                     // timestamps >= Y10k
+		{
 			$out->showErrorPage( 'error', 'ffeed-invalid-timestamp' );
 			return;
 		}
@@ -49,7 +52,7 @@ class SpecialFeedItem extends UnlistedSpecialPage {
 			$this->displayItem( $item );
 		} else {
 			$out->showErrorPage( 'error', 'ffeed-entry-not-found',
-				array( $this->getLanguage()->date( $date ) )
+				array( $this->getLanguage()->date( $date, false, false ) )
 			);
 		}
 	}
