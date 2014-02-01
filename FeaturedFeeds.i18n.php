@@ -624,6 +624,13 @@ $messages['ca'] = array(
 	'ffeed-featuredtexts-entry' => 'Text destacat de {{SITENAME}} el {{LOCALDAY}} {{LOCALMONTHNAME}}',
 );
 
+/** Chechen (нохчийн)
+ * @author Умар
+ */
+$messages['ce'] = array(
+	'ffeed-featured-entry' => 'Хаьржина яззам {{GRAMMAR:genitive|{{SITENAME}}}} цу {{LOCALDAY}} {{LOCALMONTHNAMEGEN}}',
+);
+
 /** Czech (čeština)
  * @author Mormegil
  */
