@@ -2043,6 +2043,7 @@ $messages['lrc'] = array(
 	'ffeed-good-short-title' => 'گوتاریا خو',
 	'ffeed-onthisday-short-title' => 'د امرو',
 	'ffeed-dyk-short-title' => 'شما می دونسین؟',
+	'ffeed-dyk-desc' => 'د تازه تری مینونه {{نوم سیلجا}}',
 	'ffeed-dyk-entry' => 'شما دونسین?: {{ما ولات نشین}} {{روز ولات نشین}}',
 	'ffeed-motd-short-title' => 'رسانه روز',
 	'ffeed-potd-short-title' => 'عسك روز',
