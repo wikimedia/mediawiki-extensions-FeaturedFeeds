@@ -628,6 +628,7 @@ $messages['ca'] = array(
  * @author Умар
  */
 $messages['ce'] = array(
+	'ffeed-desc' => 'Хаьржина википедин гӀирсийн Ӏуьрг тӀетуху',
 	'ffeed-featured-entry' => 'Хаьржина яззам {{GRAMMAR:genitive|{{SITENAME}}}} цу {{LOCALDAY}} {{LOCALMONTHNAMEGEN}}',
 );
 
