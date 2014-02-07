@@ -21,12 +21,8 @@ class SpecialFeedItem extends UnlistedSpecialPage {
 			return;
 		}
 		$feed = $feeds[$feedName];
-		$ts = new MWTimestamp( $date );
-		$timestamp = $ts->getTimestamp();
-		if ( !$timestamp
-			|| strlen( $timestamp ) !== 14 ) // @fixme: hack until Language::sprintfDate() learns to handle
-		                                     // timestamps >= Y10k
-		{
+		$timestamp = $this->parseTimestamp( $date );
+		if ( !$timestamp ) {
 			$out->showErrorPage( 'error', 'ffeed-invalid-timestamp' );
 			return;
 		}
@@ -55,6 +51,18 @@ class SpecialFeedItem extends UnlistedSpecialPage {
 				array( $this->getLanguage()->date( $date, false, false ) )
 			);
 		}
+	}
+
+	private function parseTimestamp( $date ) {
+		if ( strlen( $date ) !== 14 ) {
+			return false;
+		}
+		try {
+			$ts = new MWTimestamp( $date );
+		} catch( MWException $ex ) {
+			return false;
+		};
+		return $ts->getTimestamp();
 	}
 
 	private function displayItem( FeaturedFeedItem $item ) {
