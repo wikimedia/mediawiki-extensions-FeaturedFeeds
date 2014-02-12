@@ -3126,13 +3126,20 @@ $messages['ta'] = array(
 );
 
 /** Telugu (తెలుగు)
+ * @author Chaduvari
  * @author Veeven
  */
 $messages['te'] = array(
 	'ffeed-invalid-timestamp' => 'చెల్లని ఫీడు కాలముద్ర',
+	'ffeed-featured-title' => '{{SITENAME}} విశేష వ్యాసాల వడ్డింపు',
 	'ffeed-featured-short-title' => 'విశేష వ్యాసాలు',
+	'ffeed-featured-desc' => '{{SITENAME}} అందిస్తున్న అత్యుత్తమ వ్యాసాలు',
+	'ffeed-featured-entry' => '{{LOCALMONTHNAME}} {{LOCALDAY}} నాటి {{SITENAME}} విశేష వ్యాసం',
+	'ffeed-good-title' => '{{SITENAME}} మంచి వ్యాసాల వడ్డింపు',
 	'ffeed-good-short-title' => 'మంచి వ్యాసాలు',
+	'ffeed-good-desc' => '{{SITENAME}} అందిస్తున్న మంచి వ్యాసాలు',
 	'ffeed-good-entry' => '{{LOCALMONTHNAME}} {{LOCALDAY}} {{SITENAME}} మంచి వ్యాసాలు',
+	'ffeed-onthisday-title' => '{{SITENAME}} "చరిత్రలో ఈ రోజు..." వడ్డింపు',
 	'ffeed-onthisday-short-title' => 'ఈ రోజున&hellip;',
 	'ffeed-onthisday-desc' => 'ఈ రోజు జరిగిన చారిత్రక ఘటనలు',
 	'ffeed-onthisday-entry' => 'ఈ రోజున: {{LOCALMONTHNAME}} {{LOCALDAY}}',
@@ -3140,8 +3147,21 @@ $messages['te'] = array(
 	'ffeed-dyk-short-title' => 'మీకు తెలుసా?',
 	'ffeed-dyk-desc' => '{{SITENAME}} లోని కొత్త వ్యాసాల నుండి',
 	'ffeed-dyk-entry' => 'మీకు తెలుసా?: {{LOCALMONTHNAME}} {{LOCALDAY}}',
+	'ffeed-motd-title' => '{{SITENAME}} ఈనాటి మీడియా వడ్డింపు',
+	'ffeed-motd-short-title' => 'ఈనాటి మీడియా',
+	'ffeed-motd-desc' => '{{SITENAME}} లోని అత్యున్నత మీడియాలో కొంత',
+	'ffeed-motd-entry' => '{{LOCALMONTHNAME}} {{LOCALDAY}} నాటి {{SITENAME}} మీడియా',
+	'ffeed-potd-title' => '{{SITENAME}} నేటి చిత్రం వడ్డింపు',
 	'ffeed-potd-short-title' => 'నేటి చిత్రం',
+	'ffeed-potd-desc' => '{{SITENAME}} లోని అత్యున్నత బొమ్మల్లో కొన్ని',
+	'ffeed-qotd-title' => '{{SITENAME}} నేటి సూక్తి వడ్డన',
 	'ffeed-qotd-short-title' => 'నేటి వ్యాఖ్య',
+	'ffeed-qotd-desc' => '{{SITENAME}} లోని అత్యున్నత సూక్తుల్లో కొన్ని',
+	'ffeed-qotd-entry' => '{{LOCALMONTHNAME}} {{LOCALDAY}} నాటి {{SITENAME}} నేటి సూక్తి',
+	'ffeed-featuredtexts-title' => '{{SITENAME}} విశేష పాఠ్యాల వడ్డన',
+	'ffeed-featuredtexts-short-title' => 'విశేష పాఠ్యాలు',
+	'ffeed-featuredtexts-desc' => '{{SITENAME}} లోని అత్యుత్తమ పాఠ్యాలు',
+	'ffeed-featuredtexts-entry' => '{{LOCALMONTHNAME}} {{LOCALDAY}} నాటి {{SITENAME}} విశేష పాఠ్యం',
 );
 
 /** Tagalog (Tagalog)
