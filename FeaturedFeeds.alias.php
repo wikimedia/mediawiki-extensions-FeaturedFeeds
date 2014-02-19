@@ -19,6 +19,11 @@ $specialPageAliases['ar'] = array(
 	'FeedItem' => array( 'تعليق_مدخلة' ),
 );
 
+/** Egyptian Spoken Arabic (مصرى) */
+$specialPageAliases['arz'] = array(
+	'FeedItem' => array( 'مدخله_تعليق' ),
+);
+
 /** German (Deutsch) */
 $specialPageAliases['de'] = array(
 	'FeedItem' => array( 'Feedobjekt' ),
