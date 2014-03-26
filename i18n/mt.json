@@ -1,0 +1,31 @@
+{
+    "@metadata": {
+        "authors": [
+            "Chrisportelli"
+        ]
+    },
+    "ffeed-featured-short-title": "Artikli fil-vetrina",
+    "ffeed-featured-desc": "L-aqwa artikli offruti minn {{SITENAME}}",
+    "ffeed-featured-entry": "Artiklu fil-vetrina ta' {{SITENAME}} ta' {{LOCALDAY}} ta' {{LOCALMONTHNAME}}",
+    "ffeed-good-short-title": "Artikli ta' kwalità",
+    "ffeed-good-desc": "L-artikli ta' kwalità offruti minn {{SITENAME}}",
+    "ffeed-good-entry": "Artiklu ta' kwalità ta' {{SITENAME}} ta' {{LOCALDAY}} ta' {{LOCALMONTHNAME}}",
+    "ffeed-onthisday-short-title": "Bħal-lum...",
+    "ffeed-onthisday-desc": "Avvenimenti storiċi f'dan il-jum",
+    "ffeed-onthisday-entry": "Bħal-lum: {{LOCALDAY}} ta' {{LOCALMONTHNAME}}",
+    "ffeed-dyk-short-title": "Kont taf?",
+    "ffeed-dyk-desc": "Mill-kontenut l-iktar riċenti ta' {{SITENAME}}",
+    "ffeed-dyk-entry": "Kont taf?: {{LOCALDAY}} ta' {{LOCALMONTHNAME}}",
+    "ffeed-motd-short-title": "Fajl multimedjali tal-ġurnata",
+    "ffeed-motd-desc": "Uħud mill-aqwa fajls multimedjali fuq {{SITENAME}}",
+    "ffeed-motd-entry": "Fajl multimedjali tal-ġurnata ta' {{SITENAME}} ta' {{LOCALDAY}} ta' {{LOCALMONTHNAME}}",
+    "ffeed-potd-title": "''Feed'' tal-istampa tal-ġurnata ta' {{SITENAME}}",
+    "ffeed-potd-short-title": "Stampa tal-ġurnata",
+    "ffeed-potd-desc": "Uħud mill-aqwa stampi fuq {{SITENAME}}",
+    "ffeed-potd-entry": "Stampa tal-ġurnata ta' {{SITENAME}} ta' {{LOCALDAY}} ta' {{LOCALMONTHNAME}}",
+    "ffeed-qotd-title": "''Feed'' tal-kwotazzjoni tal-ġurnata ta' {{SITENAME}}",
+    "ffeed-qotd-short-title": "Kwotazzjoni tal-ġurnata",
+    "ffeed-qotd-desc": "Uħud mill-aqwa kwotazzjonijiet fuq {{SITENAME}}",
+    "ffeed-featuredtexts-short-title": "Testi fil-vetrina",
+    "ffeed-featuredtexts-desc": "L-aqwa testi offruti minn {{SITENAME}}"
+}

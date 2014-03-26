@@ -1,0 +1,43 @@
+{
+    "@metadata": {
+        "authors": [
+            "FatosMorina"
+        ]
+    },
+    "ffeed-desc": "Shton furnizuesit e sindikatës të përmbajtjes së veçuar të wikit",
+    "ffeed-no-feed": "Furnizuesi i pacaktuar",
+    "ffeed-feed-not-found": "Furnizuesi $1 nuk u gjet",
+    "ffeed-entry-not-found": "Shënimi i furnizuesit për $1 nuk u gjet",
+    "ffeed-sidebar-section": "Furnizuesit e përmbajtjes së veçuar",
+    "ffeed-featured-title": "{{SITENAME}} furnizuesi me artikuj të veçuar",
+    "ffeed-featured-short-title": "Artikujt e veçuar",
+    "ffeed-featured-desc": "Artikujt më të mirë {{SITENAME}} duhet të ofrojë",
+    "ffeed-good-title": "{{SITENAME}} furnizuesi me artikuj të mirë",
+    "ffeed-good-short-title": "Artikujt e mirë",
+    "ffeed-good-desc": "Artikujt e mirë {{SITENAME}} duhet të ofrojnë",
+    "ffeed-good-entry": "{{LOCALMONTHNAME}} {{LOCALDAY}} {{SITENAME}} artikuj të mirë",
+    "ffeed-onthisday-title": "{{SITENAME}} Furnizuesi \"Në këtë ditë...\"",
+    "ffeed-onthisday-short-title": "Në këtë ditë...",
+    "ffeed-onthisday-desc": "Ngjarjet historike në këtë ditë",
+    "ffeed-onthisday-entry": "Në këtë ditë: {{LOCALMONTHNAME}} {{LOCALDAY}}",
+    "ffeed-dyk-title": "{{SITENAME}} Furnizuesi \"A e keni ditur?\"",
+    "ffeed-dyk-short-title": "A e keni ditur?",
+    "ffeed-dyk-desc": "Nga përmbajtja më e re e {{SITENAME}}",
+    "ffeed-dyk-entry": "A e keni ditur?:{{LOCALMONTHNAME}} {{LOCALDAY}}",
+    "ffeed-motd-title": "Furnizuesi mediatik i ditës së sotme {{SITENAME}}",
+    "ffeed-motd-short-title": "Media e ditës",
+    "ffeed-motd-desc": "Disa nga mediat më të mira në {{SITENAME}}",
+    "ffeed-motd-entry": "Media e ditës {{SITENAME}} për {{LOCALMONTHNAME}} {{LOCALDAY}}",
+    "ffeed-potd-title": "Furnizuesi me fotografinë e ditës {{SITENAME}}",
+    "ffeed-potd-short-title": "Fotografia e ditës",
+    "ffeed-potd-desc": "Disa nga fotografitë më të mira në {{SITENAME}}",
+    "ffeed-potd-entry": "{{SITENAME}} fotografia e ditës për {{LOCALMONTHNAME}} {{LOCALDAY}}",
+    "ffeed-qotd-title": "{{SITENAME} furnizuesi me thënien e ditës",
+    "ffeed-qotd-short-title": "Thënia e ditës",
+    "ffeed-qotd-desc": "Disa nga thëniet më të mira në {{SITENAME}",
+    "ffeed-qotd-entry": "Thënia e ditës {{SITENAME}} për {{LOCALMONTHNAME}} {{LOCALDAY}}",
+    "ffeed-featuredtexts-title": "Furnizuesi me tekste të veçuara {{SITENAME}}",
+    "ffeed-featuredtexts-short-title": "Tekstet e veçuara",
+    "ffeed-featuredtexts-desc": "Tekstet më të mira {{SITENAME}} duhet të ofrojë",
+    "ffeed-featuredtexts-entry": "{{LOCALMONTHNAME}} {{LOCALDAY}} {{SITENAME}} teksti i veçuar"
+}

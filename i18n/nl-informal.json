@@ -1,0 +1,10 @@
+{
+    "@metadata": {
+        "authors": [
+            "Siebrand"
+        ]
+    },
+    "ffeed-dyk-title": "Feed voor \"Wist je dat\" van {{SITENAME}}",
+    "ffeed-dyk-short-title": "Wist je dat?",
+    "ffeed-dyk-entry": "Wist je dat?: {{LOCALDAY}} {{LOCALMONTHNAME}}"
+}

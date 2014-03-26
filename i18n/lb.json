@@ -1,0 +1,43 @@
+{
+    "@metadata": {
+        "authors": [
+            "Robby"
+        ]
+    },
+    "ffeed-no-feed": "Feed net spezifizéiert",
+    "ffeed-feed-not-found": "De Feed $1 gouf net fonnt",
+    "ffeed-sidebar-section": "Feeds vu recommandéiertem Inhalt",
+    "ffeed-invalid-timestamp": "Net valabele Feed-Zäitstempel",
+    "ffeed-featured-title": "Feed vun de recommandéierten Artikelen op {{SITENAME}}",
+    "ffeed-featured-short-title": "Recommandéiert Artikelen",
+    "ffeed-featured-desc": "Déi bescht Artikelen déi {{SITENAME}} ze bidden huet",
+    "ffeed-featured-entry": "Den  {{LOCALDAY}} {{LOCALMONTHNAME}} op {{SITENAME}} ausgezeechenten Artikel",
+    "ffeed-good-title": "Feed vun de gudden Artikelen op {{SITENAME}}",
+    "ffeed-good-short-title": "Gutt Artikelen",
+    "ffeed-good-desc": "Gutt Artikelen déi {{SITENAME}} ze bidden huet",
+    "ffeed-good-entry": "De gudden Artikel vum {{LOCALDAY}} {{LOCALMONTHNAME}} op {{SITENAME}}",
+    "ffeed-onthisday-title": "Feed \"Op dësem Dag..\" op {{SITENAME}}",
+    "ffeed-onthisday-short-title": "Um Dag vun haut...",
+    "ffeed-onthisday-desc": "Historesch Evenementer op dësem Dag",
+    "ffeed-onthisday-entry": "Op dësem Dag: {{LOCALMONTHNAME}} {{LOCALDAY}}",
+    "ffeed-dyk-title": "{{SITENAME}} \"Vosst Dir schonn\" Feed",
+    "ffeed-dyk-short-title": "Wosst Dir?",
+    "ffeed-dyk-desc": "De rezensten Inhalt op {{SITENAME}}",
+    "ffeed-dyk-entry": "Wosst Dir schonn?:  {{LOCALMONTHNAME}} {{LOCALDAY}}",
+    "ffeed-motd-title": "{{SITENAME}} Feed mam Medie-Fichier vum Dag",
+    "ffeed-motd-short-title": "Medie-Fichier vum Dag",
+    "ffeed-motd-desc": "E puer vun de beschte Medie-Fichieren op {{SITENAME}}",
+    "ffeed-motd-entry": "Mediefichier vum Dag  vum {{LOCALDAY}} {{LOCALMONTHNAME}} op {{SITENAME}}",
+    "ffeed-potd-title": "{{SITENAME}} Feed: Bild vum Dag",
+    "ffeed-potd-short-title": "Bild vum Dag",
+    "ffeed-potd-desc": "E puer vun de beschte Biller op {{SITENAME}}",
+    "ffeed-potd-entry": "Bild vum Dag  vum {{LOCALDAY}} {{LOCALMONTHNAME}} op {{SITENAME}}",
+    "ffeed-qotd-title": "Feed vum Zitat vum Dag op {{SITENAME}}",
+    "ffeed-qotd-short-title": "Zitat vum Dag",
+    "ffeed-qotd-desc": "E puer vun de beschte Zitater op {{SITENAME}}",
+    "ffeed-qotd-entry": "Zitat vum Dag  vum {{LOCALDAY}} {{LOCALMONTHNAME}} op {{SITENAME}}",
+    "ffeed-featuredtexts-title": "{{SITENAME}} Feed: Exzellent Texter",
+    "ffeed-featuredtexts-short-title": "Exzellent Texter",
+    "ffeed-featuredtexts-desc": "Déi bescht Texter déi {{SITENAME}} ze bidden huet",
+    "ffeed-featuredtexts-entry": "Den  {{LOCALDAY}} {{LOCALMONTHNAME}} op {{SITENAME}} ausgezeechenten Text"
+}

@@ -24,6 +24,7 @@ $wgAutoloadClasses['FeaturedFeedChannel'] = "$dir/FeaturedFeeds.body.php";
 $wgAutoloadClasses['FeaturedFeedItem'] = "$dir/FeaturedFeeds.body.php";
 $wgAutoloadClasses['SpecialFeedItem'] = "$dir/SpecialFeedItem.php";
 
+$wgMessagesDirs['FeaturedFeeds'] = __DIR__ . '/i18n';
 $wgExtensionMessagesFiles['FeaturedFeeds'] =  "$dir/FeaturedFeeds.i18n.php";
 $wgExtensionMessagesFiles['FeaturedFeedsAliases'] =  "$dir/FeaturedFeeds.alias.php";
 

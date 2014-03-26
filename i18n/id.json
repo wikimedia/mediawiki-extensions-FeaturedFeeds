@@ -1,0 +1,43 @@
+{
+    "@metadata": {
+        "authors": [
+            "Farras"
+        ]
+    },
+    "ffeed-no-feed": "Umpan tidak disebutkan",
+    "ffeed-feed-not-found": "Umpan $1 tidak ditemukan",
+    "ffeed-entry-not-found": "Entri umpan untuk $1 tidak ditemukan",
+    "ffeed-sidebar-section": "Umpan artikel pilihan",
+    "ffeed-featured-title": "Umpan artikel pilihan {{SITENAME}}",
+    "ffeed-featured-short-title": "Artikel pilihan",
+    "ffeed-featured-desc": "Artikel terbaik yang dimiliki {{SITENAME}}",
+    "ffeed-featured-entry": "Artikel pilihan {{SITENAME}} {{LOCALDAY}} {{LOCALMONTHNAME}}",
+    "ffeed-good-title": "Umpan artikel bagus {{SITENAME}}",
+    "ffeed-good-short-title": "Artikel bagus",
+    "ffeed-good-desc": "Artikel bagus yang dimiliki {{SITENAME}}",
+    "ffeed-good-entry": "Artikel bagus {{SITENAME}} {{LOCALDAY}} {{LOCALMONTHNAME}}",
+    "ffeed-onthisday-title": "Umpan \"Hari ini dalam sejarah\" {{SITENAME}}",
+    "ffeed-onthisday-short-title": "Hari ini dalam sejarah",
+    "ffeed-onthisday-desc": "Peristiwa bersejarah pada tanggal ini",
+    "ffeed-onthisday-entry": "Hari ini dalam sejarah: {{LOCALDAY}} {{LOCALMONTHNAME}}",
+    "ffeed-dyk-title": "Umpan \"Tahukah Anda?\" {{SITENAME}}",
+    "ffeed-dyk-short-title": "Tahukah Anda?",
+    "ffeed-dyk-desc": "Dari artikel terbaru {{SITENAME}}",
+    "ffeed-dyk-entry": "Tahukah Anda?: {{LOCALMONTHNAME}} {{LOCALDAY}}",
+    "ffeed-motd-title": "Umpan peristiwa terkini {{SITENAME}}",
+    "ffeed-motd-short-title": "Peristiwa terkini",
+    "ffeed-motd-desc": "Sejumlah berita terbaik di {{SITENAME}}",
+    "ffeed-motd-entry": "Peristiwa terkini {{SITENAME}} tanggal {{LOCALDAY}} {{LOCALMONTHNAME}}",
+    "ffeed-potd-title": "Umpan gambar pilihan {{SITENAME}}",
+    "ffeed-potd-short-title": "Gambar pilihan",
+    "ffeed-potd-desc": "Sejumlah gambar terbaik di {{SITENAME}}",
+    "ffeed-potd-entry": "Gambar pilihan {{SITENAME}} tanggal {{LOCALDAY}} {{LOCALMONTHNAME}}",
+    "ffeed-qotd-title": "Umpan kutipan pilihan {{SITENAME}}",
+    "ffeed-qotd-short-title": "Kutipan hari ini",
+    "ffeed-qotd-desc": "Sejumlah kutipan terbaik di {{SITENAME}}",
+    "ffeed-qotd-entry": "Kutipan pilihan {{SITENAME}} tanggal {{LOCALDAY}} {{LOCALMONTHNAME}}",
+    "ffeed-featuredtexts-title": "Umpan teks pilihan {{SITENAME}}",
+    "ffeed-featuredtexts-short-title": "Teks pilihan",
+    "ffeed-featuredtexts-desc": "Teks terbaik yang dimiliki {{SITENAME}}",
+    "ffeed-featuredtexts-entry": "Teks pilihan {{SITENAME}} {{LOCALDAY}} {{LOCALMONTHNAME}}"
+}

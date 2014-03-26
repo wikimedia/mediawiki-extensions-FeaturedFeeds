@@ -1,0 +1,14 @@
+{
+    "@metadata": {
+        "authors": [
+            "Kwisha",
+            "Stephenwanjau"
+        ]
+    },
+    "ffeed-onthisday-short-title": "Katika siku hii...",
+    "ffeed-onthisday-desc": "Matukio ya kihistoria ya siku ya leo",
+    "ffeed-onthisday-entry": "Katika siku hii: {{LOCALMONTHNAME}} {{LOCALDAY}}",
+    "ffeed-dyk-short-title": "Je ilikuwa unajua?",
+    "ffeed-potd-short-title": "Picha ya siku",
+    "ffeed-qotd-short-title": "Nukuu ya siku"
+}

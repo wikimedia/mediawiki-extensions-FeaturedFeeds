@@ -1,0 +1,16 @@
+{
+    "@metadata": {
+        "authors": [
+            "Cekli829",
+            "Vugar 1981"
+        ]
+    },
+    "ffeed-good-short-title": "Yaxşı məqalə",
+    "ffeed-onthisday-short-title": "Bu gün...",
+    "ffeed-dyk-short-title": "Bilirdinizmi?",
+    "ffeed-dyk-entry": "Bilirdinizmi?: {{LOCALMONTHNAME}} {{LOCALDAY}}",
+    "ffeed-motd-short-title": "Günün şəkli",
+    "ffeed-potd-short-title": "Günün şəkli",
+    "ffeed-qotd-short-title": "Günün sitatı",
+    "ffeed-featuredtexts-short-title": "Seçilmiş mətnlər"
+}

@@ -1,0 +1,37 @@
+{
+    "@metadata": {
+        "authors": [
+            "පසිඳු කාවින්ද"
+        ]
+    },
+    "ffeed-no-feed": "පෝෂකය විශේෂණය කර නොමැත",
+    "ffeed-feed-not-found": "$1 පෝෂකය හමු නොවුණි",
+    "ffeed-sidebar-section": "විශේෂාංග අන්තර්ගත පෝෂකය",
+    "ffeed-invalid-timestamp": "වලංගු නොවන පෝෂක කාලමුද්‍රාව",
+    "ffeed-featured-title": "{{SITENAME}} විශේෂාංග ලිපි පෝෂකය",
+    "ffeed-featured-short-title": "විශේෂාංග ලිපි",
+    "ffeed-featured-desc": "පිරිනැමීමට {{SITENAME}} හොද ලිපි",
+    "ffeed-featured-entry": "{{LOCALMONTHNAME}} {{LOCALDAY}} {{SITENAME}} විශේෂාංග ලිපිය",
+    "ffeed-good-title": "{{SITENAME}} හොද ලිපි පෝෂකය",
+    "ffeed-good-short-title": "හොද ලිපි",
+    "ffeed-good-desc": "පිරිනැමීමට {{SITENAME}} හොද ලිපි",
+    "ffeed-good-entry": "{{LOCALMONTHNAME}} {{LOCALDAY}} {{SITENAME}} හොද ලිපිය",
+    "ffeed-onthisday-title": "{{SITENAME}} \"අද දවසේදී...\" පෝෂකය",
+    "ffeed-onthisday-short-title": "අද දවසේදී...",
+    "ffeed-onthisday-desc": "අද දවසේදී සිදුවූ ඓතිහාසික සිදුවීම්",
+    "ffeed-onthisday-entry": "අද දවසේදී: {{LOCALMONTHNAME}} {{LOCALDAY}}",
+    "ffeed-dyk-title": "{{SITENAME}} \"ඔබ දන්නවාද?\" පෝෂකය",
+    "ffeed-dyk-short-title": "ඔබ දන්නවාද?",
+    "ffeed-dyk-desc": "{{SITENAME}} නවතම අන්තර්ගතයෙන්",
+    "ffeed-dyk-entry": "ඔබ දන්නවාද?: {{LOCALMONTHNAME}} {{LOCALDAY}}",
+    "ffeed-motd-title": "{{SITENAME}} දවසේ මාධ්‍ය පෝෂකය",
+    "ffeed-motd-short-title": "දවසේ මාධ්‍ය",
+    "ffeed-potd-title": "{{SITENAME}} දවසේ පින්තූරය පෝෂකය",
+    "ffeed-potd-short-title": "දවසේ පින්තූරය",
+    "ffeed-qotd-title": "{{SITENAME}} දවසේ උද්ධරණය පෝෂකය",
+    "ffeed-qotd-short-title": "දවසේ උද්ධරණය",
+    "ffeed-featuredtexts-title": "{{SITENAME}} විශේෂාංග ලිපි පෝෂකය",
+    "ffeed-featuredtexts-short-title": "විශේෂාංග පාඨ",
+    "ffeed-featuredtexts-desc": "පිරිනැමීමට {{SITENAME}} හොදම පාඨ",
+    "ffeed-featuredtexts-entry": "{{LOCALMONTHNAME}} {{LOCALDAY}} {{SITENAME}} විශේෂාංග පාඨ"
+}

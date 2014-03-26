@@ -1,0 +1,42 @@
+{
+    "@metadata": {
+        "authors": [
+            "Bdamokos",
+            "Dj",
+            "TK-999"
+        ]
+    },
+    "ffeed-desc": "Hírcsatornákat hoz létre a wiki kiemelt tartalmából.",
+    "ffeed-no-feed": "A hírcsatornát nem határoztad meg.",
+    "ffeed-feed-not-found": "A(z) $1 hírcsatorna nem található.",
+    "ffeed-entry-not-found": "A(z) $1 hírcsatorna-bejegyzése nem található.",
+    "ffeed-sidebar-section": "Kiemelt tartalom hírcsatornái",
+    "ffeed-invalid-timestamp": "Érvénytelen hírcsatorna-időbélyeg",
+    "ffeed-featured-title": "A(z) {{SITENAME}} kiemelt szócikkeinek hírcsatornája",
+    "ffeed-featured-short-title": "Kiemelt szócikkek",
+    "ffeed-featured-desc": "A {{SITENAME}} legjobb szócikkei",
+    "ffeed-featured-entry": "{{LOCALMONTHNAME}} {{LOCALDAY}} {{SITENAME}}-kiemelt szócikk",
+    "ffeed-good-title": "A(z) {{SITENAME}} jó cikkeinek hírcsatornája",
+    "ffeed-good-short-title": "Jó cikkek",
+    "ffeed-good-desc": "A {{SITENAME}} jó szócikkei",
+    "ffeed-good-entry": "{{SITENAME}} {{LOCALMONTHNAME}} {{LOCALDAY}}-i jó cikke",
+    "ffeed-onthisday-title": "{{SITENAME}} \"Ezen a napon...\" hírcsatorna",
+    "ffeed-onthisday-short-title": "Ezen a napon...",
+    "ffeed-onthisday-desc": "Történelmi események ezen a napon",
+    "ffeed-onthisday-entry": "Ezen a napon: {{LOCALMONTHNAME}} {{LOCALDAY}}",
+    "ffeed-dyk-title": "{{SITENAME}} \"Tudtad-e, hogy...?\" hírcsatorna",
+    "ffeed-dyk-short-title": "Tudtad?",
+    "ffeed-dyk-desc": "A {{SITENAME}} legújabb tartalmából",
+    "ffeed-dyk-entry": "Tudtad-e, hogy...? {{LOCALMONTHNAME}} {{LOCALDAY}}",
+    "ffeed-motd-title": "{{SITENAME}} \"a nap médiafájlja\" hírcsatorna",
+    "ffeed-motd-short-title": "A nap médiafájlja",
+    "ffeed-motd-desc": "Néhány a {{SITENAME}} legjobb médiafájljai közül",
+    "ffeed-potd-title": "{{SITENAME}} a nap képe hírcsatorna",
+    "ffeed-potd-short-title": "A nap képe",
+    "ffeed-potd-desc": "{{SITENAME}} néhány legjobb képe",
+    "ffeed-qotd-title": "{{SITENAME}} a nap idézete hírcsatorna",
+    "ffeed-qotd-short-title": "A nap idézete",
+    "ffeed-qotd-desc": "Néhány a {{SITENAME}} legjobb idézetei közül",
+    "ffeed-featuredtexts-title": "A(z) {{SITENAME}} kiemelt szövegeti hírcsatornája",
+    "ffeed-featuredtexts-short-title": "Kiemelt szövegek"
+}

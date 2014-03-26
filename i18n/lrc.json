@@ -1,0 +1,19 @@
+{
+    "@metadata": {
+        "authors": [
+            "Bonevarluri",
+            "Mogoeilor"
+        ]
+    },
+    "ffeed-good-short-title": "گوتاریا خو",
+    "ffeed-onthisday-title": "{{نوم سیل جا}} \"د ای روز...\" خوررسونی بی",
+    "ffeed-onthisday-short-title": "د امرو",
+    "ffeed-onthisday-desc": "رخ ونیا ویرگارمن د ای روز",
+    "ffeed-dyk-short-title": "شما می دونسین؟",
+    "ffeed-dyk-desc": "د تازه تری مینونه {{نوم سیلجا}}",
+    "ffeed-dyk-entry": "شما دونسین?: {{ما ولات نشین}} {{روز ولات نشین}}",
+    "ffeed-motd-title": "{{نوم سیل جا}} رسانه روز خوررسونی بی",
+    "ffeed-motd-short-title": "رسانه روز",
+    "ffeed-potd-short-title": "عسك روز",
+    "ffeed-qotd-short-title": "پورس روز"
+}
