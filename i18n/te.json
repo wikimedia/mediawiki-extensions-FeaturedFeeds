@@ -15,7 +15,7 @@
     "ffeed-good-desc": "{{SITENAME}} అందిస్తున్న మంచి వ్యాసాలు",
     "ffeed-good-entry": "{{LOCALMONTHNAME}} {{LOCALDAY}} {{SITENAME}} మంచి వ్యాసాలు",
     "ffeed-onthisday-title": "{{SITENAME}} \"చరిత్రలో ఈ రోజు...\" వడ్డింపు",
-    "ffeed-onthisday-short-title": "ఈ రోజున&hellip;",
+    "ffeed-onthisday-short-title": "ఈ రోజున\u0026hellip;",
     "ffeed-onthisday-desc": "ఈ రోజు జరిగిన చారిత్రక ఘటనలు",
     "ffeed-onthisday-entry": "ఈ రోజున: {{LOCALMONTHNAME}} {{LOCALDAY}}",
     "ffeed-dyk-title": "{{SITENAME}} \"మీకు తెలుసా?\" ఫీడు",
