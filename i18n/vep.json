@@ -1,14 +1,14 @@
 {
-    "@metadata": {
-        "authors": [
-            "Игорь Бродский"
-        ]
-    },
-    "ffeed-good-short-title": "Hüväd kirjutused",
-    "ffeed-onthisday-short-title": "Täl päiväl...",
-    "ffeed-dyk-short-title": "Tedat-ik?",
-    "ffeed-motd-short-title": "Necen päivän medii",
-    "ffeed-potd-short-title": "Necen päivän kuva",
-    "ffeed-qotd-short-title": "Necen päivän citat",
-    "ffeed-featuredtexts-short-title": "Valitud tekstad"
+	"@metadata": {
+		"authors": [
+			"Игорь Бродский"
+		]
+	},
+	"ffeed-good-short-title": "Hüväd kirjutused",
+	"ffeed-onthisday-short-title": "Täl päiväl...",
+	"ffeed-dyk-short-title": "Tedat-ik?",
+	"ffeed-motd-short-title": "Necen päivän medii",
+	"ffeed-potd-short-title": "Necen päivän kuva",
+	"ffeed-qotd-short-title": "Necen päivän citat",
+	"ffeed-featuredtexts-short-title": "Valitud tekstad"
 }

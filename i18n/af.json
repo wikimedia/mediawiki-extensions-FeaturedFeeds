@@ -1,22 +1,22 @@
 {
-    "@metadata": {
-        "authors": [
-            "Naudefj"
-        ]
-    },
-    "ffeed-no-feed": "Voer is nie gespesifiseer nie",
-    "ffeed-feed-not-found": "Die voer $1 bestaan nie",
-    "ffeed-entry-not-found": "Voervermelding $1 is nie gevind nie",
-    "ffeed-sidebar-section": "Voere met uitgeligte inhoud",
-    "ffeed-invalid-timestamp": "Ongeldige tydstempel vir voer",
-    "ffeed-featured-title": "Voer van uitgeligte artikels op {{SITENAME}}",
-    "ffeed-featured-short-title": "Uitgeligte artikels",
-    "ffeed-featured-desc": "Die beste artikels op {{SITENAME}}",
-    "ffeed-featured-entry": "Uitgeligte artikel van {{SITENAME}} op {{LOCALDAY}} {{LOCALMONTHNAME}}",
-    "ffeed-good-title": "Voer van goeie bladsye op {{SITENAME}}",
-    "ffeed-good-short-title": "Goeie bladsye",
-    "ffeed-onthisday-short-title": "Op hierdie dag...",
-    "ffeed-dyk-short-title": "Het u geweet?",
-    "ffeed-potd-short-title": "Foto van die dag",
-    "ffeed-qotd-short-title": "Aanhaling van die dag"
+	"@metadata": {
+		"authors": [
+			"Naudefj"
+		]
+	},
+	"ffeed-no-feed": "Voer is nie gespesifiseer nie",
+	"ffeed-feed-not-found": "Die voer $1 bestaan nie",
+	"ffeed-entry-not-found": "Voervermelding $1 is nie gevind nie",
+	"ffeed-sidebar-section": "Voere met uitgeligte inhoud",
+	"ffeed-invalid-timestamp": "Ongeldige tydstempel vir voer",
+	"ffeed-featured-title": "Voer van uitgeligte artikels op {{SITENAME}}",
+	"ffeed-featured-short-title": "Uitgeligte artikels",
+	"ffeed-featured-desc": "Die beste artikels op {{SITENAME}}",
+	"ffeed-featured-entry": "Uitgeligte artikel van {{SITENAME}} op {{LOCALDAY}} {{LOCALMONTHNAME}}",
+	"ffeed-good-title": "Voer van goeie bladsye op {{SITENAME}}",
+	"ffeed-good-short-title": "Goeie bladsye",
+	"ffeed-onthisday-short-title": "Op hierdie dag...",
+	"ffeed-dyk-short-title": "Het u geweet?",
+	"ffeed-potd-short-title": "Foto van die dag",
+	"ffeed-qotd-short-title": "Aanhaling van die dag"
 }

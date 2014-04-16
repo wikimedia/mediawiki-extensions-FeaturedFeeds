@@ -1,13 +1,13 @@
 {
-    "@metadata": {
-        "authors": [
-            "Eitvys200",
-            "Vogone"
-        ]
-    },
-    "ffeed-good-short-title": "Gerų straipsnių",
-    "ffeed-onthisday-short-title": "Šią dieną...",
-    "ffeed-dyk-short-title": "Ar jūs žinote?",
-    "ffeed-potd-short-title": "Dienos nuotrauka",
-    "ffeed-qotd-short-title": "Dienos citata"
+	"@metadata": {
+		"authors": [
+			"Eitvys200",
+			"Vogone"
+		]
+	},
+	"ffeed-good-short-title": "Gerų straipsnių",
+	"ffeed-onthisday-short-title": "Šią dieną...",
+	"ffeed-dyk-short-title": "Ar jūs žinote?",
+	"ffeed-potd-short-title": "Dienos nuotrauka",
+	"ffeed-qotd-short-title": "Dienos citata"
 }

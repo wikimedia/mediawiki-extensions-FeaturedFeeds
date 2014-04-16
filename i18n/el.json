@@ -1,30 +1,30 @@
 {
-    "@metadata": {
-        "authors": [
-            "Glavkos"
-        ]
-    },
-    "ffeed-feed-not-found": "Η ροή $1 δεν βρέθηκε",
-    "ffeed-entry-not-found": "Η είσοδος ροής για το $1 δε βέθηκε",
-    "ffeed-featured-short-title": "Αξιόλογα λήμματα",
-    "ffeed-featured-entry": "{{LOCALMONTHNAME}} {{LOCALDAY}} {{SITENAME}} αξιόλογο λήμμα",
-    "ffeed-good-title": "{{SITENAME}} ροή καλών λημμάτων",
-    "ffeed-good-short-title": "Καλά λήμματα",
-    "ffeed-onthisday-short-title": "Αυτή τη μέρα ...",
-    "ffeed-onthisday-desc": "Ιστορικά γεγονότα αυτής της μέρας",
-    "ffeed-onthisday-entry": "Αυτή τη μέρα: {{LOCALMONTHNAME}} {{LOCALDAY}}",
-    "ffeed-dyk-title": "{{SITENAME}} ροή του \"Γνωρίζατε ότι ...;\"",
-    "ffeed-dyk-short-title": "Γνωρίζατε ότι...;",
-    "ffeed-motd-title": "{{SITENAME}} ροή για το πολυμεσικό αρχείο της ημέρας",
-    "ffeed-motd-short-title": "Πολυμέσα της ημέρας",
-    "ffeed-motd-desc": "Ορισμένα από τα ωραιότερα πολυμεσικά αρχεία στο {{SITENAME}}",
-    "ffeed-motd-entry": "{{SITENAME}} το πολυμεσικό αρχείο της ημέρας για {{LOCALMONTHNAME}} {{LOCALDAY}}",
-    "ffeed-potd-title": "{{SITENAME}} ροή για την εικόνα της ημέρας",
-    "ffeed-potd-short-title": "Η εικόνα της ημέρας",
-    "ffeed-potd-desc": "Μερικές από τις καλύτερες εικόνες στο {{SITENAME}}",
-    "ffeed-qotd-title": "{{SITENAME}} ροή για το απόφθεγμα της ημέρας",
-    "ffeed-qotd-short-title": "Απόφθεγμα της ημέρας",
-    "ffeed-qotd-desc": "Μερικές από τα καλύτερα αποφθέγματα στο {{SITENAME}}",
-    "ffeed-featuredtexts-short-title": "Αξιόλογα κείμενα",
-    "ffeed-featuredtexts-entry": "{{LOCALMONTHNAME}} {{LOCALDAY}} {{SITENAME}} αξιόλογο κείμενο"
+	"@metadata": {
+		"authors": [
+			"Glavkos"
+		]
+	},
+	"ffeed-feed-not-found": "Η ροή $1 δεν βρέθηκε",
+	"ffeed-entry-not-found": "Η είσοδος ροής για το $1 δε βέθηκε",
+	"ffeed-featured-short-title": "Αξιόλογα λήμματα",
+	"ffeed-featured-entry": "{{LOCALMONTHNAME}} {{LOCALDAY}} {{SITENAME}} αξιόλογο λήμμα",
+	"ffeed-good-title": "{{SITENAME}} ροή καλών λημμάτων",
+	"ffeed-good-short-title": "Καλά λήμματα",
+	"ffeed-onthisday-short-title": "Αυτή τη μέρα ...",
+	"ffeed-onthisday-desc": "Ιστορικά γεγονότα αυτής της μέρας",
+	"ffeed-onthisday-entry": "Αυτή τη μέρα: {{LOCALMONTHNAME}} {{LOCALDAY}}",
+	"ffeed-dyk-title": "{{SITENAME}} ροή του \"Γνωρίζατε ότι ...;\"",
+	"ffeed-dyk-short-title": "Γνωρίζατε ότι...;",
+	"ffeed-motd-title": "{{SITENAME}} ροή για το πολυμεσικό αρχείο της ημέρας",
+	"ffeed-motd-short-title": "Πολυμέσα της ημέρας",
+	"ffeed-motd-desc": "Ορισμένα από τα ωραιότερα πολυμεσικά αρχεία στο {{SITENAME}}",
+	"ffeed-motd-entry": "{{SITENAME}} το πολυμεσικό αρχείο της ημέρας για {{LOCALMONTHNAME}} {{LOCALDAY}}",
+	"ffeed-potd-title": "{{SITENAME}} ροή για την εικόνα της ημέρας",
+	"ffeed-potd-short-title": "Η εικόνα της ημέρας",
+	"ffeed-potd-desc": "Μερικές από τις καλύτερες εικόνες στο {{SITENAME}}",
+	"ffeed-qotd-title": "{{SITENAME}} ροή για το απόφθεγμα της ημέρας",
+	"ffeed-qotd-short-title": "Απόφθεγμα της ημέρας",
+	"ffeed-qotd-desc": "Μερικές από τα καλύτερα αποφθέγματα στο {{SITENAME}}",
+	"ffeed-featuredtexts-short-title": "Αξιόλογα κείμενα",
+	"ffeed-featuredtexts-entry": "{{LOCALMONTHNAME}} {{LOCALDAY}} {{SITENAME}} αξιόλογο κείμενο"
 }

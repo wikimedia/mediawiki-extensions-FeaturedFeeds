@@ -1,12 +1,12 @@
 {
-    "@metadata": {
-        "authors": [
-            "Bilalokms",
-            "Suelnur"
-        ]
-    },
-    "ffeed-featured-short-title": "Seçkin maddeler",
-    "ffeed-good-short-title": "Kaliteli maddeler",
-    "ffeed-dyk-short-title": "Bunları biliyor muydunuz?",
-    "ffeed-potd-short-title": "Günün resmi"
+	"@metadata": {
+		"authors": [
+			"Bilalokms",
+			"Suelnur"
+		]
+	},
+	"ffeed-featured-short-title": "Seçkin maddeler",
+	"ffeed-good-short-title": "Kaliteli maddeler",
+	"ffeed-dyk-short-title": "Bunları biliyor muydunuz?",
+	"ffeed-potd-short-title": "Günün resmi"
 }

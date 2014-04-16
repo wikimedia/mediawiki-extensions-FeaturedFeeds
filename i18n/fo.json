@@ -1,18 +1,18 @@
 {
-    "@metadata": {
-        "authors": [
-            "EileenSanda"
-        ]
-    },
-    "ffeed-featured-short-title": "Útvaldar greinar",
-    "ffeed-featured-desc": "Bestu greinar ið {{SITENAME}} hevur at bjóða",
-    "ffeed-featured-entry": "{{LOCALMONTHNAME}} {{LOCALDAY}} {{SITENAME}} útvaldar greinar",
-    "ffeed-onthisday-short-title": "Henda dagin ...",
-    "ffeed-onthisday-desc": "Søguligar hendingar henda dagin",
-    "ffeed-onthisday-entry": "Henda dagin: {{LOCALMONTHNAME}} {{LOCALDAY}}",
-    "ffeed-dyk-title": "{{SITENAME}} \"Visti tú?\" feed",
-    "ffeed-dyk-short-title": "Visti tú?",
-    "ffeed-dyk-desc": "Frá nýggjasta innihaldi í {{SITENAME}}",
-    "ffeed-potd-short-title": "Dagsins mynd",
-    "ffeed-potd-desc": "Nakrar av teimum bestu myndunum á {{SITENAME}}"
+	"@metadata": {
+		"authors": [
+			"EileenSanda"
+		]
+	},
+	"ffeed-featured-short-title": "Útvaldar greinar",
+	"ffeed-featured-desc": "Bestu greinar ið {{SITENAME}} hevur at bjóða",
+	"ffeed-featured-entry": "{{LOCALMONTHNAME}} {{LOCALDAY}} {{SITENAME}} útvaldar greinar",
+	"ffeed-onthisday-short-title": "Henda dagin ...",
+	"ffeed-onthisday-desc": "Søguligar hendingar henda dagin",
+	"ffeed-onthisday-entry": "Henda dagin: {{LOCALMONTHNAME}} {{LOCALDAY}}",
+	"ffeed-dyk-title": "{{SITENAME}} \"Visti tú?\" feed",
+	"ffeed-dyk-short-title": "Visti tú?",
+	"ffeed-dyk-desc": "Frá nýggjasta innihaldi í {{SITENAME}}",
+	"ffeed-potd-short-title": "Dagsins mynd",
+	"ffeed-potd-desc": "Nakrar av teimum bestu myndunum á {{SITENAME}}"
 }

@@ -1,9 +1,9 @@
 {
-    "@metadata": {
-        "authors": [
-            "Умар"
-        ]
-    },
-    "ffeed-desc": "Хаьржина википедин гӀирсийн Ӏуьрг тӀетуху",
-    "ffeed-featured-entry": "Хаьржина яззам {{GRAMMAR:genitive|{{SITENAME}}}} цу {{LOCALDAY}} {{LOCALMONTHNAMEGEN}}"
+	"@metadata": {
+		"authors": [
+			"Умар"
+		]
+	},
+	"ffeed-desc": "Хаьржина википедин гӀирсийн Ӏуьрг тӀетуху",
+	"ffeed-featured-entry": "Хаьржина яззам {{GRAMMAR:genitive|{{SITENAME}}}} цу {{LOCALDAY}} {{LOCALMONTHNAMEGEN}}"
 }

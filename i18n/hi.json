@@ -1,12 +1,12 @@
 {
-    "@metadata": {
-        "authors": [
-            "Karthi.dr"
-        ]
-    },
-    "ffeed-featured-short-title": "निर्वाचित लेख",
-    "ffeed-good-short-title": "अच्छा लेख",
-    "ffeed-onthisday-short-title": "आज के दिन...",
-    "ffeed-dyk-short-title": "आप जानते थे?",
-    "ffeed-dyk-entry": "क्या आप जानते हैं?: {{LOCALMONTHNAME}} {{LOCALDAY}}"
+	"@metadata": {
+		"authors": [
+			"Karthi.dr"
+		]
+	},
+	"ffeed-featured-short-title": "निर्वाचित लेख",
+	"ffeed-good-short-title": "अच्छा लेख",
+	"ffeed-onthisday-short-title": "आज के दिन...",
+	"ffeed-dyk-short-title": "आप जानते थे?",
+	"ffeed-dyk-entry": "क्या आप जानते हैं?: {{LOCALMONTHNAME}} {{LOCALDAY}}"
 }

@@ -1,14 +1,14 @@
 {
-    "@metadata": {
-        "authors": [
-            "පසිඳු කාවින්ද"
-        ]
-    },
-    "ffeed-sidebar-section": "نمایاں مواد فیڈ",
-    "ffeed-featured-short-title": "فيچرڈ مضامین",
-    "ffeed-good-short-title": "اچھے مضامین",
-    "ffeed-onthisday-short-title": "اس دن پر...",
-    "ffeed-onthisday-desc": "اس دن پر تاریخی واقعات",
-    "ffeed-dyk-short-title": "کیا آپ جانتے ہیں ؟",
-    "ffeed-qotd-short-title": "از: دن کے"
+	"@metadata": {
+		"authors": [
+			"පසිඳු කාවින්ද"
+		]
+	},
+	"ffeed-sidebar-section": "نمایاں مواد فیڈ",
+	"ffeed-featured-short-title": "فيچرڈ مضامین",
+	"ffeed-good-short-title": "اچھے مضامین",
+	"ffeed-onthisday-short-title": "اس دن پر...",
+	"ffeed-onthisday-desc": "اس دن پر تاریخی واقعات",
+	"ffeed-dyk-short-title": "کیا آپ جانتے ہیں ؟",
+	"ffeed-qotd-short-title": "از: دن کے"
 }

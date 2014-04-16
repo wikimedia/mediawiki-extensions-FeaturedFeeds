@@ -1,27 +1,27 @@
 {
-    "@metadata": {
-        "authors": [
-            "Roustammr",
-            "Гүзәл Ситдиҡова",
-            "ҒатаУлла"
-        ]
-    },
-    "ffeed-featured-short-title": "Һайланған мәҡәләләр",
-    "ffeed-featured-desc": "{{GRAMMAR:genitive|{{SITENAME}}}}-тың иң яҡшы мәҡәләләре",
-    "ffeed-featured-entry": "{{GRAMMAR:genitive|{{SITENAME}}}}-тың {{LOCALDAY}} {{LOCALMONTHNAMEGEN}} көнөндә һайланған мәҡәлә",
-    "ffeed-good-short-title": "Яҡшы мәҡәләләр",
-    "ffeed-good-desc": "{{GRAMMAR:genitive|{{SITENAME}}}}-тың яҡшы мәҡәләләре",
-    "ffeed-good-entry": "{{GRAMMAR:genitive|{{SITENAME}}}}-тың  {{LOCALDAY}} {{LOCALMONTHNAMEGEN}} көнөндәге яҡшы мәҡәлә",
-    "ffeed-onthisday-short-title": "Был көндә...",
-    "ffeed-onthisday-desc": "Был көндә булған тарихи ваҡиғалар",
-    "ffeed-onthisday-entry": "Был көндө: {{LOCALDAY}} {{LOCALMONTHNAMEGEN}}",
-    "ffeed-dyk-short-title": "Һеҙ белеһегеҙме?",
-    "ffeed-dyk-entry": "Һеҙ белеһегеҙме? {{LOCALDAY}} {{LOCALMONTHNAMEGEN}}",
-    "ffeed-motd-desc": "{{GRAMMAR:genitive|{{SITENAME}}}}-тан фото, видео и аудио",
-    "ffeed-potd-short-title": "Көн рәсеме",
-    "ffeed-potd-desc": "{{GRAMMAR:genitive|{{SITENAME}}}}-тың иң яҡшы рәсемдәре",
-    "ffeed-qotd-desc": "{{GRAMMAR:genitive|{{SITENAME}}}}тың ин яҡшы әйтемдәре",
-    "ffeed-featuredtexts-short-title": "Һайланған яҙмалар",
-    "ffeed-featuredtexts-desc": "{{GRAMMAR:genitive|{{SITENAME}}}}-тың иң яҡшы яҙмалары",
-    "ffeed-featuredtexts-entry": "{{GRAMMAR:genitive|{{SITENAME}}}}-тың {{LOCALDAY}} {{LOCALMONTHNAMEGEN}} көнөндә һайланған яҙма"
+	"@metadata": {
+		"authors": [
+			"Roustammr",
+			"Гүзәл Ситдиҡова",
+			"ҒатаУлла"
+		]
+	},
+	"ffeed-featured-short-title": "Һайланған мәҡәләләр",
+	"ffeed-featured-desc": "{{GRAMMAR:genitive|{{SITENAME}}}}-тың иң яҡшы мәҡәләләре",
+	"ffeed-featured-entry": "{{GRAMMAR:genitive|{{SITENAME}}}}-тың {{LOCALDAY}} {{LOCALMONTHNAMEGEN}} көнөндә һайланған мәҡәлә",
+	"ffeed-good-short-title": "Яҡшы мәҡәләләр",
+	"ffeed-good-desc": "{{GRAMMAR:genitive|{{SITENAME}}}}-тың яҡшы мәҡәләләре",
+	"ffeed-good-entry": "{{GRAMMAR:genitive|{{SITENAME}}}}-тың  {{LOCALDAY}} {{LOCALMONTHNAMEGEN}} көнөндәге яҡшы мәҡәлә",
+	"ffeed-onthisday-short-title": "Был көндә...",
+	"ffeed-onthisday-desc": "Был көндә булған тарихи ваҡиғалар",
+	"ffeed-onthisday-entry": "Был көндө: {{LOCALDAY}} {{LOCALMONTHNAMEGEN}}",
+	"ffeed-dyk-short-title": "Һеҙ белеһегеҙме?",
+	"ffeed-dyk-entry": "Һеҙ белеһегеҙме? {{LOCALDAY}} {{LOCALMONTHNAMEGEN}}",
+	"ffeed-motd-desc": "{{GRAMMAR:genitive|{{SITENAME}}}}-тан фото, видео и аудио",
+	"ffeed-potd-short-title": "Көн рәсеме",
+	"ffeed-potd-desc": "{{GRAMMAR:genitive|{{SITENAME}}}}-тың иң яҡшы рәсемдәре",
+	"ffeed-qotd-desc": "{{GRAMMAR:genitive|{{SITENAME}}}}тың ин яҡшы әйтемдәре",
+	"ffeed-featuredtexts-short-title": "Һайланған яҙмалар",
+	"ffeed-featuredtexts-desc": "{{GRAMMAR:genitive|{{SITENAME}}}}-тың иң яҡшы яҙмалары",
+	"ffeed-featuredtexts-entry": "{{GRAMMAR:genitive|{{SITENAME}}}}-тың {{LOCALDAY}} {{LOCALMONTHNAMEGEN}} көнөндә һайланған яҙма"
 }
