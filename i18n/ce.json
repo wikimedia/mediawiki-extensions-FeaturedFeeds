@@ -5,5 +5,6 @@
 		]
 	},
 	"ffeed-desc": "Хаьржина википедин гӀирсийн Ӏуьрг тӀетуху",
-	"ffeed-featured-entry": "Хаьржина яззам {{GRAMMAR:genitive|{{SITENAME}}}} цу {{LOCALDAY}} {{LOCALMONTHNAMEGEN}}"
+	"ffeed-featured-entry": "Хаьржина яззам {{GRAMMAR:genitive|{{SITENAME}}}} цу {{LOCALDAY}} {{LOCALMONTHNAMEGEN}}",
+	"ffeed-good-entry": "Хаьржина яззам {{GRAMMAR:genitive|{{SITENAME}}}} {{LOCALDAY}} {{LOCALMONTHNAMEGEN}}"
 }
