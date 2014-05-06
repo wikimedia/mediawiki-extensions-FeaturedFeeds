@@ -2,9 +2,14 @@
 	"@metadata": {
 		"authors": [
 			"Giro720",
-			"SandroHc"
+			"SandroHc",
+			"Vitorvicentevalente"
 		]
 	},
+	"ffeed-no-feed": "Feed não especificado.",
+	"ffeed-feed-not-found": "Feed $1 não encontrado.",
+	"ffeed-entry-not-found": "Entrada de feed para $1 não encontrada.",
+	"ffeed-sidebar-section": "Feeds de conteúdo destacado",
 	"ffeed-featured-short-title": "Artigos destacados",
 	"ffeed-featured-desc": "Melhores artigos que {{SITENAME}} tem para oferecer",
 	"ffeed-featured-entry": "Artigo destacado de {{SITENAME}} em {{LOCALDAY}} de {{LOCALMONTHNAME}}",
