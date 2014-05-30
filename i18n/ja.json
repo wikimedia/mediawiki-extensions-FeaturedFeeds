@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Fryed-peach",
-			"Shirayuki"
+			"Shirayuki",
+			"Whym"
 		]
 	},
 	"ffeed-desc": "ウィキの選り抜きコンテンツの配信フィードを追加します",
@@ -13,15 +14,15 @@
 	"ffeed-invalid-timestamp": "フィードのタイムスタンプが無効です。",
 	"ffeed-featured-title": "{{SITENAME}} 秀逸な記事フィード",
 	"ffeed-featured-short-title": "秀逸な記事",
-	"ffeed-featured-desc": "{{SITENAME}} の最高の記事を提供しています。",
+	"ffeed-featured-desc": "{{SITENAME}} の秀逸な記事をお届けします",
 	"ffeed-featured-entry": "{{SITENAME}} {{LOCALMONTHNAME}}{{LOCALDAY}}日の秀逸な記事",
 	"ffeed-good-title": "{{SITENAME}} 良質な記事フィード",
 	"ffeed-good-short-title": "良質な記事",
-	"ffeed-good-desc": "{{SITENAME}} の良質な記事を提供しています。",
+	"ffeed-good-desc": "{{SITENAME}} の良質な記事をお届けします",
 	"ffeed-good-entry": "{{SITENAME}} {{LOCALMONTHNAME}}{{LOCALDAY}}日の良質な記事",
 	"ffeed-onthisday-title": "{{SITENAME}}「今日は何の日」フィード",
 	"ffeed-onthisday-short-title": "今日は何の日",
-	"ffeed-onthisday-desc": "本日の歴史的な出来事",
+	"ffeed-onthisday-desc": "本日の歴史上の出来事",
 	"ffeed-onthisday-entry": "今日は何の日: {{LOCALMONTHNAME}}{{LOCALDAY}}日",
 	"ffeed-dyk-title": "{{SITENAME}} 新着記事フィード",
 	"ffeed-dyk-short-title": "新着記事",
@@ -37,6 +38,6 @@
 	"ffeed-potd-entry": "{{SITENAME}} {{LOCALMONTHNAME}}{{LOCALDAY}}日の今日の一枚",
 	"ffeed-featuredtexts-title": "{{SITENAME}} 秀逸な文章フィード",
 	"ffeed-featuredtexts-short-title": "秀逸な文章",
-	"ffeed-featuredtexts-desc": "{{SITENAME}} の最高の文章を提供しています。",
-	"ffeed-featuredtexts-entry": "{{SITENAME}} {{LOCALMONTHNAME}}{{LOCALDAY}}日の秀逸な文章"
+	"ffeed-featuredtexts-desc": "{{SITENAME}} の秀逸なテキストをお届けします",
+	"ffeed-featuredtexts-entry": "{{SITENAME}} {{LOCALMONTHNAME}}{{LOCALDAY}}日の秀逸なテキスト"
 }
