@@ -50,5 +50,10 @@
     "ffeed-featuredtexts-title": "{{SITENAME}} featured texts feed",
     "ffeed-featuredtexts-short-title": "Featured texts",
     "ffeed-featuredtexts-desc": "Best texts {{SITENAME}} has to offer",
-    "ffeed-featuredtexts-entry": "{{LOCALMONTHNAME}} {{LOCALDAY}} {{SITENAME}} featured text"
+    "ffeed-featuredtexts-entry": "{{LOCALMONTHNAME}} {{LOCALDAY}} {{SITENAME}} featured text",
+	"ffeed-wotd-page": "",
+	"ffeed-wotd-title": "Wiktionary Word of the day",
+	"ffeed-wotd-short-title": "Word of the day",
+	"ffeed-wotd-desc": "{{SITENAME}} Word of the day",
+	"ffeed-wotd-entry": "Word of the day for {{CURRENTMONTHNAME}} {{CURRENTDAY}}"
 }

@@ -42,5 +42,9 @@
 	"ffeed-featuredtexts-page": "{{notranslate}}",
 	"ffeed-featuredtexts-title": "Title of the Featured Texts [[w:web feed|syndication feed]]",
 	"ffeed-featuredtexts-desc": "Description of the Featured Texts [[w:web feed|syndication feed]]",
-	"ffeed-featuredtexts-entry": "Title of day's entry in the Featured Texts [[w:web feed|syndication feed]]"
+	"ffeed-featuredtexts-entry": "Title of day's entry in the Featured Texts [[w:web feed|syndication feed]]",
+	"ffeed-wotd-page": "{{notranslate}}",
+	"ffeed-wotd-title": "Title of the Word of the day [[w:web feed|syndication feed]]",
+	"ffeed-wotd-desc": "Description of the Word of the day [[w:web feed|syndication feed]]",
+	"ffeed-wotd-entry": "Title of day's entry in the Word of the day [[w:web feed|syndication feed]]"
 }
