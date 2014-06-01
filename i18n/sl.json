@@ -44,5 +44,9 @@
 	"ffeed-featuredtexts-title": "Podajalnik izbranih besedil {{SITENAME}}",
 	"ffeed-featuredtexts-short-title": "Izbrana besedila",
 	"ffeed-featuredtexts-desc": "Najboljša besedila, ki jih lahko ponudi {{SITENAME}}",
-	"ffeed-featuredtexts-entry": "Izbrano besedilo {{SITENAME}} za {{LOCALDAY}}. {{LOCALMONTHNAME}}"
+	"ffeed-featuredtexts-entry": "Izbrano besedilo {{SITENAME}} za {{LOCALDAY}}. {{LOCALMONTHNAME}}",
+	"ffeed-wotd-title": "Wikislovar - Beseda dneva",
+	"ffeed-wotd-short-title": "Beseda dneva",
+	"ffeed-wotd-desc": "{{SITENAME}} - Beseda dneva",
+	"ffeed-wotd-entry": "Beseda dneva za {{CURRENTDAY}}. {{CURRENTMONTHNAME}}"
 }

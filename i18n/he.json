@@ -42,5 +42,9 @@
 	"ffeed-featuredtexts-title": "טקסטים מומלצים ב{{GRAMMAR:תחילית|{{SITENAME}}}}",
 	"ffeed-featuredtexts-short-title": "טקסטים מומלצים",
 	"ffeed-featuredtexts-desc": "הטקסטים הטובים ביותר ב{{GRAMMAR:תחילית|{{SITENAME}}}}",
-	"ffeed-featuredtexts-entry": "טקסט מומלץ ב{{GRAMMAR:תחילית|{{SITENAME}}}} ב־{{LOCALDAY}} ב{{LOCALMONTHNAME}}"
+	"ffeed-featuredtexts-entry": "טקסט מומלץ ב{{GRAMMAR:תחילית|{{SITENAME}}}} ב־{{LOCALDAY}} ב{{LOCALMONTHNAME}}",
+	"ffeed-wotd-title": "מילת היום בוויקימילון",
+	"ffeed-wotd-short-title": "מילת היום",
+	"ffeed-wotd-desc": "מילת היום מאתר {{SITENAME}}",
+	"ffeed-wotd-entry": "מילת היום עבור {{CURRENTDAY}} ב{{CURRENTMONTHNAME}}"
 }

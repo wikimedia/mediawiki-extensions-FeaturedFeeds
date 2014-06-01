@@ -39,5 +39,9 @@
 	"ffeed-featuredtexts-title": "{{SITENAME}} Feed: Exzellent Texter",
 	"ffeed-featuredtexts-short-title": "Exzellent Texter",
 	"ffeed-featuredtexts-desc": "Déi bescht Texter déi {{SITENAME}} ze bidden huet",
-	"ffeed-featuredtexts-entry": "Den  {{LOCALDAY}} {{LOCALMONTHNAME}} op {{SITENAME}} ausgezeechenten Text"
+	"ffeed-featuredtexts-entry": "Den  {{LOCALDAY}} {{LOCALMONTHNAME}} op {{SITENAME}} ausgezeechenten Text",
+	"ffeed-wotd-title": "Wictionnaire Wuert vum Dag",
+	"ffeed-wotd-short-title": "Wuert vum Dag",
+	"ffeed-wotd-desc": "{{SITENAME}} Wuert vum Dag",
+	"ffeed-wotd-entry": "Wuert vum Dag fir den {{CURRENTDAY}}. {{CURRENTMONTHNAME}}"
 }

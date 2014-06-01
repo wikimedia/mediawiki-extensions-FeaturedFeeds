@@ -41,5 +41,9 @@
 	"ffeed-featuredtexts-title": "Канал на избрани текстови на {{SITENAME}}",
 	"ffeed-featuredtexts-short-title": "Избрани текстови",
 	"ffeed-featuredtexts-desc": "Најдобрите текстови на {{SITENAME}}",
-	"ffeed-featuredtexts-entry": "Избран текст на {{SITENAME}} за {{LOCALDAY}} {{LOCALMONTHNAME}}"
+	"ffeed-featuredtexts-entry": "Избран текст на {{SITENAME}} за {{LOCALDAY}} {{LOCALMONTHNAME}}",
+	"ffeed-wotd-title": "Збор на денот на „Викиречник“",
+	"ffeed-wotd-short-title": "Збор на денот",
+	"ffeed-wotd-desc": "Збор на денот на „{{SITENAME}}“",
+	"ffeed-wotd-entry": "Збор на денот за {{CURRENTDAY}} {{CURRENTMONTHNAME}}"
 }

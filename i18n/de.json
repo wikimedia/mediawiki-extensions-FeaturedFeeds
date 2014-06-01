@@ -43,7 +43,6 @@
 	"ffeed-featuredtexts-short-title": "Exzellente Texte",
 	"ffeed-featuredtexts-desc": "Die besten Texte auf {{SITENAME}}",
 	"ffeed-featuredtexts-entry": "Am {{LOCALDAY}}. {{LOCALMONTHNAME}} auf {{SITENAME}} exzellenter Text",
-	"ffeed-wotd-page": "",
 	"ffeed-wotd-title": "Wort des Tages von Wiktionary",
 	"ffeed-wotd-short-title": "Wort des Tages",
 	"ffeed-wotd-desc": "Wort des Tages von {{SITENAME}}",

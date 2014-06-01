@@ -3,7 +3,8 @@
 		"authors": [
 			"Liangent",
 			"Linforest",
-			"Xiaomingyan"
+			"Xiaomingyan",
+			"Liuxinyu970226"
 		]
 	},
 	"ffeed-desc": "添加维基特色内容的聚合源",
@@ -43,5 +44,9 @@
 	"ffeed-featuredtexts-title": "{{SITENAME}}特色文字源",
 	"ffeed-featuredtexts-short-title": "特色文字",
 	"ffeed-featuredtexts-desc": "{{SITENAME}}的最佳文字",
-	"ffeed-featuredtexts-entry": "{{SITENAME}}{{LOCALMONTHNAME}}{{LOCALDAY}}日的特色文字"
+	"ffeed-featuredtexts-entry": "{{SITENAME}}{{LOCALMONTHNAME}}{{LOCALDAY}}日的特色文字",
+	"ffeed-wotd-title": "维基词典每日新词",
+	"ffeed-wotd-short-title": "每日新词",
+	"ffeed-wotd-desc": "{{SITENAME}}每日新词",
+	"ffeed-wotd-entry": "{{CURRENTMONTHNAME}}月{{CURRENTDAY}}日的每日新词"
 }

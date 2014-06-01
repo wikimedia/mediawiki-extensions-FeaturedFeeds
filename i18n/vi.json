@@ -41,5 +41,9 @@
 	"ffeed-featuredtexts-title": "Nguồn cấp văn kiện chọn lọc {{SITENAME}}",
 	"ffeed-featuredtexts-short-title": "Văn kiện chọn lọc",
 	"ffeed-featuredtexts-desc": "Các văn kiện nổi bật nhất củA {{SITENAME}}",
-	"ffeed-featuredtexts-entry": "Văn kiện chọn lọc tại {{SITENAME}} ngày {{LOCALDAY}} {{LOCALMONTHNAME}}"
+	"ffeed-featuredtexts-entry": "Văn kiện chọn lọc tại {{SITENAME}} ngày {{LOCALDAY}} {{LOCALMONTHNAME}}",
+	"ffeed-wotd-title": "Mục từ Wiktionary trong ngày",
+	"ffeed-wotd-short-title": "Từ trong ngày",
+	"ffeed-wotd-desc": "Mục từ {{SITENAME}} trong ngày",
+	"ffeed-wotd-entry": "Mục từ ngày {{CURRENTDAY}} {{CURRENTMONTHNAME}}"
 }
