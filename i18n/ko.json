@@ -3,7 +3,8 @@
 		"authors": [
 			"Freebiekr",
 			"Kwj2772",
-			"아라"
+			"아라",
+			"Miri-Nae"
 		]
 	},
 	"ffeed-desc": "위키의 알찬 내용의 배급 피드를 추가합니다",
@@ -43,5 +44,6 @@
 	"ffeed-featuredtexts-title": "{{SITENAME}} 알찬 글 피드",
 	"ffeed-featuredtexts-short-title": "알찬 글",
 	"ffeed-featuredtexts-desc": "{{SITENAME}}에서 제공하는 최고의 글",
-	"ffeed-featuredtexts-entry": "{{LOCALMONTHNAME}} {{LOCALDAY}} {{SITENAME}} 알찬 글"
+	"ffeed-featuredtexts-entry": "{{LOCALMONTHNAME}} {{LOCALDAY}} {{SITENAME}} 알찬 글",
+	"ffeed-wotd-short-title": "오늘의 단어"
 }

@@ -39,5 +39,6 @@
 	"ffeed-featuredtexts-title": "{{SITENAME}} 秀逸な文章フィード",
 	"ffeed-featuredtexts-short-title": "秀逸な文章",
 	"ffeed-featuredtexts-desc": "{{SITENAME}} の秀逸なテキストをお届けします",
-	"ffeed-featuredtexts-entry": "{{SITENAME}} {{LOCALMONTHNAME}}{{LOCALDAY}}日の秀逸なテキスト"
+	"ffeed-featuredtexts-entry": "{{SITENAME}} {{LOCALMONTHNAME}}{{LOCALDAY}}日の秀逸なテキスト",
+	"ffeed-wotd-short-title": "今日の語句"
 }

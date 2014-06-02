@@ -44,5 +44,9 @@
 	"ffeed-featuredtexts-title": "Liste de textes mis en valeur de {{SITENAME}}",
 	"ffeed-featuredtexts-short-title": "Textes mis en valeur",
 	"ffeed-featuredtexts-desc": "Meilleurs textes que {{SITENAME}} puisse offrir",
-	"ffeed-featuredtexts-entry": "Texte de {{SITENAME}} mis en valeur le {{LOCALDAY}} {{LOCALMONTHNAME}}"
+	"ffeed-featuredtexts-entry": "Texte de {{SITENAME}} mis en valeur le {{LOCALDAY}} {{LOCALMONTHNAME}}",
+	"ffeed-wotd-title": "Mot du jour de Wiktionary",
+	"ffeed-wotd-short-title": "Mot du jour",
+	"ffeed-wotd-desc": "Mot du jour de {{SITENAME}}",
+	"ffeed-wotd-entry": "Mot du jour pour {{CURRENTMONTHNAME}} {{CURRENTDAY}}"
 }

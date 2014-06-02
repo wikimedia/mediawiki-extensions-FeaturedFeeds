@@ -4,7 +4,8 @@
 			"Balajijagadesh",
 			"Karthi.dr",
 			"Shanmugamp7",
-			"மதனாஹரன்"
+			"மதனாஹரன்",
+			"Kalyanasundar"
 		]
 	},
 	"ffeed-no-feed": "ஊட்டம் குறிப்பிடப்படவில்லை",
@@ -33,5 +34,8 @@
 	"ffeed-qotd-short-title": "இன்றைய தின மேற்கோள்",
 	"ffeed-featuredtexts-title": "{{SITENAME}} சிறப்புரைகள் ஊட்டம்",
 	"ffeed-featuredtexts-short-title": "சிறப்பு உரைகள்",
-	"ffeed-featuredtexts-entry": "{{LOCALMONTHNAME}} {{LOCALDAY}} {{SITENAME}} சிறப்புரை"
+	"ffeed-featuredtexts-entry": "{{LOCALMONTHNAME}} {{LOCALDAY}} {{SITENAME}} சிறப்புரை",
+	"ffeed-wotd-title": "விக்சனரியின் இன்றைய சொல்",
+	"ffeed-wotd-short-title": "இன்றைய சொல்",
+	"ffeed-wotd-entry": "இன்றைய சொல்"
 }

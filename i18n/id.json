@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Farras"
+			"Farras",
+			"Raynasution"
 		]
 	},
 	"ffeed-no-feed": "Umpan tidak disebutkan",
@@ -39,5 +40,7 @@
 	"ffeed-featuredtexts-title": "Umpan teks pilihan {{SITENAME}}",
 	"ffeed-featuredtexts-short-title": "Teks pilihan",
 	"ffeed-featuredtexts-desc": "Teks terbaik yang dimiliki {{SITENAME}}",
-	"ffeed-featuredtexts-entry": "Teks pilihan {{SITENAME}} {{LOCALDAY}} {{LOCALMONTHNAME}}"
+	"ffeed-featuredtexts-entry": "Teks pilihan {{SITENAME}} {{LOCALDAY}} {{LOCALMONTHNAME}}",
+	"ffeed-wotd-title": "Kata Wiktionary hari ini",
+	"ffeed-wotd-short-title": "Kata hari ini"
 }
