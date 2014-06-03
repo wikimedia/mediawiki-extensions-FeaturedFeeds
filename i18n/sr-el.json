@@ -1,5 +1,9 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": [
+			"Milicevic01"
+		]
+	},
 	"ffeed-desc": "Dodaje dovode za izabrani sadržaj na viki",
 	"ffeed-no-feed": "Dovod nije izabran",
 	"ffeed-feed-not-found": "Dovod $1 nije pronađen",
@@ -37,5 +41,6 @@
 	"ffeed-featuredtexts-title": "Dovod izabranih tekstova na {{SITENAME}}",
 	"ffeed-featuredtexts-short-title": "Izabrani tekstovi",
 	"ffeed-featuredtexts-desc": "Najbolji tekstovi na {{SITENAME}}",
-	"ffeed-featuredtexts-entry": "Izabrani tekst na {{SITENAME}} za {{LOCALDAY}} {{LOCALMONTHNAME}}"
+	"ffeed-featuredtexts-entry": "Izabrani tekst na {{SITENAME}} za {{LOCALDAY}} {{LOCALMONTHNAME}}",
+	"ffeed-wotd-short-title": "Reč dana"
 }

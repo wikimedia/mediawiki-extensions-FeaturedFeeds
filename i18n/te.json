@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Chaduvari",
-			"Veeven"
+			"Veeven",
+			"Kiranmayee"
 		]
 	},
 	"ffeed-invalid-timestamp": "చెల్లని ఫీడు కాలముద్ర",
@@ -36,5 +37,7 @@
 	"ffeed-featuredtexts-title": "{{SITENAME}} విశేష పాఠ్యాల వడ్డన",
 	"ffeed-featuredtexts-short-title": "విశేష పాఠ్యాలు",
 	"ffeed-featuredtexts-desc": "{{SITENAME}} లోని అత్యుత్తమ పాఠ్యాలు",
-	"ffeed-featuredtexts-entry": "{{LOCALMONTHNAME}} {{LOCALDAY}} నాటి {{SITENAME}} విశేష పాఠ్యం"
+	"ffeed-featuredtexts-entry": "{{LOCALMONTHNAME}} {{LOCALDAY}} నాటి {{SITENAME}} విశేష పాఠ్యం",
+	"ffeed-wotd-short-title": "నేటి పదం",
+	"ffeed-wotd-entry": "{{CURRENTMONTHNAME}} {{CURRENTDAY}} యొక్క నేటి పదం"
 }

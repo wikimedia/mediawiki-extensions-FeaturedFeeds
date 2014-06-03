@@ -41,5 +41,9 @@
 	"ffeed-featuredtexts-title": "Syndication de textos eminente de {{SITENAME}}",
 	"ffeed-featuredtexts-short-title": "Textos eminente",
 	"ffeed-featuredtexts-desc": "Le melior textos que {{SITENAME}} pote offerer",
-	"ffeed-featuredtexts-entry": "Texto eminente de {{SITENAME}} le {{LOCALDAY}} de {{LOCALMONTHNAME}}"
+	"ffeed-featuredtexts-entry": "Texto eminente de {{SITENAME}} le {{LOCALDAY}} de {{LOCALMONTHNAME}}",
+	"ffeed-wotd-title": "Parola del die de Wiktionario",
+	"ffeed-wotd-short-title": "Parola del die",
+	"ffeed-wotd-desc": "Parola del die de {{SITENAME}}",
+	"ffeed-wotd-entry": "Parola del die pro le {{CURRENTDAY}} de {{CURRENTMONTHNAME}}"
 }

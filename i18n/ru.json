@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Александр Сигачёв"
+			"Александр Сигачёв",
+			"Okras"
 		]
 	},
 	"ffeed-desc": "Добавляет канал избранных материалов вики",
@@ -41,5 +42,9 @@
 	"ffeed-featuredtexts-title": "Канал избранных текстов {{GRAMMAR:genitive|{{SITENAME}}}}",
 	"ffeed-featuredtexts-short-title": "Избранные тексты",
 	"ffeed-featuredtexts-desc": "Лучшие тексты {{GRAMMAR:genitive|{{SITENAME}}}}",
-	"ffeed-featuredtexts-entry": "Избранный текст {{GRAMMAR:genitive|{{SITENAME}}}} за {{LOCALDAY}} {{LOCALMONTHNAMEGEN}}"
+	"ffeed-featuredtexts-entry": "Избранный текст {{GRAMMAR:genitive|{{SITENAME}}}} за {{LOCALDAY}} {{LOCALMONTHNAMEGEN}}",
+	"ffeed-wotd-title": "Слово дня Викисловаря",
+	"ffeed-wotd-short-title": "Слово дня",
+	"ffeed-wotd-desc": "Слово дня на сайте {{SITENAME}}",
+	"ffeed-wotd-entry": "Слово дня для {{CURRENTMONTHNAME}} {{CURRENTDAY}}"
 }

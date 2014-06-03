@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Rancher"
+			"Rancher",
+			"Milicevic01"
 		]
 	},
 	"ffeed-desc": "Додаје доводе за изабрани садржај на вики",
@@ -41,5 +42,6 @@
 	"ffeed-featuredtexts-title": "Довод изабраних текстова на {{SITENAME}}",
 	"ffeed-featuredtexts-short-title": "Изабрани текстови",
 	"ffeed-featuredtexts-desc": "Најбољи текстови на {{SITENAME}}",
-	"ffeed-featuredtexts-entry": "Изабрани текст на {{SITENAME}} за {{LOCALDAY}} {{LOCALMONTHNAME}}"
+	"ffeed-featuredtexts-entry": "Изабрани текст на {{SITENAME}} за {{LOCALDAY}} {{LOCALMONTHNAME}}",
+	"ffeed-wotd-short-title": "Реч дана"
 }

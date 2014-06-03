@@ -42,5 +42,9 @@
 	"ffeed-featuredtexts-title": "Feed {{SITENAME}}: testi consigliati",
 	"ffeed-featuredtexts-short-title": "Testi consigliati",
 	"ffeed-featuredtexts-desc": "I migliori testi offerti da {{SITENAME}}",
-	"ffeed-featuredtexts-entry": "Testo consigliato {{SITENAME}} del {{LOCALDAY}} {{LOCALMONTHNAME}}"
+	"ffeed-featuredtexts-entry": "Testo consigliato {{SITENAME}} del {{LOCALDAY}} {{LOCALMONTHNAME}}",
+	"ffeed-wotd-title": "Parola del giorno Wikizionario",
+	"ffeed-wotd-short-title": "Parola del giorno",
+	"ffeed-wotd-desc": "Parola del giorno {{SITENAME}}",
+	"ffeed-wotd-entry": "Parola del giorno del {{CURRENTDAY}} {{CURRENTMONTHNAME}}"
 }

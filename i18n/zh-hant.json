@@ -3,7 +3,8 @@
 		"authors": [
 			"Oapbtommy",
 			"Simon Shek",
-			"Waihorace"
+			"Waihorace",
+			"Liuxinyu970226"
 		]
 	},
 	"ffeed-desc": "為維基的特色內容提供聯合供稿",
@@ -43,5 +44,9 @@
 	"ffeed-featuredtexts-title": "{{SITENAME}}特色文本供稿",
 	"ffeed-featuredtexts-short-title": "特色文本",
 	"ffeed-featuredtexts-desc": "{{SITENAME}}所提供的最佳文本",
-	"ffeed-featuredtexts-entry": "{{LOCALMONTHNAME}} {{LOCALDAY}} {{SITENAME}}特色文本"
+	"ffeed-featuredtexts-entry": "{{LOCALMONTHNAME}} {{LOCALDAY}} {{SITENAME}}特色文本",
+	"ffeed-wotd-title": "維基詞典每日一詞",
+	"ffeed-wotd-short-title": "每日一詞",
+	"ffeed-wotd-desc": "{{SITENAME}}每日一詞",
+	"ffeed-wotd-entry": "{{CURRENTMONTHNAME}}月{{CURRENTDAY}}日每日一詞"
 }
