@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Armando-Martin",
-			"Vivaelcelta"
+			"Vivaelcelta",
+			"Fitoschido"
 		]
 	},
 	"ffeed-desc": "Agrega fuentes web (feeds) de sindicación de contenido destacado del wiki",
@@ -42,5 +43,9 @@
 	"ffeed-featuredtexts-title": "Fuente web (feed) de textos destacados de {{SITENAME}}",
 	"ffeed-featuredtexts-short-title": "Textos destacados",
 	"ffeed-featuredtexts-desc": "Mejores textos {{SITENAME}} puede ofrecer",
-	"ffeed-featuredtexts-entry": "Texto destacado de {{SITENAME}} el {{LOCALDAY}} {{LOCALMONTHNAME}}"
+	"ffeed-featuredtexts-entry": "Texto destacado de {{SITENAME}} el {{LOCALDAY}} {{LOCALMONTHNAME}}",
+	"ffeed-wotd-title": "Palabra del día en el Wikcionario",
+	"ffeed-wotd-short-title": "Palabra del día",
+	"ffeed-wotd-desc": "Palabra del día en {{SITENAME}}",
+	"ffeed-wotd-entry": "Palabra del día {{CURRENTDAY}} de {{CURRENTMONTHNAME}}"
 }

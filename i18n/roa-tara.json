@@ -41,5 +41,6 @@
 	"ffeed-featuredtexts-title": "feed de teste dettagliate de {{SITENAME}}",
 	"ffeed-featuredtexts-short-title": "Teste dettagliate",
 	"ffeed-featuredtexts-desc": "Le megghie teste ca {{SITENAME}} offre",
-	"ffeed-featuredtexts-entry": "teste dettagliate {{LOCALMONTHNAME}} {{LOCALDAY}} {{SITENAME}}"
+	"ffeed-featuredtexts-entry": "teste dettagliate {{LOCALMONTHNAME}} {{LOCALDAY}} {{SITENAME}}",
+	"ffeed-wotd-desc": "{{SITENAME}} Parole d'u sciurne"
 }

@@ -6,5 +6,9 @@
 	},
 	"ffeed-desc": "Хаьржина википедин гӀирсийн Ӏуьрг тӀетуху",
 	"ffeed-featured-entry": "Хаьржина яззам {{GRAMMAR:genitive|{{SITENAME}}}} цу {{LOCALDAY}} {{LOCALMONTHNAMEGEN}}",
-	"ffeed-good-entry": "Хаьржина яззам {{GRAMMAR:genitive|{{SITENAME}}}} {{LOCALDAY}} {{LOCALMONTHNAMEGEN}}"
+	"ffeed-good-entry": "Хаьржина яззам {{GRAMMAR:genitive|{{SITENAME}}}} {{LOCALDAY}} {{LOCALMONTHNAMEGEN}}",
+	"ffeed-wotd-title": "Викидоьшаман ден дош",
+	"ffeed-wotd-short-title": "Ден дош",
+	"ffeed-wotd-desc": "{{SITENAME}} сайтехь ден дош",
+	"ffeed-wotd-entry": "Ден дош {{CURRENTMONTHNAME}} {{CURRENTDAY}}"
 }

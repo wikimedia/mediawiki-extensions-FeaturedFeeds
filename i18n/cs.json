@@ -41,5 +41,9 @@
 	"ffeed-featuredtexts-title": "Kanál vybraných textů {{grammar:2sg|{{SITENAME}}}}",
 	"ffeed-featuredtexts-short-title": "Vybrané texty",
 	"ffeed-featuredtexts-desc": "Nejlepší texty, které může {{SITENAME}} nabídnout",
-	"ffeed-featuredtexts-entry": "Vybraný text na {{LOCALDAY}}. {{LOCALMONTHNAMEGEN}} na {{grammar:6sg|{{SITENAME}}}}"
+	"ffeed-featuredtexts-entry": "Vybraný text na {{LOCALDAY}}. {{LOCALMONTHNAMEGEN}} na {{grammar:6sg|{{SITENAME}}}}",
+	"ffeed-wotd-title": "Slovo dne Wikislovníku",
+	"ffeed-wotd-short-title": "Slovo dne",
+	"ffeed-wotd-desc": "Slovo dne {{grammar:2sg|{{SITENAME}}}}",
+	"ffeed-wotd-entry": "Slovo dne {{CURRENTDAY}}. {{CURRENTMONTHNAMEGEN}} na {{grammar:6sg|{{SITENAME}}}}"
 }
