@@ -44,5 +44,6 @@
 	"ffeed-featuredtexts-title": "{{SITENAME}} विशेष मजकुराची रसद",
 	"ffeed-featuredtexts-short-title": "विशेष मजकुर",
 	"ffeed-featuredtexts-desc": "{{SITENAME}}कडे असलेला सर्वोत्कृष्ट मजकुर",
-	"ffeed-featuredtexts-entry": "{{LOCALMONTHNAME}} {{LOCALDAY}} {{SITENAME}} विशेष  मजकुर"
+	"ffeed-featuredtexts-entry": "{{LOCALMONTHNAME}} {{LOCALDAY}} {{SITENAME}} विशेष  मजकुर",
+	"ffeed-wotd-short-title": "आजचा शब्द"
 }
