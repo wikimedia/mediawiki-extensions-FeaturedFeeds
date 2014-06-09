@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Ainali",
-			"WikiPhoenix"
+			"WikiPhoenix",
+			"Lokal Profil"
 		]
 	},
 	"ffeed-desc": "Lägger till sammanslagningsflöden av wikins viktigaste innehåll",
@@ -42,5 +43,9 @@
 	"ffeed-featuredtexts-title": "{{SITENAME}} flöde för utmärkta texter",
 	"ffeed-featuredtexts-short-title": "Utmärkta texter",
 	"ffeed-featuredtexts-desc": "Bästa artiklarna {{SITENAME}} har att erbjuda",
-	"ffeed-featuredtexts-entry": "{{LOCALMONTHNAME}} {{LOCALDAY}} {{SITENAME}} utmärkt artikel"
+	"ffeed-featuredtexts-entry": "{{LOCALMONTHNAME}} {{LOCALDAY}} {{SITENAME}} utmärkt artikel",
+	"ffeed-wotd-title": "Dagens ord från Wiktionary",
+	"ffeed-wotd-short-title": "Dagens ord",
+	"ffeed-wotd-desc": "Dagens ord från {{SITENAME}}",
+	"ffeed-wotd-entry": "Dagens ord för {{CURRENTDAY}} {{CURRENTMONTHNAME}}"
 }

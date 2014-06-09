@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Artificial123"
+		]
+	},
+	"ffeed-wotd-desc": "{{SITENAME}} слова дня",
+	"ffeed-wotd-entry": "Слова дня для {{CURRENTMONTHNAME}} {{CURRENTDAY}}"
+}
