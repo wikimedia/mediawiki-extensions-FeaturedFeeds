@@ -364,6 +364,7 @@ class FeaturedFeedChannel {
 			return;
 		}
 		$this->page = $pageMsg->plain();
+		$this->page = str_replace( '$LANGUAGE', $this->languageCode, $this->page );
 		$this->entryName = $this->msg( $this->options['entryName'] )->plain();
 	}
 
