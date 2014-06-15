@@ -42,5 +42,6 @@
 	"ffeed-featuredtexts-title": "Feed van {{SITENAME}} met aanbevolen teksten",
 	"ffeed-featuredtexts-short-title": "Aanbevolen teksten",
 	"ffeed-featuredtexts-desc": "De beste teksten die {{SITENAME}} te bieden heeft",
-	"ffeed-featuredtexts-entry": "Aanbevolgen teksten van {{SITENNAME}} van {{LOCALDAY}} {{LOCALMONTHNAME}}"
+	"ffeed-featuredtexts-entry": "Aanbevolgen teksten van {{SITENNAME}} van {{LOCALDAY}} {{LOCALMONTHNAME}}",
+	"ffeed-wotd-short-title": "Woord van de dag"
 }
