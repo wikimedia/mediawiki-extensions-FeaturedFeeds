@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Arnaugir"
+			"Arnaugir",
+			"Fitoschido"
 		]
 	},
 	"ffeed-no-feed": "No s'ha especificat l'agregador",
@@ -40,5 +41,7 @@
 	"ffeed-featuredtexts-title": "Agregador de textos destacats de {{SITENAME}}",
 	"ffeed-featuredtexts-short-title": "Textos destacats",
 	"ffeed-featuredtexts-desc": "Els millors texts que ofereix {{SITENAME}}",
-	"ffeed-featuredtexts-entry": "Text destacat de {{SITENAME}} el {{LOCALDAY}} {{LOCALMONTHNAME}}"
+	"ffeed-featuredtexts-entry": "Text destacat de {{SITENAME}} el {{LOCALDAY}} {{LOCALMONTHNAME}}",
+	"ffeed-wotd-title": "Mot del dia del Viccionari",
+	"ffeed-wotd-short-title": "Mot del dia"
 }
