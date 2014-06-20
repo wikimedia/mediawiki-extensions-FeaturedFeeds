@@ -43,5 +43,9 @@
 	"ffeed-featuredtexts-title": "خوراک متون برگزیدهٔ {{SITENAME}}",
 	"ffeed-featuredtexts-short-title": "متون برگزیده",
 	"ffeed-featuredtexts-desc": "بهترین نوشته‌هایی که {{SITENAME}} می‌تواند ارائه کند",
-	"ffeed-featuredtexts-entry": "متن برگزیدهٔ {{SITENAME}} در {{LOCALDAY}}ام {{LOCALMONTHNAME}}"
+	"ffeed-featuredtexts-entry": "متن برگزیدهٔ {{SITENAME}} در {{LOCALDAY}}ام {{LOCALMONTHNAME}}",
+	"ffeed-wotd-title": "کلمهٔ روز ویکی‌واژه",
+	"ffeed-wotd-short-title": "کلمهٔ روز",
+	"ffeed-wotd-desc": "کلمهٔ روز {{SITENAME}}",
+	"ffeed-wotd-entry": "کلمهٔ روز {{CURRENTMONTHNAME}} {{CURRENTDAY}}"
 }
