@@ -3,7 +3,8 @@
 		"authors": [
 			"A1",
 			"Base",
-			"Olvin"
+			"Olvin",
+			"Ата"
 		]
 	},
 	"ffeed-desc": "Додає стрічку вибраних матеріалів вікі",
@@ -43,5 +44,9 @@
 	"ffeed-featuredtexts-title": "Канал вибраних текстів {{GRAMMAR:genitive|{{SITENAME}}}}",
 	"ffeed-featuredtexts-short-title": "Вибрані тексти",
 	"ffeed-featuredtexts-desc": "Найкращі тексти {{GRAMMAR:genitive|{{SITENAME}}}}",
-	"ffeed-featuredtexts-entry": "Вибраний текст {{GRAMMAR:genitive|{{SITENAME}}}} за {{LOCALDAY}} {{LOCALMONTHNAMEGEN}}"
+	"ffeed-featuredtexts-entry": "Вибраний текст {{GRAMMAR:genitive|{{SITENAME}}}} за {{LOCALDAY}} {{LOCALMONTHNAMEGEN}}",
+	"ffeed-wotd-title": "Слово дня Вікісловника",
+	"ffeed-wotd-short-title": "Слово дня",
+	"ffeed-wotd-desc": "{{SITENAME}} Слово дня",
+	"ffeed-wotd-entry": "Слово дня для {{CURRENTMONTHNAME}} {{CURRENTDAY}}"
 }
