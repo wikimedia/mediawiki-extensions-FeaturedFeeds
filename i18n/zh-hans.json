@@ -4,7 +4,8 @@
 			"Liangent",
 			"Linforest",
 			"Xiaomingyan",
-			"Liuxinyu970226"
+			"Liuxinyu970226",
+			"Duolaimi"
 		]
 	},
 	"ffeed-desc": "添加维基特色内容的聚合源",
@@ -38,7 +39,7 @@
 	"ffeed-potd-desc": "一些{{SITENAME}}的最好的图像",
 	"ffeed-potd-entry": "{{SITENAME}}{{LOCALMONTHNAME}}{{LOCALDAY}}日的今日图片",
 	"ffeed-qotd-title": "{{SITENAME}}每日名言源",
-	"ffeed-qotd-short-title": "每日名言",
+	"ffeed-qotd-short-title": "今日名言",
 	"ffeed-qotd-desc": "一些{{SITENAME}}的最好的名言",
 	"ffeed-qotd-entry": "{{SITENAME}}{{LOCALMONTHNAME}}{{LOCALDAY}}日的每日名言",
 	"ffeed-featuredtexts-title": "{{SITENAME}}特色文字源",
@@ -46,7 +47,7 @@
 	"ffeed-featuredtexts-desc": "{{SITENAME}}的最佳文字",
 	"ffeed-featuredtexts-entry": "{{SITENAME}}{{LOCALMONTHNAME}}{{LOCALDAY}}日的特色文字",
 	"ffeed-wotd-title": "维基词典每日新词",
-	"ffeed-wotd-short-title": "每日新词",
+	"ffeed-wotd-short-title": "今日词语",
 	"ffeed-wotd-desc": "{{SITENAME}}每日新词",
 	"ffeed-wotd-entry": "{{CURRENTMONTHNAME}}月{{CURRENTDAY}}日的每日新词"
 }
