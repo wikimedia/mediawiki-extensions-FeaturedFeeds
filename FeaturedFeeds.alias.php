@@ -39,6 +39,11 @@ $specialPageAliases['fa'] = array(
 	'FeedItem' => array( 'خوراک_آیتم' ),
 );
 
+/** Hebrew (עברית) */
+$specialPageAliases['he'] = array(
+	'FeedItem' => array( 'פריט_הזנה' ),
+);
+
 /** Italian (italiano) */
 $specialPageAliases['it'] = array(
 	'FeedItem' => array( 'FeedElemento' ),
