@@ -3,7 +3,8 @@
 		"authors": [
 			"Fulup",
 			"Gwendal",
-			"Y-M D"
+			"Y-M D",
+			"Fohanno"
 		]
 	},
 	"ffeed-desc": "Ouzhpennañ a ra gwazhioù embann danvez o tont eus ar wiki",
@@ -43,5 +44,6 @@
 	"ffeed-featuredtexts-title": "Gwazh web evit ar testennoù a-feson eus {{SITENAME}}",
 	"ffeed-featuredtexts-short-title": "Testennoù a-feson",
 	"ffeed-featuredtexts-desc": "Ar pennadoù gwellañ a gaver war {{SITENAME}}",
-	"ffeed-featuredtexts-entry": "Testenn a-feson eus {{SITENAME}} d'ar {{LOCALDAY}} {{LOCALMONTHNAME}}"
+	"ffeed-featuredtexts-entry": "Testenn a-feson eus {{SITENAME}} d'ar {{LOCALDAY}} {{LOCALMONTHNAME}}",
+	"ffeed-wotd-short-title": "Ger an deiz"
 }
