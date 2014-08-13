@@ -79,14 +79,7 @@ class ApiFeaturedFeeds extends ApiBase {
 		return 'Returns a featured content feed';
 	}
 
-	public function getPossibleErrors() {
-		return array_merge( parent::getPossibleErrors(), array(
-			array( 'code' => 'feed-invalid', 'info' => 'Invalid subscription feed type' ),
-		) );
-	}
-
 	public function getExamples() {
-		global $wgVersion;
 		// attempt to find a valid feed name
 		// if none available, just use an example value
 		$availableFeeds = array_keys( FeaturedFeeds::getFeeds( false ) );
@@ -95,19 +88,8 @@ class ApiFeaturedFeeds extends ApiBase {
 			$feed = 'featured';
 		}
 
-		if ( version_compare( $wgVersion, '1.19alpha', '>=' ) ) {
-			return array(
-				"api.php?action=featuredfeed&feed=$feed" => "Retrieve feed ``$feed'",
-			);
-		} else {
-			return array(
-				"Retrieve feed `$feed'",
-				"    api.php?action=featuredfeed&feed=$feed",
-			);
-		}
-	}
-
-	public function getVersion() {
-		return __CLASS__ . ': $Id$';
+		return array(
+			"api.php?action=featuredfeed&feed=$feed" => "Retrieve feed ``$feed'",
+		);
 	}
 }
