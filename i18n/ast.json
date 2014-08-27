@@ -41,5 +41,9 @@
 	"ffeed-featuredtexts-title": "Canal de los testos destacaos de {{SITENAME}}",
 	"ffeed-featuredtexts-short-title": "Testos destacaos",
 	"ffeed-featuredtexts-desc": "Los meyores testos qu'ufre {{SITENAME}}",
-	"ffeed-featuredtexts-entry": "Testu destacáu de {{SITENAME}} del {{LOCALDAY}} de {{LOCALMONTHNAME}}"
+	"ffeed-featuredtexts-entry": "Testu destacáu de {{SITENAME}} del {{LOCALDAY}} de {{LOCALMONTHNAME}}",
+	"ffeed-wotd-title": "Palabra del día del Wikcionariu",
+	"ffeed-wotd-short-title": "Palabra del día",
+	"ffeed-wotd-desc": "Palabra del día de {{SITENAME}}",
+	"ffeed-wotd-entry": "Palabra del día pal {{CURRENTDAY}} de {{CURRENTMONTHNAME}}"
 }
