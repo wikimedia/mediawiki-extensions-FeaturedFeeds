@@ -45,5 +45,7 @@
 	"ffeed-featuredtexts-short-title": "Testennoù a-feson",
 	"ffeed-featuredtexts-desc": "Ar pennadoù gwellañ a gaver war {{SITENAME}}",
 	"ffeed-featuredtexts-entry": "Testenn a-feson eus {{SITENAME}} d'ar {{LOCALDAY}} {{LOCALMONTHNAME}}",
-	"ffeed-wotd-short-title": "Ger an deiz"
+	"ffeed-wotd-title": "Ger an deiz e Wiktionary",
+	"ffeed-wotd-short-title": "Ger an deiz",
+	"ffeed-wotd-desc": "Ger an deiz e {{SITENAME}}"
 }
