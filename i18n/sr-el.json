@@ -42,5 +42,7 @@
 	"ffeed-featuredtexts-short-title": "Izabrani tekstovi",
 	"ffeed-featuredtexts-desc": "Najbolji tekstovi na {{SITENAME}}",
 	"ffeed-featuredtexts-entry": "Izabrani tekst na {{SITENAME}} za {{LOCALDAY}} {{LOCALMONTHNAME}}",
-	"ffeed-wotd-short-title": "Reč dana"
+	"ffeed-wotd-title": "Vikirečnik - Reč dana",
+	"ffeed-wotd-short-title": "Reč dana",
+	"ffeed-wotd-desc": "{{SITENAME}} – Reč dana"
 }
