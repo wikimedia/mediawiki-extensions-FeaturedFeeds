@@ -79,6 +79,11 @@ $specialPageAliases['scn'] = array(
 	'FeedItem' => array( 'FeedElemento' ),
 );
 
+/** Swedish (svenska) */
+$specialPageAliases['sv'] = array(
+	'FeedItem' => array( 'Flödesobjekt' ),
+);
+
 /** Turkish (Türkçe) */
 $specialPageAliases['tr'] = array(
 	'FeedItem' => array( 'ÜrünBesleme' ),
