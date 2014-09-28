@@ -4,7 +4,8 @@
 			"Crt",
 			"Kulmalukko",
 			"Linnea",
-			"Olli"
+			"Olli",
+			"Stryn"
 		]
 	},
 	"ffeed-desc": "Lisää syötteet wikin suositellusta sisällöstä",
@@ -44,5 +45,6 @@
 	"ffeed-featuredtexts-title": "{{SIVUSTON_NIMI}}:n suositellut tekstit -syöte",
 	"ffeed-featuredtexts-short-title": "Suositellut tekstit",
 	"ffeed-featuredtexts-desc": "Sivuston {{SITENAME}} parhaimpia tekstejä",
-	"ffeed-featuredtexts-entry": "Suositeltu teksti {{LOCALDAY}}. {{LOCALMONTHNAME}}ta sivustolla {{SITENAME}}"
+	"ffeed-featuredtexts-entry": "Suositeltu teksti {{LOCALDAY}}. {{LOCALMONTHNAME}}ta sivustolla {{SITENAME}}",
+	"ffeed-wotd-short-title": "Päivän sana"
 }
