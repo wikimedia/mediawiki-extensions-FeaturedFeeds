@@ -41,5 +41,9 @@
 	"ffeed-featuredtexts-title": "{{SITENAME}} സംരംഭത്തിലെ തിരഞ്ഞെടുക്കപ്പെട്ട എഴുത്തിന്റെ ഫീഡ്",
 	"ffeed-featuredtexts-short-title": "തിരഞ്ഞെടുക്കപ്പെട്ട എഴുത്തുകൾ",
 	"ffeed-featuredtexts-desc": "{{SITENAME}} നൽകുന്ന മികച്ച എഴുത്തുകൾ",
-	"ffeed-featuredtexts-entry": "{{SITENAME}} സംരംഭത്തിൽ {{LOCALMONTHNAME}} {{LOCALDAY}} -ലെ തിരഞ്ഞെടുക്കപ്പെട്ട എഴുത്ത്"
+	"ffeed-featuredtexts-entry": "{{SITENAME}} സംരംഭത്തിൽ {{LOCALMONTHNAME}} {{LOCALDAY}} -ലെ തിരഞ്ഞെടുക്കപ്പെട്ട എഴുത്ത്",
+	"ffeed-wotd-title": "വിക്കിനിഘണ്ടു ഇന്നത്തെ വാക്ക്",
+	"ffeed-wotd-short-title": "ഇന്നത്തെ വാക്ക്",
+	"ffeed-wotd-desc": "{{SITENAME}} ഇന്നത്തെ വാക്ക്",
+	"ffeed-wotd-entry": "{{CURRENTMONTHNAME}} {{CURRENTDAY}}-ലെ വാക്ക്"
 }
