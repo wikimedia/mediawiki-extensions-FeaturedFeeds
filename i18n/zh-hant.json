@@ -49,5 +49,5 @@
 	"ffeed-wotd-title": "維基詞典每日一詞",
 	"ffeed-wotd-short-title": "每日一詞",
 	"ffeed-wotd-desc": "{{SITENAME}} 每日一詞",
-	"ffeed-wotd-entry": "{{CURRENTMONTHNAME}}{{CURRENTDAY}} 日每日一詞"
+	"ffeed-wotd-entry": "{{CURRENTMONTHNAME}} {{CURRENTDAY}} 日每日一詞"
 }
