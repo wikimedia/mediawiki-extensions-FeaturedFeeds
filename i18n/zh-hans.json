@@ -49,5 +49,6 @@
 	"ffeed-wotd-title": "维基词典每日新词",
 	"ffeed-wotd-short-title": "今日词语",
 	"ffeed-wotd-desc": "{{SITENAME}}每日新词",
-	"ffeed-wotd-entry": "{{CURRENTMONTHNAME}}{{CURRENTDAY}}日的每日新词"
+	"ffeed-wotd-entry": "{{CURRENTMONTHNAME}}{{CURRENTDAY}}日的每日新词",
+	"apihelp-featuredfeed-param-feed": "订阅名称。"
 }
