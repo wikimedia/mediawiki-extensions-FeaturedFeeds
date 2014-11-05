@@ -46,5 +46,6 @@
 	"ffeed-wotd-title": "Wort des Tages von Wiktionary",
 	"ffeed-wotd-short-title": "Wort des Tages",
 	"ffeed-wotd-desc": "Wort des Tages von {{SITENAME}}",
-	"ffeed-wotd-entry": "Wort des Tages für den {{CURRENTDAY}}. {{CURRENTMONTHNAME}}"
+	"ffeed-wotd-entry": "Wort des Tages für den {{CURRENTDAY}}. {{CURRENTMONTHNAME}}",
+	"apihelp-featuredfeed-param-feed": "Name des Feeds."
 }
