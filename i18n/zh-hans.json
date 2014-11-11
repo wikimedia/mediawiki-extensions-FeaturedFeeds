@@ -51,5 +51,6 @@
 	"ffeed-wotd-desc": "{{SITENAME}}每日新词",
 	"ffeed-wotd-entry": "{{CURRENTMONTHNAME}}{{CURRENTDAY}}日的每日新词",
 	"apihelp-featuredfeed-param-feed": "订阅名称。",
+	"apihelp-featuredfeed-param-language": "订阅语言代码。一些订阅会忽略。",
 	"apihelp-featuredfeed-example-1": "检索订阅“$1”"
 }
