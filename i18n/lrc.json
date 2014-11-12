@@ -20,5 +20,6 @@
 	"ffeed-qotd-short-title": "پورس روز",
 	"ffeed-wotd-title": "کلمه روز د ویکی کلیمه",
 	"ffeed-wotd-short-title": "کلیمه روز",
+	"ffeed-wotd-desc": "{{SITENAME}} کلیمه روز",
 	"apihelp-featuredfeed-param-feed": "نوم حورخون."
 }
