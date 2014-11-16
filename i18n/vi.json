@@ -45,5 +45,10 @@
 	"ffeed-wotd-title": "Mục từ Wiktionary trong ngày",
 	"ffeed-wotd-short-title": "Từ trong ngày",
 	"ffeed-wotd-desc": "Mục từ {{SITENAME}} trong ngày",
-	"ffeed-wotd-entry": "Mục từ ngày {{CURRENTDAY}} {{CURRENTMONTHNAME}}"
+	"ffeed-wotd-entry": "Mục từ ngày {{CURRENTDAY}} {{CURRENTMONTHNAME}}",
+	"apihelp-featuredfeed-description": "Cho ra một nguồn cấp nội dung chọn lọc.",
+	"apihelp-featuredfeed-param-feedformat": "Định dạng nguồn cấp.",
+	"apihelp-featuredfeed-param-feed": "Tên nguồn cấp.",
+	"apihelp-featuredfeed-param-language": "Mã ngôn ngữ của nguồn cấp, được một số trình đọc nguồn cấp bỏ qua.",
+	"apihelp-featuredfeed-example-1": "Lấy nguồn cấp “$1”"
 }

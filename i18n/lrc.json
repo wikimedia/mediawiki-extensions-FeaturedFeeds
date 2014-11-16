@@ -11,6 +11,7 @@
 	"ffeed-onthisday-title": "{{نوم سیل جا}} \"د ای روز...\" خوررسونی بی",
 	"ffeed-onthisday-short-title": "د امرو",
 	"ffeed-onthisday-desc": "رخ ونیا ویرگارمن د ای روز",
+	"ffeed-onthisday-entry": "د امرو: {{LOCALMONTHNAME}} {{LOCALDAY}}",
 	"ffeed-dyk-short-title": "شما می دونسین؟",
 	"ffeed-dyk-desc": "د تازه تری مینونه {{نوم سیلجا}}",
 	"ffeed-dyk-entry": "شما دونسین?: {{ما ولات نشین}} {{روز ولات نشین}}",
