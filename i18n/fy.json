@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Robin0van0der0vliet"
+		]
+	},
+	"ffeed-wotd-title": "Wikiwurdboek wurd fan de dei",
+	"ffeed-wotd-short-title": "Wurd fan de dei",
+	"ffeed-wotd-desc": "{{SITENAME}} wurd fan de dei",
+	"ffeed-wotd-entry": "Wurd fan de dei foar {{CURRENTDAY}} {{CURRENTMONTHNAME}}"
+}
