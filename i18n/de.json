@@ -48,5 +48,6 @@
 	"ffeed-wotd-desc": "Wort des Tages von {{SITENAME}}",
 	"ffeed-wotd-entry": "Wort des Tages für den {{CURRENTDAY}}. {{CURRENTMONTHNAME}}",
 	"apihelp-featuredfeed-param-feedformat": "Das Format des Feeds.",
-	"apihelp-featuredfeed-param-feed": "Name des Feeds."
+	"apihelp-featuredfeed-param-feed": "Name des Feeds.",
+	"apihelp-featuredfeed-example-1": "Feed „$1“ abrufen"
 }
