@@ -3,7 +3,8 @@
 		"authors": [
 			"Bassem JARKAS",
 			"Meno25",
-			"Mido"
+			"Mido",
+			"Omda4wady"
 		]
 	},
 	"ffeed-desc": "إضافة تلقيم لمحتوى الويكي المختار",
@@ -43,5 +44,6 @@
 	"ffeed-featuredtexts-title": "تلقيم النصوص المختارة على {{SITENAME}}",
 	"ffeed-featuredtexts-short-title": "نصوص مختارة",
 	"ffeed-featuredtexts-desc": "أفضل النصوص على {{SITENAME}}",
-	"ffeed-featuredtexts-entry": "النص المختار على {{SITENAME}} ليوم {{LOCALDAY}} {{LOCALMONTHNAME}}"
+	"ffeed-featuredtexts-entry": "النص المختار على {{SITENAME}} ليوم {{LOCALDAY}} {{LOCALMONTHNAME}}",
+	"ffeed-wotd-short-title": "كلمة اليوم"
 }
