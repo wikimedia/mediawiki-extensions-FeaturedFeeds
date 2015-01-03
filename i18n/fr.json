@@ -4,7 +4,8 @@
 			"Gomoko",
 			"Jean-Frédéric",
 			"Tpt",
-			"Urhixidur"
+			"Urhixidur",
+			"Windes"
 		]
 	},
 	"ffeed-desc": "Ajoute des flux de publication du contenu du wiki",
@@ -48,5 +49,7 @@
 	"ffeed-wotd-title": "Mot du jour de Wiktionary",
 	"ffeed-wotd-short-title": "Mot du jour",
 	"ffeed-wotd-desc": "Mot du jour de {{SITENAME}}",
-	"ffeed-wotd-entry": "Mot du jour pour {{CURRENTMONTHNAME}} {{CURRENTDAY}}"
+	"ffeed-wotd-entry": "Mot du jour pour {{CURRENTMONTHNAME}} {{CURRENTDAY}}",
+	"apihelp-featuredfeed-param-feedformat": "Le format du flux.",
+	"apihelp-featuredfeed-param-feed": "Nom du flux."
 }

@@ -4,7 +4,8 @@
 			"Bassem JARKAS",
 			"Meno25",
 			"Mido",
-			"Omda4wady"
+			"Omda4wady",
+			"Abanima"
 		]
 	},
 	"ffeed-desc": "إضافة تلقيم لمحتوى الويكي المختار",
@@ -45,5 +46,13 @@
 	"ffeed-featuredtexts-short-title": "نصوص مختارة",
 	"ffeed-featuredtexts-desc": "أفضل النصوص على {{SITENAME}}",
 	"ffeed-featuredtexts-entry": "النص المختار على {{SITENAME}} ليوم {{LOCALDAY}} {{LOCALMONTHNAME}}",
-	"ffeed-wotd-short-title": "كلمة اليوم"
+	"ffeed-wotd-title": "كلمة اليوم في ويكاموس",
+	"ffeed-wotd-short-title": "كلمة اليوم",
+	"ffeed-wotd-desc": "كلمة اليوم في {{SITENAME}}",
+	"ffeed-wotd-entry": "كلمة يوم {{CURRENTDAY}} {{CURRENTMONTHNAME}}",
+	"apihelp-featuredfeed-description": "يعطي تلقيماً للمحتوى المختار.",
+	"apihelp-featuredfeed-param-feedformat": "هيئة التلقيم.",
+	"apihelp-featuredfeed-param-feed": "اسم التلقيم.",
+	"apihelp-featuredfeed-param-language": "رمز لغة التلقيم. تتجاهله بعض التلقيمات.",
+	"apihelp-featuredfeed-example-1": "استخرج التلقيم «$1»"
 }
