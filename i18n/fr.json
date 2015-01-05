@@ -50,6 +50,9 @@
 	"ffeed-wotd-short-title": "Mot du jour",
 	"ffeed-wotd-desc": "Mot du jour de {{SITENAME}}",
 	"ffeed-wotd-entry": "Mot du jour pour {{CURRENTMONTHNAME}} {{CURRENTDAY}}",
+	"apihelp-featuredfeed-description": "Renvoie un flux de contenu mis en avant.",
 	"apihelp-featuredfeed-param-feedformat": "Le format du flux.",
-	"apihelp-featuredfeed-param-feed": "Nom du flux."
+	"apihelp-featuredfeed-param-feed": "Nom du flux.",
+	"apihelp-featuredfeed-param-language": "Code de langue du flux. Ignoré par certains flux.",
+	"apihelp-featuredfeed-example-1": "Récupérer le flux « $1 »"
 }
