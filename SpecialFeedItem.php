@@ -59,7 +59,7 @@ class SpecialFeedItem extends UnlistedSpecialPage {
 		}
 		try {
 			$ts = new MWTimestamp( $date );
-		} catch( MWException $ex ) {
+		} catch( Exception $ex ) {
 			return false;
 		};
 		return $ts->getTimestamp();

@@ -167,7 +167,7 @@ class FeaturedFeeds {
 	/**
 	 * @param $langCode string
 	 * @return array
-	 * @throws MWException
+	 * @throws Exception
 	 */
 	private static function getFeedsInternal( $langCode ) {
 		wfProfileIn( __METHOD__ );
@@ -385,7 +385,7 @@ class FeaturedFeedChannel {
 					$baseTime = FeaturedFeeds::startOfThisWeek();
 					break;
 				default:
-					throw new MWException( "'{$this->options['frequency']}' is not a valid frequency" );
+					throw new Exception( "'{$this->options['frequency']}' is not a valid frequency" );
 			}
 			for ( $i = 1 - $this->options['limit']; $i <= 0; $i++ ) {
 				$timestamp = $baseTime + $i * $ratio * 24 * 3600;
