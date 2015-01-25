@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Joxemai"
+			"Joxemai",
+			"Subi"
 		]
 	},
+	"ffeed-good-short-title": "Artikulu onak",
 	"ffeed-potd-short-title": "Eguneko irudia"
 }
