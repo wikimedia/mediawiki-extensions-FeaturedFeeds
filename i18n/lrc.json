@@ -7,6 +7,8 @@
 	},
 	"ffeed-no-feed": "خوراک خوری تیارگر نبیه.",
 	"ffeed-feed-not-found": "خوراک خوری $1 پیدا نبیه.",
+	"ffeed-invalid-timestamp": "هوال حون سردیس گات نامعتور",
+	"ffeed-featured-title": "{{SITENAME}} هوال حون گوتاریا خو",
 	"ffeed-featured-short-title": "گوتاریا نازار",
 	"ffeed-good-title": "{{SITENAME}} هوال حون گوتاریا خو",
 	"ffeed-good-short-title": "گوتاریا خو",
