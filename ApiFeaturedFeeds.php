@@ -15,14 +15,11 @@ class ApiFeaturedFeeds extends ApiBase {
 	}
 
 	public function execute() {
-		wfProfileIn( __METHOD__ );
-
 		$params = $this->extractRequestParams();
 
 		global $wgFeedClasses;
 
 		if ( !isset( $wgFeedClasses[$params['feedformat']] ) ) {
-			wfProfileOut( __METHOD__ );
 			$this->dieUsage( 'Invalid subscription feed type', 'feed-invalid' );
 		}
 
@@ -44,8 +41,6 @@ class ApiFeaturedFeeds extends ApiBase {
 		// Cache stuff in squids
 		$this->getMain()->setCacheMode( 'public' );
 		$this->getMain()->setCacheMaxAge( FeaturedFeeds::getMaxAge() );
-
-		wfProfileOut( __METHOD__ );
 	}
 
 	public function getAllowedParams() {

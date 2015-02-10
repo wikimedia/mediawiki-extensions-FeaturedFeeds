@@ -170,7 +170,6 @@ class FeaturedFeeds {
 	 * @throws Exception
 	 */
 	private static function getFeedsInternal( $langCode ) {
-		wfProfileIn( __METHOD__ );
 		$feedDefs = self::getFeedDefinitions();
 
 		$feeds = array();
@@ -183,7 +182,6 @@ class FeaturedFeeds {
 			$feed->getFeedItems();
 			$feeds[$name] = $feed;
 		}
-		wfProfileOut( __METHOD__ );
 
 		return $feeds;
 	}
