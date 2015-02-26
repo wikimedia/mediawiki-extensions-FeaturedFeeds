@@ -41,5 +41,14 @@
 	"ffeed-featuredtexts-title": "Kanaal för de beste Täxte {{GRAMMAR:vun+Dativ|{{ucfirst:{{SITENAME}}}}}}",
 	"ffeed-featuredtexts-short-title": "Bäste Täxte",
 	"ffeed-featuredtexts-desc": "De beste Täxte {{GRAMMAR:vun+Dative|{{ucfirst:{{SITENAME}}}}}}",
-	"ffeed-featuredtexts-entry": "{{LOCALDAY}}. {{LOCALMONTHNAME}}: {{ucfirst:{{GRAMMAR:ier|{{ucfirst:{{SITENAME}}}}}}}} beste Täxte"
+	"ffeed-featuredtexts-entry": "{{LOCALDAY}}. {{LOCALMONTHNAME}}: {{ucfirst:{{GRAMMAR:ier|{{ucfirst:{{SITENAME}}}}}}}} beste Täxte",
+	"ffeed-wotd-title": "WikkiWööterbooch - Et Woot vum Daach",
+	"ffeed-wotd-short-title": "Et Woot vum Daach",
+	"ffeed-wotd-desc": "{{SITENAME}} Et Woot vum Daach",
+	"ffeed-wotd-entry": "Et Woot vum Daach {{CURRENTDAY}} em {{CURRENTMONTHNAME}}",
+	"apihelp-featuredfeed-description": "Jidd ene Kanahl met besöndere Ennhallde uß.",
+	"apihelp-featuredfeed-param-feedformat": "Däm Kannahl sing Fommaht.",
+	"apihelp-featuredfeed-param-feed": "Dä Nahme vum Kannahl.",
+	"apihelp-featuredfeed-param-language": "Et Köözel vun dä schprhch vun dä Kannahl.\nMansche Kannäl beaachte dä nit.",
+	"apihelp-featuredfeed-example-1": "Donn dä Kannahl „$1“ afrohfe"
 }
