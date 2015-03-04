@@ -16,17 +16,15 @@ $wgExtensionCredits['other'][] = array(
 	'descriptionmsg' => 'ffeed-desc',
 );
 
-$dir = __DIR__;
-
-$wgAutoloadClasses['ApiFeaturedFeeds'] = "$dir/ApiFeaturedFeeds.php";
-$wgAutoloadClasses['FeaturedFeeds'] = "$dir/FeaturedFeeds.body.php";
-$wgAutoloadClasses['FeaturedFeedChannel'] = "$dir/FeaturedFeeds.body.php";
-$wgAutoloadClasses['FeaturedFeedItem'] = "$dir/FeaturedFeeds.body.php";
-$wgAutoloadClasses['SpecialFeedItem'] = "$dir/SpecialFeedItem.php";
+$wgAutoloadClasses['ApiFeaturedFeeds'] = __DIR__ . '/ApiFeaturedFeeds.php';
+$wgAutoloadClasses['FeaturedFeeds'] = __DIR__ . '/FeaturedFeeds.body.php';
+$wgAutoloadClasses['FeaturedFeedChannel'] = __DIR__ . '/FeaturedFeeds.body.php';
+$wgAutoloadClasses['FeaturedFeedItem'] = __DIR__ . '/FeaturedFeeds.body.php';
+$wgAutoloadClasses['SpecialFeedItem'] = __DIR__ . '/SpecialFeedItem.php';
 
 $wgMessagesDirs['FeaturedFeeds'] = __DIR__ . '/i18n';
-$wgExtensionMessagesFiles['FeaturedFeeds'] =  "$dir/FeaturedFeeds.i18n.php";
-$wgExtensionMessagesFiles['FeaturedFeedsAliases'] =  "$dir/FeaturedFeeds.alias.php";
+$wgExtensionMessagesFiles['FeaturedFeeds'] =  __DIR__ . '/FeaturedFeeds.i18n.php';
+$wgExtensionMessagesFiles['FeaturedFeedsAliases'] =  __DIR__ . '/FeaturedFeeds.alias.php';
 
 $wgSpecialPages['FeedItem'] = 'SpecialFeedItem';
 
