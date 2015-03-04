@@ -1,0 +1,50 @@
+{
+	"name": "FeaturedFeeds",
+	"author": [
+		"Max Semenik"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:FeaturedFeeds",
+	"descriptionmsg": "ffeed-desc",
+	"type": "other",
+	"ExtensionMessagesFiles": {
+		"FeaturedFeedsAliases": "FeaturedFeeds.alias.php"
+	},
+	"APIModules": {
+		"featuredfeed": "ApiFeaturedFeeds"
+	},
+	"Hooks": {
+		"ArticleSaveComplete": [
+			"FeaturedFeeds::articleSaveComplete"
+		],
+		"BeforePageDisplay": [
+			"FeaturedFeeds::beforePageDisplay"
+		],
+		"SkinTemplateOutputPageBeforeExec": [
+			"FeaturedFeeds::skinTemplateOutputPageBeforeExec"
+		]
+	},
+	"MessagesDirs": {
+		"FeaturedFeeds": [
+			"i18n"
+		]
+	},
+	"config": {
+		"DisplayFeedsInSidebar": true,
+		"FeaturedFeedsDefaults": {
+			"limit": 10,
+			"frequency": "daily",
+			"inUserLanguage": false
+		},
+		"FeaturedFeeds": {}
+	},
+	"SpecialPages": {
+		"FeedItem": "SpecialFeedItem"
+	},
+	"AutoloadClasses": {
+		"ApiFeaturedFeeds": "ApiFeaturedFeeds.php",
+		"FeaturedFeeds": "FeaturedFeeds.body.php",
+		"FeaturedFeedChannel": "FeaturedFeeds.body.php",
+		"FeaturedFeedItem": "FeaturedFeeds.body.php",
+		"SpecialFeedItem": "SpecialFeedItem.php"
+	}
+}
