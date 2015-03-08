@@ -42,5 +42,10 @@
 	"ffeed-featuredtexts-title": "Fluss dij test arcomandà ëd {{SITENAME}}",
 	"ffeed-featuredtexts-short-title": "Test arcomandà",
 	"ffeed-featuredtexts-desc": "Ij mej test che {{SITENAME}} a l'ha da eufre",
-	"ffeed-featuredtexts-entry": "Test ëd {{SITENAME}} arcomandà ai {{LOCALDAY}} {{LOCALMONTHNAME}}"
+	"ffeed-featuredtexts-entry": "Test ëd {{SITENAME}} arcomandà ai {{LOCALDAY}} {{LOCALMONTHNAME}}",
+	"ffeed-wotd-title": "Paròla dël di dël Wiksionari",
+	"ffeed-wotd-short-title": "Paròla dël di",
+	"ffeed-wotd-desc": "Paròla dël di ëd {{SITENAME}}",
+	"ffeed-wotd-entry": "Paròla dël di për {{CURRENTDAY}} {{CURRENTMONTHNAME}}",
+	"apihelp-featuredfeed-description": "A smon un fluss ëd contnù valorisà."
 }
