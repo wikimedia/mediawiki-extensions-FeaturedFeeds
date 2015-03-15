@@ -10,7 +10,7 @@
 	"ffeed-onthisday-desc": "په دې ورځ پېښه شوې تاريخي پېښې",
 	"ffeed-onthisday-entry": "په دې ورځ: {{LOCALMONTHNAME}} {{LOCALDAY}}",
 	"ffeed-dyk-title": "{{SITENAME}} \"آيا پدې پوهېدې؟\" کتنې",
-	"ffeed-dyk-short-title": "آيا ته پوهېدې؟",
+	"ffeed-dyk-short-title": "آيا په دې پوهېدلې؟",
 	"ffeed-dyk-entry": "آيا ته پوهېدې؟: {{LOCALMONTHNAME}} {{LOCALDAY}}",
 	"ffeed-motd-short-title": "د نن ورځې رسنۍ",
 	"ffeed-potd-title": "{{SITENAME}} د نن غوره انځور کتنې",
