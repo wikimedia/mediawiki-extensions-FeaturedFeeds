@@ -74,6 +74,11 @@ $specialPageAliases['ml'] = array(
 	'FeedItem' => array( 'ഫീഡ്‌ഇനം' ),
 );
 
+/** Brazilian Portuguese (português do Brasil) */
+$specialPageAliases['pt-br'] = array(
+	'FeedItem' => array( 'Item_de_feed' ),
+);
+
 /** Sicilian (sicilianu) */
 $specialPageAliases['scn'] = array(
 	'FeedItem' => array( 'FeedElemento' ),
