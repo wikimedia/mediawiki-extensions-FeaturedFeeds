@@ -24,6 +24,11 @@ $specialPageAliases['arz'] = array(
 	'FeedItem' => array( 'مدخله_تعليق' ),
 );
 
+/** Western Balochi (بلوچی رخشانی) */
+$specialPageAliases['bgn'] = array(
+	'FeedItem' => array( 'آیتم_ئی_ورّگ' ),
+);
+
 /** German (Deutsch) */
 $specialPageAliases['de'] = array(
 	'FeedItem' => array( 'Feedobjekt' ),
