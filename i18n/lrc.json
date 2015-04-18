@@ -29,6 +29,7 @@
 	"ffeed-potd-desc": " چن گله د عسگیا نازار د {{SITENAME}}",
 	"ffeed-potd-entry": "{{SITENAME}} عسگ روز سی {{LOCALMONTHNAME}} {{LOCALDAY}}",
 	"ffeed-qotd-short-title": "پورس روز",
+	"ffeed-featuredtexts-short-title": "نیسسه یا گل گر بیه",
 	"ffeed-wotd-title": "کلمه روز د ویکی کلیمه",
 	"ffeed-wotd-short-title": "کلیمه روز",
 	"ffeed-wotd-desc": "{{SITENAME}} کلیمه روز",
