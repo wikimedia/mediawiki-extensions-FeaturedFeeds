@@ -45,5 +45,10 @@
 	"ffeed-wotd-title": "Palabra del día del Wikcionariu",
 	"ffeed-wotd-short-title": "Palabra del día",
 	"ffeed-wotd-desc": "Palabra del día de {{SITENAME}}",
-	"ffeed-wotd-entry": "Palabra del día pal {{CURRENTDAY}} de {{CURRENTMONTHNAME}}"
+	"ffeed-wotd-entry": "Palabra del día pal {{CURRENTDAY}} de {{CURRENTMONTHNAME}}",
+	"apihelp-featuredfeed-description": "Devuelve una canal de noticies de conteníu destacáu",
+	"apihelp-featuredfeed-param-feedformat": "El formatu de la canal.",
+	"apihelp-featuredfeed-param-feed": "Nome de la canal.",
+	"apihelp-featuredfeed-param-language": "Códigu de llingua de la canal. Inoráu por delles canales.",
+	"apihelp-featuredfeed-example-1": "Recibir la canal «$1»"
 }
