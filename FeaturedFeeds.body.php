@@ -5,7 +5,7 @@ class FeaturedFeeds {
 
 	/**
 	 * Returns the list of feeds
-	 * 
+	 *
 	 * @param $langCode string|bool Code of language to use or false if default
 	 * @return array Feeds in format of 'name' => array of FeedItem
 	 */
@@ -20,7 +20,7 @@ class FeaturedFeeds {
 			return $cache[$langCode];
 		}
 
-		$cache = ObjectCache::getMainWANInstance();
+		$objectCache = ObjectCache::getMainWANInstance();
 		$key = self::getCacheKey( $langCode );
 
 		// Fetch the list of feed items from cache, considering it
@@ -29,10 +29,10 @@ class FeaturedFeeds {
 		// message changes. This slow explicit delete() of ~360 keys.
 		$curTTL = null;
 		$depKeys = array( self::getCacheKey( '*' ) );
-		$feeds = $cache->get( $key, $curTTL, $depKeys );
+		$feeds = $objectCache->get( $key, $curTTL, $depKeys );
 		if ( !$feeds || $curTTL <= 0 ) {
 			$feeds = self::getFeedsInternal( $langCode );
-			$cache->set( $key, $feeds, self::getMaxAge() );
+			$objectCache->set( $key, $feeds, self::getMaxAge() );
 		}
 
 		$cache[$langCode] = $feeds;
@@ -86,7 +86,7 @@ class FeaturedFeeds {
 
 	/**
 	 * Adds feeds to the page header
-	 * 
+	 *
 	 * @param OutputPage $out
 	 * @return bool
 	 */
@@ -117,7 +117,7 @@ class FeaturedFeeds {
 	public static function skinTemplateOutputPageBeforeExec( &$sk, &$tpl ) {
 		global $wgDisplayFeedsInSidebar, $wgAdvertisedFeedTypes;
 
-		if ( ( $wgDisplayFeedsInSidebar 
+		if ( ( $wgDisplayFeedsInSidebar
 			|| !wfMessage( 'ffeed-enable-sidebar-links' )->inContentLanguage()->isDisabled() )
 				&& $sk->getContext()->getTitle()->isMainPage() )
 		{
@@ -147,7 +147,7 @@ class FeaturedFeeds {
 	 */
 	public static function articleSaveComplete( $article ) {
 		$title = $article->getTitle();
-		$cache = ObjectCache::getMainWANInstance();
+		$objectCache = ObjectCache::getMainWANInstance();
 		// Although message names are configurable and can be set not to start with 'Ffeed', we
 		// make a shortcut here to avoid running these checks on every NS_MEDIAWIKI edit
 		if ( $title->getNamespace() == NS_MEDIAWIKI && strpos( $title->getText(), 'Ffeed-' ) === 0 ) {
@@ -158,7 +158,7 @@ class FeaturedFeeds {
 					$nt = Title::makeTitleSafe( NS_MEDIAWIKI, $feed[$msgType] );
 					if ( $nt->equals( $baseTitle ) ) {
 						wfDebug( "FeaturedFeeds-related page {$title->getFullText()} edited, purging cache\n" );
-						$cache->touchCheckKey( self::getCacheKey( '*' ) );
+						$objectCache->touchCheckKey( self::getCacheKey( '*' ) );
 						return true;
 					}
 				}
@@ -191,7 +191,7 @@ class FeaturedFeeds {
 
 	/**
 	 * Returns the Unix timestamp of current day's first second
-	 * 
+	 *
 	 * @return int Timestamp
 	 */
 	public static function todaysStart() {
@@ -251,7 +251,7 @@ class FeaturedFeeds {
 
 	/**
 	 * Returns the number of seconds a feed should stay in cache
-	 * 
+	 *
 	 * @return int: Time in seconds
 	 */
 	public static function getMaxAge() {
@@ -428,7 +428,7 @@ class FeaturedFeedChannel {
 		}
 		$text = self::$parser->parse( $text, $title, self::$parserOptions )->getText();
 		$ts = new MWTimestamp( $date );
-		$url = SpecialPage::getTitleFor( 'FeedItem' , 
+		$url = SpecialPage::getTitleFor( 'FeedItem' ,
 			$this->name . '/' . $ts->getTimestamp( TS_MW ) . '/' . $this->languageCode
 		)->getFullURL();
 
@@ -442,9 +442,9 @@ class FeaturedFeedChannel {
 
 	/**
 	 * Returns a URL to the feed
-	 * 
+	 *
 	 * @param $format string Feed format, 'rss' or 'atom'
-	 * @return String 
+	 * @return String
 	 */
 	public function getURL( $format ) {
 		global $wgContLang;
