@@ -10,7 +10,7 @@ class FeaturedFeeds {
 	 * @return array Feeds in format of 'name' => array of FeedItem
 	 */
 	public static function getFeeds( $langCode ) {
-		global $wgMemc, $wgLanguageCode;
+		global $wgLanguageCode;
 
 		if ( !$langCode || self::allInContentLanguage() ) {
 			$langCode = $wgLanguageCode;
@@ -20,13 +20,21 @@ class FeaturedFeeds {
 			return $cache[$langCode];
 		}
 
+		$cache = ObjectCache::getMainWANInstance();
 		$key = self::getCacheKey( $langCode );
-		$feeds = $wgMemc->get( $key );
-		
-		if ( !$feeds ) {
+
+		// Fetch the list of feed items from cache, considering it
+		// a miss if the cache is from before the last feed related
+		// message change. The "*" key is touched whenever a relevant
+		// message changes. This slow explicit delete() of ~360 keys.
+		$curTTL = null;
+		$depKeys = array( self::getCacheKey( '*' ) );
+		$feeds = $cache->get( $key, $curTTL, $depKeys );
+		if ( !$feeds || $curTTL <= 0 ) {
 			$feeds = self::getFeedsInternal( $langCode );
-			$wgMemc->set( $key, $feeds, self::getMaxAge() );
+			$cache->set( $key, $feeds, self::getMaxAge() );
 		}
+
 		$cache[$langCode] = $feeds;
 		return $feeds;
 	}
@@ -138,8 +146,8 @@ class FeaturedFeeds {
 	 * @return bool
 	 */
 	public static function articleSaveComplete( $article ) {
-		global $wgMemc, $wgLanguageCode;
 		$title = $article->getTitle();
+		$cache = ObjectCache::getMainWANInstance();
 		// Although message names are configurable and can be set not to start with 'Ffeed', we
 		// make a shortcut here to avoid running these checks on every NS_MEDIAWIKI edit
 		if ( $title->getNamespace() == NS_MEDIAWIKI && strpos( $title->getText(), 'Ffeed-' ) === 0 ) {
@@ -150,12 +158,7 @@ class FeaturedFeeds {
 					$nt = Title::makeTitleSafe( NS_MEDIAWIKI, $feed[$msgType] );
 					if ( $nt->equals( $baseTitle ) ) {
 						wfDebug( "FeaturedFeeds-related page {$title->getFullText()} edited, purging cache\n" );
-						$wgMemc->delete( self::getCacheKey( $wgLanguageCode ) );
-						$lang = $title->getSubpageText();
-						// Sorry, users of multilingual feeds, we can't purge cache for every possible language
-						if ( $lang != $baseTitle->getText() ) {
-							$wgMemc->delete( $lang );
-						}
+						$cache->touchCheckKey( self::getCacheKey( '*' ) );
 						return true;
 					}
 				}
