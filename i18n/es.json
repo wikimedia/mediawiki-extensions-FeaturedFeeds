@@ -47,5 +47,10 @@
 	"ffeed-wotd-title": "Palabra del día en el Wikcionario",
 	"ffeed-wotd-short-title": "Palabra del día",
 	"ffeed-wotd-desc": "Palabra del día en {{SITENAME}}",
-	"ffeed-wotd-entry": "Palabra del día {{CURRENTDAY}} de {{CURRENTMONTHNAME}}"
+	"ffeed-wotd-entry": "Palabra del día {{CURRENTDAY}} de {{CURRENTMONTHNAME}}",
+	"apihelp-featuredfeed-description": "Devuelve un canal de contenido destacado.",
+	"apihelp-featuredfeed-param-feedformat": "El formato del canal.",
+	"apihelp-featuredfeed-param-feed": "Nombre del canal.",
+	"apihelp-featuredfeed-param-language": "Código de idioma del canal. Algunos canales lo ignoran.",
+	"apihelp-featuredfeed-example-1": "Recuperar canal «$1»"
 }
