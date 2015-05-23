@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"SPQRobin",
-			"Siebrand"
+			"Siebrand",
+			"Robin0van0der0vliet"
 		]
 	},
 	"ffeed-desc": "Voegt feeds toe voor de uitgelichte inhoud van een wiki",
@@ -43,5 +44,7 @@
 	"ffeed-featuredtexts-short-title": "Aanbevolen teksten",
 	"ffeed-featuredtexts-desc": "De beste teksten die {{SITENAME}} te bieden heeft",
 	"ffeed-featuredtexts-entry": "Aanbevolgen teksten van {{SITENNAME}} van {{LOCALDAY}} {{LOCALMONTHNAME}}",
-	"ffeed-wotd-short-title": "Woord van de dag"
+	"ffeed-wotd-short-title": "Woord van de dag",
+	"apihelp-featuredfeed-param-feed": "Feednaam.",
+	"apihelp-featuredfeed-example-1": "Feed \"$1\" ophalen"
 }
