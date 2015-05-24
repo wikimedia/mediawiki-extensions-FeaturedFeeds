@@ -1,12 +1,44 @@
 {
 	"@metadata": {
 		"authors": [
-			"Karthi.dr"
+			"Karthi.dr",
+			"Hindustanilanguage"
 		]
 	},
+	"ffeed-no-feed": "फ़ीड निर्धारित नहीं",
+	"ffeed-feed-not-found": "फ़ीड $1 मौजूद नहीं।",
+	"ffeed-entry-not-found": " $1 के लिए फ़ीड प्रविष्टि नहीं मिली।",
+	"ffeed-sidebar-section": "फ़ीचर्ड सामग्री फ़ीड",
+	"ffeed-invalid-timestamp": "अवैध फ़ीड समयछाप।",
+	"ffeed-featured-title": "{{SITENAME}} फ़ीचर्ड लेखों की फ़ीड",
 	"ffeed-featured-short-title": "निर्वाचित लेख",
+	"ffeed-featured-desc": "सर्वश्रेष्ठ लेख जो {{SITENAME}} पर मौजूद हैं",
+	"ffeed-featured-entry": "{{LOCALMONTHNAME}} {{LOCALDAY}} {{SITENAME}} फ़ीचर्ड लेख",
+	"ffeed-good-title": "{{SITENAME}} अच्छे लेखों की फ़ीड",
 	"ffeed-good-short-title": "अच्छा लेख",
+	"ffeed-good-desc": "सर्वश्रेष्ठ लेख जो {{SITENAME}} पर मौजूद हैं",
+	"ffeed-good-entry": "{{LOCALMONTHNAME}} {{LOCALDAY}} {{SITENAME}} अच्छा लेख",
+	"ffeed-onthisday-title": "{SITENAME}} \"आज के दिन...\" फ़ीड",
 	"ffeed-onthisday-short-title": "आज के दिन...",
+	"ffeed-onthisday-desc": "आज के दिन की ऐतिहासिक घटनाएँ",
+	"ffeed-onthisday-entry": "आज के दिन: {{LOCALMONTHNAME}} {{LOCALDAY}}",
+	"ffeed-dyk-title": "{{SITENAME}} \"क्या आप जानते हैं?\" फ़ीड",
 	"ffeed-dyk-short-title": "आप जानते थे?",
-	"ffeed-dyk-entry": "क्या आप जानते हैं?: {{LOCALMONTHNAME}} {{LOCALDAY}}"
+	"ffeed-dyk-desc": "{{SITENAME}} से ताज़ा सामग्री",
+	"ffeed-dyk-entry": "क्या आप जानते हैं?: {{LOCALMONTHNAME}} {{LOCALDAY}}",
+	"ffeed-motd-title": "{{SITENAME}} आज के दिन मीडिया फ़ीड",
+	"ffeed-motd-short-title": "आज के दिन मीडिया",
+	"ffeed-motd-desc": "{{SITENAME}} पर बहतरीन मीडिया",
+	"ffeed-motd-entry": "{{SITENAME}} {{LOCALMONTHNAME}} के लिए आज के दिन मीडिया {{LOCALDAY}}",
+	"ffeed-potd-title": "{{SITENAME}} दिन की चित्र फ़ीड",
+	"ffeed-potd-short-title": "दिन की चित्र",
+	"ffeed-potd-desc": "{{SITENAME}} के कुछ बहतरीन चित्र",
+	"ffeed-potd-entry": "{{SITENAME}} {{LOCALMONTHNAME}} के लिए दिन की चित्र {{LOCALDAY}}",
+	"ffeed-qotd-title": "{SITENAME}} दिन की कहावत फ़ीड",
+	"ffeed-qotd-short-title": "दिन की कहावत",
+	"ffeed-qotd-desc": "{{SITENAME}} की कुछ बहतरीन कहावतें",
+	"ffeed-qotd-entry": "{{SITENAME}} {{LOCALMONTHNAME}} के लिए दिन की कहावत {{LOCALDAY}}",
+	"ffeed-featuredtexts-title": "{{SITENAME}} फ़ीचर्ड पाठ फ़ीड",
+	"ffeed-featuredtexts-short-title": "फ़ीचर्ड पाठ",
+	"ffeed-featuredtexts-desc": "सर्वश्रेष्ठ पाठ जो {{SITENAME}} पर मौजूद हैं"
 }
