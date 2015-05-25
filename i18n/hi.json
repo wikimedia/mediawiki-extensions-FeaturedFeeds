@@ -40,5 +40,15 @@
 	"ffeed-qotd-entry": "{{SITENAME}} {{LOCALMONTHNAME}} के लिए दिन की कहावत {{LOCALDAY}}",
 	"ffeed-featuredtexts-title": "{{SITENAME}} फ़ीचर्ड पाठ फ़ीड",
 	"ffeed-featuredtexts-short-title": "फ़ीचर्ड पाठ",
-	"ffeed-featuredtexts-desc": "सर्वश्रेष्ठ पाठ जो {{SITENAME}} पर मौजूद हैं"
+	"ffeed-featuredtexts-desc": "सर्वश्रेष्ठ पाठ जो {{SITENAME}} पर मौजूद हैं",
+	"ffeed-featuredtexts-entry": "{{LOCALMONTHNAME}} {{LOCALDAY}} {{SITENAME}} निर्वाचित पाठ",
+	"ffeed-wotd-title": "विक्षनरी दिन का शब्द",
+	"ffeed-wotd-short-title": "दिन का शब्द",
+	"ffeed-wotd-desc": "{{SITENAME}} दिन का शब्द",
+	"ffeed-wotd-entry": "{{CURRENTMONTHNAME}} {{CURRENTDAY}} के लिए दिन का शब्द",
+	"apihelp-featuredfeed-description": "इसका परिणाम एक निर्वाचित फ़ीड है।",
+	"apihelp-featuredfeed-param-feedformat": "फ़ीड का प्रारूप",
+	"apihelp-featuredfeed-param-feed": "फ़ीड का नाम",
+	"apihelp-featuredfeed-param-language": "फ़ीड भाषा कोड। कुछ फ़ीड-मामलों में नज़रअंदाज़",
+	"apihelp-featuredfeed-example-1": "फ़ीड \"$1\" निकालें"
 }

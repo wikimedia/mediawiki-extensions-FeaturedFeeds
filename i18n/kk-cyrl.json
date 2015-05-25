@@ -9,6 +9,7 @@
 	"ffeed-sidebar-section": "Танымал контент тізбегі",
 	"ffeed-featured-title": "{{SITENAME}} танымал мақалалар тізбегі",
 	"ffeed-featured-short-title": "Танымал мақалалар",
+	"ffeed-featured-entry": "{{LOCALMONTHNAME}} {{LOCALDAY}} {{SITENAME}} таңдаулы мақала",
 	"ffeed-good-title": "{{SITENAME}} сайтындағы жақсы мақалалар тізбегі",
 	"ffeed-good-short-title": "Жақсы мақалалар",
 	"ffeed-good-desc": "Ұсынуға жаңа мақалалар {{SITENAME}}",
