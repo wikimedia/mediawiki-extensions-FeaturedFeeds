@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Александр Сигачёв",
-			"Okras"
+			"Okras",
+			"Kaganer"
 		]
 	},
 	"ffeed-desc": "Добавляет канал избранных материалов вики",
@@ -27,10 +28,10 @@
 	"ffeed-dyk-short-title": "Знаете ли вы?",
 	"ffeed-dyk-desc": "Из новых материалов {{GRAMMAR:genitive|{{SITENAME}}}}",
 	"ffeed-dyk-entry": "Знаете ли вы? {{LOCALDAY}} {{LOCALMONTHNAMEGEN}}",
-	"ffeed-motd-title": "Канал {{GRAMMAR:genitive|{{SITENAME}}}} «Медиа дня»",
-	"ffeed-motd-short-title": "Медиа дня",
+	"ffeed-motd-title": "Канал {{GRAMMAR:genitive|{{SITENAME}}}} «Медиафайл дня»",
+	"ffeed-motd-short-title": "Медиафайл дня",
 	"ffeed-motd-desc": "Фото, видео и аудио из {{GRAMMAR:genitive|{{SITENAME}}}}",
-	"ffeed-motd-entry": "Медиа дня из {{GRAMMAR:genitive|{{SITENAME}}}} за {{LOCALDAY}} {{LOCALMONTHNAMEGEN}}",
+	"ffeed-motd-entry": "Медиафайл дня из {{GRAMMAR:genitive|{{SITENAME}}}} за {{LOCALDAY}} {{LOCALMONTHNAMEGEN}}",
 	"ffeed-potd-title": "Канал {{GRAMMAR:genitive|{{SITENAME}}}} «Изображение дня»",
 	"ffeed-potd-short-title": "Изображение дня",
 	"ffeed-potd-desc": "Одни из лучших изображений  {{GRAMMAR:genitive|{{SITENAME}}}}",
