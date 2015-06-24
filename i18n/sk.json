@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Helix84"
+			"Helix84",
+			"Teslaton"
 		]
 	},
 	"ffeed-desc": "Pridá na odporúčaný obsah wiki kanály noviniek",
@@ -9,7 +10,7 @@
 	"ffeed-feed-not-found": "Kanál $1 nebol nájdený",
 	"ffeed-entry-not-found": "Záznam kanála pre $1 nebol nájdený",
 	"ffeed-sidebar-section": "Kanály odporúčaného obsahu",
-	"ffeed-invalid-timestamp": "Neplatná časová známka kanála",
+	"ffeed-invalid-timestamp": "Neplatná časová značka kanála",
 	"ffeed-featured-title": "Kanál odporúčaných článkov {{GRAMMAR:genitív|{{SITENAME}}}}",
 	"ffeed-featured-short-title": "Odporúčané články",
 	"ffeed-featured-desc": "Najlepšie články, ktoré {{SITENAME}} môže ponúknuť",
