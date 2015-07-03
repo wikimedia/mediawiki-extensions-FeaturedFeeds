@@ -3,7 +3,8 @@
 		"authors": [
 			"Fryed-peach",
 			"Shirayuki",
-			"Whym"
+			"Whym",
+			"Sujiniku"
 		]
 	},
 	"ffeed-desc": "ウィキの選り抜きコンテンツの配信フィードを追加します",
@@ -36,6 +37,9 @@
 	"ffeed-potd-short-title": "今日の一枚",
 	"ffeed-potd-desc": "{{SITENAME}} の最高の画像の一部",
 	"ffeed-potd-entry": "{{SITENAME}} {{LOCALMONTHNAME}}{{LOCALDAY}}日の今日の一枚",
+	"ffeed-qotd-title": "{{SITENAME}}今日の語句フィード",
+	"ffeed-qotd-short-title": "今日の語句",
+	"ffeed-qotd-desc": "{{SITENAME}} の最高の語句の一部",
 	"ffeed-featuredtexts-title": "{{SITENAME}} 秀逸な文章フィード",
 	"ffeed-featuredtexts-short-title": "秀逸な文章",
 	"ffeed-featuredtexts-desc": "{{SITENAME}} の秀逸なテキストをお届けします",
