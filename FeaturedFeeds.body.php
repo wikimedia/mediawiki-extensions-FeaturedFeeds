@@ -57,7 +57,7 @@ class FeaturedFeeds {
 		static $feedDefs = false;
 		if ( $feedDefs === false ) {
 			$feedDefs = $wgFeaturedFeeds;
-			wfRunHooks( 'FeaturedFeeds::getFeeds', array( &$feedDefs ) );
+			Hooks::run( 'FeaturedFeeds::getFeeds', array( &$feedDefs ) );
 
 			// fill defaults
 			self::$allInContLang = true;
