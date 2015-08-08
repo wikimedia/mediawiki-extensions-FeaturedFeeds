@@ -46,5 +46,6 @@
 		"FeaturedFeedChannel": "FeaturedFeeds.body.php",
 		"FeaturedFeedItem": "FeaturedFeeds.body.php",
 		"SpecialFeedItem": "SpecialFeedItem.php"
-	}
+	},
+	"manifest_version": 1
 }
