@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Danmichaelo",
-			"Event"
+			"Event",
+			"Cocu"
 		]
 	},
 	"ffeed-desc": "Oppretter syndikeringsmating av wikiens viktigste innhold",
@@ -15,7 +16,7 @@
 	"ffeed-featured-desc": "De beste artiklene {{SITENAME}} har å tilby",
 	"ffeed-onthisday-short-title": "På denne dag…",
 	"ffeed-onthisday-desc": "Historiske hendelser på denne dag",
-	"ffeed-onthisday-entry": "På denne dag: {{LOCALMONTHNAME}} {{LOCALDAY}}",
+	"ffeed-onthisday-entry": "På denne dagen: {{LOCALDAY}}. {{LOCALMONTHNAME}}",
 	"ffeed-dyk-short-title": "Visste du at?",
 	"ffeed-dyk-desc": "Fra {{SITENAME}}s nyeste innhold",
 	"ffeed-dyk-entry": "Visste du at?: {{LOCALMONTHNAME}} {{LOCALDAY}}",
