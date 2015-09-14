@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mashoi7"
+		]
+	},
+	"ffeed-onthisday-short-title": "Täl päiväl...",
+	"ffeed-onthisday-desc": "Histouriellizet tapahtumat täl päiväl",
+	"ffeed-dyk-title": "{{SITENAME}} \"Tiezitgo?\" -syöteh",
+	"ffeed-dyk-short-title": "Tiezitgo?",
+	"ffeed-dyk-desc": "Saitan {{SITENAME}} uuzimas syväindös",
+	"ffeed-dyk-entry": "Tiezitgo?: {{LOCALDAY}}. {{LOCALMONTHNAME}}",
+	"ffeed-motd-short-title": "Päivän medii",
+	"ffeed-motd-entry": "Saitan {{SITENAME}} päivän medii {{LOCALDAY}}. {{LOCALMONTHNAME}}du",
+	"ffeed-potd-title": "Päivän kuva saital {{SITENAME}} -syöteh",
+	"ffeed-potd-short-title": "Päivän kuva",
+	"ffeed-potd-desc": "Saitan {{SITENAME}} parahat kuvat",
+	"ffeed-qotd-title": "Päivän citacii saital {{SITENAME}}",
+	"ffeed-qotd-short-title": "Päivän citacii",
+	"ffeed-qotd-desc": "Parahimat citaciet saital {{SITENAME}}",
+	"ffeed-qotd-entry": "Saitan {{SITENAME}} päivän citacii {{LOCALDAY}}. {{LOCALMONTHNAME}}du",
+	"ffeed-wotd-short-title": "Päivän sana"
+}
