@@ -4,8 +4,11 @@
 			"Mashoi7"
 		]
 	},
+	"ffeed-good-entry": "Hyvä kirjutus {{LOCALDAY}}. {{LOCALMONTHNAME}}du saital {{SITENAME}}",
+	"ffeed-onthisday-title": "Saitan {{SITENAME}} syöteh \"Tänäpäi...\"",
 	"ffeed-onthisday-short-title": "Täl päiväl...",
 	"ffeed-onthisday-desc": "Histouriellizet tapahtumat täl päiväl",
+	"ffeed-onthisday-entry": "Tänäpäi: {{LOCALDAY}}. {{LOCALMONTHNAME}}du",
 	"ffeed-dyk-title": "{{SITENAME}} \"Tiezitgo?\" -syöteh",
 	"ffeed-dyk-short-title": "Tiezitgo?",
 	"ffeed-dyk-desc": "Saitan {{SITENAME}} uuzimas syväindös",
@@ -19,5 +22,6 @@
 	"ffeed-qotd-short-title": "Päivän citacii",
 	"ffeed-qotd-desc": "Parahimat citaciet saital {{SITENAME}}",
 	"ffeed-qotd-entry": "Saitan {{SITENAME}} päivän citacii {{LOCALDAY}}. {{LOCALMONTHNAME}}du",
-	"ffeed-wotd-short-title": "Päivän sana"
+	"ffeed-wotd-short-title": "Päivän sana",
+	"ffeed-wotd-desc": "{{SITENAME}} Päivän sana"
 }
