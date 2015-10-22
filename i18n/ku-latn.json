@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"George Animal"
+			"George Animal",
+			"Bikarhêner"
 		]
 	},
+	"ffeed-good-short-title": "Gotarên baş",
 	"ffeed-onthisday-short-title": "Di vê rojê...",
 	"ffeed-onthisday-desc": "Bûyerênd îrokî di vê rojê",
 	"ffeed-dyk-short-title": "Te zanibû?",
