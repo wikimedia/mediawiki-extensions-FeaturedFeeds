@@ -5,7 +5,8 @@
 			"Simon Shek",
 			"Waihorace",
 			"Liuxinyu970226",
-			"Cwlin0416"
+			"Cwlin0416",
+			"LNDDYL"
 		]
 	},
 	"ffeed-desc": "加入 Wiki 特色內容的匯集來源",
@@ -49,5 +50,6 @@
 	"ffeed-wotd-title": "維基詞典每日一詞",
 	"ffeed-wotd-short-title": "每日一詞",
 	"ffeed-wotd-desc": "{{SITENAME}} 每日一詞",
-	"ffeed-wotd-entry": "{{CURRENTMONTHNAME}} {{CURRENTDAY}} 日每日一詞"
+	"ffeed-wotd-entry": "{{CURRENTMONTHNAME}} {{CURRENTDAY}} 日每日一詞",
+	"apihelp-featuredfeed-param-feed": "摘要名稱。"
 }
