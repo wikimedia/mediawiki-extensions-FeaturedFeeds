@@ -1,14 +1,15 @@
 {
 	"@metadata": {
 		"authors": [
-			"Erdemaslancan"
+			"Erdemaslancan",
+			"Gorizon"
 		]
 	},
 	"ffeed-desc": "Wiki zerre do weşra xeberanê sendikasyona dekeno de",
 	"ffeed-no-feed": "Xeberi nêvacıyayê",
 	"ffeed-feed-not-found": "$1 ra xeberi çınyê",
 	"ffeed-entry-not-found": "Dekewtış dê $1 ra xeberi teba çınyo",
-	"ffeed-sidebar-section": "Zerre dê weşi ra xeberi",
+	"ffeed-sidebar-section": "Xeberi weçinaye zerreki",
 	"ffeed-invalid-timestamp": "Mora demi ravêrdi niya",
 	"ffeed-featured-title": "{{SITENAME}} ra wesiqeyê weşi yenê",
 	"ffeed-featured-short-title": "Wesiqeyo Zafın",
