@@ -1,12 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"Glavkos"
+			"Glavkos",
+			"SucreRouge"
 		]
 	},
 	"ffeed-feed-not-found": "Η ροή $1 δεν βρέθηκε",
 	"ffeed-entry-not-found": "Η είσοδος ροής για το $1 δε βέθηκε",
-	"ffeed-featured-short-title": "Αξιόλογα λήμματα",
+	"ffeed-featured-short-title": "Προβεβλημένα λήμματα",
 	"ffeed-featured-entry": "{{LOCALMONTHNAME}} {{LOCALDAY}} {{SITENAME}} αξιόλογο λήμμα",
 	"ffeed-good-title": "{{SITENAME}} ροή καλών λημμάτων",
 	"ffeed-good-short-title": "Καλά λήμματα",
