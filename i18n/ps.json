@@ -15,5 +15,9 @@
 	"ffeed-motd-short-title": "د نن ورځې رسنۍ",
 	"ffeed-potd-title": "{{SITENAME}} د نن غوره انځور کتنې",
 	"ffeed-potd-short-title": "د نن ورځې انځور",
-	"ffeed-qotd-short-title": "د نن ورځې وراشه"
+	"ffeed-qotd-short-title": "د نن ورځې وراشه",
+	"ffeed-wotd-title": "د ويکيسيند د نن ورځې وييکه",
+	"ffeed-wotd-short-title": "د نن ورځې وييکه",
+	"ffeed-wotd-desc": "د {{SITENAME}} د نن ورځې وييکه",
+	"ffeed-wotd-entry": "د نن ورځې وييکه {{CURRENTMONTHNAME}} {{CURRENTDAY}}"
 }
