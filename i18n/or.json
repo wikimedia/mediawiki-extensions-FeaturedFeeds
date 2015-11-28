@@ -3,7 +3,8 @@
 		"authors": [
 			"Jnanaranjan Sahu",
 			"Odisha1",
-			"Shisir 1945"
+			"Shisir 1945",
+			"Psubhashish"
 		]
 	},
 	"ffeed-desc": "ଉଇକିର ବିଶେଷ ଲେଖାର ସିଣ୍ଡିକେଶନ ଫିଡକୁ ଯୋଡନ୍ତୁ",
@@ -28,10 +29,10 @@
 	"ffeed-dyk-short-title": "ଆପଣ ଜାଣନ୍ତି କି ?",
 	"ffeed-dyk-desc": "{{SITENAME}}ରୁ ନୂତନତମ ଜିନିଷ",
 	"ffeed-dyk-entry": "ଆପଣ ଜାଣନ୍ତି କି ? : {{LOCALMONTHNAME}} {{LOCALDAY}}",
-	"ffeed-motd-title": "{{SITENAME}} ଦିନର ବଛା ମେଡିଆ ପାଇଁ ମନ୍ତବ୍ୟ",
+	"ffeed-motd-title": "{{SITENAME}} ଦିନ ଫିଡ଼ ପାଇଁ ବଛା ମିଡ଼ିଆ",
 	"ffeed-motd-short-title": "ଆଜି ଦିନର ବଛା ଛବି",
 	"ffeed-motd-desc": "{{SITENAME}}ରେ ଥିବା କେତେକ ଉନ୍ନତମାନର ଛବିମାନଙ୍କ ମଧ୍ୟରୁ",
-	"ffeed-motd-entry": "{{LOCALMONTHNAME}} {{LOCALDAY}}ପାଇଁ {{SITENAME}} ଦିନର ବଛା ମେଡିଆ",
+	"ffeed-motd-entry": "{{LOCALMONTHNAME}} {{LOCALDAY}} ପାଇଁ {{SITENAME}} ଦିନର ବଛା ମିଡ଼ିଆ",
 	"ffeed-potd-title": "{{SITENAME}} ଦିନର ବଛା ଛବି ପାଇଁ ମନ୍ତବ୍ୟ",
 	"ffeed-potd-short-title": "ଆଜି ଦିନର ବଛା ଛବି",
 	"ffeed-potd-desc": "{{SITENAME}}ରେ ଥିବା କେତେକ ଉନ୍ନତମାନର ଛବିମାନଙ୍କ ମଧ୍ୟରୁ",
