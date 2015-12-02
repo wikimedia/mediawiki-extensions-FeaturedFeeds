@@ -5,10 +5,13 @@
 			"Subi"
 		]
 	},
+	"ffeed-featured-short-title": "Nabarmendutako artikuluak",
 	"ffeed-good-short-title": "Artikulu onak",
 	"ffeed-onthisday-short-title": "Gaurko egunez...",
 	"ffeed-dyk-short-title": "Ba al zenekien?",
 	"ffeed-potd-short-title": "Eguneko irudia",
 	"ffeed-qotd-short-title": "Gaurko aipua",
+	"ffeed-featuredtexts-short-title": "Nabarmendutako testuak",
+	"ffeed-wotd-title": "Wikiztegiko eguneko hitza",
 	"ffeed-wotd-short-title": "Eguneko hitza"
 }
