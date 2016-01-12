@@ -2,12 +2,17 @@
 	"@metadata": {
 		"authors": [
 			"DCLXVI",
-			"Stanqo"
+			"Stanqo",
+			"Vodnokon4e"
 		]
 	},
+	"ffeed-good-short-title": "Добри статии",
 	"ffeed-onthisday-short-title": "На този ден...",
 	"ffeed-onthisday-desc": "Исторически събития на този ден",
 	"ffeed-onthisday-entry": "На този ден: {{LOCALDAY}} {{LOCALMONTHNAME}}",
+	"ffeed-dyk-short-title": "Знаете ли, че?",
+	"ffeed-motd-short-title": "Медиен файл на деня",
+	"ffeed-potd-short-title": "Снимка на деня",
 	"ffeed-potd-desc": "Някои от най-добрите снимки на {{SITENAME}}",
 	"ffeed-qotd-short-title": "Цитат на деня",
 	"ffeed-qotd-desc": "Някои от най-добрите снимки на {{SITENAME}}",
