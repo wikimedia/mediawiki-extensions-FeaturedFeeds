@@ -6,6 +6,7 @@
 	"url": "https://www.mediawiki.org/wiki/Extension:FeaturedFeeds",
 	"descriptionmsg": "ffeed-desc",
 	"type": "other",
+	"license-name": "WTFPL",
 	"ExtensionMessagesFiles": {
 		"FeaturedFeedsAliases": "FeaturedFeeds.alias.php"
 	},
