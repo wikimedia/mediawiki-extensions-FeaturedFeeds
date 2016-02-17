@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"David1010"
+			"David1010",
+			"Tokoko"
 		]
 	},
 	"ffeed-desc": "ამატებს ვიკის რჩეული მასალების არხს",
@@ -41,5 +42,8 @@
 	"ffeed-featuredtexts-title": "{{SITENAME}} რჩეული ტექსტების არხი",
 	"ffeed-featuredtexts-short-title": "რჩეული ტექსტები",
 	"ffeed-featuredtexts-desc": "რჩეული ტექსტები {{SITENAME}}-ზე",
-	"ffeed-featuredtexts-entry": "{{LOCALMONTHNAME}} {{LOCALDAY}} {{SITENAME}} რჩეული ტექსტი"
+	"ffeed-featuredtexts-entry": "{{LOCALMONTHNAME}} {{LOCALDAY}} {{SITENAME}} რჩეული ტექსტი",
+	"ffeed-wotd-short-title": "დღის სიტყვა",
+	"ffeed-wotd-desc": "{{SITENAME}} დღის სიტყვა",
+	"ffeed-wotd-entry": "{{CURRENTDAY}} {{CURRENTMONTHNAME}} - დღის სიტყვა"
 }
