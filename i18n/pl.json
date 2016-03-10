@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"BeginaFelicysym"
+			"BeginaFelicysym",
+			"Mateuszek045"
 		]
 	},
 	"ffeed-desc": "Dodaje kanały RSS publikujące zawartości promowane wiki.",
@@ -41,5 +42,8 @@
 	"ffeed-featuredtexts-title": "Kanał promowanych treści witryny {{SITENAME}}",
 	"ffeed-featuredtexts-short-title": "Promowane treści",
 	"ffeed-featuredtexts-desc": "Najlepsze treści, jakie oferuje {{SITENAME}}",
-	"ffeed-featuredtexts-entry": "Treść promowana {{GRAMMAR:D.lp|{{SITENAME}}}} z {{LOCALDAY}} {{GRAMMAR:D.lp|{{LOCALMONTHNAME}}}}"
+	"ffeed-featuredtexts-entry": "Treść promowana {{GRAMMAR:D.lp|{{SITENAME}}}} z {{LOCALDAY}} {{GRAMMAR:D.lp|{{LOCALMONTHNAME}}}}",
+	"ffeed-wotd-short-title": "Słowo dnia",
+	"ffeed-wotd-desc": "{{SITENAME}} Słowo dnia",
+	"ffeed-wotd-entry": "Słowo dnia dla {{CURRENTMONTHNAME}} {{CURRENTDAY}}"
 }
