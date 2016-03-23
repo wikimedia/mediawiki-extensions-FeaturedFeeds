@@ -3,7 +3,8 @@
 		"authors": [
 			"Александр Сигачёв",
 			"Okras",
-			"Kaganer"
+			"Kaganer",
+			"Лилиә"
 		]
 	},
 	"ffeed-desc": "Добавляет канал избранных материалов вики",
@@ -47,5 +48,6 @@
 	"ffeed-wotd-title": "Слово дня Викисловаря",
 	"ffeed-wotd-short-title": "Слово дня",
 	"ffeed-wotd-desc": "Слово дня на сайте {{SITENAME}}",
-	"ffeed-wotd-entry": "Слово дня для {{CURRENTMONTHNAME}} {{CURRENTDAY}}"
+	"ffeed-wotd-entry": "Слово дня для {{CURRENTMONTHNAME}} {{CURRENTDAY}}",
+	"apihelp-featuredfeed-param-feedformat": "Биреү форматы"
 }
