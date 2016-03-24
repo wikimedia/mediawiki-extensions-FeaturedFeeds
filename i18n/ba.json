@@ -45,5 +45,7 @@
 	"ffeed-featuredtexts-desc": "{{GRAMMAR:genitive|{{SITENAME}}}}-тың иң яҡшы яҙмалары",
 	"ffeed-featuredtexts-entry": "{{GRAMMAR:genitive|{{SITENAME}}}}-тың {{LOCALDAY}} {{LOCALMONTHNAMEGEN}} көнөндә һайланған яҙма",
 	"ffeed-wotd-short-title": "Көн һүҙе",
-	"ffeed-wotd-desc": "Сайта {{SITENAME}} көн һүҙе"
+	"ffeed-wotd-desc": "Сайта {{SITENAME}} көн һүҙе",
+	"apihelp-featuredfeed-param-feedformat": "Биреү форматы",
+	"apihelp-featuredfeed-param-feed": "Канал исеме"
 }
