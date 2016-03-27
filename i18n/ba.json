@@ -4,9 +4,12 @@
 			"Roustammr",
 			"Гүзәл Ситдиҡова",
 			"ҒатаУлла",
-			"Янмурза Баки"
+			"Янмурза Баки",
+			"Азат Хәлилов",
+			"Лилиә"
 		]
 	},
+	"ffeed-desc": "Вики һайланған материалдары каналы өҫтәй",
 	"ffeed-no-feed": "Канал күрһәтелмәгән",
 	"ffeed-feed-not-found": "Файл $1 табылманы",
 	"ffeed-entry-not-found": "$1 каналының элементы табылмаған",
@@ -44,8 +47,12 @@
 	"ffeed-featuredtexts-short-title": "Һайланған яҙмалар",
 	"ffeed-featuredtexts-desc": "{{GRAMMAR:genitive|{{SITENAME}}}}-тың иң яҡшы яҙмалары",
 	"ffeed-featuredtexts-entry": "{{GRAMMAR:genitive|{{SITENAME}}}}-тың {{LOCALDAY}} {{LOCALMONTHNAMEGEN}} көнөндә һайланған яҙма",
+	"ffeed-wotd-title": "Викиһүҙлек көнө һүҙе",
 	"ffeed-wotd-short-title": "Көн һүҙе",
 	"ffeed-wotd-desc": "Сайта {{SITENAME}} көн һүҙе",
+	"ffeed-wotd-entry": "{{CURRENTMONTHNAME}} {{CURRENTDAY}} өсөн һүҙлек көнө",
 	"apihelp-featuredfeed-param-feedformat": "Биреү форматы",
-	"apihelp-featuredfeed-param-feed": "Канал исеме"
+	"apihelp-featuredfeed-param-feed": "Канал исеме",
+	"apihelp-featuredfeed-param-language": "Телдең кодын биреү. Ҡайһы бер каналдарҙа код бирелмәй.",
+	"apihelp-featuredfeed-example-1": "Сығанағы — «$1»"
 }
