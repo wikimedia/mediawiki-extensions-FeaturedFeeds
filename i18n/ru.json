@@ -49,8 +49,8 @@
 	"ffeed-wotd-short-title": "Слово дня",
 	"ffeed-wotd-desc": "Слово дня на сайте {{SITENAME}}",
 	"ffeed-wotd-entry": "Слово дня для {{CURRENTMONTHNAME}} {{CURRENTDAY}}",
-	"apihelp-featuredfeed-param-feedformat": "Биреү форматы",
-	"apihelp-featuredfeed-param-feed": "Каналдың исеме",
-	"apihelp-featuredfeed-param-language": "Телдең кодын биреү. Ҡайһы бер каналдарҙа код бирелмәй.",
+	"apihelp-featuredfeed-param-feedformat": "Формат ленты.",
+	"apihelp-featuredfeed-param-feed": "Название ленты.",
+	"apihelp-featuredfeed-param-language": "Языковой код ленты. Игнорируется некоторыми лентами.",
 	"apihelp-featuredfeed-example-1": "Получить ленту «$1»"
 }
