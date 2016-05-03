@@ -42,5 +42,6 @@
 	"ffeed-featuredtexts-title": "{{SITENAME}} abonfluo de elstaraj tekstoj",
 	"ffeed-featuredtexts-short-title": "Elstaraj tekstoj",
 	"ffeed-featuredtexts-desc": "Plej bonaj tekstoj el {{SITENAME}}",
-	"ffeed-featuredtexts-entry": "{{LOCALDAY}}-a de {{LOCALMONTHNAME}} {{SITENAME}} elstara teksto"
+	"ffeed-featuredtexts-entry": "{{LOCALDAY}}-a de {{LOCALMONTHNAME}} {{SITENAME}} elstara teksto",
+	"ffeed-wotd-short-title": "Vorto de la tago"
 }
