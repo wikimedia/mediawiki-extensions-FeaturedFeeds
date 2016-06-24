@@ -4,7 +4,8 @@
 			"Fryed-peach",
 			"Shirayuki",
 			"Whym",
-			"Sujiniku"
+			"Sujiniku",
+			"Otokoume"
 		]
 	},
 	"ffeed-desc": "ウィキの選り抜きコンテンツの配信フィードを追加します",
@@ -44,5 +45,8 @@
 	"ffeed-featuredtexts-short-title": "秀逸な文章",
 	"ffeed-featuredtexts-desc": "{{SITENAME}} の秀逸なテキストをお届けします",
 	"ffeed-featuredtexts-entry": "{{SITENAME}} {{LOCALMONTHNAME}}{{LOCALDAY}}日の秀逸なテキスト",
-	"ffeed-wotd-short-title": "今日の語句"
+	"ffeed-wotd-title": "ウィクショナリー 今日の語句",
+	"ffeed-wotd-short-title": "今日の語句",
+	"ffeed-wotd-desc": "{{SITENAME}} 今日の語句",
+	"ffeed-wotd-entry": "{{CURRENTMONTHNAME}}{{CURRENTDAY}}日の今日の語句"
 }
