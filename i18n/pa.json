@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Tow"
+		]
+	},
+	"ffeed-onthisday-short-title": "ਅੱਜ ਦੇ ਦਿਨ...",
+	"ffeed-dyk-short-title": "ਕੀ ਤੁਸੀੰ ਜਾਣਦੇ ਹੋ?",
+	"ffeed-potd-short-title": "ਦਿਨ ਦੀ ਤਸਵੀਰ",
+	"ffeed-wotd-short-title": "ਦਿਨ ਦਾ ਸ਼ਬਦ",
+	"ffeed-wotd-desc": "{{SITENAME}} ਦਿਨ ਦਾ ਸ਼ਬਦ"
+}
