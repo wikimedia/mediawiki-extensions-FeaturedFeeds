@@ -3,7 +3,8 @@
 		"authors": [
 			"Erdemaslancan",
 			"Gorizon",
-			"Mirzali"
+			"Mirzali",
+			"Kumkumuk"
 		]
 	},
 	"ffeed-desc": "Wiki zerre do weşra xeberanê sendikasyona dekeno de",
@@ -43,5 +44,14 @@
 	"ffeed-featuredtexts-title": "{{SITENAME}} ra wesiqeyê weşi yenê",
 	"ffeed-featuredtexts-short-title": "Wesiqeyo weş",
 	"ffeed-featuredtexts-desc": "{{SITENAME}} ra wesiqeyê tewr weş",
-	"ffeed-featuredtexts-entry": "{{LOCALDAY}} {{LOCALMONTHNAME}} dı {{SITENAME}} dı nuşteyo weşo"
+	"ffeed-featuredtexts-entry": "{{LOCALDAY}} {{LOCALMONTHNAME}} dı {{SITENAME}} dı nuşteyo weşo",
+	"ffeed-wotd-title": "Wikiqısebend de çekuyê rocer",
+	"ffeed-wotd-short-title": "Qıseyê ewroy",
+	"ffeed-wotd-desc": "{{SITENAME}} qıseyê ewroy",
+	"ffeed-wotd-entry": "Qandé çekuya rocer {{CURRENTMONTHNAME}} {{CURRENTDAY}}",
+	"apihelp-featuredfeed-description": "Xısusiyet de zerrek Wari kerdış dano.",
+	"apihelp-featuredfeed-param-feedformat": "Formata warikerdışi",
+	"apihelp-featuredfeed-param-feed": "Namey wari kerdışi",
+	"apihelp-featuredfeed-param-language": "Wariya kado zıwani. Tayna gora qebul nêbiyo.",
+	"apihelp-featuredfeed-example-1": "\"$1\" ra wari kerdışi"
 }
