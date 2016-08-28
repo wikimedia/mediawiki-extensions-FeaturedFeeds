@@ -18,7 +18,7 @@
 	"ffeed-featured-title": "تلقيم {{SITENAME}} للمقالات المختارة",
 	"ffeed-featured-short-title": "مقالات مختارة",
 	"ffeed-featured-desc": "أفضل المقالات لدى {{SITENAME}}",
-	"ffeed-featured-entry": "مقال {{SITENAME}} المختار {{LOCALDAY}} {{LOCALMONTHNAME}|",
+	"ffeed-featured-entry": "مقال {{SITENAME}} المختار {{LOCALDAY}} {{LOCALMONTHNAME}}",
 	"ffeed-good-title": "تلقيم {{SITENAME}} للمقالات الجيدة",
 	"ffeed-good-short-title": "مقالات جيدة",
 	"ffeed-good-desc": "مقالات جيدة لدى {{SITENAME}}",
