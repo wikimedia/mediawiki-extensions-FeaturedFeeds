@@ -63,41 +63,6 @@ class ApiFeaturedFeeds extends ApiBase {
 	}
 
 	/**
-	 * @deprecated since MediaWiki core 1.25
-	 */
-	public function getParamDescription() {
-		return array(
-			'feedformat' => 'The format of the feed',
-			'feed' => 'Feed name',
-			'language' => 'Feed language code. Ignored by some feeds.',
-		);
-	}
-
-	/**
-	 * @deprecated since MediaWiki core 1.25
-	 */
-	public function getDescription() {
-		return 'Returns a featured content feed';
-	}
-
-	/**
-	 * @deprecated since MediaWiki core 1.25
-	 */
-	public function getExamples() {
-		// attempt to find a valid feed name
-		// if none available, just use an example value
-		$availableFeeds = array_keys( FeaturedFeeds::getFeeds( false ) );
-		$feed = reset( $availableFeeds );
-		if ( !$feed ) {
-			$feed = 'featured';
-		}
-
-		return array(
-			"api.php?action=featuredfeed&feed=$feed" => "Retrieve feed ``$feed'",
-		);
-	}
-
-	/**
 	 * @see ApiBase::getExamplesMessages()
 	 */
 	protected function getExamplesMessages() {
