@@ -3,7 +3,8 @@
 		"authors": [
 			"Bilalokms",
 			"Suelnur",
-			"Arystanbek"
+			"Arystanbek",
+			"Kumkumuk"
 		]
 	},
 	"ffeed-desc": "Ekler sendikasyon wiki özellikli içerik beslemeleri",
@@ -20,6 +21,7 @@
 	"ffeed-good-short-title": "Kaliteli maddeler",
 	"ffeed-good-desc": "İyi bir yazı {{SITENAME}} sunduğu",
 	"ffeed-good-entry": "{{LOCALMONTHNAME}} {{LOCALDAY}} {{SITENAME}} iyi bir makale",
+	"ffeed-onthisday-title": "{{SITENAME}} \"bugün...\" beslemesi",
 	"ffeed-onthisday-short-title": "Bu gün...",
 	"ffeed-onthisday-desc": "Bu gün tarihi olaylar",
 	"ffeed-onthisday-entry": "Bu gün: {{LOCALMONTHNAME}} {{LOCALDAY}}",
