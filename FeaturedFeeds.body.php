@@ -422,7 +422,7 @@ class FeaturedFeedChannel {
 		if ( !$rev ) {
 			return false; // page does not exist
 		}
-		$text = $rev->getText();
+		$text = ContentHandler::getContentText( $rev->getContent() );
 		if ( !$text ) {
 			return false;
 		}
