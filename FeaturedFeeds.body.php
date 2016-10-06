@@ -142,11 +142,11 @@ class FeaturedFeeds {
 	/**
 	 * Purges cache on message edit
 	 *
-	 * @param Article $article
+	 * @param WikiPage $wikiPage
 	 * @return bool
 	 */
-	public static function articleSaveComplete( $article ) {
-		$title = $article->getTitle();
+	public static function pageContentSaveComplete( $wikiPage ) {
+		$title = $wikiPage->getTitle();
 		$objectCache = ObjectCache::getMainWANInstance();
 		// Although message names are configurable and can be set not to start with 'Ffeed', we
 		// make a shortcut here to avoid running these checks on every NS_MEDIAWIKI edit

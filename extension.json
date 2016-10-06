@@ -14,8 +14,8 @@
 		"featuredfeed": "ApiFeaturedFeeds"
 	},
 	"Hooks": {
-		"ArticleSaveComplete": [
-			"FeaturedFeeds::articleSaveComplete"
+		"PageContentSaveComplete": [
+			"FeaturedFeeds::pageContentSaveComplete"
 		],
 		"BeforePageDisplay": [
 			"FeaturedFeeds::beforePageDisplay"
