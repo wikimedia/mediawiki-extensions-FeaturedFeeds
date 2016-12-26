@@ -4,7 +4,8 @@
 			"Erdemaslancan",
 			"Gorizon",
 			"Mirzali",
-			"Kumkumuk"
+			"Kumkumuk",
+			"1917 Ekim Devrimi"
 		]
 	},
 	"ffeed-desc": "Wiki zerre do weşra xeberanê sendikasyona dekeno de",
@@ -14,11 +15,11 @@
 	"ffeed-sidebar-section": "Xeberi weçinaye zerreki",
 	"ffeed-invalid-timestamp": "Mora demi ravêrdi niya",
 	"ffeed-featured-title": "{{SITENAME}} ra wesiqeyê weşi yenê",
-	"ffeed-featured-short-title": "Wesiqeyo Zafın",
+	"ffeed-featured-short-title": "Wesiqeyê weçinayey",
 	"ffeed-featured-desc": "{{SITENAME}} ra wesiqeyê weşi ratneyayê",
 	"ffeed-featured-entry": "{{LOCALDAY}} {{LOCALMONTHNAME}}dı {{SITENAME}}dı wesiqeyo weşo",
 	"ffeed-good-title": "{{SITENAME}} ra wesiqeyê weşi yenê",
-	"ffeed-good-short-title": "Wesiqeyê weşi",
+	"ffeed-good-short-title": "Wesiqey weşi",
 	"ffeed-good-desc": "{{SITENAME}} ra wesiqeyê weşi ratneyayê",
 	"ffeed-good-entry": "{{LOCALDAY}} {{LOCALMONTHNAME}}dı {{SITENAME}}dı wesiqeyo weşo",
 	"ffeed-onthisday-title": "{{SITENAME}} \"Ewro...\" çırê",
