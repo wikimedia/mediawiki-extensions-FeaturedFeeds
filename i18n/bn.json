@@ -2,10 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"Bellayet",
-			"Nasir8891"
+			"Nasir8891",
+			"Aftabuzzaman"
 		]
 	},
-	"ffeed-no-feed": "ফিড নির্ধারন করা হয়নি",
+	"ffeed-no-feed": "ফিড নির্দিষ্ট করা হয়নি।",
 	"ffeed-feed-not-found": "$1 ফিড পাওয়া যায়নি",
 	"ffeed-entry-not-found": "$1 এর ফিড পাওয়া যায়নি",
 	"ffeed-sidebar-section": "নির্বাচিত নিবন্ধের ফিড",
