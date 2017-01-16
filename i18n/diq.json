@@ -5,7 +5,8 @@
 			"Gorizon",
 			"Mirzali",
 			"Kumkumuk",
-			"1917 Ekim Devrimi"
+			"1917 Ekim Devrimi",
+			"Gırd"
 		]
 	},
 	"ffeed-desc": "Wiki zerre do weşra xeberanê sendikasyona dekeno de",
@@ -39,9 +40,9 @@
 	"ffeed-potd-desc": "{{SITENAME}} ra tay resımi",
 	"ffeed-potd-entry": "{{SITENAME}} dı fotrafê roc da {{LOCALDAY}} {{LOCALMONTHNAME}}",
 	"ffeed-qotd-title": "{{SITENAME}} dı qıseyê ewroyo",
-	"ffeed-qotd-short-title": "Qıseyê ewroy",
+	"ffeed-qotd-short-title": "Qısey ewroy",
 	"ffeed-qotd-desc": "{{SITENAME}} ra tay qısey",
-	"ffeed-qotd-entry": "{{SITENAME}} dı qıseyê roc da {{LOCALDAY}} {{LOCALMONTHNAME}}",
+	"ffeed-qotd-entry": "{{SITENAME}} dı qısey roc da {{LOCALDAY}} {{LOCALMONTHNAME}}",
 	"ffeed-featuredtexts-title": "{{SITENAME}} ra wesiqeyê weşi yenê",
 	"ffeed-featuredtexts-short-title": "Wesiqeyo weş",
 	"ffeed-featuredtexts-desc": "{{SITENAME}} ra wesiqeyê tewr weş",
