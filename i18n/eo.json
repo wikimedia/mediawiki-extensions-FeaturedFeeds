@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Karika",
-			"Yekrats"
+			"Yekrats",
+			"NMaia"
 		]
 	},
 	"ffeed-desc": "Aldonas abonfluojn de la elstara enhavo de la vikio",
@@ -43,5 +44,7 @@
 	"ffeed-featuredtexts-short-title": "Elstaraj tekstoj",
 	"ffeed-featuredtexts-desc": "Plej bonaj tekstoj el {{SITENAME}}",
 	"ffeed-featuredtexts-entry": "{{LOCALDAY}}-a de {{LOCALMONTHNAME}} {{SITENAME}} elstara teksto",
-	"ffeed-wotd-short-title": "Vorto de la tago"
+	"ffeed-wotd-title": "Vikivortara Vorto de la tago",
+	"ffeed-wotd-short-title": "Vorto de la tago",
+	"ffeed-wotd-desc": "{{SITENAME}} Vorto de la tago"
 }
