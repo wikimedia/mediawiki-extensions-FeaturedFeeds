@@ -23,7 +23,7 @@
 	"ffeed-onthisday-desc": "Kadadéan sajarah nèng dina iki",
 	"ffeed-onthisday-entry": "Nèng dina iki: {{LOCALDAY}} {{LOCALMONTHNAME}}",
 	"ffeed-dyk-title": "Lebon \"Sampéyan Ngerti?\" {{SITENAME}}",
-	"ffeed-dyk-short-title": "Sampéyan ngerti?",
+	"ffeed-dyk-short-title": "Panjenengan ngerti, ta?",
 	"ffeed-dyk-desc": "Saka kontèn paling anyar {{SITENAME}}",
 	"ffeed-dyk-entry": "Sampéyan ngerti?: {{LOCALDAY}} {{LOCALMONTHNAME}}",
 	"ffeed-motd-title": "Lebon saran media dina iki {{SITENAME}}",
