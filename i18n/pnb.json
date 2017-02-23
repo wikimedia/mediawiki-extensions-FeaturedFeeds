@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Khalid Mahmood"
+			"Khalid Mahmood",
+			"Abbas dhothar"
 		]
 	},
 	"ffeed-desc": "وکی دے فیچرڈ لکھتاں چ سنڈیکیشن رلاؤ",
@@ -21,9 +22,9 @@
 	"ffeed-onthisday-title": "{{SITENAME}} \"اس دن نوں...\" فیڈ",
 	"ffeed-onthisday-short-title": "اس دن نوں۔۔۔۔۔",
 	"ffeed-onthisday-desc": "ایس دن دیاں تریخی گلاں",
-	"ffeed-onthisday-entry": "اس دن نوں: {{معینہ}} {{دن}}",
-	"ffeed-dyk-title": "{{SITENAME}} \"کیا تسین جاندے سی?\" دسو",
-	"ffeed-dyk-short-title": "کیاتسی جاندے سی ؟",
-	"ffeed-dyk-desc": "{{SITENAME}} دیآں سب توں نویاں تبدیلیاں توں",
+	"ffeed-onthisday-entry": "اس دن نوں: {{مہینہ}} {{دن}}",
+	"ffeed-dyk-title": "{{SITENAME}} \"کیہ تسین جاندے سی?\" دسو",
+	"ffeed-dyk-short-title": "کیہ تسی جاندے او؟",
+	"ffeed-dyk-desc": "{{SITENAME}} دیاں سب توں نویاں تبدیلیاں توں",
 	"ffeed-dyk-entry": "کیا تسی جاندے او ?: {{LOCALMONTHNAME}} {{LOCALDAY}}"
 }
