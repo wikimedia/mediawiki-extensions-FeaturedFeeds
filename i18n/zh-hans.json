@@ -8,9 +8,9 @@
 			"Duolaimi"
 		]
 	},
-	"ffeed-desc": "添加维基特色内容的聚合源",
+	"ffeed-desc": "添加wiki特色内容的聚合源",
 	"ffeed-no-feed": "源未指定。",
-	"ffeed-feed-not-found": "未找到源$1。",
+	"ffeed-feed-not-found": "找不到源$1。",
 	"ffeed-entry-not-found": "未找到$1的源条目。",
 	"ffeed-sidebar-section": "特色内容源",
 	"ffeed-invalid-timestamp": "无效源时间戳。",
@@ -50,9 +50,9 @@
 	"ffeed-wotd-short-title": "每日一词",
 	"ffeed-wotd-desc": "{{SITENAME}}每日一词",
 	"ffeed-wotd-entry": "{{CURRENTMONTHNAME}}{{CURRENTDAY}}日的每日一词",
-	"apihelp-featuredfeed-description": "返回特色内容订阅。",
-	"apihelp-featuredfeed-param-feedformat": "订阅的格式。",
-	"apihelp-featuredfeed-param-feed": "订阅名称。",
-	"apihelp-featuredfeed-param-language": "订阅语言代码。一些订阅会忽略。",
-	"apihelp-featuredfeed-example-1": "检索订阅“$1”"
+	"apihelp-featuredfeed-description": "返回特色内容源。",
+	"apihelp-featuredfeed-param-feedformat": "源的格式。",
+	"apihelp-featuredfeed-param-feed": "源名称。",
+	"apihelp-featuredfeed-param-language": "源语言代码。一些源会忽略。",
+	"apihelp-featuredfeed-example-1": "检索源“$1”"
 }
