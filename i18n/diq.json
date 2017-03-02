@@ -28,7 +28,7 @@
 	"ffeed-onthisday-desc": "Tarix dı ewro",
 	"ffeed-onthisday-entry": "Ewro: {{LOCALDAY}} {{LOCALMONTHNAME}}",
 	"ffeed-dyk-title": "{{SITENAME}} dı \"To va eno?\"",
-	"ffeed-dyk-short-title": "To va eno?",
+	"ffeed-dyk-short-title": "Şıma zanenê?",
 	"ffeed-dyk-desc": "{{SITENAME}}ra nuşteyê newey",
 	"ffeed-dyk-entry": "{{LOCALDAY}} {{LOCALMONTHNAME}}'dı tı zanê sebyo?",
 	"ffeed-motd-title": "{{SITENAME}} dı medyay ewroyo",
