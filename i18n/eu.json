@@ -13,5 +13,6 @@
 	"ffeed-qotd-short-title": "Gaurko aipua",
 	"ffeed-featuredtexts-short-title": "Nabarmendutako testuak",
 	"ffeed-wotd-title": "Wikiztegiko eguneko hitza",
-	"ffeed-wotd-short-title": "Eguneko hitza"
+	"ffeed-wotd-short-title": "Eguneko hitza",
+	"ffeed-wotd-desc": "{{SITENAME}} wikiguneko eguneko hitza"
 }
