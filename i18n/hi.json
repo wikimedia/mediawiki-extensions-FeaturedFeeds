@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Karthi.dr",
-			"Hindustanilanguage"
+			"Hindustanilanguage",
+			"Sfic"
 		]
 	},
 	"ffeed-no-feed": "फ़ीड निर्धारित नहीं",
@@ -18,7 +19,7 @@
 	"ffeed-good-short-title": "अच्छा लेख",
 	"ffeed-good-desc": "सर्वश्रेष्ठ लेख जो {{SITENAME}} पर मौजूद हैं",
 	"ffeed-good-entry": "{{LOCALMONTHNAME}} {{LOCALDAY}} {{SITENAME}} अच्छा लेख",
-	"ffeed-onthisday-title": "{SITENAME}} \"आज के दिन...\" फ़ीड",
+	"ffeed-onthisday-title": "{{SITENAME}} \"आज के दिन...\" फ़ीड",
 	"ffeed-onthisday-short-title": "आज के दिन...",
 	"ffeed-onthisday-desc": "आज के दिन की ऐतिहासिक घटनाएँ",
 	"ffeed-onthisday-entry": "आज के दिन: {{LOCALMONTHNAME}} {{LOCALDAY}}",
@@ -34,7 +35,7 @@
 	"ffeed-potd-short-title": "दिन की चित्र",
 	"ffeed-potd-desc": "{{SITENAME}} के कुछ बहतरीन चित्र",
 	"ffeed-potd-entry": "{{SITENAME}} {{LOCALMONTHNAME}} के लिए दिन की चित्र {{LOCALDAY}}",
-	"ffeed-qotd-title": "{SITENAME}} दिन की कहावत फ़ीड",
+	"ffeed-qotd-title": "{{SITENAME}} दिन की कहावत का फ़ीड",
 	"ffeed-qotd-short-title": "दिन की कहावत",
 	"ffeed-qotd-desc": "{{SITENAME}} की कुछ बहतरीन कहावतें",
 	"ffeed-qotd-entry": "{{SITENAME}} {{LOCALMONTHNAME}} के लिए दिन की कहावत {{LOCALDAY}}",
