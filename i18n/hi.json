@@ -6,7 +6,6 @@
 			"Sfic"
 		]
 	},
-	"ffeed-desc": "Adds syndication feeds of wiki's featured content",
 	"ffeed-no-feed": "फ़ीड निर्धारित नहीं",
 	"ffeed-feed-not-found": "फ़ीड $1 मौजूद नहीं।",
 	"ffeed-entry-not-found": " $1 के लिए फ़ीड प्रविष्टि नहीं मिली।",
