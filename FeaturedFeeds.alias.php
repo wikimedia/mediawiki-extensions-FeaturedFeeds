@@ -5,111 +5,110 @@
  * @file
  * @ingroup Extensions
  */
-// @codingStandardsIgnoreFile
 
-$specialPageAliases = array();
+$specialPageAliases = [];
 
 /** English (English) */
-$specialPageAliases['en'] = array(
-	'FeedItem' => array( 'FeedItem' ),
-);
+$specialPageAliases['en'] = [
+	'FeedItem' => [ 'FeedItem' ],
+];
 
 /** Arabic (العربية) */
-$specialPageAliases['ar'] = array(
-	'FeedItem' => array( 'تعليق_مدخلة' ),
-);
+$specialPageAliases['ar'] = [
+	'FeedItem' => [ 'تعليق_مدخلة' ],
+];
 
 /** Egyptian Arabic (مصرى) */
-$specialPageAliases['arz'] = array(
-	'FeedItem' => array( 'مدخله_تعليق' ),
-);
+$specialPageAliases['arz'] = [
+	'FeedItem' => [ 'مدخله_تعليق' ],
+];
 
 /** Western Balochi (بلوچی رخشانی) */
-$specialPageAliases['bgn'] = array(
-	'FeedItem' => array( 'آیتم_ئی_ورّگ' ),
-);
+$specialPageAliases['bgn'] = [
+	'FeedItem' => [ 'آیتم_ئی_ورّگ' ],
+];
 
 /** German (Deutsch) */
-$specialPageAliases['de'] = array(
-	'FeedItem' => array( 'Feedobjekt' ),
-);
+$specialPageAliases['de'] = [
+	'FeedItem' => [ 'Feedobjekt' ],
+];
 
 /** Zazaki (Zazaki) */
-$specialPageAliases['diq'] = array(
-	'FeedItem' => array( 'LeteWeynayış' ),
-);
+$specialPageAliases['diq'] = [
+	'FeedItem' => [ 'LeteWeynayış' ],
+];
 
 /** Persian (فارسی) */
-$specialPageAliases['fa'] = array(
-	'FeedItem' => array( 'خوراک_آیتم' ),
-);
+$specialPageAliases['fa'] = [
+	'FeedItem' => [ 'خوراک_آیتم' ],
+];
 
 /** Hebrew (עברית) */
-$specialPageAliases['he'] = array(
-	'FeedItem' => array( 'פריט_הזנה' ),
-);
+$specialPageAliases['he'] = [
+	'FeedItem' => [ 'פריט_הזנה' ],
+];
 
 /** Italian (italiano) */
-$specialPageAliases['it'] = array(
-	'FeedItem' => array( 'FeedElemento' ),
-);
+$specialPageAliases['it'] = [
+	'FeedItem' => [ 'FeedElemento' ],
+];
 
 /** Japanese (日本語) */
-$specialPageAliases['ja'] = array(
-	'FeedItem' => array( 'フィード項目' ),
-);
+$specialPageAliases['ja'] = [
+	'FeedItem' => [ 'フィード項目' ],
+];
 
 /** Korean (한국어) */
-$specialPageAliases['ko'] = array(
-	'FeedItem' => array( '피드항목' ),
-);
+$specialPageAliases['ko'] = [
+	'FeedItem' => [ '피드항목' ],
+];
 
 /** Luxembourgish (Lëtzebuergesch) */
-$specialPageAliases['lb'] = array(
-	'FeedItem' => array( 'Element_vun_enger_Rubrik' ),
-);
+$specialPageAliases['lb'] = [
+	'FeedItem' => [ 'Element_vun_enger_Rubrik' ],
+];
 
 /** Macedonian (македонски) */
-$specialPageAliases['mk'] = array(
-	'FeedItem' => array( 'СтавкаОдКанал' ),
-);
+$specialPageAliases['mk'] = [
+	'FeedItem' => [ 'СтавкаОдКанал' ],
+];
 
 /** Malayalam (മലയാളം) */
-$specialPageAliases['ml'] = array(
-	'FeedItem' => array( 'ഫീഡ്‌ഇനം' ),
-);
+$specialPageAliases['ml'] = [
+	'FeedItem' => [ 'ഫീഡ്‌ഇനം' ],
+];
 
 /** Brazilian Portuguese (português do Brasil) */
-$specialPageAliases['pt-br'] = array(
-	'FeedItem' => array( 'Item_de_feed' ),
-);
+$specialPageAliases['pt-br'] = [
+	'FeedItem' => [ 'Item_de_feed' ],
+];
 
 /** Sicilian (sicilianu) */
-$specialPageAliases['scn'] = array(
-	'FeedItem' => array( 'FeedElemento' ),
-);
+$specialPageAliases['scn'] = [
+	'FeedItem' => [ 'FeedElemento' ],
+];
 
 /** Swedish (svenska) */
-$specialPageAliases['sv'] = array(
-	'FeedItem' => array( 'Flödesobjekt' ),
-);
+$specialPageAliases['sv'] = [
+	'FeedItem' => [ 'Flödesobjekt' ],
+];
 
 /** Turkish (Türkçe) */
-$specialPageAliases['tr'] = array(
-	'FeedItem' => array( 'ÜrünBesleme' ),
-);
+$specialPageAliases['tr'] = [
+	'FeedItem' => [ 'ÜrünBesleme' ],
+];
 
 /** Vietnamese (Tiếng Việt) */
-$specialPageAliases['vi'] = array(
-	'FeedItem' => array( 'Khoản_mục_nguồn_tin' ),
-);
+$specialPageAliases['vi'] = [
+	'FeedItem' => [ 'Khoản_mục_nguồn_tin' ],
+];
 
 /** Simplified Chinese (中文（简体）‎) */
-$specialPageAliases['zh-hans'] = array(
-	'FeedItem' => array( '供稿项目' ),
-);
+$specialPageAliases['zh-hans'] = [
+	'FeedItem' => [ '供稿项目' ],
+];
 
 /** Traditional Chinese (中文（繁體）‎) */
-$specialPageAliases['zh-hant'] = array(
-	'FeedItem' => array( '供稿項目' ),
-);
+$specialPageAliases['zh-hant'] = [
+	'FeedItem' => [ '供稿項目' ],
+];

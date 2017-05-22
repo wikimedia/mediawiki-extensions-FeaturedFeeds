@@ -20,7 +20,7 @@ class ApiFeaturedFeeds extends ApiBase {
 		global $wgFeedClasses;
 
 		if ( !isset( $wgFeedClasses[$params['feedformat']] ) ) {
-			if ( is_callable( array( $this, 'dieWithError' ) ) ) {
+			if ( is_callable( [ $this, 'dieWithError' ] ) ) {
 				$this->dieWithError( 'feed-invalid' );
 			} else {
 				$this->dieUsage( 'Invalid subscription feed type', 'feed-invalid' );
@@ -51,19 +51,19 @@ class ApiFeaturedFeeds extends ApiBase {
 		global $wgFeedClasses;
 		$feedFormatNames = array_keys( $wgFeedClasses );
 		$availableFeeds = array_keys( FeaturedFeeds::getFeeds( false ) );
-		return array (
-			'feedformat' => array(
+		return [
+			'feedformat' => [
 				ApiBase::PARAM_DFLT => 'rss',
 				ApiBase::PARAM_TYPE => $feedFormatNames
-			),
-			'feed' => array(
+			],
+			'feed' => [
 				ApiBase::PARAM_TYPE => $availableFeeds,
 				ApiBase::PARAM_REQUIRED => true,
-			),
-			'language' => array(
+			],
+			'language' => [
 				ApiBase::PARAM_TYPE => 'string',
-			)
-		);
+			]
+		];
 	}
 
 	/**
@@ -78,9 +78,9 @@ class ApiFeaturedFeeds extends ApiBase {
 			$feed = 'featured';
 		}
 
-		return array(
+		return [
 			"action=featuredfeed&feed=$feed"
-				=> array( 'apihelp-featuredfeed-example-1', $feed ),
-		);
+				=> [ 'apihelp-featuredfeed-example-1', $feed ],
+		];
 	}
 }

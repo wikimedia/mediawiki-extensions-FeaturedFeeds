@@ -15,7 +15,7 @@ class FeaturedFeeds {
 		if ( !$langCode || self::allInContentLanguage() ) {
 			$langCode = $wgLanguageCode;
 		}
-		static $cache = array();
+		static $cache = [];
 		if ( isset( $cache[$langCode] ) ) {
 			return $cache[$langCode];
 		}
@@ -28,7 +28,7 @@ class FeaturedFeeds {
 		// message change. The "*" key is touched whenever a relevant
 		// message changes. This slow explicit delete() of ~360 keys.
 		$curTTL = null;
-		$depKeys = array( self::getCacheKey( '*' ) );
+		$depKeys = [ self::getCacheKey( '*' ) ];
 		$feeds = $objectCache->get( $key, $curTTL, $depKeys );
 		if ( !$feeds || $curTTL <= 0 ) {
 			$feeds = self::getFeedsInternal( $langCode );
@@ -57,7 +57,7 @@ class FeaturedFeeds {
 		static $feedDefs = false;
 		if ( $feedDefs === false ) {
 			$feedDefs = $wgFeaturedFeeds;
-			Hooks::run( 'FeaturedFeeds::getFeeds', array( &$feedDefs ) );
+			Hooks::run( 'FeaturedFeeds::getFeeds', [ &$feedDefs ] );
 
 			// fill defaults
 			self::$allInContLang = true;
@@ -96,12 +96,12 @@ class FeaturedFeeds {
 			/** @var FeaturedFeedChannel $feed */
 			foreach ( self::getFeeds( $out->getLanguage()->getCode() ) as $feed ) {
 				foreach ( $wgAdvertisedFeedTypes as $type ) {
-					$out->addLink( array(
+					$out->addLink( [
 						'rel' => 'alternate',
 						'type' => "application/$type+xml",
 						'title' => $feed->title,
 						'href' => $feed->getURL( $type ),
-					) );
+					] );
 				}
 			}
 		}
@@ -122,15 +122,15 @@ class FeaturedFeeds {
 				&& $sk->getContext()->getTitle()->isMainPage() )
 		{
 			$feeds = self::getFeeds( $sk->getContext()->getLanguage()->getCode() );
-			$links = array();
+			$links = [];
 			$format = $wgAdvertisedFeedTypes[0]; // @fixme:
 			/** @var FeaturedFeedChannel $feed */
 			foreach ( $feeds as $feed ) {
-				$links[] = array(
+				$links[] = [
 					'href' => $feed->getURL( $format ),
 					'title' => $feed->title,
 					'text' => $feed->shortTitle,
-				);
+				];
 			}
 			if ( count( $links ) ) {
 				$tpl->data['sidebar']['ffeed-sidebar-section'] = $links;
@@ -152,7 +152,7 @@ class FeaturedFeeds {
 		// make a shortcut here to avoid running these checks on every NS_MEDIAWIKI edit
 		if ( $title->getNamespace() == NS_MEDIAWIKI && strpos( $title->getText(), 'Ffeed-' ) === 0 ) {
 			$baseTitle = Title::makeTitle( NS_MEDIAWIKI, $title->getBaseText() );
-			$messages  = array( 'page', 'title', 'short-title', 'description', 'entryName' );
+			$messages  = [ 'page', 'title', 'short-title', 'description', 'entryName' ];
 			foreach ( self::getFeedDefinitions() as $feed ) {
 				foreach ( $messages as $msgType ) {
 					$nt = Title::makeTitleSafe( NS_MEDIAWIKI, $feed[$msgType] );
@@ -175,7 +175,7 @@ class FeaturedFeeds {
 	private static function getFeedsInternal( $langCode ) {
 		$feedDefs = self::getFeedDefinitions();
 
-		$feeds = array();
+		$feeds = [];
 		$requestedLang = Language::factory( $langCode );
 		foreach ( $feedDefs as $name => $opts ) {
 			$feed = new FeaturedFeedChannel( $name, $opts, $requestedLang );
@@ -375,7 +375,7 @@ class FeaturedFeedChannel {
 	public function getFeedItems() {
 		$this->init();
 		if ( $this->items === false ) {
-			$this->items = array();
+			$this->items = [];
 			switch ( $this->options['frequency'] ) {
 				case 'daily':
 					$ratio = 1;
@@ -413,7 +413,8 @@ class FeaturedFeedChannel {
 			$this->titleForParse = Title::newFromText( 'MediaWiki:Dummy/' . $this->languageCode );
 		}
 
-		$titleText = self::$parser->transformMsg( $this->page, self::$parserOptions, $this->titleForParse );
+		$titleText = self::$parser->transformMsg(
+			$this->page, self::$parserOptions, $this->titleForParse );
 		$title = Title::newFromText( $titleText );
 		if ( !$title ) {
 			return false;
@@ -428,7 +429,7 @@ class FeaturedFeedChannel {
 		}
 		$text = self::$parser->parse( $text, $title, self::$parserOptions )->getText();
 		$ts = new MWTimestamp( $date );
-		$url = SpecialPage::getTitleFor( 'FeedItem' ,
+		$url = SpecialPage::getTitleFor( 'FeedItem',
 			$this->name . '/' . $ts->getTimestamp( TS_MW ) . '/' . $this->languageCode
 		)->getFullURL();
 
@@ -449,11 +450,11 @@ class FeaturedFeedChannel {
 	public function getURL( $format ) {
 		global $wgContLang;
 
-		$options = array(
+		$options = [
 			'action' => 'featuredfeed',
 			'feed' => $this->name,
 			'feedformat' => $format,
-		);
+		];
 		if ( $this->options['inUserLanguage'] && $this->languageCode != $wgContLang->getCode() ) {
 			$options['language'] = $this->languageCode;
 		}

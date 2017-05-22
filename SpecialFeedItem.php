@@ -17,7 +17,7 @@ class SpecialFeedItem extends UnlistedSpecialPage {
 		list( $feedName, $date, $langCode ) = $parts;
 		$feeds = FeaturedFeeds::getFeeds( $langCode );
 		if ( !isset( $feeds[$feedName] ) ) {
-			$out->showErrorPage( 'error', 'ffeed-feed-not-found', array( $feedName ) );
+			$out->showErrorPage( 'error', 'ffeed-feed-not-found', [ $feedName ] );
 			return;
 		}
 		$feed = $feeds[$feedName];
@@ -48,7 +48,7 @@ class SpecialFeedItem extends UnlistedSpecialPage {
 			$this->displayItem( $item );
 		} else {
 			$out->showErrorPage( 'error', 'ffeed-entry-not-found',
-				array( $this->getLanguage()->date( $date, false, false ) )
+				[ $this->getLanguage()->date( $date, false, false ) ]
 			);
 		}
 	}
@@ -59,7 +59,7 @@ class SpecialFeedItem extends UnlistedSpecialPage {
 		}
 		try {
 			$ts = new MWTimestamp( $date );
-		} catch( Exception $ex ) {
+		} catch ( Exception $ex ) {
 			return false;
 		};
 		return $ts->getTimestamp();
