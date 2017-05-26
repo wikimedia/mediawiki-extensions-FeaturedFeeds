@@ -57,6 +57,7 @@
 	"ffeed-wotd-desc": "{{SITENAME}} Word of the day",
 	"ffeed-wotd-entry": "Word of the day for {{CURRENTMONTHNAME}} {{CURRENTDAY}}",
 	"apihelp-featuredfeed-description": "Returns a featured content feed.",
+	"apihelp-featuredfeed-summary": "Returns a featured content feed.",
 	"apihelp-featuredfeed-param-feedformat": "The format of the feed.",
 	"apihelp-featuredfeed-param-feed": "Feed name.",
 	"apihelp-featuredfeed-param-language": "Feed language code. Ignored by some feeds.",
