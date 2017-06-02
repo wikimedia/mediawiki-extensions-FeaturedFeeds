@@ -1,9 +1,28 @@
 {
 	"@metadata": {
 		"authors": [
-			"DzWiki"
+			"DzWiki",
+			"Srdjan m"
 		]
 	},
+	"ffeed-featured-short-title": "Odabrani članci",
+	"ffeed-featured-desc": "Najbolji članci na {{GRAMMAR:dativ|{{SITENAME}}}}",
+	"ffeed-featured-entry": "Odabrani članak na {{GRAMMAR:dativ|{{SITENAME}}}} za {{LOCALDAY}} {{LOCALMONTHNAME}}",
+	"ffeed-good-short-title": "Dobri članci",
+	"ffeed-good-desc": "Dobri članci na {{GRAMMAR:dativ|{{SITENAME}}}}",
+	"ffeed-good-entry": "Dobar članak na {{GRAMMAR:dativ|{{SITENAME}}}} za {{LOCALDAY}} {{LOCALMONTHNAME}}",
 	"ffeed-onthisday-short-title": "Na današnji dan...",
-	"ffeed-dyk-short-title": "Da li ste znali?"
+	"ffeed-onthisday-desc": "Historijski događaji koji su se desili na današnji dan",
+	"ffeed-dyk-short-title": "Da li ste znali?",
+	"ffeed-dyk-entry": "Jeste li znali? {{LOCALDAY}} {{LOCALMONTHNAME}}",
+	"ffeed-motd-short-title": "Snimak dana",
+	"ffeed-motd-desc": "Najbolji snimci na {{GRAMMAR:dativ|{{SITENAME}}}}",
+	"ffeed-potd-short-title": "Slika dana",
+	"ffeed-potd-desc": "Najbolje slike na {{GRAMMAR:dativ|{{SITENAME}}}}",
+	"ffeed-qotd-short-title": "Citat dana",
+	"ffeed-qotd-desc": "Najbolji citati na {{GRAMMAR:dativ|{{SITENAME}}}}",
+	"ffeed-featuredtexts-short-title": "Odabrani tekstovi",
+	"ffeed-featuredtexts-desc": "Najbolji tekstovi na {{GRAMMAR:dativ|{{SITENAME}}}}",
+	"ffeed-wotd-short-title": "Riječ dana",
+	"ffeed-wotd-desc": "Riječ dana na {{GRAMMAR:dativ|{{SITENAME}}}}"
 }
