@@ -47,6 +47,7 @@
 	"ffeed-wotd-desc": "Збор на денот на „{{SITENAME}}“",
 	"ffeed-wotd-entry": "Збор на денот за {{CURRENTDAY}} {{CURRENTMONTHNAME}}",
 	"apihelp-featuredfeed-description": "Дава канал со избрана содржина.",
+	"apihelp-featuredfeed-summary": "Дава канал со избрана содржина.",
 	"apihelp-featuredfeed-param-feedformat": "Формат на каналот.",
 	"apihelp-featuredfeed-param-feed": "Назив на каналот.",
 	"apihelp-featuredfeed-param-language": "Јазичен код на каналот. Некои канали го занемаруваат.",
