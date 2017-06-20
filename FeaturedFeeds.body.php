@@ -118,9 +118,9 @@ class FeaturedFeeds {
 		global $wgDisplayFeedsInSidebar, $wgAdvertisedFeedTypes;
 
 		if ( ( $wgDisplayFeedsInSidebar
-			|| !wfMessage( 'ffeed-enable-sidebar-links' )->inContentLanguage()->isDisabled() )
-				&& $sk->getContext()->getTitle()->isMainPage() )
-		{
+			|| !wfMessage( 'ffeed-enable-sidebar-links' )->inContentLanguage()->isDisabled()
+			) && $sk->getContext()->getTitle()->isMainPage()
+		) {
 			$feeds = self::getFeeds( $sk->getContext()->getLanguage()->getCode() );
 			$links = [];
 			$format = $wgAdvertisedFeedTypes[0]; // @fixme:
