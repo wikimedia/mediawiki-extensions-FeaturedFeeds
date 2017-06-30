@@ -47,6 +47,7 @@
 	"ffeed-wotd-desc": "{{SITENAME}} Parole d'u sciurne",
 	"ffeed-wotd-entry": "Parole d'a sciurnate pe {{CURRENTMONTHNAME}} {{CURRENTDAY}}",
 	"apihelp-featuredfeed-description": "Tuèrne 'nu feed de condenute 'mbortande.",
+	"apihelp-featuredfeed-summary": "Tuèrne 'nu feed de condenute 'mbortande.",
 	"apihelp-featuredfeed-param-feedformat": "'U formate d'u feed.",
 	"apihelp-featuredfeed-param-feed": "Nome d'u feed.",
 	"apihelp-featuredfeed-param-language": "Codece d'a lènghe d'u feed. Ignorate da certe feed.",

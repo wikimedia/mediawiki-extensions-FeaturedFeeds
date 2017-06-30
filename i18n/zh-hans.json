@@ -5,7 +5,8 @@
 			"Linforest",
 			"Xiaomingyan",
 			"Liuxinyu970226",
-			"Duolaimi"
+			"Duolaimi",
+			"Shizhao"
 		]
 	},
 	"ffeed-desc": "添加wiki特色内容的聚合源",
@@ -43,8 +44,8 @@
 	"ffeed-qotd-desc": "一些{{SITENAME}}的最好的名言",
 	"ffeed-qotd-entry": "{{SITENAME}}{{LOCALMONTHNAME}}{{LOCALDAY}}日的每日名言",
 	"ffeed-featuredtexts-title": "{{SITENAME}}特色文字源",
-	"ffeed-featuredtexts-short-title": "特色文字",
-	"ffeed-featuredtexts-desc": "{{SITENAME}}的最佳文字",
+	"ffeed-featuredtexts-short-title": "特色文章",
+	"ffeed-featuredtexts-desc": "{{SITENAME}}的最佳文章",
 	"ffeed-featuredtexts-entry": "{{SITENAME}}{{LOCALMONTHNAME}}{{LOCALDAY}}日的特色文字",
 	"ffeed-wotd-title": "维基词典每日一词",
 	"ffeed-wotd-short-title": "每日一词",
