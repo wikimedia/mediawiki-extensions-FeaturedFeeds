@@ -48,6 +48,7 @@
 	"ffeed-wotd-desc": "Wort des Tages von {{SITENAME}}",
 	"ffeed-wotd-entry": "Wort des Tages für den {{CURRENTDAY}}. {{CURRENTMONTHNAME}}",
 	"apihelp-featuredfeed-description": "Gibt einen Feed für exzellenten Inhalt aus.",
+	"apihelp-featuredfeed-summary": "Gibt einen Feed mit vorgestelltem Inhalt zurück.",
 	"apihelp-featuredfeed-param-feedformat": "Das Format des Feeds.",
 	"apihelp-featuredfeed-param-feed": "Name des Feeds.",
 	"apihelp-featuredfeed-param-language": "Sprachcode des Feeds. Wird von einigen Feeds ignoriert.",
