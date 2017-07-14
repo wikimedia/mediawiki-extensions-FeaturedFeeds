@@ -43,6 +43,7 @@
 	"ffeed-wotd-desc": "Palavra do dia em {{SITENAME}}",
 	"ffeed-wotd-entry": "Palavra do dia {{CURRENTDAY}} de {{CURRENTMONTHNAME}}",
 	"apihelp-featuredfeed-description": "Retorna um feed de conteúdo destacado.",
+	"apihelp-featuredfeed-summary": "Retorna um feed de conteúdo destacado.",
 	"apihelp-featuredfeed-param-feedformat": "O formato do feed.",
 	"apihelp-featuredfeed-param-feed": "Nome do feed.",
 	"apihelp-featuredfeed-param-language": "Código do idioma do feed. Ignorado por alguns feeds.",
