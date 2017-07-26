@@ -4,6 +4,7 @@
 			"Felipe L. Ewald"
 		]
 	},
+	"ffeed-desc": "Adiciona feeds de distribuição do conteúdo destacado da wiki",
 	"ffeed-no-feed": "Feed não especificado.",
 	"ffeed-feed-not-found": "Feed $1 não encontrado.",
 	"ffeed-entry-not-found": "Entrada no feed para $1 não encontrada.",
