@@ -25,7 +25,7 @@
 	"ffeed-dyk-title": "Canal \"Sabíes que...?\" de {{SITENAME}}",
 	"ffeed-dyk-short-title": "¿Sabíes que...?",
 	"ffeed-dyk-desc": "Del conteníu más nuevu de {{SITENAME}}",
-	"ffeed-dyk-entry": "¿Sabíes que...?: {{LOCALDAY}} de {{LOCALMONTHNAME}}",
+	"ffeed-dyk-entry": "¿Sabíes que...?: {{LOCALDAY}} {{LOCALMONTHNAME}}",
 	"ffeed-motd-title": "Canal multimedia del día de {{SITENAME}}",
 	"ffeed-motd-short-title": "Multimedia del día",
 	"ffeed-motd-desc": "Esbilla de la meyor multimedia de {{SITENAME}}",
