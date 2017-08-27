@@ -68,6 +68,7 @@ class ApiFeaturedFeeds extends ApiBase {
 
 	/**
 	 * @see ApiBase::getExamplesMessages()
+	 * @return array
 	 */
 	protected function getExamplesMessages() {
 		// attempt to find a valid feed name

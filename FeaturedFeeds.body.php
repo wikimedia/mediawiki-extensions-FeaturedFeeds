@@ -6,7 +6,7 @@ class FeaturedFeeds {
 	/**
 	 * Returns the list of feeds
 	 *
-	 * @param $langCode string|bool Code of language to use or false if default
+	 * @param string|bool $langCode Code of language to use or false if default
 	 * @return array Feeds in format of 'name' => array of FeedItem
 	 */
 	public static function getFeeds( $langCode ) {
@@ -75,7 +75,7 @@ class FeaturedFeeds {
 
 	/**
 	 * Returns whether all feeds are in content language
-	 * @return Boolean
+	 * @return bool
 	 */
 	public static function allInContentLanguage() {
 		if ( is_null( self::$allInContLang ) ) {
@@ -87,7 +87,7 @@ class FeaturedFeeds {
 	/**
 	 * Adds feeds to the page header
 	 *
-	 * @param OutputPage $out
+	 * @param OutputPage &$out
 	 * @return bool
 	 */
 	public static function beforePageDisplay( OutputPage &$out ) {
@@ -110,9 +110,9 @@ class FeaturedFeeds {
 
 	/**
 	 * SkinTemplateOutputPageBeforeExec hook handler
-	 * @param Skin $sk
-	 * @param QuickTemplate $tpl
-	 * @return Boolean
+	 * @param Skin &$sk
+	 * @param QuickTemplate &$tpl
+	 * @return bool
 	 */
 	public static function skinTemplateOutputPageBeforeExec( &$sk, &$tpl ) {
 		global $wgDisplayFeedsInSidebar, $wgAdvertisedFeedTypes;
@@ -168,7 +168,7 @@ class FeaturedFeeds {
 	}
 
 	/**
-	 * @param $langCode string
+	 * @param string $langCode
 	 * @return array
 	 * @throws Exception
 	 */
@@ -220,7 +220,7 @@ class FeaturedFeeds {
 	/**
 	 * Returns the Unix timestamp of current day's first second
 	 *
-	 * @param $timestamp
+	 * @param string $timestamp
 	 * @return int Timestamp
 	 */
 	public static function startOfDay( $timestamp ) {
@@ -252,7 +252,7 @@ class FeaturedFeeds {
 	/**
 	 * Returns the number of seconds a feed should stay in cache
 	 *
-	 * @return int: Time in seconds
+	 * @return int Time in seconds
 	 */
 	public static function getMaxAge() {
 		$ts = new MWTimestamp();
@@ -290,9 +290,9 @@ class FeaturedFeedChannel {
 	public $description;
 
 	/**
-	 * @param $name string
-	 * @param $options array
-	 * @param $lang Language
+	 * @param string $name
+	 * @param array $options
+	 * @param Language $lang
 	 */
 	public function __construct( $name, $options, $lang ) {
 		global $wgContLang;
@@ -320,7 +320,7 @@ class FeaturedFeedChannel {
 	}
 
 	/**
-	 * @param $key string
+	 * @param string $key
 	 * @return Message
 	 */
 	private function msg( $key ) {
@@ -444,7 +444,7 @@ class FeaturedFeedChannel {
 	/**
 	 * Returns a URL to the feed
 	 *
-	 * @param $format string Feed format, 'rss' or 'atom'
+	 * @param string $format Feed format, 'rss' or 'atom'
 	 * @return String
 	 */
 	public function getURL( $format ) {
