@@ -50,6 +50,7 @@
 	"ffeed-wotd-desc": "Dagens ord på {{SITENAME}}",
 	"ffeed-wotd-entry": "Dagens ord for {{LOCALDAY}}. {{LOCALMONTHNAME}}",
 	"apihelp-featuredfeed-description": "Gir en mating med utmerket innhold",
+	"apihelp-featuredfeed-summary": "Returnerer en mating med utmerket innhold.",
 	"apihelp-featuredfeed-param-feedformat": "Matingens format.",
 	"apihelp-featuredfeed-param-feed": "Matingsnavn.",
 	"apihelp-featuredfeed-param-language": "Matingens språkkode. Ignoreres av noen matinger.",
