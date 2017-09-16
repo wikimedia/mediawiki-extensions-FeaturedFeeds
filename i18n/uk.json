@@ -4,7 +4,8 @@
 			"A1",
 			"Base",
 			"Olvin",
-			"Ата"
+			"Ата",
+			"Piramidion"
 		]
 	},
 	"ffeed-desc": "Додає стрічку вибраних матеріалів вікі",
@@ -50,6 +51,7 @@
 	"ffeed-wotd-desc": "{{SITENAME}} Слово дня",
 	"ffeed-wotd-entry": "Слово дня для {{CURRENTMONTHNAME}} {{CURRENTDAY}}",
 	"apihelp-featuredfeed-description": "Видає стрічку обраного контенту.",
+	"apihelp-featuredfeed-summary": "Видає стрічку обраного контенту.",
 	"apihelp-featuredfeed-param-feedformat": "Формат стрічки.",
 	"apihelp-featuredfeed-param-feed": "Назва стрічки.",
 	"apihelp-featuredfeed-param-language": "Код мови стрічки. Ігнорується деякими стрічками.",
