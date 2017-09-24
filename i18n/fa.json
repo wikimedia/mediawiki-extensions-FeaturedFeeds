@@ -3,7 +3,8 @@
 		"authors": [
 			"Ebraminio",
 			"Huji",
-			"Leyth"
+			"Leyth",
+			"Ladsgroup"
 		]
 	},
 	"ffeed-desc": "خوراکی از محتوای برگزیده ویکی می‌افزاید",
@@ -47,5 +48,6 @@
 	"ffeed-wotd-title": "کلمهٔ روز ویکی‌واژه",
 	"ffeed-wotd-short-title": "کلمهٔ روز",
 	"ffeed-wotd-desc": "کلمهٔ روز {{SITENAME}}",
-	"ffeed-wotd-entry": "کلمهٔ روز {{CURRENTMONTHNAME}} {{CURRENTDAY}}"
+	"ffeed-wotd-entry": "کلمهٔ روز {{CURRENTMONTHNAME}} {{CURRENTDAY}}",
+	"apihelp-featuredfeed-param-feed": "نام خوراک"
 }
