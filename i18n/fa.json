@@ -49,5 +49,6 @@
 	"ffeed-wotd-short-title": "کلمهٔ روز",
 	"ffeed-wotd-desc": "کلمهٔ روز {{SITENAME}}",
 	"ffeed-wotd-entry": "کلمهٔ روز {{CURRENTMONTHNAME}} {{CURRENTDAY}}",
+	"apihelp-featuredfeed-param-feedformat": "قالب خوراک.",
 	"apihelp-featuredfeed-param-feed": "نام خوراک"
 }
