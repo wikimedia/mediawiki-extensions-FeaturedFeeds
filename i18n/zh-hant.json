@@ -18,7 +18,7 @@
 	"ffeed-featured-title": "{{SITENAME}} 的特色文章 Feed",
 	"ffeed-featured-short-title": "焦點文章",
 	"ffeed-featured-desc": "{{SITENAME}} 提供的最佳文章",
-	"ffeed-featured-entry": "{{SITENAME}} {{LOCALMONTHNAME}} {{LOCALDAY}} 日焦點文章",
+	"ffeed-featured-entry": "{{SITENAME}} {{LOCALMONTHNAME}} {{LOCALDAY}} 日典範條目",
 	"ffeed-good-title": "{{SITENAME}} 優良文章 Feed",
 	"ffeed-good-short-title": "優良文章",
 	"ffeed-good-desc": "{{SITENAME}} 提供的優良文章",

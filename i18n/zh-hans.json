@@ -18,7 +18,7 @@
 	"ffeed-featured-title": "{{SITENAME}}特色条目源",
 	"ffeed-featured-short-title": "特色条目",
 	"ffeed-featured-desc": "{{SITENAME}}的最佳条目",
-	"ffeed-featured-entry": "{{SITENAME}}{{LOCALMONTHNAME}}{{LOCALDAY}}日的特色条目",
+	"ffeed-featured-entry": "{{SITENAME}}{{LOCALMONTHNAME}}{{LOCALDAY}}日的典范条目",
 	"ffeed-good-title": "{{SITENAME}}优良条目源",
 	"ffeed-good-short-title": "优良条目",
 	"ffeed-good-desc": "{{SITENAME}}的优良条目",
