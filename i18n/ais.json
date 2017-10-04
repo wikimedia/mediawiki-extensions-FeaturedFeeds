@@ -5,11 +5,15 @@
 			"Bunukwiki"
 		]
 	},
+	"ffeed-desc": "micunus Wiki sazumaay tuud  lacul a saupuay a saangangan",
 	"ffeed-no-feed": "caay patuzu’ay a Feed.",
 	"ffeed-feed-not-found": "cakatepa Feed $1.",
+	"ffeed-entry-not-found": "caay katepa $1 a Feed kasacacay.",
 	"ffeed-onthisday-desc": "tina demiad nazipa’an a kawaw",
 	"ffeed-motd-title": "{{SITENAME}} paydemidemiad a myiti",
 	"ffeed-potd-title": "{{SITENAME}} paydemidemiad a zunga",
+	"ffeed-potd-desc": "{{SITENAME}} sakapahay a zunga",
+	"ffeed-qotd-desc": "{{SITENAME}} sakapahay a kapahay kamu",
 	"ffeed-wotd-title": "paydemidemiad a sulit",
 	"ffeed-wotd-desc": "{{SITENAME}} paydemidemiad a sulit",
 	"apihelp-featuredfeed-param-feed": "pecu’ nu lacul kalungangan."
