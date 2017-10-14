@@ -98,6 +98,11 @@ $specialPageAliases['tr'] = [
 	'FeedItem' => [ 'ÜrünBesleme' ],
 ];
 
+/** Urdu (اردو) */
+$specialPageAliases['ur'] = [
+	'FeedItem' => [ 'فیڈ_آئٹم' ],
+];
+
 /** Vietnamese (Tiếng Việt) */
 $specialPageAliases['vi'] = [
 	'FeedItem' => [ 'Khoản_mục_nguồn_tin' ],
