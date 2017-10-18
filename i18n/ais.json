@@ -9,6 +9,7 @@
 	"ffeed-no-feed": "caay patuzu’ay a Feed.",
 	"ffeed-feed-not-found": "cakatepa Feed $1.",
 	"ffeed-entry-not-found": "caay katepa $1 a Feed kasacacay.",
+	"ffeed-invalid-timestamp": "la’cusay a nisulitan tu demiad.",
 	"ffeed-featured-title": "{{SITENAME}} a sazumaay ulic Feed",
 	"ffeed-featured-desc": "{{SITENAME}} nipabeliay a sakapahay a ulic",
 	"ffeed-good-title": "{{SITENAME}} kapahay ulic Feed",
