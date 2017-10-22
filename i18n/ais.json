@@ -9,6 +9,7 @@
 	"ffeed-no-feed": "caay patuzu’ay a Feed.",
 	"ffeed-feed-not-found": "cakatepa Feed $1.",
 	"ffeed-entry-not-found": "caay katepa $1 a Feed kasacacay.",
+	"ffeed-sidebar-section": "sazumaay lacul Feed",
 	"ffeed-invalid-timestamp": "la’cusay a nisulitan tu demiad.",
 	"ffeed-featured-title": "{{SITENAME}} a sazumaay ulic Feed",
 	"ffeed-featured-desc": "{{SITENAME}} nipabeliay a sakapahay a ulic",
@@ -26,7 +27,7 @@
 	"ffeed-qotd-desc": "{{SITENAME}} sakapahay a kapahay kamu",
 	"ffeed-featuredtexts-title": "{{SITENAME}} pametekan lacul Feed",
 	"ffeed-featuredtexts-desc": "{{SITENAME}} nipabeli sakapahay a lacul",
-	"ffeed-wotd-title": "paydemidemiad a sulit",
-	"ffeed-wotd-desc": "{{SITENAME}} paydemidemiad a sulit",
+	"ffeed-wotd-title": "Wiki sukudad paydemidemiad a sulit",
+	"ffeed-wotd-desc": "{{SITENAME}} cacay a sulit paydemiad",
 	"apihelp-featuredfeed-param-feed": "pecu’ nu lacul kalungangan."
 }
