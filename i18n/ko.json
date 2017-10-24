@@ -6,7 +6,8 @@
 			"아라",
 			"Miri-Nae",
 			"Hym411",
-			"Revi"
+			"Revi",
+			"Ykhwong"
 		]
 	},
 	"ffeed-desc": "위키의 알찬 내용의 배급 피드를 추가합니다",
@@ -50,5 +51,9 @@
 	"ffeed-wotd-title": "위키낱말사전 오늘의 낱말",
 	"ffeed-wotd-short-title": "오늘의 낱말",
 	"ffeed-wotd-desc": "{{SITENAME}} 오늘의 단어",
-	"ffeed-wotd-entry": "{{CURRENTMONTHNAME}} {{CURRENTDAY}} 에 대한 오늘의 단어"
+	"ffeed-wotd-entry": "{{CURRENTMONTHNAME}} {{CURRENTDAY}} 에 대한 오늘의 단어",
+	"apihelp-featuredfeed-param-feedformat": "피드의 포맷입니다.",
+	"apihelp-featuredfeed-param-feed": "피드 이름입니다.",
+	"apihelp-featuredfeed-param-language": "피드 언어 코드입니다. 일부 피드에 의해 무시됩니다.",
+	"apihelp-featuredfeed-example-1": "\"$1\" 피드를 검색합니다"
 }
