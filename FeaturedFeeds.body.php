@@ -310,7 +310,9 @@ class FeaturedFeedChannel {
 	private static function staticInit() {
 		if ( !self::$parserOptions ) {
 			self::$parserOptions = new ParserOptions();
-			self::$parserOptions->setEditSection( false );
+			if ( !defined( 'ParserOutput::SUPPORTS_STATELESS_TRANSFORMS' ) ) {
+				self::$parserOptions->setEditSection( false );
+			}
 			self::$parser = new Parser();
 		}
 	}
@@ -427,7 +429,9 @@ class FeaturedFeedChannel {
 		if ( !$text ) {
 			return false;
 		}
-		$text = self::$parser->parse( $text, $title, self::$parserOptions )->getText();
+		$text = self::$parser->parse( $text, $title, self::$parserOptions )->getText( [
+			'enableSectionEditLinks' => false,
+		] );
 		$ts = new MWTimestamp( $date );
 		$url = SpecialPage::getTitleFor( 'FeedItem',
 			$this->name . '/' . $ts->getTimestamp( TS_MW ) . '/' . $this->languageCode
