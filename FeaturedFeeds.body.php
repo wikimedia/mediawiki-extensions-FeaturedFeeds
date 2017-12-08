@@ -145,7 +145,7 @@ class FeaturedFeeds {
 	 * @param WikiPage $wikiPage
 	 * @return bool
 	 */
-	public static function pageContentSaveComplete( $wikiPage ) {
+	public static function pageContentSaveComplete( WikiPage $wikiPage ) {
 		$title = $wikiPage->getTitle();
 		$objectCache = ObjectCache::getMainWANInstance();
 		// Although message names are configurable and can be set not to start with 'Ffeed', we
