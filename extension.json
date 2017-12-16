@@ -44,8 +44,8 @@
 	"AutoloadClasses": {
 		"ApiFeaturedFeeds": "ApiFeaturedFeeds.php",
 		"FeaturedFeeds": "FeaturedFeeds.body.php",
-		"FeaturedFeedChannel": "FeaturedFeeds.body.php",
-		"FeaturedFeedItem": "FeaturedFeeds.body.php",
+		"FeaturedFeedChannel": "FeaturedFeedChannel.php",
+		"FeaturedFeedItem": "FeaturedFeedItem.php",
 		"SpecialFeedItem": "SpecialFeedItem.php"
 	},
 	"manifest_version": 1
