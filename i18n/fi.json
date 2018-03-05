@@ -5,7 +5,8 @@
 			"Kulmalukko",
 			"Linnea",
 			"Olli",
-			"Stryn"
+			"Stryn",
+			"Pyscowicz"
 		]
 	},
 	"ffeed-desc": "Lisää syötteet wikin suositellusta sisällöstä",
@@ -46,5 +47,11 @@
 	"ffeed-featuredtexts-short-title": "Suositellut tekstit",
 	"ffeed-featuredtexts-desc": "Sivuston {{SITENAME}} parhaimpia tekstejä",
 	"ffeed-featuredtexts-entry": "Suositeltu teksti {{LOCALDAY}}. {{LOCALMONTHNAME}}ta sivustolla {{SITENAME}}",
-	"ffeed-wotd-short-title": "Päivän sana"
+	"ffeed-wotd-title": "Wikisanakirja Päivän sana",
+	"ffeed-wotd-short-title": "Päivän sana",
+	"ffeed-wotd-desc": "{{SITENAME}} Päivän sana",
+	"ffeed-wotd-entry": "Päivän sana {{CURRENTDAY}}. {{CURRENTMONTHNAME}}",
+	"apihelp-featuredfeed-param-feedformat": "Syötteen rakenne.",
+	"apihelp-featuredfeed-param-feed": "Syötteen nimi.",
+	"apihelp-featuredfeed-param-language": "Syötteen kielikoodi. Sivuutetaan joidenkin syötteiden kautta."
 }
