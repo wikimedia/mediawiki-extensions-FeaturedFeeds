@@ -18,6 +18,9 @@ class FeaturedFeedChannel {
 
 	private $name;
 	private $options;
+	/**
+	 * @var FeaturedFeedItem[]|false
+	 */
 	private $items = false;
 	private $page = false;
 	private $entryName;
@@ -110,7 +113,7 @@ class FeaturedFeedChannel {
 	}
 
 	/**
-	 * @return array
+	 * @return FeaturedFeedItem[]
 	 */
 	public function getFeedItems() {
 		$this->init();
@@ -142,7 +145,7 @@ class FeaturedFeedChannel {
 	/**
 	 *
 	 * @param int $date
-	 * @return FeaturedFeedItem
+	 * @return FeaturedFeedItem|false
 	 */
 	public function getFeedItem( $date ) {
 		self::$parserOptions->setTimestamp( $date );
