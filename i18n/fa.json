@@ -49,7 +49,10 @@
 	"ffeed-wotd-short-title": "کلمهٔ روز",
 	"ffeed-wotd-desc": "کلمهٔ روز {{SITENAME}}",
 	"ffeed-wotd-entry": "کلمهٔ روز {{CURRENTMONTHNAME}} {{CURRENTDAY}}",
+	"apihelp-featuredfeed-description": "یک فید از محتوای برگزیده را باز می‌گرداند.",
+	"apihelp-featuredfeed-summary": "یک فید از محتوای برگزیده را باز می‌گرداند..",
 	"apihelp-featuredfeed-param-feedformat": "قالب خوراک.",
 	"apihelp-featuredfeed-param-feed": "نام خوراک",
+	"apihelp-featuredfeed-param-language": "زبان فید. توسط بعضی فیدها در نظر گرفته نمی‌شود.",
 	"apihelp-featuredfeed-example-1": "دریافت خوراک «$1»"
 }
