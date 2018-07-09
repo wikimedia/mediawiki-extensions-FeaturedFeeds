@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Arnaugir",
-			"Fitoschido"
+			"Fitoschido",
+			"Matěj Suchánek"
 		]
 	},
 	"ffeed-no-feed": "No s'ha especificat l'agregador",
@@ -37,7 +38,7 @@
 	"ffeed-qotd-title": "Agregador de cita del dia de {{SITENAME}}",
 	"ffeed-qotd-short-title": "Cita del dia",
 	"ffeed-qotd-desc": "Algunes de les millors cites de {{SITENAME}}",
-	"ffeed-qotd-entry": "Cites del dia de {{CITENAME}} el {{LOCALDAY}} {{LOCALMONTHNAME}}",
+	"ffeed-qotd-entry": "Cites del dia de {{SITENAME}} el {{LOCALDAY}} {{LOCALMONTHNAME}}",
 	"ffeed-featuredtexts-title": "Agregador de textos destacats de {{SITENAME}}",
 	"ffeed-featuredtexts-short-title": "Textos destacats",
 	"ffeed-featuredtexts-desc": "Els millors texts que ofereix {{SITENAME}}",

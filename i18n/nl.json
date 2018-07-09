@@ -6,7 +6,8 @@
 			"Robin0van0der0vliet",
 			"Esketti",
 			"Sjoerddebruin",
-			"Robin van der Vliet"
+			"Robin van der Vliet",
+			"Matěj Suchánek"
 		]
 	},
 	"ffeed-desc": "Voegt feeds toe voor de uitgelichte inhoud van een wiki",
@@ -46,7 +47,7 @@
 	"ffeed-featuredtexts-title": "Feed van {{SITENAME}} met aanbevolen teksten",
 	"ffeed-featuredtexts-short-title": "Aanbevolen teksten",
 	"ffeed-featuredtexts-desc": "De beste teksten die {{SITENAME}} te bieden heeft",
-	"ffeed-featuredtexts-entry": "Aanbevolgen teksten van {{SITENNAME}} van {{LOCALDAY}} {{LOCALMONTHNAME}}",
+	"ffeed-featuredtexts-entry": "Aanbevolgen teksten van {{SITENAME}} van {{LOCALDAY}} {{LOCALMONTHNAME}}",
 	"ffeed-wotd-title": "Wiktionary woord van de dag",
 	"ffeed-wotd-short-title": "Woord van de dag",
 	"ffeed-wotd-desc": "{{SITENAME}} woord van de dag",

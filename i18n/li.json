@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ooswesthoesbes"
+			"Ooswesthoesbes",
+			"Matěj Suchánek"
 		]
 	},
 	"ffeed-desc": "Veug feeds tou veur de oetgeleechte inhawd van 'ne wiki",
@@ -41,7 +42,7 @@
 	"ffeed-featuredtexts-title": "Feed van {{SITENAME}} mit aanbevaole tèkste",
 	"ffeed-featuredtexts-short-title": "Aanbevaole tèkste",
 	"ffeed-featuredtexts-desc": "De bèste tèkste van {{SITENAME}}",
-	"ffeed-featuredtexts-entry": "Aanbevaole tèkste van {{SITENNAME}} van {{LOCALDAY}} {{LOCALMONTHNAME}}",
+	"ffeed-featuredtexts-entry": "Aanbevaole tèkste van {{SITENAME}} van {{LOCALDAY}} {{LOCALMONTHNAME}}",
 	"ffeed-wotd-title": "Wiktionair zie Waord van d'n daag",
 	"ffeed-wotd-short-title": "Waord van d'n daag",
 	"ffeed-wotd-desc": "{{SITENAME}} zie Waord van d'n daag",
