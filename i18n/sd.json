@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Tweety"
+		]
+	},
+	"ffeed-feed-not-found": "فيڊ $1 نه لڌي.",
+	"ffeed-featured-short-title": "چونڊ مضمون",
+	"ffeed-featured-entry": "{{LOCALMONTHNAME}} {{LOCALDAY}} جي لاءِ {{SITENAME}} جو چونڊ مضمون",
+	"ffeed-dyk-short-title": "ڇا توهان ڄاڻو ٿا؟",
+	"ffeed-dyk-entry": "ڇا توهان ڄاڻو ٿا؟: {{LOCALMONTHNAME}} {{LOCALDAY}}",
+	"ffeed-qotd-short-title": "چونڊ قول",
+	"ffeed-wotd-short-title": "اڄ جو لفظ",
+	"ffeed-wotd-desc": "{{SITENAME}} اڄ جو لفظ",
+	"apihelp-featuredfeed-param-feed": "فيڊ نالو."
+}
