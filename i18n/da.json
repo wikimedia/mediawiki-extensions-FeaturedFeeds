@@ -5,7 +5,8 @@
 			"HenrikKbh",
 			"Hylle",
 			"Jan Friberg",
-			"Tjernobyl"
+			"Tjernobyl",
+			"Saederup92"
 		]
 	},
 	"ffeed-desc": "Tilføjer syndikerede feeds af wiki's fremhævede indhold",
@@ -45,5 +46,7 @@
 	"ffeed-featuredtexts-title": "{{SITENAME}}'s fremhævet artikelstrøm",
 	"ffeed-featuredtexts-short-title": "Fremhævede tekster",
 	"ffeed-featuredtexts-desc": "Bedste tekster på {{SITENAME}}",
-	"ffeed-featuredtexts-entry": "{{LOCALMONTHNAME}} {{LOCALDAY}} {{SITENAME}} fremhævet tekst"
+	"ffeed-featuredtexts-entry": "{{LOCALMONTHNAME}} {{LOCALDAY}} {{SITENAME}} fremhævet tekst",
+	"ffeed-wotd-short-title": "Dagens ord",
+	"ffeed-wotd-desc": "Dagens ord på {{SITENAME}}"
 }
