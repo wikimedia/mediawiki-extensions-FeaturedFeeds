@@ -11,7 +11,7 @@
 	"ffeed-feed-not-found": "Довод $1 није пронађен",
 	"ffeed-entry-not-found": "Унос у доводу за $1 није пронађен",
 	"ffeed-sidebar-section": "Доводи за изабрани садржај",
-	"ffeed-invalid-timestamp": "Невалидна временска ознака довода",
+	"ffeed-invalid-timestamp": "Неважећа временска ознака довода",
 	"ffeed-featured-title": "{{SITENAME}} – довод изабраних чланака",
 	"ffeed-featured-short-title": "Изабрани чланци",
 	"ffeed-featured-desc": "Најбољи чланци на {{SITENAME}}",
