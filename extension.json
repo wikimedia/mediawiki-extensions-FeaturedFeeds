@@ -42,11 +42,11 @@
 		"FeedItem": "SpecialFeedItem"
 	},
 	"AutoloadClasses": {
-		"ApiFeaturedFeeds": "ApiFeaturedFeeds.php",
-		"FeaturedFeeds": "FeaturedFeeds.body.php",
-		"FeaturedFeedChannel": "FeaturedFeedChannel.php",
-		"FeaturedFeedItem": "FeaturedFeedItem.php",
-		"SpecialFeedItem": "SpecialFeedItem.php"
+		"ApiFeaturedFeeds": "includes/ApiFeaturedFeeds.php",
+		"FeaturedFeeds": "includes/FeaturedFeeds.php",
+		"FeaturedFeedChannel": "includes/FeaturedFeedChannel.php",
+		"FeaturedFeedItem": "includes/FeaturedFeedItem.php",
+		"SpecialFeedItem": "includes/SpecialFeedItem.php"
 	},
 	"manifest_version": 1
 }
