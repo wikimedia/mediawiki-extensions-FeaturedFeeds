@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Robby"
+			"Robby",
+			"Les Meloures"
 		]
 	},
 	"ffeed-no-feed": "Feed net spezifizéiert",
@@ -22,7 +23,7 @@
 	"ffeed-onthisday-entry": "Op dësem Dag: {{LOCALMONTHNAME}} {{LOCALDAY}}",
 	"ffeed-dyk-title": "{{SITENAME}} \"Vosst Dir schonn\" Feed",
 	"ffeed-dyk-short-title": "Wousst Dir?",
-	"ffeed-dyk-desc": "De rezensten Inhalt op {{SITENAME}}",
+	"ffeed-dyk-desc": "De rezentsten Inhalt op {{SITENAME}}",
 	"ffeed-dyk-entry": "Wousst Dir schonn?:  {{LOCALMONTHNAME}} {{LOCALDAY}}",
 	"ffeed-motd-title": "{{SITENAME}} Feed mam Medie-Fichier vum Dag",
 	"ffeed-motd-short-title": "Medie-Fichier vum Dag",
