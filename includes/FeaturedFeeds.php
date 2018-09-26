@@ -12,7 +12,10 @@ class FeaturedFeeds {
 	public static function getFeeds( $langCode ) {
 		global $wgLanguageCode;
 
-		if ( !$langCode || self::allInContentLanguage() ) {
+		if ( !$langCode
+			|| self::allInContentLanguage()
+			|| !Language::isValidBuiltInCode( $langCode )
+		) {
 			$langCode = $wgLanguageCode;
 		}
 		static $cache = [];
