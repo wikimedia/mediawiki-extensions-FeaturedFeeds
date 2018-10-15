@@ -7,6 +7,9 @@
 	"descriptionmsg": "ffeed-desc",
 	"type": "other",
 	"license-name": "WTFPL",
+	"requires": {
+		"MediaWiki": ">= 1.29.0"
+	},
 	"ExtensionMessagesFiles": {
 		"FeaturedFeedsAliases": "FeaturedFeeds.alias.php"
 	},

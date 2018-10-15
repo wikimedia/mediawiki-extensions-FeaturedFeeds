@@ -20,11 +20,7 @@ class ApiFeaturedFeeds extends ApiBase {
 		global $wgFeedClasses;
 
 		if ( !isset( $wgFeedClasses[$params['feedformat']] ) ) {
-			if ( is_callable( [ $this, 'dieWithError' ] ) ) {
-				$this->dieWithError( 'feed-invalid' );
-			} else {
-				$this->dieUsage( 'Invalid subscription feed type', 'feed-invalid' );
-			}
+			$this->dieWithError( 'feed-invalid' );
 		}
 
 		$language = isset( $params['language'] ) ? $params['language'] : false;
