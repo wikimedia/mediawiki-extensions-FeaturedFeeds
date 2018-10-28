@@ -5,13 +5,14 @@
 			"Jean-Frédéric",
 			"Tpt",
 			"Urhixidur",
-			"Windes"
+			"Windes",
+			"Wladek92"
 		]
 	},
 	"ffeed-desc": "Ajoute des flux de publication du contenu du wiki",
-	"ffeed-no-feed": "Source non spécifiée",
-	"ffeed-feed-not-found": "Source $1 non trouvée",
-	"ffeed-entry-not-found": "Entrée du flux pour $1 non trouvée",
+	"ffeed-no-feed": "Flux non spécifié.",
+	"ffeed-feed-not-found": "Flux $1 non trouvé.",
+	"ffeed-entry-not-found": "Entrée du flux pour $1 non trouvée.",
 	"ffeed-sidebar-section": "Alimentations de contenu caractéristique",
 	"ffeed-invalid-timestamp": "Horodatage d'alimentation invalide",
 	"ffeed-featured-title": "Liste d’articles labellisés de {{SITENAME}}",
