@@ -7,7 +7,8 @@
 			"Esketti",
 			"Sjoerddebruin",
 			"Robin van der Vliet",
-			"Matěj Suchánek"
+			"Matěj Suchánek",
+			"Mainframe98"
 		]
 	},
 	"ffeed-desc": "Voegt feeds toe voor de uitgelichte inhoud van een wiki",
@@ -53,6 +54,7 @@
 	"ffeed-wotd-desc": "{{SITENAME}} woord van de dag",
 	"ffeed-wotd-entry": "Woord van de dag van {{CURRENTDAY}} {{CURRENTMONTHNAME}}",
 	"apihelp-featuredfeed-description": "Geeft een feed met uitgelichte inhoud terug.",
+	"apihelp-featuredfeed-summary": "Geeft een feed met uitgelichte inhoud terug.",
 	"apihelp-featuredfeed-param-feedformat": "De indeling van de feed.",
 	"apihelp-featuredfeed-param-feed": "Feednaam.",
 	"apihelp-featuredfeed-param-language": "Taalcode voor de feed. Wordt genegeerd door een aantal feeds.",
