@@ -6,7 +6,8 @@
 			"Linnea",
 			"Olli",
 			"Stryn",
-			"Pyscowicz"
+			"Pyscowicz",
+			"Valtlait"
 		]
 	},
 	"ffeed-desc": "Lisää syötteet wikin suositellusta sisällöstä",
@@ -23,11 +24,11 @@
 	"ffeed-good-short-title": "Hyvät artikkelit",
 	"ffeed-good-desc": "Hyvät artikkelit sivustolla {{SITENAME}}",
 	"ffeed-good-entry": "Hyvä artikkeli {{LOCALDAY}}. {{LOCALMONTHNAME}}ta sivustolla {{SITENAME}}",
-	"ffeed-onthisday-title": "Sivuston {{SITENAME}} syöte \"Tänään...\"",
+	"ffeed-onthisday-title": "Sivuston {{SITENAME}} syöte ”Tänään…”",
 	"ffeed-onthisday-short-title": "Tänään...",
 	"ffeed-onthisday-desc": "Historialliset tapahtumat tänä päivämääränä",
 	"ffeed-onthisday-entry": "Tänään: {{LOCALDAY}}. {{LOCALMONTHNAME}}ta",
-	"ffeed-dyk-title": "{{GRAMMAR:genitive|{{SITENAME}}}} \"Tiesitkö, että?\" -syöte",
+	"ffeed-dyk-title": "{{GRAMMAR:genitive|{{SITENAME}}}} ”Tiesitkö, että?” -syöte",
 	"ffeed-dyk-short-title": "Tiesitkö?",
 	"ffeed-dyk-desc": "Sivuston {{SITENAME}} uusimmasta sisällöstä",
 	"ffeed-dyk-entry": "Tiesitkö?: {{LOCALDAY}}. {{LOCALMONTHNAME}}",
