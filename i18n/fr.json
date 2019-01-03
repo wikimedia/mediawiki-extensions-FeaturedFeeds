@@ -50,7 +50,7 @@
 	"ffeed-wotd-title": "Mot du jour du Wiktionnaire",
 	"ffeed-wotd-short-title": "Mot du jour",
 	"ffeed-wotd-desc": "Mot du jour de {{SITENAME}}",
-	"ffeed-wotd-entry": "Mot du jour pour {{CURRENTMONTHNAME}} {{CURRENTDAY}}",
+	"ffeed-wotd-entry": "Mot du jour pour le {{CURRENTDAY}} {{CURRENTMONTHNAME}}",
 	"apihelp-featuredfeed-description": "Renvoie un flux de contenu mis en avant.",
 	"apihelp-featuredfeed-summary": "Renvoie un flux du contenu mis en avant.",
 	"apihelp-featuredfeed-param-feedformat": "Le format du flux.",
