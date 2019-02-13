@@ -243,9 +243,9 @@ class FeaturedFeeds {
 			if ( isset( $wgLocaltimezone ) ) {
 				$tz = $wgLocaltimezone;
 			} else {
-				wfSuppressWarnings();
+				Wikimedia\suppressWarnings();
 				$tz = date_default_timezone_get();
-				wfRestoreWarnings();
+				Wikimedia\restoreWarnings();
 			}
 			$timeZone = new DateTimeZone( $tz );
 		}
