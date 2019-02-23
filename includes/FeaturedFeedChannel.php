@@ -1,15 +1,14 @@
 <?php
 
+use MediaWiki\MediaWikiServices;
+use MediaWiki\Revision\SlotRecord;
+
 class FeaturedFeedChannel {
 	/**
 	 * Class version, incerement it when changing class internals.
 	 */
 	const VERSION = 1;
 
-	/**
-	 * @var ParserOptions
-	 */
-	private static $parserOptions = null;
 	/**
 	 * @var Parser
 	 */
@@ -49,11 +48,7 @@ class FeaturedFeedChannel {
 	}
 
 	private static function staticInit() {
-		if ( !self::$parserOptions ) {
-			self::$parserOptions = new ParserOptions();
-			if ( !defined( 'ParserOutput::SUPPORTS_STATELESS_TRANSFORMS' ) ) {
-				self::$parserOptions->setEditSection( false );
-			}
+		if ( !self::$parser ) {
 			self::$parser = new Parser();
 		}
 	}
@@ -148,8 +143,9 @@ class FeaturedFeedChannel {
 	 * @return FeaturedFeedItem|false
 	 */
 	public function getFeedItem( $date ) {
-		self::$parserOptions->setTimestamp( $date );
-		self::$parserOptions->setUserLang( $this->getLanguage() );
+		$parserOptions = new ParserOptions();
+		$parserOptions->setTimestamp( $date );
+		$parserOptions->setUserLang( $this->getLanguage() );
 
 		if ( !isset( $this->titleForParse ) ) {
 			// parsing with such title makes stuff like {{CURRENTMONTH}} localised
@@ -157,20 +153,22 @@ class FeaturedFeedChannel {
 		}
 
 		$titleText = self::$parser->transformMsg(
-			$this->page, self::$parserOptions, $this->titleForParse );
+			$this->page, $parserOptions, $this->titleForParse );
 		$title = Title::newFromText( $titleText );
 		if ( !$title ) {
 			return false;
 		}
-		$rev = Revision::newFromTitle( $title );
+		$rev = MediaWikiServices::getInstance()->getRevisionLookup()
+			->getRevisionByTitle( $title );
 		if ( !$rev ) {
-			return false; // page does not exist
+			// Page does not exist
+			return false;
 		}
-		$text = ContentHandler::getContentText( $rev->getContent() );
+		$text = ContentHandler::getContentText( $rev->getContent( SlotRecord::MAIN ) );
 		if ( !$text ) {
 			return false;
 		}
-		$text = self::$parser->parse( $text, $title, self::$parserOptions )->getText( [
+		$text = self::$parser->parse( $text, $title, $parserOptions )->getText( [
 			'enableSectionEditLinks' => false,
 		] );
 		$ts = new MWTimestamp( $date );
@@ -179,7 +177,7 @@ class FeaturedFeedChannel {
 		)->getFullURL();
 
 		return new FeaturedFeedItem(
-			self::$parser->transformMsg( $this->entryName, self::$parserOptions, $this->titleForParse ),
+			self::$parser->transformMsg( $this->entryName, $parserOptions, $this->titleForParse ),
 			wfExpandUrl( $url ),
 			$text,
 			$date
