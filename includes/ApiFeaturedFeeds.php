@@ -23,7 +23,7 @@ class ApiFeaturedFeeds extends ApiBase {
 			$this->dieWithError( 'feed-invalid' );
 		}
 
-		$language = isset( $params['language'] ) ? $params['language'] : false;
+		$language = $params['language'] ?? false;
 		if ( $language !== false && !Language::isValidCode( $language ) ) {
 			$language = false;
 		}
