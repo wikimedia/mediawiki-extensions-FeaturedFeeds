@@ -23,7 +23,7 @@
 	"ffeed-onthisday-title": "{{SITENAME}} flöde för \"Dagens datum...\"",
 	"ffeed-onthisday-short-title": "På denna dag...",
 	"ffeed-onthisday-desc": "Historiska händelser på denna dag",
-	"ffeed-onthisday-entry": "På denna dag: {{LOCALMONTHNAME}} {{LOCALDAY}}",
+	"ffeed-onthisday-entry": "På denna dag: {{LOCALDAY}} {{LOCALMONTHNAME}}",
 	"ffeed-dyk-title": "{{SITENAME}} \"Visste du att...?\"-flöde",
 	"ffeed-dyk-short-title": "Visste du att...?",
 	"ffeed-dyk-desc": "Från {{SITENAME}}s senaste innehåll",
