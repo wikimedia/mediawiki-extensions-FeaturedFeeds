@@ -1,5 +1,7 @@
 <?php
 
+use MediaWiki\MediaWikiServices;
+
 class FeaturedFeeds {
 	private static $allInContLang = null;
 
@@ -23,7 +25,7 @@ class FeaturedFeeds {
 			return $cache[$langCode];
 		}
 
-		$objectCache = ObjectCache::getMainWANInstance();
+		$objectCache = MediaWikiServices::getInstance()->getMainWANObjectCache();
 		$key = self::getCacheKey( $langCode );
 
 		// Fetch the list of feed items from cache, considering it
@@ -150,7 +152,7 @@ class FeaturedFeeds {
 	 */
 	public static function pageContentSaveComplete( WikiPage $wikiPage ) {
 		$title = $wikiPage->getTitle();
-		$objectCache = ObjectCache::getMainWANInstance();
+		$objectCache = MediaWikiServices::getInstance()->getMainWANObjectCache();
 		// Although message names are configurable and can be set not to start with 'Ffeed', we
 		// make a shortcut here to avoid running these checks on every NS_MEDIAWIKI edit
 		if ( $title->getNamespace() == NS_MEDIAWIKI && strpos( $title->getText(), 'Ffeed-' ) === 0 ) {
