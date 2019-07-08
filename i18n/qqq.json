@@ -59,11 +59,5 @@
 	"ffeed-wotd-title": "Title of the Word of the day [[w:web feed|syndication feed]].\n{{Identical|Word of the day}}",
 	"ffeed-wotd-short-title": "{{Identical|Word of the day}}",
 	"ffeed-wotd-desc": "Description of the Word of the day [[w:web feed|syndication feed]].\n{{Identical|Word of the day}}",
-	"ffeed-wotd-entry": "Title of day's entry in the Word of the day [[w:web feed|syndication feed]].\n{{Identical|Word of the day}}",
-	"apihelp-featuredfeed-description": "{{doc-apihelp-description|featuredfeed}}",
-	"apihelp-featuredfeed-summary": "{{doc-apihelp-summary|featuredfeed}}",
-	"apihelp-featuredfeed-param-feedformat": "{{doc-apihelp-param|featuredfeed|feedformat}}",
-	"apihelp-featuredfeed-param-feed": "{{doc-apihelp-param|featuredfeed|feed}}",
-	"apihelp-featuredfeed-param-language": "{{doc-apihelp-param|featuredfeed|language}}",
-	"apihelp-featuredfeed-example-1": "{{doc-apihelp-example|featuredfeed}}"
+	"ffeed-wotd-entry": "Title of day's entry in the Word of the day [[w:web feed|syndication feed]].\n{{Identical|Word of the day}}"
 }
