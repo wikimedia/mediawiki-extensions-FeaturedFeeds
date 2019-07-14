@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Brad Jorsch"
+		]
+	},
+	"apihelp-featuredfeed-description": "Returns a featured content feed.",
+	"apihelp-featuredfeed-summary": "Returns a featured content feed.",
+	"apihelp-featuredfeed-param-feedformat": "The format of the feed.",
+	"apihelp-featuredfeed-param-feed": "Feed name.",
+	"apihelp-featuredfeed-param-language": "Feed language code. Ignored by some feeds.",
+	"apihelp-featuredfeed-example-1": "Retrieve feed \"$1\""
+}

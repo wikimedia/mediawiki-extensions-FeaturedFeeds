@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Brad Jorsch"
+		]
+	},
+	"apihelp-featuredfeed-description": "{{doc-apihelp-description|featuredfeed}}",
+	"apihelp-featuredfeed-summary": "{{doc-apihelp-summary|featuredfeed}}",
+	"apihelp-featuredfeed-param-feedformat": "{{doc-apihelp-param|featuredfeed|feedformat}}",
+	"apihelp-featuredfeed-param-feed": "{{doc-apihelp-param|featuredfeed|feed}}",
+	"apihelp-featuredfeed-param-language": "{{doc-apihelp-param|featuredfeed|language}}",
+	"apihelp-featuredfeed-example-1": "{{doc-apihelp-example|featuredfeed}}"
+}
