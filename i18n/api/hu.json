@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Tacsipacsi"
+		]
+	},
+	"apihelp-featuredfeed-description": "Egy kiemelt tartalom hírcsatornáját adja vissza.",
+	"apihelp-featuredfeed-param-feedformat": "A hírcsatorna formátuma.",
+	"apihelp-featuredfeed-param-feed": "A hírcsatorna neve.",
+	"apihelp-featuredfeed-param-language": "A hírcsatorna nyelvkódja. Bizonyos hírcsatornák figyelmen kívül hagyják.",
+	"apihelp-featuredfeed-example-1": "„$1” hírcsatorna elérése"
+}

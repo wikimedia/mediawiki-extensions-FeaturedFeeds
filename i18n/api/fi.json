@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Pyscowicz"
+		]
+	},
+	"apihelp-featuredfeed-param-feedformat": "Syötteen rakenne.",
+	"apihelp-featuredfeed-param-feed": "Syötteen nimi.",
+	"apihelp-featuredfeed-param-language": "Syötteen kielikoodi. Sivuutetaan joidenkin syötteiden kautta."
+}

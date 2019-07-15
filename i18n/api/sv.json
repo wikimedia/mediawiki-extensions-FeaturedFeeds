@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Lokal Profil"
+		]
+	},
+	"apihelp-featuredfeed-description": "Returnerar ett flöde för utvalt innehåll.",
+	"apihelp-featuredfeed-param-feedformat": "Formatet på flödet.",
+	"apihelp-featuredfeed-param-feed": "Flödesnamn.",
+	"apihelp-featuredfeed-param-language": "Språkkod för flödet. Ignoreras av vissa flöden.",
+	"apihelp-featuredfeed-example-1": "Hämta flöde \"$1\""
+}

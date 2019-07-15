@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Liuxinyu970226"
+		]
+	},
+	"apihelp-featuredfeed-description": "返回特色内容源。",
+	"apihelp-featuredfeed-summary": "返回特色内容源。",
+	"apihelp-featuredfeed-param-feedformat": "源的格式。",
+	"apihelp-featuredfeed-param-feed": "源名称。",
+	"apihelp-featuredfeed-param-language": "源语言代码。一些源会忽略。",
+	"apihelp-featuredfeed-example-1": "检索源“$1”"
+}

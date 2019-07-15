@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Esketti",
+			"Mainframe98",
+			"Robin van der Vliet",
+			"Siebrand"
+		]
+	},
+	"apihelp-featuredfeed-description": "Geeft een feed met uitgelichte inhoud terug.",
+	"apihelp-featuredfeed-summary": "Geeft een feed met uitgelichte inhoud terug.",
+	"apihelp-featuredfeed-param-feedformat": "De indeling van de feed.",
+	"apihelp-featuredfeed-param-feed": "Feednaam.",
+	"apihelp-featuredfeed-param-language": "Taalcode voor de feed. Wordt genegeerd door een aantal feeds.",
+	"apihelp-featuredfeed-example-1": "Feed \"$1\" ophalen"
+}

@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ooswesthoesbes"
+		]
+	},
+	"apihelp-featuredfeed-description": "Geuf 'ne feed trögk mit oetgelichden inhawd.",
+	"apihelp-featuredfeed-summary": "Geuf 'ne feed trögk mit oetgelichden inhawd.",
+	"apihelp-featuredfeed-param-feedformat": "De indeiling van de feed.",
+	"apihelp-featuredfeed-param-feed": "Feednaam.",
+	"apihelp-featuredfeed-param-language": "Spraokcode van de feed. Genegeerd door sommige feeds.",
+	"apihelp-featuredfeed-example-1": "Haol feed \"$1\" op"
+}

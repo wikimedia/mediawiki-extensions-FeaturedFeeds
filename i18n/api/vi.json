@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Minh Nguyen"
+		]
+	},
+	"apihelp-featuredfeed-description": "Trả về một nguồn cấp nội dung chọn lọc.",
+	"apihelp-featuredfeed-param-feedformat": "Định dạng nguồn cấp.",
+	"apihelp-featuredfeed-param-feed": "Tên nguồn cấp.",
+	"apihelp-featuredfeed-param-language": "Mã ngôn ngữ của nguồn cấp, được một số trình đọc nguồn cấp bỏ qua.",
+	"apihelp-featuredfeed-example-1": "Lấy nguồn cấp “$1”"
+}

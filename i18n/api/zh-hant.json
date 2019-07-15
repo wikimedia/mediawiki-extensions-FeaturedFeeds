@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kly",
+			"LNDDYL"
+		]
+	},
+	"apihelp-featuredfeed-description": "回傳特色內容摘要。",
+	"apihelp-featuredfeed-summary": "回傳特色內容摘要。",
+	"apihelp-featuredfeed-param-feedformat": "摘要格式。",
+	"apihelp-featuredfeed-param-feed": "摘要名稱。",
+	"apihelp-featuredfeed-param-language": "摘要語言代碼。會依一些摘要而忽略。",
+	"apihelp-featuredfeed-example-1": "索取摘要「$1」"
+}

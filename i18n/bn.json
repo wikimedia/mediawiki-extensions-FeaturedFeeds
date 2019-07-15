@@ -42,6 +42,5 @@
 	"ffeed-featuredtexts-short-title": "নির্বাচিত লেখা",
 	"ffeed-featuredtexts-entry": "{{LOCALMONTHNAME}} {{LOCALDAY}} {{SITENAME}} নির্বাচিত লেখা",
 	"ffeed-wotd-short-title": "আজকের নির্বাচিত শব্দ",
-	"ffeed-wotd-desc": "{{SITENAME}} আজকের নির্বাচিত শব্দ",
-	"apihelp-featuredfeed-param-feed": "ফিডের নাম।"
+	"ffeed-wotd-desc": "{{SITENAME}} আজকের নির্বাচিত শব্দ"
 }

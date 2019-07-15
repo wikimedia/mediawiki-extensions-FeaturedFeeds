@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Beta16",
+			"OrbiliusMagister"
+		]
+	},
+	"apihelp-featuredfeed-description": "Restituisce un feed di contenuti.",
+	"apihelp-featuredfeed-param-feedformat": "Il formato del feed.",
+	"apihelp-featuredfeed-param-feed": "Nome feed.",
+	"apihelp-featuredfeed-example-1": "Recupera feed \"$1\""
+}

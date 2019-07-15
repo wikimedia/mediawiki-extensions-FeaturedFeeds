@@ -48,10 +48,5 @@
 	"ffeed-wotd-title": "Günün ün dür Word",
 	"ffeed-wotd-short-title": "Günün sözü",
 	"ffeed-wotd-desc": "{{SITENAME}} günün sözü",
-	"ffeed-wotd-entry": "Günün kelimesi için {{CURRENTMONTHNAME}} {{CURRENTDAY}}",
-	"apihelp-featuredfeed-description": "Özellikli bir içerik besleme verir.",
-	"apihelp-featuredfeed-param-feedformat": "Besleme biçimi.",
-	"apihelp-featuredfeed-param-feed": "Adı besleyin.",
-	"apihelp-featuredfeed-param-language": "Dil kodu besleme. Bazıları tarafından göz ardı beslenir.",
-	"apihelp-featuredfeed-example-1": "Al besle \"$1\""
+	"ffeed-wotd-entry": "Günün kelimesi için {{CURRENTMONTHNAME}} {{CURRENTDAY}}"
 }

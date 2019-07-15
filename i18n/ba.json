@@ -50,9 +50,5 @@
 	"ffeed-wotd-title": "Викиһүҙлек көнө һүҙе",
 	"ffeed-wotd-short-title": "Көн һүҙе",
 	"ffeed-wotd-desc": "Сайта {{SITENAME}} көн һүҙе",
-	"ffeed-wotd-entry": "{{CURRENTMONTHNAME}} {{CURRENTDAY}} өсөн һүҙлек көнө",
-	"apihelp-featuredfeed-param-feedformat": "Биреү форматы",
-	"apihelp-featuredfeed-param-feed": "Канал исеме",
-	"apihelp-featuredfeed-param-language": "Телдең кодын биреү. Ҡайһы бер каналдарҙа код бирелмәй.",
-	"apihelp-featuredfeed-example-1": "Сығанағы — «$1»"
+	"ffeed-wotd-entry": "{{CURRENTMONTHNAME}} {{CURRENTDAY}} өсөн һүҙлек көнө"
 }

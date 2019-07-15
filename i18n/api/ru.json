@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Facenapalm",
+			"Okras"
+		]
+	},
+	"apihelp-featuredfeed-description": "Возвращает ленту избранных материалов.",
+	"apihelp-featuredfeed-summary": "Возвращает ленту избранных материалов.",
+	"apihelp-featuredfeed-param-feedformat": "Формат ленты.",
+	"apihelp-featuredfeed-param-feed": "Название ленты.",
+	"apihelp-featuredfeed-param-language": "Языковой код ленты. Игнорируется некоторыми лентами.",
+	"apihelp-featuredfeed-example-1": "Получить ленту «$1»"
+}

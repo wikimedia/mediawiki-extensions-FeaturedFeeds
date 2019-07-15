@@ -38,6 +38,5 @@
 	"ffeed-featuredtexts-entry": "{{LOCALMONTHNAME}} {{LOCALDAY}} {{SITENAME}} sazumaay a pili’ lacul",
 	"ffeed-wotd-title": "Wiki sukudad paydemidemiad a sulit",
 	"ffeed-wotd-desc": "{{SITENAME}} cacay a sulit paydemiad",
-	"ffeed-wotd-entry": "{{CURRENTMONTHNAME}} {{CURRENTDAY}} demiad Paydemiad cacay ku kamu.",
-	"apihelp-featuredfeed-param-feed": "pecu’ nu lacul kalungangan."
+	"ffeed-wotd-entry": "{{CURRENTMONTHNAME}} {{CURRENTDAY}} demiad Paydemiad cacay ku kamu."
 }

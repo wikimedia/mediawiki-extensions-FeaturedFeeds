@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kumkumuk",
+			"Orbot707"
+		]
+	},
+	"apihelp-featuredfeed-description": "Xısusiyet de zerrek Wari kerdış dano.",
+	"apihelp-featuredfeed-summary": "Peyser şo wari kerdışê zerrekê weçinayi",
+	"apihelp-featuredfeed-param-feedformat": "Formata warikerdışi",
+	"apihelp-featuredfeed-param-feed": "Namey wari kerdışi",
+	"apihelp-featuredfeed-param-language": "Wariya kado zıwani. Tayna gora qebul nêbiyo.",
+	"apihelp-featuredfeed-example-1": "\"$1\" ra wari kerdışi"
+}

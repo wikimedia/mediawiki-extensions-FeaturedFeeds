@@ -48,11 +48,5 @@
 	"ffeed-wotd-title": "Vikivortara Vorto de la tago",
 	"ffeed-wotd-short-title": "Vorto de la tago",
 	"ffeed-wotd-desc": "{{SITENAME}} Vorto de la tago",
-	"ffeed-wotd-entry": "Vorto de la tago por {{CURRENTDAY}}-a de {{CURRENTMONTHNAME}}",
-	"apihelp-featuredfeed-description": "Liveras abonfluon de elstara enhavo.",
-	"apihelp-featuredfeed-summary": "Liveras abonfluon de elstara enhavo.",
-	"apihelp-featuredfeed-param-feedformat": "La aranĝo de la abonfluo.",
-	"apihelp-featuredfeed-param-feed": "Nomo de abonfluo.",
-	"apihelp-featuredfeed-param-language": "Lingvokodo de abonfluo. Ignorata de iuj abonfluoj.",
-	"apihelp-featuredfeed-example-1": "Akiri abonfluon \"$1\""
+	"ffeed-wotd-entry": "Vorto de la tago por {{CURRENTDAY}}-a de {{CURRENTMONTHNAME}}"
 }

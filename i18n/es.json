@@ -48,11 +48,5 @@
 	"ffeed-wotd-title": "Palabra del día en el Wikcionario",
 	"ffeed-wotd-short-title": "Palabra del día",
 	"ffeed-wotd-desc": "Palabra del día en {{SITENAME}}",
-	"ffeed-wotd-entry": "Palabra del día {{CURRENTDAY}} de {{CURRENTMONTHNAME}}",
-	"apihelp-featuredfeed-description": "Devuelve un suministro de contenido destacado.",
-	"apihelp-featuredfeed-summary": "Devuelve un suministro de contenido destacado.",
-	"apihelp-featuredfeed-param-feedformat": "El formato del suministro.",
-	"apihelp-featuredfeed-param-feed": "Nombre del suministro.",
-	"apihelp-featuredfeed-param-language": "Código de idioma del suministro. Algunos suministros lo ignoran.",
-	"apihelp-featuredfeed-example-1": "Recuperar el suministro «$1»"
+	"ffeed-wotd-entry": "Palabra del día {{CURRENTDAY}} de {{CURRENTMONTHNAME}}"
 }

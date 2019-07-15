@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hamilton Abreu"
+		]
+	},
+	"apihelp-featuredfeed-description": "Devolve um <i>feed</i> de conteúdos em destaque.",
+	"apihelp-featuredfeed-summary": "Devolve um <i>feed</i> de conteúdos em destaque.",
+	"apihelp-featuredfeed-param-feedformat": "O formato do <i>feed</i>.",
+	"apihelp-featuredfeed-param-feed": "Nome do <i>feed</i>.",
+	"apihelp-featuredfeed-param-language": "Código de língua do <i>feed</i>. Ignorado por alguns <i>feeds</i>.",
+	"apihelp-featuredfeed-example-1": "Obter o <i>feed</i> \"$1\""
+}

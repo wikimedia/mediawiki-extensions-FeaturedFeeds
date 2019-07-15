@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ladsgroup"
+		]
+	},
+	"apihelp-featuredfeed-description": "یک فید از محتوای برگزیده را باز می‌گرداند.",
+	"apihelp-featuredfeed-summary": "یک فید از محتوای برگزیده را باز می‌گرداند..",
+	"apihelp-featuredfeed-param-feedformat": "قالب خوراک.",
+	"apihelp-featuredfeed-param-feed": "نام خوراک",
+	"apihelp-featuredfeed-param-language": "زبان فید. توسط بعضی فیدها در نظر گرفته نمی‌شود.",
+	"apihelp-featuredfeed-example-1": "دریافت خوراک «$1»"
+}

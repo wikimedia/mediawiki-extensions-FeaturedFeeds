@@ -47,10 +47,5 @@
 	"ffeed-wotd-title": "Wiktionary Dienos žodis",
 	"ffeed-wotd-short-title": "Dienos žodis",
 	"ffeed-wotd-desc": "{{SITENAME}} Dienos žodis",
-	"ffeed-wotd-entry": "Dienos žodis {{CURRENTMONTHNAME}} {{CURRENTDAY}}",
-	"apihelp-featuredfeed-description": "Gražina populiariausio turinio kanalą.",
-	"apihelp-featuredfeed-param-feedformat": "Kanalo formatas.",
-	"apihelp-featuredfeed-param-feed": "Kanalo pavadinimas.",
-	"apihelp-featuredfeed-param-language": "Kanalo kalbos kodas. Ignoruojama kai kurių kanalų.",
-	"apihelp-featuredfeed-example-1": "Gauti kanalą \"$1\""
+	"ffeed-wotd-entry": "Dienos žodis {{CURRENTMONTHNAME}} {{CURRENTDAY}}"
 }

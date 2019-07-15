@@ -36,7 +36,5 @@
 	"ffeed-featuredtexts-desc": "{{SITENAME}} сайтындағы ұсынуға ең үздік мәтіндер",
 	"ffeed-wotd-title": "Уикисөздіктегі тәулік сөзі",
 	"ffeed-wotd-short-title": "Тәулік сөзі",
-	"ffeed-wotd-desc": "{{SITENAME}} сайтындағы тәулік сөзі",
-	"apihelp-featuredfeed-param-feedformat": "Тізбектің форматы.",
-	"apihelp-featuredfeed-param-feed": "Тізбек атауы."
+	"ffeed-wotd-desc": "{{SITENAME}} сайтындағы тәулік сөзі"
 }

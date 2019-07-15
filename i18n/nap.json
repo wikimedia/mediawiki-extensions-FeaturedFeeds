@@ -45,10 +45,5 @@
 	"ffeed-wotd-title": "Parola d' 'o juorno Wikziunario",
 	"ffeed-wotd-short-title": "Parola d' 'o juorno",
 	"ffeed-wotd-desc": "{{SITENAME}} Parola d' 'o juorno",
-	"ffeed-wotd-entry": "Parola d' 'o juorno pe' {{CURRENTMONTHNAME}} {{CURRENTDAY}}",
-	"apihelp-featuredfeed-description": "Torna nu feed 'e cuntenute mpurtante.",
-	"apihelp-featuredfeed-param-feedformat": "'O furmato d' 'o feed.",
-	"apihelp-featuredfeed-param-feed": "Nomme d' 'o feed.",
-	"apihelp-featuredfeed-param-language": "Codece 'e llengua d' 'o feed. Gnurata pe' cierti feed.",
-	"apihelp-featuredfeed-example-1": "Piglia 'o feed \"$1\""
+	"ffeed-wotd-entry": "Parola d' 'o juorno pe' {{CURRENTMONTHNAME}} {{CURRENTDAY}}"
 }

@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Amire80"
+		]
+	},
+	"apihelp-featuredfeed-description": "החזרת הזנת תוכן מומלץ.",
+	"apihelp-featuredfeed-summary": "החזרת הזנת תוכן מומלץ.",
+	"apihelp-featuredfeed-param-feedformat": "תסדיר ההזנה.",
+	"apihelp-featuredfeed-param-feed": "שם ההזנה.",
+	"apihelp-featuredfeed-param-language": "קוד השפה של ההזנה. לא תקף לחלק מההזנות.",
+	"apihelp-featuredfeed-example-1": "אחזור ההזנה \"$1\""
+}

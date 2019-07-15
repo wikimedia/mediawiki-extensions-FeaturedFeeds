@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bjankuloski06"
+		]
+	},
+	"apihelp-featuredfeed-description": "Дава тековник со избрана содржина.",
+	"apihelp-featuredfeed-summary": "Дава тековник со избрана содржина.",
+	"apihelp-featuredfeed-param-feedformat": "Формат на тековникот.",
+	"apihelp-featuredfeed-param-feed": "Назив на тековникот.",
+	"apihelp-featuredfeed-param-language": "Јазичен код на тековнкот. Некои тековници го занемаруваат.",
+	"apihelp-featuredfeed-example-1": "Дај го тековникот „$1“"
+}

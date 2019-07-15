@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hindustanilanguage"
+		]
+	},
+	"apihelp-featuredfeed-description": "इसका परिणाम एक निर्वाचित फ़ीड है।",
+	"apihelp-featuredfeed-param-feedformat": "फ़ीड का प्रारूप",
+	"apihelp-featuredfeed-param-feed": "फ़ीड का नाम",
+	"apihelp-featuredfeed-param-language": "फ़ीड भाषा कोड। कुछ फ़ीड-मामलों में नज़रअंदाज़",
+	"apihelp-featuredfeed-example-1": "फ़ीड \"$1\" निकालें"
+}

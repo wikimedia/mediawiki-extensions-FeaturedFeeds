@@ -45,7 +45,5 @@
 	"ffeed-wotd-title": "کلمه رووژ إژ ویکی واژه",
 	"ffeed-wotd-short-title": "کلمهٔ رووژ",
 	"ffeed-wotd-desc": "کلمهٔ رووژ {{SITENAME}}",
-	"ffeed-wotd-entry": "کلمهٔ رووژ {{CURRENTMONTHNAME}} {{CURRENTDAY}}",
-	"apihelp-featuredfeed-param-feedformat": "قالب حوواڵ خؤةن",
-	"apihelp-featuredfeed-example-1": "إژ \"$1\" گیریائۀ"
+	"ffeed-wotd-entry": "کلمهٔ رووژ {{CURRENTMONTHNAME}} {{CURRENTDAY}}"
 }

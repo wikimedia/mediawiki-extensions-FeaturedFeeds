@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"C.R."
+		]
+	},
+	"apihelp-featuredfeed-description": "Torna nu feed 'e cuntenute mpurtante.",
+	"apihelp-featuredfeed-param-feedformat": "'O furmato d' 'o feed.",
+	"apihelp-featuredfeed-param-feed": "Nomme d' 'o feed.",
+	"apihelp-featuredfeed-param-language": "Codece 'e llengua d' 'o feed. Gnurata pe' cierti feed.",
+	"apihelp-featuredfeed-example-1": "Piglia 'o feed \"$1\""
+}

@@ -46,11 +46,5 @@
 	"ffeed-wotd-title": "ویکی لغت کا آج کا لفظ",
 	"ffeed-wotd-short-title": "آج کا لفط",
 	"ffeed-wotd-desc": "{{SITENAME}} کا آج کا لفظ",
-	"ffeed-wotd-entry": "{{CURRENTMONTHNAME}} {{CURRENTDAY}} کے لیے آج کا لفظ",
-	"apihelp-featuredfeed-description": "منتخب مواد کی فیڈ فراہم کرتا ہے۔",
-	"apihelp-featuredfeed-summary": "منتخب مواد کی فیڈ فراہم کرتا ہے۔",
-	"apihelp-featuredfeed-param-feedformat": "فیڈ کا فارمیٹ۔",
-	"apihelp-featuredfeed-param-feed": "فیڈ کا نام۔",
-	"apihelp-featuredfeed-param-language": "فیڈ کی زبان کا کوڈ۔ کچھ فیڈ میں اسے نظر انداز کر دیا جاتا ہے۔",
-	"apihelp-featuredfeed-example-1": "فیڈ «$1» اخذ کریں"
+	"ffeed-wotd-entry": "{{CURRENTMONTHNAME}} {{CURRENTDAY}} کے لیے آج کا لفظ"
 }

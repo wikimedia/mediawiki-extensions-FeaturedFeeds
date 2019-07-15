@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Purodha"
+		]
+	},
+	"apihelp-featuredfeed-description": "Jidd ene Kanahl met besöndere Ennhallde uß.",
+	"apihelp-featuredfeed-param-feedformat": "Däm Kannahl sing Fommaht.",
+	"apihelp-featuredfeed-param-feed": "Dä Nahme vum Kannahl.",
+	"apihelp-featuredfeed-param-language": "Et Köözel vun dä schprhch vun dä Kannahl.\nMansche Kannäl beaachte dä nit.",
+	"apihelp-featuredfeed-example-1": "Donn dä Kannahl „$1“ afrohfe"
+}

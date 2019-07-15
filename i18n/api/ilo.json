@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Lam-ang"
+		]
+	},
+	"apihelp-featuredfeed-description": "Mangisubli iti pakan ti nailasin a linaon.",
+	"apihelp-featuredfeed-summary": "Mangisubli iti pakan ti nailasin a linaon.",
+	"apihelp-featuredfeed-param-feedformat": "Ti pormat ti pakan.",
+	"apihelp-featuredfeed-param-feed": "Nagan ti pakan.",
+	"apihelp-featuredfeed-param-language": "Kodigo ti pagsasao ti pakan. Saan nga ikaskaso babaen dagiti dadduma pakan.",
+	"apihelp-featuredfeed-example-1": "Naala ti pakan ti \"$1\""
+}

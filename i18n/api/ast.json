@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Xuacu"
+		]
+	},
+	"apihelp-featuredfeed-description": "Devuelve una canal de noticies de conteníu destacáu",
+	"apihelp-featuredfeed-summary": "Devuelve una canal de noticies de conteníu destacáu",
+	"apihelp-featuredfeed-param-feedformat": "El formatu de la canal.",
+	"apihelp-featuredfeed-param-feed": "Nome de la canal.",
+	"apihelp-featuredfeed-param-language": "Códigu de llingua de la canal. Inoráu por delles canales.",
+	"apihelp-featuredfeed-example-1": "Recibir la canal «$1»"
+}

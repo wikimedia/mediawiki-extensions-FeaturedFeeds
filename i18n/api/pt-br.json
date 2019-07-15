@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Felipe L. Ewald"
+		]
+	},
+	"apihelp-featuredfeed-description": "Retorna um feed de conteúdo destacado.",
+	"apihelp-featuredfeed-summary": "Retorna um feed de conteúdo destacado.",
+	"apihelp-featuredfeed-param-feedformat": "O formato do feed.",
+	"apihelp-featuredfeed-param-feed": "Nome do feed.",
+	"apihelp-featuredfeed-param-language": "Código do idioma do feed. Ignorado por alguns feeds.",
+	"apihelp-featuredfeed-example-1": "Obter o feed \"$1\""
+}

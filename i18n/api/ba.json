@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Лилиә",
+			"Янмурза Баки"
+		]
+	},
+	"apihelp-featuredfeed-param-feedformat": "Биреү форматы",
+	"apihelp-featuredfeed-param-feed": "Канал исеме",
+	"apihelp-featuredfeed-param-language": "Телдең кодын биреү. Ҡайһы бер каналдарҙа код бирелмәй.",
+	"apihelp-featuredfeed-example-1": "Сығанағы — «$1»"
+}

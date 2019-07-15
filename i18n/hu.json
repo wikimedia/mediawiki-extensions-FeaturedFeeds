@@ -48,10 +48,5 @@
 	"ffeed-wotd-title": "Wikiszótár A nap szava",
 	"ffeed-wotd-short-title": "A nap szava",
 	"ffeed-wotd-desc": "{{SITENAME}} A nap szava",
-	"ffeed-wotd-entry": "{{ucfirst:{{CURRENTMONTHNAME}}}} {{CURRENTDAY}}. szava",
-	"apihelp-featuredfeed-description": "Egy kiemelt tartalom hírcsatornáját adja vissza.",
-	"apihelp-featuredfeed-param-feedformat": "A hírcsatorna formátuma.",
-	"apihelp-featuredfeed-param-feed": "A hírcsatorna neve.",
-	"apihelp-featuredfeed-param-language": "A hírcsatorna nyelvkódja. Bizonyos hírcsatornák figyelmen kívül hagyják.",
-	"apihelp-featuredfeed-example-1": "„$1” hírcsatorna elérése"
+	"ffeed-wotd-entry": "{{ucfirst:{{CURRENTMONTHNAME}}}} {{CURRENTDAY}}. szava"
 }

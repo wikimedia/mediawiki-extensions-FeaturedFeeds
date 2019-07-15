@@ -47,11 +47,5 @@
 	"ffeed-wotd-title": "Palabra do día no Galicionario",
 	"ffeed-wotd-short-title": "Palabra do día",
 	"ffeed-wotd-desc": "Palabra do día en {{SITENAME}}",
-	"ffeed-wotd-entry": "Palabra do día {{CURRENTDAY}} de {{CURRENTMONTHNAME}}",
-	"apihelp-featuredfeed-description": "Retorna unha fonte de novas de contidos destacados",
-	"apihelp-featuredfeed-summary": "Retorna unha fonte de novas de contidos destacados",
-	"apihelp-featuredfeed-param-feedformat": "O formato da saída.",
-	"apihelp-featuredfeed-param-feed": "Nome da saída.",
-	"apihelp-featuredfeed-param-language": "Código de idioma da saída. Ignorado por algunhas saídas.",
-	"apihelp-featuredfeed-example-1": "Recuperar saída \"$1\""
+	"ffeed-wotd-entry": "Palabra do día {{CURRENTDAY}} de {{CURRENTMONTHNAME}}"
 }

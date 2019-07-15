@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Piramidion",
+			"Ата"
+		]
+	},
+	"apihelp-featuredfeed-description": "Видає стрічку обраного контенту.",
+	"apihelp-featuredfeed-summary": "Видає стрічку обраного контенту.",
+	"apihelp-featuredfeed-param-feedformat": "Формат стрічки.",
+	"apihelp-featuredfeed-param-feed": "Назва стрічки.",
+	"apihelp-featuredfeed-param-language": "Код мови стрічки. Ігнорується деякими стрічками.",
+	"apihelp-featuredfeed-example-1": "Отримати стрічку «$1»"
+}

@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Praveenp"
+		]
+	},
+	"apihelp-featuredfeed-description": "തിരഞ്ഞെടുക്കപ്പെട്ട ഉള്ളടക്കത്തിന്റെ ഫീഡ് നൽകുന്നു.",
+	"apihelp-featuredfeed-summary": "തിരഞ്ഞെടുക്കപ്പെട്ട ഉള്ളടക്കത്തിന്റെ ഫീഡ് നൽകുന്നു.",
+	"apihelp-featuredfeed-param-feedformat": "ഫീഡിന്റെ രീതി.",
+	"apihelp-featuredfeed-param-feed": "ഫീഡിന്റെ പേര്.",
+	"apihelp-featuredfeed-param-language": "ഫീഡിന്റെ ഭാഷാ കോഡ്. ചില ഫീഡുകൾ അവഗണിച്ചേക്കും.",
+	"apihelp-featuredfeed-example-1": "\"$1\" എന്ന ഫീഡ് ശേഖരിച്ചു"
+}

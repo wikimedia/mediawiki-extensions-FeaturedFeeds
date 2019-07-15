@@ -32,7 +32,5 @@
 	"ffeed-featuredtexts-short-title": "نیسسه یا گل گر بیه",
 	"ffeed-wotd-title": "کلمه روز د ویکی کلیمه",
 	"ffeed-wotd-short-title": "کلیمه روز",
-	"ffeed-wotd-desc": "{{SITENAME}} کلیمه روز",
-	"apihelp-featuredfeed-param-feedformat": "قالو هوال حون",
-	"apihelp-featuredfeed-param-feed": "نوم حورخون."
+	"ffeed-wotd-desc": "{{SITENAME}} کلیمه روز"
 }

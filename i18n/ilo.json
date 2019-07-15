@@ -45,11 +45,5 @@
 	"ffeed-wotd-title": "Balikas iti daytoy nga aldaw ti Wiksionario",
 	"ffeed-wotd-short-title": "Balikas iti daytoy nga aldaw",
 	"ffeed-wotd-desc": "Balikas iti daytoy nga aldaw ti {{SITENAME}}",
-	"ffeed-wotd-entry": "Balikas iti daytoy nga aldaw para iti {{CURRENTMONTHNAME}} {{CURRENTDAY}}",
-	"apihelp-featuredfeed-description": "Mangisubli iti pakan ti nailasin a linaon.",
-	"apihelp-featuredfeed-summary": "Mangisubli iti pakan ti nailasin a linaon.",
-	"apihelp-featuredfeed-param-feedformat": "Ti pormat ti pakan.",
-	"apihelp-featuredfeed-param-feed": "Nagan ti pakan.",
-	"apihelp-featuredfeed-param-language": "Kodigo ti pagsasao ti pakan. Saan nga ikaskaso babaen dagiti dadduma pakan.",
-	"apihelp-featuredfeed-example-1": "Naala ti pakan ti \"$1\""
+	"ffeed-wotd-entry": "Balikas iti daytoy nga aldaw para iti {{CURRENTMONTHNAME}} {{CURRENTDAY}}"
 }

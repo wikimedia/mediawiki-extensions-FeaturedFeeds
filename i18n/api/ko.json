@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ykhwong"
+		]
+	},
+	"apihelp-featuredfeed-description": "알찬 글 피드를 반환합니다.",
+	"apihelp-featuredfeed-summary": "알찬 글 피드를 반환합니다.",
+	"apihelp-featuredfeed-param-feedformat": "피드의 포맷입니다.",
+	"apihelp-featuredfeed-param-feed": "피드 이름입니다.",
+	"apihelp-featuredfeed-param-language": "피드 언어 코드입니다. 일부 피드에 의해 무시됩니다.",
+	"apihelp-featuredfeed-example-1": "\"$1\" 피드를 검색합니다"
+}

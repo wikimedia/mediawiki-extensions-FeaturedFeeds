@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fitoschido"
+		]
+	},
+	"apihelp-featuredfeed-description": "Devuelve un suministro de contenido destacado.",
+	"apihelp-featuredfeed-summary": "Devuelve un suministro de contenido destacado.",
+	"apihelp-featuredfeed-param-feedformat": "El formato del suministro.",
+	"apihelp-featuredfeed-param-feed": "Nombre del suministro.",
+	"apihelp-featuredfeed-param-language": "Código de idioma del suministro. Algunos suministros lo ignoran.",
+	"apihelp-featuredfeed-example-1": "Recuperar el suministro «$1»"
+}

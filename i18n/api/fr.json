@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Gomoko",
+			"Windes"
+		]
+	},
+	"apihelp-featuredfeed-description": "Renvoie un flux de contenu mis en avant.",
+	"apihelp-featuredfeed-summary": "Renvoie un flux du contenu mis en avant.",
+	"apihelp-featuredfeed-param-feedformat": "Le format du flux.",
+	"apihelp-featuredfeed-param-feed": "Nom du flux.",
+	"apihelp-featuredfeed-param-language": "Code de langue du flux. Ignoré par certains flux.",
+	"apihelp-featuredfeed-example-1": "Récupérer le flux « $1 »"
+}

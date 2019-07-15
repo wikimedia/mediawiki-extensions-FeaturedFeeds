@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Abanima",
+			"Meno25"
+		]
+	},
+	"apihelp-featuredfeed-description": "يعطي تلقيماً للمحتوى المختار.",
+	"apihelp-featuredfeed-summary": "يرجع تلقيما للمحتوى المختار.",
+	"apihelp-featuredfeed-param-feedformat": "هيئة التلقيم.",
+	"apihelp-featuredfeed-param-feed": "اسم التلقيم.",
+	"apihelp-featuredfeed-param-language": "رمز لغة التلقيم. تتجاهله بعض التلقيمات.",
+	"apihelp-featuredfeed-example-1": "استخرج التلقيم \"$1\""
+}
