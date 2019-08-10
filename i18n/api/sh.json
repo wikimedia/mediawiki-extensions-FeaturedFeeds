@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Vlad5250"
+		]
+	},
+	"apihelp-featuredfeed-description": "Daje dovod s izabranim sadržajem.",
+	"apihelp-featuredfeed-summary": "Daje dovod s izabranim sadržajem.",
+	"apihelp-featuredfeed-param-feedformat": "Format dovoda.",
+	"apihelp-featuredfeed-param-feed": "Naziv dovoda.",
+	"apihelp-featuredfeed-param-language": "Jezički kôd dovda. Neki dovodi zanemaruju ga.",
+	"apihelp-featuredfeed-example-1": "Daj dovod \"$1\""
+}
