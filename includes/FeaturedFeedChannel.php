@@ -35,15 +35,14 @@ class FeaturedFeedChannel {
 	 * @param Language $lang
 	 */
 	public function __construct( $name, $options, $lang ) {
-		global $wgContLang;
-
 		self::staticInit();
 		$this->name = $name;
 		$this->options = $options;
 		if ( $options['inUserLanguage'] ) {
 			$this->languageCode = $lang->getCode();
 		} else {
-			$this->languageCode = $wgContLang->getCode();
+			$contLang = MediaWikiServices::getInstance()->getContentLanguage();
+			$this->languageCode = $contLang->getCode();
 		}
 	}
 
@@ -191,14 +190,14 @@ class FeaturedFeedChannel {
 	 * @return String
 	 */
 	public function getURL( $format ) {
-		global $wgContLang;
+		$contLang = MediaWikiServices::getInstance()->getContentLanguage();
 
 		$options = [
 			'action' => 'featuredfeed',
 			'feed' => $this->name,
 			'feedformat' => $format,
 		];
-		if ( $this->options['inUserLanguage'] && $this->languageCode != $wgContLang->getCode() ) {
+		if ( $this->options['inUserLanguage'] && $this->languageCode != $contLang->getCode() ) {
 			$options['language'] = $this->languageCode;
 		}
 		return wfScript( 'api' ) . '?' . wfArrayToCgi( $options );
