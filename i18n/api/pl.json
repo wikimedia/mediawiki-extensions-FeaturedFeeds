@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Railfail536"
+		]
+	},
+	"apihelp-featuredfeed-param-feedformat": "Format kanału.",
+	"apihelp-featuredfeed-param-feed": "Nazwa kanału.",
+	"apihelp-featuredfeed-param-language": "Kod językowy kanału, ignorowany przez niektóre kanały.",
+	"apihelp-featuredfeed-example-1": "Uzyskaj kanał „$1”"
+}
