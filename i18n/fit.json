@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Pyscowicz"
+		]
+	},
+	"ffeed-onthisday-entry": "Tänään: {{LOCALDAY}}. {{LOCALMONTHNAME}}a"
+}
