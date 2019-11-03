@@ -55,7 +55,7 @@ class FeaturedFeeds {
 
 	/**
 	 * Returns fully prepared feed definitions
-	 * @return Array
+	 * @return array[]
 	 */
 	private static function getFeedDefinitions() {
 		global $wgFeaturedFeeds, $wgFeaturedFeedsDefaults;
