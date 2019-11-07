@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"StanProg"
+		]
+	},
+	"apihelp-featuredfeed-description": "Връща хранилка за избрано съдържание.",
+	"apihelp-featuredfeed-summary": "Връща хранилка за избрано съдържание.",
+	"apihelp-featuredfeed-param-feedformat": "Форматът на хранилката.",
+	"apihelp-featuredfeed-param-feed": "Наименование на хранилка.",
+	"apihelp-featuredfeed-param-language": "Езиковият код на хранилката. Игнорирано от някои хранилки.",
+	"apihelp-featuredfeed-example-1": "Извличане на хранилка „$1“"
+}
