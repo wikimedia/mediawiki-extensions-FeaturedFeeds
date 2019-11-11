@@ -1,10 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Tweety"
+			"Tweety",
+			"Mehtab ahmed"
 		]
 	},
-	"ffeed-feed-not-found": "فيڊ $1 نه لڌي.",
+	"ffeed-feed-not-found": "رسد $1 نہ لڌي.",
 	"ffeed-featured-short-title": "چونڊ مضمون",
 	"ffeed-featured-entry": "{{LOCALMONTHNAME}} {{LOCALDAY}} جي لاءِ {{SITENAME}} جو چونڊ مضمون",
 	"ffeed-dyk-short-title": "ڇا توهان ڄاڻو ٿا؟",
