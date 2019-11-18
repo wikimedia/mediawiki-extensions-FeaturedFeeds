@@ -3,7 +3,8 @@
 		"authors": [
 			"Rancher",
 			"Milicevic01",
-			"BadDog"
+			"BadDog",
+			"Zoranzoki21"
 		]
 	},
 	"ffeed-desc": "Додаје фидове синдикације за изабрани садржај на викију",
@@ -46,5 +47,6 @@
 	"ffeed-featuredtexts-entry": "Изабрани текст на {{SITENAME}} за {{LOCALDAY}} {{LOCALMONTHNAME}}",
 	"ffeed-wotd-title": "Викиречник - Реч дана",
 	"ffeed-wotd-short-title": "Реч дана",
-	"ffeed-wotd-desc": "{{SITENAME}} – Реч дана"
+	"ffeed-wotd-desc": "{{SITENAME}} – Реч дана",
+	"ffeed-wotd-entry": "Реч дана за {{CURRENTMONTHNAME}} {{CURRENTDAY}}"
 }
