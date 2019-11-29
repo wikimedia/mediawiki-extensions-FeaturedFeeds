@@ -10,7 +10,7 @@
 	"ffeed-feed-not-found": "ההזנה $1 לא נמצאה",
 	"ffeed-entry-not-found": "לא נמצאה הזנה עבור $1",
 	"ffeed-sidebar-section": "הזנות תוכן מומלץ",
-	"ffeed-invalid-timestamp": "חותם זמן לא תקין להזנה",
+	"ffeed-invalid-timestamp": "חותם־זמן לא תקין להזנה.",
 	"ffeed-featured-title": "הזנת ערכים מומלצים ב{{GRAMMAR:תחילית|{{SITENAME}}}}",
 	"ffeed-featured-short-title": "ערכים מומלצים",
 	"ffeed-featured-desc": "הערכים הטובים ביותר שיש ל{{GRAMMAR:תחילית|{{SITENAME}}}} להציע",
