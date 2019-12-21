@@ -48,7 +48,7 @@ class SpecialFeedItem extends UnlistedSpecialPage {
 			$this->displayItem( $item );
 		} else {
 			$out->showErrorPage( 'error', 'ffeed-entry-not-found',
-				[ $this->getLanguage()->date( $date, false, false ) ]
+				[ $this->getLanguage()->date( wfTimestamp( TS_UNIX, $date ), false, false ) ]
 			);
 		}
 	}

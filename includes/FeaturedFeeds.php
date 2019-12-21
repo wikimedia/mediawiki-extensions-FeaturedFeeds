@@ -225,7 +225,7 @@ class FeaturedFeeds {
 	/**
 	 * Returns the Unix timestamp of current day's first second
 	 *
-	 * @param string $timestamp
+	 * @param string|int $timestamp
 	 * @return int Timestamp
 	 */
 	public static function startOfDay( $timestamp ) {
@@ -262,7 +262,7 @@ class FeaturedFeeds {
 	public static function getMaxAge() {
 		$ts = new MWTimestamp();
 		// add 10 seconds to cater for time deviation between servers
-		$expiry = self::todaysStart() + 24 * 3600 - $ts->getTimestamp() + 10;
+		$expiry = self::todaysStart() + 24 * 3600 - (int)$ts->getTimestamp() + 10;
 		return min( $expiry, 3600 );
 	}
 }

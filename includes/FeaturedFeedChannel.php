@@ -142,8 +142,10 @@ class FeaturedFeedChannel {
 	 * @return FeaturedFeedItem|false
 	 */
 	public function getFeedItem( $date ) {
+		$ts = new MWTimestamp( $date );
+		$timestamp = $ts->getTimestamp( TS_MW );
 		$parserOptions = new ParserOptions();
-		$parserOptions->setTimestamp( $date );
+		$parserOptions->setTimestamp( $timestamp );
 		$parserOptions->setUserLang( $this->getLanguage() );
 
 		if ( !isset( $this->titleForParse ) ) {
@@ -170,16 +172,15 @@ class FeaturedFeedChannel {
 		$text = self::$parser->parse( $text, $title, $parserOptions )->getText( [
 			'enableSectionEditLinks' => false,
 		] );
-		$ts = new MWTimestamp( $date );
 		$url = SpecialPage::getTitleFor( 'FeedItem',
-			$this->name . '/' . $ts->getTimestamp( TS_MW ) . '/' . $this->languageCode
+			$this->name . '/' . $timestamp . '/' . $this->languageCode
 		)->getFullURL();
 
 		return new FeaturedFeedItem(
 			self::$parser->transformMsg( $this->entryName, $parserOptions, $this->titleForParse ),
 			wfExpandUrl( $url ),
 			$text,
-			$date
+			$timestamp
 		);
 	}
 
