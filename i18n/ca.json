@@ -23,7 +23,7 @@
 	"ffeed-onthisday-short-title": " Tal dia com avui...",
 	"ffeed-onthisday-desc": "Esdeveniments històrics aquest dia",
 	"ffeed-onthisday-entry": "Tal dia com avui: {{LOCALMONTHNAME}} {{LOCALDAY}}",
-	"ffeed-dyk-title": "Agregador \"Sabies que...?\" de {{SITENAME}}",
+	"ffeed-dyk-title": "Agregador «Sabies que…?» de {{SITENAME}}",
 	"ffeed-dyk-short-title": "Sabies que...?",
 	"ffeed-dyk-desc": "Del contingut més nou de {{SITENAME}}",
 	"ffeed-dyk-entry": "Sabies que...?: {{LOCALMONTHNAME}} {{LOCALDAY}}",
