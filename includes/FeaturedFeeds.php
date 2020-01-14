@@ -46,7 +46,7 @@ class FeaturedFeeds {
 
 	/**
 	 * Returns cache key for a given language
-	 * @param String $langCode: Feed language code
+	 * @param String $langCode Feed language code
 	 * @return String
 	 */
 	private static function getCacheKey( $langCode ) {
@@ -83,7 +83,7 @@ class FeaturedFeeds {
 	 * @return bool
 	 */
 	public static function allInContentLanguage() {
-		if ( is_null( self::$allInContLang ) ) {
+		if ( self::$allInContLang === null ) {
 			self::getFeedDefinitions();
 		}
 		return self::$allInContLang;
