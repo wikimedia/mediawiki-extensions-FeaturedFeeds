@@ -6,8 +6,8 @@
 			"PiefPafPier"
 		]
 	},
-	"ffeed-wotd-title": "Wikiwurdboek Wurd fan 'e Dei",
-	"ffeed-wotd-short-title": "Wurd fan de dei",
-	"ffeed-wotd-desc": "{{SITENAME}} wurd fan de dei",
-	"ffeed-wotd-entry": "Wurd fan de dei foar {{CURRENTDAY}} {{CURRENTMONTHNAME}}"
+	"ffeed-wotd-title": "Wikiwurdboeks Wurd fan 'e Dei",
+	"ffeed-wotd-short-title": "Wurd fan 'e Dei",
+	"ffeed-wotd-desc": "{{GRAMMAR:gen|{{SITENAME}}}} Wurd fan 'e Dei",
+	"ffeed-wotd-entry": "Wurd fan 'e Dei foar {{CURRENTDAY}} {{CURRENTMONTHNAME}}"
 }
