@@ -4,7 +4,8 @@
 			"Bilalokms",
 			"Suelnur",
 			"Arystanbek",
-			"Kumkumuk"
+			"Kumkumuk",
+			"BaRaN6161 TURK"
 		]
 	},
 	"ffeed-desc": "Ekler sendikasyon wiki özellikli içerik beslemeleri",
@@ -45,8 +46,8 @@
 	"ffeed-featuredtexts-short-title": "Seçme metinler",
 	"ffeed-featuredtexts-desc": "En iyi metin {{SITENAME}} sunduğu",
 	"ffeed-featuredtexts-entry": "{{LOCALMONTHNAME}} {{LOCALDAY}} {{SITENAME}} özellikli bir metin",
-	"ffeed-wotd-title": "Günün ün dür Word",
+	"ffeed-wotd-title": "Vikisözlük Günün sözü",
 	"ffeed-wotd-short-title": "Günün sözü",
 	"ffeed-wotd-desc": "{{SITENAME}} günün sözü",
-	"ffeed-wotd-entry": "Günün kelimesi için {{CURRENTMONTHNAME}} {{CURRENTDAY}}"
+	"ffeed-wotd-entry": "Günün kelimesi için {{CURRENTDAY}} {{CURRENTMONTHNAME}}"
 }

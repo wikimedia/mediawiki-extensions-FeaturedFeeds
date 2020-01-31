@@ -7,7 +7,8 @@
 			"Miri-Nae",
 			"Hym411",
 			"Revi",
-			"Ykhwong"
+			"Ykhwong",
+			"Nuevo Paso"
 		]
 	},
 	"ffeed-desc": "위키의 알찬 글의 배급 피드를 추가합니다",
@@ -36,10 +37,10 @@
 	"ffeed-motd-short-title": "오늘의 미디어",
 	"ffeed-motd-desc": "{{SITENAME}}의 가장 좋은 미디어",
 	"ffeed-motd-entry": "{{LOCALMONTHNAME}} {{LOCALDAY}}일 {{SITENAME}} 오늘의 미디어",
-	"ffeed-potd-title": "{{SITENAME}} 오늘의 그림 피드",
-	"ffeed-potd-short-title": "오늘의 그림",
+	"ffeed-potd-title": "{{SITENAME}} 오늘의 이미지 피드",
+	"ffeed-potd-short-title": "오늘의 이미지",
 	"ffeed-potd-desc": "{{SITENAME}}의 가장 좋은 그림",
-	"ffeed-potd-entry": "{{LOCALMONTHNAME}} {{LOCALDAY}}일 {{SITENAME}} 오늘의 그림",
+	"ffeed-potd-entry": "{{LOCALMONTHNAME}} {{LOCALDAY}}일 {{SITENAME}} 오늘의 이미지",
 	"ffeed-qotd-title": "{{SITENAME}} 오늘의 명언 피드",
 	"ffeed-qotd-short-title": "오늘의 명언",
 	"ffeed-qotd-desc": "{{SITENAME}}에서 가장 좋은 명언 인용",
