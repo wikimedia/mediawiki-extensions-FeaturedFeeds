@@ -9,7 +9,7 @@ class FeaturedFeeds {
 	 * Returns the list of feeds
 	 *
 	 * @param string|bool $langCode Code of language to use or false if default
-	 * @return array Feeds in format of 'name' => array of FeedItem
+	 * @return FeaturedFeedChannel[] Feeds in format of ('name' => FeedItem)
 	 */
 	public static function getFeeds( $langCode ) {
 		global $wgLanguageCode;
@@ -174,7 +174,7 @@ class FeaturedFeeds {
 
 	/**
 	 * @param string $langCode
-	 * @return array
+	 * @return FeaturedFeedChannel[]
 	 * @throws Exception
 	 */
 	private static function getFeedsInternal( $langCode ) {

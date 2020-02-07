@@ -1,12 +1,13 @@
 <?php
 
+use MediaWiki\MediaWikiServices;
+
 class SpecialFeedItem extends UnlistedSpecialPage {
 	public function __construct() {
 		parent::__construct( 'FeedItem' );
 	}
 
 	public function execute( $par = '' ) {
-		global $wgMemc;
 		$this->setHeaders();
 		$out = $this->getOutput();
 		$parts = explode( '/', $par );
@@ -34,16 +35,24 @@ class SpecialFeedItem extends UnlistedSpecialPage {
 				return;
 			}
 		}
-		$key = wfMemcKey( 'featured', $feedName, $date, $feed->getLanguage()->getCode(),
-			FeaturedFeedChannel::VERSION
+
+		$cache = MediaWikiServices::getInstance()->getMainWANObjectCache();
+
+		$item = $cache->getWithSetCallback(
+			$cache->makeKey(
+				'featured-feed',
+				$feedName,
+				$date,
+				$feed->getLanguage()->getCode()
+			),
+			$cache::TTL_DAY,
+			function () use ( $feed, $date ) {
+				// @TODO: store a plain PHP array
+				return $feed->getFeedItem( $date );
+			},
+			[ 'version' => FeaturedFeedChannel::VERSION ]
 		);
-		$item = $wgMemc->get( $key );
-		if ( !$item ) {
-			$item = $feed->getFeedItem( $date );
-			if ( $item ) {
-				$wgMemc->set( $key, $item, 3600 * 24 );
-			}
-		}
+
 		if ( $item ) {
 			$this->displayItem( $item );
 		} else {
