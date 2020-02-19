@@ -4,7 +4,8 @@
 			"Karika",
 			"Yekrats",
 			"NMaia",
-			"Mirin"
+			"Mirin",
+			"Robin van der Vliet"
 		]
 	},
 	"ffeed-desc": "Aldonas abonfluojn de la elstara enhavo de la vikio",
@@ -12,7 +13,7 @@
 	"ffeed-feed-not-found": "Abonfluo $1 ne troviĝis",
 	"ffeed-entry-not-found": "Abonfluero por $1 ne troviĝis",
 	"ffeed-sidebar-section": "Abonfluoj por elstara enhavo",
-	"ffeed-invalid-timestamp": "Malvalida tempindiko por abonfluo",
+	"ffeed-invalid-timestamp": "Nevalida tempindiko por abonfluo.",
 	"ffeed-featured-title": "{{SITENAME}} abonfluo de elstaraj artikoloj",
 	"ffeed-featured-short-title": "Elstaraj artikoloj",
 	"ffeed-featured-desc": "Plej bonaj artikoloj el {{SITENAME}}",
