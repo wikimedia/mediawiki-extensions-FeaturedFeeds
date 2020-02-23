@@ -48,7 +48,7 @@ class FeaturedFeedChannel {
 
 	private static function staticInit() {
 		if ( !self::$parser ) {
-			self::$parser = new Parser();
+			self::$parser = MediaWikiServices::getInstance()->getParserFactory()->create();
 		}
 	}
 
