@@ -4,5 +4,12 @@
 			"Pyscowicz"
 		]
 	},
-	"ffeed-onthisday-entry": "Tänään: {{LOCALDAY}}. {{LOCALMONTHNAME}}a"
+	"ffeed-featured-entry": "{{GRAMMAR:genitive|{{SITENAME}}}} {{LOCALDAY}}. {{LOCALMONTHNAME}} suositeltu artikkeli",
+	"ffeed-good-entry": "Hyvä artikkeli {{LOCALDAY}}. {{LOCALMONTHNAME}} {{GRAMMAR:inessive|{{SITENAME}}}}",
+	"ffeed-onthisday-entry": "Tänään: {{LOCALDAY}}. {{LOCALMONTHNAME}}",
+	"ffeed-dyk-entry": "Tiesitkö?: {{LOCALDAY}}. {{LOCALMONTHNAME}}",
+	"ffeed-motd-entry": "{{GRAMMAR:genitive|{{SITENAME}}}} päivän fiili {{LOCALDAY}}. {{LOCALMONTHNAME}}",
+	"ffeed-potd-entry": "{{GRAMMAR:genitive|{{SITENAME}}}} päivän kuva  {{LOCALDAY}}. {{LOCALMONTHNAME}}",
+	"ffeed-qotd-entry": "{{GRAMMAR:genitive|{{SITENAME}}}} päivän lainaus {{LOCALDAY}}. {{LOCALMONTHNAME}}",
+	"ffeed-featuredtexts-entry": "Suositeltu teksti {{LOCALDAY}}. {{LOCALMONTHNAME}} {{GRAMMAR:inessive|{{SITENAME}}}}"
 }
