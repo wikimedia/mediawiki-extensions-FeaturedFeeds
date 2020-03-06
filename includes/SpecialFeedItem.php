@@ -16,7 +16,7 @@ class SpecialFeedItem extends UnlistedSpecialPage {
 			return;
 		}
 		list( $feedName, $date, $langCode ) = $parts;
-		$feeds = FeaturedFeeds::getFeeds( $langCode );
+		$feeds = FeaturedFeeds::getFeeds( $langCode, $this->getUser() );
 		if ( !isset( $feeds[$feedName] ) ) {
 			$out->showErrorPage( 'error', 'ffeed-feed-not-found', [ $feedName ] );
 			return;

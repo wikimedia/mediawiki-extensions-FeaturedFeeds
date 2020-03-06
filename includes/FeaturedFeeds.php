@@ -9,9 +9,10 @@ class FeaturedFeeds {
 	 * Returns the list of feeds
 	 *
 	 * @param string|bool $langCode Code of language to use or false if default
+	 * @param User $user
 	 * @return FeaturedFeedChannel[] Feeds in format of ('name' => FeedItem)
 	 */
-	public static function getFeeds( $langCode ) {
+	public static function getFeeds( $langCode, User $user ) {
 		global $wgLanguageCode;
 
 		if ( !$langCode
@@ -36,7 +37,7 @@ class FeaturedFeeds {
 		$depKeys = [ self::getCacheKey( '*' ) ];
 		$feeds = $objectCache->get( $key, $curTTL, $depKeys );
 		if ( !$feeds || $curTTL <= 0 ) {
-			$feeds = self::getFeedsInternal( $langCode );
+			$feeds = self::getFeedsInternal( $langCode, $user );
 			$objectCache->set( $key, $feeds, self::getMaxAge() );
 		}
 
@@ -98,8 +99,9 @@ class FeaturedFeeds {
 	public static function beforePageDisplay( OutputPage &$out ) {
 		global $wgAdvertisedFeedTypes;
 		if ( $out->getTitle()->isMainPage() ) {
+			$feeds = self::getFeeds( $out->getLanguage()->getCode(), $out->getUser() );
 			/** @var FeaturedFeedChannel $feed */
-			foreach ( self::getFeeds( $out->getLanguage()->getCode() ) as $feed ) {
+			foreach ( $feeds as $feed ) {
 				foreach ( $wgAdvertisedFeedTypes as $type ) {
 					$out->addLink( [
 						'rel' => 'alternate',
@@ -126,7 +128,10 @@ class FeaturedFeeds {
 			|| !wfMessage( 'ffeed-enable-sidebar-links' )->inContentLanguage()->isDisabled()
 			) && $sk->getContext()->getTitle()->isMainPage()
 		) {
-			$feeds = self::getFeeds( $sk->getContext()->getLanguage()->getCode() );
+			$feeds = self::getFeeds(
+				$sk->getContext()->getLanguage()->getCode(),
+				$sk->getUser()
+			);
 			$links = [];
 			$format = $wgAdvertisedFeedTypes[0]; // @fixme:
 			/** @var FeaturedFeedChannel $feed */
@@ -174,16 +179,17 @@ class FeaturedFeeds {
 
 	/**
 	 * @param string $langCode
+	 * @param User $user
 	 * @return FeaturedFeedChannel[]
 	 * @throws Exception
 	 */
-	private static function getFeedsInternal( $langCode ) {
+	private static function getFeedsInternal( $langCode, User $user ) {
 		$feedDefs = self::getFeedDefinitions();
 
 		$feeds = [];
 		$requestedLang = Language::factory( $langCode );
 		foreach ( $feedDefs as $name => $opts ) {
-			$feed = new FeaturedFeedChannel( $name, $opts, $requestedLang );
+			$feed = new FeaturedFeedChannel( $name, $opts, $requestedLang, $user );
 			if ( !$feed->isOK() ) {
 				continue;
 			}

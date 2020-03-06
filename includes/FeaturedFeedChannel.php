@@ -29,12 +29,16 @@ class FeaturedFeedChannel {
 	public $shortTitle;
 	public $description;
 
+	/** @var User */
+	private $user;
+
 	/**
 	 * @param string $name
 	 * @param array $options
 	 * @param Language $lang
+	 * @param User $user
 	 */
-	public function __construct( $name, $options, $lang ) {
+	public function __construct( $name, $options, $lang, User $user ) {
 		self::staticInit();
 		$this->name = $name;
 		$this->options = $options;
@@ -44,6 +48,7 @@ class FeaturedFeedChannel {
 			$contLang = MediaWikiServices::getInstance()->getContentLanguage();
 			$this->languageCode = $contLang->getCode();
 		}
+		$this->user = $user;
 	}
 
 	private static function staticInit() {
@@ -144,7 +149,7 @@ class FeaturedFeedChannel {
 	public function getFeedItem( $date ) {
 		$ts = new MWTimestamp( $date );
 		$timestamp = $ts->getTimestamp( TS_MW );
-		$parserOptions = new ParserOptions();
+		$parserOptions = new ParserOptions( $this->user );
 		$parserOptions->setTimestamp( $timestamp );
 		$parserOptions->setUserLang( $this->getLanguage() );
 
