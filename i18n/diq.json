@@ -37,7 +37,7 @@
 	"ffeed-motd-desc": "{{SITENAME}} ra tay medyay",
 	"ffeed-motd-entry": "{{SITENAME}} dı medyaya roc da {{LOCALDAY}} {{LOCALMONTHNAME}}",
 	"ffeed-potd-title": "{{SITENAME}} dı fotrafê ewroy",
-	"ffeed-potd-short-title": "Fotrafê ewroy",
+	"ffeed-potd-short-title": "Fotrafê roci",
 	"ffeed-potd-desc": "{{SITENAME}} ra tay resımi",
 	"ffeed-potd-entry": "{{SITENAME}} dı fotrafê roc da {{LOCALDAY}} {{LOCALMONTHNAME}}",
 	"ffeed-qotd-title": "{{SITENAME}} dı qıseyê ewroyo",
