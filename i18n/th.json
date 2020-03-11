@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Aefgh39622"
+		]
+	},
+	"ffeed-feed-not-found": "ไม่พบฟีด $1",
+	"ffeed-entry-not-found": "ไม่พบรายการฟีดสำหรับ $1",
+	"ffeed-featured-short-title": "บทความคัดสรร",
+	"ffeed-featured-entry": "บทความคัดสรรบน{{SITENAME}}ประจำวันที่ {{LOCALDAY}} {{LOCALMONTHNAME}}",
+	"ffeed-good-title": "ฟีดบทความดีเด่นบน{{SITENAME}}",
+	"ffeed-good-short-title": "บทความดีเด่น",
+	"ffeed-onthisday-short-title": "วันนี้ในอดีต",
+	"ffeed-onthisday-desc": "เหตุการณ์ในอดีตประจำวันนี้",
+	"ffeed-onthisday-entry": "วันนี้ในอดีต: {{LOCALDAY}} {{LOCALMONTHNAME}}",
+	"ffeed-dyk-title": "ฟีด \"รู้ไหมว่า\" บน{{SITENAME}}",
+	"ffeed-dyk-short-title": "รู้ไหมว่า",
+	"ffeed-motd-title": "ฟีดสื่อประจำวันบน{{SITENAME}}",
+	"ffeed-motd-short-title": "สื่อประจำวัน",
+	"ffeed-motd-desc": "สื่อที่ดีที่สุดบางส่วนบน{{SITENAME}}",
+	"ffeed-motd-entry": "สื่อประจำวันบน{{SITENAME}}สำหรับวันที่ {{LOCALDAY}} {{LOCALMONTHNAME}}",
+	"ffeed-potd-title": "ฟีดรูปภาพประจำวันบน{{SITENAME}}",
+	"ffeed-potd-short-title": "รูปภาพประจำวัน",
+	"ffeed-potd-desc": "รูปภาพที่ดีที่สุดบางส่วนบน{{SITENAME}}",
+	"ffeed-qotd-title": "ฟีดคำคมประจำวันบน{{SITENAME}}",
+	"ffeed-qotd-short-title": "คำคมประจำวัน",
+	"ffeed-qotd-desc": "คำคมที่ดีที่สุดบางส่วนบน{{SITENAME}}",
+	"ffeed-featuredtexts-short-title": "เนื้อหาเด่น",
+	"ffeed-featuredtexts-entry": "เนื้อหาเด่นบน{{SITENAME}}ประจำวันที่ {{LOCALDAY}} {{LOCALMONTHNAME}}"
+}
