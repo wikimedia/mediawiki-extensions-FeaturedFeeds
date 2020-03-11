@@ -17,15 +17,9 @@
 		"featuredfeed": "ApiFeaturedFeeds"
 	},
 	"Hooks": {
-		"PageContentSaveComplete": [
-			"FeaturedFeeds::pageContentSaveComplete"
-		],
-		"BeforePageDisplay": [
-			"FeaturedFeeds::beforePageDisplay"
-		],
-		"SkinTemplateOutputPageBeforeExec": [
-			"FeaturedFeeds::skinTemplateOutputPageBeforeExec"
-		]
+		"PageContentSaveComplete": "FeaturedFeeds::pageContentSaveComplete",
+		"BeforePageDisplay": "FeaturedFeeds::beforePageDisplay",
+		"SkinTemplateOutputPageBeforeExec": "FeaturedFeeds::skinTemplateOutputPageBeforeExec"
 	},
 	"MessagesDirs": {
 		"FeaturedFeeds": [
