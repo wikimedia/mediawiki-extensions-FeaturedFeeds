@@ -47,8 +47,8 @@ class FeaturedFeeds {
 
 	/**
 	 * Returns cache key for a given language
-	 * @param String $langCode Feed language code
-	 * @return String
+	 * @param string $langCode Feed language code
+	 * @return string
 	 */
 	private static function getCacheKey( $langCode ) {
 		return wfMemcKey( 'featured-feeds', FeaturedFeedChannel::VERSION, $langCode );
