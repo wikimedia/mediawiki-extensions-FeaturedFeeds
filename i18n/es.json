@@ -12,7 +12,7 @@
 	"ffeed-feed-not-found": "No se encontró el suministro $1.",
 	"ffeed-entry-not-found": "No se encontró la entrada del suministro correspondiente al $1.",
 	"ffeed-sidebar-section": "Suministros de contenido destacado",
-	"ffeed-invalid-timestamp": "La marca temporal del suministro no es válida.",
+	"ffeed-invalid-timestamp": "El cronomarcador del suministro no es válido.",
 	"ffeed-featured-title": "Suministro de artículos destacados de {{SITENAME}}",
 	"ffeed-featured-short-title": "Artículos destacados",
 	"ffeed-featured-desc": "Mejores artículos que {{SITENAME}} puede ofrecer",
