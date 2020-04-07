@@ -2,8 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Gomoko",
-			"Windes",
-			"Thibaut120094"
+			"Thibaut120094",
+			"Windes"
 		]
 	},
 	"apihelp-featuredfeed-description": "Renvoie un flux de contenu mis en avant.",

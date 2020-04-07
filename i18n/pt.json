@@ -1,11 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Giro720",
-			"SandroHc",
-			"Vitorvicentevalente",
 			"Fúlvio",
-			"Hamilton Abreu"
+			"Giro720",
+			"Hamilton Abreu",
+			"SandroHc",
+			"Vitorvicentevalente"
 		]
 	},
 	"ffeed-desc": "Adiciona <i>feeds</i> dos conteúdos em destaque da wiki",
