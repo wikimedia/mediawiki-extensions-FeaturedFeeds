@@ -28,13 +28,19 @@
 		]
 	},
 	"config": {
-		"DisplayFeedsInSidebar": true,
-		"FeaturedFeedsDefaults": {
-			"limit": 10,
-			"frequency": "daily",
-			"inUserLanguage": false
+		"DisplayFeedsInSidebar": {
+			"value": true
 		},
-		"FeaturedFeeds": {}
+		"FeaturedFeedsDefaults": {
+			"value": {
+				"limit": 10,
+				"frequency": "daily",
+				"inUserLanguage": false
+			}
+		},
+		"FeaturedFeeds": {
+			"value": []
+		}
 	},
 	"SpecialPages": {
 		"FeedItem": "SpecialFeedItem"
@@ -46,5 +52,5 @@
 		"FeaturedFeedItem": "includes/FeaturedFeedItem.php",
 		"SpecialFeedItem": "includes/SpecialFeedItem.php"
 	},
-	"manifest_version": 1
+	"manifest_version": 2
 }
