@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"BaRaN6161 TURK",
 			"Bonevarluri",
 			"Mogoeilor"
 		]
@@ -13,15 +14,15 @@
 	"ffeed-good-title": "{{SITENAME}} هوال حون گوتاریا خو",
 	"ffeed-good-short-title": "گوتاریا خو",
 	"ffeed-good-entry": "{{LOCALMONTHNAME}} {{LOCALDAY}} {{SITENAME}} گوتار خو",
-	"ffeed-onthisday-title": "{{نوم سیل جا}} \"د ای روز...\" خوررسونی بی",
+	"ffeed-onthisday-title": "{{SITENAME}} \"د ای روز...\" خوررسونی بی",
 	"ffeed-onthisday-short-title": "د امرو",
 	"ffeed-onthisday-desc": "رخ ونیا ویرگارمن د ای روز",
 	"ffeed-onthisday-entry": "د امرو: {{LOCALMONTHNAME}} {{LOCALDAY}}",
 	"ffeed-dyk-title": "{{SITENAME}} \"شما میدونستیت?\" هوال حون",
 	"ffeed-dyk-short-title": "شما می دونسین؟",
-	"ffeed-dyk-desc": "د تازه تری مینونه {{نوم سیلجا}}",
+	"ffeed-dyk-desc": "د تازه تری مینونه {{SITENAME}}",
 	"ffeed-dyk-entry": "شما دونسین?: {{ما ولات نشین}} {{روز ولات نشین}}",
-	"ffeed-motd-title": "{{نوم سیل جا}} رسانه روز خوررسونی بی",
+	"ffeed-motd-title": "{{SITENAME}} رسانه روز خوررسونی بی",
 	"ffeed-motd-short-title": "رسانه روز",
 	"ffeed-motd-desc": "چن گله وارسگر نازار سی {{SITENAME}}",
 	"ffeed-potd-title": "{{SITENAME}} عسگ هوال حون روز",
