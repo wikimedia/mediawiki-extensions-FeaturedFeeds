@@ -7,7 +7,7 @@ class FeaturedFeedChannel {
 	/**
 	 * Class version, incerement it when changing class internals.
 	 */
-	const VERSION = 1;
+	public const VERSION = 1;
 
 	/**
 	 * @var Parser
