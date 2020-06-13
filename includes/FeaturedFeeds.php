@@ -116,37 +116,42 @@ class FeaturedFeeds {
 	}
 
 	/**
-	 * SkinTemplateOutputPageBeforeExec hook handler
-	 * @param Skin &$sk
-	 * @param QuickTemplate &$tpl
-	 * @return bool
+	 * SidebarBeforeOutput hook handler
+	 *
+	 * @param Skin $skin
+	 * @param array &$sidebar
 	 */
-	public static function skinTemplateOutputPageBeforeExec( &$sk, &$tpl ) {
+	public static function onSidebarBeforeOutput( Skin $skin, &$sidebar ) {
 		global $wgDisplayFeedsInSidebar, $wgAdvertisedFeedTypes;
 
-		if ( ( $wgDisplayFeedsInSidebar
-			|| !wfMessage( 'ffeed-enable-sidebar-links' )->inContentLanguage()->isDisabled()
-			) && $sk->getContext()->getTitle()->isMainPage()
-		) {
-			$feeds = self::getFeeds(
-				$sk->getContext()->getLanguage()->getCode(),
-				$sk->getUser()
-			);
-			$links = [];
-			$format = $wgAdvertisedFeedTypes[0]; // @fixme:
-			/** @var FeaturedFeedChannel $feed */
-			foreach ( $feeds as $feed ) {
-				$links[] = [
-					'href' => $feed->getURL( $format ),
-					'title' => $feed->title,
-					'text' => $feed->shortTitle,
-				];
-			}
-			if ( count( $links ) ) {
-				$tpl->data['sidebar']['ffeed-sidebar-section'] = $links;
-			}
+		if ( !$skin->getTitle()->isMainPage() ) {
+			return;
 		}
-		return true;
+
+		$msgDisabled = $skin->msg( 'ffeed-enable-sidebar-links' )->inContentLanguage()->isDisabled();
+
+		if ( !$wgDisplayFeedsInSidebar || $msgDisabled ) {
+			return;
+		}
+
+		$feeds = self::getFeeds(
+			$skin->getLanguage()->getCode(),
+			$skin->getUser()
+		);
+		$links = [];
+		$format = $wgAdvertisedFeedTypes[0]; // @fixme:
+		/** @var FeaturedFeedChannel $feed */
+		foreach ( $feeds as $feed ) {
+			$links[] = [
+				'href' => $feed->getURL( $format ),
+				'title' => $feed->title,
+				'text' => $feed->shortTitle,
+			];
+		}
+
+		if ( count( $links ) ) {
+			$sidebar['ffeed-sidebar-section'] = $links;
+		}
 	}
 
 	/**

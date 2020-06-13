@@ -19,7 +19,7 @@
 	"Hooks": {
 		"PageContentSaveComplete": "FeaturedFeeds::pageContentSaveComplete",
 		"BeforePageDisplay": "FeaturedFeeds::beforePageDisplay",
-		"SkinTemplateOutputPageBeforeExec": "FeaturedFeeds::skinTemplateOutputPageBeforeExec"
+		"SidebarBeforeOutput": "FeaturedFeeds::onSidebarBeforeOutput"
 	},
 	"MessagesDirs": {
 		"FeaturedFeeds": [
