@@ -17,10 +17,10 @@
 		"featuredfeed": "ApiFeaturedFeeds"
 	},
 	"Hooks": {
-		"PageContentSaveComplete": "FeaturedFeeds::pageContentSaveComplete",
 		"BeforePageDisplay": "FeaturedFeeds::beforePageDisplay",
 		"SidebarBeforeOutput": "FeaturedFeeds::onSidebarBeforeOutput"
 	},
+	"callback": "FeaturedFeeds::onRegistration",
 	"MessagesDirs": {
 		"FeaturedFeeds": [
 			"i18n",
