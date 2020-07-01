@@ -4,7 +4,8 @@
 			"Mahitgar",
 			"Rahuldeshmukh101",
 			"Shantanoo",
-			"V.narsikar"
+			"V.narsikar",
+			"ज्ञानदा गद्रे-फडके"
 		]
 	},
 	"ffeed-desc": "विकिच्या विशेष मजकुरांची सिंडीकेशन रसद जोडते (सिंडिकेशन शब्द कुठे दिसतो ते अभ्यासून ट्रांसलेट विकिवर जाऊन शब्दाचा सुयोग्य अनुवाद करण्यात साहाय्य करा)",
@@ -42,7 +43,7 @@
 	"ffeed-qotd-desc": "काही  उत्तम विचार सुमने {{SITENAME}} येथे आहेत",
 	"ffeed-qotd-entry": "{{SITENAME}} आजचे अवतरण  {{LOCALMONTHNAME}} {{LOCALDAY}} करिता",
 	"ffeed-featuredtexts-title": "{{SITENAME}} विशेष मजकुराची रसद",
-	"ffeed-featuredtexts-short-title": "विशेष मजकुर",
+	"ffeed-featuredtexts-short-title": "विशेष मजकूर",
 	"ffeed-featuredtexts-desc": "{{SITENAME}}कडे असलेला सर्वोत्कृष्ट मजकुर",
 	"ffeed-featuredtexts-entry": "{{LOCALMONTHNAME}} {{LOCALDAY}} {{SITENAME}} विशेष  मजकुर",
 	"ffeed-wotd-short-title": "आजचा शब्द"

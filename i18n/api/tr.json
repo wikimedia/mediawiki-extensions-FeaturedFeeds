@@ -7,7 +7,7 @@
 	},
 	"apihelp-featuredfeed-description": "Özellikli bir içerik besleme verir.",
 	"apihelp-featuredfeed-summary": "Öne çıkan bir içerik yayını döndürür.",
-	"apihelp-featuredfeed-param-feedformat": "Besleme biçimi.",
+	"apihelp-featuredfeed-param-feedformat": "Beslemenin biçimi.",
 	"apihelp-featuredfeed-param-feed": "Adı besleyin.",
 	"apihelp-featuredfeed-param-language": "Dil kodu besleme. Bazıları tarafından göz ardı beslenir.",
 	"apihelp-featuredfeed-example-1": "Al besle \"$1\""
