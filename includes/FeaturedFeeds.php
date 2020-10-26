@@ -32,43 +32,41 @@ class FeaturedFeeds {
 	public static function getFeeds( $langCode, User $user ) {
 		global $wgLanguageCode;
 
-		if ( !$langCode
-			|| self::allInContentLanguage()
-			|| !Language::isValidBuiltInCode( $langCode )
+		if (
+			!$langCode ||
+			self::allInContentLanguage() ||
+			!Language::isValidBuiltInCode( $langCode )
 		) {
 			$langCode = $wgLanguageCode;
 		}
-		static $cache = [];
-		if ( isset( $cache[$langCode] ) ) {
-			return $cache[$langCode];
-		}
 
-		$objectCache = MediaWikiServices::getInstance()->getMainWANObjectCache();
-		$key = self::getCacheKey( $langCode );
+		$cache = MediaWikiServices::getInstance()->getMainWANObjectCache();
 
-		// Fetch the list of feed items from cache, considering it
-		// a miss if the cache is from before the last feed related
-		// message change. The "*" key is touched whenever a relevant
-		// message changes. This slow explicit delete() of ~360 keys.
-		$curTTL = null;
-		$depKeys = [ self::getCacheKey( '*' ) ];
-		$feeds = $objectCache->get( $key, $curTTL, $depKeys );
-		if ( !$feeds || $curTTL <= 0 ) {
-			$feeds = self::getFeedsInternal( $langCode, $user );
-			$objectCache->set( $key, $feeds, self::getMaxAge() );
-		}
-
-		$cache[$langCode] = $feeds;
-		return $feeds;
+		return $cache->getWithSetCallback(
+			self::getCacheKey( $cache, $langCode ),
+			self::getMaxAge(),
+			function () use ( $langCode, $user ) {
+				return self::getFeedsInternal( $langCode, $user );
+			},
+			[
+				// The "*" key is touched whenever a relevant message changes.
+				// This avoids a slow explicit delete() of ~360 keys.
+				'checkKeys' => [ self::getCacheKey( $cache, '*' ) ],
+				// Avoid I/O from repeated access
+				'pcGroup' => 'FeaturedFeeds:100',
+				'pcTTL' => $cache::TTL_PROC_LONG
+			]
+		);
 	}
 
 	/**
 	 * Returns cache key for a given language
+	 * @param WANObjectCache $cache
 	 * @param string $langCode Feed language code
 	 * @return string
 	 */
-	private static function getCacheKey( $langCode ) {
-		return wfMemcKey( 'featured-feeds', FeaturedFeedChannel::VERSION, $langCode );
+	private static function getCacheKey( WANObjectCache $cache, $langCode ) {
+		return $cache->makeKey( 'featured-feeds', FeaturedFeedChannel::VERSION, $langCode );
 	}
 
 	/**
@@ -182,7 +180,7 @@ class FeaturedFeeds {
 	 */
 	public static function onPageSaveComplete( WikiPage $wikiPage ) {
 		$title = $wikiPage->getTitle();
-		$objectCache = MediaWikiServices::getInstance()->getMainWANObjectCache();
+		$cache = MediaWikiServices::getInstance()->getMainWANObjectCache();
 		// Although message names are configurable and can be set not to start with 'Ffeed', we
 		// make a shortcut here to avoid running these checks on every NS_MEDIAWIKI edit
 		if ( $title->getNamespace() == NS_MEDIAWIKI && strpos( $title->getText(), 'Ffeed-' ) === 0 ) {
@@ -193,7 +191,7 @@ class FeaturedFeeds {
 					$nt = Title::makeTitleSafe( NS_MEDIAWIKI, $feed[$msgType] );
 					if ( $nt->equals( $baseTitle ) ) {
 						wfDebug( "FeaturedFeeds-related page {$title->getFullText()} edited, purging cache\n" );
-						$objectCache->touchCheckKey( self::getCacheKey( '*' ) );
+						$cache->touchCheckKey( self::getCacheKey( $cache, '*' ) );
 						return true;
 					}
 				}
