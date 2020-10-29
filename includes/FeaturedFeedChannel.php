@@ -193,7 +193,7 @@ class FeaturedFeedChannel {
 	 * Returns a URL to the feed
 	 *
 	 * @param string $format Feed format, 'rss' or 'atom'
-	 * @return String
+	 * @return string
 	 */
 	public function getURL( $format ) {
 		$contLang = MediaWikiServices::getInstance()->getContentLanguage();
