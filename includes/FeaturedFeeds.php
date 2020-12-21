@@ -116,7 +116,7 @@ class FeaturedFeeds {
 	public static function beforePageDisplay( OutputPage &$out ) {
 		global $wgAdvertisedFeedTypes;
 		if ( $out->getTitle()->isMainPage() ) {
-			$feeds = self::getFeeds( $out->getLanguage()->getCode(), $out->getUser() );
+			$feeds = self::getFeedsQuick( $out->getLanguage()->getCode(), $out->getUser() );
 			/** @var FeaturedFeedChannel $feed */
 			foreach ( $feeds as $feed ) {
 				foreach ( $wgAdvertisedFeedTypes as $type ) {
@@ -151,7 +151,7 @@ class FeaturedFeeds {
 			return;
 		}
 
-		$feeds = self::getFeeds(
+		$feeds = self::getFeedsQuick(
 			$skin->getLanguage()->getCode(),
 			$skin->getUser()
 		);
@@ -203,12 +203,14 @@ class FeaturedFeeds {
 	}
 
 	/**
+	 * Get all the feed objects without loading the items
+	 *
 	 * @param string $langCode
 	 * @param User $user
 	 * @return FeaturedFeedChannel[]
 	 * @throws Exception
 	 */
-	private static function getFeedsInternal( $langCode, User $user ) {
+	private static function getFeedsQuick( $langCode, User $user ) {
 		$feedDefs = self::getFeedDefinitions();
 
 		$feeds = [];
@@ -218,8 +220,22 @@ class FeaturedFeeds {
 			if ( !$feed->isOK() ) {
 				continue;
 			}
-			$feed->getFeedItems();
 			$feeds[$name] = $feed;
+		}
+
+		return $feeds;
+	}
+
+	/**
+	 * @param string $langCode
+	 * @param User $user
+	 * @return FeaturedFeedChannel[]
+	 * @throws Exception
+	 */
+	private static function getFeedsInternal( $langCode, User $user ) {
+		$feeds = self::getFeedsQuick( $langCode, $user );
+		foreach ( $feeds as $feed ) {
+			$feed->getFeedItems();
 		}
 
 		return $feeds;
