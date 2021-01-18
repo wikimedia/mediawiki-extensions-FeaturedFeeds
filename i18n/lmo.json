@@ -38,5 +38,12 @@
 	"ffeed-qotd-short-title": "Citazzion del dì",
 	"ffeed-qotd-desc": "Quaivoeuna di citazzion miglior de {{SITENAME}}",
 	"ffeed-qotd-entry": "Citazzion del dì {{SITENAME}} del {{LOCALDAY}} {{LOCALMONTHNAME}}",
-	"ffeed-featuredtexts-title": "Fiid {{SITENAME}}: test consiliad"
+	"ffeed-featuredtexts-title": "Fiid {{SITENAME}}: test consiliad",
+	"ffeed-featuredtexts-short-title": "Test consiliad",
+	"ffeed-featuredtexts-desc": "I miglior test ofert de {{SITENAME}}",
+	"ffeed-featuredtexts-entry": "Test consiliad {{SITENAME}} del {{LOCALDAY}} {{LOCALMONTHNAME}}",
+	"ffeed-wotd-title": "Parola del dì del Wikizzionari",
+	"ffeed-wotd-short-title": "Parola del dì",
+	"ffeed-wotd-desc": "Parola del dì {{SITENAME}}",
+	"ffeed-wotd-entry": "Parola del dì del {{CURRENTDAY}} {{CURRENTMONTHNAME}}"
 }
