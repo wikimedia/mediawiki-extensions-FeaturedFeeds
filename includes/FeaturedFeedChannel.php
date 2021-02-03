@@ -5,9 +5,9 @@ use MediaWiki\Revision\SlotRecord;
 
 class FeaturedFeedChannel {
 	/**
-	 * Class version, incerement it when changing class internals.
+	 * Class version, increment it when changing class internals.
 	 */
-	public const VERSION = 1;
+	public const VERSION = 2;
 
 	/**
 	 * @var Parser
@@ -22,24 +22,23 @@ class FeaturedFeedChannel {
 	 */
 	private $items = false;
 	private $page = false;
-	private $entryName;
-	private $titleForParse;
+	private $entryName = false;
+	private $titleForParse = false;
 
 	public $title = false;
-	public $shortTitle;
-	public $description;
-
-	/** @var User */
-	private $user;
+	public $shortTitle = false;
+	public $description = false;
 
 	/**
 	 * @param string $name
 	 * @param array $options
 	 * @param Language $lang
-	 * @param User $user
 	 */
-	public function __construct( $name, $options, $lang, User $user ) {
-		self::staticInit();
+	public function __construct( $name, $options, $lang ) {
+		if ( !self::$parser ) {
+			self::$parser = MediaWikiServices::getInstance()->getParserFactory()->create();
+		}
+
 		$this->name = $name;
 		$this->options = $options;
 		if ( $options['inUserLanguage'] ) {
@@ -48,17 +47,54 @@ class FeaturedFeedChannel {
 			$contLang = MediaWikiServices::getInstance()->getContentLanguage();
 			$this->languageCode = $contLang->getCode();
 		}
-		$this->user = $user;
 	}
 
-	private static function staticInit() {
-		if ( !self::$parser ) {
-			self::$parser = MediaWikiServices::getInstance()->getParserFactory()->create();
+	public static function fromArray( array $array ) {
+		$channel = new FeaturedFeedChannel(
+			$array['name'],
+			$array['options'],
+			$array['lang']
+		);
+
+		if ( $array['items'] !== false ) {
+			$channel->items = [];
+			foreach ( $array['items'] as $item ) {
+				$channel->items[] = FeaturedFeedItem::fromArray( $item );
+			}
 		}
+
+		$channel->page = $array['page'];
+		$channel->entryName = $array['entryName'];
+		$channel->titleForParse = $array['titleForParse'];
+		$channel->title = $array['title'];
+		$channel->shortTitle = $array['shortTitle'];
+		$channel->description = $array['description'];
+
+		return $channel;
 	}
 
-	public function __wakeup() {
-		self::staticInit();
+	public function toArray() : array {
+		$items = false;
+		if ( $this->items !== false ) {
+			$items = [];
+
+			foreach ( $this->items as $item ) {
+				$items[] = $item->toArray();
+			}
+		}
+
+		return [
+			'name' => $this->name,
+			'options' => $this->options,
+			'lang' => $this->languageCode,
+			'items' => $items,
+			'page' => $this->page,
+			'entryName' => $this->entryName,
+			'titleForParse' => $this->titleForParse,
+			'title' => $this->title,
+			'shortTitle' => $this->shortTitle,
+			'description' => $this->description,
+		];
 	}
 
 	/**
@@ -149,11 +185,11 @@ class FeaturedFeedChannel {
 	public function getFeedItem( $date ) {
 		$ts = new MWTimestamp( $date );
 		$timestamp = $ts->getTimestamp( TS_MW );
-		$parserOptions = new ParserOptions( $this->user );
+		$parserOptions = ParserOptions::newFromAnon();
 		$parserOptions->setTimestamp( $timestamp );
 		$parserOptions->setUserLang( $this->getLanguage() );
 
-		if ( !isset( $this->titleForParse ) ) {
+		if ( $this->titleForParse === false ) {
 			// parsing with such title makes stuff like {{CURRENTMONTH}} localised
 			$this->titleForParse = Title::newFromText( 'MediaWiki:Dummy/' . $this->languageCode );
 		}
