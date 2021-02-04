@@ -9,7 +9,7 @@
 	},
 	"ffeed-desc": "Doda podajalnike izbrane vsebine wikija",
 	"ffeed-no-feed": "Podajalnik ni določen.",
-	"ffeed-feed-not-found": "Podajalnik $1 ni bil najden",
+	"ffeed-feed-not-found": "Podajalnik $1 ni bil najden.",
 	"ffeed-entry-not-found": "Ne najdem vira za $1.",
 	"ffeed-sidebar-section": "Podajalniki izbrane vsebine",
 	"ffeed-invalid-timestamp": "Neveljaven časovni žig podajalnika",
