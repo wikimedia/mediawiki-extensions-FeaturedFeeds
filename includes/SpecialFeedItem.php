@@ -16,7 +16,7 @@ class SpecialFeedItem extends UnlistedSpecialPage {
 			return;
 		}
 		list( $feedName, $date, $langCode ) = $parts;
-		$feeds = FeaturedFeeds::getFeeds( $langCode );
+		$feeds = FeaturedFeeds::getFeeds( $langCode, $this->getUser() );
 		if ( !isset( $feeds[$feedName] ) ) {
 			$out->showErrorPage( 'error', 'ffeed-feed-not-found', [ $feedName ] );
 			return;
@@ -47,13 +47,14 @@ class SpecialFeedItem extends UnlistedSpecialPage {
 			),
 			$cache::TTL_DAY,
 			function () use ( $feed, $date ) {
-				return $feed->getFeedItem( $date )->toArray();
+				// @TODO: store a plain PHP array
+				return $feed->getFeedItem( $date );
 			},
 			[ 'version' => FeaturedFeedChannel::VERSION ]
 		);
 
 		if ( $item ) {
-			$this->displayItem( FeaturedFeedItem::fromArray( $item ) );
+			$this->displayItem( $item );
 		} else {
 			$out->showErrorPage( 'error', 'ffeed-entry-not-found',
 				[ $this->getLanguage()->date( wfTimestamp( TS_UNIX, $date ), false, false ) ]
