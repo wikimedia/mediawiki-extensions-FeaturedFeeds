@@ -26,10 +26,9 @@ class FeaturedFeeds {
 	 * Returns the list of feeds
 	 *
 	 * @param string|bool $langCode Code of language to use or false if default
-	 * @param User $user
 	 * @return FeaturedFeedChannel[] Feeds in format of ('name' => FeedItem)
 	 */
-	public static function getFeeds( $langCode, User $user ) {
+	public static function getFeeds( $langCode ) {
 		global $wgLanguageCode;
 
 		if (
@@ -42,11 +41,11 @@ class FeaturedFeeds {
 
 		$cache = MediaWikiServices::getInstance()->getMainWANObjectCache();
 
-		return $cache->getWithSetCallback(
+		$feeds = $cache->getWithSetCallback(
 			self::getCacheKey( $cache, $langCode ),
 			self::getMaxAge(),
-			function () use ( $langCode, $user ) {
-				return self::getFeedsInternal( $langCode, $user );
+			function () use ( $langCode ) {
+				return self::getFeedsInternal( $langCode );
 			},
 			[
 				// The "*" key is touched whenever a relevant message changes.
@@ -57,6 +56,8 @@ class FeaturedFeeds {
 				'pcTTL' => $cache::TTL_PROC_LONG
 			]
 		);
+
+		return self::getFeedsFromCached( $feeds );
 	}
 
 	/**
@@ -114,7 +115,7 @@ class FeaturedFeeds {
 	public static function beforePageDisplay( OutputPage &$out ) {
 		global $wgAdvertisedFeedTypes;
 		if ( $out->getTitle()->isMainPage() ) {
-			$feeds = self::getFeedsQuick( $out->getLanguage()->getCode(), $out->getUser() );
+			$feeds = self::getFeedsQuick( $out->getLanguage()->getCode() );
 			/** @var FeaturedFeedChannel $feed */
 			foreach ( $feeds as $feed ) {
 				foreach ( $wgAdvertisedFeedTypes as $type ) {
@@ -149,10 +150,7 @@ class FeaturedFeeds {
 			return;
 		}
 
-		$feeds = self::getFeedsQuick(
-			$skin->getLanguage()->getCode(),
-			$skin->getUser()
-		);
+		$feeds = self::getFeedsQuick( $skin->getLanguage()->getCode() );
 		$links = [];
 		$format = $wgAdvertisedFeedTypes[0]; // @fixme:
 		/** @var FeaturedFeedChannel $feed */
@@ -204,17 +202,15 @@ class FeaturedFeeds {
 	 * Get all the feed objects without loading the items
 	 *
 	 * @param string $langCode
-	 * @param User $user
 	 * @return FeaturedFeedChannel[]
 	 * @throws Exception
 	 */
-	private static function getFeedsQuick( $langCode, User $user ) {
+	private static function getFeedsQuick( $langCode ) {
 		$feedDefs = self::getFeedDefinitions();
 
 		$feeds = [];
-		$requestedLang = Language::factory( $langCode );
 		foreach ( $feedDefs as $name => $opts ) {
-			$feed = new FeaturedFeedChannel( $name, $opts, $requestedLang, $user );
+			$feed = new FeaturedFeedChannel( $name, $opts, $langCode );
 			if ( !$feed->isOK() ) {
 				continue;
 			}
@@ -226,14 +222,30 @@ class FeaturedFeeds {
 
 	/**
 	 * @param string $langCode
-	 * @param User $user
-	 * @return FeaturedFeedChannel[]
+	 * @return array[]
 	 * @throws Exception
 	 */
-	private static function getFeedsInternal( $langCode, User $user ) {
-		$feeds = self::getFeedsQuick( $langCode, $user );
-		foreach ( $feeds as $feed ) {
+	private static function getFeedsInternal( $langCode ) {
+		$feeds = self::getFeedsQuick( $langCode );
+		$toCache = [];
+
+		foreach ( $feeds as $name => $feed ) {
 			$feed->getFeedItems();
+			$toCache[$name] = $feed->toArray();
+		}
+
+		return $toCache;
+	}
+
+	/**
+	 * @param array[] $cached
+	 * @return FeaturedFeedChannel[]
+	 */
+	private static function getFeedsFromCached( array $cached ): array {
+		$feeds = [];
+
+		foreach ( $cached as $name => $array ) {
+			$feeds[$name] = FeaturedFeedChannel::fromArray( $array );
 		}
 
 		return $feeds;
