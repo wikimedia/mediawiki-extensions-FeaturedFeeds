@@ -27,7 +27,7 @@ class ApiFeaturedFeeds extends ApiBase {
 		if ( $language !== false && !Language::isValidCode( $language ) ) {
 			$language = false;
 		}
-		$feeds = FeaturedFeeds::getFeeds( $language, $this->getUser() );
+		$feeds = FeaturedFeeds::getFeeds( $language );
 		$ourFeed = $feeds[$params['feed']];
 
 		$feedClass = new $wgFeedClasses[$params['feedformat']] (
@@ -46,7 +46,7 @@ class ApiFeaturedFeeds extends ApiBase {
 	public function getAllowedParams() {
 		global $wgFeedClasses;
 		$feedFormatNames = array_keys( $wgFeedClasses );
-		$availableFeeds = array_keys( FeaturedFeeds::getFeeds( false, $this->getUser() ) );
+		$availableFeeds = array_keys( FeaturedFeeds::getFeeds( false ) );
 		return [
 			'feedformat' => [
 				ApiBase::PARAM_DFLT => 'rss',
@@ -69,7 +69,7 @@ class ApiFeaturedFeeds extends ApiBase {
 	protected function getExamplesMessages() {
 		// attempt to find a valid feed name
 		// if none available, just use an example value
-		$availableFeeds = array_keys( FeaturedFeeds::getFeeds( false, $this->getUser() ) );
+		$availableFeeds = array_keys( FeaturedFeeds::getFeeds( false ) );
 		$feed = reset( $availableFeeds );
 		if ( !$feed ) {
 			$feed = 'featured';
