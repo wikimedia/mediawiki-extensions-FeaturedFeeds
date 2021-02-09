@@ -209,9 +209,8 @@ class FeaturedFeeds {
 		$feedDefs = self::getFeedDefinitions();
 
 		$feeds = [];
-		$requestedLang = Language::factory( $langCode );
 		foreach ( $feedDefs as $name => $opts ) {
-			$feed = new FeaturedFeedChannel( $name, $opts, $requestedLang );
+			$feed = new FeaturedFeedChannel( $name, $opts, $langCode );
 			if ( !$feed->isOK() ) {
 				continue;
 			}

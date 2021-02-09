@@ -32,9 +32,9 @@ class FeaturedFeedChannel {
 	/**
 	 * @param string $name
 	 * @param array $options
-	 * @param Language $lang
+	 * @param string $languageCode
 	 */
-	public function __construct( $name, $options, $lang ) {
+	public function __construct( $name, $options, $languageCode ) {
 		if ( !self::$parser ) {
 			self::$parser = MediaWikiServices::getInstance()->getParserFactory()->create();
 		}
@@ -42,7 +42,7 @@ class FeaturedFeedChannel {
 		$this->name = $name;
 		$this->options = $options;
 		if ( $options['inUserLanguage'] ) {
-			$this->languageCode = $lang->getCode();
+			$this->languageCode = $languageCode;
 		} else {
 			$contLang = MediaWikiServices::getInstance()->getContentLanguage();
 			$this->languageCode = $contLang->getCode();

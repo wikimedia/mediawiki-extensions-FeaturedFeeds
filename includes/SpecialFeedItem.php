@@ -47,7 +47,13 @@ class SpecialFeedItem extends UnlistedSpecialPage {
 			),
 			$cache::TTL_DAY,
 			function () use ( $feed, $date ) {
-				return $feed->getFeedItem( $date )->toArray();
+				$item = $feed->getFeedItem( $date );
+
+				if ( $item ) {
+					return $item->toArray();
+				}
+
+				return false;
 			},
 			[ 'version' => FeaturedFeedChannel::VERSION ]
 		);
