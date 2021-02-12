@@ -6,23 +6,6 @@ class FeaturedFeeds {
 	private static $allInContLang = null;
 
 	/**
-	 * Callback on extension registration
-	 *
-	 * Register hooks based on version to keep support for mediawiki versions before 1.35
-	 */
-	public static function onRegistration() {
-		global $wgHooks;
-
-		if ( version_compare( MW_VERSION, '1.35', '>=' ) ) {
-			$wgHooks['PageSaveComplete'][] = 'FeaturedFeeds::onPageSaveComplete';
-		} else {
-			// We can use the same method because only the wikipage is used,
-			// see the documentation at ::onPageSaveComplete
-			$wgHooks['PageContentSaveComplete'][] = 'FeaturedFeeds::onPageSaveComplete';
-		}
-	}
-
-	/**
 	 * Returns the list of feeds
 	 *
 	 * @param string|bool $langCode Code of language to use or false if default
