@@ -3,13 +3,23 @@
 namespace MediaWiki\Extension\FeaturedFeeds;
 
 use Exception;
-use MediaWiki\MediaWikiServices;
 use MWTimestamp;
 use UnlistedSpecialPage;
+use WANObjectCache;
 
 class SpecialFeedItem extends UnlistedSpecialPage {
-	public function __construct() {
+
+	/** @var WANObjectCache */
+	private $wanObjectCache;
+
+	/**
+	 * @param WANObjectCache $wanObjectCache
+	 */
+	public function __construct(
+		WANObjectCache $wanObjectCache
+	) {
 		parent::__construct( 'FeedItem' );
+		$this->wanObjectCache = $wanObjectCache;
 	}
 
 	public function execute( $par = '' ) {
@@ -41,7 +51,7 @@ class SpecialFeedItem extends UnlistedSpecialPage {
 			}
 		}
 
-		$cache = MediaWikiServices::getInstance()->getMainWANObjectCache();
+		$cache = $this->wanObjectCache;
 
 		$item = $cache->getWithSetCallback(
 			$cache->makeKey(

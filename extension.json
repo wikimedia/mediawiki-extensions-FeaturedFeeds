@@ -43,7 +43,12 @@
 		}
 	},
 	"SpecialPages": {
-		"FeedItem": "MediaWiki\\Extension\\FeaturedFeeds\\SpecialFeedItem"
+		"FeedItem": {
+			"class": "MediaWiki\\Extension\\FeaturedFeeds\\SpecialFeedItem",
+			"services": [
+				"MainWANObjectCache"
+			]
+		}
 	},
 	"AutoloadNamespaces": {
 		"MediaWiki\\Extension\\FeaturedFeeds\\": "includes/"
