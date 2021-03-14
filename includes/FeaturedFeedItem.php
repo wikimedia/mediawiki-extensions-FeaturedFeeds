@@ -1,5 +1,9 @@
 <?php
 
+namespace MediaWiki\Extension\FeaturedFeeds;
+
+use FeedItem;
+
 class FeaturedFeedItem extends FeedItem {
 	public function __construct( string $title, string $url, string $text, string $date ) {
 		parent::__construct( $title, $text, $url, $date );

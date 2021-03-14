@@ -1,7 +1,18 @@
 <?php
 
+namespace MediaWiki\Extension\FeaturedFeeds;
+
+use ContentHandler;
+use Exception;
+use Language;
 use MediaWiki\MediaWikiServices;
 use MediaWiki\Revision\SlotRecord;
+use Message;
+use MWTimestamp;
+use Parser;
+use ParserOptions;
+use SpecialPage;
+use Title;
 
 class FeaturedFeedChannel {
 	/**

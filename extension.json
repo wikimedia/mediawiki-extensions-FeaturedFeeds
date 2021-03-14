@@ -14,12 +14,12 @@
 		"FeaturedFeedsAliases": "FeaturedFeeds.alias.php"
 	},
 	"APIModules": {
-		"featuredfeed": "ApiFeaturedFeeds"
+		"featuredfeed": "MediaWiki\\Extension\\FeaturedFeeds\\ApiFeaturedFeeds"
 	},
 	"Hooks": {
-		"BeforePageDisplay": "FeaturedFeeds::beforePageDisplay",
-		"PageSaveComplete": "FeaturedFeeds::onPageSaveComplete",
-		"SidebarBeforeOutput": "FeaturedFeeds::onSidebarBeforeOutput"
+		"BeforePageDisplay": "MediaWiki\\Extension\\FeaturedFeeds\\FeaturedFeeds::beforePageDisplay",
+		"PageSaveComplete": "MediaWiki\\Extension\\FeaturedFeeds\\FeaturedFeeds::onPageSaveComplete",
+		"SidebarBeforeOutput": "MediaWiki\\Extension\\FeaturedFeeds\\FeaturedFeeds::onSidebarBeforeOutput"
 	},
 	"MessagesDirs": {
 		"FeaturedFeeds": [
@@ -43,14 +43,10 @@
 		}
 	},
 	"SpecialPages": {
-		"FeedItem": "SpecialFeedItem"
+		"FeedItem": "MediaWiki\\Extension\\FeaturedFeeds\\SpecialFeedItem"
 	},
-	"AutoloadClasses": {
-		"ApiFeaturedFeeds": "includes/ApiFeaturedFeeds.php",
-		"FeaturedFeeds": "includes/FeaturedFeeds.php",
-		"FeaturedFeedChannel": "includes/FeaturedFeedChannel.php",
-		"FeaturedFeedItem": "includes/FeaturedFeedItem.php",
-		"SpecialFeedItem": "includes/SpecialFeedItem.php"
+	"AutoloadNamespaces": {
+		"MediaWiki\\Extension\\FeaturedFeeds\\": "includes/"
 	},
 	"manifest_version": 2
 }

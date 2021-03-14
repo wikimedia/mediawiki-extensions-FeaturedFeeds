@@ -1,6 +1,11 @@
 <?php
 
+namespace MediaWiki\Extension\FeaturedFeeds;
+
+use Exception;
 use MediaWiki\MediaWikiServices;
+use MWTimestamp;
+use UnlistedSpecialPage;
 
 class SpecialFeedItem extends UnlistedSpecialPage {
 	public function __construct() {

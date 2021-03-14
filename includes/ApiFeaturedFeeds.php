@@ -1,5 +1,12 @@
 <?php
 
+namespace MediaWiki\Extension\FeaturedFeeds;
+
+use ApiBase;
+use ApiFormatFeedWrapper;
+use Language;
+use Title;
+
 class ApiFeaturedFeeds extends ApiBase {
 	public function __construct( $main, $action ) {
 		parent::__construct( $main, $action );

@@ -1,6 +1,20 @@
 <?php
 
+namespace MediaWiki\Extension\FeaturedFeeds;
+
+use DateTime;
+use DateTimeZone;
+use Exception;
+use Hooks;
+use Language;
 use MediaWiki\MediaWikiServices;
+use MWTimestamp;
+use OutputPage;
+use Skin;
+use Title;
+use WANObjectCache;
+use Wikimedia\AtEase\AtEase;
+use WikiPage;
 
 class FeaturedFeeds {
 	private static $allInContLang = null;
@@ -285,9 +299,9 @@ class FeaturedFeeds {
 			if ( isset( $wgLocaltimezone ) ) {
 				$tz = $wgLocaltimezone;
 			} else {
-				Wikimedia\suppressWarnings();
+				AtEase::suppressWarnings();
 				$tz = date_default_timezone_get();
-				Wikimedia\restoreWarnings();
+				AtEase::restoreWarnings();
 			}
 			$timeZone = new DateTimeZone( $tz );
 		}
