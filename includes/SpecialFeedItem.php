@@ -61,7 +61,7 @@ class SpecialFeedItem extends UnlistedSpecialPage {
 				$feed->getLanguage()->getCode()
 			),
 			$cache::TTL_DAY,
-			function () use ( $feed, $date ) {
+			static function () use ( $feed, $date ) {
 				$item = $feed->getFeedItem( $date );
 
 				if ( $item ) {
