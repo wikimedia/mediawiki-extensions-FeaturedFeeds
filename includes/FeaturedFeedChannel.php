@@ -2,7 +2,6 @@
 
 namespace MediaWiki\Extension\FeaturedFeeds;
 
-use ContentHandler;
 use Exception;
 use Language;
 use MediaWiki\MediaWikiServices;
@@ -12,6 +11,7 @@ use MWTimestamp;
 use Parser;
 use ParserOptions;
 use SpecialPage;
+use TextContent;
 use Title;
 
 class FeaturedFeedChannel {
@@ -217,7 +217,10 @@ class FeaturedFeedChannel {
 			// Page does not exist
 			return false;
 		}
-		$text = ContentHandler::getContentText( $rev->getContent( SlotRecord::MAIN ) );
+
+		$content = $rev->getContent( SlotRecord::MAIN );
+		$text = ( $content instanceof TextContent ) ? $content->getText() : null;
+
 		if ( !$text ) {
 			return false;
 		}
