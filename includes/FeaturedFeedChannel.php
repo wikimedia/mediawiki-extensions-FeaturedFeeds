@@ -84,7 +84,7 @@ class FeaturedFeedChannel {
 		return $channel;
 	}
 
-	public function toArray() : array {
+	public function toArray(): array {
 		$items = false;
 		if ( $this->items !== false ) {
 			$items = [];
