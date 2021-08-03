@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"ئارام بکر"
+		]
+	},
+	"ffeed-featured-title": "خۆراکی وتارە ھەڵبژێردراوەکانی {{SITENAME}}",
+	"ffeed-featured-short-title": "وتارە ھەڵبژێردراوەکان",
+	"ffeed-featured-desc": "باشترین ئەو وتارانەی {{SITENAME}} دەتوانێت پێشکەشی بکات",
+	"ffeed-featured-entry": "وتاری ھەڵبژێردراوی {{SITENAME}} لە {{LOCALDAY}}ی {{LOCALMONTHNAME}}"
+}

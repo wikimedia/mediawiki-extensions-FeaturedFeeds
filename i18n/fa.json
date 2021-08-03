@@ -4,7 +4,8 @@
 			"Ebraminio",
 			"Huji",
 			"Ladsgroup",
-			"Leyth"
+			"Leyth",
+			"ئارام بکر"
 		]
 	},
 	"ffeed-desc": "خوراکی از محتوای برگزیده ویکی می‌افزاید",
@@ -16,7 +17,7 @@
 	"ffeed-featured-title": "خوراک مقاله‌های برگزیدهٔ {{SITENAME}}",
 	"ffeed-featured-short-title": "مقاله‌های برگزیده",
 	"ffeed-featured-desc": "بهترین مقاله‌هایی که {{SITENAME}} می‌تواند ارائه کند",
-	"ffeed-featured-entry": "مقالهٔ برگزیدهٔ {{SITENAME}} در  {{LOCALDAY}} {{LOCALMONTHNAME}}",
+	"ffeed-featured-entry": "مقالهٔ برگزیدهٔ {{SITENAME}} در {{LOCALDAY}} {{LOCALMONTHNAME}}",
 	"ffeed-good-title": "خوراک مقاله‌های خوب {{SITENAME}}",
 	"ffeed-good-short-title": "مقاله‌های خوب",
 	"ffeed-good-desc": "مقاله‌های خوبی که {{SITENAME}} می‌تواند ارائه کند",
