@@ -10,7 +10,7 @@
 	"ffeed-featured-entry": "{{LOCALMONTHNAME}} {{LOCALDAY}} جي لاءِ {{SITENAME}} جو چونڊ مضمون",
 	"ffeed-dyk-short-title": "ڇا توهان ڄاڻو ٿا؟",
 	"ffeed-dyk-entry": "ڇا توهان ڄاڻو ٿا؟: {{LOCALMONTHNAME}} {{LOCALDAY}}",
-	"ffeed-qotd-short-title": "چونڊ قول",
+	"ffeed-qotd-short-title": "اڄ جو قول",
 	"ffeed-wotd-short-title": "اڄ جو لفظ",
 	"ffeed-wotd-desc": "{{SITENAME}} اڄ جو لفظ"
 }
