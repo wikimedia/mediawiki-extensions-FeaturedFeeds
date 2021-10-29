@@ -45,5 +45,5 @@
 	"ffeed-wotd-title": "Parolla del dì del Wikizzionari",
 	"ffeed-wotd-short-title": "Parolla del dì",
 	"ffeed-wotd-desc": "Parolla del dì {{SITENAME}}",
-	"ffeed-wotd-entry": "Parola del dì del {{CURRENTDAY}} {{CURRENTMONTHNAME}}"
+	"ffeed-wotd-entry": "Parolla del dì del {{CURRENTDAY}} {{CURRENTMONTHNAME}}"
 }
