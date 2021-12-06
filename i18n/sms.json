@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Yupik"
+		]
+	},
+	"ffeed-wotd-title": "Wikisääʹnnǩeeʹrj peeiʹv sääʹnn",
+	"ffeed-wotd-short-title": "Peeiʹv sääʹnn",
+	"ffeed-wotd-desc": "{{SITENAME}}: Peeiʹv sääʹnn",
+	"ffeed-wotd-entry": "Peeiʹv sääʹnn {{CURRENTMONTHNAME}} {{CURRENTDAY}}"
+}
