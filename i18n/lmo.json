@@ -42,8 +42,8 @@
 	"ffeed-featuredtexts-short-title": "Test consiliad",
 	"ffeed-featuredtexts-desc": "I miglior test ofert de {{SITENAME}}",
 	"ffeed-featuredtexts-entry": "Test consiliad {{SITENAME}} del {{LOCALDAY}} {{LOCALMONTHNAME}}",
-	"ffeed-wotd-title": "Parola del dì del Wikizzionari",
-	"ffeed-wotd-short-title": "Parola del dì",
-	"ffeed-wotd-desc": "Parola del dì {{SITENAME}}",
-	"ffeed-wotd-entry": "Parola del dì del {{CURRENTDAY}} {{CURRENTMONTHNAME}}"
+	"ffeed-wotd-title": "Parolla del dì del Wikizzionari",
+	"ffeed-wotd-short-title": "Parolla del dì",
+	"ffeed-wotd-desc": "Parolla del dì {{SITENAME}}",
+	"ffeed-wotd-entry": "Parolla del dì del {{CURRENTDAY}} {{CURRENTMONTHNAME}}"
 }
