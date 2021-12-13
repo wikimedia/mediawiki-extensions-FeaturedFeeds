@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Tweety"
+			"Tweety",
+			"Mehtab ahmed"
 		]
 	},
-	"apihelp-featuredfeed-param-feed": "فيڊ نالو."
+	"apihelp-featuredfeed-param-feed": "رسد نالو."
 }

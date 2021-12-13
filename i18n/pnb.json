@@ -6,7 +6,7 @@
 			"Khalid Mahmood"
 		]
 	},
-	"ffeed-desc": "وکی دے فیچرڈ لکھتاں چ سنڈیکیشن رلاؤ",
+	"ffeed-desc": "وکی دے فیچرڈ لکھتاں وچ سنڈیکیشن رلاؤ",
 	"ffeed-no-feed": "فیڈ نئیں دسی گئی۔",
 	"ffeed-feed-not-found": "فیڈ 1$ نئیں لبی",
 	"ffeed-entry-not-found": "تریخ 1$ لئی نئیں لبی۔",
@@ -17,9 +17,9 @@
 	"ffeed-featured-desc": "ودیا آرٹیکل {{SITENAME}} دین پین کے۔",
 	"ffeed-featured-entry": "{{LOCALMONTHNAME}} {{LOCALDAY}} {{SITENAME}} فیچرڈ آرٹیکل",
 	"ffeed-good-title": "{{SITENAME}} چنگے ارٹیکل بارے",
-	"ffeed-good-short-title": "چنکے ارٹیکل",
-	"ffeed-good-desc": "چنکے ارٹیکل {{SITENAME}} دسنے پیسن۔",
-	"ffeed-good-entry": "{{LOCALMONTHNAME}} {{LOCALDAY}} {{SITENAME}} چنکے آرٹیکل",
+	"ffeed-good-short-title": "چنگے ارٹیکل",
+	"ffeed-good-desc": "چنگے ارٹیکل {{SITENAME}} دسنے پین۔",
+	"ffeed-good-entry": "{{LOCALMONTHNAME}} {{LOCALDAY}} {{SITENAME}} چنگے آرٹیکل",
 	"ffeed-onthisday-title": "{{SITENAME}} \"اس دن نوں...\" فیڈ",
 	"ffeed-onthisday-short-title": "اس دن نوں۔۔۔۔۔",
 	"ffeed-onthisday-desc": "ایس دن دیاں تریخی گلاں",

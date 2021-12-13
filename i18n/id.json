@@ -2,9 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"Farras",
-			"Raynasution"
+			"Raynasution",
+			"Daud I.F. Argana"
 		]
 	},
+	"ffeed-desc": "Menambahkan umpan sindikasi dari konten pilihan wiki",
 	"ffeed-no-feed": "Umpan tidak disebutkan",
 	"ffeed-feed-not-found": "Umpan $1 tidak ditemukan",
 	"ffeed-entry-not-found": "Entri umpan untuk $1 tidak ditemukan",
@@ -42,5 +44,7 @@
 	"ffeed-featuredtexts-desc": "Teks terbaik yang dimiliki {{SITENAME}}",
 	"ffeed-featuredtexts-entry": "Teks pilihan {{SITENAME}} {{LOCALDAY}} {{LOCALMONTHNAME}}",
 	"ffeed-wotd-title": "Kata Wiktionary hari ini",
-	"ffeed-wotd-short-title": "Kata hari ini"
+	"ffeed-wotd-short-title": "Kata hari ini",
+	"ffeed-wotd-desc": "Kata hari ini {{SITENAME}}",
+	"ffeed-wotd-entry": "Kata hari ini untuk {{CURRENTDAY}} {{CURRENTMONTHNAME}}"
 }

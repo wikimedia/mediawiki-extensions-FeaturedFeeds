@@ -4,10 +4,11 @@
 			"Armando-Martin",
 			"Fitoschido",
 			"Macofe",
-			"Vivaelcelta"
+			"Vivaelcelta",
+			"Jakeukalane"
 		]
 	},
-	"ffeed-desc": "Añade suministros de sindicación de contenido destacado del wiki",
+	"ffeed-desc": "Añade suministros de sindicación de contenido destacado de la wiki",
 	"ffeed-no-feed": "No se especificó el suministro.",
 	"ffeed-feed-not-found": "No se encontró el suministro $1.",
 	"ffeed-entry-not-found": "No se encontró la entrada del suministro correspondiente al $1.",
@@ -28,7 +29,7 @@
 	"ffeed-dyk-title": "Suministro «¿Sabías que…?» de {{SITENAME}}",
 	"ffeed-dyk-short-title": "¿Sabías que…?",
 	"ffeed-dyk-desc": "Del contenido más reciente de {{SITENAME}}",
-	"ffeed-dyk-entry": "¿Sabía usted?: {{LOCALDAY}} {{LOCALMONTHNAME}}",
+	"ffeed-dyk-entry": "¿Sabías qué…?: {{LOCALDAY}} {{LOCALMONTHNAME}}",
 	"ffeed-motd-title": "Suministro del archivo multimedia del día de {{SITENAME}}",
 	"ffeed-motd-short-title": "Archivo multimedia del día",
 	"ffeed-motd-desc": "Algunos de los mejores archivos multimedia en {{SITENAME}}",

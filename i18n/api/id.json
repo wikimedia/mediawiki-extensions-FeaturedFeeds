@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Daud I.F. Argana"
+		]
+	},
+	"apihelp-featuredfeed-param-feedformat": "Format umpan.",
+	"apihelp-featuredfeed-param-feed": "Nama umpan.",
+	"apihelp-featuredfeed-param-language": "Kode bahasa umpan. Diabaikan oleh beberapa umpan.",
+	"apihelp-featuredfeed-example-1": "Memperoleh umpan \"$1\""
+}

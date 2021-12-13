@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"McDutchie"
+		]
+	},
+	"apihelp-featuredfeed-description": "Retorna un fluxo de contento mittite in evidentia.",
+	"apihelp-featuredfeed-summary": "Retorna un fluxo de contento mittite in evidentia.",
+	"apihelp-featuredfeed-param-feedformat": "Le formato del fluxo.",
+	"apihelp-featuredfeed-param-feed": "Nomine del fluxo.",
+	"apihelp-featuredfeed-param-language": "Codice de lingua del fluxo. Ignorate per certe fluxos.",
+	"apihelp-featuredfeed-example-1": "Recuperar fluxo \"$1\""
+}
