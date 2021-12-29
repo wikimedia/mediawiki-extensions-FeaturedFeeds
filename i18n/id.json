@@ -11,6 +11,7 @@
 	"ffeed-feed-not-found": "Umpan $1 tidak ditemukan",
 	"ffeed-entry-not-found": "Entri umpan untuk $1 tidak ditemukan",
 	"ffeed-sidebar-section": "Umpan artikel pilihan",
+	"ffeed-invalid-timestamp": "Kop waktu umpan tidak sah",
 	"ffeed-featured-title": "Umpan artikel pilihan {{SITENAME}}",
 	"ffeed-featured-short-title": "Artikel pilihan",
 	"ffeed-featured-desc": "Artikel terbaik yang dimiliki {{SITENAME}}",
