@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Lancine.kounfantoh.fofana"
+		]
+	},
+	"ffeed-featured-short-title": "ߞߎߡߘߊ߫ ߡߊߦߋߙߋ߲ߣߍ߲",
+	"ffeed-good-short-title": "ߞߎߡߘߊ߫ ߓߘߍ",
+	"ffeed-good-desc": "{{SITENAME}} ߦߋ߫ ߞߎߡߘߊ߫ ߓߘߍ ߘߐߙߐ߲߫ ߠߋ߬ ߡߊߛߐ߫ ߟߊ߫",
+	"ffeed-onthisday-short-title": "ߟߏ߲ ߣߌ߲߬ ߡߊ߬...",
+	"ffeed-onthisday-desc": "ߘߝߐ߬ߟߊ߬ߞߊ ߖߊ߲߬ߖߏ߲ ߠߎ߬ ߟߏ߲ ߣߌ߲߬ ߡߊ߬",
+	"ffeed-onthisday-entry": "ߣߌ߲߬ ߟߏ߲ ߞߊ߲߬ߠߊ߫: {{LOCALMONTHNAME}} {{LOCALDAY}}",
+	"ffeed-dyk-short-title": "ߌ ߞߵߊ߬ ߟߐ߲߫ ߓߊ߬؟",
+	"ffeed-dyk-desc": "ߞߊ߬ ߝߘߊ߫ {{SITENAME}} ߟߊ ߞߣߐߘߐ߫ ߞߎߘߊߟߡߊ",
+	"ffeed-motd-short-title": "ߟߏ߲ ߞߟߋߞߟߋ",
+	"ffeed-motd-desc": "ߞߟߋߞߟߋ߫ ߢߌߡߊ ߘߏ߫ ߟߎ߫ {{SITENAME}} ߟߊ߫",
+	"ffeed-motd-entry": "{{SITENAME}} ߟߏ߲ ߞߟߋߞߟߋ {{LOCALMONTHNAME}} {{LOCALDAY}} ߞߊ߲߬",
+	"ffeed-potd-title": "{{SITENAME}} ߟߏ߲ ߖߌ߬ߦߊ߬ߓߍ",
+	"ffeed-potd-short-title": "ߟߏ߲ ߖߌ߬ߦߊ߬ߓߍ",
+	"ffeed-potd-desc": "ߖߌ߬ߦߊ߬ߓߍ߫ ߢߌߡߊ ߘߏ߫ ߟߎ߫ {{SITENAME}} ߞߊ߲߬",
+	"ffeed-potd-entry": "{{SITENAME}} ߟߏ߲ ߖߌ߬ߦߊ߬ߓߍ {{LOCALMONTHNAME}} {{LOCALDAY}} ߞߊ߲߬",
+	"ffeed-wotd-title": "ߥߞߌߛ߭ߐ߲ߣߍߙ ߟߏ߲ ߞߎߡߊߘߋ߲",
+	"ffeed-wotd-short-title": "ߟߏ߲ ߞߎߡߊߘߋ߲",
+	"ffeed-wotd-desc": "{{SITENAME}} ߟߏ߲ ߞߎߡߊߘߋ߲"
+}
