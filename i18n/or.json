@@ -19,7 +19,7 @@
 	"ffeed-featured-entry": "{{LOCALMONTHNAME}} {{LOCALDAY}} {{SITENAME}} ବିଶେଷ ଲେଖା",
 	"ffeed-good-title": "{{SITENAME}} ଭଲ ଲେଖାଗୁଡିକର ମନ୍ତବ୍ୟ",
 	"ffeed-good-short-title": "ଭଲ ଲେଖାଗୁଡିକ",
-	"ffeed-good-desc": "ଭଲ ଲେଖାଗୁଡିକର {{SITENAME}} କୁ ଦିଆଯିବ",
+	"ffeed-good-desc": "{{SITENAME}}‌ରେ ଥିବା ଭଲ ଲେଖା",
 	"ffeed-good-entry": "{{LOCALMONTHNAME}} {{LOCALDAY}} {{SITENAME}} ଭଲ ଲେଖା",
 	"ffeed-onthisday-title": "{{SITENAME}} \"ଏହିଦିନର...\" ମନ୍ତବ୍ୟ",
 	"ffeed-onthisday-short-title": "ଏହି ଦିନରେ...",
