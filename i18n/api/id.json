@@ -4,6 +4,8 @@
 			"Daud I.F. Argana"
 		]
 	},
+	"apihelp-featuredfeed-description": "Menghasilkan sebuah umpan konten pilihan.",
+	"apihelp-featuredfeed-summary": "Menghasilkan sebuah umpan konten pilihan.",
 	"apihelp-featuredfeed-param-feedformat": "Format umpan.",
 	"apihelp-featuredfeed-param-feed": "Nama umpan.",
 	"apihelp-featuredfeed-param-language": "Kode bahasa umpan. Diabaikan oleh beberapa umpan.",
