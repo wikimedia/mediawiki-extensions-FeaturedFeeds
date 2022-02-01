@@ -4,6 +4,9 @@
 			"Lancine.kounfantoh.fofana"
 		]
 	},
+	"ffeed-no-feed": "ߥߎ߬ߝߊ߲ ߡߊ߫ ߞߙߍߞߙߍ߫.",
+	"ffeed-feed-not-found": "ߥߎ߬ߝߊ߲ $1 ߡߊ߫ ߛߐ߬ߘߐ߲߫.",
+	"ffeed-entry-not-found": "ߥߎ߬ߝߊ߲ ߟߊ߬ߘߏ߲߬ߠߌ߲ $1 ߢߍ߫߸ ߡߊ߫ ߛߐ߬ߘߐ߲߫.",
 	"ffeed-featured-short-title": "ߞߎߡߘߊ߫ ߡߊߦߋߙߋ߲ߣߍ߲",
 	"ffeed-good-short-title": "ߞߎߡߘߊ߫ ߓߘߍ",
 	"ffeed-good-desc": "{{SITENAME}} ߦߋ߫ ߞߎߡߘߊ߫ ߓߘߍ ߘߐߙߐ߲߫ ߠߋ߬ ߡߊߛߐ߫ ߟߊ߫",
