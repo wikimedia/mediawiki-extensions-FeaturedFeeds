@@ -6,6 +6,7 @@ use ApiBase;
 use ApiFormatFeedWrapper;
 use Language;
 use Title;
+use Wikimedia\ParamValidator\ParamValidator;
 
 class ApiFeaturedFeeds extends ApiBase {
 	public function __construct( $main, $action ) {
@@ -56,15 +57,15 @@ class ApiFeaturedFeeds extends ApiBase {
 		$availableFeeds = array_keys( FeaturedFeeds::getFeeds( false ) );
 		return [
 			'feedformat' => [
-				ApiBase::PARAM_DFLT => 'rss',
-				ApiBase::PARAM_TYPE => $feedFormatNames
+				ParamValidator::PARAM_DEFAULT => 'rss',
+				ParamValidator::PARAM_TYPE => $feedFormatNames
 			],
 			'feed' => [
-				ApiBase::PARAM_TYPE => $availableFeeds,
-				ApiBase::PARAM_REQUIRED => true,
+				ParamValidator::PARAM_TYPE => $availableFeeds,
+				ParamValidator::PARAM_REQUIRED => true,
 			],
 			'language' => [
-				ApiBase::PARAM_TYPE => 'string',
+				ParamValidator::PARAM_TYPE => 'string',
 			]
 		];
 	}
