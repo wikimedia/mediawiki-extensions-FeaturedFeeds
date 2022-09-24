@@ -129,8 +129,8 @@ class FeaturedFeedChannel {
 	 * @return Language
 	 */
 	public function getLanguage() {
-		// factory() is cached
-		return Language::factory( $this->languageCode );
+		return MediaWikiServices::getInstance()->getLanguageFactory()
+			->getLanguage( $this->languageCode );
 	}
 
 	public function init() {

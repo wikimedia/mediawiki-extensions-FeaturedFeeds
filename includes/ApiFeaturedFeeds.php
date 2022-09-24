@@ -4,7 +4,7 @@ namespace MediaWiki\Extension\FeaturedFeeds;
 
 use ApiBase;
 use ApiFormatFeedWrapper;
-use Language;
+use MediaWiki\MediaWikiServices;
 use Title;
 use Wikimedia\ParamValidator\ParamValidator;
 
@@ -32,7 +32,9 @@ class ApiFeaturedFeeds extends ApiBase {
 		}
 
 		$language = $params['language'] ?? false;
-		if ( $language !== false && !Language::isValidCode( $language ) ) {
+		if ( $language !== false &&
+			!MediaWikiServices::getInstance()->getLanguageNameUtils()->isValidCode( $language )
+		) {
 			$language = false;
 		}
 		$feeds = FeaturedFeeds::getFeeds( $language );

@@ -6,7 +6,6 @@ use DateTime;
 use DateTimeZone;
 use Exception;
 use Hooks;
-use Language;
 use MediaWiki\MediaWikiServices;
 use MWTimestamp;
 use OutputPage;
@@ -31,7 +30,7 @@ class FeaturedFeeds {
 		if (
 			!$langCode ||
 			self::allInContentLanguage() ||
-			!Language::isValidBuiltInCode( $langCode )
+			!MediaWikiServices::getInstance()->getLanguageNameUtils()->isValidBuiltInCode( $langCode )
 		) {
 			$langCode = $wgLanguageCode;
 		}
