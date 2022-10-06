@@ -3,7 +3,8 @@
 		"authors": [
 			"Abbas dhothar",
 			"BaRaN6161 TURK",
-			"Khalid Mahmood"
+			"Khalid Mahmood",
+			"Bgo eiu"
 		]
 	},
 	"ffeed-desc": "وکی دے فیچرڈ لکھتاں وچ سنڈیکیشن رلاؤ",
@@ -25,7 +26,7 @@
 	"ffeed-onthisday-desc": "ایس دن دیاں تریخی گلاں",
 	"ffeed-onthisday-entry": "اس دن نوں: {{LOCALMONTHNAME}} {{LOCALDAY}}",
 	"ffeed-dyk-title": "{{SITENAME}} \"کیہ تسین جاندے سی?\" دسو",
-	"ffeed-dyk-short-title": "کیہ تسی جاندے او؟",
+	"ffeed-dyk-short-title": "کیہ تسیں جاندے او؟",
 	"ffeed-dyk-desc": "{{SITENAME}} دیاں سب توں نویاں تبدیلیاں توں",
-	"ffeed-dyk-entry": "کیا تسی جاندے او ?: {{LOCALMONTHNAME}} {{LOCALDAY}}"
+	"ffeed-dyk-entry": "کیا تسیں جاݨدے او؟: {{LOCALMONTHNAME}} {{LOCALDAY}}"
 }
