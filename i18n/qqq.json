@@ -5,7 +5,8 @@
 			"Mormegil",
 			"Purodha",
 			"Shirayuki",
-			"Umherirrender"
+			"Umherirrender",
+			"Verdy p"
 		]
 	},
 	"ffeed-desc": "{{desc|name=Featured Feeds|url=https://www.mediawiki.org/wiki/Extension:FeaturedFeeds}}",
@@ -22,7 +23,7 @@
 	"ffeed-featured-entry": "Title of day's entry in the Featured Articles [[w:web feed|syndication feed]]",
 	"ffeed-good-page": "{{notranslate}}",
 	"ffeed-good-title": "Title of the Good Articles [[w:web feed|syndication feed]]",
-	"ffeed-good-short-title": "Short title of the good articles",
+	"ffeed-good-short-title": "Short title of the good articles\n{{Identical|Good}}",
 	"ffeed-good-desc": "Description of the Good Articles [[w:web feed|syndication feed]]",
 	"ffeed-good-entry": "Title of day's entry in the Good Articles [[w:web feed|syndication feed]]",
 	"ffeed-onthisday-page": "{{notranslate}}",
