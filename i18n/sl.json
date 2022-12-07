@@ -12,7 +12,7 @@
 	"ffeed-feed-not-found": "Podajalnik $1 ni bil najden.",
 	"ffeed-entry-not-found": "Ne najdem vira za $1.",
 	"ffeed-sidebar-section": "Podajalniki izbrane vsebine",
-	"ffeed-invalid-timestamp": "Neveljaven časovni žig podajalnika",
+	"ffeed-invalid-timestamp": "Neveljaven časovni žig podajalnika.",
 	"ffeed-featured-title": "Podajalnik izbranih člankov projekta {{SITENAME}}",
 	"ffeed-featured-short-title": "Izbrani članki",
 	"ffeed-featured-desc": "Najboljši članki, ki jih lahko ponudi {{SITENAME}}",
