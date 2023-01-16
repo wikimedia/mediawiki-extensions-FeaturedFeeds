@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eleassar"
+		]
+	},
+	"apihelp-featuredfeed-description": "Vrne vir izbrane vsebine.",
+	"apihelp-featuredfeed-summary": "Vrne vir izbrane vsebine.",
+	"apihelp-featuredfeed-param-feedformat": "Format vira.",
+	"apihelp-featuredfeed-param-feed": "Ime vira.",
+	"apihelp-featuredfeed-param-language": "Oznaka jezika vira. Nekateri viri to prezrejo.",
+	"apihelp-featuredfeed-example-1": "Pridobitev vira »$1«"
+}
