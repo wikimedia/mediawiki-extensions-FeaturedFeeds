@@ -3,7 +3,8 @@
 		"authors": [
 			"Ainali",
 			"Lokal Profil",
-			"WikiPhoenix"
+			"WikiPhoenix",
+			"Jon Harald Søby"
 		]
 	},
 	"ffeed-desc": "Lägger till sammanslagningsflöden av wikins viktigaste innehåll",
@@ -26,7 +27,7 @@
 	"ffeed-onthisday-entry": "På denna dag: {{LOCALDAY}} {{LOCALMONTHNAME}}",
 	"ffeed-dyk-title": "{{SITENAME}} \"Visste du att...?\"-flöde",
 	"ffeed-dyk-short-title": "Visste du att...?",
-	"ffeed-dyk-desc": "Från {{SITENAME}}s senaste innehåll",
+	"ffeed-dyk-desc": "Från {{GRAMMAR:genitive|{{SITENAME}}}} senaste innehåll",
 	"ffeed-dyk-entry": "Visste du att...?: {{LOCALMONTHNAME}} {{LOCALDAY}}",
 	"ffeed-motd-title": "{{SITENAME}} flöde för dagens media",
 	"ffeed-motd-short-title": "Dagens mediafil",
