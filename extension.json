@@ -17,9 +17,14 @@
 		"featuredfeed": "MediaWiki\\Extension\\FeaturedFeeds\\ApiFeaturedFeeds"
 	},
 	"Hooks": {
-		"BeforePageDisplay": "MediaWiki\\Extension\\FeaturedFeeds\\FeaturedFeeds::beforePageDisplay",
+		"BeforePageDisplay": "FeaturedFeedsHooks",
 		"PageSaveComplete": "MediaWiki\\Extension\\FeaturedFeeds\\FeaturedFeeds::onPageSaveComplete",
 		"SidebarBeforeOutput": "MediaWiki\\Extension\\FeaturedFeeds\\FeaturedFeeds::onSidebarBeforeOutput"
+	},
+	"HookHandlers": {
+		"FeaturedFeedsHooks": {
+			"class": "MediaWiki\\Extension\\FeaturedFeeds\\FeaturedFeeds"
+		}
 	},
 	"MessagesDirs": {
 		"FeaturedFeeds": [

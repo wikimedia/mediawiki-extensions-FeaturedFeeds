@@ -5,16 +5,17 @@ namespace MediaWiki\Extension\FeaturedFeeds;
 use DateTime;
 use DateTimeZone;
 use Exception;
+use MediaWiki\Hook\BeforePageDisplayHook;
+use MediaWiki\MainConfigNames;
 use MediaWiki\MediaWikiServices;
 use MWTimestamp;
-use OutputPage;
 use Skin;
 use Title;
 use WANObjectCache;
 use Wikimedia\AtEase\AtEase;
 use WikiPage;
 
-class FeaturedFeeds {
+class FeaturedFeeds implements BeforePageDisplayHook {
 	private static $allInContLang = null;
 
 	/**
@@ -104,16 +105,15 @@ class FeaturedFeeds {
 	/**
 	 * Adds feeds to the page header
 	 *
-	 * @param OutputPage &$out
-	 * @return bool
+	 * {@inheritDoc}
 	 */
-	public static function beforePageDisplay( OutputPage &$out ) {
-		global $wgAdvertisedFeedTypes;
+	public function onBeforePageDisplay( $out, $skin ): void {
 		if ( $out->getTitle()->isMainPage() ) {
 			$feeds = self::getFeedsQuick( $out->getLanguage()->getCode() );
+			$advertisedFeedTypes = $out->getConfig()->get( MainConfigNames::AdvertisedFeedTypes );
 			/** @var FeaturedFeedChannel $feed */
 			foreach ( $feeds as $feed ) {
-				foreach ( $wgAdvertisedFeedTypes as $type ) {
+				foreach ( $advertisedFeedTypes as $type ) {
 					$out->addLink( [
 						'rel' => 'alternate',
 						'type' => "application/$type+xml",
@@ -123,7 +123,6 @@ class FeaturedFeeds {
 				}
 			}
 		}
-		return true;
 	}
 
 	/**
