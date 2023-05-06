@@ -5,7 +5,6 @@ namespace MediaWiki\Extension\FeaturedFeeds;
 use DateTime;
 use DateTimeZone;
 use Exception;
-use Hooks;
 use MediaWiki\MediaWikiServices;
 use MWTimestamp;
 use OutputPage;
@@ -75,7 +74,7 @@ class FeaturedFeeds {
 		static $feedDefs = false;
 		if ( $feedDefs === false ) {
 			$feedDefs = $wgFeaturedFeeds;
-			Hooks::run( 'FeaturedFeeds::getFeeds', [ &$feedDefs ] );
+			MediaWikiServices::getInstance()->getHookContainer()->run( 'FeaturedFeeds::getFeeds', [ &$feedDefs ] );
 
 			// fill defaults
 			self::$allInContLang = true;
