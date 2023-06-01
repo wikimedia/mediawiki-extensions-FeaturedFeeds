@@ -4,5 +4,11 @@
 			"Joao Xavier"
 		]
 	},
-	"ffeed-good-short-title": "Bon artikli"
+	"ffeed-good-short-title": "Bon artikli",
+	"ffeed-motd-title": "''feed'' pri l'arkivo dil dio, che {{SITENAME}}",
+	"ffeed-potd-title": "''Feed'' dil \"imajo dil dio\", che {{SITENAME}}",
+	"ffeed-potd-short-title": "Imajo dil dio",
+	"ffeed-potd-entry": "L'''imajo dil dio'' ye {{LOCALDAY}}ma di {{LOCALMONTHNAME}}, che {{SITENAME}}",
+	"ffeed-qotd-title": "''Feed'' di la \"citajo dil dio\", che {{SITENAME}}",
+	"ffeed-qotd-entry": "La citajo dil dio, por la dio {{LOCALDAY}} {{LOCALMONTHNAME}}, che  {{SITENAME}}"
 }
