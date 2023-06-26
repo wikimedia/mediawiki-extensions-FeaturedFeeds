@@ -4,7 +4,6 @@
 			"Ykhwong"
 		]
 	},
-	"apihelp-featuredfeed-description": "알찬 글 피드를 반환합니다.",
 	"apihelp-featuredfeed-summary": "알찬 글 피드를 반환합니다.",
 	"apihelp-featuredfeed-param-feedformat": "피드의 포맷입니다.",
 	"apihelp-featuredfeed-param-feed": "피드 이름입니다.",

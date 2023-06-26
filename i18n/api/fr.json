@@ -7,7 +7,6 @@
 			"Windes"
 		]
 	},
-	"apihelp-featuredfeed-description": "Renvoie un flux de contenu mis en vedette.",
 	"apihelp-featuredfeed-summary": "Renvoie un flux du contenu mis en vedette.",
 	"apihelp-featuredfeed-param-feedformat": "Le format du flux.",
 	"apihelp-featuredfeed-param-feed": "Nom du flux.",

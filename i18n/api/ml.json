@@ -4,7 +4,6 @@
 			"Praveenp"
 		]
 	},
-	"apihelp-featuredfeed-description": "തിരഞ്ഞെടുക്കപ്പെട്ട ഉള്ളടക്കത്തിന്റെ ഫീഡ് നൽകുന്നു.",
 	"apihelp-featuredfeed-summary": "തിരഞ്ഞെടുക്കപ്പെട്ട ഉള്ളടക്കത്തിന്റെ ഫീഡ് നൽകുന്നു.",
 	"apihelp-featuredfeed-param-feedformat": "ഫീഡിന്റെ രീതി.",
 	"apihelp-featuredfeed-param-feed": "ഫീഡിന്റെ പേര്.",

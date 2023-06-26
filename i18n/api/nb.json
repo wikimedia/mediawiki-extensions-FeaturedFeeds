@@ -4,7 +4,6 @@
 			"Jon Harald Søby"
 		]
 	},
-	"apihelp-featuredfeed-description": "Gir en mating med utmerket innhold",
 	"apihelp-featuredfeed-summary": "Returnerer en mating med utmerket innhold.",
 	"apihelp-featuredfeed-param-feedformat": "Matingens format.",
 	"apihelp-featuredfeed-param-feed": "Matingsnavn.",

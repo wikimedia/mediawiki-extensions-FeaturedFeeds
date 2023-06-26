@@ -5,7 +5,6 @@
 			"WikiPhoenix"
 		]
 	},
-	"apihelp-featuredfeed-description": "Returnerar ett flöde för utvalt innehåll.",
 	"apihelp-featuredfeed-summary": "Returnerar ett flöde för utvalt innehåll.",
 	"apihelp-featuredfeed-param-feedformat": "Formatet på flödet.",
 	"apihelp-featuredfeed-param-feed": "Flödesnamn.",

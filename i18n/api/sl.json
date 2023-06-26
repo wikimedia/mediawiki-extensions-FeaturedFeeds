@@ -4,7 +4,6 @@
 			"Eleassar"
 		]
 	},
-	"apihelp-featuredfeed-description": "Vrne vir izbrane vsebine.",
 	"apihelp-featuredfeed-summary": "Vrne vir izbrane vsebine.",
 	"apihelp-featuredfeed-param-feedformat": "Format vira.",
 	"apihelp-featuredfeed-param-feed": "Ime vira.",

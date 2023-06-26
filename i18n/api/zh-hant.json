@@ -5,7 +5,6 @@
 			"LNDDYL"
 		]
 	},
-	"apihelp-featuredfeed-description": "回傳特色內容摘要。",
 	"apihelp-featuredfeed-summary": "回傳特色內容摘要。",
 	"apihelp-featuredfeed-param-feedformat": "摘要格式。",
 	"apihelp-featuredfeed-param-feed": "摘要名稱。",

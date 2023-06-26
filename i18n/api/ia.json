@@ -4,7 +4,6 @@
 			"McDutchie"
 		]
 	},
-	"apihelp-featuredfeed-description": "Retorna un fluxo de contento mittite in evidentia.",
 	"apihelp-featuredfeed-summary": "Retorna un fluxo de contento mittite in evidentia.",
 	"apihelp-featuredfeed-param-feedformat": "Le formato del fluxo.",
 	"apihelp-featuredfeed-param-feed": "Nomine del fluxo.",

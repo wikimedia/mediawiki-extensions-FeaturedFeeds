@@ -4,7 +4,6 @@
 			"Xuacu"
 		]
 	},
-	"apihelp-featuredfeed-description": "Devuelve una canal de noticies de conteníu destacáu",
 	"apihelp-featuredfeed-summary": "Devuelve una canal de noticies de conteníu destacáu",
 	"apihelp-featuredfeed-param-feedformat": "El formatu de la canal.",
 	"apihelp-featuredfeed-param-feed": "Nome de la canal.",

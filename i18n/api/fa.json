@@ -4,7 +4,6 @@
 			"Ladsgroup"
 		]
 	},
-	"apihelp-featuredfeed-description": "یک فید از محتوای برگزیده را باز می‌گرداند.",
 	"apihelp-featuredfeed-summary": "یک فید از محتوای برگزیده را باز می‌گرداند..",
 	"apihelp-featuredfeed-param-feedformat": "قالب خوراک.",
 	"apihelp-featuredfeed-param-feed": "نام خوراک",

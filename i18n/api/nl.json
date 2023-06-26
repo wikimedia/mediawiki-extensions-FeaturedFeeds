@@ -7,7 +7,6 @@
 			"Siebrand"
 		]
 	},
-	"apihelp-featuredfeed-description": "Geeft een feed met uitgelichte inhoud terug.",
 	"apihelp-featuredfeed-summary": "Geeft een feed met uitgelichte inhoud terug.",
 	"apihelp-featuredfeed-param-feedformat": "De indeling van de feed.",
 	"apihelp-featuredfeed-param-feed": "Feednaam.",

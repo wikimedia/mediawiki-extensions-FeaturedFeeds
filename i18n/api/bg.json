@@ -4,7 +4,6 @@
 			"StanProg"
 		]
 	},
-	"apihelp-featuredfeed-description": "Връща хранилка за избрано съдържание.",
 	"apihelp-featuredfeed-summary": "Връща хранилка за избрано съдържание.",
 	"apihelp-featuredfeed-param-feedformat": "Форматът на хранилката.",
 	"apihelp-featuredfeed-param-feed": "Наименование на хранилка.",

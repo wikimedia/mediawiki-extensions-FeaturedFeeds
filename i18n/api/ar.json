@@ -5,7 +5,6 @@
 			"Meno25"
 		]
 	},
-	"apihelp-featuredfeed-description": "يعطي تلقيماً للمحتوى المختار.",
 	"apihelp-featuredfeed-summary": "يرجع تلقيما للمحتوى المختار.",
 	"apihelp-featuredfeed-param-feedformat": "هيئة التلقيم.",
 	"apihelp-featuredfeed-param-feed": "اسم التلقيم.",
