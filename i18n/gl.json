@@ -44,7 +44,7 @@
 	"ffeed-featuredtexts-short-title": "Textos destacados",
 	"ffeed-featuredtexts-desc": "Os mellores textos que ofrece {{SITENAME}}",
 	"ffeed-featuredtexts-entry": "Texto destacado de {{SITENAME}} o {{LOCALDAY}} de {{LOCALMONTHNAME}}",
-	"ffeed-wotd-title": "Palabra do día no Galicionario",
+	"ffeed-wotd-title": "Palabra do día no Galizionario",
 	"ffeed-wotd-short-title": "Palabra do día",
 	"ffeed-wotd-desc": "Palabra do día en {{SITENAME}}",
 	"ffeed-wotd-entry": "Palabra do día {{CURRENTDAY}} de {{CURRENTMONTHNAME}}"
