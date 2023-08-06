@@ -5,6 +5,7 @@ namespace MediaWiki\Extension\FeaturedFeeds;
 use DateTime;
 use DateTimeZone;
 use Exception;
+use MediaWiki\Extension\FeaturedFeeds\Hooks\HookRunner;
 use MediaWiki\Hook\BeforePageDisplayHook;
 use MediaWiki\MainConfigNames;
 use MediaWiki\MediaWikiServices;
@@ -75,7 +76,8 @@ class FeaturedFeeds implements BeforePageDisplayHook {
 		static $feedDefs = false;
 		if ( $feedDefs === false ) {
 			$feedDefs = $wgFeaturedFeeds;
-			MediaWikiServices::getInstance()->getHookContainer()->run( 'FeaturedFeeds::getFeeds', [ &$feedDefs ] );
+			( new HookRunner( MediaWikiServices::getInstance()->getHookContainer() ) )
+				->onFeaturedFeeds__getFeeds( $feedDefs );
 
 			// fill defaults
 			self::$allInContLang = true;
