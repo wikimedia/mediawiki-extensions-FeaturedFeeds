@@ -5,7 +5,7 @@ namespace MediaWiki\Extension\FeaturedFeeds;
 use ApiBase;
 use ApiFormatFeedWrapper;
 use MediaWiki\MediaWikiServices;
-use Title;
+use MediaWiki\Title\Title;
 use Wikimedia\ParamValidator\ParamValidator;
 
 class ApiFeaturedFeeds extends ApiBase {
