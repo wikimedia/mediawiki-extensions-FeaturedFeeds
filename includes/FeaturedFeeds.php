@@ -7,16 +7,25 @@ use DateTimeZone;
 use Exception;
 use MediaWiki\Extension\FeaturedFeeds\Hooks\HookRunner;
 use MediaWiki\Hook\BeforePageDisplayHook;
+use MediaWiki\Hook\SidebarBeforeOutputHook;
 use MediaWiki\MainConfigNames;
 use MediaWiki\MediaWikiServices;
+use MediaWiki\Revision\RevisionRecord;
+use MediaWiki\Storage\EditResult;
+use MediaWiki\Storage\Hook\PageSaveCompleteHook;
 use MediaWiki\Title\Title;
+use MediaWiki\User\UserIdentity;
 use MWTimestamp;
 use Skin;
 use WANObjectCache;
 use Wikimedia\AtEase\AtEase;
 use WikiPage;
 
-class FeaturedFeeds implements BeforePageDisplayHook {
+class FeaturedFeeds implements
+	BeforePageDisplayHook,
+	PageSaveCompleteHook,
+	SidebarBeforeOutputHook
+{
 	private static $allInContLang = null;
 
 	/**
@@ -133,7 +142,7 @@ class FeaturedFeeds implements BeforePageDisplayHook {
 	 * @param Skin $skin
 	 * @param array &$sidebar
 	 */
-	public static function onSidebarBeforeOutput( Skin $skin, &$sidebar ) {
+	public function onSidebarBeforeOutput( $skin, &$sidebar ): void {
 		global $wgDisplayFeedsInSidebar, $wgAdvertisedFeedTypes;
 
 		if ( !$skin->getTitle()->isMainPage() ) {
@@ -166,13 +175,14 @@ class FeaturedFeeds implements BeforePageDisplayHook {
 	/**
 	 * Purges cache on message edit
 	 *
-	 * @note used for both PageContentSaveComplete (before mediawiki 1.35) and PageSaveComplete
-	 * (starting with 1.35); both hooks pass extra parameters, but only the wikipage is needed
-	 *
 	 * @param WikiPage $wikiPage
-	 * @return bool
+	 * @param UserIdentity $user
+	 * @param string $summary
+	 * @param int $flags
+	 * @param RevisionRecord $revisionRecord
+	 * @param EditResult $editResult
 	 */
-	public static function onPageSaveComplete( WikiPage $wikiPage ) {
+	public function onPageSaveComplete( $wikiPage, $user, $summary, $flags, $revisionRecord, $editResult ) {
 		$title = $wikiPage->getTitle();
 		$cache = MediaWikiServices::getInstance()->getMainWANObjectCache();
 		// Although message names are configurable and can be set not to start with 'Ffeed', we
@@ -186,12 +196,11 @@ class FeaturedFeeds implements BeforePageDisplayHook {
 					if ( $nt->equals( $baseTitle ) ) {
 						wfDebug( "FeaturedFeeds-related page {$title->getFullText()} edited, purging cache\n" );
 						$cache->touchCheckKey( self::getCacheKey( $cache, '*' ) );
-						return true;
+						return;
 					}
 				}
 			}
 		}
-		return true;
 	}
 
 	/**
