@@ -18,8 +18,8 @@
 	},
 	"Hooks": {
 		"BeforePageDisplay": "FeaturedFeedsHooks",
-		"PageSaveComplete": "MediaWiki\\Extension\\FeaturedFeeds\\FeaturedFeeds::onPageSaveComplete",
-		"SidebarBeforeOutput": "MediaWiki\\Extension\\FeaturedFeeds\\FeaturedFeeds::onSidebarBeforeOutput"
+		"PageSaveComplete": "FeaturedFeedsHooks",
+		"SidebarBeforeOutput": "FeaturedFeedsHooks"
 	},
 	"HookHandlers": {
 		"FeaturedFeedsHooks": {
