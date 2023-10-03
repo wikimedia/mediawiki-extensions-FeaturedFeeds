@@ -36,7 +36,7 @@
 	"ffeed-motd-short-title": "Көн рәсеме",
 	"ffeed-motd-desc": "{{SITENAME}} сайтының яҡшы материалдарының бер ни тиклеме",
 	"ffeed-motd-entry": "{{LOCALDAY}} {{LOCALMONTHNAMEGEN}} өсөн {{SITENAME}} сайтының Көн рәсеме",
-	"ffeed-potd-title": "{{SITENAME} сайтында «Көн рәсеме» каналы",
+	"ffeed-potd-title": "{{SITENAME}} сайтының «Көн рәсеме» каналы",
 	"ffeed-potd-short-title": "Көн рәсеме",
 	"ffeed-potd-desc": "{{SITENAME}} сайтының иң яҡшы рәсемдәренең береһе",
 	"ffeed-potd-entry": "{{LOCALMONTHNAME}} {{LOCALDAY}} өсөн {{SITENAME}} сайты рәсеме",
