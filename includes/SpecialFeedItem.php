@@ -2,7 +2,6 @@
 
 namespace MediaWiki\Extension\FeaturedFeeds;
 
-use Exception;
 use MWTimestamp;
 use UnlistedSpecialPage;
 use WANObjectCache;
@@ -86,12 +85,7 @@ class SpecialFeedItem extends UnlistedSpecialPage {
 		if ( strlen( $date ) !== 14 ) {
 			return false;
 		}
-		try {
-			$ts = new MWTimestamp( $date );
-		} catch ( Exception $ex ) {
-			return false;
-		}
-		return $ts->getTimestamp();
+		return MWTimestamp::convert( TS_UNIX, $date );
 	}
 
 	private function displayItem( FeaturedFeedItem $item ) {
