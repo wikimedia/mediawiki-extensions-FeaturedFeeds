@@ -15,7 +15,7 @@ use MediaWiki\Storage\EditResult;
 use MediaWiki\Storage\Hook\PageSaveCompleteHook;
 use MediaWiki\Title\Title;
 use MediaWiki\User\UserIdentity;
-use MWTimestamp;
+use MediaWiki\Utils\MWTimestamp;
 use Skin;
 use WANObjectCache;
 use Wikimedia\AtEase\AtEase;

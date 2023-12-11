@@ -6,12 +6,12 @@ use Exception;
 use Language;
 use MediaWiki\MediaWikiServices;
 use MediaWiki\Revision\SlotRecord;
+use MediaWiki\SpecialPage\SpecialPage;
 use MediaWiki\Title\Title;
+use MediaWiki\Utils\MWTimestamp;
 use Message;
-use MWTimestamp;
 use Parser;
 use ParserOptions;
-use SpecialPage;
 use TextContent;
 
 class FeaturedFeedChannel {
