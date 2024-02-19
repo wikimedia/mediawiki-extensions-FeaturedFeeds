@@ -4,7 +4,6 @@ namespace MediaWiki\Extension\FeaturedFeeds;
 
 use DateTime;
 use DateTimeZone;
-use Exception;
 use MediaWiki\Extension\FeaturedFeeds\Hooks\HookRunner;
 use MediaWiki\Hook\BeforePageDisplayHook;
 use MediaWiki\Hook\SidebarBeforeOutputHook;
@@ -208,7 +207,6 @@ class FeaturedFeeds implements
 	 *
 	 * @param string $langCode
 	 * @return FeaturedFeedChannel[]
-	 * @throws Exception
 	 */
 	private static function getFeedsQuick( $langCode ) {
 		$feedDefs = self::getFeedDefinitions();
@@ -228,7 +226,6 @@ class FeaturedFeeds implements
 	/**
 	 * @param string $langCode
 	 * @return array[]
-	 * @throws Exception
 	 */
 	private static function getFeedsInternal( $langCode ) {
 		$feeds = self::getFeedsQuick( $langCode );

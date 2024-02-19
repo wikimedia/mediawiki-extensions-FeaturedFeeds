@@ -2,7 +2,6 @@
 
 namespace MediaWiki\Extension\FeaturedFeeds;
 
-use Exception;
 use Language;
 use MediaWiki\MediaWikiServices;
 use MediaWiki\Revision\SlotRecord;
@@ -13,6 +12,7 @@ use Message;
 use Parser;
 use ParserOptions;
 use TextContent;
+use UnexpectedValueException;
 
 class FeaturedFeedChannel {
 	/**
@@ -175,7 +175,7 @@ class FeaturedFeedChannel {
 					$baseTime = FeaturedFeeds::startOfThisWeek();
 					break;
 				default:
-					throw new Exception( "'{$this->options['frequency']}' is not a valid frequency" );
+					throw new UnexpectedValueException( "'{$this->options['frequency']}' is not a valid frequency" );
 			}
 			for ( $i = 1 - $this->options['limit']; $i <= 0; $i++ ) {
 				$timestamp = $baseTime + $i * $ratio * 24 * 3600;
