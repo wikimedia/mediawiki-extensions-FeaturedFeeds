@@ -29,7 +29,7 @@ class SpecialFeedItem extends UnlistedSpecialPage {
 			$out->showErrorPage( 'error', 'ffeed-no-feed' );
 			return;
 		}
-		list( $feedName, $date, $langCode ) = $parts;
+		[ $feedName, $date, $langCode ] = $parts;
 		$feeds = FeaturedFeeds::getFeeds( $langCode );
 		if ( !isset( $feeds[$feedName] ) ) {
 			$out->showErrorPage( 'error', 'ffeed-feed-not-found', [ $feedName ] );
