@@ -4,12 +4,12 @@ namespace MediaWiki\Extension\FeaturedFeeds;
 
 use Language;
 use MediaWiki\MediaWikiServices;
+use MediaWiki\Message\Message;
+use MediaWiki\Parser\Parser;
 use MediaWiki\Revision\SlotRecord;
 use MediaWiki\SpecialPage\SpecialPage;
 use MediaWiki\Title\Title;
 use MediaWiki\Utils\MWTimestamp;
-use Message;
-use Parser;
 use ParserOptions;
 use TextContent;
 use UnexpectedValueException;
