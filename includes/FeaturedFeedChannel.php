@@ -24,20 +24,29 @@ class FeaturedFeedChannel {
 	 * @var Parser
 	 */
 	private static $parser;
+	/** @var string */
 	private $languageCode;
 
+	/** @var string */
 	private $name;
+	/** @var array */
 	private $options;
 	/**
 	 * @var FeaturedFeedItem[]|false
 	 */
 	private $items = false;
+	/** @var string|false */
 	private $page = false;
+	/** @var string|false */
 	private $entryName = false;
+	/** @var Title|false */
 	private $titleForParse = false;
 
+	/** @var string|false */
 	public $title = false;
+	/** @var string|false */
 	public $shortTitle = false;
+	/** @var string|false */
 	public $description = false;
 
 	/**

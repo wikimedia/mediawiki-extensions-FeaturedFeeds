@@ -25,6 +25,7 @@ class FeaturedFeeds implements
 	PageSaveCompleteHook,
 	SidebarBeforeOutputHook
 {
+	/** @var bool|null */
 	private static $allInContLang = null;
 
 	/**
