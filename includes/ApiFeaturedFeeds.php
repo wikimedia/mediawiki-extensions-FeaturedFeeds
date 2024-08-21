@@ -4,6 +4,7 @@ namespace MediaWiki\Extension\FeaturedFeeds;
 
 use ApiBase;
 use ApiFormatFeedWrapper;
+use MediaWiki\MainConfigNames;
 use MediaWiki\MediaWikiServices;
 use MediaWiki\Title\Title;
 use Wikimedia\ParamValidator\ParamValidator;
@@ -25,9 +26,9 @@ class ApiFeaturedFeeds extends ApiBase {
 	public function execute() {
 		$params = $this->extractRequestParams();
 
-		global $wgFeedClasses;
+		$feedClasses = $this->getConfig()->get( MainConfigNames::FeedClasses );
 
-		if ( !isset( $wgFeedClasses[$params['feedformat']] ) ) {
+		if ( !isset( $feedClasses[$params['feedformat']] ) ) {
 			$this->dieWithError( 'feed-invalid' );
 		}
 
@@ -40,7 +41,7 @@ class ApiFeaturedFeeds extends ApiBase {
 		$feeds = FeaturedFeeds::getFeeds( $language );
 		$ourFeed = $feeds[$params['feed']];
 
-		$feedClass = new $wgFeedClasses[$params['feedformat']] (
+		$feedClass = new $feedClasses[$params['feedformat']] (
 			$ourFeed->title,
 			$ourFeed->description,
 			wfExpandUrl( Title::newMainPage()->getFullURL() )
@@ -54,8 +55,7 @@ class ApiFeaturedFeeds extends ApiBase {
 	}
 
 	public function getAllowedParams() {
-		global $wgFeedClasses;
-		$feedFormatNames = array_keys( $wgFeedClasses );
+		$feedFormatNames = array_keys( $this->getConfig()->get( MainConfigNames::FeedClasses ) );
 		$availableFeeds = array_keys( FeaturedFeeds::getFeeds( false ) );
 		return [
 			'feedformat' => [
