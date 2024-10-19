@@ -4,7 +4,7 @@ namespace MediaWiki\Extension\FeaturedFeeds;
 
 use MediaWiki\SpecialPage\UnlistedSpecialPage;
 use MediaWiki\Utils\MWTimestamp;
-use WANObjectCache;
+use Wikimedia\ObjectCache\WANObjectCache;
 
 class SpecialFeedItem extends UnlistedSpecialPage {
 

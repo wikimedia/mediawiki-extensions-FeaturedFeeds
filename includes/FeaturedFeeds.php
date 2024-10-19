@@ -16,8 +16,8 @@ use MediaWiki\Title\Title;
 use MediaWiki\User\UserIdentity;
 use MediaWiki\Utils\MWTimestamp;
 use Skin;
-use WANObjectCache;
 use Wikimedia\AtEase\AtEase;
+use Wikimedia\ObjectCache\WANObjectCache;
 use WikiPage;
 
 class FeaturedFeeds implements

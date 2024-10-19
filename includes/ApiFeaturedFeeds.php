@@ -2,8 +2,8 @@
 
 namespace MediaWiki\Extension\FeaturedFeeds;
 
-use ApiBase;
-use ApiFormatFeedWrapper;
+use MediaWiki\Api\ApiBase;
+use MediaWiki\Api\ApiFormatFeedWrapper;
 use MediaWiki\MainConfigNames;
 use MediaWiki\MediaWikiServices;
 use MediaWiki\Title\Title;
