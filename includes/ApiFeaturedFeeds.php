@@ -4,14 +4,22 @@ namespace MediaWiki\Extension\FeaturedFeeds;
 
 use MediaWiki\Api\ApiBase;
 use MediaWiki\Api\ApiFormatFeedWrapper;
+use MediaWiki\Api\ApiMain;
+use MediaWiki\Languages\LanguageNameUtils;
 use MediaWiki\MainConfigNames;
-use MediaWiki\MediaWikiServices;
 use MediaWiki\Title\Title;
 use Wikimedia\ParamValidator\ParamValidator;
 
 class ApiFeaturedFeeds extends ApiBase {
-	public function __construct( $main, $action ) {
+	private LanguageNameUtils $languageNameUtils;
+
+	public function __construct(
+		ApiMain $main,
+		string $action,
+		LanguageNameUtils $languageNameUtils
+	) {
 		parent::__construct( $main, $action );
+		$this->languageNameUtils = $languageNameUtils;
 	}
 
 	/**
@@ -34,7 +42,7 @@ class ApiFeaturedFeeds extends ApiBase {
 
 		$language = $params['language'] ?? false;
 		if ( $language !== false &&
-			!MediaWikiServices::getInstance()->getLanguageNameUtils()->isValidCode( $language )
+			!$this->languageNameUtils->isValidCode( $language )
 		) {
 			$language = false;
 		}

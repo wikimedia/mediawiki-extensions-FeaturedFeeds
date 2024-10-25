@@ -14,7 +14,12 @@
 		"FeaturedFeedsAliases": "FeaturedFeeds.alias.php"
 	},
 	"APIModules": {
-		"featuredfeed": "MediaWiki\\Extension\\FeaturedFeeds\\ApiFeaturedFeeds"
+		"featuredfeed": {
+			"class": "MediaWiki\\Extension\\FeaturedFeeds\\ApiFeaturedFeeds",
+			"services": [
+				"LanguageNameUtils"
+			]
+		}
 	},
 	"Hooks": {
 		"BeforePageDisplay": "FeaturedFeedsHooks",
