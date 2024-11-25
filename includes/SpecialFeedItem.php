@@ -21,6 +21,7 @@ class SpecialFeedItem extends UnlistedSpecialPage {
 		$this->wanObjectCache = $wanObjectCache;
 	}
 
+	/** @inheritDoc */
 	public function execute( $par = '' ) {
 		$this->setHeaders();
 		$out = $this->getOutput();
@@ -81,6 +82,10 @@ class SpecialFeedItem extends UnlistedSpecialPage {
 		}
 	}
 
+	/**
+	 * @param string $date
+	 * @return string|false
+	 */
 	private function parseTimestamp( $date ) {
 		if ( strlen( $date ) !== 14 ) {
 			return false;

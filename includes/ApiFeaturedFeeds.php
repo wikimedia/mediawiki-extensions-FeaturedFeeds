@@ -62,6 +62,7 @@ class ApiFeaturedFeeds extends ApiBase {
 		$this->getMain()->setCacheMaxAge( FeaturedFeeds::getMaxAge() );
 	}
 
+	/** @inheritDoc */
 	public function getAllowedParams() {
 		$feedFormatNames = array_keys( $this->getConfig()->get( MainConfigNames::FeedClasses ) );
 		$availableFeeds = array_keys( FeaturedFeeds::getFeeds( false ) );
