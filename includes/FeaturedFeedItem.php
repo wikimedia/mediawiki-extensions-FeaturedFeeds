@@ -9,8 +9,8 @@ class FeaturedFeedItem extends FeedItem {
 		parent::__construct( $title, $text, $url, $date );
 	}
 
-	public static function fromArray( array $array ) {
-		return new FeaturedFeedItem(
+	public static function fromArray( array $array ): self {
+		return new self(
 			$array['title'],
 			$array['url'],
 			$array['text'],
@@ -34,7 +34,7 @@ class FeaturedFeedItem extends FeedItem {
 		return $this->description;
 	}
 
-	public function toArray() {
+	public function toArray(): array {
 		return [
 			'title' => $this->title,
 			'url' => $this->url,
