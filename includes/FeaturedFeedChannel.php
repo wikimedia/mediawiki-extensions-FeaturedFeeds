@@ -233,9 +233,9 @@ class FeaturedFeedChannel {
 		if ( !$text ) {
 			return false;
 		}
-		$text = self::$parser->parse( $text, $title, $parserOptions )->getText( [
+		$text = self::$parser->parse( $text, $title, $parserOptions )->runOutputPipeline( $parserOptions, [
 			'enableSectionEditLinks' => false,
-		] );
+		] )->getContentHolderText();
 		$url = SpecialPage::getTitleFor( 'FeedItem',
 			$this->name . '/' . $timestamp . '/' . $this->languageCode
 		)->getFullURL();
