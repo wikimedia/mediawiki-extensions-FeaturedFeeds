@@ -18,18 +18,30 @@ class FeaturedFeedItem extends FeedItem {
 		);
 	}
 
+	/**
+	 * @return string
+	 */
 	public function getRawDate() {
 		return $this->date;
 	}
 
+	/**
+	 * @return string
+	 */
 	public function getRawTitle() {
 		return $this->title;
 	}
 
+	/**
+	 * @return string
+	 */
 	public function getRawUrl() {
 		return $this->url;
 	}
 
+	/**
+	 * @return string
+	 */
 	public function getRawText() {
 		return $this->description;
 	}
