@@ -69,8 +69,8 @@ class FeaturedFeedChannel {
 		}
 	}
 
-	public static function fromArray( array $array ) {
-		$channel = new FeaturedFeedChannel(
+	public static function fromArray( array $array ): self {
+		$channel = new self(
 			$array['name'],
 			$array['options'],
 			$array['lang']
