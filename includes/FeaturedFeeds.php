@@ -16,7 +16,6 @@ use MediaWiki\Title\Title;
 use MediaWiki\User\UserIdentity;
 use MediaWiki\Utils\MWTimestamp;
 use Skin;
-use Wikimedia\AtEase\AtEase;
 use Wikimedia\ObjectCache\WANObjectCache;
 use WikiPage;
 
@@ -302,14 +301,7 @@ class FeaturedFeeds implements
 		static $timeZone;
 
 		if ( $timeZone === null ) {
-			if ( isset( $wgLocaltimezone ) ) {
-				$tz = $wgLocaltimezone;
-			} else {
-				AtEase::suppressWarnings();
-				$tz = date_default_timezone_get();
-				AtEase::restoreWarnings();
-			}
-			$timeZone = new DateTimeZone( $tz );
+			$timeZone = new DateTimeZone( $wgLocaltimezone );
 		}
 		return $timeZone;
 	}
