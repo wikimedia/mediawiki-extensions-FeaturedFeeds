@@ -156,7 +156,7 @@ class FeaturedFeeds implements
 
 		$feeds = self::getFeedsQuick( $skin->getLanguage()->getCode() );
 		$links = [];
-		$format = $wgAdvertisedFeedTypes[0]; // @fixme:
+		$format = $wgAdvertisedFeedTypes[0];
 		/** @var FeaturedFeedChannel $feed */
 		foreach ( $feeds as $feed ) {
 			$links[] = [
