@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Les Meloures",
-			"Robby"
+			"Robby",
+			"Volvox"
 		]
 	},
 	"ffeed-no-feed": "Feed net spezifizéiert",
@@ -11,7 +12,7 @@
 	"ffeed-invalid-timestamp": "Net valabele Feed-Zäitstempel",
 	"ffeed-featured-title": "Feed vun de recommandéierten Artikelen op {{SITENAME}}",
 	"ffeed-featured-short-title": "Recommandéiert Artikelen",
-	"ffeed-featured-desc": "Déi bescht Artikelen déi {{SITENAME}} ze bidden huet",
+	"ffeed-featured-desc": "Déi bescht Artikelen, déi {{SITENAME}} ze bidden huet",
 	"ffeed-featured-entry": "Den  {{LOCALDAY}} {{LOCALMONTHNAME}} op {{SITENAME}} ausgezeechenten Artikel",
 	"ffeed-good-title": "Feed vun de gudden Artikelen op {{SITENAME}}",
 	"ffeed-good-short-title": "Gutt Artikelen",
