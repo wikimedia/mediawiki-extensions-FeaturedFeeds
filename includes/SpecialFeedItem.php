@@ -25,7 +25,7 @@ class SpecialFeedItem extends UnlistedSpecialPage {
 	public function execute( $par = '' ) {
 		$this->setHeaders();
 		$out = $this->getOutput();
-		$parts = explode( '/', $par );
+		$parts = explode( '/', $par ?? '' );
 		if ( count( $parts ) != 3 ) {
 			$out->showErrorPage( 'error', 'ffeed-no-feed' );
 			return;
