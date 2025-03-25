@@ -242,7 +242,7 @@ class FeaturedFeedChannel {
 
 		return new FeaturedFeedItem(
 			self::$parser->transformMsg( $this->entryName, $parserOptions, $this->titleForParse ),
-			wfExpandUrl( $url ),
+			MediaWikiServices::getInstance()->getUrlUtils()->expand( $url ) ?? '',
 			$text,
 			$timestamp
 		);

@@ -17,7 +17,8 @@
 		"featuredfeed": {
 			"class": "MediaWiki\\Extension\\FeaturedFeeds\\ApiFeaturedFeeds",
 			"services": [
-				"LanguageNameUtils"
+				"LanguageNameUtils",
+				"UrlUtils"
 			]
 		}
 	},
