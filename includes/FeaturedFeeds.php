@@ -9,15 +9,15 @@ use MediaWiki\Hook\SidebarBeforeOutputHook;
 use MediaWiki\MainConfigNames;
 use MediaWiki\MediaWikiServices;
 use MediaWiki\Output\Hook\BeforePageDisplayHook;
+use MediaWiki\Page\WikiPage;
 use MediaWiki\Revision\RevisionRecord;
+use MediaWiki\Skin\Skin;
 use MediaWiki\Storage\EditResult;
 use MediaWiki\Storage\Hook\PageSaveCompleteHook;
 use MediaWiki\Title\Title;
 use MediaWiki\User\UserIdentity;
 use MediaWiki\Utils\MWTimestamp;
-use Skin;
 use Wikimedia\ObjectCache\WANObjectCache;
-use WikiPage;
 
 class FeaturedFeeds implements
 	BeforePageDisplayHook,
