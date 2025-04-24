@@ -147,9 +147,9 @@ class FeaturedFeedChannel {
 		if ( $this->title !== false ) {
 			return;
 		}
-		$this->title = $this->msg( $this->options['title'] )->text();
-		$this->shortTitle = $this->msg( $this->options['short-title'] )->text();
-		$this->description = $this->msg( $this->options['description'] )->text();
+		$this->title = $this->msg( $this->options['title'] )->escaped();
+		$this->shortTitle = $this->msg( $this->options['short-title'] )->escaped();
+		$this->description = $this->msg( $this->options['description'] )->escaped();
 		$pageMsg = $this->msg( $this->options['page'] )->params( $this->languageCode );
 		if ( $pageMsg->isDisabled() ) {
 			// fall back manually, messages can be existent but empty
