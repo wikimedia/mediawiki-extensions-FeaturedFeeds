@@ -8,18 +8,22 @@ use MediaWiki\Api\ApiMain;
 use MediaWiki\Languages\LanguageNameUtils;
 use MediaWiki\MainConfigNames;
 use MediaWiki\Title\Title;
+use MediaWiki\Utils\UrlUtils;
 use Wikimedia\ParamValidator\ParamValidator;
 
 class ApiFeaturedFeeds extends ApiBase {
 	private LanguageNameUtils $languageNameUtils;
+	private UrlUtils $urlUtils;
 
 	public function __construct(
 		ApiMain $main,
 		string $action,
-		LanguageNameUtils $languageNameUtils
+		LanguageNameUtils $languageNameUtils,
+		UrlUtils $urlUtils
 	) {
 		parent::__construct( $main, $action );
 		$this->languageNameUtils = $languageNameUtils;
+		$this->urlUtils = $urlUtils;
 	}
 
 	/**
@@ -52,7 +56,7 @@ class ApiFeaturedFeeds extends ApiBase {
 		$feedClass = new $feedClasses[$params['feedformat']] (
 			$ourFeed->title,
 			$ourFeed->description,
-			wfExpandUrl( Title::newMainPage()->getFullURL() )
+			$this->urlUtils->expand( Title::newMainPage()->getFullURL() )
 		);
 
 		ApiFormatFeedWrapper::setResult( $this->getResult(), $feedClass, $ourFeed->getFeedItems() );
