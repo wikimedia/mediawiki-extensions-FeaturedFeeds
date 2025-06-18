@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"شاه زمان پټان"
+		]
+	},
+	"apihelp-featuredfeed-summary": "د ځانگړې منځپانگې يوه خوراکه بېرته‌راگرځوي.",
+	"apihelp-featuredfeed-param-feedformat": "د خوراکې بڼه.",
+	"apihelp-featuredfeed-param-feed": "خوراکې نوم.",
+	"apihelp-featuredfeed-param-language": "خوراکې ژب‌کوډ. د ځينو خوراکو له خوا له پامه غورځول شوی",
+	"apihelp-featuredfeed-example-1": "د \"$1\" خوراکې بياترلاسنه"
+}
