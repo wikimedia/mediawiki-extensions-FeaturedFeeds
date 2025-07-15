@@ -108,12 +108,17 @@ $specialPageAliases['vi'] = [
 	'FeedItem' => [ 'Khoản_mục_nguồn_tin' ],
 ];
 
-/** Simplified Chinese (中文（简体）‎) */
+/** Chinese (中文) */
+$specialPageAliases['zh'] = [
+	'FeedItem' => [ 'FeedItem' ],
+];
+
+/** Simplified Chinese (中文（简体）) */
 $specialPageAliases['zh-hans'] = [
 	'FeedItem' => [ '供稿项目' ],
 ];
 
-/** Traditional Chinese (中文（繁體）‎) */
+/** Traditional Chinese (中文（繁體）) */
 $specialPageAliases['zh-hant'] = [
 	'FeedItem' => [ '供稿項目' ],
 ];
