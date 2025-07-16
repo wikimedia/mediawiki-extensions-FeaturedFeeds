@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Умар"
+		]
+	},
+	"apihelp-featuredfeed-param-feedformat": "Лентан формат.",
+	"apihelp-featuredfeed-param-feed": "Лентин цӀе.",
+	"apihelp-featuredfeed-example-1": "Лента схьаэца «$1»"
+}
