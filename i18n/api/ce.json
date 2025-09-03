@@ -6,5 +6,6 @@
 	},
 	"apihelp-featuredfeed-param-feedformat": "Лентан формат.",
 	"apihelp-featuredfeed-param-feed": "Лентин цӀе.",
+	"apihelp-featuredfeed-param-language": "Лентан меттан код. Цхьайолу ленташа тергал ца йо.",
 	"apihelp-featuredfeed-example-1": "Лента схьаэца «$1»"
 }
