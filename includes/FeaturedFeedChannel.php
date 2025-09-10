@@ -198,7 +198,6 @@ class FeaturedFeedChannel {
 	}
 
 	/**
-	 *
 	 * @param int $date
 	 * @return FeaturedFeedItem|false
 	 */
