@@ -12,7 +12,7 @@
 	"ffeed-sidebar-section": "ټاکلې منځپانگې خوراکه",
 	"ffeed-invalid-timestamp": "د خوړو ناسمه وخت‌ټاپه.",
 	"ffeed-featured-title": "د {{SITENAME}} ټاکلو ليکنو خواړه",
-	"ffeed-featured-short-title": "ټاکلې ليکنې",
+	"ffeed-featured-short-title": "ځانگړې ليکنې",
 	"ffeed-featured-desc": "غوره ليکنې چې {{SITENAME}} یې وړاندې کوي",
 	"ffeed-featured-entry": "{{SITENAME}} کې د {{LOCALMONTHNAME}} {{LOCALDAY}} ټاکلې ليکنه",
 	"ffeed-good-title": "د {{SITENAME}} ښو ليکنو خواړه",
