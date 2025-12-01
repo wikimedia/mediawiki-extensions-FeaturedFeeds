@@ -8,7 +8,8 @@
 			"Pyscowicz",
 			"Stryn",
 			"Valtlait",
-			"Valtlai"
+			"Valtlai",
+			"Samoasambia"
 		]
 	},
 	"ffeed-desc": "Lisää syötteet wikin suositellusta sisällöstä",
@@ -40,7 +41,7 @@
 	"ffeed-potd-title": "{{GRAMMAR:genitive|{{SITENAME}}}} päivän kuva -syöte",
 	"ffeed-potd-short-title": "Päivän kuva",
 	"ffeed-potd-desc": "{{GRAMMAR:genitive|{{SITENAME}}}} parhaat kuvat",
-	"ffeed-potd-entry": "{{GRAMMAR:genitive|{{SITENAME}}}} päivän kuva  {{LOCALDAY}}. {{LOCALMONTHNAME}}ta",
+	"ffeed-potd-entry": "{{GRAMMAR:genitive|{{SITENAME}}}} päivän kuva {{LOCALDAY}}. {{LOCALMONTHNAME}}ta",
 	"ffeed-qotd-title": "Päivän lainaus {{GRAMMAR:inessive|{{SITENAME}}}}",
 	"ffeed-qotd-short-title": "Päivän sitaatti",
 	"ffeed-qotd-desc": "Parhaimpia lainauksia {{GRAMMAR:inessive|{{SITENAME}}}}",
