@@ -12,18 +12,13 @@ use MediaWiki\Utils\UrlUtils;
 use Wikimedia\ParamValidator\ParamValidator;
 
 class ApiFeaturedFeeds extends ApiBase {
-	private LanguageNameUtils $languageNameUtils;
-	private UrlUtils $urlUtils;
-
 	public function __construct(
 		ApiMain $main,
 		string $action,
-		LanguageNameUtils $languageNameUtils,
-		UrlUtils $urlUtils
+		private readonly LanguageNameUtils $languageNameUtils,
+		private readonly UrlUtils $urlUtils,
 	) {
 		parent::__construct( $main, $action );
-		$this->languageNameUtils = $languageNameUtils;
-		$this->urlUtils = $urlUtils;
 	}
 
 	/**

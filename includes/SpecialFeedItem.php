@@ -8,17 +8,10 @@ use Wikimedia\ObjectCache\WANObjectCache;
 
 class SpecialFeedItem extends UnlistedSpecialPage {
 
-	/** @var WANObjectCache */
-	private $wanObjectCache;
-
-	/**
-	 * @param WANObjectCache $wanObjectCache
-	 */
 	public function __construct(
-		WANObjectCache $wanObjectCache
+		private readonly WANObjectCache $wanObjectCache,
 	) {
 		parent::__construct( 'FeedItem' );
-		$this->wanObjectCache = $wanObjectCache;
 	}
 
 	/** @inheritDoc */
