@@ -1,12 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"Winston Sung"
+			"Winston Sung",
+			"Aca"
 		]
 	},
-	"apihelp-featuredfeed-summary": "Daje dovod s izabranim sadržajem.",
-	"apihelp-featuredfeed-param-feedformat": "Format dovoda.",
-	"apihelp-featuredfeed-param-feed": "Naziv dovoda.",
-	"apihelp-featuredfeed-param-language": "Jezički kôd dovda. Neki dovodi zanemaruju ga.",
-	"apihelp-featuredfeed-example-1": "Daj dovod \"$1\""
+	"apihelp-featuredfeed-summary": "Daje kanal s istaknutim sadržajem.",
+	"apihelp-featuredfeed-param-feedformat": "Format kanala.",
+	"apihelp-featuredfeed-param-feed": "Naziv kanala.",
+	"apihelp-featuredfeed-param-language": "Jezički kod kanala. Neki kanali ga zanemaruju.",
+	"apihelp-featuredfeed-example-1": "Preuzmi kanal \"$1\""
 }
