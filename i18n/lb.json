@@ -22,7 +22,7 @@
 	"ffeed-onthisday-short-title": "Um Dag vun haut...",
 	"ffeed-onthisday-desc": "Historesch Evenementer op dësem Dag",
 	"ffeed-onthisday-entry": "Op dësem Dag: {{LOCALMONTHNAME}} {{LOCALDAY}}",
-	"ffeed-dyk-title": "{{SITENAME}} \"Vosst Dir schonn\" Feed",
+	"ffeed-dyk-title": "Feed „Wousst Dir schonn?“ op {{SITENAME}}",
 	"ffeed-dyk-short-title": "Wousst Dir?",
 	"ffeed-dyk-desc": "De rezentsten Inhalt op {{SITENAME}}",
 	"ffeed-dyk-entry": "Wousst Dir schonn?:  {{LOCALMONTHNAME}} {{LOCALDAY}}",
