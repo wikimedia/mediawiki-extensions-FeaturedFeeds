@@ -5,7 +5,7 @@ namespace MediaWiki\Extension\FeaturedFeeds;
 use MediaWiki\Api\ApiBase;
 use MediaWiki\Api\ApiFormatFeedWrapper;
 use MediaWiki\Api\ApiMain;
-use MediaWiki\Languages\LanguageNameUtils;
+use MediaWiki\Language\LanguageNameUtils;
 use MediaWiki\MainConfigNames;
 use MediaWiki\Title\Title;
 use MediaWiki\Utils\UrlUtils;
