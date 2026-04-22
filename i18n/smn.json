@@ -4,5 +4,7 @@
 			"Seipinne"
 		]
 	},
-	"ffeed-good-short-title": "Pyereh artikkâleh"
+	"ffeed-good-short-title": "Pyereh artikkâleh",
+	"ffeed-potd-title": "{{GRAMMAR:genitive|{{SITENAME}}}} peeivi kove -fáálus",
+	"ffeed-potd-short-title": "Peeivi kove"
 }
