@@ -7,6 +7,7 @@
 			"Miri-Nae",
 			"Nuevo Paso",
 			"Revi",
+			"Tensama0415",
 			"Ykhwong",
 			"아라"
 		]
@@ -38,7 +39,7 @@
 	"ffeed-motd-desc": "{{SITENAME}}의 가장 좋은 미디어",
 	"ffeed-motd-entry": "{{LOCALMONTHNAME}} {{LOCALDAY}}일 {{SITENAME}} 오늘의 미디어",
 	"ffeed-potd-title": "{{SITENAME}} 오늘의 이미지 피드",
-	"ffeed-potd-short-title": "오늘의 이미지",
+	"ffeed-potd-short-title": "오늘의 사진",
 	"ffeed-potd-desc": "{{SITENAME}}의 가장 좋은 그림",
 	"ffeed-potd-entry": "{{LOCALMONTHNAME}} {{LOCALDAY}}일 {{SITENAME}} 오늘의 이미지",
 	"ffeed-qotd-title": "{{SITENAME}} 오늘의 명언 피드",
