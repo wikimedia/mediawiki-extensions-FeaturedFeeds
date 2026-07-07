@@ -8,7 +8,8 @@
 			"Nuevo Paso",
 			"Revi",
 			"Ykhwong",
-			"아라"
+			"아라",
+			"Tensama0415"
 		]
 	},
 	"ffeed-desc": "위키의 알찬 글의 배급 피드를 추가합니다",
@@ -38,7 +39,7 @@
 	"ffeed-motd-desc": "{{SITENAME}}의 가장 좋은 미디어",
 	"ffeed-motd-entry": "{{LOCALMONTHNAME}} {{LOCALDAY}}일 {{SITENAME}} 오늘의 미디어",
 	"ffeed-potd-title": "{{SITENAME}} 오늘의 이미지 피드",
-	"ffeed-potd-short-title": "오늘의 이미지",
+	"ffeed-potd-short-title": "오늘의 사진",
 	"ffeed-potd-desc": "{{SITENAME}}의 가장 좋은 그림",
 	"ffeed-potd-entry": "{{LOCALMONTHNAME}} {{LOCALDAY}}일 {{SITENAME}} 오늘의 이미지",
 	"ffeed-qotd-title": "{{SITENAME}} 오늘의 명언 피드",
