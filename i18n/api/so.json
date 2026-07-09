@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"AhmedG612"
+		]
+	},
+	"apihelp-featuredfeed-summary": "Waxay soo celisaa quudin nuxur la soo bandhigay.",
+	"apihelp-featuredfeed-param-feedformat": "Qaabka quudinta.",
+	"apihelp-featuredfeed-param-feed": "Magaca quudinta.",
+	"apihelp-featuredfeed-param-language": "Koodhka luqadda quudinta. Waxaa iska indhatira qaar ka mid ah quudinnada.",
+	"apihelp-featuredfeed-example-1": "Soo hel quudinta \"$1\""
+}
