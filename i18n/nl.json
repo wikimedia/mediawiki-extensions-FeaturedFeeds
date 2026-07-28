@@ -38,7 +38,7 @@
 	"ffeed-motd-desc": "De beste media van {{SITENAME}}",
 	"ffeed-motd-entry": "Media van de dag voor van {{LOCALDAY}} {{LOCALMONTHNAME}} van {{SITENAME}}",
 	"ffeed-potd-title": "Feed voor afbeelding van de dag van {{SITENAME}}",
-	"ffeed-potd-short-title": "Foto van de dag",
+	"ffeed-potd-short-title": "Afbeelding van de dag",
 	"ffeed-potd-desc": "De beste afbeeldingen van {{SITENAME}}",
 	"ffeed-potd-entry": "Afbeelding van de dag voor van {{LOCALDAY}} {{LOCALMONTHNAME}} van {{SITENAME}}",
 	"ffeed-qotd-title": "Feed voor uitspraak van de dag van {{SITENAME}}",
