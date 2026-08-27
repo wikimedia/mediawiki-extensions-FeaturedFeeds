@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Wizzard"
+		]
+	},
+	"apihelp-featuredfeed-summary": "Vráti kanál odporúčaného obsahu.",
+	"apihelp-featuredfeed-param-feedformat": "Formát kanála.",
+	"apihelp-featuredfeed-param-feed": "Názov kanála.",
+	"apihelp-featuredfeed-param-language": "Kód jazyka kanála. Niektoré kanály ho ignorujú.",
+	"apihelp-featuredfeed-example-1": "Získať kanál „$1“"
+}
