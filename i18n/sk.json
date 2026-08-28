@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Helix84",
-			"Teslaton"
+			"Teslaton",
+			"Wizzard"
 		]
 	},
 	"ffeed-desc": "Pridá na odporúčaný obsah wiki kanály noviniek",
@@ -42,5 +43,9 @@
 	"ffeed-featuredtexts-title": "Odporúčané texty {{GRAMMAR:genitív|{{SITENAME}}}}",
 	"ffeed-featuredtexts-short-title": "Odporúčané texty",
 	"ffeed-featuredtexts-desc": "Najlepšie texty, ktoré môže {{GRAMMAR:genitív|{{SITENAME}}}} ponúknuť",
-	"ffeed-featuredtexts-entry": "Odporúčaný text {{GRAMMAR:genitív|{{SITENAME}}}} dňa {{LOCALMONTHNAME}} {{LOCALDAY}}"
+	"ffeed-featuredtexts-entry": "Odporúčaný text {{GRAMMAR:genitív|{{SITENAME}}}} dňa {{LOCALMONTHNAME}} {{LOCALDAY}}",
+	"ffeed-wotd-title": "Slovo dňa na Wikislovníku",
+	"ffeed-wotd-short-title": "Slovo dňa",
+	"ffeed-wotd-desc": "Slovo dňa na {{GRAMMAR:lokál|{{SITENAME}}}}",
+	"ffeed-wotd-entry": "Slovo dňa na {{CURRENTDAY}}. {{CURRENTMONTHNAME}}"
 }
