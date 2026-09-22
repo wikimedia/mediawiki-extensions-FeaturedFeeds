@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Nemoralis"
+		]
+	},
+	"apihelp-featuredfeed-summary": "Seçilmiş məzmun lentini qaytarır.",
+	"apihelp-featuredfeed-param-feedformat": "Lentin formatı.",
+	"apihelp-featuredfeed-param-feed": "Lent adı.",
+	"apihelp-featuredfeed-param-language": "Lent dil kodu. Bəzi lentlər tərəfindən nəzərə alınmayıb.",
+	"apihelp-featuredfeed-example-1": "\"$1\" lentini əldə et"
+}
